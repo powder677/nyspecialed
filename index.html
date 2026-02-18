@@ -11,6 +11,37 @@
     <link rel="stylesheet" href="/styles/styles-nav-footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
+    
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is the timeline for a special education evaluation in NY?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In New York State, the school district must complete all evaluations and hold the eligibility meeting within 60 calendar days of receiving your signed consent to evaluate."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is the CSE in New York schools?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Committee on Special Education (CSE) is the multidisciplinary team responsible for evaluating and creating IEPs for students ages 5-21. It is equivalent to the 'ARD Committee' or 'IEP Team' in other states."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Does New York recognize dyslexia as a disability category?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "New York classifies dyslexia under the broader category of 'Learning Disability.' While the IEP can specify dyslexia in the management needs, the official classification remains Learning Disability."
+    }
+  }]
+}
+</script>
+
+
     <style>
         /* Homepage Specific Styles */
         .hero-section {
@@ -43,32 +74,10 @@
         }
         .hero-cta:hover { transform: translateY(-2px); }
         
-        .directory-section { padding: 60px 20px; background: #fff; }
+        .directory-section { padding: 60px 20px; background: #f8f9fa; }
         .directory-container { max-width: 1200px; margin: 0 auto; }
         
-        .directory-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-        .directory-card {
-            border: 1px solid #e2e8f0;
-            padding: 15px;
-            border-radius: 6px;
-            text-decoration: none;
-            color: #333;
-            transition: all 0.2s;
-            display: block;
-        }
-        .directory-card:hover {
-            border-color: #0056b3;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            transform: translateY(-2px);
-        }
-        .d-name { display: block; font-weight: 700; color: #0056b3; }
-        .d-desc { display: block; font-size: 0.85rem; color: #666; margin-top: 5px; }
-        
+        /* Stats Bar */
         .stats-bar {
             display: flex;
             justify-content: center;
@@ -80,16 +89,29 @@
         .stat-num { display: block; font-size: 2.5rem; font-weight: 800; color: #d4af37; }
         .stat-label { color: #cbd5e1; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; }
 
-        /* Terminology Section */
-        .info-section { background: #f8fafc; padding: 60px 20px; }
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 40px;
-            max-width: 1000px;
-            margin: 0 auto;
+        /* Main Hub Grid */
+        .main-hub-grid {
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 20px; 
+            margin: -40px auto 40px auto; 
+            max-width: 1100px;
+            position: relative;
+            z-index: 2;
+            padding: 0 20px;
         }
-        .info-card h3 { color: #1e3a8a; border-bottom: 2px solid #d4af37; padding-bottom: 10px; display: inline-block; }
+        .hub-card {
+            background: white;
+            padding: 25px; 
+            border: 1px solid #ddd; 
+            border-radius: 8px; 
+            text-decoration: none; 
+            color: inherit; 
+            display: block;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .hub-card:hover { transform: translateY(-5px); }
     </style>
 </head>
 <body>
@@ -205,7 +227,7 @@
 </header>
 
     <header class="hero-section">
-        <h1 class="hero-title">Demystifying Special Education in New York</h1>
+        <h1 class="hero-title">Demystifying New York Special Education</h1>
         <p class="hero-subtitle">
             Navigate the Committee on Special Education (CSE) process, understand evaluation timelines, and secure the services your child needs.
         </p>
@@ -224,280 +246,332 @@
                 <span class="stat-label">Day Timeline</span>
             </div>
         </div>
+        
+        <div style="height: 50px;"></div> </header>
 
-        <div style="margin-top: 40px;">
-            <a href="#directory" class="hero-cta">Find Your District</a>
-        </div>
-    </header>
+    <div class="main-hub-grid">
+        <a href="/guides/cse-meeting-guide/" class="hub-card">
+            <h3 style="color: #0056b3; margin-top: 0;">🤝 CSE Meeting Guide</h3>
+            <p>Master the Annual Review. Understand your rights, the agenda, and who sits at the table.</p>
+        </a>
 
-    <section class="info-section">
-        <div class="info-grid">
-            <div class="info-card">
-                <h3>CSE vs. ARD</h3>
-                <p>If you are moving from Texas or other states, terminology changes. The "ARD Committee" is now the <strong>Committee on Special Education (CSE)</strong>. The "FIE" is now the "Psychoeducational Evaluation." We translate the bureaucracy for you.</p>
-            </div>
-            <div class="info-card">
-                <h3>The 60-Day Timeline</h3>
-                <p>In New York, the district strictly has <strong>60 calendar days</strong> from the moment you sign consent to complete evaluations and hold the eligibility meeting. This is your most powerful compliance tool.</p>
-            </div>
+        <a href="/guides/evaluation-request-ny/" class="hub-card">
+            <h3 style="color: #0056b3; margin-top: 0;">📝 Request Evaluation</h3>
+            <p>How to trigger the 60-day timeline for Initial Evaluations in NYS.</p>
+        </a>
+
+        <a href="/guides/dispute-resolution-ny/" class="hub-card">
+            <h3 style="color: #0056b3; margin-top: 0;">⚖️ Dispute Resolution</h3>
+            <p>Filing a State Complaint, Mediation, or Impartial Hearing Request.</p>
+        </a>
+    </div>
+
+    
+<section class="aeo-section" style="background: #fff; padding: 60px 20px; border-bottom: 1px solid #eee;">
+    <div class="container" style="max-width: 1000px; margin: 0 auto;">
+        
+        <div class="aeo-header" style="text-align: center; margin-bottom: 50px;">
+            <h2 style="color: #002868; font-size: 2.2rem; margin-bottom: 15px;">New York Special Education: Core Rights</h2>
+            <p style="font-size: 1.1rem; color: #555;">Three things every parent needs to know before their first meeting.</p>
         </div>
-    </section>
+
+        <div class="aeo-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;">
+            
+            <div class="aeo-card">
+                <h3 style="color: #c8102e; border-bottom: 2px solid #eee; padding-bottom: 10px; display: inline-block;"><i class="fas fa-clock"></i> The 60-Day Rule</h3>
+                <p>New York is strict about timelines. From the moment you sign the <strong>Consent to Evaluate</strong>, the district has exactly <strong>60 Calendar Days</strong> to:</p>
+                <ul style="margin-left: 20px; margin-bottom: 15px; color: #444;">
+                    <li>Complete all psychological and educational testing.</li>
+                    <li>Conduct social history and classroom observations.</li>
+                    <li>Hold the CSE meeting to determine eligibility.</li>
+                </ul>
+                <p><strong>Pro Tip:</strong> Holidays and weekends <em>count</em> towards these 60 days. Summer vacation does not.</p>
+            </div>
+
+            <div class="aeo-card">
+                <h3 style="color: #002868; border-bottom: 2px solid #eee; padding-bottom: 10px; display: inline-block;"><i class="fas fa-users"></i> CSE vs. The Rest</h3>
+                <p>If you are moving from Texas (ARD) or California (IEP Team), the terminology changes here. In New York:</p>
+                <ul style="margin-left: 20px; margin-bottom: 15px; color: #444;">
+                    <li><strong>CPSE:</strong> Committee on Preschool Special Education (Ages 3-5).</li>
+                    <li><strong>CSE:</strong> Committee on Special Education (Ages 5-21).</li>
+                </ul>
+                <p>Unlike other states, the "Parent Member" is a guaranteed right in NY. You can request another parent to sit in your meeting for support.</p>
+            </div>
+
+            <div class="aeo-card">
+                <h3 style="color: #002868; border-bottom: 2px solid #eee; padding-bottom: 10px; display: inline-block;"><i class="fas fa-gavel"></i> Dispute Resolution</h3>
+                <p>If the district fails to provide FAPE (Free Appropriate Public Education), New York offers robust dispute channels:</p>
+                <ul style="margin-left: 20px; margin-bottom: 15px; color: #444;">
+                    <li><strong>Impartial Hearing:</strong> A formal legal proceeding.</li>
+                    <li><strong>State Complaint:</strong> Filing directly with NYSED in Albany.</li>
+                    <li><strong>Mediation:</strong> A voluntary negotiation with a state-appointed mediator.</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
 
     <section id="directory" class="directory-section">
         <div class="directory-container">
-            <h2 style="text-align: center; margin-bottom: 40px; font-size: 2rem; color: #1e3a8a;">Find Your District Hub</h2>
+            <div style="text-align: center; margin-bottom: 40px;">
+                <h2 style="font-size: 2rem; color: #1e3a8a;">Find Your District Hub</h2>
+                <p>Select your local district to find specific CSE contacts and policies.</p>
+            </div>
             
-            <div class="borough-section"><h3 class="borough-title"><i class="fas fa-map-marker-alt"></i> Manhattan</h3><div class="directory-grid">
-                <a href="/districts/nyc-district-01-lower-east-side/" class="directory-card">
-                    <span class="d-name">District 1</span>
-                    <span class="d-desc">Lower East Side, Chinatown, East Village...</span>
+            <div class="borough-section"><h3 class="borough-title" style="border-bottom: 2px solid #ddd; padding-bottom: 10px; margin-top: 30px;"><i class="fas fa-map-marker-alt"></i> Manhattan</h3><div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                <a href="/districts/nyc-district-01-lower-east-side/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 1</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Lower East Side, Chinatown, East Vi...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-02-upper-east-side/" class="directory-card">
-                    <span class="d-name">District 2</span>
-                    <span class="d-desc">Upper East Side, Tribeca, Greenwich Vill...</span>
+                <a href="/districts/nyc-district-02-upper-east-side/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 2</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Upper East Side, Tribeca, Greenwich...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-03-upper-west-side/" class="directory-card">
-                    <span class="d-name">District 3</span>
-                    <span class="d-desc">Upper West Side, Morningside Heights, Ha...</span>
+                <a href="/districts/nyc-district-03-upper-west-side/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 3</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Upper West Side, Morningside Height...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-04-east-harlem/" class="directory-card">
-                    <span class="d-name">District 4</span>
-                    <span class="d-desc">East Harlem, Spanish Harlem, Randalls Is...</span>
+                <a href="/districts/nyc-district-04-east-harlem/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 4</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">East Harlem, Spanish Harlem, Randal...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-05-central-harlem/" class="directory-card">
-                    <span class="d-name">District 5</span>
-                    <span class="d-desc">Central Harlem, West Harlem, Polo Ground...</span>
+                <a href="/districts/nyc-district-05-central-harlem/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 5</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Central Harlem, West Harlem, Polo G...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-06-washington-heights/" class="directory-card">
-                    <span class="d-name">District 6</span>
-                    <span class="d-desc">Washington Heights, Inwood, Marble Hill...</span>
+                <a href="/districts/nyc-district-06-washington-heights/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 6</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Washington Heights, Inwood, Marble ...</span>
                 </a>
-                </div><h3 class="borough-title"><i class="fas fa-map-marker-alt"></i> Bronx</h3><div class="directory-grid">
-                <a href="/districts/nyc-district-07-south-bronx/" class="directory-card">
-                    <span class="d-name">District 7</span>
-                    <span class="d-desc">South Bronx, Mott Haven, Melrose, Port M...</span>
-                </a>
-                
-                <a href="/districts/nyc-district-08-throgs-neck/" class="directory-card">
-                    <span class="d-name">District 8</span>
-                    <span class="d-desc">Throgs Neck, Pelham Bay, Country Club, C...</span>
+                </div><h3 class="borough-title" style="border-bottom: 2px solid #ddd; padding-bottom: 10px; margin-top: 30px;"><i class="fas fa-map-marker-alt"></i> Bronx</h3><div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                <a href="/districts/nyc-district-07-south-bronx/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 7</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">South Bronx, Mott Haven, Melrose, P...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-09-grand-concourse/" class="directory-card">
-                    <span class="d-name">District 9</span>
-                    <span class="d-desc">Grand Concourse, Highbridge, Morrisania,...</span>
+                <a href="/districts/nyc-district-08-throgs-neck/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 8</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Throgs Neck, Pelham Bay, Country Cl...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-10-riverdale/" class="directory-card">
-                    <span class="d-name">District 10</span>
-                    <span class="d-desc">Riverdale, Kingsbridge, Norwood, Fordham...</span>
+                <a href="/districts/nyc-district-09-grand-concourse/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 9</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Grand Concourse, Highbridge, Morris...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-11-pelham-parkway/" class="directory-card">
-                    <span class="d-name">District 11</span>
-                    <span class="d-desc">Pelham Parkway, Morris Park, Eastchester...</span>
+                <a href="/districts/nyc-district-10-riverdale/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 10</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Riverdale, Kingsbridge, Norwood, Fo...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-12-soundview/" class="directory-card">
-                    <span class="d-name">District 12</span>
-                    <span class="d-desc">Soundview, Unionport, Parkchester, Castl...</span>
-                </a>
-                </div><h3 class="borough-title"><i class="fas fa-map-marker-alt"></i> Brooklyn</h3><div class="directory-grid">
-                <a href="/districts/nyc-district-13-brooklyn-heights/" class="directory-card">
-                    <span class="d-name">District 13</span>
-                    <span class="d-desc">Brooklyn Heights, Fort Greene, Clinton H...</span>
+                <a href="/districts/nyc-district-11-pelham-parkway/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 11</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Pelham Parkway, Morris Park, Eastch...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-14-williamsburg/" class="directory-card">
-                    <span class="d-name">District 14</span>
-                    <span class="d-desc">Williamsburg, Greenpoint, Bushwick (nort...</span>
+                <a href="/districts/nyc-district-12-soundview/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 12</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Soundview, Unionport, Parkchester, ...</span>
+                </a>
+                </div><h3 class="borough-title" style="border-bottom: 2px solid #ddd; padding-bottom: 10px; margin-top: 30px;"><i class="fas fa-map-marker-alt"></i> Brooklyn</h3><div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                <a href="/districts/nyc-district-13-brooklyn-heights/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 13</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Brooklyn Heights, Fort Greene, Clin...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-15-park-slope/" class="directory-card">
-                    <span class="d-name">District 15</span>
-                    <span class="d-desc">Park Slope, Carroll Gardens, Red Hook, S...</span>
+                <a href="/districts/nyc-district-14-williamsburg/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 14</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Williamsburg, Greenpoint, Bushwick ...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-16-bed-stuy/" class="directory-card">
-                    <span class="d-name">District 16</span>
-                    <span class="d-desc">Bedford-Stuyvesant (central)...</span>
+                <a href="/districts/nyc-district-15-park-slope/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 15</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Park Slope, Carroll Gardens, Red Ho...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-17-crown-heights/" class="directory-card">
-                    <span class="d-name">District 17</span>
-                    <span class="d-desc">Crown Heights, Prospect Lefferts Gardens...</span>
+                <a href="/districts/nyc-district-16-bed-stuy/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 16</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Bedford-Stuyvesant (central)...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-18-east-flatbush/" class="directory-card">
-                    <span class="d-name">District 18</span>
-                    <span class="d-desc">East Flatbush, Canarsie, Flatlands (east...</span>
+                <a href="/districts/nyc-district-17-crown-heights/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 17</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Crown Heights, Prospect Lefferts Ga...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-19-east-new-york/" class="directory-card">
-                    <span class="d-name">District 19</span>
-                    <span class="d-desc">East New York, Brownsville (east), Starr...</span>
+                <a href="/districts/nyc-district-18-east-flatbush/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 18</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">East Flatbush, Canarsie, Flatlands ...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-20-bay-ridge/" class="directory-card">
-                    <span class="d-name">District 20</span>
-                    <span class="d-desc">Bay Ridge, Bensonhurst, Borough Park, Dy...</span>
+                <a href="/districts/nyc-district-19-east-new-york/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 19</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">East New York, Brownsville (east), ...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-21-coney-island/" class="directory-card">
-                    <span class="d-name">District 21</span>
-                    <span class="d-desc">Coney Island, Gravesend, Sheepshead Bay,...</span>
+                <a href="/districts/nyc-district-20-bay-ridge/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 20</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Bay Ridge, Bensonhurst, Borough Par...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-22-midwood/" class="directory-card">
-                    <span class="d-name">District 22</span>
-                    <span class="d-desc">Midwood, Flatlands, Marine Park, Mill Ba...</span>
+                <a href="/districts/nyc-district-21-coney-island/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 21</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Coney Island, Gravesend, Sheepshead...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-23-brownsville/" class="directory-card">
-                    <span class="d-name">District 23</span>
-                    <span class="d-desc">Brownsville, Ocean Hill...</span>
+                <a href="/districts/nyc-district-22-midwood/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 22</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Midwood, Flatlands, Marine Park, Mi...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-32-bushwick/" class="directory-card">
-                    <span class="d-name">District 32</span>
-                    <span class="d-desc">Bushwick...</span>
-                </a>
-                </div><h3 class="borough-title"><i class="fas fa-map-marker-alt"></i> Queens</h3><div class="directory-grid">
-                <a href="/districts/nyc-district-24-maspeth/" class="directory-card">
-                    <span class="d-name">District 24</span>
-                    <span class="d-desc">Maspeth, Middle Village, Ridgewood, Sunn...</span>
+                <a href="/districts/nyc-district-23-brownsville/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 23</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Brownsville, Ocean Hill...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-25-flushing/" class="directory-card">
-                    <span class="d-name">District 25</span>
-                    <span class="d-desc">Flushing, Whitestone, College Point, Bee...</span>
+                <a href="/districts/nyc-district-32-bushwick/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 32</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Bushwick...</span>
+                </a>
+                </div><h3 class="borough-title" style="border-bottom: 2px solid #ddd; padding-bottom: 10px; margin-top: 30px;"><i class="fas fa-map-marker-alt"></i> Queens</h3><div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                <a href="/districts/nyc-district-24-maspeth/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 24</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Maspeth, Middle Village, Ridgewood,...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-26-bayside/" class="directory-card">
-                    <span class="d-name">District 26</span>
-                    <span class="d-desc">Bayside, Douglaston, Little Neck, Fresh ...</span>
+                <a href="/districts/nyc-district-25-flushing/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 25</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Flushing, Whitestone, College Point...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-27-rockaway/" class="directory-card">
-                    <span class="d-name">District 27</span>
-                    <span class="d-desc">Broad Channel, Howard Beach, Ozone Park,...</span>
+                <a href="/districts/nyc-district-26-bayside/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 26</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Bayside, Douglaston, Little Neck, F...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-28-forest-hills/" class="directory-card">
-                    <span class="d-name">District 28</span>
-                    <span class="d-desc">Forest Hills, Rego Park, Jamaica, Kew Ga...</span>
+                <a href="/districts/nyc-district-27-rockaway/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 27</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Broad Channel, Howard Beach, Ozone ...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-29-queens-village/" class="directory-card">
-                    <span class="d-name">District 29</span>
-                    <span class="d-desc">Cambria Heights, Laurelton, Queens Villa...</span>
+                <a href="/districts/nyc-district-28-forest-hills/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 28</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Forest Hills, Rego Park, Jamaica, K...</span>
                 </a>
                 
-                <a href="/districts/nyc-district-30-astoria/" class="directory-card">
-                    <span class="d-name">District 30</span>
-                    <span class="d-desc">Astoria, Long Island City, Jackson Heigh...</span>
+                <a href="/districts/nyc-district-29-queens-village/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 29</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Cambria Heights, Laurelton, Queens ...</span>
                 </a>
-                </div><h3 class="borough-title"><i class="fas fa-map-marker-alt"></i> Staten Island</h3><div class="directory-grid">
-                <a href="/districts/nyc-district-31-staten-island/" class="directory-card">
-                    <span class="d-name">District 31</span>
-                    <span class="d-desc">All Staten Island — St. George, Tottenvi...</span>
+                
+                <a href="/districts/nyc-district-30-astoria/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 30</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Astoria, Long Island City, Jackson ...</span>
+                </a>
+                </div><h3 class="borough-title" style="border-bottom: 2px solid #ddd; padding-bottom: 10px; margin-top: 30px;"><i class="fas fa-map-marker-alt"></i> Staten Island</h3><div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                <a href="/districts/nyc-district-31-staten-island/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 31</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">All Staten Island — St. George, Tot...</span>
                 </a>
                 </div></div>
             
-            <div class="region-section" style="margin-top: 40px;"><h2 style="border-bottom: 2px solid #eee; padding-bottom: 10px;">Upstate & Long Island</h2><h3>Western NY</h3><div class="directory-grid">
-                <a href="/districts/buffalo-city-sd/" class="directory-card">
-                    <span class="d-name">Buffalo City SD</span>
-                    <span class="d-desc">Buffalo</span>
+            <div class="region-section" style="margin-top: 60px;"><h2 style="background: #f0f7ff; padding: 15px; border-left: 5px solid #0056b3;">Upstate & Long Island</h2><h3 style="margin-top: 25px;">Western NY</h3><div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                <a href="/districts/buffalo-city-sd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Buffalo City SD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Buffalo</span>
                 </a>
                 
-                <a href="/districts/niagara-falls-city-sd/" class="directory-card">
-                    <span class="d-name">Niagara Falls City SD</span>
-                    <span class="d-desc">Niagara Falls</span>
+                <a href="/districts/niagara-falls-city-sd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Niagara Falls City SD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Niagara Falls</span>
                 </a>
-                </div><h3>Finger Lakes</h3><div class="directory-grid">
-                <a href="/districts/rochester-city-sd/" class="directory-card">
-                    <span class="d-name">Rochester City SD</span>
-                    <span class="d-desc">Rochester</span>
+                </div><h3 style="margin-top: 25px;">Finger Lakes</h3><div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                <a href="/districts/rochester-city-sd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Rochester City SD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Rochester</span>
                 </a>
-                </div><h3>Central NY</h3><div class="directory-grid">
-                <a href="/districts/syracuse-city-sd/" class="directory-card">
-                    <span class="d-name">Syracuse City SD</span>
-                    <span class="d-desc">Syracuse</span>
+                </div><h3 style="margin-top: 25px;">Central NY</h3><div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                <a href="/districts/syracuse-city-sd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Syracuse City SD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Syracuse</span>
                 </a>
-                </div><h3>Lower Hudson Valley</h3><div class="directory-grid">
-                <a href="/districts/yonkers-city-sd/" class="directory-card">
-                    <span class="d-name">Yonkers City SD</span>
-                    <span class="d-desc">Yonkers</span>
-                </a>
-                
-                <a href="/districts/mount-vernon-city-sd/" class="directory-card">
-                    <span class="d-name">Mount Vernon City SD</span>
-                    <span class="d-desc">Mount Vernon</span>
-                </a>
-                </div><h3>Capital Region</h3><div class="directory-grid">
-                <a href="/districts/albany-city-sd/" class="directory-card">
-                    <span class="d-name">Albany City SD</span>
-                    <span class="d-desc">Albany</span>
+                </div><h3 style="margin-top: 25px;">Lower Hudson Valley</h3><div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                <a href="/districts/yonkers-city-sd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Yonkers City SD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Yonkers</span>
                 </a>
                 
-                <a href="/districts/schenectady-city-sd/" class="directory-card">
-                    <span class="d-name">Schenectady City SD</span>
-                    <span class="d-desc">Schenectady</span>
+                <a href="/districts/mount-vernon-city-sd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Mount Vernon City SD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Mount Vernon</span>
                 </a>
-                </div><h3>Mohawk Valley</h3><div class="directory-grid">
-                <a href="/districts/utica-city-sd/" class="directory-card">
-                    <span class="d-name">Utica City SD</span>
-                    <span class="d-desc">Utica</span>
-                </a>
-                </div><h3>Long Island</h3><div class="directory-grid">
-                <a href="/districts/brentwood-ufsd/" class="directory-card">
-                    <span class="d-name">Brentwood UFSD</span>
-                    <span class="d-desc">Brentwood, Suffolk County</span>
+                </div><h3 style="margin-top: 25px;">Capital Region</h3><div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                <a href="/districts/albany-city-sd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Albany City SD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Albany</span>
                 </a>
                 
-                <a href="/districts/william-floyd-ufsd/" class="directory-card">
-                    <span class="d-name">William Floyd UFSD</span>
-                    <span class="d-desc">Mastic, Shirley, Suffolk County</span>
+                <a href="/districts/schenectady-city-sd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Schenectady City SD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Schenectady</span>
+                </a>
+                </div><h3 style="margin-top: 25px;">Mohawk Valley</h3><div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                <a href="/districts/utica-city-sd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Utica City SD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Utica</span>
+                </a>
+                </div><h3 style="margin-top: 25px;">Long Island</h3><div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                <a href="/districts/brentwood-ufsd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Brentwood UFSD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Brentwood, Suffolk County</span>
                 </a>
                 
-                <a href="/districts/central-islip-ufsd/" class="directory-card">
-                    <span class="d-name">Central Islip UFSD</span>
-                    <span class="d-desc">Central Islip, Suffolk County</span>
+                <a href="/districts/william-floyd-ufsd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">William Floyd UFSD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Mastic, Shirley, Suffolk County</span>
                 </a>
                 
-                <a href="/districts/hempstead-ufsd/" class="directory-card">
-                    <span class="d-name">Hempstead UFSD</span>
-                    <span class="d-desc">Hempstead, Nassau County</span>
+                <a href="/districts/central-islip-ufsd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Central Islip UFSD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Central Islip, Suffolk County</span>
                 </a>
                 
-                <a href="/districts/freeport-ufsd/" class="directory-card">
-                    <span class="d-name">Freeport UFSD</span>
-                    <span class="d-desc">Freeport, Nassau County</span>
-                </a>
-                </div><h3>Westchester</h3><div class="directory-grid">
-                <a href="/districts/new-rochelle-city-sd/" class="directory-card">
-                    <span class="d-name">New Rochelle City SD</span>
-                    <span class="d-desc">New Rochelle</span>
+                <a href="/districts/hempstead-ufsd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Hempstead UFSD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Hempstead, Nassau County</span>
                 </a>
                 
-                <a href="/districts/white-plains-city-sd/" class="directory-card">
-                    <span class="d-name">White Plains City SD</span>
-                    <span class="d-desc">White Plains</span>
+                <a href="/districts/freeport-ufsd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Freeport UFSD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Freeport, Nassau County</span>
                 </a>
-                </div><h3>Hudson Valley</h3><div class="directory-grid">
-                <a href="/districts/newburgh-enlarged-city-sd/" class="directory-card">
-                    <span class="d-name">Newburgh Enlarged City SD</span>
-                    <span class="d-desc">Newburgh, Orange County</span>
+                </div><h3 style="margin-top: 25px;">Westchester</h3><div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                <a href="/districts/new-rochelle-city-sd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">New Rochelle City SD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">New Rochelle</span>
                 </a>
                 
-                <a href="/districts/poughkeepsie-city-sd/" class="directory-card">
-                    <span class="d-name">Poughkeepsie City SD</span>
-                    <span class="d-desc">Poughkeepsie, Dutchess County</span>
+                <a href="/districts/white-plains-city-sd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">White Plains City SD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">White Plains</span>
+                </a>
+                </div><h3 style="margin-top: 25px;">Hudson Valley</h3><div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                <a href="/districts/newburgh-enlarged-city-sd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Newburgh Enlarged City SD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Newburgh, Orange County</span>
+                </a>
+                
+                <a href="/districts/poughkeepsie-city-sd/" class="directory-card" style="border: 1px solid #eee; padding: 15px; border-radius: 6px; text-decoration: none; color: #333; display: block; transition: all 0.2s;">
+                    <span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Poughkeepsie City SD</span>
+                    <span class="d-desc" style="font-size: 0.85rem; color: #666;">Poughkeepsie, Dutchess County</span>
                 </a>
                 </div></div>
             
