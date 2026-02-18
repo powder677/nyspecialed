@@ -1,0 +1,290 @@
+<!-- ==========================================================================
+   NewYorkSpecialEd.net — Site Header Component
+   Dependencies: styles/nav-footer.css, Font Awesome 6.x, Google Fonts (Inter)
+   
+   USAGE: Include this file at the top of every page via SSI, PHP include,
+   or copy/paste into your template. Update active states per page.
+   ========================================================================== -->
+
+<!-- Font Dependencies (place in <head> if not already loaded) -->
+<!--
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="/styles/nav-footer.css">
+-->
+
+<header class="site-header" role="banner">
+  <nav class="nav-container" aria-label="Main navigation">
+
+    <!-- ===== LOGO ===== -->
+    <a href="/" class="nav-logo" aria-label="New York Special Ed — Home">
+      New York<span>SpecialEd</span>
+    </a>
+
+    <!-- ===== DESKTOP NAV ===== -->
+    <ul class="nav-links" id="navLinks">
+
+      <!-- ——— DISTRICTS (Mega Menu) ——— -->
+      <li class="nav-item">
+        <a href="/districts/" class="nav-link">Districts <i class="fa-solid fa-chevron-down"></i></a>
+
+        <div class="mega-menu" role="menu" aria-label="Browse districts by borough">
+
+          <!-- Column 1: Manhattan + Bronx -->
+          <div class="menu-column">
+            <h4>Manhattan</h4>
+            <ul>
+              <li><a href="/districts/nyc-district-01-lower-east-side/">District 1 — Lower East Side</a></li>
+              <li><a href="/districts/nyc-district-02-upper-east-side/">District 2 — Upper East Side / Tribeca</a></li>
+              <li><a href="/districts/nyc-district-03-upper-west-side/">District 3 — Upper West Side</a></li>
+              <li><a href="/districts/nyc-district-04-east-harlem/">District 4 — East Harlem</a></li>
+              <li><a href="/districts/nyc-district-05-central-harlem/">District 5 — Central Harlem</a></li>
+              <li><a href="/districts/nyc-district-06-washington-heights/">District 6 — Washington Heights</a></li>
+            </ul>
+
+            <h4 style="margin-top: 20px;">Bronx</h4>
+            <ul>
+              <li><a href="/districts/nyc-district-07-south-bronx/">District 7 — South Bronx</a></li>
+              <li><a href="/districts/nyc-district-08-throgs-neck/">District 8 — Throgs Neck / Co-op City</a></li>
+              <li><a href="/districts/nyc-district-09-grand-concourse/">District 9 — Grand Concourse</a></li>
+              <li><a href="/districts/nyc-district-10-riverdale/">District 10 — Riverdale / Kingsbridge</a></li>
+              <li><a href="/districts/nyc-district-11-pelham-parkway/">District 11 — Pelham Parkway</a></li>
+              <li><a href="/districts/nyc-district-12-soundview/">District 12 — Soundview / Parkchester</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 2: Brooklyn + Staten Island -->
+          <div class="menu-column">
+            <h4>Brooklyn</h4>
+            <ul>
+              <li><a href="/districts/nyc-district-13-brooklyn-heights/">District 13 — Brooklyn Heights</a></li>
+              <li><a href="/districts/nyc-district-14-williamsburg/">District 14 — Williamsburg</a></li>
+              <li><a href="/districts/nyc-district-15-park-slope/">District 15 — Park Slope</a></li>
+              <li><a href="/districts/nyc-district-16-bed-stuy/">District 16 — Bed-Stuy</a></li>
+              <li><a href="/districts/nyc-district-17-crown-heights/">District 17 — Crown Heights</a></li>
+              <li><a href="/districts/nyc-district-18-east-flatbush/">District 18 — East Flatbush / Canarsie</a></li>
+              <li><a href="/districts/nyc-district-19-east-new-york/">District 19 — East New York</a></li>
+              <li><a href="/districts/nyc-district-20-bay-ridge/">District 20 — Bay Ridge / Borough Park</a></li>
+              <li><a href="/districts/nyc-district-21-coney-island/">District 21 — Coney Island / Sheepshead Bay</a></li>
+              <li><a href="/districts/nyc-district-22-midwood/">District 22 — Midwood / Marine Park</a></li>
+              <li><a href="/districts/nyc-district-23-brownsville/">District 23 — Brownsville</a></li>
+              <li><a href="/districts/nyc-district-32-bushwick/">District 32 — Bushwick</a></li>
+            </ul>
+
+            <h4 style="margin-top: 20px;">Staten Island</h4>
+            <ul>
+              <li><a href="/districts/nyc-district-31-staten-island/">District 31 — All Staten Island</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Queens + Citywide + Upstate -->
+          <div class="menu-column">
+            <h4>Queens</h4>
+            <ul>
+              <li><a href="/districts/nyc-district-24-maspeth/">District 24 — Maspeth / Elmhurst</a></li>
+              <li><a href="/districts/nyc-district-25-flushing/">District 25 — Flushing / Whitestone</a></li>
+              <li><a href="/districts/nyc-district-26-bayside/">District 26 — Bayside / Little Neck</a></li>
+              <li><a href="/districts/nyc-district-27-rockaway/">District 27 — Rockaway / Howard Beach</a></li>
+              <li><a href="/districts/nyc-district-28-forest-hills/">District 28 — Forest Hills / Jamaica</a></li>
+              <li><a href="/districts/nyc-district-29-queens-village/">District 29 — Queens Village</a></li>
+              <li><a href="/districts/nyc-district-30-astoria/">District 30 — Astoria / Jackson Heights</a></li>
+            </ul>
+
+            <h4 style="margin-top: 20px;">Citywide</h4>
+            <ul>
+              <li><a href="/districts/nyc-district-75/"><strong>District 75</strong> — Specialized Programs</a></li>
+              <li><a href="/districts/nyc-district-79/">District 79 — Alternative Schools</a></li>
+            </ul>
+
+            <h4 style="margin-top: 20px;">Upstate &amp; Suburbs</h4>
+            <ul>
+              <li><a href="/districts/buffalo-city-sd/">Buffalo</a></li>
+              <li><a href="/districts/rochester-city-sd/">Rochester</a></li>
+              <li><a href="/districts/syracuse-city-sd/">Syracuse</a></li>
+              <li><a href="/districts/yonkers-city-sd/">Yonkers</a></li>
+              <li><a href="/districts/">View All Districts →</a></li>
+            </ul>
+          </div>
+
+        </div><!-- /.mega-menu -->
+      </li>
+
+      <!-- ——— GUIDES (Standard Dropdown) ——— -->
+      <li class="nav-item">
+        <a href="/guides/" class="nav-link">Guides <i class="fa-solid fa-chevron-down"></i></a>
+        <div class="dropdown-menu" role="menu" aria-label="Parent guides">
+          <div class="menu-column" style="padding: 10px 15px;">
+            <ul>
+              <li><a href="/guides/cse-meeting-guide/">CSE Meeting Guide</a></li>
+              <li><a href="/guides/evaluation-request-ny/">Request an Evaluation</a></li>
+              <li><a href="/guides/dispute-resolution-ny/">Dispute Resolution</a></li>
+              <li><a href="/guides/bilingual-iep-new-york/">Bilingual IEP Guide</a></li>
+              <li><a href="/guides/carter-cases-private-placement/">Private Placement &amp; Carter Cases</a></li>
+              <li><a href="/guides/cpse-preschool-special-education/">Preschool (CPSE) Guide</a></li>
+              <li><a href="/guides/district-75-guide/">District 75 Guide</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <!-- ——— RESOURCES (Standard Dropdown) ——— -->
+      <li class="nav-item">
+        <a href="/resources/" class="nav-link">Resources <i class="fa-solid fa-chevron-down"></i></a>
+        <div class="dropdown-menu" role="menu" aria-label="Free resources">
+          <div class="menu-column" style="padding: 10px 15px;">
+            <ul>
+              <li><a href="/resources/cse-meeting-checklist/">CSE Meeting Checklist</a></li>
+              <li><a href="/resources/evaluation-request-letter/">Evaluation Request Letter</a></li>
+              <li><a href="/resources/iep-goal-tracker/">IEP Goal Tracker</a></li>
+              <li><a href="/resources/parent-rights-guide-ny/">Parent Rights Guide (NY)</a></li>
+              <li><a href="/resources/">View All Free Resources →</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <!-- ——— BLOG (No dropdown) ——— -->
+      <li class="nav-item">
+        <a href="/blog/" class="nav-link">Blog</a>
+      </li>
+
+      <!-- ——— ABOUT (No dropdown) ——— -->
+      <li class="nav-item">
+        <a href="/about/" class="nav-link">About</a>
+      </li>
+
+      <!-- ——— CTA BUTTON ——— -->
+      <li class="nav-item">
+        <a href="/resources/cse-meeting-checklist/" class="nav-cta">Free CSE Checklist</a>
+      </li>
+
+    </ul><!-- /.nav-links -->
+
+    <!-- ===== MOBILE TOGGLE ===== -->
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false">
+      <i class="fa-solid fa-bars" id="menuIcon"></i>
+    </button>
+
+  </nav>
+</header>
+
+<!-- ==========================================================================
+   MOBILE NAV OVERLAY
+   ========================================================================== -->
+<div class="mobile-nav-overlay" id="mobileNav">
+  <div class="mobile-nav-inner">
+
+    <div class="mobile-nav-header">
+      <a href="/" class="nav-logo">New York<span>SpecialEd</span></a>
+      <button class="mobile-close" id="mobileClose" aria-label="Close menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div class="mobile-nav-body">
+
+      <!-- Mobile: Districts Accordion -->
+      <div class="mobile-accordion">
+        <button class="mobile-accordion-trigger" aria-expanded="false">
+          Districts <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="mobile-accordion-panel">
+          <p class="mobile-section-label">NYC by Borough</p>
+          <a href="/districts/">View All Districts</a>
+
+          <p class="mobile-section-label" style="margin-top:12px;">Manhattan</p>
+          <a href="/districts/nyc-district-01-lower-east-side/">D1 — Lower East Side</a>
+          <a href="/districts/nyc-district-02-upper-east-side/">D2 — Upper East Side</a>
+          <a href="/districts/nyc-district-03-upper-west-side/">D3 — Upper West Side</a>
+          <a href="/districts/nyc-district-04-east-harlem/">D4 — East Harlem</a>
+          <a href="/districts/nyc-district-05-central-harlem/">D5 — Central Harlem</a>
+          <a href="/districts/nyc-district-06-washington-heights/">D6 — Washington Heights</a>
+
+          <p class="mobile-section-label" style="margin-top:12px;">Bronx</p>
+          <a href="/districts/nyc-district-07-south-bronx/">D7 — South Bronx</a>
+          <a href="/districts/nyc-district-08-throgs-neck/">D8 — Throgs Neck</a>
+          <a href="/districts/nyc-district-09-grand-concourse/">D9 — Grand Concourse</a>
+          <a href="/districts/nyc-district-10-riverdale/">D10 — Riverdale</a>
+          <a href="/districts/nyc-district-11-pelham-parkway/">D11 — Pelham Parkway</a>
+          <a href="/districts/nyc-district-12-soundview/">D12 — Soundview</a>
+
+          <p class="mobile-section-label" style="margin-top:12px;">Brooklyn</p>
+          <a href="/districts/nyc-district-13-brooklyn-heights/">D13 — Brooklyn Heights</a>
+          <a href="/districts/nyc-district-14-williamsburg/">D14 — Williamsburg</a>
+          <a href="/districts/nyc-district-15-park-slope/">D15 — Park Slope</a>
+          <a href="/districts/nyc-district-16-bed-stuy/">D16 — Bed-Stuy</a>
+          <a href="/districts/nyc-district-17-crown-heights/">D17 — Crown Heights</a>
+          <a href="/districts/nyc-district-18-east-flatbush/">D18 — East Flatbush</a>
+          <a href="/districts/nyc-district-19-east-new-york/">D19 — East New York</a>
+          <a href="/districts/nyc-district-20-bay-ridge/">D20 — Bay Ridge</a>
+          <a href="/districts/nyc-district-21-coney-island/">D21 — Coney Island</a>
+          <a href="/districts/nyc-district-22-midwood/">D22 — Midwood</a>
+          <a href="/districts/nyc-district-23-brownsville/">D23 — Brownsville</a>
+          <a href="/districts/nyc-district-32-bushwick/">D32 — Bushwick</a>
+
+          <p class="mobile-section-label" style="margin-top:12px;">Queens</p>
+          <a href="/districts/nyc-district-24-maspeth/">D24 — Maspeth</a>
+          <a href="/districts/nyc-district-25-flushing/">D25 — Flushing</a>
+          <a href="/districts/nyc-district-26-bayside/">D26 — Bayside</a>
+          <a href="/districts/nyc-district-27-rockaway/">D27 — Rockaway</a>
+          <a href="/districts/nyc-district-28-forest-hills/">D28 — Forest Hills</a>
+          <a href="/districts/nyc-district-29-queens-village/">D29 — Queens Village</a>
+          <a href="/districts/nyc-district-30-astoria/">D30 — Astoria</a>
+
+          <p class="mobile-section-label" style="margin-top:12px;">Staten Island</p>
+          <a href="/districts/nyc-district-31-staten-island/">D31 — Staten Island</a>
+
+          <p class="mobile-section-label" style="margin-top:12px;">Citywide</p>
+          <a href="/districts/nyc-district-75/"><strong>District 75</strong> — Specialized</a>
+          <a href="/districts/nyc-district-79/">District 79 — Alternative</a>
+
+          <p class="mobile-section-label" style="margin-top:12px;">Upstate &amp; Suburbs</p>
+          <a href="/districts/buffalo-city-sd/">Buffalo</a>
+          <a href="/districts/rochester-city-sd/">Rochester</a>
+          <a href="/districts/syracuse-city-sd/">Syracuse</a>
+          <a href="/districts/yonkers-city-sd/">Yonkers</a>
+        </div>
+      </div>
+
+      <!-- Mobile: Guides Accordion -->
+      <div class="mobile-accordion">
+        <button class="mobile-accordion-trigger" aria-expanded="false">
+          Guides <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="mobile-accordion-panel">
+          <a href="/guides/cse-meeting-guide/">CSE Meeting Guide</a>
+          <a href="/guides/evaluation-request-ny/">Request an Evaluation</a>
+          <a href="/guides/dispute-resolution-ny/">Dispute Resolution</a>
+          <a href="/guides/bilingual-iep-new-york/">Bilingual IEP Guide</a>
+          <a href="/guides/carter-cases-private-placement/">Private Placement</a>
+          <a href="/guides/cpse-preschool-special-education/">Preschool (CPSE)</a>
+          <a href="/guides/district-75-guide/">District 75 Guide</a>
+        </div>
+      </div>
+
+      <!-- Mobile: Resources Accordion -->
+      <div class="mobile-accordion">
+        <button class="mobile-accordion-trigger" aria-expanded="false">
+          Resources <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="mobile-accordion-panel">
+          <a href="/resources/cse-meeting-checklist/">CSE Meeting Checklist</a>
+          <a href="/resources/evaluation-request-letter/">Evaluation Request Letter</a>
+          <a href="/resources/iep-goal-tracker/">IEP Goal Tracker</a>
+          <a href="/resources/parent-rights-guide-ny/">Parent Rights Guide (NY)</a>
+        </div>
+      </div>
+
+      <!-- Mobile: Simple Links -->
+      <a href="/blog/" class="mobile-simple-link">Blog</a>
+      <a href="/about/" class="mobile-simple-link">About</a>
+      <a href="/contact/" class="mobile-simple-link">Contact</a>
+
+      <!-- Mobile CTA -->
+      <a href="/resources/cse-meeting-checklist/" class="mobile-cta">Free CSE Checklist</a>
+
+    </div>
+  </div>
+</div>
