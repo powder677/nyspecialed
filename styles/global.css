@@ -1,7 +1,6 @@
 /* ============================================
    GLOBAL RESET & BASE STYLES
    ============================================ */
-
 * {
   margin: 0;
   padding: 0;
@@ -9,80 +8,44 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.6;
   color: #333;
   background: #fff;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
+img { max-width: 100%; height: auto; display: block; }
 
-a {
-  color: #002868;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-a:hover {
-  color: #c8102e;
-}
+a { color: #002868; text-decoration: none; transition: color 0.2s; }
+a:hover { color: #c8102e; }
 
 /* ============================================
-   CONTAINER & LAYOUT
+   LAYOUT UTILITIES
    ============================================ */
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
-main {
-  min-height: 60vh;
-}
-
-section {
-  padding: 4rem 0;
-}
-
-.text-center {
-  text-align: center;
-}
+main { min-height: 60vh; }
+section { padding: 4rem 0; }
+.text-center { text-align: center; }
 
 /* ============================================
    TYPOGRAPHY
    ============================================ */
-
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
   color: #002868;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
 
-h1 {
-  font-size: 2.5rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-}
-
-h4 {
-  font-size: 1.25rem;
-}
-
-p {
-  margin-bottom: 1rem;
-}
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+p { margin-bottom: 1rem; }
 
 .lead {
   font-size: 1.25rem;
@@ -93,719 +56,90 @@ p {
 /* ============================================
    BUTTONS
    ============================================ */
-
-.button-primary,
-.button-primary-large,
-.button-secondary,
-.button-secondary-large,
-.button-small {
+.button-primary, .nav-cta {
   display: inline-block;
-  padding: 0.75rem 1.5rem;
-  border-radius: 4px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.3s;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-}
-
-.button-primary,
-.button-primary-large {
-  background: #c8102e;
-  color: #fff;
-}
-
-.button-primary:hover,
-.button-primary-large:hover {
-  background: #a00d24;
-}
-
-.button-primary-large {
-  padding: 1rem 2rem;
-  font-size: 1.1rem;
-}
-
-.button-secondary,
-.button-secondary-large {
-  background: #002868;
-  color: #fff;
-}
-
-.button-secondary:hover,
-.button-secondary-large:hover {
-  background: #001a47;
-}
-
-.button-secondary-large {
-  padding: 1rem 2rem;
-  font-size: 1.1rem;
-}
-
-.button-small {
-  padding: 0.5rem 1rem;
-  font-size: 0.9rem;
-}
-
-/* ============================================
-   CORRECTED NAVBAR STYLES
-   ============================================ */
-
-.site-header {
-  background: #fff;
-  border-bottom: 3px solid #c8102e;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-.nav-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0.75rem 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-logo {
-  font-weight: 800;
-  font-size: 1.5rem;
-  color: #002868;
-  text-transform: uppercase;
-  letter-spacing: -0.5px;
-}
-
-.nav-logo span {
-  color: #c8102e;
-}
-
-/* FIX 1: Match the HTML class name (.nav-links, not .nav-menu) */
-.nav-links {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 1.5rem;
-  align-items: center;
-}
-
-.nav-item {
-  position: relative;
-}
-
-.nav-link {
-  display: block;
-  padding: 0.75rem 0.5rem;
-  color: #002868;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 0.95rem;
-  transition: color 0.3s;
-}
-
-.nav-link:hover {
-  color: #c8102e;
-}
-
-/* --- MEGA MENU FIX --- */
-.mega-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #fff;
-  border-top: 3px solid #c8102e;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-  padding: 20px;
-  z-index: 1001;
-  display: none; /* Hides it by default */
-  width: 800px;  /* Makes it wide */
-  left: -100px;
-}
-
-/* Show it when hovering the parent */
-.nav-item:hover .mega-menu {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 Columns */
-  gap: 20px;
-}
-
-/* Style the links inside */
-.menu-column h4 {
-  color: #c8102e;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-}
-.menu-column ul { list-style: none; padding: 0; }
-.menu-column li { margin-bottom: 5px; }
-.menu-column a { text-decoration: none; color: #333; font-size: 0.9rem; }
-.menu-column a:hover { color: #002868; }
-
-/* Show menus on hover */
-.nav-item:hover .dropdown-menu {
-  display: block;
-}
-
-.nav-item:hover .mega-menu {
-  display: grid; /* Turns on the grid layout when hovered */
-}
-
-/* Mega Menu Column Styles */
-.menu-column h4 {
-  color: #c8102e;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 0.5rem;
-  margin-bottom: 0.75rem;
-}
-
-.menu-column ul {
-  list-style: none;
-  padding: 0;
-}
-
-.menu-column li {
-  margin-bottom: 0.5rem;
-}
-
-.menu-column a {
-  color: #555;
-  font-size: 0.9rem;
-  text-decoration: none;
-}
-
-.menu-column a:hover {
-  color: #002868;
-  padding-left: 5px; /* Slight slide effect */
-}
-
-.nav-cta {
   background: #c8102e;
   color: #fff !important;
-  padding: 0.6rem 1.2rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 50px;
-  font-weight: 700;
-  transition: transform 0.2s;
-}
-
-.nav-cta:hover {
-  transform: translateY(-2px);
-  background: #a00d24;
-}
-
-/* Mobile Toggle (keep hidden on desktop) */
-.mobile-toggle {
-  display: none;
-  background: none;
+  font-weight: 600;
   border: none;
-  font-size: 1.5rem;
-  color: #002868;
   cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
 }
 
-/* Mobile Responsive Adjustments */
-@media (max-width: 900px) {
-  .mobile-toggle {
-    display: block;
-  }
-
-  .nav-links {
-    display: none; /* Use JS to toggle this class 'active' */
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: #fff;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  }
-  
-  .nav-links.active {
-    display: flex;
-  }
-
-  .mega-menu {
-    position: static;
-    width: 100%;
-    box-shadow: none;
-    grid-template-columns: 1fr; /* Stack columns */
-    display: none;
-  }
-  
-  .nav-item:hover .mega-menu {
-    display: block; /* Stack vertically on mobile */
-  }
+.button-primary:hover, .nav-cta:hover {
+  background: #a00d24;
+  transform: translateY(-2px);
 }
+
 /* ============================================
-   HERO SECTION
+   HERO SECTIONS
    ============================================ */
-
-.hero {
+.hero, .local-hero {
   background: linear-gradient(135deg, #002868 0%, #004080 100%);
   color: #fff;
-  padding: 4rem 0;
+  padding: 4rem 1rem;
   text-align: center;
 }
 
-.hero h1 {
-  color: #fff;
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-.hero .lead {
-  color: rgba(255,255,255,0.9);
-  font-size: 1.3rem;
-  max-width: 800px;
-  margin: 0 auto 2rem;
-}
-
-.hero-stats {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  margin: 3rem 0;
-  flex-wrap: wrap;
-}
-
-.stat {
-  text-align: center;
-}
-
-.stat-number {
-  display: block;
-  font-size: 3rem;
-  font-weight: 700;
-  color: #fff;
-  line-height: 1;
-}
-
-.stat-label {
-  display: block;
-  font-size: 0.9rem;
-  color: rgba(255,255,255,0.8);
-  margin-top: 0.5rem;
-}
-
-.hero-cta {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+.hero h1, .local-hero h1 { color: #fff; }
+.hero p, .local-hero p { color: rgba(255,255,255,0.9); font-size: 1.2rem; }
 
 /* ============================================
-   BREADCRUMB
+   GRID SYSTEMS (Hubs & Directories)
    ============================================ */
-
-.breadcrumb {
-  background: #f5f5f5;
-  padding: 1rem 0;
-  font-size: 0.9rem;
-}
-
-.breadcrumb a {
-  color: #002868;
-  text-decoration: none;
-}
-
-.breadcrumb a:hover {
-  text-decoration: underline;
-}
-
-.breadcrumb span {
-  color: #666;
-}
-
-/* ============================================
-   GRIDS
-   ============================================ */
-
-.reasons-grid,
-.districts-grid,
-.coverage-grid,
-.resources-grid {
+.hub-grid, .directory-grid, .aeo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
+  gap: 1.5rem;
+  margin: 2rem 0;
 }
 
-/* ============================================
-   CARDS
-   ============================================ */
-
-.reason-card,
-.district-card,
-.coverage-card,
-.resource-card {
+.hub-card, .directory-card, .aeo-card {
   background: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #e2e8f0;
   border-radius: 8px;
-  padding: 2rem;
-  transition: all 0.3s;
-}
-
-.reason-card:hover,
-.district-card:hover,
-.coverage-card:hover,
-.resource-card:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transform: translateY(-2px);
-  border-color: #c8102e;
-}
-
-.district-card {
+  padding: 1.5rem;
+  transition: all 0.2s;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  display: block;
   text-decoration: none;
   color: inherit;
 }
 
-.district-card h3,
-.reason-card h3,
-.coverage-card h3,
-.resource-card h3 {
-  color: #002868;
-  margin-bottom: 0.5rem;
+.hub-card:hover, .directory-card:hover {
+  transform: translateY(-5px);
+  border-color: #002868;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
 }
 
-.district-card p {
-  color: #666;
-  margin: 0;
-}
+.hub-card h3 { color: #002868; font-size: 1.2rem; margin-top: 0; }
+.hub-card p { font-size: 0.95rem; color: #666; margin-bottom: 0; }
 
 /* ============================================
-   SECTIONS
+   CONTENT BLOCKS
    ============================================ */
-
-.why-texas-specific {
-  background: #f9f9f9;
+.aeo-authority-block {
+  background: #f8fafc;
+  padding: 1rem;
+  border-left: 4px solid #002868;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
 }
 
-.featured-districts h2,
-.what-we-cover h2,
-.free-resources h2 {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.featured-districts > .container > p {
-  text-align: center;
-  color: #666;
-  margin-bottom: 2rem;
-}
-
-/* ============================================
-   CTA SECTIONS
-   ============================================ */
-
-.cta-section {
-  background: #f5f5f5;
-}
-
-.cta-box {
+.contact-box {
   background: #fff;
-  border: 2px solid #002868;
-  border-radius: 8px;
-  padding: 3rem;
-  text-align: center;
-}
-
-.cta-box.primary {
-  background: linear-gradient(135deg, #002868 0%, #004080 100%);
-  color: #fff;
-  border: none;
-}
-
-.cta-box.primary h2 {
-  color: #fff;
-}
-
-.cta-box.primary p {
-  color: rgba(255,255,255,0.9);
-}
-
-.subscribe-form {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  margin-top: 1.5rem;
-  flex-wrap: wrap;
-}
-
-.subscribe-form input[type="email"] {
-  flex: 1;
-  min-width: 250px;
-  max-width: 400px;
-  padding: 0.75rem;
   border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 1rem;
-}
-
-.cta-box.primary .subscribe-form input[type="email"] {
-  border-color: rgba(255,255,255,0.3);
-  background: rgba(255,255,255,0.1);
-  color: #fff;
-}
-
-.cta-box.primary .subscribe-form input[type="email"]::placeholder {
-  color: rgba(255,255,255,0.6);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
 }
 
 /* ============================================
-   CORRECTED FOOTER STYLES
+   MOBILE RESPONSIVE
    ============================================ */
-
-.site-footer {
-  background: #002868;
-  color: #fff;
-  padding: 3rem 0 1rem;
-  margin-top: 4rem;
-}
-
-/* FIX: Combine the container and grid layout here */
-.footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-  
-  /* Grid Layout */
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 3rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid rgba(255,255,255,0.2);
-}
-
-.footer-brand h3 {
-  color: #fff;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.footer-brand span {
-  color: #c8102e;
-}
-
-.footer-tagline {
-  font-size: 0.9rem;
-  line-height: 1.6;
-  color: rgba(255,255,255,0.8);
-  margin-bottom: 1rem;
-}
-
-.footer-heading {
-  font-size: 1.1rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.footer-links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer-links li {
-  margin-bottom: 0.8rem;
-}
-
-.footer-links a {
-  color: rgba(255,255,255,0.8);
-  text-decoration: none;
-  transition: all 0.3s;
-  font-size: 0.95rem;
-}
-
-.footer-links a:hover {
-  color: #c8102e;
-  padding-left: 5px;
-}
-
-/* Bottom Bar */
-.footer-bottom {
-  padding-top: 2rem;
-  text-align: center;
-}
-
-.footer-bottom p {
-  font-size: 0.85rem;
-  color: rgba(255,255,255,0.5);
-  line-height: 1.5;
-}
-
-/* Mobile Responsive */
 @media (max-width: 768px) {
-  .footer-container {
-    grid-template-columns: 1fr; /* Stack vertically on phone */
-    gap: 2rem;
-    text-align: center;
-  }
-  
-  .footer-brand {
-    margin-bottom: 1rem;
-  }
+  h1 { font-size: 2rem; }
+  .hub-grid { grid-template-columns: 1fr; }
 }
-/* ============================================
-   RESPONSIVE DESIGN
-   ============================================ */
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
-  }
-  
-  h2 {
-    font-size: 1.5rem;
-  }
-  
-  .hero h1 {
-    font-size: 2rem;
-  }
-  
-  .hero-stats {
-    gap: 1.5rem;
-  }
-  
-  .stat-number {
-    font-size: 2rem;
-  }
-  
-  .mobile-menu-toggle {
-    display: block;
-  }
-  
-  .nav-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: #fff;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-    padding: 1rem;
-    border-top: 1px solid #ddd;
-    display: none;
-  }
-  
-  .nav-menu.active {
-    display: flex;
-  }
-  
-  .nav-link {
-    padding: 0.75rem;
-  }
-  
-  .dropdown-menu {
-    position: static;
-    box-shadow: none;
-    border: none;
-    padding-left: 1rem;
-  }
-  
-  .nav-cta {
-    margin-top: 0.5rem;
-  }
-  
-  .footer-top {
-    grid-template-columns: 1fr;
-  }
-  
-  .footer-legal {
-    flex-direction: column;
-  }
-  
-  .separator {
-    display: none;
-  }
-  
-  .reasons-grid,
-  .districts-grid,
-  .coverage-grid,
-  .resources-grid {
-    grid-template-columns: 1fr;
-  }
-   /* ============================================
-   MEGA MENU FIX (Paste at bottom of global.css)
-   ============================================ */
-
-/* 1. Hide by default */
-.mega-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 800px; /* Wide menu */
-  left: -150px; /* Center alignment */
-  background: #fff;
-  border-top: 3px solid #c8102e;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-  padding: 20px;
-  z-index: 1001;
-  display: none; /* <--- CRITICAL: Hides it so it doesn't clutter page */
-}
-
-/* 2. Show on Hover */
-.nav-item:hover .mega-menu {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 Columns */
-  gap: 20px;
-}
-
-/* 3. Style the links inside */
-.menu-column h4 {
-  color: #c8102e;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-}
-
-.menu-column ul {
-  list-style: none;
-  padding: 0;
-}
-
-.menu-column li {
-  margin-bottom: 5px;
-}
-
-.menu-column a {
-  text-decoration: none;
-  color: #555;
-  font-size: 0.9rem;
-}
-
-.menu-column a:hover {
-  color: #002868;
-}
-}
-```
-
----
-
-## **FILE STRUCTURE YOU NEED:**
-```
-texasspecialed/
-├── index.html
-├── districts/
-│   ├── index.html
-│   └── (all 20 district folders)
-├── styles/
-│   └── global.css ← PUT THE CSS HERE
-└── images/
-    └── texasspecialed-logo.png
-
-
-
-
-
