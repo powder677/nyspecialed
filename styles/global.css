@@ -209,8 +209,7 @@ p {
   color: #c8102e;
 }
 
-/* FIX 2: Styles to HIDE the Mega Menus and Dropdowns by default */
-.dropdown-menu,
+/* --- MEGA MENU FIX --- */
 .mega-menu {
   position: absolute;
   top: 100%;
@@ -218,21 +217,31 @@ p {
   background: #fff;
   border-top: 3px solid #c8102e;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-  padding: 1.5rem;
-  min-width: 220px;
-  display: none; /* KEY: Hides them so they don't clog the page */
+  padding: 20px;
   z-index: 1001;
-  border-radius: 0 0 4px 4px;
+  display: none; /* Hides it by default */
+  width: 800px;  /* Makes it wide */
+  left: -100px;
 }
 
-/* Logic for the huge Mega Menu (NYC Districts) */
-.mega-menu {
-  display: none; /* Hidden by default */
-  grid-template-columns: repeat(3, 1fr); /* 3 Columns for boroughs */
-  gap: 2rem;
-  width: 800px; /* Wide menu */
-  left: -100px; /* Center alignment adjustment */
+/* Show it when hovering the parent */
+.nav-item:hover .mega-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 Columns */
+  gap: 20px;
 }
+
+/* Style the links inside */
+.menu-column h4 {
+  color: #c8102e;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.menu-column ul { list-style: none; padding: 0; }
+.menu-column li { margin-bottom: 5px; }
+.menu-column a { text-decoration: none; color: #333; font-size: 0.9rem; }
+.menu-column a:hover { color: #002868; }
 
 /* Show menus on hover */
 .nav-item:hover .dropdown-menu {
@@ -725,6 +734,60 @@ p {
   .resources-grid {
     grid-template-columns: 1fr;
   }
+   /* ============================================
+   MEGA MENU FIX (Paste at bottom of global.css)
+   ============================================ */
+
+/* 1. Hide by default */
+.mega-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 800px; /* Wide menu */
+  left: -150px; /* Center alignment */
+  background: #fff;
+  border-top: 3px solid #c8102e;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  padding: 20px;
+  z-index: 1001;
+  display: none; /* <--- CRITICAL: Hides it so it doesn't clutter page */
+}
+
+/* 2. Show on Hover */
+.nav-item:hover .mega-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 Columns */
+  gap: 20px;
+}
+
+/* 3. Style the links inside */
+.menu-column h4 {
+  color: #c8102e;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.menu-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-column li {
+  margin-bottom: 5px;
+}
+
+.menu-column a {
+  text-decoration: none;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.menu-column a:hover {
+  color: #002868;
+}
 }
 ```
 
@@ -741,6 +804,8 @@ texasspecialed/
 │   └── global.css ← PUT THE CSS HERE
 └── images/
     └── texasspecialed-logo.png
+
+
 
 
 
