@@ -148,7 +148,7 @@ p {
 }
 
 /* ============================================
-   NAVBAR STYLES
+   CORRECTED NAVBAR STYLES
    ============================================ */
 
 .site-header {
@@ -160,10 +160,6 @@ p {
   z-index: 1000;
 }
 
-.navbar {
-  width: 100%;
-}
-
 .nav-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -173,18 +169,25 @@ p {
   align-items: center;
 }
 
-.nav-logo img {
-  height: 50px;
-  width: auto;
-  display: block;
+.nav-logo {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #002868;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
 }
 
-.nav-menu {
+.nav-logo span {
+  color: #c8102e;
+}
+
+/* FIX 1: Match the HTML class name (.nav-links, not .nav-menu) */
+.nav-links {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 0.5rem;
+  gap: 1.5rem;
   align-items: center;
 }
 
@@ -194,103 +197,141 @@ p {
 
 .nav-link {
   display: block;
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 0.5rem;
   color: #002868;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 0.95rem;
   transition: color 0.3s;
 }
 
-.nav-link:hover,
-.nav-link.active {
+.nav-link:hover {
   color: #c8102e;
 }
 
-.dropdown-toggle {
-  cursor: pointer;
-}
-
-.dropdown-arrow {
-  font-size: 0.7em;
-  margin-left: 0.25rem;
-}
-
-.dropdown-menu {
+/* FIX 2: Styles to HIDE the Mega Menus and Dropdowns by default */
+.dropdown-menu,
+.mega-menu {
   position: absolute;
   top: 100%;
   left: 0;
   background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  list-style: none;
-  margin: 0;
-  padding: 0.5rem 0;
+  border-top: 3px solid #c8102e;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  padding: 1.5rem;
   min-width: 220px;
-  display: none;
+  display: none; /* KEY: Hides them so they don't clog the page */
   z-index: 1001;
+  border-radius: 0 0 4px 4px;
 }
 
-.dropdown:hover .dropdown-menu,
-.dropdown:focus-within .dropdown-menu {
+/* Logic for the huge Mega Menu (NYC Districts) */
+.mega-menu {
+  display: none; /* Hidden by default */
+  grid-template-columns: repeat(3, 1fr); /* 3 Columns for boroughs */
+  gap: 2rem;
+  width: 800px; /* Wide menu */
+  left: -100px; /* Center alignment adjustment */
+}
+
+/* Show menus on hover */
+.nav-item:hover .dropdown-menu {
   display: block;
 }
 
-.dropdown-menu li {
-  margin: 0;
+.nav-item:hover .mega-menu {
+  display: grid; /* Turns on the grid layout when hovered */
 }
 
-.dropdown-menu a {
-  display: block;
-  padding: 0.5rem 1rem;
-  color: #333;
-  text-decoration: none;
-  transition: background 0.2s;
-}
-
-.dropdown-menu a:hover {
-  background: #f5f5f5;
+/* Mega Menu Column Styles */
+.menu-column h4 {
   color: #c8102e;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
-.dropdown-divider {
-  height: 1px;
-  background: #ddd;
-  margin: 0.5rem 0;
+.menu-column ul {
+  list-style: none;
+  padding: 0;
 }
 
-.nav-cta .button-primary {
-  background: #c8102e;
-  color: #fff;
-  padding: 0.6rem 1.2rem;
-  border-radius: 4px;
+.menu-column li {
+  margin-bottom: 0.5rem;
+}
+
+.menu-column a {
+  color: #555;
+  font-size: 0.9rem;
   text-decoration: none;
-  font-weight: 600;
-  transition: background 0.3s;
-  white-space: nowrap;
 }
 
-.nav-cta .button-primary:hover {
+.menu-column a:hover {
+  color: #002868;
+  padding-left: 5px; /* Slight slide effect */
+}
+
+.nav-cta {
+  background: #c8102e;
+  color: #fff !important;
+  padding: 0.6rem 1.2rem;
+  border-radius: 50px;
+  font-weight: 700;
+  transition: transform 0.2s;
+}
+
+.nav-cta:hover {
+  transform: translateY(-2px);
   background: #a00d24;
 }
 
-.mobile-menu-toggle {
+/* Mobile Toggle (keep hidden on desktop) */
+.mobile-toggle {
   display: none;
   background: none;
   border: none;
+  font-size: 1.5rem;
+  color: #002868;
   cursor: pointer;
-  padding: 0.5rem;
 }
 
-.hamburger {
-  display: block;
-  width: 25px;
-  height: 3px;
-  background: #002868;
-  margin: 5px 0;
-  transition: 0.3s;
-}
+/* Mobile Responsive Adjustments */
+@media (max-width: 900px) {
+  .mobile-toggle {
+    display: block;
+  }
 
+  .nav-links {
+    display: none; /* Use JS to toggle this class 'active' */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .nav-links.active {
+    display: flex;
+  }
+
+  .mega-menu {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    grid-template-columns: 1fr; /* Stack columns */
+    display: none;
+  }
+  
+  .nav-item:hover .mega-menu {
+    display: block; /* Stack vertically on mobile */
+  }
+}
 /* ============================================
    HERO SECTION
    ============================================ */
@@ -747,4 +788,5 @@ texasspecialed/
 │   └── global.css ← PUT THE CSS HERE
 └── images/
     └── texasspecialed-logo.png
+
 
