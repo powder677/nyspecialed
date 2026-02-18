@@ -734,6 +734,60 @@ p {
   .resources-grid {
     grid-template-columns: 1fr;
   }
+   /* ============================================
+   MEGA MENU FIX (Paste at bottom of global.css)
+   ============================================ */
+
+/* 1. Hide by default */
+.mega-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 800px; /* Wide menu */
+  left: -150px; /* Center alignment */
+  background: #fff;
+  border-top: 3px solid #c8102e;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  padding: 20px;
+  z-index: 1001;
+  display: none; /* <--- CRITICAL: Hides it so it doesn't clutter page */
+}
+
+/* 2. Show on Hover */
+.nav-item:hover .mega-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 Columns */
+  gap: 20px;
+}
+
+/* 3. Style the links inside */
+.menu-column h4 {
+  color: #c8102e;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.menu-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-column li {
+  margin-bottom: 5px;
+}
+
+.menu-column a {
+  text-decoration: none;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.menu-column a:hover {
+  color: #002868;
+}
 }
 ```
 
@@ -750,6 +804,7 @@ texasspecialed/
 │   └── global.css ← PUT THE CSS HERE
 └── images/
     └── texasspecialed-logo.png
+
 
 
 
