@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Requesting an Evaluation in District 26</title>
+  <meta name="description" content="Step-by-step guide to the 60-day special education evaluation timeline in District 26.">
+  
+<link rel="stylesheet" href="/styles/global.css">
+<link rel="stylesheet" href="/styles/styles-nav-footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+   <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="/" class="nav-logo">
+         NY Special Ed<span>.com</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+         <ul class="nav-links">
+
+            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+            <li class="nav-item">
+               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
+               <div class="mega-menu">
+                  <div class="menu-column">
+                     <h4>Manhattan (D1-6)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Brooklyn (Key Districts)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Queens & SI</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+            <li class="nav-item">
+               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <h4>Big 5 Cities</h4>
+                     <ul>
+                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+            <li class="nav-item">
+               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <ul>
+                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- LINK: RESOURCES -->
+            <li class="nav-item">
+               <a href="/resources/" class="nav-link">Free Tools</a>
+            </li>
+
+            <!-- CTA -->
+            <li class="nav-item">
+               <a href="/shop" class="nav-cta">Get The Toolkit</a>
+            </li>
+         </ul>
+      </nav>
+
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Open Navigation">
+         <i class="fas fa-bars"></i>
+      </button>
+
+   </div>
+</header>
+  <main class="container">
+<div class="aeo-authority-block">
+        <a href="/districts/nyc-district-26-bayside/">← Back to District 26 Hub</a>
+    </div>
+    
+    <div class="content-body" style="margin-top: 30px;">
+        <body>
+  <h2>Requesting a Special Education Evaluation in District 26</h2>
+
+  <p>District 26, encompassing Bayside, Douglaston, Little Neck, Fresh Meadows, Oakland Gardens, and Glen Oaks, is known for its strong academic programs. However, a crucial component of ensuring every student's success is access to appropriate special education services. Many families navigating the IEP process, including those with gifted children also requiring support, and those seeking specialized programs like ASD services, benefit from understanding the evaluation request process, their rights, and the district's obligations under the law.</p>
+
+  <h3>The Written Referral: Your First Step to Evaluation</h3>
+
+  <p>Initiating the special education process in District 26 requires a formal written referral requesting a special education evaluation. This letter acts as your initial communication with the school regarding your concerns. Address the letter to the Chairperson of the Committee on Special Education (CSE) at your child's school. If you are unsure who the CSE Chairperson is, contact the school's main office or the District 26 special education office (contact information listed below). You can also copy the school principal to ensure wider awareness.</p>
+
+  <p>Your referral letter should clearly and concisely articulate your specific concerns regarding your child’s academic, social-emotional, or behavioral development. Avoid generalizations; instead, provide concrete examples. For instance, instead of saying "My child is struggling in math," state, "My child consistently scores below 70% on math quizzes focusing on fractions, demonstrates difficulty understanding word problems involving multiple steps, and requires significant one-on-one support to complete homework assignments."</p>
+
+  <p>Detail any interventions or accommodations that have already been attempted, both at home and at school, and their outcomes. This demonstrates your proactive approach and provides the CSE with valuable context. For example: "We implemented a reward chart at home to encourage completion of homework, but this has had limited success. The teacher has provided preferential seating in the classroom, but this has not significantly improved focus during reading activities." Include observations about your child's learning style, strengths, and weaknesses. If your child benefits from visual aids, hands-on activities, or small group instruction, mention this.</p>
+
+  <p>Include your child's full name, date of birth, grade, school, and student identification number (if known). Provide your contact information, including your phone number, email address, and preferred method of communication. Keep a copy of your letter for your records. Sending the letter via certified mail with a return receipt requested provides proof of delivery and can be crucial if disputes arise regarding the timeline or receipt of the referral.</p>
+
+  <p>According to New York State Education Law §4402 and Part 200 of the Regulations of the Commissioner of Education, parents have the right to request an evaluation for their child if they suspect a disability may be affecting their educational performance. The district is obligated to respond to this request in a timely manner.</p>
+
+    <p><b>Sample Referral Letter Template:</b></p>
+    <pre style="background-color:#f0f0f0; padding:10px; border:1px solid #ccc;">
+[Your Name]
+[Your Address]
+[Your Phone Number]
+[Your Email Address]
+
+[Date]
+
+Committee on Special Education Chairperson
+[School Name]
+[School Address]
+
+RE: Request for Special Education Evaluation for [Child's Full Name], DOB: [Child's Date of Birth], Grade: [Child's Grade]
+
+Dear CSE Chairperson,
+
+I am writing to formally request a special education evaluation for my child, [Child's Full Name], who is currently in [Child's Grade] at [School Name]. I have several concerns regarding [his/her/their] academic/social-emotional/behavioral development that I believe warrant further investigation.
+
+Specifically, I have observed that [Child's Name] [Describe specific concerns and examples. Be detailed.  Include academic, social-emotional, or behavioral observations].
+
+We have previously tried [List interventions attempted at home and school and their outcomes]. These efforts have [Describe the impact of the interventions].
+
+I believe a comprehensive evaluation will help determine if [Child's Name] requires special education services to address these challenges and reach [his/her/their] full potential.
+
+Thank you for your time and consideration. I look forward to hearing from you soon regarding the next steps in the evaluation process.
+
+Sincerely,
+[Your Name]
+    </pre>
+
+  <h3>Understanding the 60-Day Timeline and Your Rights</h3>
+
+  <p>New York State mandates a strict 60-day timeline for the special education evaluation process, commencing from the date the school district receives your written referral (8 NYCRR §200.4(a)(1)(i)). This timeframe encompasses all stages, including obtaining parental consent for evaluations, conducting the evaluations, holding the IEP meeting, and developing the Individualized Education Program (IEP), if deemed necessary.</p>
+
+  <p>While the 60-day timeline provides a framework, delays can occur due to various factors, such as evaluator availability, scheduling conflicts, or the need for additional assessments. It is crucial to proactively monitor the progress of the evaluation process and maintain open communication with the CSE Chairperson and other school staff. Keep a detailed log of all communication, including dates, times, and summaries of conversations. Follow up regularly via email or phone to inquire about the status of the evaluations and the anticipated timeline for the IEP meeting.</p>
+
+  <p><b>Common District 26 Pitfalls and How to Address Them:</b></p>
+
+  <ul>
+        <li><b>Delay in Providing Consent Forms:</b> The district must provide you with consent forms for the evaluations promptly after receiving your referral.  If you do not receive them within a week, contact the CSE chairperson immediately. Document the date you requested the forms.</li>
+        <li><b>Insufficient Evaluation Scope:</b> Ensure the proposed evaluations adequately address all areas of concern. If you believe additional evaluations are necessary (e.g., a psychological evaluation, a speech-language evaluation, or an occupational therapy evaluation), clearly state your request in writing to the CSE.  You have the right to request Independent Educational Evaluations (IEEs) at public expense if you disagree with the district's evaluation results (8 NYCRR §200.5(g)).</li>
+        <li><b>Lack of Communication:</b> Maintain a consistent and documented communication trail with the school. If you are not receiving timely updates or responses to your inquiries, escalate your concerns to the school principal or the District 26 Special Education Office.</li>
+        <li><b>Predetermined IEP Recommendations:</b> The IEP meeting should be a collaborative process where all members, including the parents, contribute to developing the IEP. If you feel that the district has predetermined the IEP recommendations before the meeting, express your concerns and advocate for your child's needs.  Document any instances where you feel your input is not being adequately considered.</li>
+  </ul>
+
+  <h3>What Happens After the Referral?</h3>
+
+  <ol>
+        <li><b>Acknowledgement and Consent:</b> The CSE should acknowledge receipt of your referral within a reasonable timeframe (typically within a week). They will then send you consent forms for the proposed evaluations. Read these forms carefully to understand the scope of the evaluations and the information that will be gathered.</li>
+        <li><b>Evaluations:</b> Once you provide consent, the school psychologist, educational evaluator, and other relevant professionals will conduct the evaluations. These evaluations may include standardized tests, classroom observations, interviews with you and your child, and a review of your child's academic records.</li>
+        <li><b>Evaluation Report:</b> After the evaluations are completed, you will receive a copy of the evaluation reports. Review these reports carefully and note any areas of agreement or disagreement.</li>
+        <li><b>IEP Meeting:</b> The IEP meeting will be scheduled to discuss the evaluation results and determine if your child is eligible for special education services. If eligible, the IEP team will develop an Individualized Education Program (IEP) that outlines your child's specific needs, goals, and the services and supports that will be provided to help them achieve those goals.</li>
+  </ol>
+
+  <h3>Parent Advocacy Tips for District 26</h3>
+
+  <ul>
+        <li><b>Educate Yourself:</b> Familiarize yourself with your rights under the Individuals with Disabilities Education Act (IDEA) and New York State special education laws and regulations. Understanding your rights empowers you to advocate effectively for your child.</li>
+        <li><b>Document Everything:</b> Keep detailed records of all communication with the school, including emails, letters, and phone calls. Document any concerns you have about your child's progress or the services being provided.</li>
+        <li><b>Build a Strong Relationship with the School:</b> While it is important to advocate for your child's rights, try to maintain a positive and collaborative relationship with the school staff. Approach the IEP process as a partnership, working together to develop the best possible plan for your child.</li>
+        <li><b>Bring Support to the IEP Meeting:</b> You have the right to bring anyone you choose to the IEP meeting, including a parent advocate, educational consultant, or attorney. Having support can be invaluable, especially if you feel overwhelmed or intimidated by the process.</li>
+        <li><b>Don't Be Afraid to Disagree:</b> If you disagree with the school's recommendations, don't be afraid to express your concerns and advocate for your child's needs. You have the right to request additional evaluations, mediation, or a due process hearing if you are unable to reach an agreement with the school.</li>
+  </ul>
+  
+    <h3>District 26 Special Education Resources:</h3>
+        <ul>
+            <li><b>District 26 Special Education Office:</b> Contact your child's school for the most up-to-date contact information, as personnel can change.</li>
+            <li><b>New York City Department of Education Special Education Website:</b> Provides information about special education services and resources available throughout the city.</li>
+            <li><b>INCLUDEnyc:</b> A non-profit organization that provides information, training, and advocacy services to families of children with disabilities in New York City.</li>
+        </ul>
+
+    <h3>Frequently Asked Questions (FAQ):</h3>
+
+    <dl>
+        <dt><b>Q: What if I disagree with the school's evaluation results?</b></dt>
+        <dd>A: You have the right to obtain an Independent Educational Evaluation (IEE) at public expense if you disagree with the school's evaluation. You must request the IEE in writing and provide a reason for your disagreement.  The district can either fund the IEE or initiate a due process hearing to defend their evaluation (8 NYCRR §200.5(g)).</dd>
+
+        <dt><b>Q: What if the school doesn't meet the 60-day timeline?</b></dt>
+        <dd>A: Document the delays and notify the CSE Chairperson and school principal in writing. You can also file a complaint with the New York State Education Department (NYSED). Delays can negatively impact your child's progress, so it's important to address them promptly.</dd>
+
+        <dt><b>Q: What if my child is gifted but also has learning disabilities?</b></dt>
+        <dd>A: Students can be both gifted and have learning disabilities ("twice exceptional"). The IEP should address both their strengths and weaknesses, providing enrichment opportunities while also addressing any learning gaps. Advocate for accommodations and modifications that allow your child to access the general education curriculum at their appropriate level.</dd>
+
+        <dt><b>Q: Can I record the IEP meeting?</b></dt>
+        <dd>A: New York State law regarding recording IEP meetings can be complex. While not explicitly prohibited, it's generally advisable to inform the school in advance of your intention to record. Some districts may have policies regarding recording meetings. Transparency and open communication are key.</dd>
+
+        <dt><b>Q: What is the difference between an IEP and a 504 plan?</b></dt>
+        <dd>A: An IEP is for students with disabilities who require specialized instruction. A 504 plan is for students with disabilities who need accommodations to access the general education curriculum. Students with IEPs have more extensive legal protections under IDEA than students with 504 plans under Section 504 of the Rehabilitation Act.</dd>
+    </dl>
+
+</body>
+    </div>
+
+    <div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
+        <h3>Need More Help?</h3>
+        <p>Download our complete toolkit for District 26 parents.</p>
+        <a href="/shop" class="button-primary">Get the Toolkit</a>
+    </div>
+</main>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+   <div class="footer-container">
+
+      <!-- COL 1: Brand & Mission -->
+      <div class="footer-brand">
+         <h3>NY Special Ed<span>.com</span></h3>
+         <p>
+            Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+         </p>
+         <div style="margin-top: 20px;">
+            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+         </div>
+      </div>
+
+      <!-- COL 2: Essential Guides -->
+      <div class="footer-col">
+         <h4>NY Parent Guides</h4>
+         <ul class="footer-links">
+            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
+            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 3: Top Districts -->
+      <div class="footer-col">
+         <h4>Popular Districts</h4>
+         <ul class="footer-links">
+            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 4: Legal & Contact -->
+      <div class="footer-col">
+         <h4>Resources</h4>
+         <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Support</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+         </ul>
+      </div>
+
+   </div>
+
+   <!-- Bottom Bar -->
+   <div class="footer-bottom">
+      <p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+         For official inquiries, visit schools.nyc.gov or nysed.gov.
+      </p>
+   </div>
+</footer>
+</body>
+</html>

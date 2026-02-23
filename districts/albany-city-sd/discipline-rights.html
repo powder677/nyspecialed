@@ -1,221 +1,277 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Student Discipline Rights in Albany City SD</title>
-  <meta name="description" content="Suspension, MDR, and discipline rights for students with disabilities in Albany City SD.">
-  
-<link rel="stylesheet" href="/styles/global.css">
-<link rel="stylesheet" href="/styles/styles-nav-footer.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
+<meta charset="utf-8"/>
+<title>Student Discipline Rights in Albany City SD</title>
+<meta content="Suspension, MDR, and discipline rights for students with disabilities in Albany City SD." name="description"/>
+<link href="/styles/global.css" rel="stylesheet"/>
+<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
 </head>
 <body>
-  <!-- 
+<!-- 
     INSTRUCTIONS: 
     Include this inside the <header> tag of every page.
     Requires: styles/nav-footer.css
     Requires: FontAwesome (for icons)
 -->
-
-<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
-   <div class="nav-container">
-
-      <!-- Logo -->
-      <a href="/" class="nav-logo">
+<header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader">
+<div class="nav-container">
+<!-- Logo -->
+<a class="nav-logo" href="/">
          NY Special Ed<span>.com</span>
-      </a>
-
-      <!-- Desktop Navigation -->
-      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-         <ul class="nav-links">
-
-            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
-            <li class="nav-item">
-               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
-               <div class="mega-menu">
-                  <div class="menu-column">
-                     <h4>Manhattan (D1-6)</h4>
-                     <ul>
-                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
-                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
-                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
-                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
-                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
-                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
-                     </ul>
-                  </div>
-                  <div class="menu-column">
-                     <h4>Brooklyn (Key Districts)</h4>
-                     <ul>
-                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
-                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
-                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
-                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
-                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
-                     </ul>
-                  </div>
-                  <div class="menu-column">
-                     <h4>Queens & SI</h4>
-                     <ul>
-                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
-                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
-                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
-                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
-                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </li>
-
-            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
-            <li class="nav-item">
-               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
-               <div class="dropdown-menu">
-                  <div class="menu-column" style="padding: 0 20px;">
-                     <h4>Big 5 Cities</h4>
-                     <ul>
-                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
-                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
-                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
-                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
-                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </li>
-
-            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
-            <li class="nav-item">
-               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
-               <div class="dropdown-menu">
-                  <div class="menu-column" style="padding: 0 20px;">
-                     <ul>
-                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
-                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
-                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
-                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
-                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </li>
-
-            <!-- LINK: RESOURCES -->
-            <li class="nav-item">
-               <a href="/resources/" class="nav-link">Free Tools</a>
-            </li>
-
-            <!-- CTA -->
-            <li class="nav-item">
-               <a href="/shop" class="nav-cta">Get The Toolkit</a>
-            </li>
-         </ul>
-      </nav>
-
-      <!-- Mobile Toggle -->
-      <button class="mobile-toggle" aria-label="Open Navigation">
-         <i class="fas fa-bars"></i>
-      </button>
-
-   </div>
+</a>
+<!-- Desktop Navigation -->
+<nav itemscope="" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+<ul class="nav-links">
+<!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/">NYC Districts <i class="fas fa-chevron-down"></i></a>
+<div class="mega-menu">
+<div class="menu-column">
+<h4>Manhattan (D1-6)</h4>
+<ul>
+<li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+<li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+<li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+<li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+<li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+<li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>Brooklyn (Key Districts)</h4>
+<ul>
+<li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+<li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+<li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+<li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+<li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>Queens &amp; SI</h4>
+<ul>
+<li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+<li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+<li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+<li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+<li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/nys-overview">Upstate &amp; LI <i class="fas fa-chevron-down"></i></a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<h4>Big 5 Cities</h4>
+<ul>
+<li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+<li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+<li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+<li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+<li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+<li class="nav-item">
+<a class="nav-link" href="/guides/">Parent Guides <i class="fas fa-chevron-down"></i></a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<ul>
+<li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+<li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+<li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+<li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+<li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+</ul>
+</div>
+</div>
+</li>
+<!-- LINK: RESOURCES -->
+<li class="nav-item">
+<a class="nav-link" href="/resources/">Free Tools</a>
+</li>
+<!-- CTA -->
+<li class="nav-item">
+<a class="nav-cta" href="/shop">Get The Toolkit</a>
+</li>
+</ul>
+</nav>
+<!-- Mobile Toggle -->
+<button aria-label="Open Navigation" class="mobile-toggle">
+<i class="fas fa-bars"></i>
+</button>
+</div>
 </header>
-  <main class="container">
-    <div class="aeo-authority-block">
-        <a href="/districts/albany-city-sd/">← Back to Albany City SD Hub</a>
-    </div>
-    
-    <div class="content-body" style="margin-top: 30px;">
-        <body>
-  <h1>Student Rights & Discipline in Albany City SD</h1>
+<main class="container">
+<div class="aeo-authority-block">
+<a href="/districts/albany-city-sd/">← Back to Albany City SD Hub</a>
+</div>
+<div class="content-body" style="margin-top: 30px;"><h2>Discipline Rights for Students with IEPs in Albany City SD</h2>
 
-  <p>Albany City School District is committed to providing a safe and supportive learning environment for all students. This means upholding student rights while maintaining a fair and consistent disciplinary process. Understanding your rights and the disciplinary procedures is crucial.</p>
+If your child with an IEP has just been suspended from school in the Albany City School District, you're likely feeling overwhelmed and unsure of what to do next. This guide is designed to provide you with immediate, actionable steps you can take to protect your child's rights and ensure they receive the appropriate educational services. The Individuals with Disabilities Education Act (IDEA) and New York State Education Law offer specific protections for students with disabilities facing disciplinary action, and it's crucial to understand these protections to advocate effectively for your child.
 
-  <h2>Manifestation Determination Review (MDR)</h2>
+This page will walk you through the disciplinary process in Albany City SD, explain the critical role of Manifestation Determination Reviews (MDRs), and outline your rights as a parent. We'll also provide a checklist of steps to take immediately following a suspension to ensure your child's educational needs are met. Remember, you are not alone, and there are resources available to help you navigate this challenging situation.
 
-  <p>If a student with an IEP or 504 plan faces a suspension exceeding 10 days or expulsion, a Manifestation Determination Review (MDR) is conducted. This review determines if the student's misconduct was caused by their disability or if the school failed to implement the IEP/504 plan. The MDR team, including parents/guardians and relevant school staff, will examine all relevant information. If the misconduct is determined to be a manifestation of the disability or due to improper implementation of the plan, the team must develop a plan to address the behavior and return the student to their appropriate educational setting.</p>
+<h2>Short-Term Suspensions: The 10-Day Rule</h2>
 
-  <h2>Suspensions in Albany City SD: What to Do</h2>
+In Albany City School District, as in all New York State school districts, your child can be suspended for up to 10 cumulative school days in a school year without triggering a formal Manifestation Determination Review (MDR). This is often referred to as the "10-day rule." This means the school can remove your child from their regular educational setting for disciplinary reasons for a short period without automatically requiring a meeting to determine if the behavior is related to their disability.
 
-  <p>If your child receives a suspension, understand your rights! You have the right to be notified of the reason for the suspension, a hearing (depending on the length of the suspension), and the right to appeal the decision. <b>Immediately</b> request all documentation related to the suspension. Prepare your child to articulate their perspective on the situation. Consider consulting with an advocate or attorney specializing in student rights, particularly if you believe the suspension is unfair or discriminatory. Document all communication with the school district.</p>
+However, even during these short-term suspensions, the Albany City School District is still responsible for ensuring your child receives a basic level of educational services, especially if the suspension impacts their ability to progress toward their IEP goals. Contact the Committee on Special Education (CSE) office to discuss what services will be provided during the suspension. These services might include homework assignments, access to class materials, or alternative learning activities.
 
-  <p>For further details on student rights and the Albany City SD Code of Conduct, please refer to the district website or contact your school's administration.</p>
-</body>
-    </div>
+It's also important to be aware of the notification requirements for short-term suspensions under New York Education Law 3214. The school must inform you of the reason for the suspension and provide you with an opportunity for an informal conference with the principal or other school official where you can discuss the suspension. This notice should be provided in writing. Keep a record of all suspension notices and communications with the school.
 
-    <div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
-        <h3>Need More Help?</h3>
-        <p>Download our complete toolkit for Albany City SD parents.</p>
-        <a href="/shop" class="button-primary">Get the Toolkit</a>
-    </div>
-  </main>
-  <!-- 
+<h2>When an MDR Is Required</h2>
+
+A Manifestation Determination Review (MDR) is required when a student with an IEP faces a suspension that exceeds 10 cumulative school days in a school year, or when there is a pattern of removals that constitute a change of placement. A "change of placement" isn't just about location; it's about whether the series of suspensions creates a significant disruption to your child's educational program. For example, even if no single suspension is longer than a few days, frequent suspensions could be considered a change of placement, triggering the need for an MDR.
+
+The purpose of the MDR is to determine if the student's behavior that led to the suspension was caused by, or had a direct and substantial relationship to, their disability; or if the behavior was the direct result of the school district's failure to implement the student's IEP.
+
+The MDR meeting must be held within 10 school days of the decision to change the student's placement due to a violation of the code of conduct. The meeting participants typically include:
+
+*   Representatives of the Albany City School District, including special education staff and administrators.
+*   You, the parent(s) or guardian(s) of the student.
+*   Relevant members of the IEP team, as determined by the parent and the district.
+
+During the MDR meeting, the team will review all relevant information, including the student's IEP, teacher observations, any relevant medical or psychological evaluations, and information provided by you as the parent. The team will then address two critical questions:
+
+1.  Was the conduct in question caused by, or did it have a direct and substantial relationship to, the child's disability?
+2.  Was the conduct in question the direct result of the Albany City School District's failure to implement the IEP?
+
+<h2>The Two MDR Outcomes</h2>
+
+The outcome of the Manifestation Determination Review (MDR) has significant implications for your child's education and disciplinary process. There are two possible outcomes:
+
+**Outcome 1: Behavior IS a Manifestation of the Disability**
+
+If the MDR team determines that the student's behavior *was* caused by or substantially related to their disability, or that it was the direct result of the Albany City School District's failure to implement the IEP, then the behavior is considered a manifestation of the disability. In this case, the district *cannot* proceed with a long-term suspension (beyond the initial 10 days). The student must be returned to their original placement, unless you and the district agree to a change of placement as part of the IEP review process.
+
+Furthermore, the district is required to conduct a Functional Behavioral Assessment (FBA), unless one has already been conducted. The FBA helps identify the triggers and functions of the student's behavior. Based on the FBA, the IEP team must develop or revise a Behavior Intervention Plan (BIP) to address the problematic behavior. The BIP should include strategies and supports to help the student learn appropriate behaviors and prevent future incidents.
+
+**Outcome 2: Behavior is NOT a Manifestation of the Disability**
+
+If the MDR team determines that the student's behavior was *not* caused by or substantially related to their disability, and that the district *did* properly implement the IEP, then the behavior is *not* considered a manifestation of the disability. In this case, the Albany City School District may impose the same disciplinary consequences as it would for a student without an IEP. This could include a long-term suspension or expulsion.
+
+However, even if the behavior is not a manifestation of the disability, the district is still responsible for providing Free Appropriate Public Education (FAPE) to the student during the period of suspension. This means the student is entitled to continue receiving educational services that allow them to continue to participate in the general education curriculum, although in another setting, and to progress toward meeting the goals set out in the student's IEP. Contact the CSE to ensure these services are being provided.
+
+<h2>The 45-Day Interim Alternative Setting</h2>
+
+Under very specific circumstances, the Albany City School District can remove a student with an IEP to an interim alternative educational setting for up to 45 school days, regardless of whether the behavior is a manifestation of the student's disability. These circumstances are limited to situations involving:
+
+*   **Weapons:** The student carries a weapon to school or possesses a weapon at school.
+*   **Drugs:** The student knowingly possesses or uses illegal drugs, or sells or solicits the sale of a controlled substance, while at school or a school function.
+*   **Serious Bodily Injury:** The student has inflicted serious bodily injury upon another person while at school or a school function. "Serious bodily injury" generally means an injury that involves a substantial risk of death, extreme physical pain, protracted and obvious disfigurement, or protracted loss or impairment of the function of a bodily member, organ, or mental faculty.
+
+Even in these situations, the Albany City School District is still required to provide FAPE to the student. The interim alternative educational setting must allow the student to continue to participate in the general education curriculum (although in a different setting), and to continue to progress toward meeting the goals outlined in their IEP. The IEP team determines the appropriate services and setting.
+
+If you disagree with the district's decision to place your child in an interim alternative educational setting, you have the right to challenge the decision by requesting an expedited due process hearing. This is a faster process than a regular due process hearing, designed to resolve the dispute quickly. You should consult with an attorney or advocate experienced in special education law to understand your rights and options.
+
+<h2>FBAs and Behavior Intervention Plans</h2>
+
+A Functional Behavioral Assessment (FBA) is a crucial tool for understanding and addressing challenging behaviors exhibited by students with IEPs. An FBA is a systematic process of gathering information about a student's behavior to determine the purpose or function of the behavior. It looks at what happens before the behavior (antecedents) and what happens after the behavior (consequences) to identify patterns and triggers.
+
+The Albany City School District is required to conduct an FBA when a student's behavior impedes their learning or the learning of others, or when a student is facing disciplinary action that could result in a suspension of more than 10 school days.
+
+Based on the findings of the FBA, the IEP team develops a Behavior Intervention Plan (BIP). A good BIP should include:
+
+*   **Clear and Measurable Goals:** What specific behaviors are being targeted for change?
+*   **Antecedent Strategies:** What can be done to prevent the problematic behavior from occurring in the first place? This might involve modifying the environment, changing instructional strategies, or providing the student with specific supports.
+*   **Replacement Behaviors:** What appropriate behaviors can the student learn to use instead of the problematic behavior?
+*   **Consequence Strategies:** How will the school respond when the student engages in the problematic behavior? This should focus on positive reinforcement for appropriate behavior and consistent, non-punitive responses to inappropriate behavior.
+*   **Data Collection:** How will the school track the student's progress and determine if the BIP is effective?
+
+You, as a parent, have the right to request an FBA proactively, even before a crisis occurs. If you notice that your child is struggling with certain behaviors, or if you are concerned that their current IEP does not adequately address their behavioral needs, put your request in writing to the CSE. A proactive FBA can help prevent future disciplinary issues and ensure that your child receives the support they need to succeed.
+
+<h2>Day 1 Checklist: What to Do When Your Child Is Suspended</h2>
+
+When your child with an IEP is suspended from school in Albany City School District, it's essential to act quickly to protect their rights and ensure they receive appropriate educational services. Here's a checklist of steps to take on Day 1:
+
+1.  **Get the Suspension Notice in Writing:** Request a written explanation of the reason for the suspension, the length of the suspension, and the school's expectations for your child during the suspension. This documentation is crucial for understanding the situation and protecting your child's rights.
+
+2.  **Count Cumulative Suspension Days:** Keep track of the number of days your child has been suspended during the current school year. This is important for determining when an MDR is required.
+
+3.  **If Approaching 10 Days, Request MDR in Writing:** If your child is approaching 10 cumulative days of suspension, immediately send a written request to the principal and the CSE office requesting a Manifestation Determination Review (MDR) if one has not already been scheduled. This will ensure that the MDR is conducted in a timely manner.
+
+4.  **Contact the CSE Office to Request Continuation of Services:** Contact the Committee on Special Education (CSE) office to discuss what educational services will be provided to your child during the suspension. Under IDEA, your child is entitled to continue receiving FAPE, which includes services that allow them to continue to participate in the general education curriculum and progress toward their IEP goals.
+
+5.  **Escalation:** If you are not satisfied with the Albany City School District's response or if you believe your child's rights have been violated, you have several options:
+
+    *   **State Complaint to NYSED:** You can file a formal complaint with the New York State Education Department (NYSED). NYSED will investigate your complaint and issue a decision.
+    *   **Expedited Due Process Hearing:** You can request an expedited due process hearing to challenge the district's decision. This is a more formal legal process that involves presenting evidence and arguments to an impartial hearing officer. You should consult with an attorney or advocate experienced in special education law to understand your rights and options.
+
+Remember, you are your child's best advocate. By understanding your rights and taking proactive steps, you can ensure that your child receives the support and services they need to succeed in school.</div>
+<div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
+<h3>Need More Help?</h3>
+<p>Download our complete toolkit for Albany City SD parents.</p>
+<a class="button-primary" href="/shop">Get the Toolkit</a>
+</div>
+</main>
+<!-- 
     INSTRUCTIONS: 
     Include this at the bottom of every page.
     Requires: styles/nav-footer.css
 -->
-
-<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
-   <div class="footer-container">
-
-      <!-- COL 1: Brand & Mission -->
-      <div class="footer-brand">
-         <h3>NY Special Ed<span>.com</span></h3>
-         <p>
+<footer class="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="footer-container">
+<!-- COL 1: Brand & Mission -->
+<div class="footer-brand">
+<h3>NY Special Ed<span>.com</span></h3>
+<p>
             Demystifying the New York Committee on Special Education (CSE) process.
             We provide parents with the localized data, legal templates, and advocacy
             tools needed to secure appropriate services in NYC and NY State.
          </p>
-         <div style="margin-top: 20px;">
-            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
-         </div>
-      </div>
-
-      <!-- COL 2: Essential Guides -->
-      <div class="footer-col">
-         <h4>NY Parent Guides</h4>
-         <ul class="footer-links">
-            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
-            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
-            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
-            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
-            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
-         </ul>
-      </div>
-
-      <!-- COL 3: Top Districts -->
-      <div class="footer-col">
-         <h4>Popular Districts</h4>
-         <ul class="footer-links">
-            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
-            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
-            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
-            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
-            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
-         </ul>
-      </div>
-
-      <!-- COL 4: Legal & Contact -->
-      <div class="footer-col">
-         <h4>Resources</h4>
-         <ul class="footer-links">
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/contact">Contact Support</a></li>
-            <li><a href="/privacy-policy">Privacy Policy</a></li>
-            <li><a href="/terms">Terms of Service</a></li>
-            <li><a href="/sitemap.xml">Sitemap</a></li>
-         </ul>
-      </div>
-
-   </div>
-
-   <!-- Bottom Bar -->
-   <div class="footer-bottom">
-      <p>
-         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+<div style="margin-top: 20px;">
+<a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+</div>
+</div>
+<!-- COL 2: Essential Guides -->
+<div class="footer-col">
+<h4>NY Parent Guides</h4>
+<ul class="footer-links">
+<li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+<li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+<li><a href="/guides/dispute-resolution-ny">Due Process &amp; Complaints</a></li>
+<li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+<li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+</ul>
+</div>
+<!-- COL 3: Top Districts -->
+<div class="footer-col">
+<h4>Popular Districts</h4>
+<ul class="footer-links">
+<li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+<li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+<li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+<li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+<li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+</ul>
+</div>
+<!-- COL 4: Legal & Contact -->
+<div class="footer-col">
+<h4>Resources</h4>
+<ul class="footer-links">
+<li><a href="/about">About Us</a></li>
+<li><a href="/contact">Contact Support</a></li>
+<li><a href="/privacy-policy">Privacy Policy</a></li>
+<li><a href="/terms">Terms of Service</a></li>
+<li><a href="/sitemap.xml">Sitemap</a></li>
+</ul>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="footer-bottom">
+<p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br/>
          For official inquiries, visit schools.nyc.gov or nysed.gov.
       </p>
-   </div>
+</div>
 </footer>
 </body>
 </html>

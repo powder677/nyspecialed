@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Special Education Contacts: Freeport UFSD</title>
+  <meta name="description" content="Direct phone numbers and emails for Freeport UFSD Committee on Special Education (CSE), CPSE, and leadership offices.">
+  <link rel="canonical" href="https://www.nyspecialed.com/districts/freeport-ufsd/leadership-directory.html">
+  
+<link rel="stylesheet" href="/styles/global.css">
+<link rel="stylesheet" href="/styles/styles-nav-footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+   <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="/" class="nav-logo">
+         NY Special Ed<span>.com</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+         <ul class="nav-links">
+
+            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+            <li class="nav-item">
+               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
+               <div class="mega-menu">
+                  <div class="menu-column">
+                     <h4>Manhattan (D1-6)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Brooklyn (Key Districts)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Queens & SI</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+            <li class="nav-item">
+               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <h4>Big 5 Cities</h4>
+                     <ul>
+                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+            <li class="nav-item">
+               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <ul>
+                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- LINK: RESOURCES -->
+            <li class="nav-item">
+               <a href="/resources/" class="nav-link">Free Tools</a>
+            </li>
+
+            <!-- CTA -->
+            <li class="nav-item">
+               <a href="/shop" class="nav-cta">Get The Toolkit</a>
+            </li>
+         </ul>
+      </nav>
+
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Open Navigation">
+         <i class="fas fa-bars"></i>
+      </button>
+
+   </div>
+</header>
+  <main class="container">
+<div class="aeo-authority-block">
+    <a href="/districts/freeport-ufsd/">← Back to Freeport UFSD Hub</a>
+</div>
+
+<div class="content-body" style="margin-top: 30px;">
+    <h1 style="margin-bottom: 10px;">Freeport UFSD Leadership Directory</h1>
+    <p class="lead">Use this directory to contact the Committee on Special Education (CSE) or CPSE offices in Freeport UFSD, Freeport, Nassau County.</p>
+
+    <div class="contact-grid">
+
+        <div class="contact-box">
+            <h3>Special Education Office</h3>
+            <div class="contact-item" style="margin-bottom: 10px;"><strong>📍 District Office:</strong><br>Freeport UFSD</div>
+            <div class="contact-item" style="margin-bottom: 10px;"><strong>📞 Phone:</strong><br><a href="tel:516-771-3467">516-771-3467</a></div>
+            <div class="contact-item"><strong>📍 Mailing Address:</strong><br>235 N. Ocean Ave., Freeport, NY 11520</div>
+        </div>
+    </div>
+
+    <div class="alert-box" style="background: #fff3cd; padding: 20px; margin-top: 30px; border-radius: 8px; border-left: 5px solid #ffc107;">
+        <strong>⚠️ Escalation Tip:</strong> If you do not receive a response within 48 hours, document your attempt and escalate to the NYSED Special Education QA (SEQA).
+    </div>
+
+
+    <section class="protocol-section" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 40px;">
+        <h2 style="color: #002868; font-size: 1.8rem; margin-bottom: 20px;">
+            <i class="fas fa-clipboard-check"></i> Communication Protocol
+        </h2>
+
+        <div class="protocol-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+
+            <div class="protocol-card">
+                <h3 style="font-size: 1.2rem; color: #c8102e;">The "Written Notice" Rule</h3>
+                <p style="font-size: 0.95rem; color: #444;">
+                    <strong>Never rely on a phone call alone.</strong> In New York Special Education law, timelines (like the 60-day evaluation window) only officially start when the district receives a request <em>in writing</em>.
+                </p>
+                <ul style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                    <li>Always follow up a phone call with an email summary.</li>
+                    <li>Use the subject line: <em>"Letter of Referral - [Student Name]"</em></li>
+                    <li>Keep a "Communication Log" of dates and names.</li>
+                </ul>
+            </div>
+
+            <div class="protocol-card">
+                <h3 style="font-size: 1.2rem; color: #002868;">When to Escalate?</h3>
+                <p style="font-size: 0.95rem; color: #444;">
+                    If you contact the leadership listed above and do not receive a response, follow this escalation ladder:
+                </p>
+                <ol style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                    <li><strong>Day 1:</strong> Initial Email/Phone Call.</li>
+                    <li><strong>Day 3:</strong> Follow-up Email (CC the Principal).</li>
+                    <li><strong>Day 5:</strong> Escalation Email to the Superintendent or District Superintendent.</li>
+                    <li><strong>Day 10:</strong> File a "State Complaint" with NYSED if services are denied.</li>
+                </ol>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="important-info" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 40px;">
+        <h2 style="color: #002868; font-size: 1.8rem; margin-bottom: 20px;">
+            <i class="fas fa-info-circle"></i> Important Information for Freeport UFSD Families
+        </h2>
+
+        <div class="info-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+
+            <div class="info-card">
+                <h3 style="font-size: 1.2rem; color: #c8102e;">Initial Referral Process: Step-by-Step</h3>
+                <p style="font-size: 0.95rem; color: #444;">
+                    The process of getting your child evaluated for special education services in Freeport UFSD begins with a formal referral. Understanding this process is crucial for timely intervention.
+                </p>
+                <ol style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                    <li><strong>Step 1: Written Referral:</strong> Submit a written referral to the school principal or the Special Education Office (using the contact information above). The referral should clearly state your concerns about your child's academic, social, emotional, or physical development. Citing specific examples is helpful. <a href="http://www.nysed.gov/specialed/publications/policy-documents/new-york-state-part-200-regulations" target="_blank">NYCRR 200.4(a)</a> emphasizes the importance of a written referral.</li>
+                    <li><strong>Step 2: Acknowledgement and Consent:</strong> The district must acknowledge your referral in writing. They will then provide you with consent forms for conducting individual evaluations. Read these forms carefully and understand the scope of each evaluation. <a href="https://www.ecfr.gov/current/title-34/subtitle-B/chapter-III/part-300" target="_blank">IDEA 2004</a> mandates parental consent for evaluations.</li>
+                    <li><strong>Step 3: Evaluations:</strong> Once you provide consent, the district has 60 school days (from the date of consent) to complete the evaluations and hold a Committee on Special Education (CSE) meeting. Common evaluations include psychological, educational, speech-language, and occupational therapy assessments.</li>
+                    <li><strong>Step 4: CSE Meeting:</strong> At the CSE meeting, the evaluation results will be discussed, and a determination will be made regarding your child's eligibility for special education services. You have the right to participate fully in this meeting and to bring anyone you choose (e.g., an advocate, therapist, or private evaluator).</li>
+                </ol>
+            </div>
+
+            <div class="info-card">
+                <h3 style="font-size: 1.2rem; color: #002868;">Common Pitfalls and How to Avoid Them</h3>
+                <p style="font-size: 0.95rem; color: #444;">
+                    Navigating the special education system can be challenging. Here are some common pitfalls encountered in districts like Freeport UFSD and strategies to overcome them:
+                </p>
+                <ul style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                    <li><strong>Pitfall 1: Delay in Evaluations:</strong> Districts sometimes delay evaluations, exceeding the 60-day timeline. <strong>Solution:</strong> Document all communication. If the timeline is exceeded, immediately file a written complaint with the district's Special Education Director and consider filing a State Complaint with NYSED. <a href="http://www.nysed.gov/specialed/publications/policy-documents/new-york-state-part-200-regulations" target="_blank">NYCRR 200.5(a)</a> outlines the timelines for evaluations.</li>
+                    <li><strong>Pitfall 2: Inadequate Evaluations:</strong> The district's evaluations may not fully assess your child's needs. <strong>Solution:</strong> You have the right to request an Independent Educational Evaluation (IEE) at public expense if you disagree with the district's evaluation. <a href="https://www.ecfr.gov/current/title-34/subtitle-B/chapter-III/part-300" target="_blank">34 CFR § 300.502</a> details the IEE process. Request it *in writing* immediately after the CSE meeting where you disagree with the evaluation findings.</li>
+                    <li><strong>Pitfall 3: IEP Implementation Issues:</strong> The IEP (Individualized Education Program) may not be fully implemented in the classroom. <strong>Solution:</strong> Maintain regular communication with your child's teachers and service providers. Document any instances where the IEP is not being followed. Request an IEP meeting to address these concerns. If the issues persist, consider mediation or a due process complaint.</li>
+                    <li><strong>Pitfall 4: Lack of Parent Participation:</strong> Parents may feel unheard or excluded during CSE meetings. <strong>Solution:</strong> Assert your right to participate meaningfully in all CSE decisions. Prepare for meetings by reviewing evaluation reports and drafting your own goals and objectives for your child's IEP. Bring an advocate or attorney to the meeting if needed.</li>
+                </ul>
+            </div>
+
+            <div class="info-card">
+                <h3 style="font-size: 1.2rem; color: #c8102e;">Parent Advocacy Tips for Freeport UFSD</h3>
+                <p style="font-size: 0.95rem; color: #444;">
+                    Effective parent advocacy is key to ensuring your child receives the appropriate special education services.
+                </p>
+                <ul style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                    <li><strong>Tip 1: Know Your Rights:</strong> Familiarize yourself with the Individuals with Disabilities Education Act (IDEA) and New York State Part 200 Regulations. These laws outline your rights and the district's responsibilities.</li>
+                    <li><strong>Tip 2: Document Everything:</strong> Keep a detailed record of all communication, evaluations, IEPs, and any other relevant documents. This documentation will be invaluable if you need to advocate for your child's rights.</li>
+                    <li><strong>Tip 3: Communicate Effectively:</strong> Communicate clearly and respectfully with school staff. While it's important to be assertive, maintaining a positive working relationship can often lead to better outcomes.</li>
+                    <li><strong>Tip 4: Build a Support Network:</strong> Connect with other parents of children with disabilities in Freeport UFSD. Sharing experiences and resources can provide emotional support and practical advice. Consider joining local parent groups or online forums.</li>
+                    <li><strong>Tip 5: Seek Professional Assistance:</strong> If you are struggling to navigate the special education system, consider seeking assistance from a special education advocate or attorney. They can provide expert guidance and representation.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 40px;">
+        <h2 style="color: #002868; font-size: 1.8rem; margin-bottom: 20px;">
+            <i class="fas fa-question-circle"></i> Frequently Asked Questions (FAQ)
+        </h2>
+
+        <div class="faq-grid" style="display: grid; grid-template-columns: 1fr; gap: 20px;">
+
+            <div class="faq-item">
+                <h3 style="font-size: 1.1rem; color: #333; margin-bottom: 5px;">Q: What is the difference between the CPSE and the CSE?</h3>
+                <p style="font-size: 0.95rem; color: #555;">
+                    <strong>A:</strong> The Committee on Preschool Special Education (CPSE) serves children ages 3-5 who are suspected of having a disability. The Committee on Special Education (CSE) serves children ages 5-21. In Freeport UFSD, your child will transition from the CPSE to the CSE upon entering kindergarten.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3 style="font-size: 1.1rem; color: #333; margin-bottom: 5px;">Q: What if I disagree with the IEP developed by the CSE?</h3>
+                <p style="font-size: 0.95rem; color: #555;">
+                    <strong>A:</strong> If you disagree with the IEP, you have several options. First, you can request another CSE meeting to discuss your concerns. Second, you can pursue mediation with the district to try to reach an agreement. Third, you can file a due process complaint with NYSED. Filing a due process complaint initiates a formal legal process where an impartial hearing officer will make a decision about the IEP.  <a href="https://www.ecfr.gov/current/title-34/subtitle-B/chapter-III/part-300" target="_blank">34 CFR § 300.511</a> provides details on impartial due process hearings.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3 style="font-size: 1.1rem; color: #333; margin-bottom: 5px;">Q: Can I record CSE meetings in Freeport UFSD?</h3>
+                <p style="font-size: 0.95rem; color: #555;">
+                    <strong>A:</strong> New York State law allows parents to audio record CSE meetings, provided that they inform the district 24 hours in advance of the meeting. It is best practice to provide this notice in writing (email is acceptable). The district can also record the meeting, but they must also inform you in advance. Be aware of <a href="http://www.nysed.gov/specialed/recording-iep-meetings-q-and-a" target="_blank">NYSED guidance</a> regarding recording IEP meetings.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3 style="font-size: 1.1rem; color: #333; margin-bottom: 5px;">Q: What is an Independent Educational Evaluation (IEE) and when can I request one?</h3>
+                <p style="font-size: 0.95rem; color: #555;">
+                    <strong>A:</strong> An IEE is an evaluation conducted by a qualified professional who is not employed by the school district. You have the right to request an IEE at public expense if you disagree with the district's evaluation of your child. The district must either grant your request or initiate a due process hearing to demonstrate that their evaluation was appropriate. To request an IEE, submit a written request to the Special Education Director, clearly stating your disagreement with the district's evaluation and your desire for an IEE at public expense.
+                </p>
+            </div>
+        </div>
+    </section>
+
+</div>
+</main>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+   <div class="footer-container">
+
+      <!-- COL 1: Brand & Mission -->
+      <div class="footer-brand">
+         <h3>NY Special Ed<span>.com</span></h3>
+         <p>
+            Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+         </p>
+         <div style="margin-top: 20px;">
+            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+         </div>
+      </div>
+
+      <!-- COL 2: Essential Guides -->
+      <div class="footer-col">
+         <h4>NY Parent Guides</h4>
+         <ul class="footer-links">
+            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
+            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 3: Top Districts -->
+      <div class="footer-col">
+         <h4>Popular Districts</h4>
+         <ul class="footer-links">
+            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 4: Legal & Contact -->
+      <div class="footer-col">
+         <h4>Resources</h4>
+         <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Support</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+         </ul>
+      </div>
+
+   </div>
+
+   <!-- Bottom Bar -->
+   <div class="footer-bottom">
+      <p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+         For official inquiries, visit schools.nyc.gov or nysed.gov.
+      </p>
+   </div>
+</footer>
+</body>
+</html>

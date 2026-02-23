@@ -1,219 +1,247 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Student Discipline Rights in New Rochelle City SD</title>
-  <meta name="description" content="Suspension, MDR, and discipline rights for students with disabilities in New Rochelle City SD.">
-  
-<link rel="stylesheet" href="/styles/global.css">
-<link rel="stylesheet" href="/styles/styles-nav-footer.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
+<meta charset="utf-8"/>
+<title>Student Discipline Rights in New Rochelle City SD</title>
+<meta content="Suspension, MDR, and discipline rights for students with disabilities in New Rochelle City SD." name="description"/>
+<link href="/styles/global.css" rel="stylesheet"/>
+<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
 </head>
 <body>
-  <!-- 
+<!-- 
     INSTRUCTIONS: 
     Include this inside the <header> tag of every page.
     Requires: styles/nav-footer.css
     Requires: FontAwesome (for icons)
 -->
-
-<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
-   <div class="nav-container">
-
-      <!-- Logo -->
-      <a href="/" class="nav-logo">
+<header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader">
+<div class="nav-container">
+<!-- Logo -->
+<a class="nav-logo" href="/">
          NY Special Ed<span>.com</span>
-      </a>
-
-      <!-- Desktop Navigation -->
-      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-         <ul class="nav-links">
-
-            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
-            <li class="nav-item">
-               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
-               <div class="mega-menu">
-                  <div class="menu-column">
-                     <h4>Manhattan (D1-6)</h4>
-                     <ul>
-                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
-                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
-                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
-                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
-                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
-                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
-                     </ul>
-                  </div>
-                  <div class="menu-column">
-                     <h4>Brooklyn (Key Districts)</h4>
-                     <ul>
-                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
-                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
-                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
-                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
-                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
-                     </ul>
-                  </div>
-                  <div class="menu-column">
-                     <h4>Queens & SI</h4>
-                     <ul>
-                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
-                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
-                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
-                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
-                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </li>
-
-            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
-            <li class="nav-item">
-               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
-               <div class="dropdown-menu">
-                  <div class="menu-column" style="padding: 0 20px;">
-                     <h4>Big 5 Cities</h4>
-                     <ul>
-                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
-                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
-                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
-                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
-                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </li>
-
-            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
-            <li class="nav-item">
-               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
-               <div class="dropdown-menu">
-                  <div class="menu-column" style="padding: 0 20px;">
-                     <ul>
-                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
-                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
-                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
-                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
-                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </li>
-
-            <!-- LINK: RESOURCES -->
-            <li class="nav-item">
-               <a href="/resources/" class="nav-link">Free Tools</a>
-            </li>
-
-            <!-- CTA -->
-            <li class="nav-item">
-               <a href="/shop" class="nav-cta">Get The Toolkit</a>
-            </li>
-         </ul>
-      </nav>
-
-      <!-- Mobile Toggle -->
-      <button class="mobile-toggle" aria-label="Open Navigation">
-         <i class="fas fa-bars"></i>
-      </button>
-
-   </div>
+</a>
+<!-- Desktop Navigation -->
+<nav itemscope="" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+<ul class="nav-links">
+<!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/">NYC Districts <i class="fas fa-chevron-down"></i></a>
+<div class="mega-menu">
+<div class="menu-column">
+<h4>Manhattan (D1-6)</h4>
+<ul>
+<li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+<li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+<li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+<li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+<li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+<li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>Brooklyn (Key Districts)</h4>
+<ul>
+<li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+<li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+<li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+<li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+<li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>Queens &amp; SI</h4>
+<ul>
+<li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+<li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+<li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+<li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+<li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/nys-overview">Upstate &amp; LI <i class="fas fa-chevron-down"></i></a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<h4>Big 5 Cities</h4>
+<ul>
+<li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+<li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+<li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+<li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+<li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+<li class="nav-item">
+<a class="nav-link" href="/guides/">Parent Guides <i class="fas fa-chevron-down"></i></a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<ul>
+<li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+<li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+<li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+<li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+<li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+</ul>
+</div>
+</div>
+</li>
+<!-- LINK: RESOURCES -->
+<li class="nav-item">
+<a class="nav-link" href="/resources/">Free Tools</a>
+</li>
+<!-- CTA -->
+<li class="nav-item">
+<a class="nav-cta" href="/shop">Get The Toolkit</a>
+</li>
+</ul>
+</nav>
+<!-- Mobile Toggle -->
+<button aria-label="Open Navigation" class="mobile-toggle">
+<i class="fas fa-bars"></i>
+</button>
+</div>
 </header>
-  <main class="container">
-    <div class="aeo-authority-block">
-        <a href="/districts/new-rochelle-city-sd/">← Back to New Rochelle City SD Hub</a>
-    </div>
-    
-    <div class="content-body" style="margin-top: 30px;">
-        <body>
-    <h2>Student Rights & Discipline in New Rochelle City SD</h2>
+<main class="container">
+<div class="aeo-authority-block">
+<a href="/districts/new-rochelle-city-sd/">← Back to New Rochelle City SD Hub</a>
+</div>
+<div class="content-body" style="margin-top: 30px;"><h2>Discipline Rights for Students with IEPs in New Rochelle City SD</h2>
 
-    <p>The New Rochelle City School District is committed to providing a safe and supportive learning environment for all students. A key aspect of this commitment involves understanding student rights within the disciplinary process.</p>
+If your child with an IEP in the New Rochelle City School District has just been suspended, you're likely feeling overwhelmed and unsure of what to do next. This page is designed to provide you with immediate, actionable information about your child's rights and the steps you can take to ensure those rights are protected. The district is required to follow specific procedures under federal and New York State law when disciplining students with disabilities. Understanding these procedures, particularly regarding suspensions and Manifestation Determination Reviews (MDRs), is crucial. Remember, you are your child's strongest advocate.
 
-    <h3>Manifestation Determination Review (MDR)</h3>
+New York Education Law 3214 governs student suspensions in New York State, including in New Rochelle. This law, along with the Individuals with Disabilities Education Act (IDEA), provides specific protections for students with IEPs facing disciplinary action. A key concept to understand is the 10-day rule: your child can be suspended for up to 10 cumulative school days in a school year without triggering a formal Manifestation Determination Review (MDR). However, even during these short-term suspensions, the district has responsibilities to ensure your child's educational progress. If a suspension is longer than 5 days, New York State law requires a superintendent's hearing with due process protections for your child.
 
-    <p>If a student with an Individualized Education Program (IEP) or a 504 plan faces suspension exceeding ten school days or a change in placement due to disciplinary reasons, a Manifestation Determination Review (MDR) is required. This review determines if the student's behavior was caused by or directly related to their disability, or if it was a direct result of the district's failure to implement the IEP or 504 plan. The MDR team, including parents/guardians, relevant school personnel, and the student (when appropriate), examines all relevant information. If the behavior is determined to be a manifestation of the disability, the IEP team must conduct a functional behavioral assessment (FBA) and implement a behavior intervention plan (BIP), or revise an existing one.</p>
+<h2>Short-Term Suspensions: The 10-Day Rule</h2>
 
-    <h3>Suspensions in New Rochelle City SD: What to Know</h3>
+The New Rochelle City School District can suspend your child for up to 10 cumulative school days in a school year for violations of the school's code of conduct. Importantly, these days do not need to be consecutive. The district must keep track of the total number of suspension days your child has accrued. After 10 cumulative days, further disciplinary action triggers additional protections under IDEA, including the requirement for a Manifestation Determination Review (MDR).
 
-    <p>If your child is facing suspension, understand your rights. You have the right to be notified of the charges, the evidence against your child, and an opportunity to present your child's side of the story. Consider seeking assistance from school advocates or legal counsel to ensure your child's rights are protected. Make sure to attend any scheduled conferences and communicate proactively with school administrators to address the concerns that led to the suspension. Document everything related to the suspension, including conversations, notices, and evidence.</p>
-</body>
-    </div>
+Even for suspensions under 10 days, New York Education Law 3214 requires the school to provide you with written notice of the suspension. This notice should explain the reasons for the suspension and inform you of your right to an informal conference with the principal or other school official. This is your opportunity to present your side of the story and discuss the situation with the school. It is important to attend this conference and advocate for your child.
 
-    <div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
-        <h3>Need More Help?</h3>
-        <p>Download our complete toolkit for New Rochelle City SD parents.</p>
-        <a href="/shop" class="button-primary">Get the Toolkit</a>
-    </div>
-  </main>
-  <!-- 
+While an MDR is not required for suspensions totaling 10 days or less, the New Rochelle City School District still has a responsibility to ensure your child continues to receive a Free Appropriate Public Education (FAPE). This means the district should consider whether your child needs continued access to their IEP services, even during a short-term suspension. Contact the district's Committee on Special Education (CSE) office to request that your child's services continue during the suspension. While not legally mandated for suspensions under 10 days, it is good practice and may prevent further academic regression.
+
+<h2>When an MDR Is Required</h2>
+
+A Manifestation Determination Review (MDR) is a critical process that must be conducted when a student with an IEP faces a suspension exceeding 10 school days in a school year (whether consecutive or cumulative) or when a series of shorter suspensions creates a pattern that constitutes a change of placement. A "change of placement" is not always clear-cut, but generally refers to a significant alteration in your child's educational environment, such as a long-term suspension or expulsion. The purpose of the MDR is to determine if your child's behavior that led to the suspension is related to their disability or the district's failure to properly implement their IEP.
+
+The MDR meeting must include you (the parent or guardian), relevant members of your child's IEP team, and other qualified personnel. This may include your child's special education teacher, general education teacher, a school psychologist, and a district administrator. The New Rochelle City School District is responsible for convening this meeting within 10 school days of the decision to take disciplinary action that would result in a change of placement.
+
+During the MDR, the team will review all relevant information, including your child's IEP, any evaluations or diagnostic results, observations of your child's behavior, and any relevant information you provide. The team will then address two crucial questions: (1) Was the behavior caused by, or did it have a direct and substantial relationship to, your child's disability? (2) Was the behavior a direct result of the New Rochelle City School District's failure to implement your child's IEP? If the answer to either of these questions is "yes," then the behavior is considered a manifestation of your child's disability.
+
+<h2>The Two MDR Outcomes</h2>
+
+The outcome of the Manifestation Determination Review (MDR) has significant implications for your child's disciplinary process. If the MDR team determines that the behavior *is* a manifestation of your child's disability, the New Rochelle City School District cannot proceed with a long-term suspension or expulsion. Instead, your child must be returned to their current placement, unless you and the district agree to a change of placement as part of the IEP process.
+
+Furthermore, if the behavior is a manifestation, the MDR team must conduct a Functional Behavioral Assessment (FBA), unless one has already been conducted. An FBA is a process of gathering information to understand the function or purpose of your child's behavior. Based on the FBA, the IEP team must develop or revise a Behavior Intervention Plan (BIP) to address the behavior. The BIP should include strategies and supports to help your child learn more appropriate behaviors and prevent future disciplinary incidents. It is critical that you actively participate in the development or revision of the BIP to ensure it is tailored to your child's specific needs and implemented effectively.
+
+If the MDR team determines that the behavior is *not* a manifestation of your child's disability, the New Rochelle City School District may proceed with the disciplinary action, including a suspension. However, even if the suspension is deemed appropriate, the district is still responsible for providing your child with a Free Appropriate Public Education (FAPE) during the suspension. This means the district must provide services that allow your child to continue to participate in the general education curriculum and progress toward their IEP goals. Contact the CSE office to ensure these services are in place.
+
+<h2>The 45-Day Interim Alternative Setting</h2>
+
+Under certain, very specific circumstances, the New Rochelle City School District can remove a student with an IEP to an interim alternative educational setting for up to 45 school days, regardless of whether the behavior is determined to be a manifestation of the student's disability. These circumstances are limited to situations involving weapons, drugs, or serious bodily injury. Specifically, this applies if your child: (1) carries a weapon to school or possesses a weapon at school, on school premises, or at a school function; (2) knowingly possesses or uses illegal drugs, or sells or solicits the sale of a controlled substance, while at school, on school premises, or at a school function; or (3) has inflicted serious bodily injury upon another person while at school, on school premises, or at a school function.
+
+Even in these situations, the New Rochelle City School District must provide your child with educational services that allow them to continue to participate in the general education curriculum and progress toward their IEP goals. The interim alternative educational setting must be chosen to enable your child to continue to receive FAPE. This could include tutoring, online instruction, or placement in a specialized program.
+
+If you disagree with the district's decision to place your child in an interim alternative educational setting, you have the right to challenge this decision by requesting an expedited due process hearing. This is a faster process than a standard due process hearing, and it is designed to resolve disputes quickly in order to minimize the disruption to your child's education. You should consult with an attorney or advocate experienced in special education law to understand your rights and options in this situation.
+
+<h2>FBAs and Behavior Intervention Plans</h2>
+
+A Functional Behavioral Assessment (FBA) is a crucial tool for understanding and addressing challenging behaviors exhibited by students with IEPs. The New Rochelle City School District is required to conduct an FBA when a student's behavior impedes their learning or the learning of others. This is particularly important when disciplinary actions are being considered. The FBA involves gathering information about the behavior, including what triggers it, what happens during the behavior, and what the student gains or avoids as a result of the behavior. This information is then used to develop a Behavior Intervention Plan (BIP).
+
+A good BIP should include specific strategies and supports to address the underlying function of the behavior. This may include teaching the student alternative, more appropriate behaviors, modifying the environment to reduce triggers, and providing positive reinforcement for desired behaviors. The BIP should be individualized to your child's specific needs and should be implemented consistently across all settings.
+
+You, as a parent, have the right to request an FBA proactively, even before a crisis occurs. If you notice that your child is struggling with certain behaviors, or if you are concerned that their current IEP is not adequately addressing their behavioral needs, you can submit a written request to the New Rochelle City School District's CSE office for an FBA. It is often best to be proactive. By identifying and addressing behavioral issues early on, you can help prevent future disciplinary incidents and ensure your child's success in school. Contact the district to confirm the specific procedures for requesting an FBA.
+
+<h2>Day 1 Checklist: What to Do When Your Child Is Suspended</h2>
+
+If your child has been suspended from school in the New Rochelle City School District, here's a checklist of immediate steps you should take to protect their rights:
+
+1.  **Get the Suspension Notice in Writing:** Request a written copy of the suspension notice from the school principal or administrator. This notice should include the reason for the suspension, the length of the suspension, and your rights as a parent.
+
+2.  **Count Cumulative Suspension Days:** Keep track of the number of days your child has been suspended *this school year*. This is crucial for determining when an MDR is required.
+
+3.  **If Approaching 10 Days, Request MDR in Writing:** If this suspension brings your child close to or over the 10-day cumulative limit, immediately send a written request to the school principal and the CSE office requesting a Manifestation Determination Review (MDR). Clearly state that you are requesting an MDR due to the cumulative number of suspension days.
+
+4.  **Contact the CSE Office to Request Continuation of Services:** Contact the Committee on Special Education (CSE) office in the New Rochelle City School District to request that your child's IEP services continue during the suspension. Emphasize that your child is entitled to FAPE even while suspended. Document the date and time of your call, and the name of the person you spoke with.
+
+5.  **Consider Escalation:** If you believe the New Rochelle City School District is violating your child's rights, you have several options for escalation:
+
+    *   **State Complaint to NYSED:** You can file a formal complaint with the New York State Education Department (NYSED). This complaint must allege a violation of IDEA or state special education regulations.
+    *   **Expedited Due Process Hearing:** If you disagree with the district's decision regarding the suspension or the MDR, you can request an expedited due process hearing. This is a more formal legal process, and it is highly recommended that you consult with an attorney or advocate experienced in special education law.
+    *   **Contact an Attorney or Advocate:** An attorney or advocate can help you understand your rights, navigate the special education system, and advocate for your child's needs.</div>
+<div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
+<h3>Need More Help?</h3>
+<p>Download our complete toolkit for New Rochelle City SD parents.</p>
+<a class="button-primary" href="/shop">Get the Toolkit</a>
+</div>
+</main>
+<!-- 
     INSTRUCTIONS: 
     Include this at the bottom of every page.
     Requires: styles/nav-footer.css
 -->
-
-<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
-   <div class="footer-container">
-
-      <!-- COL 1: Brand & Mission -->
-      <div class="footer-brand">
-         <h3>NY Special Ed<span>.com</span></h3>
-         <p>
+<footer class="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="footer-container">
+<!-- COL 1: Brand & Mission -->
+<div class="footer-brand">
+<h3>NY Special Ed<span>.com</span></h3>
+<p>
             Demystifying the New York Committee on Special Education (CSE) process.
             We provide parents with the localized data, legal templates, and advocacy
             tools needed to secure appropriate services in NYC and NY State.
          </p>
-         <div style="margin-top: 20px;">
-            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
-         </div>
-      </div>
-
-      <!-- COL 2: Essential Guides -->
-      <div class="footer-col">
-         <h4>NY Parent Guides</h4>
-         <ul class="footer-links">
-            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
-            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
-            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
-            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
-            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
-         </ul>
-      </div>
-
-      <!-- COL 3: Top Districts -->
-      <div class="footer-col">
-         <h4>Popular Districts</h4>
-         <ul class="footer-links">
-            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
-            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
-            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
-            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
-            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
-         </ul>
-      </div>
-
-      <!-- COL 4: Legal & Contact -->
-      <div class="footer-col">
-         <h4>Resources</h4>
-         <ul class="footer-links">
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/contact">Contact Support</a></li>
-            <li><a href="/privacy-policy">Privacy Policy</a></li>
-            <li><a href="/terms">Terms of Service</a></li>
-            <li><a href="/sitemap.xml">Sitemap</a></li>
-         </ul>
-      </div>
-
-   </div>
-
-   <!-- Bottom Bar -->
-   <div class="footer-bottom">
-      <p>
-         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+<div style="margin-top: 20px;">
+<a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+</div>
+</div>
+<!-- COL 2: Essential Guides -->
+<div class="footer-col">
+<h4>NY Parent Guides</h4>
+<ul class="footer-links">
+<li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+<li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+<li><a href="/guides/dispute-resolution-ny">Due Process &amp; Complaints</a></li>
+<li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+<li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+</ul>
+</div>
+<!-- COL 3: Top Districts -->
+<div class="footer-col">
+<h4>Popular Districts</h4>
+<ul class="footer-links">
+<li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+<li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+<li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+<li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+<li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+</ul>
+</div>
+<!-- COL 4: Legal & Contact -->
+<div class="footer-col">
+<h4>Resources</h4>
+<ul class="footer-links">
+<li><a href="/about">About Us</a></li>
+<li><a href="/contact">Contact Support</a></li>
+<li><a href="/privacy-policy">Privacy Policy</a></li>
+<li><a href="/terms">Terms of Service</a></li>
+<li><a href="/sitemap.xml">Sitemap</a></li>
+</ul>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="footer-bottom">
+<p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br/>
          For official inquiries, visit schools.nyc.gov or nysed.gov.
       </p>
-   </div>
+</div>
 </footer>
 </body>
 </html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Discipline Rights in Brentwood UFSD</title>
+  <meta name="description" content="Suspension, MDR, and discipline rights for students with disabilities in Brentwood UFSD.">
+  
+<link rel="stylesheet" href="/styles/global.css">
+<link rel="stylesheet" href="/styles/styles-nav-footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+   <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="/" class="nav-logo">
+         NY Special Ed<span>.com</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+         <ul class="nav-links">
+
+            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+            <li class="nav-item">
+               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
+               <div class="mega-menu">
+                  <div class="menu-column">
+                     <h4>Manhattan (D1-6)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Brooklyn (Key Districts)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Queens & SI</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+            <li class="nav-item">
+               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <h4>Big 5 Cities</h4>
+                     <ul>
+                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+            <li class="nav-item">
+               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <ul>
+                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- LINK: RESOURCES -->
+            <li class="nav-item">
+               <a href="/resources/" class="nav-link">Free Tools</a>
+            </li>
+
+            <!-- CTA -->
+            <li class="nav-item">
+               <a href="/shop" class="nav-cta">Get The Toolkit</a>
+            </li>
+         </ul>
+      </nav>
+
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Open Navigation">
+         <i class="fas fa-bars"></i>
+      </button>
+
+   </div>
+</header>
+  <main class="container">
+<div class="aeo-authority-block">
+        <a href="/districts/brentwood-ufsd/">← Back to Brentwood UFSD Hub</a>
+    </div>
+    
+    <div class="content-body" style="margin-top: 30px;">
+        <body>
+    <h1>Student Rights & Discipline in Brentwood UFSD: A Comprehensive Guide for Parents</h1>
+
+    <p>Brentwood Union Free School District (UFSD) is committed to providing a safe and supportive learning environment for all students in Brentwood, Suffolk County. We believe in fair and equitable discipline, ensuring student rights are protected throughout the disciplinary process. This section provides an overview of key aspects related to student rights and discipline within Brentwood UFSD, with a particular focus on students with disabilities. We will explore Manifestation Determination Reviews (MDRs), suspension procedures, due process rights, and practical advocacy tips for parents.</p>
+
+    <h2>Manifestation Determination Reviews (MDR)</h2>
+
+    <p>A Manifestation Determination Review (MDR) is a crucial safeguard for students with Individualized Education Programs (IEPs) or 504 plans facing disciplinary action that could result in a suspension exceeding 10 school days, or a pattern of shorter suspensions that constitute a change of placement (34 CFR § 300.530(d)). The purpose of the MDR is to determine if the student's misconduct was caused by or directly related to their disability, or if it was a direct result of the school district's failure to implement the IEP.  This is mandated under the Individuals with Disabilities Education Act (IDEA) and its implementing regulations.</p>
+
+    <p><b>Understanding the Trigger for an MDR:</b> An MDR is *not* required for every disciplinary action. It's triggered when a student with an IEP or 504 plan is facing:</p>
+    <ul>
+        <li>A suspension of more than 10 consecutive school days.</li>
+        <li>A series of suspensions that total more than 10 school days in a school year AND constitute a pattern because the suspensions are for similar behaviors, the length of each removal, and the total amount of time the student is removed from school (34 CFR § 300.536).</li>
+    </ul>
+
+    <p><b>The MDR Process: A Step-by-Step Guide</b></p>
+    <ol>
+        <li><b>Notification:</b> The school must notify you of the decision to suspend your child for more than 10 days (or a pattern of shorter suspensions) and inform you of your right to participate in an MDR. This notification should be timely and provide you with sufficient information to prepare.</li>
+        <li><b>Scheduling the MDR Meeting:</b> The school will schedule an MDR meeting, inviting relevant members of the IEP team, including:
+            <ul>
+                <li>Parents/Guardians</li>
+                <li>The student (when appropriate)</li>
+                <li>Special Education Teacher</li>
+                <li>General Education Teacher</li>
+                <li>School Psychologist or Counselor</li>
+                <li>A District Representative familiar with the student and knowledgeable about special education.</li>
+            </ul>
+        </li>
+        <li><b>Review of Relevant Information:</b> During the MDR meeting, the team will review all relevant information in the student's file, including:
+            <ul>
+                <li>The student's IEP (including goals, accommodations, and modifications)</li>
+                <li>Any relevant evaluations (psychological, educational, behavioral)</li>
+                <li>Observations of the student's behavior</li>
+                <li>The student's disciplinary record</li>
+                <li>Information provided by the parents/guardians</li>
+            </ul>
+        </li>
+        <li><b>Determining Manifestation:</b> The IEP team will then address two key questions:
+            <ul>
+                <li>Was the conduct in question caused by, or did it have a direct and substantial relationship to, the child's disability?</li>
+                <li>Was the conduct in question the direct result of the school district's failure to implement the IEP?</li>
+            </ul>
+        </li>
+        <li><b>MDR Outcomes:</b>
+            <ul>
+                <li><b>If the behavior IS a manifestation of the disability:</b>
+                    <ul>
+                        <li>The IEP team must conduct a functional behavioral assessment (FBA), unless one has already been conducted.</li>
+                        <li>Implement a behavior intervention plan (BIP) for the student.</li>
+                        <li>Return the student to their current placement, unless the parents and the school agree to a change of placement as part of the modification of the BIP.</li>
+                        <li>The IEP team must review and revise the IEP and BIP as needed to address the behavior.</li>
+                    </ul>
+                </li>
+                 <li><b>If the behavior IS a manifestation of the disability AND the school district failed to implement the IEP:</b> This is a serious finding that holds the district accountable. The district *must* take immediate steps to correct the IEP implementation issues.
+                </li>
+                <li><b>If the behavior is NOT a manifestation of the disability:</b>
+                    <ul>
+                        <li>The student may be subject to the same disciplinary actions as students without disabilities.</li>
+                        <li>However, the school district must continue to provide special education and related services during the period of suspension, as outlined in the IEP. This is often referred to as "stay-put" rights during long-term suspensions (34 CFR § 300.530(d)).</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><b>Parent Rights:</b> Parents have the right to disagree with the MDR determination. If you disagree, you have the right to request mediation or file a due process complaint (more on due process below).</li>
+    </ol>
+
+    <p><b>Common District Pitfalls to Watch Out For:</b></p>
+    <ul>
+        <li><b>Inadequate Notice:</b> The district fails to provide timely and sufficient notice of the MDR meeting, hindering your ability to prepare.</li>
+        <li><b>Insufficient IEP Team Representation:</b> Key members of the IEP team, such as the special education teacher or a related service provider, are not present at the MDR meeting.</li>
+        <li><b>Predetermined Outcome:</b> The district enters the MDR meeting with a pre-determined outcome, effectively making the process a formality rather than a genuine review.</li>
+        <li><b>Ignoring Parent Input:</b> The district dismisses or minimizes parent input during the MDR meeting.</li>
+        <li><b>Failure to Consider All Relevant Information:</b> The district fails to thoroughly review all relevant information, such as evaluations or behavioral data.</li>
+        <li><b>Inadequate IEP Implementation:</b> The district claims the behavior is not a manifestation, but in reality, the IEP was not being properly implemented.</li>
+    </ul>
+
+    <h2>Understanding Suspensions in Brentwood UFSD</h2>
+
+    <p>If your child is facing suspension in Brentwood UFSD, it's important to understand your rights. New York State Education Law § 3214 outlines the procedures for student suspensions. The level of due process afforded to a student depends on the length of the suspension.</p>
+
+    <p><b>Short-Term Suspensions (5 days or less):</b></p>
+    <ul>
+        <li><b>Informal Conference:</b> The student and parent are entitled to an informal conference with the principal (or other designated school official) where the student will be informed of the infraction and given the opportunity to present their version of the events.</li>
+        <li><b>Written Notification:</b> Following the conference, the parent must receive written notification of the suspension, the reasons for the suspension, and the period of suspension. (NYCRR §100.2(b)(4))</li>
+    </ul>
+
+    <p><b>Long-Term Suspensions (More than 5 days):</b></p>
+    <ul>
+        <li><b>Formal Hearing:</b> The student is entitled to a formal hearing with the superintendent or a designated hearing officer.</li>
+        <li><b>Written Notice of Charges:</b> The parent must receive written notice of the charges against the student, the date and time of the hearing, and their rights at the hearing. This notice should be provided a reasonable time (generally 5 days) prior to the hearing.</li>
+        <li><b>Rights at the Hearing:</b> At the hearing, the student has the right to:
+            <ul>
+                <li>Be represented by an attorney.</li>
+                <li>Present evidence and witnesses on their behalf.</li>
+                <li>Cross-examine witnesses presented by the school district.</li>
+                <li>Obtain a written record of the hearing.</li>
+            </ul>
+        </li>
+        <li><b>Superintendent's Decision:</b> Following the hearing, the superintendent will issue a written decision outlining the findings of fact and the reasons for the suspension.</li>
+    </ul>
+
+    <p><b>Important Considerations Regarding Suspensions:</b></p>
+    <ul>
+        <li><b>Emergency Removals:</b> In certain circumstances, a student may be removed from the classroom immediately if their behavior poses an immediate threat to the safety, health, or welfare of themselves or others. However, even in these situations, the district must follow proper procedures as soon as reasonably possible.</li>
+        <li><b>Alternative Instruction:</b> Students facing long-term suspensions are entitled to alternative instruction to ensure they continue to make academic progress. Brentwood UFSD must provide this alternative instruction. In NYS this is usually tutoring and homework support.</li>
+    </ul>
+
+    <h2>Due Process Rights in Brentwood UFSD</h2>
+
+    <p>Due process is a fundamental right guaranteed to students with disabilities and their parents under the IDEA. It provides a mechanism for resolving disputes between parents and the school district regarding the identification, evaluation, educational placement, or the provision of a free appropriate public education (FAPE) to a child with a disability (20 U.S.C. § 1415).</p>
+
+    <p><b>When to Consider Filing a Due Process Complaint:</b></p>
+    <ul>
+        <li>You disagree with the results of an evaluation conducted by the school district.</li>
+        <li>You believe your child's IEP is not appropriate or is not being properly implemented.</li>
+        <li>You disagree with the school district's disciplinary actions, including suspensions.</li>
+        <li>You believe the school district has failed to provide your child with FAPE.</li>
+    </ul>
+
+    <p><b>The Due Process Complaint Process:</b></p>
+    <ol>
+        <li><b>Filing the Complaint:</b> You must file a written due process complaint with the New York State Education Department (NYSED) and provide a copy to the Brentwood UFSD. The complaint must contain specific information, including:
+            <ul>
+                <li>The name and address of the child.</li>
+                <li>The name of the school the child attends.</li>
+                <li>A description of the nature of the problem, including the facts relating to the problem.</li>
+                <li>A proposed resolution of the problem to the extent known and available to the parent at the time.</li>
+            </ul>
+        </li>
+        <li><b>Resolution Meeting:</b> Within 15 days of receiving the due process complaint, the school district must convene a resolution meeting with the parents to discuss the complaint and attempt to resolve the issues. Attendance at the resolution meeting is mandatory for the district.</li>
+        <li><b>Mediation:</b> Mediation is a voluntary process where a neutral third party helps the parents and the school district reach a mutually agreeable resolution.</li>
+        <li><b>Due Process Hearing:</b> If the issues are not resolved through the resolution meeting or mediation, a due process hearing will be conducted before an impartial hearing officer (IHO).</li>
+        <li><b>Hearing Procedures:</b> The due process hearing is similar to a court trial. Both parties have the right to:
+            <ul>
+                <li>Be represented by an attorney.</li>
+                <li>Present evidence and witnesses.</li>
+                <li>Cross-examine witnesses.</li>
+            </ul>
+        </li>
+        <li><b>IHO Decision:</b> The IHO will issue a written decision based on the evidence presented at the hearing. The decision is binding on both parties, unless appealed.</li>
+        <li><b>Appeal:</b> Either party can appeal the IHO's decision to the State Review Officer (SRO). The SRO will review the IHO's decision and issue a final decision.</li>
+    </ol>
+
+    <p><b>Statute of Limitations:</b> It's important to note that there is a statute of limitations for filing a due process complaint. In New York, you generally have two years from the date you knew or should have known about the alleged violation to file a complaint.</p>
+
+    <h2>Parent Advocacy Tips for Brentwood UFSD</h2>
+
+    <ul>
+        <li><b>Document Everything:</b> Keep detailed records of all communications with the school district, including emails, letters, and meeting notes.</li>
+        <li><b>Know Your Rights:</b> Familiarize yourself with the IDEA, New York State Part 200 Regulations, and Brentwood UFSD's policies regarding student discipline and special education.</li>
+        <li><b>Communicate Effectively:</b> Clearly and respectfully communicate your concerns to the school district. Be specific and provide supporting documentation.</li>
+        <li><b>Attend IEP Meetings Prepared:</b> Review your child's IEP prior to the meeting and come prepared with questions and suggestions.</li>
+        <li><b>Don't Be Afraid to Ask for Help:</b> Seek assistance from parent advocacy organizations, special education attorneys, or other professionals.</li>
+        <li><b>Request Independent Educational Evaluations (IEEs):</b> If you disagree with the school district's evaluations, you have the right to request an IEE at public expense under certain circumstances (34 CFR § 300.502).</li>
+        <li><b>Consider Mediation:</b> Mediation can be a valuable tool for resolving disputes with the school district in a collaborative and less adversarial manner.</li>
+        <li><b>Know Your Timeline:</b> Be mindful of deadlines and timelines for filing complaints and requesting hearings.</li>
+    </ul>
+
+    <h2>Frequently Asked Questions (FAQ)</h2>
+
+    <dl>
+        <dt><b>Q: What is FAPE?</b></dt>
+        <dd><b>A:</b> FAPE stands for Free Appropriate Public Education. It means that school districts must provide students with disabilities with educational services that are tailored to their individual needs and designed to provide educational benefit.</dd>
+
+        <dt><b>Q: What is an IEP?</b></dt>
+        <dd><b>A:</b> IEP stands for Individualized Education Program. It is a written document that outlines a student's special education and related services. The IEP is developed by a team of professionals, including parents, teachers, and administrators.</dd>
+
+        <dt><b>Q: What if my child is suspended for more than 10 days and the MDR determines the behavior was NOT a manifestation of their disability?</b></dt>
+        <dd><b>A:</b> Even if the behavior is not a manifestation, the school district is still required to provide your child with special education and related services during the period of suspension so that they can continue to participate in the general education curriculum, although in another setting, and continue to progress toward meeting the goals set out in the child’s IEP (34 CFR § 300.530(d)).</dd>
+
+        <dt><b>Q: Where can I find more information about special education laws and regulations in New York State?</b></dt>
+        <dd><b>A:</b> You can find more information on the New York State Education Department's (NYSED) website, including Part 200 Regulations: <a href="http://www.nysed.gov/specialed/laws-regulations" target="_blank">http://www.nysed.gov/specialed/laws-regulations</a> and the IDEA website: <a href="https://sites.ed.gov/idea/" target="_blank">https://sites.ed.gov/idea/</a></dd>
+
+        <dt><b>Q:  My child has a 504 plan, do the same MDR rules apply as with an IEP?</b></dt>
+        <dd><b>A:</b> Yes, the protections of a Manifestation Determination extend to students with properly implemented 504 plans per federal court cases and guidance from the Office for Civil Rights. </dd>
+    </dl>
+
+    <p>This information is intended for general guidance only and should not be considered legal advice. If you have specific legal questions or concerns, it is essential to consult with a qualified special education attorney in New York State.</p>
+</body>
+    </div>
+
+    <div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
+        <h3>Need More Help?</h3>
+        <p>Download our complete toolkit for Brentwood UFSD parents.</p>
+        <a href="/shop" class="button-primary">Get the Toolkit</a>
+    </div>
+</main>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+   <div class="footer-container">
+
+      <!-- COL 1: Brand & Mission -->
+      <div class="footer-brand">
+         <h3>NY Special Ed<span>.com</span></h3>
+         <p>
+            Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+         </p>
+         <div style="margin-top: 20px;">
+            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+         </div>
+      </div>
+
+      <!-- COL 2: Essential Guides -->
+      <div class="footer-col">
+         <h4>NY Parent Guides</h4>
+         <ul class="footer-links">
+            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
+            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 3: Top Districts -->
+      <div class="footer-col">
+         <h4>Popular Districts</h4>
+         <ul class="footer-links">
+            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 4: Legal & Contact -->
+      <div class="footer-col">
+         <h4>Resources</h4>
+         <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Support</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+         </ul>
+      </div>
+
+   </div>
+
+   <!-- Bottom Bar -->
+   <div class="footer-bottom">
+      <p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+         For official inquiries, visit schools.nyc.gov or nysed.gov.
+      </p>
+   </div>
+</footer>
+</body>
+</html>

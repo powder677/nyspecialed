@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Discipline Rights in Freeport UFSD</title>
+  <meta name="description" content="Suspension, MDR, and discipline rights for students with disabilities in Freeport UFSD.">
+  
+<link rel="stylesheet" href="/styles/global.css">
+<link rel="stylesheet" href="/styles/styles-nav-footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+   <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="/" class="nav-logo">
+         NY Special Ed<span>.com</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+         <ul class="nav-links">
+
+            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+            <li class="nav-item">
+               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
+               <div class="mega-menu">
+                  <div class="menu-column">
+                     <h4>Manhattan (D1-6)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Brooklyn (Key Districts)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Queens & SI</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+            <li class="nav-item">
+               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <h4>Big 5 Cities</h4>
+                     <ul>
+                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+            <li class="nav-item">
+               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <ul>
+                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- LINK: RESOURCES -->
+            <li class="nav-item">
+               <a href="/resources/" class="nav-link">Free Tools</a>
+            </li>
+
+            <!-- CTA -->
+            <li class="nav-item">
+               <a href="/shop" class="nav-cta">Get The Toolkit</a>
+            </li>
+         </ul>
+      </nav>
+
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Open Navigation">
+         <i class="fas fa-bars"></i>
+      </button>
+
+   </div>
+</header>
+  <main class="container">
+<div class="aeo-authority-block">
+        <a href="/districts/freeport-ufsd/">← Back to Freeport UFSD Hub</a>
+    </div>
+    
+    <div class="content-body" style="margin-top: 30px;">
+        <body>
+  <h1>Student Rights & Discipline in Freeport UFSD: A Parent's Guide</h1>
+
+  <p>Freeport Union Free School District (UFSD), serving the vibrant Freeport community in Nassau County, is dedicated to fostering a safe, equitable, and supportive learning environment for all students. This dedication includes ensuring that students, particularly those with disabilities, fully understand their rights and responsibilities concerning school discipline. Navigating the disciplinary process can be challenging, especially when special education is involved. This guide provides critical information regarding suspensions, manifestation determination reviews, and due process rights within Freeport UFSD.</p>
+
+  <h2>Understanding Suspensions in Freeport UFSD: Your Rights and Responsibilities</h2>
+
+  <p>Suspension from school can have a significant impact on a student's academic progress and overall well-being.  In Freeport UFSD, as in all New York State districts, suspensions must adhere to specific procedural safeguards.  It's critical for parents and guardians to understand these rights to advocate effectively for their children.</p>
+
+  <p><strong>Types of Suspension:</strong></p>
+  <ul>
+    <li><strong>Short-term Suspension (5 days or less):</strong> The student has the right to be informed of the charges against them and given an opportunity to present their side of the story.  While a formal hearing is not always required, the principal must provide a written explanation of the reasons for the suspension. (NYCRR § 100.2(b)(4))</li>
+    <li><strong>Long-term Suspension (more than 5 days):</strong>  For suspensions exceeding five school days, students are entitled to a formal hearing.  This hearing provides the student with the opportunity to present evidence, call witnesses, and cross-examine school officials.  Parents/guardians have the right to be present and to be represented by legal counsel or an advocate.  (NYCRR § 100.2(b)(4))</li>
+  </ul>
+
+    <p><strong>Step-by-Step Guide: Responding to a Suspension Notice in Freeport UFSD</strong></p>
+    <ol>
+        <li><strong>Review the Suspension Notice Carefully:</strong>  Pay close attention to the stated reasons for the suspension, the duration of the suspension, and the date, time, and location of any scheduled hearings. Note any inconsistencies or ambiguities.</li>
+        <li><strong>Request Additional Information:</strong>  If the suspension notice lacks specific details, promptly request a written explanation from the school principal or disciplinarian.  Ask for copies of any incident reports, witness statements, or other evidence supporting the suspension.</li>
+        <li><strong>Prepare Your Child:</strong> Discuss the situation with your child in a calm and supportive manner.  Help them understand the charges against them and prepare them to share their perspective at the hearing. Emphasize the importance of honesty and respect.</li>
+        <li><strong>Gather Evidence:</strong>  Collect any evidence that supports your child's version of events. This could include witness statements, photos, videos, or relevant documentation.</li>
+        <li><strong>Attend the Hearing (if applicable):</strong>  If a hearing is scheduled, attend with your child. Be prepared to present your evidence and question school officials. Bring a support person, such as a friend, family member, or advocate, for moral support and assistance.</li>
+        <li><strong>Consider Legal Representation:</strong>  For serious disciplinary matters, such as long-term suspensions or expulsions, it's advisable to consult with a special education attorney or advocate.  They can provide expert guidance and represent your child's interests throughout the disciplinary process.</li>
+        <li><strong>Document Everything:</strong> Keep a detailed record of all communication with the school district, including emails, letters, and phone calls.  This documentation can be invaluable if you need to appeal the suspension decision.</li>
+    </ol>
+
+    <p><strong>Advocacy Tip:</strong>  Always request the school's policy on student discipline in writing. Familiarize yourself with the specific rules and procedures outlined in the policy.</p>
+
+  <h2>Manifestation Determination Reviews (MDR): Protecting Students with IEPs and 504 Plans</h2>
+
+  <p>A Manifestation Determination Review (MDR) is a critical safeguard under the Individuals with Disabilities Education Act (IDEA) and Section 504 of the Rehabilitation Act. In Freeport UFSD, when a student with an IEP or 504 plan faces suspension exceeding ten school days or expulsion (or a pattern of shorter suspensions that constitute a change of placement), an MDR meeting is convened.  This meeting brings together key stakeholders, including school administrators, the student's IEP team (including parents/guardians), and relevant staff.  The purpose of the MDR is to determine whether the student's behavior leading to the disciplinary action was caused by or directly and substantially related to the student's disability, or if the behavior was a direct result of the district's failure to implement the IEP or 504 plan.  (34 CFR § 300.530(e))</p>
+
+  <p><strong>Key Questions Addressed in an MDR:</strong></p>
+  <ul>
+    <li>Was the conduct in question caused by, or did it have a direct and substantial relationship to, the child's disability?</li>
+    <li>Was the conduct in question the direct result of the LEA's (Local Education Agency's - Freeport UFSD's) failure to implement the IEP?</li>
+  </ul>
+
+  <p><strong>Outcomes of an MDR:</strong></p>
+  <ul>
+    <li><strong>If the behavior was a manifestation of the disability or due to IEP/504 implementation failure:</strong> Disciplinary action may be modified or rescinded. The IEP or 504 plan must be reviewed and revised to address the student's needs and prevent future incidents. The student may be returned to their original placement or placed in an appropriate alternative educational setting.  The district is required to conduct a Functional Behavioral Assessment (FBA), unless one has already been conducted prior to the behavior, and to implement a Behavior Intervention Plan (BIP). (34 CFR § 300.530(f))</li>
+    <li><strong>If the behavior was not a manifestation of the disability and the IEP/504 plan was properly implemented:</strong>  The student may be subject to the same disciplinary actions as students without disabilities. However, the district must still provide Free Appropriate Public Education (FAPE) during the period of suspension or expulsion.</li>
+  </ul>
+
+    <p><strong>Parent Advocacy Tip:</strong>  Thoroughly review your child's IEP or 504 plan before the MDR meeting. Identify any goals, objectives, or accommodations that may be relevant to the behavior in question.  Bring any documentation that supports your position, such as medical reports, therapist notes, or previous behavioral data.</p>
+
+  <p><strong>Common Pitfalls to Watch For During the MDR Process:</strong></p>
+    <ul>
+        <li><strong>Pre-determination:</strong> The school district has already made a decision about the disciplinary action before the MDR meeting takes place.  The MDR should be a genuine collaborative process, not a rubber stamp.</li>
+        <li><strong>Inadequate IEP/504 Plan:</strong>  The student's IEP or 504 plan is not appropriately tailored to their individual needs or does not adequately address their behavioral challenges.</li>
+        <li><strong>Lack of Qualified Participants:</strong> The MDR team does not include individuals with sufficient knowledge of the student's disability and the requirements of the IEP or 504 plan.</li>
+        <li><strong>Ignoring Parent Input:</strong>  The school district does not adequately consider the parents' perspective and input during the MDR process.</li>
+    </ul>
+    
+  <h2>Due Process Rights in Freeport UFSD: Challenging Disciplinary Decisions</h2>
+
+  <p>If you disagree with a disciplinary decision made by Freeport UFSD, including a suspension, expulsion, or the outcome of an MDR, you have the right to challenge the decision through due process. Due process is a formal legal procedure that allows you to present your case to an impartial hearing officer.</p>
+
+  <p><strong>Steps in the Due Process Process:</strong></p>
+  <ol>
+    <li><strong>File a Due Process Complaint:</strong>  To initiate due process, you must file a written complaint with the New York State Education Department (NYSED). The complaint must contain specific information, including the student's name, address, and date of birth; a description of the problem; and the proposed resolution. (34 CFR § 300.507-508)</li>
+    <li><strong>Resolution Meeting:</strong>  Within 15 days of receiving the due process complaint, the school district must convene a resolution meeting with the parents to attempt to resolve the dispute.</li>
+    <li><strong>Mediation:</strong>  If the resolution meeting is unsuccessful, you may request mediation, a voluntary process in which a neutral third party helps the parties reach a mutually agreeable settlement.</li>
+    <li><strong>Due Process Hearing:</strong>  If mediation is unsuccessful, a due process hearing will be conducted before an impartial hearing officer.  At the hearing, you will have the opportunity to present evidence, call witnesses, and cross-examine school officials.</li>
+    <li><strong>Hearing Officer Decision:</strong>  The hearing officer will issue a written decision based on the evidence presented at the hearing.</li>
+    <li><strong>Appeal:</strong>  If you disagree with the hearing officer's decision, you may appeal to the State Review Officer (SRO).</li>
+  </ol>
+
+  <p><strong>Important Considerations for Due Process:</strong></p>
+  <ul>
+    <li><strong>Timelines:</strong>  Strict timelines apply to the due process process. It's essential to adhere to these deadlines to protect your rights.</li>
+    <li><strong>Evidence:</strong>  Gather all relevant evidence to support your case, including school records, medical reports, witness statements, and expert evaluations.</li>
+    <li><strong>Legal Representation:</strong>  Consider seeking legal representation from a special education attorney to navigate the complex due process system.</li>
+  </ul>
+
+  <h2>Frequently Asked Questions (FAQ) about Student Discipline in Freeport UFSD</h2>
+
+    <div class="faq-section">
+        <button class="faq-question">What constitutes a "change of placement" that triggers an MDR?</button>
+        <div class="faq-answer">A "change of placement" occurs when a student is removed from their current educational setting for more than ten consecutive school days, or when a series of shorter suspensions creates a pattern of exclusion. The specific factors considered include the length of each suspension, the proximity of the suspensions to one another, and the total amount of time the student is excluded from school. Even short term suspensions can trigger an MDR if they form a pattern.</div>
+    </div>
+
+    <div class="faq-section">
+        <button class="faq-question">What happens if my child is suspended while waiting for an IEP evaluation?</button>
+        <div class="faq-answer">If the school district knew or should have known that your child had a disability before the behavior that led to the suspension occurred, they may be entitled to the same protections as students with IEPs, including an MDR. This is referred to as "child find". It's crucial to document any concerns you've raised with the school regarding your child's academic or behavioral difficulties. (34 CFR § 300.534)</div>
+    </div>
+
+    <div class="faq-section">
+        <button class="faq-question">Can my child be suspended for behaviors that occur off-campus?</button>
+        <div class="faq-answer">In certain circumstances, Freeport UFSD can discipline students for off-campus behavior if it substantially disrupts the school environment or poses a threat to the safety of students or staff. The district must demonstrate a clear connection between the off-campus behavior and the school environment.</div>
+    </div>
+
+    <div class="faq-section">
+        <button class="faq-question">What is an FBA and a BIP, and how do they relate to student discipline?</button>
+        <div class="faq-answer">An FBA (Functional Behavioral Assessment) is a process used to identify the triggers and functions of a student's challenging behavior. A BIP (Behavior Intervention Plan) is a plan developed based on the findings of the FBA, outlining specific strategies to address the student's behavior and teach them more appropriate ways to respond. These are essential tools for supporting students with disabilities and preventing future disciplinary issues. The district is required to conduct an FBA and BIP when the behavior is determined to be a manifestation of the student's disability.</div>
+    </div>
+
+    <p><strong>Disclaimer:</strong> This information is for general guidance only and does not constitute legal advice. Consult with a qualified special education attorney or advocate for specific legal advice regarding your individual situation.</p>
+
+</body>
+    </div>
+
+    <div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
+        <h3>Need More Help?</h3>
+        <p>Download our complete toolkit for Freeport UFSD parents.</p>
+        <a href="/shop" class="button-primary">Get the Toolkit</a>
+    </div>
+
+    <style>
+        .faq-section {
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            background-color: #f0f0f0;
+            color: #333;
+            padding: 12px;
+            border: none;
+            text-align: left;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .faq-answer {
+            padding: 0 12px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: #fff;
+        }
+
+        .faq-section.active .faq-answer {
+            max-height: 500px; /* Adjust as needed */
+            padding: 12px;
+        }
+
+        /* Basic button styling */
+        .button-primary {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .button-primary:hover {
+            background-color: #0056b3;
+        }
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqSections = document.querySelectorAll('.faq-section');
+
+            faqSections.forEach(section => {
+                const question = section.querySelector('.faq-question');
+                const answer = section.querySelector('.faq-answer');
+
+                question.addEventListener('click', () => {
+                    section.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</main>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+   <div class="footer-container">
+
+      <!-- COL 1: Brand & Mission -->
+      <div class="footer-brand">
+         <h3>NY Special Ed<span>.com</span></h3>
+         <p>
+            Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+         </p>
+         <div style="margin-top: 20px;">
+            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+         </div>
+      </div>
+
+      <!-- COL 2: Essential Guides -->
+      <div class="footer-col">
+         <h4>NY Parent Guides</h4>
+         <ul class="footer-links">
+            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
+            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 3: Top Districts -->
+      <div class="footer-col">
+         <h4>Popular Districts</h4>
+         <ul class="footer-links">
+            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 4: Legal & Contact -->
+      <div class="footer-col">
+         <h4>Resources</h4>
+         <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Support</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+         </ul>
+      </div>
+
+   </div>
+
+   <!-- Bottom Bar -->
+   <div class="footer-bottom">
+      <p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+         For official inquiries, visit schools.nyc.gov or nysed.gov.
+      </p>
+   </div>
+</footer>
+</body>
+</html>

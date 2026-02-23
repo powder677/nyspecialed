@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Discipline Rights in William Floyd UFSD</title>
+  <meta name="description" content="Suspension, MDR, and discipline rights for students with disabilities in William Floyd UFSD.">
+  
+<link rel="stylesheet" href="/styles/global.css">
+<link rel="stylesheet" href="/styles/styles-nav-footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+   <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="/" class="nav-logo">
+         NY Special Ed<span>.com</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+         <ul class="nav-links">
+
+            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+            <li class="nav-item">
+               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
+               <div class="mega-menu">
+                  <div class="menu-column">
+                     <h4>Manhattan (D1-6)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Brooklyn (Key Districts)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Queens & SI</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+            <li class="nav-item">
+               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <h4>Big 5 Cities</h4>
+                     <ul>
+                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+            <li class="nav-item">
+               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <ul>
+                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- LINK: RESOURCES -->
+            <li class="nav-item">
+               <a href="/resources/" class="nav-link">Free Tools</a>
+            </li>
+
+            <!-- CTA -->
+            <li class="nav-item">
+               <a href="/shop" class="nav-cta">Get The Toolkit</a>
+            </li>
+         </ul>
+      </nav>
+
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Open Navigation">
+         <i class="fas fa-bars"></i>
+      </button>
+
+   </div>
+</header>
+  <main class="container">
+<div class="aeo-authority-block">
+        <a href="/districts/william-floyd-ufsd/">← Back to William Floyd UFSD Hub</a>
+    </div>
+    
+    <div class="content-body" style="margin-top: 30px;">
+        <body>
+    <h1>Student Rights & Discipline in William Floyd UFSD: A Parent's Guide</h1>
+
+    <p>William Floyd Union Free School District (WF UFSD), serving Mastic and Shirley in Suffolk County, is committed to providing a safe and supportive learning environment for all students. However, navigating disciplinary actions, especially for students with disabilities, can be complex. This guide provides essential information on student rights, disciplinary procedures, Manifestation Determination Reviews (MDRs), and Due Process within WF UFSD. Understanding your rights and the district's obligations under federal and New York State law is crucial to advocating effectively for your child.</p>
+
+    <h2>Manifestation Determination Review (MDR): Protecting Students with Disabilities</h2>
+
+    <p>A Manifestation Determination Review (MDR) is a critical safeguard mandated by the Individuals with Disabilities Education Act (IDEA) when a student with a disability faces disciplinary action that results in a suspension exceeding 10 school days (either consecutive or cumulative in a school year) or any disciplinary change in placement.  According to 34 CFR § 300.530 and New York State Part 200 Regulations §201.7, the purpose of the MDR is to determine if the student's behavior was caused by, or had a direct and substantial relationship to, the student's disability, OR if the behavior was a direct result of the district's failure to implement the student's Individualized Education Program (IEP).  Essentially, the MDR seeks to answer: Was the student's disability a factor in the misbehavior, or did the district fail to provide the supports and services outlined in the IEP?</p>
+
+    <h3>The MDR Process: A Step-by-Step Guide for Parents</h3>
+
+    <ol>
+        <li><b>Triggering Event:</b>  The school proposes a suspension that will result in a removal of more than 10 school days in a school year or a change of placement.</li>
+        <li><b>Notification:</b> The WF UFSD must notify you of the decision to take disciplinary action *and* of your procedural safeguards under IDEA. This notice MUST be provided in your native language. Per NYS Part 200.5(a), parent notice must be "clear and easily understood."</li>
+        <li><b>IEP Team Review:</b>  Within 10 school days of the decision to change the student's placement because of a violation of a code of student conduct, the WF UFSD, the parent, and relevant members of the IEP Team (as determined by the parent and the school district) must conduct a manifestation determination review (MDR).</li>
+        <li><b>Data Review:</b> The IEP Team must review all relevant information in the student's file, including the IEP, teacher observations, and any relevant information provided by the parents.  This includes, but is not limited to, the student's complete educational record, assessments, and behavior data.</li>
+        <li><b>Determination:</b>  The IEP Team determines whether the conduct was caused by or directly and substantially related to the child's disability, OR whether the conduct was the direct result of the WF UFSD's failure to implement the IEP.</li>
+        <li><b>Outcomes:</b>
+            <ul>
+                <li><b>Manifestation:</b> If the IEP Team determines that the conduct *was* a manifestation of the student's disability OR a result of the district's failure to implement the IEP, the IEP Team must:
+                    <ul>
+                        <li>Conduct a functional behavioral assessment (FBA), unless the WF UFSD had conducted one before the behavior occurred;</li>
+                        <li>Implement a behavior intervention plan (BIP) for the student; and</li>
+                        <li>Return the student to the placement from which the student was removed, unless the parent and the WF UFSD agree to a change of placement as part of the modification of the BIP.</li>
+						<li>**IMPORTANT:** The BIP should address the problematic behavior and prevent its recurrence.  Parents should actively participate in the development and implementation of the BIP.</li>
+                    </ul>
+                </li>
+                <li><b>No Manifestation:</b> If the IEP Team determines that the conduct was *not* a manifestation of the student's disability AND was not a result of the district's failure to implement the IEP, the student may be disciplined in the same manner as non-disabled students. However, the school district MUST continue to provide FAPE (Free Appropriate Public Education) to the student in the disciplinary setting.  According to 34 CFR § 300.530(d), FAPE must be provided even if the student is suspended or expelled.</li>
+            </ul>
+        </li>
+        <li><b>Parent Rights:</b> Parents have the right to disagree with the MDR determination.  If you disagree, you have the right to request a Due Process hearing. See the section below on Due Process.</li>
+    </ol>
+
+    <h3>Parent Advocacy Tips for MDRs in William Floyd UFSD</h3>
+
+    <ul>
+        <li><b>Prepare Thoroughly:</b>  Gather all relevant documentation, including the IEP, progress reports, behavior data, and any communication with school staff regarding your child's behavior.</li>
+        <li><b>Active Participation:</b>  Actively participate in the MDR meeting. Share your insights and concerns about your child's behavior and the implementation of the IEP.  Don't be afraid to ask clarifying questions.</li>
+        <li><b>Focus on Causation:</b>  Clearly articulate how your child's disability contributed to the behavior in question.  Provide specific examples and evidence to support your claims.</li>
+        <li><b>IEP Implementation:</b>  Scrutinize the implementation of the IEP.  Were all the supports and services outlined in the IEP provided consistently and effectively?  Document any instances where the IEP was not followed.</li>
+        <li><b>Request Independent Evaluation:</b> If you believe an independent educational evaluation (IEE) is necessary to determine the relationship between your child's disability and the behavior, request one in writing. WF UFSD may pay for the IEE or request a Due Process hearing to show that their evaluation was appropriate. (34 CFR § 300.502).</li>
+		<li><b>Document Everything:</b> Keep detailed records of all meetings, communications, and incidents related to your child's discipline.  This documentation will be invaluable if you need to pursue further action.</li>
+    </ul>
+
+    <h3>Common Pitfalls to Watch Out For in MDR Meetings</h3>
+
+    <ul>
+        <li><b>Predetermined Outcomes:</b>  Be wary of MDR meetings where the outcome seems predetermined.  The IEP Team should genuinely consider all information before making a determination.</li>
+        <li><b>Lack of Expertise:</b> Ensure that the IEP Team has the necessary expertise to understand your child's disability and its potential impact on behavior.</li>
+        <li><b>Ignoring Parent Input:</b>  Ensure that your input as a parent is valued and considered. The MDR is a collaborative process, and parents are essential members of the IEP Team.</li>
+        <li><b>Insufficient Data Review:</b>  The IEP Team must review *all* relevant information.  Don't allow the team to gloss over important data or focus solely on the incident in question.</li>
+        <li><b>Failure to Address IEP Implementation:</b>  The MDR must address whether the district properly implemented the IEP.  This is a crucial element, and it should not be overlooked.</li>
+    </ul>
+
+    <h2>Navigating Suspensions in WF UFSD: A Parent's Checklist</h2>
+
+    <p>If your child is facing a suspension in William Floyd UFSD, it's important to act quickly and strategically. </p>
+    <ol>
+        <li><b>Understand the Charges:</b> Request a written explanation of the specific misconduct that led to the suspension.  The explanation should include the date, time, location, and a detailed description of the incident.</li>
+        <li><b>Review the Student Code of Conduct:</b>  Familiarize yourself with WF UFSD's student code of conduct.  Ensure that the alleged misconduct violates a specific rule or policy.</li>
+        <li><b>Gather Information:</b>  Talk to your child to get their perspective on the incident.  Identify any potential witnesses who can corroborate your child's account.</li>
+        <li><b>Document Everything:</b>  Keep a record of all communications with school officials, including dates, times, and the content of the conversations.</li>
+        <li><b>Attend All Meetings:</b>  Actively participate in all meetings related to the suspension, including conferences with school administrators and disciplinary hearings. Bring a support person or advocate if possible.</li>
+        <li><b>Know Your Rights:</b>  Familiarize yourself with your child's rights regarding due process, including the right to present evidence, call witnesses, and cross-examine witnesses. According to Goss v. Lopez, 419 U.S. 565 (1975) students are entitled to certain due process rights before being suspended, including oral or written notice of the charges, an explanation of the evidence, and an opportunity to present their side of the story.</li>
+        <li><b>Seek Support:</b> Consider contacting an advocate or attorney specializing in education law for guidance.  They can help you understand your rights, navigate the disciplinary process, and advocate for your child's best interests. Local resources are listed below.</li>
+		<li><b>Demand a Fair Hearing:</b> If the suspension is long-term (more than 5 days), insist on a formal hearing where evidence is presented and you have the opportunity to challenge the school's case.</li>
+    </ol>
+    <p> Remember, clear communication, thorough preparation, and a strong understanding of the procedures can help ensure a fair outcome for your child.</p>
+
+    <h2>Due Process: Your Right to Challenge Disciplinary Actions</h2>
+
+    <p>If you disagree with the outcome of a Manifestation Determination Review, a disciplinary decision, or any other decision related to your child's special education, you have the right to request a Due Process hearing. Due Process is a formal legal process that allows you to present your case to an impartial hearing officer. (34 CFR § 300.507). Filing for Due Process sets specific timelines that both the parents and the school district must follow.</p>
+
+    <h3>Steps to Request a Due Process Hearing in New York State</h3>
+
+    <ol>
+        <li><b>File a Due Process Complaint:</b>  You must file a written Due Process complaint with the New York State Education Department (NYSED) and provide a copy to the WF UFSD. The complaint must include:
+            <ul>
+                <li>The name and address of the child.</li>
+                <li>The name of the school the child attends.</li>
+                <li>A description of the nature of the problem, including the facts relating to the problem.</li>
+                <li>A proposed resolution of the problem to the extent known and available to the parent at the time.</li>
+        </ul></li>
+        <li><b>Sufficiency of Complaint:</b> The school district has 15 days to respond and challenge the sufficiency of your complaint if it does not meet the requirements above.</li>
+        <li><b>Resolution Session:</b> Within 15 days of receiving the Due Process complaint, the WF UFSD must convene a resolution session with you and relevant members of the IEP Team, unless you both agree to waive the session. The purpose of the resolution session is to attempt to resolve the dispute.</li>
+        <li><b>Hearing Rights:</b> If the issue is not resolved during the resolution session, you have the right to a hearing conducted by an impartial hearing officer (IHO). The IHO is assigned by NYSED.</li>
+        <li><b>Hearing Procedures:</b> During the hearing, you have the right to:
+            <ul>
+                <li>Be accompanied and advised by counsel and by individuals with special knowledge or training with respect to the problems of children with disabilities.</li>
+                <li>Present evidence and examine witnesses.</li>
+                <li>Prohibit the introduction of any evidence at the hearing that has not been disclosed to you at least five business days before the hearing.</li>
+                <li>Obtain a written or electronic verbatim record of the hearing.</li>
+                <li>Obtain written findings of fact and decisions.</li>
+            </ul></li>
+        <li><b>Timeline:</b> The IHO must issue a decision within 45 days of the expiration of the 30-day resolution period (unless specific extensions are granted).</li>
+        <li><b>Appeals:</b> If you disagree with the decision of the IHO, you have the right to appeal to the State Review Officer (SRO) within 30 days of the IHO decision.</li>
+    </ol>
+
+    <h3>Important Considerations for Due Process</h3>
+
+    <ul>
+        <li><b>Statute of Limitations:</b> There is a statute of limitations for filing a Due Process complaint. You generally have two years from the date you knew or should have known about the alleged violation to file a complaint.</li>
+        <li><b>Stay Put:</b> During the pendency of any Due Process proceedings, your child has the right to remain in their current educational placement (the "stay put" provision), unless you and the WF UFSD agree otherwise. (34 CFR § 300.518)</li>
+        <li><b>Legal Representation:</b> Due Process hearings can be complex and time-consuming. Consider seeking legal representation from an attorney specializing in special education law.</li>
+    </ul>
+
+    <h2>Frequently Asked Questions (FAQ)</h2>
+
+    <dl>
+        <dt><b>Q: What is the difference between a suspension and an expulsion?</b></dt>
+        <dd><b>A:</b> A suspension is a temporary removal from school, while an expulsion is a permanent removal. In New York State, only the Board of Education can expel a student. Expulsions are rare, but more common when a student brings a weapon or drugs to school.</dd>
+
+        <dt><b>Q: What is FAPE, and how does it relate to discipline?</b></dt>
+        <dd><b>A:</b> FAPE stands for Free Appropriate Public Education. Under IDEA, all students with disabilities are entitled to FAPE. Even when a student with a disability is suspended or expelled, the school district must continue to provide FAPE. This may include providing alternative educational services, such as tutoring or online learning.</dd>
+
+        <dt><b>Q: Can a student with a disability be suspended for more than 10 days?</b></dt>
+        <dd><b>A:</b> Yes, a student with a disability can be suspended for more than 10 days, but only after a Manifestation Determination Review (MDR). If the behavior is determined to be a manifestation of the student's disability, the student must be returned to their previous placement, unless the parents and school district agree otherwise. FAPE must still be provided during the suspension. </dd>
+
+        <dt><b>Q: What if my child's behavior is dangerous?</b></dt>
+        <dd><b>A:</b> If your child's behavior poses a danger to themselves or others, the school district may remove the student to an interim alternative educational setting (IAES) for up to 45 school days, regardless of whether the behavior is a manifestation of the student's disability. (34 CFR § 300.532). However, the IEP team must determine the IAES and FAPE must still be provided.</dd>
+
+        <dt><b>Q: Who can I contact for help with special education issues in William Floyd UFSD?</b></dt>
+        <dd><b>A:</b> You can contact the William Floyd UFSD Special Education Department directly. You can also contact local parent advocacy organizations and attorneys specializing in special education law. (See contact information below).</dd>
+    </dl>
+
+	<h2>Local Resources and Contacts</h2>
+	<ul>
+		<li><b>William Floyd UFSD Special Education Department:</b> [Insert Phone Number and Email Here]</li>
+		<li><b>[Insert Local Parent Advocacy Group Here - with website if available]</b></li>
+		<li><b>[Insert Information for the Suffolk County Special Education PTA (SEPTA) if Available]</b></li>
+		<li><b>[Insert Name of Local Attorneys Specializing in Education Law]</b></li>
+	</ul>
+
+</body>
+    </div>
+
+    <div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
+        <h3>Need More Help?</h3>
+        <p>Download our complete toolkit for William Floyd UFSD parents.</p>
+        <a href="/shop" class="button-primary">Get the Toolkit</a>
+    </div>
+</main>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+   <div class="footer-container">
+
+      <!-- COL 1: Brand & Mission -->
+      <div class="footer-brand">
+         <h3>NY Special Ed<span>.com</span></h3>
+         <p>
+            Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+         </p>
+         <div style="margin-top: 20px;">
+            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+         </div>
+      </div>
+
+      <!-- COL 2: Essential Guides -->
+      <div class="footer-col">
+         <h4>NY Parent Guides</h4>
+         <ul class="footer-links">
+            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
+            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 3: Top Districts -->
+      <div class="footer-col">
+         <h4>Popular Districts</h4>
+         <ul class="footer-links">
+            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 4: Legal & Contact -->
+      <div class="footer-col">
+         <h4>Resources</h4>
+         <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Support</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+         </ul>
+      </div>
+
+   </div>
+
+   <!-- Bottom Bar -->
+   <div class="footer-bottom">
+      <p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+         For official inquiries, visit schools.nyc.gov or nysed.gov.
+      </p>
+   </div>
+</footer>
+</body>
+</html>

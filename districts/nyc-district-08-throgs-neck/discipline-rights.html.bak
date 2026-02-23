@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Discipline Rights in District 8</title>
+  <meta name="description" content="Suspension, MDR, and discipline rights for students with disabilities in District 8.">
+  
+<link rel="stylesheet" href="/styles/global.css">
+<link rel="stylesheet" href="/styles/styles-nav-footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+   <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="/" class="nav-logo">
+         NY Special Ed<span>.com</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+         <ul class="nav-links">
+
+            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+            <li class="nav-item">
+               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
+               <div class="mega-menu">
+                  <div class="menu-column">
+                     <h4>Manhattan (D1-6)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Brooklyn (Key Districts)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Queens & SI</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+            <li class="nav-item">
+               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <h4>Big 5 Cities</h4>
+                     <ul>
+                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+            <li class="nav-item">
+               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <ul>
+                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- LINK: RESOURCES -->
+            <li class="nav-item">
+               <a href="/resources/" class="nav-link">Free Tools</a>
+            </li>
+
+            <!-- CTA -->
+            <li class="nav-item">
+               <a href="/shop" class="nav-cta">Get The Toolkit</a>
+            </li>
+         </ul>
+      </nav>
+
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Open Navigation">
+         <i class="fas fa-bars"></i>
+      </button>
+
+   </div>
+</header>
+  <main class="container">
+<div class="aeo-authority-block">
+        <a href="/districts/nyc-district-08-throgs-neck/">← Back to District 8 Hub</a>
+    </div>
+    
+    <div class="content-body" style="margin-top: 30px;">
+        <body>
+    <h1>Student Rights & Discipline in District 8: A Guide for Parents</h1>
+
+    <p>In NYC District 8 (Throgs Neck, Pelham Bay, Country Club, City Island, Co-op City), ensuring a safe and supportive learning environment for all students is a top priority. This means understanding student rights, responsible discipline policies, and, importantly, the specific protections afforded to students with disabilities. This guide provides information and actionable steps for parents navigating disciplinary issues in District 8, with a focus on Manifestation Determination Reviews (MDRs) and Due Process rights under the Individuals with Disabilities Education Act (IDEA).</p>
+
+    <h2>Understanding Disciplinary Procedures in NYC Schools</h2>
+
+    <p>The New York City Department of Education (NYC DOE) follows a specific code of conduct and disciplinary procedures. It’s crucial to familiarize yourself with these guidelines, which are often available on the NYC DOE website and within individual school handbooks. Key elements to be aware of include:</p>
+
+    <ul>
+        <li><strong>Levels of Offenses:</strong> Understand the different categories of offenses and corresponding disciplinary actions. Minor infractions might result in verbal warnings or detentions, while more serious offenses could lead to suspension or even expulsion.</li>
+        <li><strong>Due Process Rights:</strong> All students, regardless of disability status, have due process rights when facing disciplinary action. This includes the right to be informed of the charges, the right to present their side of the story, and the right to appeal a disciplinary decision.</li>
+        <li><strong>Suspension Policies:</strong> Be aware of the district's suspension policies, including the length of suspensions for different offenses and the procedures for appealing a suspension.</li>
+    </ul>
+
+    <h2>Manifestation Determination Reviews (MDRs): Protecting Students with IEPs</h2>
+
+    <p>Federal law (IDEA) mandates Manifestation Determination Reviews (MDRs) for students with disabilities who are facing suspension exceeding 10 school days or a series of shorter suspensions that constitute a pattern of exclusion from their educational placement. This is outlined in 34 CFR § 300.530. An MDR determines if the student's behavior was caused by, or directly and substantially related to, their disability, or if the conduct was a direct result of the school district’s failure to implement the student's Individualized Education Program (IEP). If either of these conditions is met, the behavior is deemed a "manifestation" of the disability, and disciplinary actions may need to be adjusted or rescinded.</p>
+
+    <p>The IEP team, including the parent, must conduct the MDR. According to NYS Part 201.5(c), the review should consider all relevant information in the student’s file, including the IEP, teacher observations, and any relevant information provided by the parent.
+    </p>
+
+    <h3>When is an MDR Required?</h3>
+    <ul>
+        <li><strong>Suspension Exceeding 10 School Days:</strong> If your child is facing a suspension of more than 10 consecutive school days, an MDR must be conducted.</li>
+        <li><strong>Pattern of Suspensions:</strong> Even if individual suspensions are less than 10 days, a pattern of removals may trigger an MDR. Factors considered include the length of each removal, the proximity of the removals to one another, and the total amount of time the student is excluded from school.</li>
+    </ul>
+
+    <h3>The MDR Process: A Step-by-Step Guide for Parents</h3>
+    <ol>
+        <li><strong>Notification:</strong> The school must notify you of the pending disciplinary action and inform you of your right to participate in an MDR.</li>
+        <li><strong>Record Review:</strong> Gather all relevant documents, including your child's IEP, evaluation reports, progress reports, and any communication with the school regarding your child's behavior.</li>
+        <li><strong>MDR Meeting:</strong> Attend the MDR meeting and actively participate in the discussion. Be prepared to present your perspective on the relationship between your child's disability and the behavior in question. Bring any supporting documentation.</li>
+        <li><strong>IEP Team Responsibilities:</strong> The IEP team must determine:
+            <ul>
+                <li>If the conduct in question was caused by, or had a direct and substantial relationship to, the child's disability; OR</li>
+                <li>If the conduct in question was the direct result of the school district's failure to implement the IEP.</li>
+            </ul>
+        </li>
+        <li><strong>Outcome:</strong> If the behavior is determined to be a manifestation of the disability, the IEP team must conduct a functional behavioral assessment (FBA), unless one has already been conducted, and implement a behavioral intervention plan (BIP). If a BIP is already in place, it must be reviewed and modified as necessary to address the behavior. The student must be returned to their placement unless the parents and the school agree to a change of placement as part of the modification of the BIP.</li>
+        <li><strong>No Manifestation:</strong> If the behavior is determined *not* to be a manifestation of the disability, the student may be subject to the same disciplinary actions as students without disabilities. However, the school must still provide services to the student so that they can continue to participate in the general education curriculum, although in another setting, and continue to progress toward meeting the goals set out in the student’s IEP.</li>
+        <li><strong>Disagreement:</strong> If you disagree with the outcome of the MDR, you have the right to challenge the decision through due process.</li>
+    </ol>
+
+    <h2>Advice Regarding Suspensions in District 8: A Parent's Checklist</h2>
+    <p>If your child faces a suspension in District 8, act swiftly and strategically. Remember these crucial points:</p>
+    <ol>
+        <li><strong>Demand Written Notification:</strong> Immediately request a written explanation of the charges against your child. This notification must be clear, specific, and include the alleged violation of the school's code of conduct.</li>
+        <li><strong>Request a Hearing:</strong> You have the right to a hearing to challenge the suspension. Request this hearing in writing as soon as possible. Understand your rights regarding presenting evidence and questioning witnesses at the hearing.</li>
+        <li><strong>IEP Review is Critical:</strong> If your child has an IEP, ensure an MDR is conducted within the mandated timeframe if the suspension exceeds 10 school days or if there is a pattern of removals. Advocate for a thorough and impartial MDR process.</li>
+        <li><strong>Document Everything:</strong> Keep meticulous records of all communication with the school, including emails, letters, and phone calls. Note the dates, times, and content of each communication.</li>
+        <li><strong>Seek Expert Assistance:</strong> Don't hesitate to seek legal counsel from a special education attorney or advocate assistance from a qualified professional if you believe your child's rights are being violated. Early intervention can often prevent further complications.</li>
+        <li><strong>Understand "Stay Put":</strong> If you disagree with a proposed change of placement resulting from disciplinary action and file for due process, the "stay put" provision of IDEA (20 U.S.C. § 1415(j)) generally requires that your child remain in their current placement during the pendency of the due process proceedings. However, there are exceptions, so consult with an attorney.</li>
+    </ol>
+
+    <h2>Common District 8 Pitfalls & How to Avoid Them</h2>
+    <ul>
+        <li><strong>Inadequate IEP Implementation:</strong> A frequent issue is the school's failure to fully implement a student's IEP. This can be a key factor in MDRs. Document any instances where the IEP is not being followed and bring this to the attention of the IEP team and school administration.</li>
+        <li><strong>Insufficient FBAs/BIPs:</strong> Sometimes, FBAs are not comprehensive, or BIPs are not effectively implemented or monitored. If you believe the FBA or BIP is inadequate, request a reevaluation or modification.</li>
+        <li><strong>Lack of Communication:</strong> Poor communication between the school and parents can exacerbate disciplinary issues. Proactively communicate with teachers and school staff to address concerns early on.</li>
+        <li><strong>Pressure to Accept Suspensions:</strong> Some parents may feel pressured to accept suspensions without fully understanding their rights. Remember that you have the right to challenge a suspension and request a hearing.</li>
+    </ul>
+
+    <h2>FAQ: Discipline & Special Education in District 8</h2>
+    <dl>
+        <dt><strong>Q: What if my child's behavior is dangerous?</strong></dt>
+        <dd>A: Schools have the right to remove a student to an interim alternative educational setting (IAES) for up to 45 school days if the student has inflicted serious bodily injury upon another person. They can also seek an expedited due process hearing to request a longer removal if they believe the student poses a danger to themselves or others. During this time, the student is still entitled to services that allow them to participate in the general education curriculum and progress toward their IEP goals.</dd>
+        <dt><strong>Q: What are my rights during a suspension hearing?</strong></dt>
+        <dd>A: During a suspension hearing, you have the right to be present, to present evidence, to call witnesses, and to cross-examine witnesses presented by the school. You also have the right to be represented by an attorney or advocate.</dd>
+        <dt><strong>Q: What is an Interim Alternative Educational Setting (IAES)?</strong></dt>
+        <dd>A: An IAES is a temporary placement for a student who has been removed from their regular school setting due to disciplinary reasons. The IAES must provide services that allow the student to continue to participate in the general education curriculum and progress toward their IEP goals.</dd>
+        <dt><strong>Q: What if I disagree with the school's disciplinary action?</strong></dt>
+        <dd>A: If you disagree with the school's disciplinary action, you have the right to file for due process. Due process is a formal process that allows you to challenge the school's decision and request a hearing before an impartial hearing officer. You can also pursue mediation to attempt to resolve the dispute informally.</dd>
+        <dt><strong>Q: Where can I find the NYC DOE's Discipline Code?</strong></dt>
+        <dd>A: The NYC DOE's Discipline Code is typically available on the DOE website. Search for "NYC DOE Discipline Code" or contact your child's school for a copy.</dd>
+    </dl>
+
+    <h2>Key Takeaways for District 8 Parents</h2>
+    <ul>
+        <li>Know your child's rights under IDEA and the NYC DOE's disciplinary policies.</li>
+        <li>Actively participate in your child's IEP process and ensure the IEP is being fully implemented.</li>
+        <li>Document all communication with the school and keep detailed records of any disciplinary incidents.</li>
+        <li>Don't hesitate to seek legal counsel or advocate assistance if you believe your child's rights are being violated.</li>
+        <li>Proactively communicate with the school to address concerns early on and prevent escalation.</li>
+    </ul>
+
+    <p>By understanding your rights and responsibilities, you can effectively advocate for your child and ensure they receive a fair and appropriate education in District 8.</p>
+</body>
+    </div>
+
+    <div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
+        <h3>Need More Help?</h3>
+        <p>Download our complete toolkit for District 8 parents.</p>
+        <a href="/shop" class="button-primary">Get the Toolkit</a>
+    </div>
+</main>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+   <div class="footer-container">
+
+      <!-- COL 1: Brand & Mission -->
+      <div class="footer-brand">
+         <h3>NY Special Ed<span>.com</span></h3>
+         <p>
+            Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+         </p>
+         <div style="margin-top: 20px;">
+            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+         </div>
+      </div>
+
+      <!-- COL 2: Essential Guides -->
+      <div class="footer-col">
+         <h4>NY Parent Guides</h4>
+         <ul class="footer-links">
+            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
+            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 3: Top Districts -->
+      <div class="footer-col">
+         <h4>Popular Districts</h4>
+         <ul class="footer-links">
+            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 4: Legal & Contact -->
+      <div class="footer-col">
+         <h4>Resources</h4>
+         <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Support</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+         </ul>
+      </div>
+
+   </div>
+
+   <!-- Bottom Bar -->
+   <div class="footer-bottom">
+      <p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+         For official inquiries, visit schools.nyc.gov or nysed.gov.
+      </p>
+   </div>
+</footer>
+</body>
+</html>

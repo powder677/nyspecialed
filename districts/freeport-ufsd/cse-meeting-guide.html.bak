@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSE Meeting Guide for Freeport UFSD</title>
+  <meta name="description" content="Prepare for your Committee on Special Education meeting in Freeport UFSD. Tips for Bilingual community, inclusion programs, CSE process.">
+  
+<link rel="stylesheet" href="/styles/global.css">
+<link rel="stylesheet" href="/styles/styles-nav-footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+   <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="/" class="nav-logo">
+         NY Special Ed<span>.com</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+         <ul class="nav-links">
+
+            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+            <li class="nav-item">
+               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
+               <div class="mega-menu">
+                  <div class="menu-column">
+                     <h4>Manhattan (D1-6)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Brooklyn (Key Districts)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Queens & SI</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+            <li class="nav-item">
+               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <h4>Big 5 Cities</h4>
+                     <ul>
+                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+            <li class="nav-item">
+               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <ul>
+                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- LINK: RESOURCES -->
+            <li class="nav-item">
+               <a href="/resources/" class="nav-link">Free Tools</a>
+            </li>
+
+            <!-- CTA -->
+            <li class="nav-item">
+               <a href="/shop" class="nav-cta">Get The Toolkit</a>
+            </li>
+         </ul>
+      </nav>
+
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Open Navigation">
+         <i class="fas fa-bars"></i>
+      </button>
+
+   </div>
+</header>
+  <main class="container">
+<div class="aeo-authority-block">
+        <a href="/districts/freeport-ufsd/">← Back to Freeport UFSD Hub</a>
+    </div>
+    
+    <div class="content-body" style="margin-top: 30px;">
+        <body>
+  <h2>Navigating the CSE Meeting in Freeport UFSD: A Parent's Guide</h2>
+
+  <p>Understanding the Committee on Special Education (CSE) process is crucial for families in Freeport UFSD, particularly given our vibrant bilingual community and commitment to inclusion.  These meetings are designed to create an Individualized Education Program (IEP) tailored to your child's unique needs and designed to provide them with a Free and Appropriate Public Education (FAPE) in the Least Restrictive Environment (LRE) as mandated by the Individuals with Disabilities Education Act (IDEA). This guide will help you navigate the CSE process effectively.</p>
+
+  <p><b>Before the CSE Meeting: Preparation is Key</b></p>
+
+  <p>Effective advocacy begins before you even step into the CSE meeting room.  Here's a step-by-step guide to ensure you're prepared:</p>
+
+  <ol>
+    <li><b>Review Your Child's Records:</b> Obtain and thoroughly review all of your child's educational records, including psychological evaluations, academic assessments, medical reports, and previous IEPs.  You are entitled to these records under IDEA. <i>(See 34 CFR § 300.501)</i>  Pay close attention to any areas where your child is struggling or excelling.  Identify any discrepancies or areas where further evaluation may be needed.</li>
+    <li><b>Document Your Concerns:</b>  Keep a detailed log of your observations regarding your child's academic, social, and emotional development.  Note any challenges they face at home or in school, and any strategies that you've found to be effective.  This documentation will be invaluable during the CSE meeting.</li>
+    <li><b>Prepare a Parent Input Statement:</b>  Write a concise and focused statement outlining your concerns, goals, and vision for your child's education. This is your opportunity to clearly communicate your perspective to the CSE team.  Be specific about the supports and services you believe your child needs.</li>
+    <li><b>Consider Independent Educational Evaluations (IEEs):</b> If you disagree with the school's evaluations, you have the right to obtain an IEE at public expense if certain conditions are met.  <i>(See 34 CFR § 300.502)</i>  An IEE can provide valuable objective data to support your advocacy efforts.  Contact the district's special education office for information on their IEE policy.</li>
+    <li><b>Know Your Rights:</b> Familiarize yourself with the Individuals with Disabilities Education Act (IDEA) and New York State Part 200 Regulations.  Understanding your rights and the school's obligations will empower you to be an effective advocate for your child. You can find this information on the NYSED website.</li>
+    <li><b>Bring a Support Person:</b>  You have the right to bring a friend, advocate, or attorney to the CSE meeting.  Having a support person can provide emotional support and help you remember important details.  Inform the CSE chair in advance if you plan to bring someone.</li>
+  </ol>
+
+  <p><b>Who's at the Table? Understanding the CSE Team</b></p>
+  <p>The Committee on Special Education (CSE) is a multidisciplinary team responsible for developing, reviewing, and revising the IEP for students with disabilities. Understanding the role of each member is crucial for effective collaboration:</p>
+  <ul>
+    <li><b>The CSE Chairperson:</b> This individual oversees the meeting, ensuring all participants have the opportunity to contribute and that the IEP adheres to legal requirements. They are responsible for facilitating the discussion, keeping the meeting on track, and ensuring that all required components of the IEP are addressed. It's their job to make sure everyone understands the process.</li>
+    <li><b>Parent Member:</b> This member, often another parent of a student with disabilities within Freeport UFSD, can offer valuable support and insight into navigating the special education system. They provide a parent's perspective and can advocate on your behalf.  They can share their experiences and offer practical advice. New York State requires that each CSE have at least one Parent Member.</li>
+    <li><b>Your Child's Teacher(s):</b> General education and/or special education teachers who work directly with your child. They provide valuable insights into your child's academic performance, behavior, and learning style in the classroom setting. The general education teacher’s participation is especially crucial if your child is, or may be, participating in the regular education environment.</li>
+    <li><b>School Psychologist/Special Education Staff:</b> Who can provide assessments and interpret assessment data.  They can offer insights into your child's cognitive, academic, and social-emotional functioning. They will explain the results of any testing that has been done.</li>
+    <li><b>A Representative of the School District:</b>  This individual is knowledgeable about the general education curriculum and the resources available to the school district. They ensure that the IEP can be implemented effectively within the school setting.</li>
+    <li><b>(As Appropriate) The Student:</b>  Whenever appropriate, the student should be involved in the IEP process, especially as they get older. Their input and perspective are invaluable. IDEA mandates that the student be invited to attend the CSE meeting when transition services are being discussed (typically around age 16).</li>
+     <li><b>Related Service Providers:</b>  These professionals (e.g., speech-language pathologists, occupational therapists, physical therapists, counselors) provide specialized support services to help your child achieve their IEP goals. They can provide valuable information about your child's needs and the services they require.</li>
+  </ul>
+
+  <p><b>Addressing the Unique Needs of Freeport's Community: Culturally Responsive IEPs</b></p>
+  <p>As a district serving a large bilingual community, the CSE process in Freeport UFSD must be sensitive to linguistic and cultural differences. It’s vital to ensure that assessments are conducted in your child's native language, if necessary, and that the IEP considers their cultural background. <i>(See 8 NYCRR §200.4(b)(1)(ii))</i></p>
+
+  <p><b>Key Considerations for Bilingual Students:</b></p>
+  <ul>
+    <li><b>Language Proficiency Assessments:</b> Ensure that your child's language proficiency in both English and their native language is thoroughly assessed.  The results of these assessments should inform the IEP goals and services.</li>
+    <li><b>Bilingual Education Services:</b>  If your child requires bilingual education services, the IEP must specify the type of services, the amount of time dedicated to each language, and the qualifications of the personnel providing the services.</li>
+    <li><b>Culturally Relevant Materials:</b>  Advocate for the use of culturally relevant materials and instructional strategies that are aligned with your child's cultural background.</li>
+    <li><b>Parent Communication:</b>  All communication from the school district should be provided in your preferred language.  The CSE meeting should be conducted in a language that you understand.</li>
+  </ul>
+
+  <p><b>Inclusion in Freeport UFSD: Ensuring Meaningful Participation</b></p>
+  <p>The effectiveness of inclusion programs within Freeport UFSD should be discussed in the context of your child's specific needs and how these programs will support their academic and social-emotional growth. The IEP must document the extent to which your child will participate with non-disabled peers in academic and non-academic activities.  If the CSE recommends a more restrictive placement (i.e., a separate special education classroom), they must explain why a less restrictive placement would not meet your child's needs. <i>(See 34 CFR § 300.116)</i></p>
+
+  <p><b>Questions to Ask: Empowering Yourself During the CSE Meeting</b></p>
+  <p>Don't hesitate to ask clarifying questions! Active participation is key to ensuring that your child's IEP is tailored to their individual needs. Here are some expanded questions to consider, along with the rationale behind them:</p>
+  <ol>
+    <li><b>"How will the IEP address my child's specific language needs, considering they are learning in both English and [Child's Native Language]? What specific strategies and accommodations will be implemented to support their language development in both languages?  What progress monitoring will be used to track their progress in both languages?"</b> (<i>Rationale: This ensures that the IEP addresses the unique challenges and opportunities presented by bilingualism. It also ensures that progress is monitored in both languages.</i>)</li>
+    <li><b>"Can you provide specific examples of how the recommended inclusion program will be adapted to support my child's learning style and individual goals? What modifications will be made to the curriculum, instruction, and assessments to ensure that my child can access the general education curriculum? What supports will be provided to the general education teacher to help them effectively teach my child?"</b> (<i>Rationale: This probes beyond the general concept of inclusion and seeks concrete examples of how it will be implemented to meet your child's specific needs. It also ensures that the general education teacher is adequately supported.)</i></li>
+    <li><b>"What data will be used to track my child's progress on their IEP goals, and how frequently will I receive updates? Will the data be presented in a format that is easy for me to understand? How will we address any lack of progress towards the IEP goals?"</b> (<i>Rationale: This ensures transparency and accountability. It also provides a clear understanding of how progress will be measured and communicated.</i>)</li>
+     <li><b>"What are the research-based interventions that will be used to address my child's specific needs? Can you provide me with information about the effectiveness of these interventions?"</b> (<i>Rationale: This ensures that the interventions are evidence-based and likely to be effective.)</i></li>
+     <li><b>"What opportunities will my child have to interact with non-disabled peers outside of the classroom? How will these interactions be facilitated and supported?"</b> (<i>Rationale: This emphasizes the importance of social inclusion and opportunities for peer interaction.)</i></li>
+      <li><b>"If my child struggles with a particular skill or concept, what alternative strategies will be used? What is the plan for providing more intensive support if needed?"</b> (<i>Rationale: This ensures that there is a contingency plan in place to address any learning challenges.)</i></li>
+       <li><b>"How will you ensure that my child's cultural background and experiences are considered in the development and implementation of the IEP?"</b> (<i>Rationale: This ensures that the IEP is culturally responsive and relevant to your child's individual needs.)</i></li>
+  </ol>
+
+  <p><b>Common Pitfalls to Avoid During the CSE Process:</b></p>
+  <ul>
+    <li><b>Accepting the IEP without thorough review:</b>  Don't feel pressured to sign the IEP at the meeting. Take your time to review it carefully and seek input from other professionals if needed.  You have the right to reject the IEP and request revisions.</li>
+    <li><b>Failing to document concerns:</b>  Keep a written record of all communication with the school district, including emails, phone calls, and meeting notes.  This documentation will be crucial if you need to file a complaint or request a hearing.</li>
+    <li><b>Not understanding your rights:</b>  Familiarize yourself with IDEA and New York State Part 200 Regulations.  Knowing your rights will empower you to be an effective advocate for your child.</li>
+    <li><b>Being intimidated by the CSE team:</b>  Remember that you are an equal member of the CSE team.  Your input is valuable and important.  Don't be afraid to ask questions and express your concerns.</li>
+    <li><b>Lack of measurable goals:</b> IEP goals should be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound. Make sure that all goals meet this criteria.</li>
+  </ul>
+
+  <p><b>After the CSE Meeting: Monitoring and Evaluation</b></p>
+  <p>The IEP is a living document that should be reviewed and revised regularly. It is not a static document that is set in stone for a year. It should be reviewed whenever the child is not making appropriate progress.</p>
+  <ul>
+    <li><b>Monitor Progress:</b> Regularly monitor your child's progress towards their IEP goals.  Communicate with their teachers and service providers to stay informed.</li>
+    <li><b>Attend Annual Reviews:</b>  The CSE is required to meet at least once a year to review and revise the IEP.  This is an opportunity to discuss your child's progress, address any concerns, and make necessary adjustments to the IEP.</li>
+    <li><b>Request Revisions:</b>  If you believe that the IEP is not meeting your child's needs, you have the right to request a revision at any time.</li>
+    <li><b>Understand Your Recourse:</b> If you disagree with the CSE's decisions, you have the right to pursue dispute resolution options, such as mediation or impartial hearings. <i>(See 34 CFR § 300.507)</i></li>
+  </ul>
+
+  <p>By actively participating and asking informed questions, you can ensure your child receives the best possible educational support within Freeport UFSD and that their IEP is truly individualized to meet their specific needs.</p>
+
+  <p><b>Frequently Asked Questions (FAQ):</b></p>
+  <dl>
+    <dt><b>What is an IEP?</b></dt>
+    <dd>An Individualized Education Program (IEP) is a legally binding document that outlines the special education and related services that a student with a disability will receive. It is developed by the CSE and is based on the student's individual needs.</dd>
+    <dt><b>What if I disagree with the CSE's recommendations?</b></dt>
+    <dd>You have the right to disagree with the CSE's recommendations. You can request an independent educational evaluation (IEE), participate in mediation, or file an impartial hearing request. You should also put your concerns in writing to the CSE chair.</dd>
+    <dt><b>How often will my child's IEP be reviewed?</b></dt>
+    <dd>Your child's IEP will be reviewed at least once a year at an annual review meeting. However, you can request a review meeting at any time if you have concerns about your child's progress or the effectiveness of the IEP.</dd>
+    <dt><b>What are related services?</b></dt>
+    <dd>Related services are support services that are necessary to help a student with a disability benefit from special education. These services may include speech-language therapy, occupational therapy, physical therapy, counseling, transportation, and audiology services.</dd>
+     <dt><b>Can I record the CSE meeting?</b></dt>
+    <dd>New York State law allows parents to audio record CSE meetings, provided that they inform the CSE chair in advance. Check the district's specific policies, which may require written notification a certain number of days prior to the meeting.</dd>
+  </dl>
+</body>
+    </div>
+
+    <div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
+        <h3>Need More Help?</h3>
+        <p>Download our complete toolkit for Freeport UFSD parents.</p>
+        <a href="/shop" class="button-primary">Get the Toolkit</a>
+    </div>
+</main>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+   <div class="footer-container">
+
+      <!-- COL 1: Brand & Mission -->
+      <div class="footer-brand">
+         <h3>NY Special Ed<span>.com</span></h3>
+         <p>
+            Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+         </p>
+         <div style="margin-top: 20px;">
+            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+         </div>
+      </div>
+
+      <!-- COL 2: Essential Guides -->
+      <div class="footer-col">
+         <h4>NY Parent Guides</h4>
+         <ul class="footer-links">
+            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
+            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 3: Top Districts -->
+      <div class="footer-col">
+         <h4>Popular Districts</h4>
+         <ul class="footer-links">
+            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 4: Legal & Contact -->
+      <div class="footer-col">
+         <h4>Resources</h4>
+         <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Support</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+         </ul>
+      </div>
+
+   </div>
+
+   <!-- Bottom Bar -->
+   <div class="footer-bottom">
+      <p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+         For official inquiries, visit schools.nyc.gov or nysed.gov.
+      </p>
+   </div>
+</footer>
+</body>
+</html>

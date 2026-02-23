@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSE Meeting Guide for William Floyd UFSD</title>
+  <meta name="description" content="Prepare for your Committee on Special Education meeting in William Floyd UFSD. Tips for Military families (Brookhaven), transition services, rural LI challenges.">
+  
+<link rel="stylesheet" href="/styles/global.css">
+<link rel="stylesheet" href="/styles/styles-nav-footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+   <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="/" class="nav-logo">
+         NY Special Ed<span>.com</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+         <ul class="nav-links">
+
+            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+            <li class="nav-item">
+               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
+               <div class="mega-menu">
+                  <div class="menu-column">
+                     <h4>Manhattan (D1-6)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Brooklyn (Key Districts)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Queens & SI</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+            <li class="nav-item">
+               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <h4>Big 5 Cities</h4>
+                     <ul>
+                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+            <li class="nav-item">
+               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <ul>
+                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- LINK: RESOURCES -->
+            <li class="nav-item">
+               <a href="/resources/" class="nav-link">Free Tools</a>
+            </li>
+
+            <!-- CTA -->
+            <li class="nav-item">
+               <a href="/shop" class="nav-cta">Get The Toolkit</a>
+            </li>
+         </ul>
+      </nav>
+
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Open Navigation">
+         <i class="fas fa-bars"></i>
+      </button>
+
+   </div>
+</header>
+  <main class="container">
+<div class="aeo-authority-block">
+    <a href="/districts/william-floyd-ufsd/">← Back to William Floyd UFSD Hub</a>
+</div>
+
+<div class="content-body" style="margin-top: 30px;">
+    <h2>Navigating the CSE Meeting in William Floyd UFSD: A Parent's Guide</h2>
+
+    <p>Committee on Special Education (CSE) meetings in William Floyd UFSD are pivotal for shaping your child's educational journey. These meetings are designed to develop, review, and revise your child's Individualized Education Program (IEP). A thorough understanding of the process, your rights as a parent, and the specific nuances of special education within William Floyd UFSD is paramount. Given that the district encompasses Mastic, Shirley, and portions of Brookhaven in Suffolk County, many families encounter unique challenges that require careful consideration during the CSE process.</p>
+
+    <p>At the CSE meeting table, several key individuals play specific roles. The <b>CSE Chairperson</b> is responsible for facilitating the meeting, ensuring adherence to procedural safeguards outlined in Part 200 of the New York State Regulations, and guiding the discussion towards appropriate educational decisions. The <b>Parent Member</b>, often a parent of a child with a disability within William Floyd UFSD, serves as an invaluable resource, offering support, guidance, and insights based on their own experiences navigating the special education system. Their perspective can be particularly helpful in understanding the district's specific procedures and resources.</p>
+
+    <p>William Floyd UFSD serves a diverse population, and we recognize that certain demographics face distinct challenges. <b>Military families</b>, especially those stationed or residing in the Brookhaven area, often experience frequent relocations. These transitions can disrupt educational continuity and pose significant hurdles for children with IEPs. Ensuring seamless transfer of records and maintaining consistent educational support are crucial. We also understand the critical importance of <b>transition services</b>, particularly for students nearing graduation. The transition planning process should begin no later than the first IEP to be in effect when the student is 15 years old (8 NYCRR 200.4(d)(2)(i)(c)), and should focus on preparing students for post-graduation life, including vocational training, independent living skills, and post-secondary education options. Our location in rural Long Island presents its own set of complexities, including limited access to specialized services, transportation challenges for accessing those services, and potential difficulties in finding qualified professionals. We are committed to addressing these complexities within the IEP development process and exploring creative solutions to ensure all students receive the support they need to succeed.</p>
+
+    <h3>Preparing for Your CSE Meeting: A Step-by-Step Guide</h3>
+
+    <ol>
+        <li><b>Review Your Child's Records:</b> Before the meeting, thoroughly review your child's IEP, evaluations, progress reports, and any other relevant documentation. This will help you identify areas of strength, areas of concern, and specific goals you want to address. (8 NYCRR 200.4(f)(1)(i)).</li>
+        <li><b>Document Your Concerns and Observations:</b> Keep a record of your child's progress at home, any challenges they are facing, and your observations about their learning style and needs. This information is valuable input for the CSE team.</li>
+        <li><b>Prepare a List of Questions:</b> Write down a list of questions you want to ask during the meeting. This will ensure that you cover all the important topics and get the information you need. See examples below.</li>
+        <li><b>Consider Bringing an Advocate:</b> You have the right to bring an advocate or other support person to the CSE meeting. An advocate can help you understand your rights, navigate the special education system, and communicate your concerns effectively. Under IDEA, you can bring anyone with knowledge or special expertise regarding your child.</li>
+        <li><b>Request Documents in Advance:</b> Under New York State regulations, you are entitled to receive copies of all documents that will be discussed at the CSE meeting in advance (8 NYCRR 200.5(c)(5)). Request these documents well in advance of the meeting to allow ample time for review.</li>
+    </ol>
+
+    <h3>Key Questions to Ask During the CSE Meeting: Tailored to William Floyd Families</h3>
+
+    <ol>
+        <li><b>For military families:</b> "Given our potential for future relocation, what specific, measurable, achievable, relevant, and time-bound (SMART) goals can be incorporated into the IEP to ensure a smooth transition to another school district? What specific documentation, including present levels of performance data and progress monitoring reports, will be easily transferable to facilitate immediate and appropriate placement in a new school?" Consider asking about utilizing the Interstate Compact on Educational Opportunity for Military Children (ICEMC) and how the district will ensure compliance.</li>
+        <li><b>For transition services:</b> "What specific vocational training opportunities, such as internships or job shadowing experiences within the local Long Island community, can be integrated into my child's IEP to prepare them for post-graduation life? What independent living skills instruction, including budgeting, transportation, and self-advocacy, will be provided to support their transition to adulthood?" Explore options like ACCES-VR (Adult Career and Continuing Education Services-Vocational Rehabilitation) and how the district can collaborate to ensure a seamless transition.</li>
+        <li><b>Regarding rural LI challenges:</b> "Considering the limited availability of certain specialized services, such as speech therapy or occupational therapy, in our immediate area, what creative solutions can we explore, such as teletherapy, collaborative partnerships with neighboring districts (e.g., Center Moriches UFSD, Longwood CSD) or BOCES, or contracting with independent providers, to ensure my child receives the necessary support? What transportation options are available to facilitate access to these services, and what measures can be taken to minimize disruption to my child's school day?" Ask about compensatory services if there have been any delays in providing mandated services.</li>
+        <li><b>Regarding Assistive Technology:</b> "Has an assistive technology evaluation been conducted to determine if my child would benefit from any assistive technology devices or services to enhance their learning and communication skills? (8 NYCRR 200.4(d)(4)). If so, how will the effectiveness of the assistive technology be monitored?"</li>
+        <li><b>Regarding Behavior Intervention Plan (BIP):</b> "If my child exhibits challenging behaviors, has a Functional Behavior Assessment (FBA) been conducted to identify the underlying causes of the behavior? If so, has a Behavior Intervention Plan (BIP) been developed based on the FBA, and how will the BIP be implemented and monitored to ensure its effectiveness? (8 NYCRR 200.22)"</li>
+        <li><b>Regarding Extended School Year (ESY) Services:</b> "What criteria are used to determine eligibility for Extended School Year (ESY) services? (8 NYCRR 200.6(k)). If my child is eligible for ESY, what specific services will be provided, and how will they address my child's individual needs during the summer months?" Lack of ESY can lead to significant regression during summer break.</li>
+    </ol>
+
+    <h3>Common Pitfalls and Parent Advocacy Tips for William Floyd UFSD</h3>
+
+    <ul>
+        <li><b>Insufficiently Specific IEP Goals:</b> Ensure that IEP goals are specific, measurable, achievable, relevant, and time-bound (SMART). Vague goals make it difficult to track progress and determine whether the IEP is truly effective. If a goal lacks specificity, push for clarification and concrete benchmarks.</li>
+        <li><b>Lack of Parent Involvement:</b> You are a critical member of the CSE team, and your input is essential. Don't be afraid to voice your concerns, ask questions, and advocate for your child's needs. If you feel that your concerns are not being heard, document your concerns in writing and request a formal response from the district. Remember, the burden of proof lies with the district to show that the proposed IEP is appropriate.</li>
+        <li><b>Inadequate Transition Planning:</b> Start planning for your child's transition to adulthood early. Ensure that the IEP includes specific goals and activities related to vocational training, independent living skills, and post-secondary education. Connect with ACCES-VR and other community resources to support your child's transition.</li>
+        <li><b>Failure to Provide Related Services:</b> Related services, such as speech therapy, occupational therapy, and counseling, are essential for many students with disabilities. If your child needs related services, ensure that they are included in the IEP and that the services are provided in a timely and effective manner. Document any delays in service provision and request compensatory services to make up for lost time.</li>
+        <li><b>Unilateral Changes to IEP:</b> The district cannot unilaterally change your child's IEP without your consent. If the district proposes changes to the IEP that you do not agree with, you have the right to request a CSE meeting to discuss your concerns. If you are still not satisfied, you have the right to pursue mediation or file a due process complaint.</li>
+    </ul>
+
+    <h3>Frequently Asked Questions (FAQ)</h3>
+
+    <dl>
+        <dt><b>Q: What if I disagree with the CSE's recommendations?</b></dt>
+        <dd><b>A:</b> You have several options. First, try to resolve the disagreement through informal discussions with the CSE team. If that is not successful, you can request mediation, which is a voluntary process where a neutral third party helps you and the district reach an agreement. If mediation is not successful, you can file a due process complaint, which is a formal legal process where an impartial hearing officer will review the case and make a decision. (IDEA, 34 CFR § 300.507)</dd>
+
+        <dt><b>Q: What is a "pendency" or "stay put" provision?</b></dt>
+        <dd><b>A:</b> Under the "stay put" provision of IDEA (34 CFR § 300.518), during any due process proceedings, your child has the right to remain in their current educational placement unless you and the district agree otherwise. This means that the district cannot change your child's placement or services until the due process proceedings are resolved.</dd>
+
+        <dt><b>Q: How often should the CSE meet to review my child's IEP?</b></dt>
+        <dd><b>A:</b> The CSE must meet at least once a year to review your child's IEP (8 NYCRR 200.4(f)). However, you can request a CSE meeting at any time if you have concerns about your child's progress or the effectiveness of the IEP.</dd>
+
+        <dt><b>Q: What are my rights if my child is being disciplined at school?</b></dt>
+        <dd><b>A:</b> Students with disabilities have certain protections under IDEA when it comes to discipline. If your child is facing suspension or expulsion, the school must conduct a manifestation determination to determine whether the behavior was caused by their disability or a failure to implement the IEP. If the behavior was a manifestation of the disability, the school cannot suspend or expel your child unless the behavior involves weapons, drugs, or serious bodily injury. (IDEA, 34 CFR § 300.530-536).</dd>
+
+        <dt><b>Q: Where can I find more information about special education laws and regulations in New York State?</b></dt>
+        <dd><b>A:</b> You can find more information about special education laws and regulations on the New York State Education Department (NYSED) website: <a href="http://www.nysed.gov/specialed/" target="_blank">http://www.nysed.gov/specialed/</a>. You can also consult with a special education attorney or advocate for further guidance.</dd>
+    </dl>
+
+    <p>Remember, you are a vital member of the CSE team. Your insights and active participation are crucial for developing an IEP that truly meets your child's individual needs within the William Floyd UFSD context. By understanding your rights, preparing effectively for CSE meetings, and advocating for your child's needs, you can help ensure that your child receives the education and support they deserve.</p>
+</div>
+
+<div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
+    <h3>Need More Help?</h3>
+    <p>Download our complete toolkit for William Floyd UFSD parents.</p>
+    <a href="/shop" class="button-primary">Get the Toolkit</a>
+</div>
+</main>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+   <div class="footer-container">
+
+      <!-- COL 1: Brand & Mission -->
+      <div class="footer-brand">
+         <h3>NY Special Ed<span>.com</span></h3>
+         <p>
+            Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+         </p>
+         <div style="margin-top: 20px;">
+            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+         </div>
+      </div>
+
+      <!-- COL 2: Essential Guides -->
+      <div class="footer-col">
+         <h4>NY Parent Guides</h4>
+         <ul class="footer-links">
+            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
+            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 3: Top Districts -->
+      <div class="footer-col">
+         <h4>Popular Districts</h4>
+         <ul class="footer-links">
+            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 4: Legal & Contact -->
+      <div class="footer-col">
+         <h4>Resources</h4>
+         <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Support</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+         </ul>
+      </div>
+
+   </div>
+
+   <!-- Bottom Bar -->
+   <div class="footer-bottom">
+      <p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+         For official inquiries, visit schools.nyc.gov or nysed.gov.
+      </p>
+   </div>
+</footer>
+</body>
+</html>

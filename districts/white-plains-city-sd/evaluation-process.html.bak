@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Requesting an Evaluation in White Plains City SD</title>
+  <meta name="description" content="Step-by-step guide to the 60-day special education evaluation timeline in White Plains City SD.">
+  
+<link rel="stylesheet" href="/styles/global.css">
+<link rel="stylesheet" href="/styles/styles-nav-footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+   <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="/" class="nav-logo">
+         NY Special Ed<span>.com</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+         <ul class="nav-links">
+
+            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+            <li class="nav-item">
+               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
+               <div class="mega-menu">
+                  <div class="menu-column">
+                     <h4>Manhattan (D1-6)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Brooklyn (Key Districts)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Queens & SI</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+            <li class="nav-item">
+               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <h4>Big 5 Cities</h4>
+                     <ul>
+                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+            <li class="nav-item">
+               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <ul>
+                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- LINK: RESOURCES -->
+            <li class="nav-item">
+               <a href="/resources/" class="nav-link">Free Tools</a>
+            </li>
+
+            <!-- CTA -->
+            <li class="nav-item">
+               <a href="/shop" class="nav-cta">Get The Toolkit</a>
+            </li>
+         </ul>
+      </nav>
+
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Open Navigation">
+         <i class="fas fa-bars"></i>
+      </button>
+
+   </div>
+</header>
+  <main class="container">
+<div class="aeo-authority-block">
+        <a href="/districts/white-plains-city-sd/">← Back to White Plains City SD Hub</a>
+    </div>
+    
+    <div class="content-body" style="margin-top: 30px;">
+        <body>
+
+  <h2>Requesting a Special Education Evaluation in White Plains City SD: A Parent's Guide</h2>
+
+  <p>If you believe your child may have a disability that is impacting their learning in the White Plains City School District, you have the right to request a special education evaluation. This comprehensive guide will walk you through the process, empowering you with the knowledge and tools to advocate effectively for your child's needs.</p>
+
+  <h3>Local Context: Understanding the Needs in White Plains City SD</h3>
+
+  <p>White Plains City SD serves a diverse student population across neighborhoods like Gedney Farms, Highlands, Rosedale, and downtown White Plains. Our district is committed to providing a supportive learning environment for all students. We emphasize inclusive learning models and offer robust bilingual services to cater to the needs of our multilingual learners. Understanding the specific demographics and available resources within White Plains City SD is crucial for navigating the special education process effectively. We will provide insights into common disability areas addressed within the district and strategies for ensuring your child receives tailored support.</p>
+
+  <h3>Initiating the Evaluation: The Written Referral - Your Starting Point</h3>
+
+  <p>The first, and arguably most crucial, step in requesting an evaluation is to submit a written referral to your child's school principal or the Director of Special Education for White Plains City SD. This letter serves as the official starting point for the evaluation process. It should clearly state your concerns about your child's academic, social, emotional, or physical development and explicitly explain why you suspect they may have a disability requiring special education services. </p>
+
+  <p><b>Key Elements of a Strong Written Referral:</b></p>
+  <ul>
+    <li><b>Specific Concerns:</b> Don't just say "my child is struggling." Provide detailed examples. For instance, "My child is struggling with reading comprehension. They are unable to answer questions about stories they have read, even simple recall questions."</li>
+    <li><b>Observed Difficulties:</b> Describe what you have personally observed. "I've noticed that my child has difficulty focusing during homework time. They frequently get up from their seat, fidget, and ask to take breaks after only a few minutes of work."</li>
+    <li><b>Impact on Learning:</b> Clearly articulate how these difficulties are affecting your child's academic progress. "These difficulties are impacting my child's grades, as they are consistently failing reading quizzes and homework assignments."</li>
+    <li><b>Proposed Solutions (Optional):</b> While not required, suggesting potential interventions or strategies you've already tried can be helpful. "We have tried providing extra support at home, including reading aloud together and working on comprehension exercises, but these efforts have not been successful."</li>
+    <li><b>Relevant History:</b> Include any information about your child's developmental history, medical diagnoses, or previous interventions that may be relevant.</li>
+  </ul>
+
+  <p><b>Supporting Documentation:</b> Include any supporting documentation, like report cards showing declining grades, medical records documenting relevant diagnoses, or samples of your child's work demonstrating areas of difficulty. The more evidence you provide, the stronger your case will be.</p>
+
+  <p><b>Sample Referral Letter Template:</b></p>
+  <textarea style="width:100%; height:200px;">
+[Your Name]
+[Your Address]
+[Your Phone Number]
+[Your Email Address]
+
+[Date]
+
+[Principal's Name]
+[School Name]
+[School Address]
+
+OR
+
+[Director of Special Education's Name]
+[White Plains City School District Office Address]
+
+Subject: Request for Special Education Evaluation for [Child's Name] - [Child's Date of Birth]
+
+Dear [Principal's Name/Director of Special Education's Name],
+
+I am writing to request a special education evaluation for my child, [Child's Name], who is currently in [Grade] at [School Name]. I have significant concerns about [Child's Name]'s [Academic/Social/Emotional/Physical] development, which I believe may indicate a disability requiring special education services.
+
+Specifically, I have observed the following difficulties:
+
+* [Describe specific difficulty 1 with examples]
+* [Describe specific difficulty 2 with examples]
+* [Describe specific difficulty 3 with examples]
+
+These difficulties are impacting [Child's Name]'s learning in the following ways:
+
+* [Explain how the difficulties are impacting academic progress]
+
+[Optional: Describe any interventions or strategies you have already tried]
+
+I have attached the following supporting documentation to this letter:
+
+* [List attached documents, e.g., Report Cards, Medical Records]
+
+I understand that the Committee on Special Education (CSE) will conduct this evaluation. I am eager to collaborate with the school to determine the best way to support my child's educational needs. Please contact me at [Your Phone Number] or [Your Email Address] to discuss this further.
+
+Thank you for your time and consideration.
+
+Sincerely,
+[Your Name]
+</textarea>
+
+  <h3>Important: The 60-Day Timeline - Know Your Rights!</h3>
+
+  <p>Once the district receives your written request, they have a limited timeframe to act. New York State law mandates that the Committee on Special Education (CSE) must complete the evaluation and determine eligibility within 60 <b>school</b> days (as opposed to calendar days) of receiving your referral. This timeline is governed by <a href="https://www.nysed.gov/special-education/laws-regulations-and-guidance">New York State Part 200 Regulations</a> and the Individuals with Disabilities Education Act (IDEA). It is crucial to meticulously track this timeline and proactively follow up with the school if you haven't heard back within a reasonable timeframe. Delays can significantly impact your child's access to necessary support services.</p>
+
+  <p><b>Tracking the 60-Day Timeline: A Step-by-Step Guide</b></p>
+  <ol>
+    <li><b>Document the Date:</b> Record the exact date you delivered the written referral to the school or district office. Obtain confirmation of receipt if possible (e.g., email confirmation, signed receipt).</li>
+    <li><b>Calculate the Deadline:</b> Using a school calendar for White Plains City SD, count out 60 school days from the date of receipt. Be sure to exclude weekends, holidays, and school breaks.</li>
+    <li><b>Follow Up Regularly:</b> If you haven't received confirmation that the CSE has scheduled an initial meeting within 30 school days, send a follow-up email or letter to the principal and the Director of Special Education. Politely inquire about the status of the evaluation process.</li>
+    <li><b>Document All Communication:</b> Keep a detailed record of all communication with the school, including dates, times, names of individuals you spoke with, and the content of the conversations.</li>
+    <li><b>Formal Complaint (If Necessary):</b> If the 60-day deadline is approaching and you haven't received adequate communication or the evaluation hasn't been completed, you may consider filing a formal complaint with the New York State Education Department (NYSED). This should be considered a last resort, but it's important to know your options. Information on filing a complaint can be found on the <a href="https://www.nysed.gov/">NYSED website</a>.</li>
+  </ol>
+
+  <p><b>Common District Pitfalls and How to Avoid Them:</b></p>
+  <ul>
+    <li><b>The "Wait and See" Approach:</b> Some schools may suggest waiting to see if a child improves before initiating an evaluation. This is often a tactic to delay the process. Politely but firmly reiterate your concerns and your right to request an evaluation under IDEA.</li>
+    <li><b>Incomplete Evaluations:</b> Ensure that the evaluation covers all areas of suspected disability. If you believe your child may have a learning disability and social-emotional difficulties, make sure both areas are thoroughly assessed. You have the right to request an Independent Educational Evaluation (IEE) at public expense if you disagree with the district's evaluation, under certain circumstances (see FAQ below).</li>
+    <li><b>Lack of Communication:</b> As mentioned above, proactively communicate with the school and document all interactions. Don't be afraid to ask questions and seek clarification.</li>
+  </ul>
+
+  <h3>Frequently Asked Questions (FAQ)</h3>
+
+  <dl>
+    <dt><b>Q: What happens after I submit the written referral?</b></dt>
+    <dd>A: The Committee on Special Education (CSE) will review your request and determine whether to proceed with an evaluation. If they decide to evaluate your child, they will send you a consent form. You must provide written consent before the evaluation can begin.</dd>
+
+    <dt><b>Q: What does the special education evaluation involve?</b></dt>
+    <dd>A: The evaluation typically includes a variety of assessments, such as psychological testing, educational assessments, speech and language evaluations (if appropriate), and observations of your child in the classroom. The specific assessments will depend on your child's individual needs and the areas of concern.</dd>
+
+    <dt><b>Q: What is an Independent Educational Evaluation (IEE)?</b></dt>
+    <dd>A: According to <a href="https://www.law.cornell.edu/cfr/text/34/300.502">34 CFR §300.502</a>, if you disagree with the school district's evaluation of your child, you have the right to obtain an Independent Educational Evaluation (IEE) at public expense (meaning the school district pays for it) if certain conditions are met. The school district must either pay for the IEE or demonstrate that their evaluation was appropriate. You are entitled to only one IEE at public expense each time the school district conducts an evaluation with which you disagree. The evaluator must meet specific qualifications outlined in federal and state regulations.</dd>
+
+    <dt><b>Q: What happens after the evaluation is completed?</b></dt>
+    <dd>A: The CSE will meet to review the evaluation results and determine whether your child is eligible for special education services. You have the right to attend this meeting and participate in the discussion. If your child is found eligible, the CSE will develop an Individualized Education Program (IEP) tailored to their specific needs.</dd>
+
+    <dt><b>Q: What if my child is not found eligible for special education services?</b></dt>
+    <dd>A: If the CSE determines that your child is not eligible for special education services, you have the right to appeal this decision. You can request mediation or file a due process complaint with the New York State Education Department.</dd>
+
+     <dt><b>Q: What if I move out of White Plains City SD after starting the evaluation process?</b></dt>
+    <dd>A: The evaluation process typically needs to start anew in the new school district. Contact the special education department of your new district as soon as possible to transfer records and begin the referral process. While the new district isn't *required* to accept the previous evaluations, they often do, which can save time.</dd>
+
+    <dt><b>Q: What are some common signs that my child may need a special education evaluation?</b></dt>
+    <dd>A: Some common signs include: significant delays in academic skills (reading, writing, math), difficulty focusing or paying attention, behavioral problems that interfere with learning, difficulty with social interactions, speech or language delays, and physical disabilities that impact learning.</dd>
+  </dl>
+</body>
+    </div>
+
+    <div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
+        <h3>Need More Help?</h3>
+        <p>Download our complete toolkit for White Plains City SD parents, including templates, checklists, and resources to navigate the special education process.</p>
+        <a href="/shop" class="button-primary">Get the Toolkit</a>
+    </div>
+</main>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+   <div class="footer-container">
+
+      <!-- COL 1: Brand & Mission -->
+      <div class="footer-brand">
+         <h3>NY Special Ed<span>.com</span></h3>
+         <p>
+            Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+         </p>
+         <div style="margin-top: 20px;">
+            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+         </div>
+      </div>
+
+      <!-- COL 2: Essential Guides -->
+      <div class="footer-col">
+         <h4>NY Parent Guides</h4>
+         <ul class="footer-links">
+            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
+            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 3: Top Districts -->
+      <div class="footer-col">
+         <h4>Popular Districts</h4>
+         <ul class="footer-links">
+            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 4: Legal & Contact -->
+      <div class="footer-col">
+         <h4>Resources</h4>
+         <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Support</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+         </ul>
+      </div>
+
+   </div>
+
+   <!-- Bottom Bar -->
+   <div class="footer-bottom">
+      <p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+         For official inquiries, visit schools.nyc.gov or nysed.gov.
+      </p>
+   </div>
+</footer>
+</body>
+</html>

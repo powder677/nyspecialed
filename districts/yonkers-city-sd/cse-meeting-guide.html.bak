@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSE Meeting Guide for Yonkers City SD</title>
+  <meta name="description" content="Prepare for your Committee on Special Education meeting in Yonkers City SD. Tips for Bilingual (Spanish), proximity to NYC private placements, CSE process.">
+  
+<link rel="stylesheet" href="/styles/global.css">
+<link rel="stylesheet" href="/styles/styles-nav-footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+   <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="/" class="nav-logo">
+         NY Special Ed<span>.com</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+         <ul class="nav-links">
+
+            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+            <li class="nav-item">
+               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
+               <div class="mega-menu">
+                  <div class="menu-column">
+                     <h4>Manhattan (D1-6)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Brooklyn (Key Districts)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Queens & SI</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+            <li class="nav-item">
+               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <h4>Big 5 Cities</h4>
+                     <ul>
+                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+            <li class="nav-item">
+               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <ul>
+                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- LINK: RESOURCES -->
+            <li class="nav-item">
+               <a href="/resources/" class="nav-link">Free Tools</a>
+            </li>
+
+            <!-- CTA -->
+            <li class="nav-item">
+               <a href="/shop" class="nav-cta">Get The Toolkit</a>
+            </li>
+         </ul>
+      </nav>
+
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Open Navigation">
+         <i class="fas fa-bars"></i>
+      </button>
+
+   </div>
+</header>
+  <main class="container">
+<div class="aeo-authority-block">
+    <a href="/districts/yonkers-city-sd/">← Back to Yonkers City SD Hub</a>
+</div>
+
+<div class="content-body" style="margin-top: 30px;">
+    <h1>Navigating Your CSE Meeting in Yonkers City SD: A Parent's Guide</h1>
+
+    <p>Welcome to the Committee on Special Education (CSE) process in the Yonkers City School District. Understanding the CSE process is crucial to ensuring your child receives the appropriate support and services tailored to their individual needs. As a parent, you are a vital member of this team. This guide will provide you with actionable information to help you navigate the CSE process effectively in Yonkers.</p>
+
+    <p>Yonkers City SD is committed to providing a free and appropriate public education (FAPE) to all students with disabilities, as mandated by the Individuals with Disabilities Education Act (IDEA) and New York State Education Law Article 89.  We understand the diverse needs of our student population, including those with unique learning styles, language backgrounds (particularly Spanish), and varying levels of access to resources. This guide addresses specific considerations relevant to Yonkers families.</p>
+
+    <h2>Understanding Your Rights Under IDEA and NYS Regulations</h2>
+
+    <p>Before delving into the CSE meeting itself, it's essential to understand your rights as a parent. The IDEA (Individuals with Disabilities Education Act) and Part 200 of the New York State Regulations outline these rights. Key rights include:</p>
+
+    <ul>
+        <li><b>Right to Participate:</b> You have the right to participate in all meetings regarding your child's identification, evaluation, educational placement, and the provision of FAPE (34 CFR §300.501).</li>
+        <li><b>Right to Prior Written Notice:</b> The school district must provide you with written notice before initiating or changing the identification, evaluation, or educational placement of your child, or the provision of FAPE (34 CFR §300.503). This notice must be understandable and in your native language.</li>
+        <li><b>Right to Consent:</b> You must provide informed consent before the school district can conduct an initial evaluation of your child or implement an IEP (34 CFR §300.300).</li>
+        <li><b>Right to Independent Educational Evaluation (IEE):</b> If you disagree with the school district's evaluation, you have the right to obtain an IEE at public expense, or request a due process hearing to have the district pay for the IEE (8 NYCRR §200.5(g)).</li>
+        <li><b>Right to Examine Records:</b> You have the right to inspect and review all of your child's educational records (34 CFR §300.613).</li>
+        <li><b>Right to Due Process:</b> If you disagree with the CSE's decisions, you have the right to request mediation or a due process hearing to resolve the dispute (34 CFR §300.507).</li>
+    </ul>
+
+    <h2>Who's at the Table? The CSE Team in Yonkers</h2>
+
+    <p>Your CSE meeting will involve a team of individuals who collaborate to develop an Individualized Education Program (IEP) that meets your child's unique needs. The composition of the CSE team is mandated by federal and state regulations. Key members include:</p>
+
+    <ul>
+        <li><b>Parent/Guardian:</b> You are the most crucial member of the team. Your insights into your child's strengths, needs, developmental history, and preferences are invaluable. Prepare to share your observations and concerns openly.</li>
+        <li><b>CSE Chairperson:</b>  This individual facilitates the meeting, ensures adherence to procedural safeguards, and guides the discussion. They are responsible for ensuring that all team members have an opportunity to contribute and that decisions are made collaboratively.</li>
+        <li><b>Special Education Teacher:</b> This teacher provides expertise in special education methodologies and strategies. They can offer insights into appropriate instructional techniques, modifications, and accommodations for your child.</li>
+        <li><b>General Education Teacher:</b> If your child is, or may be, participating in the general education environment, a general education teacher is required to be part of the CSE team. This teacher can provide valuable perspectives on the curriculum, expectations, and social dynamics of the general education classroom.</li>
+        <li><b>School Psychologist:</b> The school psychologist typically conducts psychological evaluations and provides insights into your child's cognitive, emotional, and behavioral functioning. They can help the team understand how these factors may impact your child's learning.</li>
+        <li><b>District Representative:</b> This individual is qualified to provide or supervise special education services and is knowledgeable about the general education curriculum and the resources available to the school district. They are responsible for ensuring that the IEP can be implemented and that adequate resources are allocated.</li>
+        <li><b>Related Service Providers:</b> Depending on your child's needs, related service providers such as speech-language pathologists, occupational therapists, physical therapists, counselors, or social workers may attend the meeting. They can provide specialized expertise and recommendations related to their respective fields.</li>
+        <li><b>Parent Member:</b> A Parent Member is another parent of a child with a disability who resides in the district.  This member provides support and guidance based on their personal experience navigating the special education system. They can offer a unique perspective and help you feel more comfortable and informed during the meeting.  Yonkers City SD strives to have diverse Parent Members reflecting the district's demographics.</li>
+        <li><b>The Student (if appropriate):</b> If your child is 14 years of age or older, or if it is otherwise appropriate, they should be invited to attend the CSE meeting. Their input and perspectives are crucial, especially when discussing transition planning.</li>
+    </ul>
+
+    <h2>Preparing for Your CSE Meeting: A Step-by-Step Guide</h2>
+
+    <p>Thorough preparation is key to a successful CSE meeting. Here's a step-by-step guide:</p>
+
+    <ol>
+        <li><b>Review Your Child's Records:</b> Obtain and review all of your child's educational records, including evaluations, progress reports, report cards, and previous IEPs.  Look for patterns, areas of strength and weakness, and any discrepancies between the school's perspective and your own. Contact the school district to request these records well in advance of the meeting (at least 5 school days).</li>
+        <li><b>Identify Your Goals and Concerns:</b> Before the meeting, take time to reflect on your child's needs and your goals for their education.  What are your biggest concerns? What specific supports and services do you believe your child needs to succeed?  Write down your goals and concerns to ensure you address them during the meeting.</li>
+        <li><b>Gather Supporting Documentation:</b> If you have any relevant documentation from outside sources, such as private therapists, doctors, or tutors, bring copies to the meeting. This information can provide valuable insights into your child's needs and support your requests for specific services.</li>
+        <li><b>Prepare a Written Statement (Optional):</b> Consider preparing a written statement outlining your concerns, goals, and recommendations for your child's IEP. This statement can help you stay focused during the meeting and ensure that all of your points are addressed. Provide a copy to the CSE Chairperson at the beginning of the meeting.</li>
+        <li><b>Bring a Support Person (Optional):</b> You have the right to bring a support person to the CSE meeting, such as a friend, family member, advocate, or attorney. This person can provide emotional support, take notes, and help you articulate your concerns.</li>
+        <li><b>Request an Interpreter (if needed):</b> As Yonkers City SD serves a large Spanish-speaking population, it is critical that parents understand the proceedings. Request a qualified interpreter if English is not your primary language. The district is obligated to provide this service free of charge. 8 NYCRR § 200.5(c)(1).</li>
+    </ol>
+
+    <h2>Addressing Unique Needs in Yonkers City SD</h2>
+
+    <p>Yonkers City SD faces unique challenges and opportunities in serving students with disabilities. Consider the following when preparing for your CSE meeting:</p>
+
+    <ul>
+        <li><b>Bilingual Education:</b>  If your child is bilingual, ensure that their language needs are addressed in all aspects of the IEP. This includes assessment, instruction, and related services. Advocate for qualified bilingual staff and resources. Ask about the criteria used to determine if your child needs bilingual special education services.  The IEP should specify the language of instruction and the language of assessment.</li>
+        <li><b>Proximity to New York City:</b> Yonkers' proximity to New York City provides access to a wide range of specialized private placements. If the CSE recommends considering private placements, be prepared to discuss the evaluation process and criteria used to determine their suitability. Understand the district's policies regarding funding for private placements, including the process for obtaining approval and the factors that are considered. Document, document, document – keep records of all communication with the district regarding private placement options.</li>
+        <li><b>Transportation:</b> Discuss transportation needs and ensure that the IEP specifies appropriate transportation arrangements. This may include door-to-door transportation, specialized transportation, or assistance with transportation.</li>
+        <li><b>Assistive Technology:</b>  Explore the possibility of assistive technology to support your child's learning. This may include devices such as computers, tablets, software, or communication devices. Ask the CSE to conduct an assistive technology evaluation if you believe your child could benefit from assistive technology.</li>
+        <li><b>Extended School Year (ESY) Services:</b> If your child experiences significant regression of skills during school breaks, they may be eligible for ESY services. Discuss the criteria for ESY eligibility with the CSE and provide documentation to support your request. ESY services are particularly important to maintain skills over the summer months.</li>
+    </ul>
+
+    <h2>What to Expect During the CSE Meeting</h2>
+
+    <p>The CSE meeting typically follows a structured format. The CSE Chairperson will facilitate the meeting and ensure that all team members have an opportunity to contribute. Here's a general overview of what to expect:</p>
+
+    <ol>
+        <li><b>Introductions:</b> The CSE Chairperson will introduce all members of the team and explain their roles.</li>
+        <li><b>Review of Evaluations:</b> The CSE will review the results of any evaluations that have been conducted, including psychological evaluations, educational evaluations, and related service evaluations.</li>
+        <li><b>Discussion of Strengths and Needs:</b> The team will discuss your child's strengths and needs, based on the evaluations, your input, and the input of other team members.</li>
+        <li><b>Development of Goals and Objectives:</b> The team will develop measurable goals and objectives for your child's IEP. These goals should be specific, measurable, achievable, relevant, and time-bound (SMART).</li>
+        <li><b>Determination of Services and Placement:</b> The team will determine the specific services and placement that your child needs to achieve their goals. This may include special education instruction, related services, accommodations, and modifications. Placement decisions must be made in the least restrictive environment (LRE).</li>
+        <li><b>Review of IEP:</b> The CSE chair will read the IEP aloud, step-by-step, to ensure that all present are in agreement. Do not be afraid to ask clarifying questions.</li>
+    </ol>
+
+    <h2>Questions to Ask at Your CSE Meeting:</h2>
+
+    <p>Asking informed questions is crucial for advocating for your child's needs. Here are some key questions to ask during your CSE meeting:</p>
+
+    <ol>
+        <li><b>"How will my child's language needs be addressed in the classroom and during assessments?"</b> (Especially relevant for bilingual students).  Specifically, ask about the qualifications of the bilingual staff who will be working with your child.</li>
+        <li><b>"If my child requires a more specialized setting, what is the process for considering private placements in the NYC area, and what funding options are available?"</b>  Ask for specific examples of private placements that the district has used in the past.</li>
+        <li><b>"Can you explain the data that supports the proposed goals and services in the IEP, and how will progress be measured?"</b>  Ask for baseline data and the specific tools that will be used to track progress.</li>
+        <li><b>"What are the specific accommodations and modifications that will be implemented to support my child's learning in the general education classroom?"</b> Request examples of how these accommodations and modifications will be used in practice.</li>
+        <li><b>"How will the IEP be reviewed and revised to ensure that it continues to meet my child's needs?"</b>  The IEP must be reviewed at least annually, but you can request a meeting at any time if you have concerns.</li>
+        <li><b>"What training and support will be provided to the staff who will be working with my child?"</b> Ensure that staff are adequately trained to implement the IEP effectively.</li>
+        <li><b>"How will communication be maintained between the school and home?"</b> Establish clear communication channels and frequency.</li>
+    </ol>
+
+    <h2>Common Pitfalls to Avoid in Yonkers City SD</h2>
+
+    <p>Navigating the CSE process can be challenging. Be aware of these common pitfalls:</p>
+
+    <ul>
+        <li><b>Failure to Provide Prior Written Notice:</b> Ensure that the school district provides you with timely and comprehensive prior written notice of all proposed actions.</li>
+        <li><b>Inadequate Evaluations:</b> If you believe that the school district's evaluations are incomplete or inaccurate, exercise your right to an IEE.</li>
+        <li><b>Generic IEPs:</b> Ensure that your child's IEP is individualized and tailored to their specific needs. Avoid accepting generic IEPs that do not address your child's unique challenges.</li>
+        <li><b>Lack of Parent Involvement:</b> Actively participate in all aspects of the CSE process and advocate for your child's needs. Don't be afraid to challenge the CSE's recommendations if you disagree with them.</li>
+        <li><b>Placement in Inappropriate Settings:</b> Ensure that your child is placed in the least restrictive environment that meets their needs. Challenge placements that are not appropriate for your child's level of functioning.</li>
+    </ul>
+
+    <h2>What to Do After the CSE Meeting</h2>
+
+    <p>After the CSE meeting, carefully review the IEP to ensure that it accurately reflects the decisions that were made. If you have any concerns, contact the CSE Chairperson immediately. You have the right to reject the IEP if you disagree with it. If you cannot resolve your concerns informally, you can request mediation or a due process hearing.</p>
+
+    <h2>Resources for Parents in Yonkers City SD</h2>
+
+    <p>Here are some valuable resources for parents of children with disabilities in Yonkers City SD:</p>
+
+    <ul>
+        <li><b>Yonkers City School District Special Education Department:</b> Contact the district's special education department for information about services and supports.</li>
+        <li><b>New York State Education Department (NYSED) Office of Special Education:</b> The NYSED Office of Special Education provides information about special education laws, regulations, and policies.</li>
+        <li><b>Parent to Parent of New York State:</b> This organization provides support and advocacy for parents of children with disabilities.</li>
+        <li><b>INCLUDEnyc:</b> This organization provides advocacy and training for families of children with disabilities in New York City. While based in NYC, many of their resources are relevant to Yonkers families.</li>
+        <li><b>Disability Rights New York (DRNY):</b> DRNY is the protection and advocacy agency for individuals with disabilities in New York State.</li>
+    </ul>
+
+    <h2>Frequently Asked Questions (FAQ)</h2>
+
+    <dl>
+        <dt><b>Q: What is an IEP?</b></dt>
+        <dd>A: An IEP (Individualized Education Program) is a legally binding document that outlines a child's educational goals, services, and supports. It is developed by the CSE team and must be reviewed and revised at least annually.</dd>
+
+        <dt><b>Q: What is FAPE?</b></dt>
+        <dd>A: FAPE stands for Free Appropriate Public Education. It is the right of every child with a disability to receive a public education that is tailored to their individual needs and provided at no cost to their parents.</dd>
+
+        <dt><b>Q: What is LRE?</b></dt>
+        <dd>A: LRE stands for Least Restrictive Environment. It means that children with disabilities should be educated with their non-disabled peers to the maximum extent appropriate.</dd>
+
+        <dt><b>Q: What is an IEE?</b></dt>
+        <dd>A: An IEE (Independent Educational Evaluation) is an evaluation of a child's educational needs conducted by a qualified professional who is not employed by the school district. Parents have the right to obtain an IEE at public expense if they disagree with the school district's evaluation.</dd>
+
+        <dt><b>Q: What is Due Process?</b></dt>
+        <dd>A: Due Process is a formal legal process that parents can use to resolve disputes with the school district regarding their child's special education. It involves a hearing before an impartial hearing officer.</dd>
+
+        <dt><b>Q: How often will my child's IEP be reviewed?</b></dt>
+        <dd>A: Your child's IEP must be reviewed at least annually, but you can request a meeting at any time if you have concerns.</dd>
+
+        <dt><b>Q: What if I disagree with the IEP?</b></dt>
+        <dd>A: If you disagree with the IEP, you should first try to resolve your concerns informally with the CSE team. If you are unable to resolve your concerns, you can request mediation or a due process hearing.</dd>
+    </dl>
+
+    <p>This guide provides a comprehensive overview of the CSE process in Yonkers City SD. Remember that you are your child's best advocate. By understanding your rights and actively participating in the CSE process, you can help ensure that your child receives the appropriate support and services to reach their full potential.</p>
+</div>
+
+<div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
+    <h3>Need More Help?</h3>
+    <p>Download our complete toolkit for Yonkers City SD parents.</p>
+    <a href="/shop" class="button-primary">Get the Toolkit</a>
+</div>
+</main>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+   <div class="footer-container">
+
+      <!-- COL 1: Brand & Mission -->
+      <div class="footer-brand">
+         <h3>NY Special Ed<span>.com</span></h3>
+         <p>
+            Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+         </p>
+         <div style="margin-top: 20px;">
+            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+         </div>
+      </div>
+
+      <!-- COL 2: Essential Guides -->
+      <div class="footer-col">
+         <h4>NY Parent Guides</h4>
+         <ul class="footer-links">
+            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
+            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 3: Top Districts -->
+      <div class="footer-col">
+         <h4>Popular Districts</h4>
+         <ul class="footer-links">
+            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 4: Legal & Contact -->
+      <div class="footer-col">
+         <h4>Resources</h4>
+         <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Support</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+         </ul>
+      </div>
+
+   </div>
+
+   <!-- Bottom Bar -->
+   <div class="footer-bottom">
+      <p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+         For official inquiries, visit schools.nyc.gov or nysed.gov.
+      </p>
+   </div>
+</footer>
+</body>
+</html>

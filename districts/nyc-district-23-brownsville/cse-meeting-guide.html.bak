@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSE Meeting Guide for District 23</title>
+  <meta name="description" content="Prepare for your Committee on Special Education meeting in District 23. Tips for Evaluation delays, related service access, D75 referrals.">
+  
+<link rel="stylesheet" href="/styles/global.css">
+<link rel="stylesheet" href="/styles/styles-nav-footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+   <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="/" class="nav-logo">
+         NY Special Ed<span>.com</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+         <ul class="nav-links">
+
+            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+            <li class="nav-item">
+               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
+               <div class="mega-menu">
+                  <div class="menu-column">
+                     <h4>Manhattan (D1-6)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Brooklyn (Key Districts)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Queens & SI</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+            <li class="nav-item">
+               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <h4>Big 5 Cities</h4>
+                     <ul>
+                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+            <li class="nav-item">
+               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <ul>
+                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- LINK: RESOURCES -->
+            <li class="nav-item">
+               <a href="/resources/" class="nav-link">Free Tools</a>
+            </li>
+
+            <!-- CTA -->
+            <li class="nav-item">
+               <a href="/shop" class="nav-cta">Get The Toolkit</a>
+            </li>
+         </ul>
+      </nav>
+
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Open Navigation">
+         <i class="fas fa-bars"></i>
+      </button>
+
+   </div>
+</header>
+  <main class="container">
+<div class="aeo-authority-block">
+        <a href="/districts/nyc-district-23-brownsville/">← Back to District 23 Hub</a>
+    </div>
+    
+    <div class="content-body" style="margin-top: 30px;">
+        <body>
+  <h2>Navigating Your CSE Meeting in District 23: A Parent's Comprehensive Guide</h2>
+
+  <p>Attending a Committee on Special Education (CSE) meeting in Brooklyn's District 23 (Brownsville, Ocean Hill) can feel overwhelming. It's a critical step in ensuring your child receives the appropriate special education services and supports. Understanding the process, knowing your rights, and advocating effectively for your child is crucial. This guide provides in-depth information about who attends the meeting, what to expect, how to prepare, and how to address common concerns specific to District 23. We'll also explore relevant New York State Education Department (NYSED) regulations and federal Individuals with Disabilities Education Act (IDEA) provisions.</p>
+
+  <h3>Understanding the Committee on Special Education (CSE)</h3>
+
+  <p>The CSE is responsible for determining whether a student is eligible for special education services and, if so, for developing an Individualized Education Program (IEP) designed to meet the student's unique needs.  The CSE process is governed by Part 200 of the Regulations of the Commissioner of Education. This regulation outlines specific procedures and timelines that the district must follow.</p>
+
+  <h3>Who's at the Table? Assembling Your Advocacy Team</h3>
+
+  <p>The CSE meeting involves a diverse group of individuals. Understanding the roles and responsibilities of each member will help you navigate the meeting more effectively. Key members include:</p>
+
+  <ul>
+    <li><b>CSE Chairperson:</b> The facilitator, responsible for guiding the discussion, ensuring proper procedure (as outlined in Part 200.3 of the NYS regulations), and documenting the meeting's decisions accurately in the IEP.  They must ensure all required participants are present. The Chairperson may also be the school psychologist, depending on the school’s staffing structure.</li>
+    <li><b>Parent Member:</b> A parent of a child with a disability, trained to understand the special education process and provide support to other parents. They can offer guidance, share their experiences, and provide a valuable parent perspective. Their presence is mandated by IDEA and Part 200 regulations. Consider them an ally in navigating the special education system.</li>
+    <li><b>Your Child's Teacher(s):</b> Classroom teachers (general education and/or special education teachers) who can provide insights into your child's academic performance, classroom behavior, and learning style. They contribute valuable data about your child's progress in the general education curriculum and/or special education programs. Under IDEA, at least one of your child's regular education teachers must be part of the IEP team if the child is (or may be) participating in the regular education environment.</li>
+    <li><b>Related Service Providers:</b> Occupational therapists (OT), speech therapists (ST), physical therapists (PT), counselors, social workers, or other specialists who can offer expertise about your child's specific needs. Their evaluations and recommendations are crucial for determining appropriate related services to support your child's learning and development. Ensure these providers have recent data to share.</li>
+    <li><b>School Psychologist:</b> A required member of the CSE. They review psychological evaluations and contribute their expertise regarding the student’s cognitive, social, and emotional development. They can also provide insights into behavioral interventions and strategies.</li>
+    <li><b>You (the Parent/Guardian):</b> The *most* important voice in the room. You know your child best.  Federal law (IDEA) and NYS law guarantee your right to participate fully in all CSE meetings and decisions.  Your input is crucial in developing an IEP that meets your child's unique needs.  Bring any relevant documentation, including medical records, private evaluations, or examples of your child's work. You have the right to disagree with the CSE's recommendations and to request additional evaluations or services.</li>
+    <li><b>A representative of the school district who is qualified to provide, or supervise the provision of, specially designed instruction to meet the unique needs of children with disabilities; is knowledgeable about the general education curriculum; and is knowledgeable about the availability of resources of the school district.</b> This person is frequently an administrator, like an assistant principal or special education coordinator.</li>
+    <li><b>Your Child (when appropriate):</b> IDEA mandates that the student be invited to attend the CSE meeting whenever appropriate.  In New York State, students aged 18 or older have the right to make their own educational decisions, unless guardianship has been established.  Even younger students can provide valuable input into their IEP goals and preferences.</li>
+  </ul>
+
+  <h3>Addressing Common Concerns in District 23: Advocacy Strategies and Resources</h3>
+
+  <p>District 23 faces unique challenges, including resource constraints, high student-to-staff ratios, and historical inequities. This can lead to delays in evaluations, difficulty accessing related services, and concerns about the appropriateness of D75 referrals. If you're experiencing these issues, be prepared to advocate strategically and persistently for your child.</p>
+
+  <p><b>Common Problems We've Seen in District 23:</b></p>
+
+  <ul>
+    <li><b>Lengthy Wait Times for Initial and Triennial Evaluations:</b> NYS regulations require specific timelines for evaluations (e.g., 60 school days from referral to IEP implementation per Part 200.4(b)(1)(v)).  However, District 23 often struggles to meet these deadlines.</li>
+        <li><b>Insufficient Related Service Hours Offered in the IEP:</b> The frequency, duration, and location of related services must be based on your child's *individual* needs, not on district-wide limitations or budget constraints. Be prepared to argue for the *specific* amount of service time needed based on evaluations and progress data.</li>
+        <li><b>Concerns About Placing Students in D75 Programs:</b> D75 programs (District 75 serves students with significant disabilities in specialized settings) should *not* be the default placement option. Placement decisions must be based on a student's individual needs and should prioritize the least restrictive environment (LRE). Advocate for exploring all possible in-district and mainstreaming options before considering a D75 placement.  Document your reasoning for wanting a less restrictive environment in writing, referencing IDEA's emphasis on LRE.</li>
+        <li><b>Inadequate Implementation of IEPs:</b> Even when an IEP is well-written, challenges can arise in its actual implementation. This could involve teachers not following accommodations, related services being delayed or missed, or insufficient progress monitoring.</li>
+  </ul>
+
+  <p><b>Preparation is Key: Building Your Case</b></p>
+
+  <ul>
+    <li><b>Gather Evidence:</b> Collect all relevant documentation, including doctor's notes, private evaluations, teacher feedback, report cards, work samples, and any communication with school staff.</li>
+    <li><b>Document Everything:</b> Keep a detailed record of all interactions with the school, including dates, times, and summaries of conversations.  Send follow-up emails to confirm agreements reached during meetings.</li>
+    <li><b>Know Your Rights:</b> Familiarize yourself with IDEA and Part 200 regulations. The NYSED website (www.nysed.gov) offers valuable resources.</li>
+    <li><b>Consider Independent Evaluations:</b> If you disagree with the school's evaluations, you have the right to obtain an Independent Educational Evaluation (IEE) at public expense under certain circumstances (Part 200.5(g)).</li>
+    <li><b>Bring an Advocate:</b> A parent advocate or special education attorney can provide invaluable support during the CSE process.</li>
+  </ul>
+
+    <h3>Step-by-Step Guide to Preparing for Your CSE Meeting:</h3>
+
+    <ol>
+        <li><b>Review Your Child's Records:</b> Carefully examine all of your child's educational records, including previous IEPs, evaluations, progress reports, and teacher communications. Identify areas where your child is excelling, as well as areas where they need additional support.</li>
+        <li><b>Define Your Goals:</b> What do you hope to achieve at the CSE meeting? What specific goals do you have for your child's education? Write these goals down.</li>
+        <li><b>Prepare a Parent Input Statement:</b> This is a written statement that outlines your perspective on your child's strengths, needs, and educational goals. Share this with the CSE team *before* the meeting.</li>
+        <li><b>Organize Your Documents:</b> Create a binder or folder containing all relevant documents, including evaluations, medical records, and teacher communications.</li>
+        <li><b>Prepare Questions:</b> Write down a list of questions you want to ask the CSE team. See examples below.</li>
+        <li><b>Practice:</b> If possible, practice discussing your concerns and goals with a friend, family member, or advocate. This can help you feel more confident and prepared during the CSE meeting.</li>
+    </ol>
+
+
+  <h3>Key Questions to Ask: Probing for Specifics and Holding the District Accountable</h3>
+
+  <p>Don't hesitate to ask clarifying, probing questions. It's your right to understand the reasoning behind every decision. Document the answers provided by the CSE team. Here are more detailed examples:</p>
+
+  <ol>
+    <li><b>"What is the specific timeline for completing my child's [Initial/Triennial] evaluation, and what specific steps can be taken to expedite the process *given the current delays in District 23*? Can you provide me with a written commitment to this timeline?"</b> (Follow-up: "If the timeline is not met, what recourse do I have?")</li>
+    <li><b>"Given my child's needs outlined in the evaluation, specifically [cite specific findings], what is the rationale behind the *proposed* [Related Service - e.g., speech therapy] frequency and duration? How does this frequency and duration align with the recommendations in the evaluation report? Can you provide data to support the effectiveness of this level of service for students with similar needs?"</b> (Follow-up: "If I disagree with the proposed service level, what options are available, such as an independent evaluation or additional data collection?")</li>
+    <li><b>"Can you explain the *specific* reasons why a D75 placement is being considered for my child, and what *specific* alternatives are available within our local District 23 schools, including general education settings with appropriate supports and services?  What specific supports and services would be put in place to enable my child to succeed in a less restrictive environment before considering D75?"</b> (Follow-up: "Can we visit the proposed D75 program *and* comparable programs in District 23 before making a decision?")</li>
+      <li><b>"How will my child's progress toward their IEP goals be measured and reported to me? How frequently will I receive progress reports?"</b></li>
+      <li><b>"What specific accommodations and modifications will be implemented in the classroom to support my child's learning? How will the teacher be trained and supported in implementing these accommodations?"</b></li>
+      <li><b>"If my child is struggling to make progress, what steps will be taken to address the issue? Will the IEP be reviewed and revised?"</b></li>
+  </ol>
+
+    <h3>Understanding Your Rights: A Summary</h3>
+
+    <p>Parents have numerous rights under IDEA and New York State law. Here are some key rights to keep in mind:</p>
+
+    <ul>
+        <li><b>Right to Participate:</b> You have the right to actively participate in all aspects of the special education process, including evaluations, IEP development, and placement decisions.</li>
+        <li><b>Right to Consent:</b> You must provide written consent before your child is initially evaluated or placed in special education.</li>
+        <li><b>Right to Access Records:</b> You have the right to access and review your child's educational records.</li>
+        <li><b>Right to an Independent Educational Evaluation (IEE):</b> If you disagree with the school's evaluation, you have the right to obtain an IEE at public expense under certain circumstances.</li>
+        <li><b>Right to Mediation and Due Process:</b> If you disagree with the CSE's decisions, you have the right to pursue mediation or file a due process complaint.</li>
+    </ul>
+
+    <h3>Navigating Common District 23 Pitfalls: Strategies for Success</h3>
+
+    <p>Based on the issues frequently experienced in District 23, here's how to anticipate and navigate potential roadblocks:</p>
+
+    <ul>
+        <li><b>Long Evaluation Wait Times:</b> Immediately request the evaluation *in writing* and follow up regularly with the CSE chairperson. If the timeline is not met, file a written complaint with the NYSED.</li>
+        <li><b>Insufficient Related Services:</b> Obtain independent evaluations from qualified professionals to support your request for increased service hours. Present compelling data demonstrating your child's need for these services.</li>
+        <li><b>Inappropriate D75 Referrals:</b> Demand a thorough exploration of all less restrictive options within District 23. Request classroom observations and consultations with specialists to determine appropriate supports and services. Document your objections in writing if you believe the D75 placement is not the least restrictive environment.</li>
+        <li><b>IEP Implementation Issues:</b> Communicate regularly with your child's teachers and related service providers. Document any instances where the IEP is not being followed. Request an IEP review meeting to address these concerns.</li>
+    </ul>
+
+    <h3>FAQ: Common Questions from District 23 Parents</h3>
+
+    <dl>
+        <dt><b>Q: What if I disagree with the IEP developed by the CSE?</b></dt>
+        <dd>A: You have several options. You can request another meeting to discuss your concerns, pursue mediation, or file a due process complaint. It's crucial to document your objections in writing.</dd>
+
+        <dt><b>Q: My child's IEP is not being implemented. What should I do?</b></dt>
+        <dd>A: First, communicate with your child's teachers and related service providers to understand the reasons for the non-implementation. Document these conversations. If the issue persists, request an IEP review meeting to address the concerns.</dd>
+
+        <dt><b>Q: How can I find a qualified parent advocate in District 23?</b></dt>
+        <dd>A: Search online directories of parent advocates, contact local disability organizations, or ask other parents for recommendations. Look for advocates with experience in District 23 and a strong understanding of special education law.</dd>
+
+        <dt><b>Q: What is the difference between an IEP and a 504 plan?</b></dt>
+        <dd>A: An IEP is for students with disabilities who require specialized instruction and related services. A 504 plan is for students with disabilities who need accommodations to access the general education curriculum. The eligibility criteria and services provided under each plan differ. Students with IEPs have more legal protection under IDEA than students with 504 plans.</dd>
+    </dl>
+
+</body>
+    </div>
+
+    <div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
+        <h3>Need More Help?</h3>
+        <p>Download our complete toolkit for District 23 parents.</p>
+        <a href="/shop" class="button-primary">Get the Toolkit</a>
+    </div>
+</main>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+   <div class="footer-container">
+
+      <!-- COL 1: Brand & Mission -->
+      <div class="footer-brand">
+         <h3>NY Special Ed<span>.com</span></h3>
+         <p>
+            Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+         </p>
+         <div style="margin-top: 20px;">
+            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+         </div>
+      </div>
+
+      <!-- COL 2: Essential Guides -->
+      <div class="footer-col">
+         <h4>NY Parent Guides</h4>
+         <ul class="footer-links">
+            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
+            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 3: Top Districts -->
+      <div class="footer-col">
+         <h4>Popular Districts</h4>
+         <ul class="footer-links">
+            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 4: Legal & Contact -->
+      <div class="footer-col">
+         <h4>Resources</h4>
+         <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Support</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+         </ul>
+      </div>
+
+   </div>
+
+   <!-- Bottom Bar -->
+   <div class="footer-bottom">
+      <p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+         For official inquiries, visit schools.nyc.gov or nysed.gov.
+      </p>
+   </div>
+</footer>
+</body>
+</html>

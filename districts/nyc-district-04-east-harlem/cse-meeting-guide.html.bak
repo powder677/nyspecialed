@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSE Meeting Guide for District 4</title>
+  <meta name="description" content="Prepare for your Committee on Special Education meeting in District 4. Tips for Bilingual evaluations (Spanish), District 75 co-located programs.">
+  
+<link rel="stylesheet" href="/styles/global.css">
+<link rel="stylesheet" href="/styles/styles-nav-footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+   <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="/" class="nav-logo">
+         NY Special Ed<span>.com</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+         <ul class="nav-links">
+
+            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+            <li class="nav-item">
+               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
+               <div class="mega-menu">
+                  <div class="menu-column">
+                     <h4>Manhattan (D1-6)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Brooklyn (Key Districts)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Queens & SI</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+            <li class="nav-item">
+               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <h4>Big 5 Cities</h4>
+                     <ul>
+                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+            <li class="nav-item">
+               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <ul>
+                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- LINK: RESOURCES -->
+            <li class="nav-item">
+               <a href="/resources/" class="nav-link">Free Tools</a>
+            </li>
+
+            <!-- CTA -->
+            <li class="nav-item">
+               <a href="/shop" class="nav-cta">Get The Toolkit</a>
+            </li>
+         </ul>
+      </nav>
+
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Open Navigation">
+         <i class="fas fa-bars"></i>
+      </button>
+
+   </div>
+</header>
+  <main class="container">
+<div class="aeo-authority-block">
+        <a href="/districts/nyc-district-04-east-harlem/">← Back to District 4 Hub</a>
+    </div>
+    
+    <div class="content-body" style="margin-top: 30px;">
+        <body>
+    <h2>Navigating Your CSE Meeting in District 4 (East Harlem): A Parent's Guide</h2>
+
+    <p>Attending a Committee on Special Education (CSE) meeting in District 4 (East Harlem) can be a daunting experience. As a parent, you are the most important member of the CSE team, and your voice matters. This comprehensive guide aims to empower you with the knowledge and tools to effectively navigate the CSE process, advocate for your child's needs, and ensure they receive a Free and Appropriate Public Education (FAPE) as guaranteed under the Individuals with Disabilities Education Act (IDEA) and New York State Education Law §4402.  We will focus on critical areas specific to District 4, including understanding bilingual evaluations (especially in Spanish) and navigating the complexities of District 75 co-located programs.</p>
+
+    <h3>Understanding the CSE Process: Your Rights and Responsibilities</h3>
+
+    <p>The CSE process is designed to identify students with disabilities and develop an Individualized Education Program (IEP) that meets their unique needs. It's crucial to understand your rights and responsibilities throughout this process. Key rights include:</p>
+
+    <ul>
+        <li><b>Right to Participate:</b> You have the right to participate in all CSE meetings concerning your child.  This includes the initial referral, evaluation, IEP development, and any subsequent reviews or revisions.</li>
+        <li><b>Right to Independent Educational Evaluation (IEE):</b> If you disagree with the school's evaluation, you have the right to obtain an IEE at public expense under certain circumstances (34 CFR §300.502).  The district must either pay for the IEE or initiate a due process hearing to defend the validity of their evaluation.</li>
+        <li><b>Right to Prior Written Notice (PWN):</b> The school district must provide you with PWN whenever they propose to initiate or change, or refuse to initiate or change, the identification, evaluation, or educational placement of your child (34 CFR §300.503). This notice must be provided in your native language.</li>
+        <li><b>Right to Access Records:</b> You have the right to inspect and review all educational records related to your child (34 CFR §300.613).</li>
+        <li><b>Right to Due Process:</b> If you disagree with the CSE's decisions, you have the right to pursue dispute resolution options, including mediation and impartial hearings (34 CFR §300.507-516).</li>
+    </ul>
+
+    <p>Your responsibilities as a parent include actively participating in the CSE process, sharing relevant information about your child's strengths and needs, and collaborating with the CSE team to develop an effective IEP.</p>
+
+    <h3>Who's at the Table? Understanding the CSE Team</h3>
+
+    <p>Your CSE meeting will include several key individuals, each with specific roles and responsibilities. Understanding who they are and their perspectives is essential for effective communication and advocacy:</p>
+
+    <ul>
+        <li><b>CSE Chairperson:</b> The CSE Chairperson leads the meeting, ensuring legal requirements are met, facilitating discussion, and documenting decisions. They are responsible for ensuring the meeting runs smoothly and that all members have an opportunity to contribute.</li>
+        <li><b>Parent Member:</b> A Parent Member, another parent of a child with a disability within District 4, is also present. This parent provides support and guidance, offering a valuable perspective based on their own experiences navigating the special education system. They can be a valuable resource for understanding district-specific practices and procedures.</li>
+        <li><b>School Psychologist:</b> The school psychologist conducts psychological evaluations, interprets test results, and provides insights into your child's cognitive, emotional, and behavioral functioning. They play a critical role in determining eligibility for special education services.</li>
+        <li><b>Special Education Teacher:</b> The special education teacher provides specialized instruction and support to students with disabilities. They are responsible for implementing the IEP and adapting instruction to meet your child's individual needs.</li>
+        <li><b>General Education Teacher:</b> At least one of your child’s general education teachers must be present (or, if the child is newly referred, a general education teacher who is knowledgeable about the student’s suspected needs). Their perspective is crucial for understanding how your child is performing in the general education setting and how to best support their integration.</li>
+        <li><b>Related Service Providers:</b> Related service providers, such as speech therapists, occupational therapists, physical therapists, and counselors, provide specialized support services to address specific needs outlined in the IEP.</li>
+        <li><b>You, the Parent or Guardian:</b> As the parent, you are the most important member of the CSE team. You have valuable insights into your child's strengths, needs, and learning style. Your active participation and advocacy are crucial for ensuring your child receives the appropriate services and support.</li>
+        <li><b>A Representative from District 75:</b> A representative from District 75 might be present if your child's services are being considered or delivered through a co-located program. This individual can provide information about the specific programs and supports offered within District 75.</li>
+        <li><b>Student (When Appropriate):</b> If your child is old enough (typically around age 14), they should be invited to attend the CSE meeting and participate in the development of their IEP. This promotes self-advocacy and empowers them to take ownership of their education.</li>
+    </ul>
+
+    <h3>Addressing Specific Concerns: Bilingual Evaluations (Spanish) in District 4</h3>
+
+    <p>District 4 serves a significant Spanish-speaking population, and ensuring culturally and linguistically appropriate evaluations is paramount.  If you believe your child needs a <b>bilingual evaluation</b> conducted in Spanish, explicitly request it <b>in writing</b> before the evaluation process begins. This is critical because under New York State Part 200 Regulations, evaluations must be conducted in the child's native language or mode of communication (8 NYCRR §200.4(b)(1)(iii)). The regulations clearly state the school district has a responsibility to ensure that evaluations are administered in the language and form most likely to yield accurate information on what the child knows and can do academically, developmentally, and functionally.</p>
+
+    <p><b>Key Considerations for Bilingual Evaluations:</b></p>
+
+    <ul>
+        <li><b>Request in Writing:</b>  Document your request for a bilingual evaluation in a letter to the CSE Chairperson and the school principal. This creates a paper trail and ensures your request is formally acknowledged.</li>
+        <li><b>Qualifications of the Evaluator:</b>  Inquire about the evaluator's qualifications and experience in conducting bilingual evaluations, particularly with children from similar cultural and linguistic backgrounds.  Ask about their fluency in Spanish and their understanding of the specific cultural nuances of your child's background.</li>
+        <li><b>Assessment Measures:</b>  Ask about the specific measures that will be used to assess your child in Spanish. Ensure that the assessments are standardized and validated for use with Spanish-speaking children.  Avoid relying solely on translated versions of English assessments, as these may not be culturally appropriate or accurately reflect your child's abilities.</li>
+        <li><b>Parent Interview:</b>  The evaluator should conduct a thorough interview with you in Spanish to gather information about your child's developmental history, language use, and cultural background.</li>
+        <li><b>Documentation in the IEP:</b>  If a bilingual evaluation is recommended, ensure that it is clearly documented in the IEP, including the specific assessments that will be used and the evaluator's qualifications.</li>
+    </ul>
+
+    <p><b>Common Pitfalls to Avoid:</b></p>
+
+    <ul>
+        <li><b>Accepting a translated evaluation instead of a true bilingual evaluation.</b> A translated evaluation simply translates the test items into Spanish, but it doesn't account for cultural differences or the child's language proficiency.</li>
+        <li><b>Failing to request a bilingual evaluation in writing.</b>  Verbal requests may not be documented or followed through on.</li>
+        <li><b>Assuming that all evaluators who speak Spanish are qualified to conduct bilingual evaluations.</b>  It's essential to verify the evaluator's training and experience.</li>
+    </ul>
+
+    <h3>Navigating District 75 Co-Located Programs in District 4</h3>
+
+    <p>District 75 provides specialized programs for students with significant disabilities. In District 4, some of these programs are co-located within general education schools. This model aims to promote inclusion and provide students with disabilities opportunities to interact with their general education peers. However, it's crucial to understand how these co-located programs are structured and how your child's IEP will be implemented within this setting.</p>
+
+    <p><b>Key Questions to Ask About D75 Co-Location:</b></p>
+
+    <ul>
+        <li><b>Integration Opportunities:</b>  How are students in the co-located program integrated into general education classes and activities? What opportunities are available for social interaction and collaboration with general education students?</li>
+        <li><b>Curriculum and Instruction:</b>  How is the curriculum adapted to meet the individual needs of students in the co-located program? What instructional strategies are used to support their learning?</li>
+        <li><b>Support Services:</b>  What related services (e.g., speech therapy, occupational therapy, counseling) are provided within the co-located setting? How are these services integrated into the student's daily routine?</li>
+        <li><b>Staffing:</b>  What is the ratio of teachers and paraprofessionals to students in the co-located program? What training and experience do the staff have in working with students with disabilities?</li>
+        <li><b>Communication:</b>  How frequently will you receive updates on your child's progress in both the general education and special education components of the co-located program? What communication channels will be used (e.g., email, phone calls, progress reports)?</li>
+        <li><b>IEP Implementation:</b>  How are the supports and modifications outlined in your child's IEP implemented within the co-located setting? Who is responsible for ensuring that the IEP is followed?</li>
+    </ul>
+
+    <p><b>Advocacy Tips for D75 Co-Location:</b></p>
+
+    <ul>
+        <li><b>Visit the Program:</b>  Schedule a visit to the co-located program to observe the classroom environment, meet the staff, and see how students are integrated.</li>
+        <li><b>Talk to Other Parents:</b>  Connect with other parents whose children attend the co-located program to learn about their experiences and get their perspectives.</li>
+        <li><b>Document Everything:</b>  Keep detailed records of all communication with the school and the CSE, including emails, phone calls, and meeting notes.</li>
+        <li><b>Know Your Rights:</b>  Familiarize yourself with your rights under IDEA and New York State special education law.</li>
+        <li><b>Consider an Advocate:</b> If you feel overwhelmed or unsure how to navigate the CSE process, consider hiring a special education advocate to assist you.</li>
+    </ul>
+
+    <h3>Essential Questions to Ask at Your CSE Meeting</h3>
+
+    <p>Here is an expanded list of crucial questions to ask during your CSE meeting, categorized for clarity:</p>
+
+    <ol>
+        <li><b>Regarding Bilingual Evaluations:</b>
+            <ul>
+                <li>"If a bilingual evaluation is deemed necessary, what are the qualifications of the evaluator and what specific measures will be used to assess my child in Spanish, ensuring cultural and linguistic appropriateness?"</li>
+                <li>"Can I see the data supporting the decision to use [specific assessment] over another, considering my child's unique background?"</li>
+                <li>"What accommodations will be provided during the evaluation to ensure my child's language proficiency doesn't hinder their performance?"</li>
+            </ul>
+        </li>
+        <li><b>Regarding D75 Co-location:</b>
+            <ul>
+                <li>"How are the supports and modifications outlined in my child's IEP implemented within the co-located setting, and how frequently will I receive updates on their progress in both the general education and special education components? What specific strategies are used to ensure consistent implementation across both settings?"</li>
+                <li>"What opportunities will my child have to interact with general education peers in meaningful and age-appropriate ways?"</li>
+                  <li>"What is the plan for addressing potential challenges that may arise from integrating a student with my child's specific needs into a co-located setting?"</li>
+            </ul>
+        </li>
+        <li><b>General:</b>
+            <ul>
+                <li>"What are the data points being used to support the recommendations being made, and how can I access those data points for my own review *before* the IEP is finalized? Can I have a copy of all evaluation reports and data used to make these recommendations?"</li>
+                <li>"What are my child's strengths, and how will the IEP build upon those strengths to address their areas of need?"</li>
+                <li>"What are the specific, measurable, achievable, relevant, and time-bound (SMART) goals that are being proposed for my child, and how will progress towards those goals be monitored and reported?"</li>
+                <li>"What are the potential risks and benefits of the proposed placement and services?"</li>
+                <li>"What alternative placements and services were considered, and why were they rejected?"</li>
+                <li>"What is the plan for transitioning my child to the next grade level or educational setting?"</li>
+                <li>"How will my child's social and emotional needs be addressed?"</li>
+                <li>"What training and support will be provided to the school staff who will be working with my child?"</li>
+                <li>"How can I effectively communicate with the school staff and the CSE team?"</li>
+                <li>"If I disagree with the CSE's recommendations, what are my options for dispute resolution?"</li>
+                <li>"What are the extended school year (ESY) services that are available, and is my child eligible for ESY?" (8 NYCRR §200.6(k) outlines criteria for ESY eligibility.)</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>FAQ: Common Questions from District 4 Parents</h3>
+
+    <dl>
+        <dt><b>Q: My child is struggling in reading. How do I request a reading evaluation?</b></dt>
+        <dd>A: Submit a written request to the CSE Chairperson and school principal, outlining your concerns and requesting a comprehensive reading evaluation. Be specific about the areas of reading in which your child is struggling (e.g., decoding, fluency, comprehension). Cite NYS Part 200 regulations regarding required components of an individual evaluation (8 NYCRR §200.4(b)).</dd>
+
+        <dt><b>Q: I disagree with the CSE's recommendation for my child's placement. What can I do?</b></dt>
+        <dd>A: You have several options. First, express your concerns to the CSE and try to reach a consensus. If you cannot agree, you can request mediation or file a request for an impartial hearing. You can also pursue an Independent Educational Evaluation (IEE). The school district must provide you with information about your rights and the procedures for pursuing these options (34 CFR §300.507-516).</dd>
+
+        <dt><b>Q: What is the difference between an IEP and a 504 plan?</b></dt>
+        <dd>A: An IEP is for students who have been identified as having a disability that significantly impacts their educational performance and requires specialized instruction. A 504 plan is for students who have a disability that substantially limits one or more major life activities, but who may not require specialized instruction. 504 plans provide accommodations to ensure equal access to education under Section 504 of the Rehabilitation Act of 1973.</dd>
+
+        <dt><b>Q: My child has an IEP. Can they still participate in extracurricular activities?</b></dt>
+        <dd>A: Yes. Students with IEPs have the right to participate in extracurricular activities to the same extent as their general education peers. The school district must provide reasonable accommodations to ensure their participation (34 CFR §300.107).</dd>
+
+        <dt><b>Q: How often should my child's IEP be reviewed?</b></dt>
+        <dd>A: An IEP must be reviewed at least annually, or more frequently if requested by the parent or the school (34 CFR §300.324(b)(1)). You can request a review meeting at any time if you have concerns about your child's progress or the effectiveness of the IEP.</dd>
+    </dl>
+</body>
+    </div>
+
+    <div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
+        <h3>Need More Help?</h3>
+        <p>Download our complete toolkit for District 4 parents.</p>
+        <a href="/shop" class="button-primary">Get the Toolkit</a>
+    </div>
+</main>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+   <div class="footer-container">
+
+      <!-- COL 1: Brand & Mission -->
+      <div class="footer-brand">
+         <h3>NY Special Ed<span>.com</span></h3>
+         <p>
+            Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+         </p>
+         <div style="margin-top: 20px;">
+            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+         </div>
+      </div>
+
+      <!-- COL 2: Essential Guides -->
+      <div class="footer-col">
+         <h4>NY Parent Guides</h4>
+         <ul class="footer-links">
+            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
+            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 3: Top Districts -->
+      <div class="footer-col">
+         <h4>Popular Districts</h4>
+         <ul class="footer-links">
+            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 4: Legal & Contact -->
+      <div class="footer-col">
+         <h4>Resources</h4>
+         <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Support</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+         </ul>
+      </div>
+
+   </div>
+
+   <!-- Bottom Bar -->
+   <div class="footer-bottom">
+      <p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+         For official inquiries, visit schools.nyc.gov or nysed.gov.
+      </p>
+   </div>
+</footer>
+</body>
+</html>
