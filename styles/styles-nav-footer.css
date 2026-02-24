@@ -22,15 +22,17 @@
 }
 
 .nav-logo {
-  font-weight: 800;
-  font-size: 1.4rem;
-  color: var(--ny-navy);
-  text-transform: uppercase;
-  letter-spacing: -0.5px;
-  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;          /* never squish the logo */
 }
 
-.nav-logo span { color: var(--ny-red); }
+.nav-logo img {
+  display: block;
+  height: 50px;
+  width: auto;             /* preserve aspect ratio */
+  border-radius: 8px;      /* matches the logo's rounded corners */
+}
 
 /* --- Desktop Menu --- */
 .nav-links {
