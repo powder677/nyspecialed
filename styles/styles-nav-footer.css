@@ -3,7 +3,7 @@
    ============================================ */
 .site-header {
   background: #fff;
-  border-bottom: 3px solid #c8102e;
+  border-bottom: 3px solid var(--ny-red);
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
   position: sticky;
   top: 0;
@@ -23,12 +23,14 @@
 
 .nav-logo {
   font-weight: 800;
-  font-size: 1.5rem;
-  color: #002868;
+  font-size: 1.4rem;
+  color: var(--ny-navy);
   text-transform: uppercase;
   letter-spacing: -0.5px;
+  white-space: nowrap;
 }
-.nav-logo span { color: #c8102e; }
+
+.nav-logo span { color: var(--ny-red); }
 
 /* --- Desktop Menu --- */
 .nav-links {
@@ -49,22 +51,23 @@
 }
 
 .nav-link {
-  color: #002868;
+  color: var(--ny-navy);
   font-weight: 600;
   font-size: 0.95rem;
   padding: 0.5rem 0;
 }
-.nav-link:hover { color: #c8102e; }
+
+.nav-link:hover { color: var(--ny-red); }
 .nav-link i { font-size: 0.75rem; margin-left: 4px; color: #ccc; }
 
 /* --- MEGA MENU & DROPDOWNS --- */
 .mega-menu, .dropdown-menu {
   position: absolute;
-  top: 70px; /* Push below header */
+  top: 70px;
   left: 50%;
   transform: translateX(-50%);
   background: #fff;
-  border-top: 3px solid #c8102e;
+  border-top: 3px solid var(--ny-red);
   box-shadow: 0 15px 30px rgba(0,0,0,0.15);
   padding: 2rem;
   opacity: 0;
@@ -74,11 +77,20 @@
   border-radius: 0 0 8px 8px;
 }
 
-/* Specific Widths */
-.mega-menu { width: 900px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
-.dropdown-menu { width: 250px; left: 0; transform: none; }
+.mega-menu {
+  width: 900px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
 
-/* Hover State - Show Menu */
+.dropdown-menu {
+  width: 250px;
+  left: 0;
+  transform: none;
+}
+
+/* Show on hover */
 .nav-item:hover .mega-menu,
 .nav-item:hover .dropdown-menu {
   opacity: 1;
@@ -86,9 +98,9 @@
   top: 70px;
 }
 
-/* Menu Content Styles */
+/* Menu column content */
 .menu-column h4 {
-  color: #c8102e;
+  color: var(--ny-red);
   font-size: 0.85rem;
   text-transform: uppercase;
   border-bottom: 1px solid #eee;
@@ -98,27 +110,38 @@
 
 .menu-column ul { list-style: none; padding: 0; }
 .menu-column li { margin-bottom: 0.5rem; }
-.menu-column a { color: #555; font-size: 0.9rem; display: block; }
-.menu-column a:hover { color: #002868; transform: translateX(3px); }
+.menu-column a  { color: #555; font-size: 0.9rem; display: block; }
+.menu-column a:hover { color: var(--ny-navy); padding-left: 3px; }
 
-/* --- Mobile Toggle --- */
+/* --- Mobile Toggle Button --- */
 .mobile-toggle {
   display: none;
   background: none;
   border: none;
   font-size: 1.5rem;
-  color: #002868;
+  color: var(--ny-navy);
   cursor: pointer;
+  padding: 0.25rem;
 }
 
-/* --- Mobile Menu Overlay --- */
+/* ============================================
+   MOBILE NAVIGATION OVERLAY
+   Toggled by .mobile-toggle via inline script
+   below — included at bottom of every page.
+   ============================================ */
 .mobile-nav-overlay {
-  display: none; /* Hidden by default, JS toggles 'active' */
+  display: none;
   position: fixed;
-  top: 0; left: 0; width: 100%; height: 100%;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
   background: rgba(0,0,0,0.5);
   z-index: 2000;
 }
+
+.mobile-nav-overlay.active {
+  display: block;
+}
+
 .mobile-nav-inner {
   width: 85%;
   max-width: 350px;
@@ -129,11 +152,52 @@
   box-shadow: 2px 0 10px rgba(0,0,0,0.2);
 }
 
+.mobile-nav-inner .nav-logo {
+  display: block;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.mobile-nav-inner ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mobile-nav-inner li {
+  border-bottom: 1px solid #eee;
+}
+
+.mobile-nav-inner a {
+  display: block;
+  padding: 0.75rem 0;
+  color: var(--ny-navy);
+  font-weight: 600;
+}
+
+.mobile-nav-inner a:hover { color: var(--ny-red); }
+
+.mobile-nav-inner h4 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--ny-red);
+  margin: 1rem 0 0.5rem;
+}
+
+.mobile-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  float: right;
+  cursor: pointer;
+  color: #999;
+  margin-bottom: 1rem;
+}
+
 /* ============================================
    FOOTER STYLES
    ============================================ */
 .site-footer {
-  background: #002868;
+  background: var(--ny-navy);
   color: #fff;
   padding: 4rem 0 2rem;
   margin-top: auto;
@@ -142,43 +206,103 @@
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 1rem 3rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 3rem;
   border-bottom: 1px solid rgba(255,255,255,0.1);
-  padding-bottom: 3rem;
 }
 
-.footer-brand h3 { color: #fff; font-size: 1.5rem; }
-.footer-brand span { color: #c8102e; }
-.footer-tagline { color: #cbd5e1; font-size: 0.9rem; line-height: 1.6; margin-top: 1rem; }
+.footer-brand h3 {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
 
-.footer-col h4 { color: #fff; font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1.5rem; }
+.footer-brand span { color: var(--ny-red); }
+
+/* Footer brand paragraph text */
+.footer-brand p {
+  color: #cbd5e1;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.footer-col h4 {
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+
 .footer-links { list-style: none; padding: 0; }
-.footer-links li { margin-bottom: 0.8rem; }
-.footer-links a { color: #cbd5e1; font-size: 0.9rem; transition: color 0.2s; }
-.footer-links a:hover { color: #c8102e; padding-left: 5px; }
+
+.footer-links li  { margin-bottom: 0.8rem; }
+
+.footer-links a {
+  color: #cbd5e1;
+  font-size: 0.9rem;
+  transition: color 0.2s, padding-left 0.2s;
+}
+
+.footer-links a:hover {
+  color: var(--ny-red);
+  padding-left: 5px;
+}
 
 .footer-bottom {
   text-align: center;
   padding-top: 2rem;
   font-size: 0.85rem;
   color: rgba(255,255,255,0.5);
+  line-height: 1.8;
 }
 
 /* ============================================
-   RESPONSIVE QUERIES
+   RESPONSIVE
    ============================================ */
 @media (max-width: 900px) {
-  .nav-links { display: none; } /* Hide desktop nav */
-  .mobile-toggle { display: block; } /* Show hamburger */
-  
-  .mega-menu {
+  .nav-links     { display: none; }
+  .mobile-toggle { display: block; }
+
+  .mega-menu, .dropdown-menu {
     position: static;
     width: 100%;
     transform: none;
     box-shadow: none;
-    display: none; /* Hide unless active */
+    opacity: 1;
+    visibility: visible;
+    display: none;
+    padding: 0.5rem 0 0.5rem 1rem;
+    border-top: none;
   }
 }
+
+/* ============================================
+   MOBILE NAV — INLINE SCRIPT
+   Add this snippet just before </body> on
+   every page (or in a shared script.js).
+
+   <div class="mobile-nav-overlay" id="mobileNav">
+     <div class="mobile-nav-inner">
+       <button class="mobile-close" id="mobileClose">&times;</button>
+       ... nav links here ...
+     </div>
+   </div>
+   <script>
+     document.querySelector('.mobile-toggle')
+       .addEventListener('click', () =>
+         document.getElementById('mobileNav')
+           .classList.add('active'));
+     document.getElementById('mobileClose')
+       .addEventListener('click', () =>
+         document.getElementById('mobileNav')
+           .classList.remove('active'));
+     document.getElementById('mobileNav')
+       .addEventListener('click', e => {
+         if (e.target === e.currentTarget)
+           e.currentTarget.classList.remove('active');
+       });
+   </script>
+   ============================================ */
