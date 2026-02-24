@@ -1,227 +1,322 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <title>Brentwood UFSD Special Education Hub | NewYorkSpecialEd.net</title>
-      <meta name="description" content="Complete guide to Special Education in Brentwood UFSD. Contacts, CSE meetings, and evaluations.">
-      
-<link rel="stylesheet" href="/styles/global.css">
-<link rel="stylesheet" href="/styles/styles-nav-footer.css">
 
-      <script type="application/ld+json">{}</script>
-    </head>
-    <body>
-      <!-- 
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Brentwood UFSD Special Education Hub | NYSpecialEd.com</title>
+<meta content="Complete guide to Special Education in Brentwood UFSD. Contacts, CSE meetings, evaluation timelines, and parent rights." name="description"/>
+<link href="https://www.nyspecialed.com/districts/brentwood-ufsd/" rel="canonical"/>
+<link href="/styles/global.css" rel="stylesheet"/>
+<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+<style>
+    .local-hero {
+        background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+        color: white;
+        padding: 60px 20px 100px 20px;
+        text-align: center;
+        margin-bottom: -40px;
+    }
+    .local-hero h1 { color: white; margin-bottom: 10px; }
+    
+    .hub-grid {
+        display: grid; 
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
+        gap: 20px; 
+        max-width: 1100px;
+        margin: 0 auto 40px auto;
+        position: relative;
+        z-index: 2;
+        padding: 0 20px;
+    }
+    .hub-card {
+        background: white;
+        padding: 25px; 
+        border: 1px solid #ddd; 
+        border-radius: 8px; 
+        text-decoration: none; 
+        color: inherit; 
+        display: block;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+    }
+    .hub-card:hover { transform: translateY(-5px); border-color: #0056b3; }
+    
+    .local-aeo-section {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        background: #fff;
+    }
+    .local-aeo-section h3 { color: #002868; border-bottom: 2px solid #d4af37; padding-bottom: 5px; display: inline-block; margin-top: 30px; }
+  </style>
+</head>
+<body>
+<!-- 
     INSTRUCTIONS: 
     Include this inside the <header> tag of every page.
     Requires: styles/nav-footer.css
     Requires: FontAwesome (for icons)
 -->
-
-<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
-   <div class="nav-container">
-
-      <!-- Logo -->
-      <a href="/" class="nav-logo">
+<header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader">
+<div class="nav-container">
+<!-- Logo -->
+<a class="nav-logo" href="/">
          NY Special Ed<span>.com</span>
-      </a>
-
-      <!-- Desktop Navigation -->
-      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-         <ul class="nav-links">
-
-            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
-            <li class="nav-item">
-               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
-               <div class="mega-menu">
-                  <div class="menu-column">
-                     <h4>Manhattan (D1-6)</h4>
-                     <ul>
-                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
-                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
-                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
-                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
-                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
-                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
-                     </ul>
-                  </div>
-                  <div class="menu-column">
-                     <h4>Brooklyn (Key Districts)</h4>
-                     <ul>
-                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
-                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
-                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
-                        <li><a href="/districts/nyc-district-22-midwood">District 22: Flatbush/Sheepshead</a></li>
-                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
-                     </ul>
-                  </div>
-                  <div class="menu-column">
-                     <h4>Queens & SI</h4>
-                     <ul>
-                        <li><a href="/districts/nyc-district-24-maspeth">District 24: Corona/Maspeth</a></li>
-                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
-                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
-                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
-                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </li>
-
-            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
-            <li class="nav-item">
-               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
-               <div class="dropdown-menu">
-                  <div class="menu-column" style="padding: 0 20px;">
-                     <h4>Big 5 Cities</h4>
-                     <ul>
-                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
-                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
-                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
-                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
-                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </li>
-
-            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
-            <li class="nav-item">
-               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
-               <div class="dropdown-menu">
-                  <div class="menu-column" style="padding: 0 20px;">
-                     <ul>
-                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
-                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
-                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
-                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
-                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </li>
-
-            <!-- LINK: RESOURCES -->
-            <li class="nav-item">
-               <a href="/resources/" class="nav-link">Free Tools</a>
-            </li>
-
-            <!-- CTA -->
-            <li class="nav-item">
-               <a href="/shop" class="nav-cta">Get The Toolkit</a>
-            </li>
-         </ul>
-      </nav>
-
-      <!-- Mobile Toggle -->
-      <button class="mobile-toggle" aria-label="Open Navigation">
-         <i class="fas fa-bars"></i>
-      </button>
-
-   </div>
+</a>
+<!-- Desktop Navigation -->
+<nav itemscope="" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+<ul class="nav-links">
+<!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/">NYC Districts <i class="fas fa-chevron-down"></i></a>
+<div class="mega-menu">
+<div class="menu-column">
+<h4>Manhattan (D1-6)</h4>
+<ul>
+<li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+<li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+<li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+<li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+<li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+<li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>Brooklyn (Key Districts)</h4>
+<ul>
+<li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+<li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+<li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+<li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+<li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>Queens &amp; SI</h4>
+<ul>
+<li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+<li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+<li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+<li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+<li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/nys-overview">Upstate &amp; LI <i class="fas fa-chevron-down"></i></a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<h4>Big 5 Cities</h4>
+<ul>
+<li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+<li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+<li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+<li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+<li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+<li class="nav-item">
+<a class="nav-link" href="/guides/">Parent Guides <i class="fas fa-chevron-down"></i></a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<ul>
+<li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+<li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+<li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+<li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+<li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+</ul>
+</div>
+</div>
+</li>
+<!-- LINK: RESOURCES -->
+<li class="nav-item">
+<a class="nav-link" href="/resources/">Free Tools</a>
+</li>
+<!-- CTA -->
+<li class="nav-item">
+<a class="nav-cta" href="/shop">Get The Toolkit</a>
+</li>
+</ul>
+</nav>
+<!-- Mobile Toggle -->
+<button aria-label="Open Navigation" class="mobile-toggle">
+<i class="fas fa-bars"></i>
+</button>
+</div>
 </header>
-      <main class="container">
-        <div class="aeo-authority-block" style="background: #f0f7ff; padding: 20px; border-left: 5px solid #0056b3; margin: 20px 0;">
-            Follows NYSED Part 200.
-        </div>
-        <h1>Brentwood UFSD Special Education Hub</h1>
+<div class="local-hero">
+<h1>Brentwood UFSD Special Ed Hub</h1>
+<p style="color: #e2e8f0; font-size: 1.1rem;">Your guide to the CSE process, evaluations, and rights in Brentwood UFSD, located in Brentwood, Suffolk County.</p>
+</div>
+<div class="hub-grid">
+<a class="hub-card" href="/districts/brentwood-ufsd/leadership-directory.html">
+<h3 style="color: #0056b3; margin-top: 0;">📞 Contacts</h3>
+<p>Phone numbers &amp; emails for Director of Special Education.</p>
+</a>
+<a class="hub-card" href="/districts/brentwood-ufsd/cse-meeting-guide.html">
+<h3 style="color: #0056b3; margin-top: 0;">🤝 CSE Guide</h3>
+<p>What to expect at your Annual Review.</p>
+</a>
+<a class="hub-card" href="/districts/brentwood-ufsd/evaluation-process.html">
+<h3 style="color: #0056b3; margin-top: 0;">📝 Evaluations</h3>
+<p>How to trigger the 60-day timeline.</p>
+</a>
+<a class="hub-card" href="/districts/brentwood-ufsd/discipline-rights.html">
+<h3 style="color: #0056b3; margin-top: 0;">⚖️ Discipline</h3>
+<p>Suspensions and MDR rights.</p>
+</a>
 
-        <div class="hub-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 40px 0;">
+        <a href="/districts/brentwood-ufsd/partners.html" class="hub-card">
+            <h3 style="color: #0056b3; margin-top: 0;">🤲 Partners</h3>
+            <p>Local advocates, legal aid, and support organizations.</p>
+        </a>
+        <a href="/districts/brentwood-ufsd/special-ed-updates.html" class="hub-card">
+            <h3 style="color: #0056b3; margin-top: 0;">📰 Updates</h3>
+            <p>Latest news and policy changes affecting your district.</p>
+        </a>
+</div>
+<section class="local-aeo-section"><h2>About Brentwood UFSD and Its Students</h2>
 
-            <a href="./leadership-directory.html" class="hub-card" style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: inherit; display: block;">
-                <h3 style="color: #0056b3; margin-top: 0;">📞 Leadership Directory</h3>
-                <p>Phone numbers and emails for Director of Special Education and CSE offices.</p>
-            </a>
+Welcome to the NYSpecialEd.com hub for Brentwood Union Free School District (UFSD). If you're here, you're likely navigating the special education system in Brentwood, and we want to help you understand your rights and how to advocate for your child.
 
-            <a href="./cse-meeting-guide.html" class="hub-card" style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: inherit; display: block;">
-                <h3 style="color: #0056b3; margin-top: 0;">🤝 CSE Meeting Guide</h3>
-                <p>What to expect at your Annual Review or Initial Eligibility meeting.</p>
-            </a>
+Brentwood UFSD is located in Suffolk County, on Long Island. It's a large district, and according to the New York State Education Department (NYSED) data, Brentwood UFSD had an enrollment of over 18,000 students in the 2022-2023 school year. As the largest non-city school district in New York, Brentwood serves a diverse population. The district's website and NYSED data offer detailed demographic information, which you can review to better understand the community your child is part of. You can find this information at data.nysed.gov; be sure to verify the figures with the district for the most up-to-date information. Given the district's location and demographics, Spanish is widely spoken in the community, and the district provides bilingual support services.
 
-            <a href="./evaluation-process.html" class="hub-card" style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: inherit; display: block;">
-                <h3 style="color: #0056b3; margin-top: 0;">📝 Request Evaluation</h3>
-                <p>How to trigger the 60-day timeline for testing.</p>
-            </a>
+Understanding the context of Brentwood UFSD is the first step in effectively navigating its special education system. The size and diversity of the district can influence the resources available and the specific challenges faced by students with disabilities. We'll guide you through the process of understanding your child's rights and accessing the services they need within the Brentwood UFSD system.
 
-            <a href="./discipline-rights.html" class="hub-card" style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: inherit; display: block;">
-                <h3 style="color: #0056b3; margin-top: 0;">⚖️ Discipline &amp; Rights</h3>
-                <p>Suspensions, Manifestation Determination, and Due Process.</p>
-            </a>
+<h2>How Special Education Works in Brentwood UFSD</h2>
 
-        </div>
+In Brentwood UFSD, as in all New York State school districts, the Committee on Special Education (CSE) is the body responsible for making decisions about a student's eligibility for special education and the development of their Individualized Education Program (IEP). The CSE is a multidisciplinary team that includes parents, teachers, school psychologists, and other relevant professionals. It is crucial to understand that, as a parent, you are an equal member of the CSE, not simply a guest. Your input and perspective are essential to the process.
 
-        <section class="district-faq">
-            <h2>Common Questions in Brentwood UFSD</h2>
-            
-        </section>
-      </main>
-      <!-- 
+The CSE process begins with a referral, which can be initiated by you, your child's teacher, or another school professional. Once a referral is made, the school district has 60 school days to complete an evaluation of your child. This evaluation will assess your child's strengths and weaknesses in various areas, such as academic performance, cognitive abilities, and social-emotional development. The evaluation results are then reviewed by the CSE, which determines whether your child meets the criteria for special education services.
+
+For children under the age of five, Brentwood UFSD has a Committee on Preschool Special Education (CPSE) that operates similarly to the CSE. If you have concerns about your preschool-aged child's development, you can contact the district to initiate a referral to the CPSE. The CPSE can provide early intervention services to help your child reach their full potential.
+
+<h2>Who Qualifies for Services</h2>
+
+To qualify for special education services in Brentwood UFSD, a student must have a disability that falls under one of the 13 categories defined by the Individuals with Disabilities Education Act (IDEA). These categories include:
+
+*   Autism
+*   Deafness
+*   Deaf-blindness
+*   Emotional disturbance
+*   Hearing impairment
+*   Intellectual disability
+*   Multiple disabilities
+*   Orthopedic impairment
+*   Other health impairment
+*   Specific learning disability
+*   Speech or language impairment
+*   Traumatic brain injury
+*   Visual impairment
+
+It's important to understand that simply having a diagnosis within one of these categories does not automatically qualify a student for special education. The disability must also adversely affect the student's educational performance. This means that the disability must be causing significant difficulties in the student's ability to learn and participate in school.
+
+It is also important to note that English Language Learner (ELL) status alone does not qualify a child for special education services. If a child is struggling in school, it is important to determine whether the difficulties are due to a disability or to language acquisition challenges. Evaluations must be conducted in the child's native language or mode of communication to ensure accurate assessment. Brentwood UFSD's capacity to conduct evaluations in Spanish is a significant asset in serving its diverse student population. Contact the district to confirm the availability of evaluations in other languages spoken in the community.
+
+<h2>What Services Are Available</h2>
+
+Brentwood UFSD offers a range of special education services to meet the diverse needs of its students with disabilities. These services are provided along a continuum, from the least restrictive environment to the most restrictive. The goal is to provide students with disabilities the opportunity to learn alongside their non-disabled peers to the greatest extent possible.
+
+Some of the services available in Brentwood UFSD include:
+
+*   **Integrated Co-Teaching (ICT):** In this model, a general education teacher and a special education teacher co-teach a class, providing support to all students, including those with IEPs.
+*   **Special Classes:** Brentwood UFSD offers a variety of special class settings with different student-to-teacher ratios, such as 12:1:1, 8:1:1, and 6:1:1. These classes provide more individualized instruction and support for students with more significant needs. Contact the district to confirm the specific special class options available at your child's grade level and school.
+*   **Related Services:** These services are designed to support a student's learning and development and may include speech therapy, occupational therapy (OT), physical therapy (PT), and counseling.
+
+In some cases, Brentwood UFSD may not be able to provide a Free Appropriate Public Education (FAPE) for a student within the district. In these situations, the district may be responsible for placing the student in an out-of-district placement, such as a specialized school or residential program. The CSE makes these decisions based on the individual needs of the student.
+
+<h2>Your Rights as a Parent</h2>
+
+As a parent of a child with a disability in Brentwood UFSD, you have certain rights and protections under the law. These rights, often referred to as procedural safeguards, are designed to ensure that you have a voice in your child's education and that the district is accountable for providing a FAPE.
+
+Some of your key rights include:
+
+*   **Right to Participate in the CSE:** As mentioned earlier, you are an equal member of the CSE and have the right to participate in all meetings and decisions related to your child's special education program.
+*   **Right to an Independent Educational Evaluation (IEE) at Public Expense:** If you disagree with the district's evaluation of your child, you have the right to obtain an IEE from a qualified professional at the district's expense, under certain circumstances.
+*   **Right to Prior Written Notice:** The district must provide you with written notice before making any changes to your child's IEP or placement. This notice must explain the proposed action, the reasons for it, and your rights as a parent.
+*   **Right to Mediation and Impartial Hearing:** If you have a dispute with the district regarding your child's special education program, you have the right to request mediation or an impartial hearing to resolve the issue.
+
+It is important to remember that you do not need a lawyer to assert these rights. You can advocate for your child effectively by understanding your rights and working collaboratively with the school district. However, if you feel overwhelmed or need assistance, there are parent advocacy organizations and attorneys who can provide support.
+
+<h2>Next Steps</h2>
+
+Navigating the special education system can be complex, but you're not alone. Here are some next steps you can take to further your understanding and advocate for your child in Brentwood UFSD:
+
+*   **If your child has not yet been evaluated for special education:** Start by reviewing our page on the Evaluation Process to understand how to initiate a referral and what to expect during the evaluation process.
+*   **If you have a CSE meeting coming up:** Read our CSE Meeting Guide to prepare for the meeting and learn how to effectively participate in the discussion.
+*   **Understanding IEPs:** Learn about Individualized Education Programs on our IEP Guide page.
+*   **For help with behavioral issues:** Our Behavior Supports page offers guidance.
+*   **To learn about dispute resolution:** Read about options on our Resolving Disputes page.
+*   **For information on life after high school:** Visit our Transition Planning page.
+
+We hope this information has been helpful. Remember, you are your child's best advocate. By understanding your rights and the special education process, you can work collaboratively with Brentwood UFSD to ensure that your child receives the support and services they need to succeed.</section>
+<!-- 
     INSTRUCTIONS: 
     Include this at the bottom of every page.
     Requires: styles/nav-footer.css
 -->
-
-<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
-   <div class="footer-container">
-
-      <!-- COL 1: Brand & Mission -->
-      <div class="footer-brand">
-         <h3>NY Special Ed<span>.com</span></h3>
-         <p>
+<footer class="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="footer-container">
+<!-- COL 1: Brand & Mission -->
+<div class="footer-brand">
+<h3>NY Special Ed<span>.com</span></h3>
+<p>
             Demystifying the New York Committee on Special Education (CSE) process.
             We provide parents with the localized data, legal templates, and advocacy
             tools needed to secure appropriate services in NYC and NY State.
          </p>
-         <div style="margin-top: 20px;">
-            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
-         </div>
-      </div>
-
-      <!-- COL 2: Essential Guides -->
-      <div class="footer-col">
-         <h4>NY Parent Guides</h4>
-         <ul class="footer-links">
-            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
-            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
-            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
-            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
-            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
-         </ul>
-      </div>
-
-      <!-- COL 3: Top Districts -->
-      <div class="footer-col">
-         <h4>Popular Districts</h4>
-         <ul class="footer-links">
-            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
-            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
-            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
-            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
-            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
-         </ul>
-      </div>
-
-      <!-- COL 4: Legal & Contact -->
-      <div class="footer-col">
-         <h4>Resources</h4>
-         <ul class="footer-links">
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/contact">Contact Support</a></li>
-            <li><a href="/privacy-policy">Privacy Policy</a></li>
-            <li><a href="/terms">Terms of Service</a></li>
-            <li><a href="/sitemap.xml">Sitemap</a></li>
-         </ul>
-      </div>
-
-   </div>
-
-   <!-- Bottom Bar -->
-   <div class="footer-bottom">
-      <p>
-         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+<div style="margin-top: 20px;">
+<a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+</div>
+</div>
+<!-- COL 2: Essential Guides -->
+<div class="footer-col">
+<h4>NY Parent Guides</h4>
+<ul class="footer-links">
+<li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+<li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+<li><a href="/guides/dispute-resolution-ny">Due Process &amp; Complaints</a></li>
+<li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+<li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+</ul>
+</div>
+<!-- COL 3: Top Districts -->
+<div class="footer-col">
+<h4>Popular Districts</h4>
+<ul class="footer-links">
+<li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+<li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+<li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+<li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+<li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+</ul>
+</div>
+<!-- COL 4: Legal & Contact -->
+<div class="footer-col">
+<h4>Resources</h4>
+<ul class="footer-links">
+<li><a href="/about">About Us</a></li>
+<li><a href="/contact">Contact Support</a></li>
+<li><a href="/privacy-policy">Privacy Policy</a></li>
+<li><a href="/terms">Terms of Service</a></li>
+<li><a href="/sitemap.xml">Sitemap</a></li>
+</ul>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="footer-bottom">
+<p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br/>
          For official inquiries, visit schools.nyc.gov or nysed.gov.
       </p>
-   </div>
+</div>
 </footer>
-    </body>
-    </html>
+</body>
+</html>
