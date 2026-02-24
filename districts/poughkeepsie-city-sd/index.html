@@ -1,227 +1,327 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <title>Poughkeepsie City SD Special Education Hub | NewYorkSpecialEd.net</title>
-      <meta name="description" content="Complete guide to Special Education in Poughkeepsie City SD. Contacts, CSE meetings, and evaluations.">
-      
-<link rel="stylesheet" href="/styles/global.css">
-<link rel="stylesheet" href="/styles/styles-nav-footer.css">
 
-      <script type="application/ld+json">{}</script>
-    </head>
-    <body>
-      <!-- 
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Poughkeepsie City SD Special Education Hub | NYSpecialEd.com</title>
+<meta content="Complete guide to Special Education in Poughkeepsie City SD. Contacts, CSE meetings, evaluation timelines, and parent rights." name="description"/>
+<link href="https://www.nyspecialed.com/districts/poughkeepsie-city-sd/" rel="canonical"/>
+<link href="/styles/global.css" rel="stylesheet"/>
+<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+<style>
+    .local-hero {
+        background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+        color: white;
+        padding: 60px 20px 100px 20px;
+        text-align: center;
+        margin-bottom: -40px;
+    }
+    .local-hero h1 { color: white; margin-bottom: 10px; }
+    
+    .hub-grid {
+        display: grid; 
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
+        gap: 20px; 
+        max-width: 1100px;
+        margin: 0 auto 40px auto;
+        position: relative;
+        z-index: 2;
+        padding: 0 20px;
+    }
+    .hub-card {
+        background: white;
+        padding: 25px; 
+        border: 1px solid #ddd; 
+        border-radius: 8px; 
+        text-decoration: none; 
+        color: inherit; 
+        display: block;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+    }
+    .hub-card:hover { transform: translateY(-5px); border-color: #0056b3; }
+    
+    .local-aeo-section {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        background: #fff;
+    }
+    .local-aeo-section h3 { color: #002868; border-bottom: 2px solid #d4af37; padding-bottom: 5px; display: inline-block; margin-top: 30px; }
+  </style>
+</head>
+<body>
+<!-- 
     INSTRUCTIONS: 
     Include this inside the <header> tag of every page.
     Requires: styles/nav-footer.css
     Requires: FontAwesome (for icons)
 -->
-
-<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
-   <div class="nav-container">
-
-      <!-- Logo -->
-      <a href="/" class="nav-logo">
+<header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader">
+<div class="nav-container">
+<!-- Logo -->
+<a class="nav-logo" href="/">
          NY Special Ed<span>.com</span>
-      </a>
-
-      <!-- Desktop Navigation -->
-      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-         <ul class="nav-links">
-
-            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
-            <li class="nav-item">
-               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
-               <div class="mega-menu">
-                  <div class="menu-column">
-                     <h4>Manhattan (D1-6)</h4>
-                     <ul>
-                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
-                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
-                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
-                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
-                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
-                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
-                     </ul>
-                  </div>
-                  <div class="menu-column">
-                     <h4>Brooklyn (Key Districts)</h4>
-                     <ul>
-                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
-                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
-                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
-                        <li><a href="/districts/nyc-district-22-midwood">District 22: Flatbush/Sheepshead</a></li>
-                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
-                     </ul>
-                  </div>
-                  <div class="menu-column">
-                     <h4>Queens & SI</h4>
-                     <ul>
-                        <li><a href="/districts/nyc-district-24-maspeth">District 24: Corona/Maspeth</a></li>
-                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
-                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
-                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
-                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </li>
-
-            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
-            <li class="nav-item">
-               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
-               <div class="dropdown-menu">
-                  <div class="menu-column" style="padding: 0 20px;">
-                     <h4>Big 5 Cities</h4>
-                     <ul>
-                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
-                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
-                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
-                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
-                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </li>
-
-            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
-            <li class="nav-item">
-               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
-               <div class="dropdown-menu">
-                  <div class="menu-column" style="padding: 0 20px;">
-                     <ul>
-                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
-                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
-                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
-                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
-                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </li>
-
-            <!-- LINK: RESOURCES -->
-            <li class="nav-item">
-               <a href="/resources/" class="nav-link">Free Tools</a>
-            </li>
-
-            <!-- CTA -->
-            <li class="nav-item">
-               <a href="/shop" class="nav-cta">Get The Toolkit</a>
-            </li>
-         </ul>
-      </nav>
-
-      <!-- Mobile Toggle -->
-      <button class="mobile-toggle" aria-label="Open Navigation">
-         <i class="fas fa-bars"></i>
-      </button>
-
-   </div>
+</a>
+<!-- Desktop Navigation -->
+<nav itemscope="" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+<ul class="nav-links">
+<!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/">NYC Districts <i class="fas fa-chevron-down"></i></a>
+<div class="mega-menu">
+<div class="menu-column">
+<h4>Manhattan (D1-6)</h4>
+<ul>
+<li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+<li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+<li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+<li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+<li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+<li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>Brooklyn (Key Districts)</h4>
+<ul>
+<li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+<li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+<li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+<li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+<li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>Queens &amp; SI</h4>
+<ul>
+<li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+<li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+<li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+<li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+<li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/nys-overview">Upstate &amp; LI <i class="fas fa-chevron-down"></i></a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<h4>Big 5 Cities</h4>
+<ul>
+<li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+<li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+<li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+<li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+<li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+<li class="nav-item">
+<a class="nav-link" href="/guides/">Parent Guides <i class="fas fa-chevron-down"></i></a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<ul>
+<li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+<li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+<li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+<li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+<li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+</ul>
+</div>
+</div>
+</li>
+<!-- LINK: RESOURCES -->
+<li class="nav-item">
+<a class="nav-link" href="/resources/">Free Tools</a>
+</li>
+<!-- CTA -->
+<li class="nav-item">
+<a class="nav-cta" href="/shop">Get The Toolkit</a>
+</li>
+</ul>
+</nav>
+<!-- Mobile Toggle -->
+<button aria-label="Open Navigation" class="mobile-toggle">
+<i class="fas fa-bars"></i>
+</button>
+</div>
 </header>
-      <main class="container">
-        <div class="aeo-authority-block" style="background: #f0f7ff; padding: 20px; border-left: 5px solid #0056b3; margin: 20px 0;">
-            Follows NYSED Part 200.
-        </div>
-        <h1>Poughkeepsie City SD Special Education Hub</h1>
+<div class="local-hero">
+<h1>Poughkeepsie City SD Special Ed Hub</h1>
+<p style="color: #e2e8f0; font-size: 1.1rem;">Your guide to the CSE process, evaluations, and rights in Poughkeepsie City SD, located in Poughkeepsie, Dutchess County.</p>
+</div>
+<div class="hub-grid">
+<a class="hub-card" href="/districts/poughkeepsie-city-sd/leadership-directory.html">
+<h3 style="color: #0056b3; margin-top: 0;">📞 Contacts</h3>
+<p>Phone numbers &amp; emails for Director of Special Education.</p>
+</a>
+<a class="hub-card" href="/districts/poughkeepsie-city-sd/cse-meeting-guide.html">
+<h3 style="color: #0056b3; margin-top: 0;">🤝 CSE Guide</h3>
+<p>What to expect at your Annual Review.</p>
+</a>
+<a class="hub-card" href="/districts/poughkeepsie-city-sd/evaluation-process.html">
+<h3 style="color: #0056b3; margin-top: 0;">📝 Evaluations</h3>
+<p>How to trigger the 60-day timeline.</p>
+</a>
+<a class="hub-card" href="/districts/poughkeepsie-city-sd/discipline-rights.html">
+<h3 style="color: #0056b3; margin-top: 0;">⚖️ Discipline</h3>
+<p>Suspensions and MDR rights.</p>
+</a>
+<a class="hub-card" href="/districts/poughkeepsie-city-sd/partners.html">
+<h3 style="color: #0056b3; margin-top: 0;">🤲 Partners</h3>
+<p>Local advocates, legal aid, and support organizations.</p>
+</a>
+<a class="hub-card" href="/districts/poughkeepsie-city-sd/special-ed-updates.html">
+<h3 style="color: #0056b3; margin-top: 0;">📰 Updates</h3>
+<p>Latest news and policy changes affecting your district.</p>
+</a>
+</div>
+<section class="local-aeo-section"><h2>About Poughkeepsie City SD and Its Students</h2>
 
-        <div class="hub-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 40px 0;">
+Welcome to the NYSpecialEd.com hub for Poughkeepsie City School District. If you're concerned about your child's learning or development, you've come to the right place. This page is designed to provide you with clear, practical information about special education services and supports available within the district.
 
-            <a href="./leadership-directory.html" class="hub-card" style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: inherit; display: block;">
-                <h3 style="color: #0056b3; margin-top: 0;">📞 Leadership Directory</h3>
-                <p>Phone numbers and emails for Director of Special Education and CSE offices.</p>
-            </a>
+Poughkeepsie City School District is located in the city of Poughkeepsie, in Dutchess County, New York. As a city school district, it serves a diverse population of students. According to the New York State Education Department (NYSED) data, the district's enrollment is around 4,700 students. To confirm the most up-to-date enrollment figures, you can visit the NYSED data website (data.nysed.gov). The district's demographics reflect the diversity of the city, with a significant percentage of students from historically marginalized groups. Understanding this context is important as you navigate the special education system.
 
-            <a href="./cse-meeting-guide.html" class="hub-card" style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: inherit; display: block;">
-                <h3 style="color: #0056b3; margin-top: 0;">🤝 CSE Meeting Guide</h3>
-                <p>What to expect at your Annual Review or Initial Eligibility meeting.</p>
-            </a>
+The percentage of students with Individualized Education Programs (IEPs) in Poughkeepsie City SD can also be found on the NYSED data website. This figure is a useful benchmark as you consider your child's needs in relation to the broader student population. Given Poughkeepsie's location, it's likely that Spanish is spoken in many homes. If your child's primary language isn't English, it's crucial to ensure that all evaluations and IEP meetings are conducted in your native language, with interpretation services provided by the district.
 
-            <a href="./evaluation-process.html" class="hub-card" style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: inherit; display: block;">
-                <h3 style="color: #0056b3; margin-top: 0;">📝 Request Evaluation</h3>
-                <p>How to trigger the 60-day timeline for testing.</p>
-            </a>
+<h2>How Special Education Works in Poughkeepsie City SD</h2>
 
-            <a href="./discipline-rights.html" class="hub-card" style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: inherit; display: block;">
-                <h3 style="color: #0056b3; margin-top: 0;">⚖️ Discipline &amp; Rights</h3>
-                <p>Suspensions, Manifestation Determination, and Due Process.</p>
-            </a>
+In Poughkeepsie City School District, as in all New York State school districts, the Committee on Special Education (CSE) is the central body responsible for making decisions about special education services for students aged 5-21. The CSE is a multidisciplinary team that includes parents, teachers, school psychologists, and other relevant professionals. Its primary role is to evaluate students suspected of having a disability, determine eligibility for special education services, and develop Individualized Education Programs (IEPs) tailored to meet each student's unique needs.
 
-        </div>
+For children under the age of five, the process is overseen by the Committee on Preschool Special Education (CPSE). The CPSE operates similarly to the CSE, but focuses on early intervention services and supports for young children with developmental delays or disabilities. If you have concerns about your preschooler's development, contacting the CPSE is an important first step.
 
-        <section class="district-faq">
-            <h2>Common Questions in Poughkeepsie City SD</h2>
-            
-        </section>
-      </main>
-      <!-- 
+It's crucial to remember that as a parent, you are an *equal* member of the CSE team. You are not simply a guest or an observer. Your input, knowledge of your child, and perspectives are invaluable to the process. The law requires the district to actively involve you in all stages of the special education process, from initial evaluation to IEP development and implementation. Don't hesitate to ask questions, share your concerns, and advocate for your child's needs.
+
+<h2>Who Qualifies for Services</h2>
+
+To qualify for special education services in Poughkeepsie City School District, a student must meet two criteria: first, they must have a disability that falls under one of the 13 categories defined by the Individuals with Disabilities Education Act (IDEA); and second, that disability must adversely affect their educational performance. The 13 IDEA disability categories are:
+
+*   Autism
+*   Deaf-blindness
+*   Deafness
+*   Emotional Disturbance
+*   Hearing Impairment
+*   Intellectual Disability
+*   Multiple Disabilities
+*   Orthopedic Impairment
+*   Other Health Impairment
+*   Specific Learning Disability
+*   Speech or Language Impairment
+*   Traumatic Brain Injury
+*   Visual Impairment (including blindness)
+
+It's important to understand that simply having a diagnosis or a label within one of these categories does not automatically guarantee eligibility for special education services. The CSE must determine that the disability has a negative impact on the student's ability to learn and participate in the general education curriculum. This determination is based on a comprehensive evaluation that assesses the student's academic, cognitive, social-emotional, and physical development.
+
+It's also crucial to note that being an English Language Learner (ELL) does not, in itself, qualify a child for special education. However, if an ELL student is suspected of having a disability, the evaluation process must be conducted in their native language, or in the mode of communication most easily understood by the child. The district is responsible for providing qualified interpreters and translators to ensure that parents who are not fluent in English can fully participate in the CSE process.
+
+<h2>What Services Are Available</h2>
+
+Poughkeepsie City School District offers a range of special education services designed to meet the diverse needs of its students. These services are provided along a continuum, from the least restrictive environment (LRE) to more specialized settings. The goal is to provide students with disabilities with access to the general education curriculum and opportunities to learn alongside their non-disabled peers to the greatest extent possible.
+
+Some of the common special education service models available in Poughkeepsie City SD include:
+
+*   **Integrated Co-Teaching (ICT):** In this model, a general education teacher and a special education teacher co-teach a class, providing support and modifications to students with IEPs within the general education setting.
+*   **Special Classes:** The district offers various special class settings with lower student-to-teacher ratios to provide more individualized instruction and support. These may include:
+    *   12:1:1 classes (12 students, 1 teacher, 1 aide)
+    *   8:1:1 classes (8 students, 1 teacher, 1 aide)
+    *   6:1:1 classes (6 students, 1 teacher, 1 aide)
+*   **Related Services:** These are supportive services that help students with disabilities benefit from their educational program. Common related services include:
+    *   Speech therapy
+    *   Occupational therapy (OT)
+    *   Physical therapy (PT)
+    *   Counseling
+    *   Assistive technology
+
+In some cases, the district may not be able to provide a Free Appropriate Public Education (FAPE) within its own schools. In these situations, the CSE may recommend an out-of-district placement, such as a specialized school or program that can meet the student's unique needs. The district is responsible for covering the cost of such placements. Contact the district directly to confirm the availability of specific programs and services within Poughkeepsie City SD.
+
+<h2>Your Rights as a Parent</h2>
+
+As a parent of a child with a disability, you have specific rights under federal and state law. These rights, often referred to as procedural safeguards, are designed to ensure that you are actively involved in the special education process and that your child receives a FAPE. Some of the key procedural safeguards include:
+
+*   **Right to Participate in the CSE:** As mentioned earlier, you are an equal member of the CSE team and have the right to participate in all meetings and decisions related to your child's special education program.
+*   **Right to an Independent Educational Evaluation (IEE) at Public Expense:** If you disagree with the district's evaluation of your child, you have the right to obtain an IEE from a qualified professional. If the IEE meets certain criteria, the district may be required to pay for it.
+*   **Right to Prior Written Notice:** The district must provide you with written notice before it proposes to take any action regarding your child's special education program, such as conducting an evaluation, changing services, or making a placement decision. This notice must explain the proposed action, the reasons for it, and your rights as a parent.
+*   **Right to Mediation and Impartial Hearing:** If you have a dispute with the district regarding your child's special education program, you have the right to request mediation or an impartial hearing to resolve the issue. Mediation is a voluntary process in which a neutral third party helps you and the district reach a mutually agreeable solution. An impartial hearing is a more formal process in which an independent hearing officer hears evidence and makes a decision.
+
+It is important to remember that you do not need a lawyer to assert these rights. While legal representation can be helpful in some situations, you have the right to advocate for your child on your own. The NYSED provides resources and information to help parents understand their rights and navigate the special education system.
+
+<h2>Next Steps</h2>
+
+We hope this page has provided you with a helpful overview of special education in Poughkeepsie City School District. Here are some suggested next steps, depending on where you are in the process:
+
+*   **If your child has not yet been evaluated:** Visit our Evaluation Process page to learn about the steps involved in requesting an evaluation and what to expect during the process.
+*   **If you have a CSE meeting coming up:** Review our CSE Meeting Guide to prepare for the meeting and understand your role as a parent.
+*   **If you disagree with the IEP:** Read about your options on the IEP Disagreement page.
+*   **If you are considering moving your child:** The Transfer Students page will help.
+*   **For children with behavior challenges:** Our dedicated Behavior Supports page can help.
+*   **For older students:** Transition Planning is essential, so read that page early.
+
+Navigating the special education system can be challenging, but you are not alone. NYSpecialEd.com is here to provide you with the information and resources you need to advocate for your child's success.</section>
+<!-- 
     INSTRUCTIONS: 
     Include this at the bottom of every page.
     Requires: styles/nav-footer.css
 -->
-
-<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
-   <div class="footer-container">
-
-      <!-- COL 1: Brand & Mission -->
-      <div class="footer-brand">
-         <h3>NY Special Ed<span>.com</span></h3>
-         <p>
+<footer class="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="footer-container">
+<!-- COL 1: Brand & Mission -->
+<div class="footer-brand">
+<h3>NY Special Ed<span>.com</span></h3>
+<p>
             Demystifying the New York Committee on Special Education (CSE) process.
             We provide parents with the localized data, legal templates, and advocacy
             tools needed to secure appropriate services in NYC and NY State.
          </p>
-         <div style="margin-top: 20px;">
-            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
-         </div>
-      </div>
-
-      <!-- COL 2: Essential Guides -->
-      <div class="footer-col">
-         <h4>NY Parent Guides</h4>
-         <ul class="footer-links">
-            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
-            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
-            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
-            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
-            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
-         </ul>
-      </div>
-
-      <!-- COL 3: Top Districts -->
-      <div class="footer-col">
-         <h4>Popular Districts</h4>
-         <ul class="footer-links">
-            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
-            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
-            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
-            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
-            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
-         </ul>
-      </div>
-
-      <!-- COL 4: Legal & Contact -->
-      <div class="footer-col">
-         <h4>Resources</h4>
-         <ul class="footer-links">
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/contact">Contact Support</a></li>
-            <li><a href="/privacy-policy">Privacy Policy</a></li>
-            <li><a href="/terms">Terms of Service</a></li>
-            <li><a href="/sitemap.xml">Sitemap</a></li>
-         </ul>
-      </div>
-
-   </div>
-
-   <!-- Bottom Bar -->
-   <div class="footer-bottom">
-      <p>
-         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+<div style="margin-top: 20px;">
+<a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+</div>
+</div>
+<!-- COL 2: Essential Guides -->
+<div class="footer-col">
+<h4>NY Parent Guides</h4>
+<ul class="footer-links">
+<li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+<li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+<li><a href="/guides/dispute-resolution-ny">Due Process &amp; Complaints</a></li>
+<li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+<li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+</ul>
+</div>
+<!-- COL 3: Top Districts -->
+<div class="footer-col">
+<h4>Popular Districts</h4>
+<ul class="footer-links">
+<li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+<li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+<li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+<li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+<li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+</ul>
+</div>
+<!-- COL 4: Legal & Contact -->
+<div class="footer-col">
+<h4>Resources</h4>
+<ul class="footer-links">
+<li><a href="/about">About Us</a></li>
+<li><a href="/contact">Contact Support</a></li>
+<li><a href="/privacy-policy">Privacy Policy</a></li>
+<li><a href="/terms">Terms of Service</a></li>
+<li><a href="/sitemap.xml">Sitemap</a></li>
+</ul>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="footer-bottom">
+<p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br/>
          For official inquiries, visit schools.nyc.gov or nysed.gov.
       </p>
-   </div>
+</div>
 </footer>
-    </body>
-    </html>
+</body>
+</html>
