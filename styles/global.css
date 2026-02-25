@@ -1,4 +1,25 @@
 /* ============================================
+   GOOGLE FONTS IMPORT
+   'Inter' is referenced throughout — must be
+   imported or the font silently falls back.
+   ============================================ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* ============================================
+   CSS CUSTOM PROPERTIES (Variables)
+   --ny-navy is used inline in navbar HTML:
+   style="color: var(--ny-navy)"
+   Must be defined here on :root.
+   ============================================ */
+:root {
+  --ny-navy:   #002868;
+  --ny-red:    #c8102e;
+  --ny-gold:   #D4AF37;
+  --text-muted: #555;
+  --border:    #e2e8f0;
+}
+
+/* ============================================
    GLOBAL RESET & BASE STYLES
    ============================================ */
 * {
@@ -16,8 +37,8 @@ body {
 
 img { max-width: 100%; height: auto; display: block; }
 
-a { color: #002868; text-decoration: none; transition: color 0.2s; }
-a:hover { color: #c8102e; }
+a { color: var(--ny-navy); text-decoration: none; transition: color 0.2s; }
+a:hover { color: var(--ny-red); }
 
 /* ============================================
    LAYOUT UTILITIES
@@ -28,7 +49,7 @@ a:hover { color: #c8102e; }
   padding: 0 1rem;
 }
 
-main { min-height: 60vh; }
+main  { min-height: 60vh; }
 section { padding: 4rem 0; }
 .text-center { text-align: center; }
 
@@ -36,7 +57,7 @@ section { padding: 4rem 0; }
    TYPOGRAPHY
    ============================================ */
 h1, h2, h3, h4, h5 {
-  color: #002868;
+  color: var(--ny-navy);
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -45,11 +66,11 @@ h1, h2, h3, h4, h5 {
 h1 { font-size: 2.5rem; }
 h2 { font-size: 2rem; }
 h3 { font-size: 1.5rem; }
-p { margin-bottom: 1rem; }
+p  { margin-bottom: 1rem; }
 
 .lead {
   font-size: 1.25rem;
-  color: #555;
+  color: var(--text-muted);
   margin-bottom: 2rem;
 }
 
@@ -58,7 +79,7 @@ p { margin-bottom: 1rem; }
    ============================================ */
 .button-primary, .nav-cta {
   display: inline-block;
-  background: #c8102e;
+  background: var(--ny-red);
   color: #fff !important;
   padding: 0.75rem 1.5rem;
   border-radius: 50px;
@@ -84,7 +105,7 @@ p { margin-bottom: 1rem; }
 }
 
 .hero h1, .local-hero h1 { color: #fff; }
-.hero p, .local-hero p { color: rgba(255,255,255,0.9); font-size: 1.2rem; }
+.hero p,  .local-hero p  { color: rgba(255,255,255,0.9); font-size: 1.2rem; }
 
 /* ============================================
    GRID SYSTEMS (Hubs & Directories)
@@ -98,7 +119,7 @@ p { margin-bottom: 1rem; }
 
 .hub-card, .directory-card, .aeo-card {
   background: #fff;
-  border: 1px solid #e2e8f0;
+  border: 1px solid var(--border);
   border-radius: 8px;
   padding: 1.5rem;
   transition: all 0.2s;
@@ -110,22 +131,50 @@ p { margin-bottom: 1rem; }
 
 .hub-card:hover, .directory-card:hover {
   transform: translateY(-5px);
-  border-color: #002868;
+  border-color: var(--ny-navy);
   box-shadow: 0 10px 15px rgba(0,0,0,0.1);
 }
 
-.hub-card h3 { color: #002868; font-size: 1.2rem; margin-top: 0; }
-.hub-card p { font-size: 0.95rem; color: #666; margin-bottom: 0; }
+.hub-card h3 { color: var(--ny-navy); font-size: 1.2rem; margin-top: 0; }
+.hub-card p  { font-size: 0.95rem; color: #666; margin-bottom: 0; }
+
+/* Directory card text helpers */
+.d-name {
+  color: #0056b3;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.d-desc {
+  font-size: 0.85rem;
+  color: #666;
+}
 
 /* ============================================
-   CONTENT BLOCKS
+   CONTENT / INFO BLOCKS
    ============================================ */
 .aeo-authority-block {
   background: #f8fafc;
   padding: 1rem;
-  border-left: 4px solid #002868;
+  border-left: 4px solid var(--ny-navy);
   margin: 1.5rem 0;
   font-size: 0.9rem;
+}
+
+/* Used by homepage hub section */
+.aeo-section {
+  background: #fff;
+  padding: 60px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Contact directory */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
 }
 
 .contact-box {
@@ -136,10 +185,92 @@ p { margin-bottom: 1rem; }
   margin-bottom: 1rem;
 }
 
+.contact-item {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.contact-item a {
+  color: #0056b3;
+}
+
+.contact-item a:hover {
+  color: var(--ny-red);
+}
+
+/* Alert / info box — used on guide pages */
+.alert-box {
+  background: #eff6ff;
+  border-left: 4px solid #2563eb;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 25px 0;
+}
+
+/* CTA box — used in CSE guide and district pages */
+.cta-box {
+  margin-top: 40px;
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.cta-box h3 { margin-top: 0; }
+
+/* Timeline box — used in evaluation guide */
+.timeline-box {
+  border-left: 4px solid #0056b3;
+  padding: 1rem 1rem 1rem 1.5rem;
+  margin: 1.5rem 0;
+  background: #f0f7ff;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Content body wrapper — used in buffalo district sub-pages */
+.content-body {
+  margin-top: 30px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.content-body h2 {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.content-body h2:first-child {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* ============================================
+   HOMEPAGE DIRECTORY SECTION
+   ============================================ */
+.borough-section  { margin-bottom: 2rem; }
+.region-section   { margin-top: 3rem; }
+
+.borough-title {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  color: var(--ny-navy);
+  font-size: 1.3rem;
+}
+
 /* ============================================
    MOBILE RESPONSIVE
    ============================================ */
 @media (max-width: 768px) {
   h1 { font-size: 2rem; }
-  .hub-grid { grid-template-columns: 1fr; }
+  h2 { font-size: 1.6rem; }
+
+  .hub-grid,
+  .directory-grid,
+  .contact-grid { grid-template-columns: 1fr; }
+
+  .content-body { margin-top: 15px; }
 }

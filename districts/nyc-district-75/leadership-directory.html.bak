@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -336,4 +337,344 @@
    </div>
 </footer>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Special Education Contacts: District 75</title>
+  <meta name="description" content="Direct phone numbers and emails for District 75 Committee on Special Education (CSE), CPSE, and leadership offices.">
+  <link rel="canonical" href="https://www.nyspecialed.com/districts/nyc-district-75/leadership-directory.html">
+  
+<link rel="stylesheet" href="/styles/global.css">
+<link rel="stylesheet" href="/styles/styles-nav-footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+   <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="/" class="nav-logo">
+         NY Special Ed<span>.com</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+         <ul class="nav-links">
+
+            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+            <li class="nav-item">
+               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
+               <div class="mega-menu">
+                  <div class="menu-column">
+                     <h4>Manhattan (D1-6)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Brooklyn (Key Districts)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Queens & SI</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+            <li class="nav-item">
+               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <h4>Big 5 Cities</h4>
+                     <ul>
+                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+            <li class="nav-item">
+               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <ul>
+                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- LINK: RESOURCES -->
+            <li class="nav-item">
+               <a href="/resources/" class="nav-link">Free Tools</a>
+            </li>
+
+            <!-- CTA -->
+            <li class="nav-item">
+               <a href="/shop" class="nav-cta">Get The Toolkit</a>
+            </li>
+         </ul>
+      </nav>
+
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Open Navigation">
+         <i class="fas fa-bars"></i>
+      </button>
+
+   </div>
+</header>
+  <main class="container">
+<div class="aeo-authority-block">
+        <a href="/districts/nyc-district-75/">← Back to District 75 Hub</a>
+    </div>
+    
+    <div class="content-body" style="margin-top: 30px;">
+        <h1 style="margin-bottom: 10px;">District 75 Leadership Directory & Advocacy Guide</h1>
+        <p class="lead">Use this directory to contact the Committee on Special Education (CSE) or CPSE offices in NYC District 75. Remember, effective communication and advocacy are key to ensuring your child receives appropriate special education services. Navigating District 75, which serves students with the most significant needs, requires a proactive and informed approach.</p>
+        
+        <div class="contact-grid">
+            <p>Contact 311 for CSE details and general inquiries regarding District 75. While 311 can provide initial information, always follow up with written communication to the relevant CSE personnel.</p>
+        </div>
+
+        <div class="alert-box" style="background: #fff3cd; padding: 20px; margin-top: 30px; border-radius: 8px; border-left: 5px solid #ffc107;">
+            <strong>⚠️ Escalation Tip:</strong> If you do not receive a response within 48 hours, document your attempt (date, time, method of contact, person contacted) and escalate to the NYC DOE. Keep meticulous records of all communication attempts. Lack of response can be a violation of your child's rights under the Individuals with Disabilities Education Act (IDEA) and New York State Education Law.
+        </div>
+
+        
+<section class="protocol-section" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 40px;">
+    <h2 style="color: #002868; font-size: 1.8rem; margin-bottom: 20px;">
+        <i class="fas fa-clipboard-check"></i> Communication Protocol & Advocacy Strategies
+    </h2>
+    
+    <div class="protocol-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+        
+        <div class="protocol-card">
+            <h3 style="font-size: 1.2rem; color: #c8102e;">The "Written Notice" Rule: Your Shield in Special Education</h3>
+            <p style="font-size: 0.95rem; color: #444;">
+                <strong>Never rely on a phone call alone.</strong> In New York Special Education law (specifically, Part 200 of the Regulations of the Commissioner of Education), timelines (like the 60-day evaluation window outlined in §200.5(a)) only officially start when the district receives a request <em>in writing</em>. Verbal agreements are not legally binding.
+            </p>
+            <ul style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                <li>Always follow up a phone call with an email summary confirming what was discussed and agreed upon.</li>
+                <li>Use a clear and specific subject line: <em>"Letter of Referral - [Student Name] - [Specific Request, e.g., Initial Evaluation]"</em></li>
+                <li>Maintain a detailed "Communication Log" including dates, times, names, methods of contact (phone, email, in-person), and a brief summary of the conversation. This log is crucial evidence if you need to file a complaint.</li>
+                <li>Consider sending important requests via certified mail with return receipt requested to ensure proof of delivery.</li>
+            </ul>
+        </div>
+
+        <div class="protocol-card">
+            <h3 style="font-size: 1.2rem; color: #002868;">Escalation Strategies & Your Rights</h3>
+            <p style="font-size: 0.95rem; color: #444;">
+                If you contact the leadership through 311 and do not receive a satisfactory response or the required action, follow this escalation ladder. Remember, IDEA guarantees parents the right to participate in all aspects of their child's special education.
+            </p>
+            <ol style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                <li><strong>Day 1:</strong> Initial Inquiry via 311 and follow up with Email to relevant CSE personnel if known. Document the 311 interaction (date, time, reference number).</li>
+                <li><strong>Day 3:</strong> Follow-up Email (CC the Principal of your child’s school and, if applicable, the District 75 Program Administrator). Politely reiterate your request and the lack of response.</li>
+                <li><strong>Day 5:</strong> Escalation Email to the Superintendent or District Superintendent overseeing District 75. Clearly state the issue, previous attempts to resolve it, and the specific action you require.</li>
+                <li><strong>Day 10:</strong> If services are being denied or the district is failing to meet its obligations under IDEA and Part 200, file a "State Complaint" with NYSED (New York State Education Department). Instructions and forms can be found on the NYSED website. A state complaint must allege a violation of IDEA or Part 200 that occurred within the past year.</li>
+                 <li><strong>Due Process Complaint:</strong> If the dispute involves issues such as eligibility, evaluation, placement, or the provision of a free appropriate public education (FAPE), consider filing a Due Process Complaint. This initiates a more formal process with timelines and the potential for a hearing. Consult with a special education attorney or advocate before filing a Due Process Complaint.</li>
+            </ol>
+        </div>
+
+    </div>
+</section>
+
+<section class="advocacy-section" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 40px;">
+    <h2 style="color: #002868; font-size: 1.8rem; margin-bottom: 20px;">
+        <i class="fas fa-users"></i> Parent Advocacy Tips for District 75
+    </h2>
+
+    <div class="advocacy-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+
+        <div class="advocacy-card">
+            <h3 style="font-size: 1.2rem; color: #c8102e;">Know Your Child's Rights</h3>
+            <p style="font-size: 0.95rem; color: #444;">
+                Familiarize yourself with the Individuals with Disabilities Education Act (IDEA) and New York State Part 200 Regulations. These laws outline your child's rights to a free and appropriate public education (FAPE) in the least restrictive environment (LRE). Key areas to understand include:
+            </p>
+            <ul style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                <li><strong>Evaluations:</strong> Your right to independent educational evaluations (IEEs) at public expense if you disagree with the district's evaluation. (§200.5(g))</li>
+                <li><strong>IEP Development:</strong> Your right to actively participate in the development of your child's Individualized Education Program (IEP). (§200.4(d)(2))</li>
+                <li><strong>Placement:</strong> Your right to have your child educated in the least restrictive environment (LRE). (§200.6(a)(1))</li>
+                <li><strong>Procedural Safeguards:</strong> Your right to receive written notice of all proposed or refused actions by the school district, and your right to access mediation and due process. (§200.5(a)(1))</li>
+            </ul>
+        </div>
+
+        <div class="advocacy-card">
+            <h3 style="font-size: 1.2rem; color: #002868;">Build a Strong IEP</h3>
+            <p style="font-size: 0.95rem; color: #444;">
+                The IEP is the cornerstone of your child's special education. Ensure it is specific, measurable, achievable, relevant, and time-bound (SMART).
+            </p>
+            <ul style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                <li><strong>Present Levels of Performance (PLOP):</strong> This section should accurately describe your child's current academic and functional abilities. Don't accept vague statements. Insist on specific data from assessments and observations.</li>
+                <li><strong>Goals:</strong> IEP goals should be challenging but attainable. They should be directly related to your child's needs as identified in the PLOP. Advocate for goals that address all areas of need, including academic, social-emotional, and behavioral.</li>
+                <li><strong>Services and Supports:</strong> Ensure the IEP specifies the frequency, duration, and location of all services, including related services like speech therapy, occupational therapy, and counseling.</li>
+                <li><strong>Accommodations and Modifications:</strong> These are changes to the curriculum or environment that help your child access and demonstrate learning. Examples include extended time on tests, preferential seating, and modified assignments.</li>
+            </ul>
+        </div>
+
+        <div class="advocacy-card">
+            <h3 style="font-size: 1.2rem; color: #c8102e;">Document Everything</h3>
+            <p style="font-size: 0.95rem; color: #444;">
+                Maintain a comprehensive record of all communication, evaluations, IEP meetings, and other relevant information. This documentation will be invaluable if you need to advocate for your child's rights or file a complaint.
+            </p>
+            <ul style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                <li>Keep copies of all emails, letters, and reports.</li>
+                <li>Take detailed notes during IEP meetings.</li>
+                <li>Organize your documents in a binder or electronic folder.</li>
+            </ul>
+        </div>
+
+        <div class="advocacy-card">
+            <h3 style="font-size: 1.2rem; color: #002868;">Seek Support</h3>
+            <p style="font-size: 0.95rem; color: #444;">
+                You are not alone. There are many resources available to support parents of children with disabilities.
+            </p>
+            <ul style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                <li><strong>Parent Training and Information Centers (PTIs):</strong> These centers provide free information, training, and support to parents of children with disabilities.</li>
+                <li><strong>Special Education Attorneys and Advocates:</strong> These professionals can provide legal advice and representation, and help you navigate the special education system.</li>
+                <li><strong>Parent Support Groups:</strong> Connecting with other parents who have children with similar disabilities can provide emotional support and practical advice.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="faq-section" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 40px;">
+    <h2 style="color: #002868; font-size: 1.8rem; margin-bottom: 20px;">
+        <i class="fas fa-question-circle"></i> Frequently Asked Questions (FAQ) about District 75
+    </h2>
+
+    <div class="faq-grid" style="display: grid; grid-template-columns: 1fr; gap: 20px;">
+
+        <div class="faq-item">
+            <h3 style="font-size: 1.1rem; color: #444; margin-bottom: 5px;">What is District 75?</h3>
+            <p style="font-size: 0.9rem; color: #555;">District 75 provides specialized instructional support for students with significant disabilities who require a highly structured and supportive learning environment. These programs often feature smaller class sizes, specialized staff, and individualized instruction. Not all students with IEPs are appropriate for District 75; placement is determined by the IEP team based on the student's unique needs. The IEP must document why a less restrictive environment would not meet the child's needs according to IDEA's LRE mandate.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3 style="font-size: 1.1rem; color: #444; margin-bottom: 5px;">How do I request an evaluation for my child in District 75?</h3>
+            <p style="font-size: 0.9rem; color: #555;">The process starts with a written referral to the Committee on Special Education (CSE). While contacting 311 is a starting point, you must submit a formal written request. This referral should clearly state your concerns and reasons for believing your child may have a disability that requires special education services. The district then has 60 school days from the date of your written consent to complete the evaluation process and hold an IEP meeting. (§200.5(a))</p>
+        </div>
+
+        <div class="faq-item">
+            <h3 style="font-size: 1.1rem; color: #444; margin-bottom: 5px;">What if I disagree with the IEP developed by the CSE?</h3>
+            <p style="font-size: 0.9rem; color: #555;">You have several options if you disagree with the IEP. First, you can request another IEP meeting to discuss your concerns and propose changes. Second, you can request mediation to resolve the dispute. Third, you can file a Due Process Complaint to initiate a formal hearing. It's highly recommended you consult with a special education attorney or advocate to understand your rights and options. You also have the right to an Independent Educational Evaluation (IEE) at public expense if you disagree with the school's evaluation, under certain circumstances. (§200.5(g))</p>
+        </div>
+
+        <div class="faq-item">
+            <h3 style="font-size: 1.1rem; color: #444; margin-bottom: 5px;">What is FAPE and LRE?</h3>
+            <p style="font-size: 0.9rem; color: #555;">FAPE stands for Free Appropriate Public Education. Under IDEA, every child with a disability is entitled to a FAPE designed to meet their unique needs. LRE stands for Least Restrictive Environment. This means that children with disabilities should be educated with their non-disabled peers to the maximum extent appropriate. Placement in a more restrictive setting, like a District 75 program, should only occur when the IEP team determines that the child's needs cannot be met in a less restrictive environment, even with supplementary aids and services. Documenting why a less restrictive environment is not appropriate is a key requirement.</p>
+        </div>
+    </div>
+</section>
+
+
+    </div>
+</main>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+   <div class="footer-container">
+
+      <!-- COL 1: Brand & Mission -->
+      <div class="footer-brand">
+         <h3>NY Special Ed<span>.com</span></h3>
+         <p>
+            Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+         </p>
+         <div style="margin-top: 20px;">
+            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+         </div>
+      </div>
+
+      <!-- COL 2: Essential Guides -->
+      <div class="footer-col">
+         <h4>NY Parent Guides</h4>
+         <ul class="footer-links">
+            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
+            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 3: Top Districts -->
+      <div class="footer-col">
+         <h4>Popular Districts</h4>
+         <ul class="footer-links">
+            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 4: Legal & Contact -->
+      <div class="footer-col">
+         <h4>Resources</h4>
+         <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Support</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+         </ul>
+      </div>
+
+   </div>
+
+   <!-- Bottom Bar -->
+   <div class="footer-bottom">
+      <p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+         For official inquiries, visit schools.nyc.gov or nysed.gov.
+      </p>
+   </div>
+</footer>
+</body>
+>>>>>>> b13711146107f4fc60c89ea55a95839b9175d296
 </html>

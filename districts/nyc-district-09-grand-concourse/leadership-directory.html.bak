@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -353,4 +354,361 @@
    </div>
 </footer>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Special Education Contacts: District 9</title>
+  <meta name="description" content="Direct phone numbers and emails for District 9 Committee on Special Education (CSE), CPSE, and leadership offices.">
+  <link rel="canonical" href="https://www.nyspecialed.com/districts/nyc-district-09-grand-concourse/leadership-directory.html">
+  
+<link rel="stylesheet" href="/styles/global.css">
+<link rel="stylesheet" href="/styles/styles-nav-footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+   <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="/" class="nav-logo">
+         NY Special Ed<span>.com</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+         <ul class="nav-links">
+
+            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+            <li class="nav-item">
+               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
+               <div class="mega-menu">
+                  <div class="menu-column">
+                     <h4>Manhattan (D1-6)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Brooklyn (Key Districts)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Queens & SI</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+            <li class="nav-item">
+               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <h4>Big 5 Cities</h4>
+                     <ul>
+                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+            <li class="nav-item">
+               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <ul>
+                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+
+            <!-- LINK: RESOURCES -->
+            <li class="nav-item">
+               <a href="/resources/" class="nav-link">Free Tools</a>
+            </li>
+
+            <!-- CTA -->
+            <li class="nav-item">
+               <a href="/shop" class="nav-cta">Get The Toolkit</a>
+            </li>
+         </ul>
+      </nav>
+
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Open Navigation">
+         <i class="fas fa-bars"></i>
+      </button>
+
+   </div>
+</header>
+  <main class="container">
+<div class="aeo-authority-block">
+        <a href="/districts/nyc-district-09-grand-concourse/">← Back to District 9 Hub</a>
+    </div>
+    
+    <div class="content-body" style="margin-top: 30px;">
+        <h1 style="margin-bottom: 10px;">District 9 Leadership Directory</h1>
+        <p class="lead">Use this directory to contact the Committee on Special Education (CSE) or CPSE offices in NYC District 9. This resource provides crucial contact information and guidance on effectively communicating with the NYC Department of Education regarding your child's special education needs. Remember that proactive and informed communication is key to ensuring your child receives the appropriate support and services.</p>
+        
+        <div class="contact-grid">
+            
+            <div class="contact-box">
+                <h3>CSE 1 (Serving District 9)</h3>
+                <div class="contact-item" style="margin-bottom: 10px;"><strong>📍 Walk-in Center:</strong><br>1 Fordham Plaza, Bronx, NY 10458</div>
+                <div class="contact-item" style="margin-bottom: 10px;"><strong>📞 Phone:</strong><br><a href="tel:718-329-8001">718-329-8001</a></div>
+                <div class="contact-item"><strong>📧 Official Email:</strong><br><a href="mailto:N/A">Contact via NYC Schools Account</a></div>
+                <p style="font-size: 0.9em; color: #777;"><strong>Note:</strong> Contacting via the NYC Schools Account is often the most reliable way to ensure your message is properly documented and tracked by the DOE. Always retain a copy of your sent messages.</p>
+
+                <section class="faq-section" style="margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px;">
+                    <h4 style="color: #007bff; font-size: 1.1rem; margin-bottom: 10px;">Frequently Asked Questions (CSE 1)</h4>
+                    <dl>
+                        <dt style="font-weight: bold; margin-bottom: 5px;">Q: What types of cases does CSE 1 handle?</dt>
+                        <dd style="margin-bottom: 10px;">A: CSE 1 is responsible for students with Individualized Education Programs (IEPs) within District 9. They oversee initial evaluations, annual reviews, and re-evaluations to determine eligibility for special education services and the appropriateness of existing IEPs. This includes addressing concerns related to academic progress, behavioral issues, and related services (e.g., speech therapy, occupational therapy, counseling).  Per Part 200.4(e) of the NYS Regulations, the CSE must consider all relevant information regarding the student, including evaluations, teacher recommendations, and parental input.</dd>
+
+                        <dt style="font-weight: bold; margin-bottom: 5px;">Q: What should I do if I disagree with the CSE's recommendations?</dt>
+                        <dd style="margin-bottom: 10px;">A: If you disagree with the CSE's recommendations, you have several options under the Individuals with Disabilities Education Act (IDEA).  First, you can request a meeting with the CSE to further discuss your concerns and attempt to reach an agreement.  Document all communication and specific points of disagreement.  Second, you have the right to obtain an Independent Educational Evaluation (IEE) at public expense if you can demonstrate that the district's evaluation was inappropriate.  (34 CFR § 300.502). Third, you can pursue mediation or file a due process complaint to challenge the CSE's decision.  The New York State Education Department provides resources and information on due process rights. <a href="http://www.nysed.gov/" target="_blank">NYSED Website</a></dd>
+
+                        <dt style="font-weight: bold; margin-bottom: 5px;">Q: How often will my child's IEP be reviewed?</dt>
+                        <dd style="margin-bottom: 10px;">A: Your child's IEP must be reviewed at least annually (Part 200.4(g) of NYS Regulations). However, you have the right to request a review meeting more frequently if you have concerns about your child's progress or if there have been significant changes in their needs. Document your request in writing, specifying the reasons for the requested review. The district is legally obligated to respond to your request in a timely manner.</dd>
+                    </dl>
+                </section>
+            </div>
+        </div>
+
+        <div class="alert-box" style="background: #fff3cd; padding: 20px; margin-top: 30px; border-radius: 8px; border-left: 5px solid #ffc107;">
+            <strong>⚠️ Escalation Tip:</strong> If you do not receive a response within 48 hours, document your attempt (date, time, method of contact, and person contacted) and escalate to the NYC DOE Central Region Office. Keep detailed records of all your communication attempts. Lack of response is a violation of your right to participate in the IEP process.  According to IDEA, parents are integral members of the CSE team.
+        </div>
+
+        
+<section class="protocol-section" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 40px;">
+    <h2 style="color: #002868; font-size: 1.8rem; margin-bottom: 20px;">
+        <i class="fas fa-clipboard-check"></i> Communication Protocol
+    </h2>
+    
+    <div class="protocol-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+        
+        <div class="protocol-card">
+            <h3 style="font-size: 1.2rem; color: #c8102e;">The "Written Notice" Rule</h3>
+            <p style="font-size: 0.95rem; color: #444;">
+                <strong>Never rely on a phone call alone.</strong> In New York Special Education law, timelines (like the 60-day evaluation window outlined in Part 200.5(a) of NYS Regulations) only officially start when the district receives a request <em>in writing</em>.
+            </p>
+            <ul style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                <li>Always follow up a phone call with an email summary. For example: "Per our phone conversation on [Date] at [Time], this email confirms my request for [Specific Action, e.g., an initial evaluation, an IEP review meeting, records request]."</li>
+                <li>Use the subject line: <em>"Letter of Referral - [Student Name]"</em> or <em>"IEP Review Request - [Student Name]"</em> or <em>"Records Request - [Student Name]"</em> depending on the purpose.</li>
+                <li>Keep a "Communication Log" of dates and names. This log should include the date, time, method of communication (phone, email, in-person), the person you spoke with, and a brief summary of the conversation or action taken.</li>
+            </ul>
+
+             <section class="step-by-step-section" style="margin-top: 20px;">
+                <h4 style="color: #007bff; font-size: 1.1rem; margin-bottom: 10px;">Step-by-Step Guide: Requesting an Initial Evaluation</h4>
+                <ol style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                    <li><strong>Step 1: Write a Formal Letter of Referral.</strong>  Clearly state your concerns about your child's academic, social-emotional, or behavioral development. Mention specific observations and examples to support your concerns. Address the letter to the CSE Chairperson.</li>
+                    <li><strong>Step 2: Send the Letter via Certified Mail (Return Receipt Requested).</strong> This provides proof that the district received your request. Keep the receipt as part of your communication log.</li>
+                    <li><strong>Step 3: Follow Up with an Email.</strong>  Send an email to the CSE office (if available) confirming that you sent the letter of referral. Attach a copy of the letter to the email.</li>
+                    <li><strong>Step 4: Track the 60-Day Timeline.</strong> The district has 60 school days from the date they receive your written consent to complete the evaluation.</li>
+                    <li><strong>Step 5: If No Response, Escalate.</strong> If you haven't heard back from the district within a reasonable timeframe (e.g., 2 weeks), follow the escalation protocol outlined below.</li>
+                </ol>
+            </section>
+        </div>
+
+        <div class="protocol-card">
+            <h3 style="font-size: 1.2rem; color: #002868;">When to Escalate?</h3>
+            <p style="font-size: 0.95rem; color: #444;">
+                If you contact the leadership listed above and do not receive a response, follow this escalation ladder: This is crucial to ensuring your concerns are addressed in a timely manner. The NYC DOE has internal protocols for addressing parent concerns, but sometimes you need to escalate to get attention.
+            </p>
+            <ol style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                <li><strong>Day 1:</strong> Initial Email/Phone Call. Document the date, time, and person contacted.</li>
+                <li><strong>Day 3:</strong> Follow-up Email (CC the Principal and/or Assistant Principal). A polite reminder emphasizing the importance of a response. Example subject line: "Following Up: [Student Name] - Request for [Action]".</li>
+                <li><strong>Day 5:</strong> Escalation Email to the Superintendent or District Superintendent. (Find contact information on the NYC DOE website or by calling 311). Clearly state that you have not received a response from the CSE office despite multiple attempts. CC everyone from previous emails.</li>
+                <li><strong>Day 10:</strong> File a "State Complaint" with NYSED if services are denied or if the district fails to follow required procedures.  You can find the complaint form and instructions on the NYSED website.  A State Complaint is a formal way to report violations of IDEA. According to IDEA regulations, the state educational agency must resolve the complaint within 60 days.</li>
+            </ol>
+
+             <section class="advocacy-tip-section" style="margin-top: 20px;">
+                <h4 style="color: #007bff; font-size: 1.1rem; margin-bottom: 10px;">Parent Advocacy Tip: Document Everything!</h4>
+                <p style="font-size: 0.9rem; color: #555;">
+                    Maintain a comprehensive file containing all documents related to your child's special education journey. This includes:
+                </p>
+                <ul style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                    <li>Evaluation reports</li>
+                    <li>IEPs (current and past)</li>
+                    <li>Progress reports</li>
+                    <li>Correspondence (letters, emails)</li>
+                    <li>Meeting notes</li>
+                    <li>Communication log</li>
+                </ul>
+                <p style="font-size: 0.9rem; color: #555;">
+                    This file will be invaluable if you need to advocate for your child's rights or pursue legal remedies.
+                </p>
+            </section>
+        </div>
+
+    </div>
+</section>
+
+ <section class="common-pitfalls-section" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 40px;">
+        <h2 style="color: #002868; font-size: 1.8rem; margin-bottom: 20px;">
+            <i class="fas fa-exclamation-triangle"></i> Common District 9 Pitfalls & How to Avoid Them
+        </h2>
+
+        <div class="pitfall-grid" style="display: grid; grid-template-columns: 1fr; gap: 30px;">
+            <div class="pitfall-card">
+                <h3 style="font-size: 1.2rem; color: #c8102e;">Pitfall 1: Delayed Evaluations</h3>
+                <p style="font-size: 0.95rem; color: #444;">
+                    Districts sometimes delay initial evaluations beyond the legally mandated 60-day timeline.
+                </p>
+                <p style="font-size: 0.95rem; color: #444;">
+                    <strong>How to Avoid:</strong>
+                </p>
+                <ul style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                    <li>Send your request for evaluation via certified mail and email to create a clear record of the date the district received the request.</li>
+                    <li>Regularly follow up with the CSE office to inquire about the status of the evaluation.</li>
+                    <li>If the 60-day timeline is approaching and the evaluation has not been completed, send a written notice to the CSE Chairperson and the school principal, reminding them of the deadline and requesting an explanation for the delay.</li>
+                    <li>If the delay persists, consider filing a State Complaint with NYSED.</li>
+                </ul>
+            </div>
+
+            <div class="pitfall-card">
+                <h3 style="font-size: 1.2rem; color: #c8102e;">Pitfall 2: Inadequate IEP Goals</h3>
+                <p style="font-size: 0.95rem; color: #444;">
+                    IEP goals that are not specific, measurable, achievable, relevant, and time-bound (SMART) are ineffective in tracking student progress.
+                </p>
+                <p style="font-size: 0.95rem; color: #444;">
+                    <strong>How to Avoid:</strong>
+                </p>
+                <ul style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                    <li>During the IEP meeting, actively participate in the development of the goals and objectives. Ensure that each goal is SMART.</li>
+                     <li>If you believe the proposed goals are not challenging enough or do not address your child's specific needs, voice your concerns and suggest alternative goals.</li>
+                    <li>Request data to support the goals established, and ask how progress will be measured and reported.</li>
+                    <li>If you are not satisfied with the IEP goals, you can request a follow-up meeting or pursue mediation or due process.</li>
+                </ul>
+            </div>
+
+            <div class="pitfall-card">
+                <h3 style="font-size: 1.2rem; color: #c8102e;">Pitfall 3: Lack of Related Services</h3>
+                <p style="font-size: 0.95rem; color: #444;">
+                    Students may not receive the related services (e.g., speech therapy, occupational therapy, counseling) they need to make progress.
+                </p>
+                <p style="font-size: 0.95rem; color: #444;">
+                    <strong>How to Avoid:</strong>
+                </p>
+                <ul style="font-size: 0.9rem; color: #555; padding-left: 20px;">
+                    <li>Review your child's evaluation reports carefully to identify any recommendations for related services.</li>
+                    <li>During the IEP meeting, advocate for the inclusion of all necessary related services in the IEP.</li>
+                    <li>If the district denies a request for related services, request a written explanation for the denial.</li>
+                    <li>If you disagree with the district's decision, you can request an IEE or pursue mediation or due process.</li>
+                    <li>Document any instances where related services are not provided as specified in the IEP.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    </div>
+</main>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+   <div class="footer-container">
+
+      <!-- COL 1: Brand & Mission -->
+      <div class="footer-brand">
+         <h3>NY Special Ed<span>.com</span></h3>
+         <p>
+            Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+         </p>
+         <div style="margin-top: 20px;">
+            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+         </div>
+      </div>
+
+      <!-- COL 2: Essential Guides -->
+      <div class="footer-col">
+         <h4>NY Parent Guides</h4>
+         <ul class="footer-links">
+            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
+            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 3: Top Districts -->
+      <div class="footer-col">
+         <h4>Popular Districts</h4>
+         <ul class="footer-links">
+            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 4: Legal & Contact -->
+      <div class="footer-col">
+         <h4>Resources</h4>
+         <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Support</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+         </ul>
+      </div>
+
+   </div>
+
+   <!-- Bottom Bar -->
+   <div class="footer-bottom">
+      <p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+         For official inquiries, visit schools.nyc.gov or nysed.gov.
+      </p>
+   </div>
+</footer>
+</body>
+>>>>>>> b13711146107f4fc60c89ea55a95839b9175d296
 </html>
