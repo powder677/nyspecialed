@@ -147,8 +147,10 @@ p  { margin-bottom: 1rem; }
 }
 
 .d-desc {
-  font-size: 0.85rem;
-  color: #666;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #475569;
+  
 }
 
 /* ============================================
