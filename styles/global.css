@@ -276,3 +276,7 @@ p  { margin-bottom: 1rem; }
 
   .content-body { margin-top: 15px; }
 }
+
+
+/* HERO TEXT OVERRIDE */
+.hero-section h1, .hero-title, .hero-section h2, .hero-section p { color: #ffffff !important; text-shadow: 0 2px 4px rgba(0,0,0,0.4); }
