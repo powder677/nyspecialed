@@ -162,6 +162,52 @@
             box-shadow: 0 6px 12px rgba(0,86,179,0.08) !important;
             transform: translateY(-2px);
         }
+    
+        /* --- USER CUSTOM FLEXBOX CARDS --- */
+        .directory-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            max-width: 1100px;
+            margin: 15px auto 0 auto;
+            align-items: flex-start; /* Bulletproof anti-stretch */
+        }
+
+        .directory-card {
+            flex: 1 1 300px;
+            max-width: 320px;
+            background: #ffffff;
+            border-radius: 12px !important;
+            padding: 24px !important;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.08) !important;
+            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease !important;
+        }
+
+        .directory-card:hover {
+            transform: translateY(-6px) !important;
+            box-shadow: 0 12px 28px rgba(0,0,0,0.12) !important;
+            border-color: #0056b3 !important;
+        }
+        
+        /* Ensure the text inside matches your centered card layout */
+        .directory-card .d-name {
+            display: block;
+            font-size: 1.15rem;
+            color: #002868;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+        
+        .directory-card .d-desc {
+            font-size: 0.95rem;
+            color: #475569;
+            line-height: 1.4;
+        }
     </style>
 </head>
 <body>
@@ -382,7 +428,7 @@
                 <span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
             </summary>
             <div style="padding: 20px; background: #ffffff;">
-                <div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;; align-items: start;">
+                <div class="directory-grid">
                 <a href="/districts/nyc-district-01-lower-east-side/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 1</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Lower East Side, Chinatown, East Village</span></a>
                 <a href="/districts/nyc-district-02-upper-east-side/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 2</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Upper East Side, Tribeca, Greenwich Village</span></a>
                 <a href="/districts/nyc-district-03-upper-west-side/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 3</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Upper West Side, Morningside Heights</span></a>
@@ -400,7 +446,7 @@
                 <span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
             </summary>
             <div style="padding: 20px; background: #ffffff;">
-                <div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;; align-items: start;">
+                <div class="directory-grid">
                 <a href="/districts/nyc-district-07-south-bronx/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 7</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">South Bronx, Mott Haven, Melrose, Port Morris</span></a>
                 <a href="/districts/nyc-district-08-throgs-neck/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 8</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Throgs Neck, Pelham Bay, Country Club</span></a>
                 <a href="/districts/nyc-district-09-grand-concourse/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 9</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Grand Concourse, Highbridge, Morrisania</span></a>
@@ -418,7 +464,7 @@
                 <span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
             </summary>
             <div style="padding: 20px; background: #ffffff;">
-                <div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;; align-items: start;">
+                <div class="directory-grid">
                 <a href="/districts/nyc-district-13-brooklyn-heights/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 13</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Brooklyn Heights, Fort Greene, Clinton Hill</span></a>
                 <a href="/districts/nyc-district-14-williamsburg/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 14</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Williamsburg, Greenpoint, Bushwick (north)</span></a>
                 <a href="/districts/nyc-district-15-park-slope/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 15</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Park Slope, Carroll Gardens, Red Hook</span></a>
@@ -442,7 +488,7 @@
                 <span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
             </summary>
             <div style="padding: 20px; background: #ffffff;">
-                <div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;; align-items: start;">
+                <div class="directory-grid">
                 <a href="/districts/nyc-district-24-maspeth/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 24</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Maspeth, Middle Village, Ridgewood, Corona</span></a>
                 <a href="/districts/nyc-district-25-flushing/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 25</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Flushing, Whitestone, College Point</span></a>
                 <a href="/districts/nyc-district-26-bayside/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 26</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Bayside, Douglaston, Little Neck, Fresh Meadows</span></a>
@@ -461,7 +507,7 @@
                 <span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
             </summary>
             <div style="padding: 20px; background: #ffffff;">
-                <div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;; align-items: start;">
+                <div class="directory-grid">
                 <a href="/districts/nyc-district-31-staten-island/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 31</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">All Staten Island — St. George, Tottenville, New Dorp</span></a>
             </div>
             </div>
@@ -475,7 +521,7 @@
                 <span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
             </summary>
             <div style="padding: 20px; background: #ffffff;">
-                <div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;; align-items: start;">
+                <div class="directory-grid">
                 <a href="/districts/nyc-district-75/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 75</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Citywide Special Education Programs</span></a>
                 <a href="/districts/nyc-district-79/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">District 79</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Alternative Schools &amp; Programs</span></a>
             </div>
@@ -493,7 +539,7 @@
                 <span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
             </summary>
             <div style="padding: 20px; background: #ffffff;">
-                <div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;; align-items: start;">
+                <div class="directory-grid">
                     <a href="/districts/buffalo-city-sd/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Buffalo City SD</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Buffalo</span></a>
                     <a href="/districts/niagara-falls-city-sd/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Niagara Falls City SD</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Niagara Falls</span></a>
                 </div>
@@ -507,7 +553,7 @@
                 <span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
             </summary>
             <div style="padding: 20px; background: #ffffff;">
-                <div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;; align-items: start;">
+                <div class="directory-grid">
                     <a href="/districts/rochester-city-sd/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Rochester City SD</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Rochester</span></a>
                 </div>
             </div>
@@ -520,7 +566,7 @@
                 <span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
             </summary>
             <div style="padding: 20px; background: #ffffff;">
-                <div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;; align-items: start;">
+                <div class="directory-grid">
                     <a href="/districts/syracuse-city-sd/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Syracuse City SD</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Syracuse</span></a>
                 </div>
             </div>
@@ -533,7 +579,7 @@
                 <span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
             </summary>
             <div style="padding: 20px; background: #ffffff;">
-                <div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;; align-items: start;">
+                <div class="directory-grid">
                     <a href="/districts/yonkers-city-sd/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Yonkers City SD</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Yonkers</span></a>
                     <a href="/districts/mount-vernon-city-sd/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Mount Vernon City SD</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Mount Vernon</span></a>
                 </div>
@@ -547,7 +593,7 @@
                 <span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
             </summary>
             <div style="padding: 20px; background: #ffffff;">
-                <div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;; align-items: start;">
+                <div class="directory-grid">
                     <a href="/districts/albany-city-sd/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Albany City SD</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Albany</span></a>
                     <a href="/districts/schenectady-city-sd/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Schenectady City SD</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Schenectady</span></a>
                 </div>
@@ -561,7 +607,7 @@
                 <span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
             </summary>
             <div style="padding: 20px; background: #ffffff;">
-                <div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;; align-items: start;">
+                <div class="directory-grid">
                     <a href="/districts/utica-city-sd/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Utica City SD</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Utica</span></a>
                 </div>
             </div>
@@ -574,7 +620,7 @@
                 <span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
             </summary>
             <div style="padding: 20px; background: #ffffff;">
-                <div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;; align-items: start;">
+                <div class="directory-grid">
                     <a href="/districts/brentwood-ufsd/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Brentwood UFSD</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Brentwood, Suffolk County</span></a>
                     <a href="/districts/william-floyd-ufsd/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">William Floyd UFSD</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Mastic, Shirley, Suffolk County</span></a>
                     <a href="/districts/central-islip-ufsd/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Central Islip UFSD</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Central Islip, Suffolk County</span></a>
@@ -591,7 +637,7 @@
                 <span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
             </summary>
             <div style="padding: 20px; background: #ffffff;">
-                <div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;; align-items: start;">
+                <div class="directory-grid">
                     <a href="/districts/new-rochelle-city-sd/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">New Rochelle City SD</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">New Rochelle</span></a>
                     <a href="/districts/white-plains-city-sd/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">White Plains City SD</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">White Plains</span></a>
                 </div>
@@ -605,7 +651,7 @@
                 <span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
             </summary>
             <div style="padding: 20px; background: #ffffff;">
-                <div class="directory-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;; align-items: start;">
+                <div class="directory-grid">
                     <a href="/districts/newburgh-enlarged-city-sd/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Newburgh Enlarged City SD</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Newburgh, Orange County</span></a>
                     <a href="/districts/poughkeepsie-city-sd/" class="directory-card"><span class="d-name" style="color: #0056b3; font-weight: 700; display: block;">Poughkeepsie City SD</span><span class="d-desc" style="font-size: 0.85rem; color: #555;">Poughkeepsie, Dutchess County</span></a>
                 </div>
