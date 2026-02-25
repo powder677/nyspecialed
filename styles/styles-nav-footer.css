@@ -8,7 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  height: 70px;
+  height: 100px;
 }
 
 .nav-container {
@@ -29,7 +29,7 @@
 
 .nav-logo img {
   display: block;
-  height: 50px;
+  height: 80px;
   width: auto;             /* preserve aspect ratio */
   border-radius: 8px;      /* matches the logo's rounded corners */
 }
@@ -65,7 +65,7 @@
 /* --- MEGA MENU & DROPDOWNS --- */
 .mega-menu, .dropdown-menu {
   position: absolute;
-  top: 70px;
+  top: 100px;
   left: 50%;
   transform: translateX(-50%);
   background: #fff;
