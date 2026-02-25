@@ -19,7 +19,7 @@ DEFAULT_PROJECT_DIR = r"C:\Users\elisa\OneDrive\Documents\github\nyspecialed"
 
 # The correct logo HTML to use everywhere
 CORRECT_LOGO = '''<a href="/" class="nav-logo" aria-label="New York Special Ed - Home">
-         <img src="/images/logo.png" alt="New York Special Ed logo" width="50" height="50" loading="eager" style="display:block; height:50px; width:auto; border-radius:8px;" />
+         <img src="/images/logo.png" alt="New York Special Ed logo" width="80" height="80" loading="eager" style="display:block; height:80px; width:auto; border-radius:8px;" />
       </a>'''
 
 SKIP_DIRS = {
