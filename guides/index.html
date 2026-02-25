@@ -1,83 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSE Meeting Guide | NY Special Ed</title>
-    <link rel="stylesheet" href="/styles/global.css">
-    <link rel="stylesheet" href="/styles/styles-nav-footer.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guides | NY Special Education Resources</title>
+  <link rel="stylesheet" href="/styles/global.css">
+  <link rel="stylesheet" href="/styles/styles-nav-footer.css">
+  <style>
+    .placeholder-hero { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white; padding: 100px 20px; text-align: center; min-height: 50vh; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+    .placeholder-hero h1 { font-size: 3rem; margin-bottom: 20px; }
+    .placeholder-hero p { font-size: 1.2rem; color: #93c5fd; max-width: 600px; line-height: 1.6; }
+  </style>
 </head>
 <body>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
 
-    <header class="site-header">
-        <div class="nav-container">
-            <a href="/" class="nav-logo">NY Special Ed<span>.com</span></a>
-            <nav role="navigation">
-                <ul class="nav-links">
-                    <li class="nav-item"><a href="/districts/" class="nav-link">NYC Districts</a></li>
-                    <li class="nav-item"><a href="/guides/" class="nav-link">Parent Guides</a></li>
-                    <li class="nav-item"><a href="/shop" class="nav-cta">Get The Toolkit</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+   <div class="nav-container">
 
-    <section class="placeholder-hero">
-        <h1>New York State CSE Meeting Guide</h1>
-        <p>Your voice is the most important one in the room. Navigate the Committee on Special Education with confidence.</p>
-    </section>
+      <!-- Logo -->
+      <a href="/" class="nav-logo">
+         NY Special Ed<span>.com</span>
+      </a>
 
-    <main class="content-container" style="max-width: 800px; margin: 0 auto; padding: 40px 20px;">
-        
-        <p><em>Note: This guide is a helpful overview; it is not a substitute for legal advice.</em></p>
+      <!-- Desktop Navigation -->
+      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+         <ul class="nav-links">
 
-        <h2>What is a CSE Meeting?</h2>
-        <p>The Committee on Special Education (CSE) determines eligibility for services and develops the <strong>Individualized Education Program (IEP)</strong>.</p>
-        
-        
+            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+            <li class="nav-item">
+               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
+               <div class="mega-menu">
+                  <div class="menu-column">
+                     <h4>Manhattan (D1-6)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Brooklyn (Key Districts)</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+                        <li><a href="/districts/nyc-district-22-midwood">District 22: Flatbush/Sheepshead</a></li>
+                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-column">
+                     <h4>Queens & SI</h4>
+                     <ul>
+                        <li><a href="/districts/nyc-district-24-maspeth">District 24: Corona/Maspeth</a></li>
+                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
 
-        <ul>
-            <li><strong>Annual Review:</strong> A yearly "tune-up" for the IEP.</li>
-            <li><strong>Initial Eligibility:</strong> The first meeting to see if a child qualifies.</li>
-        </ul>
+            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+            <li class="nav-item">
+               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <h4>Big 5 Cities</h4>
+                     <ul>
+                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
 
-        <h2>Who Attends the Meeting?</h2>
-        <p>Under NYS Part 200 regulations, you have a <strong>legal right</strong> to participate. Other members include:</p>
-        <ul>
-            <li><strong>District Representative:</strong> The person who can commit district resources.</li>
-            <li><strong>School Psychologist:</strong> To interpret evaluation data.</li>
-            <li><strong>Teachers:</strong> Both General and Special Education.</li>
-        </ul>
+            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+            <li class="nav-item">
+               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
+               <div class="dropdown-menu">
+                  <div class="menu-column" style="padding: 0 20px;">
+                     <ul>
+                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
 
-        <h2>The Standard Agenda</h2>
-        <ol>
-            <li><strong>Introductions</strong></li>
-            <li><strong>Review of Evaluations:</strong> Discussing new data or parent concerns.</li>
-            <li><strong>PLOP:</strong> Present Levels of Performance (The foundation of the IEP).</li>
-            <li><strong>SMART Goals:</strong> Specific, Measurable, Achievable, Relevant, and Time-bound.</li>
-            <li><strong>Services and Placement:</strong> Determining the Least Restrictive Environment (LRE).</li>
-        </ol>
+            <!-- LINK: RESOURCES -->
+            <li class="nav-item">
+               <a href="/resources/" class="nav-link">Free Tools</a>
+            </li>
 
-        
+            <!-- CTA -->
+            <li class="nav-item">
+               <a href="/shop" class="nav-cta">Get The Toolkit</a>
+            </li>
+         </ul>
+      </nav>
 
-        <h2>Crucial Tips for NY Parents</h2>
-        <div class="tips-box" style="background: #f8fafc; border-left: 5px solid #1e3a8a; padding: 20px;">
-            <ul>
-                <li><strong>Request Records:</strong> Ask for evaluations 5 business days before the meeting (NYS Law).</li>
-                <li><strong>Bring an Advocate:</strong> You don't have to do this alone.</li>
-                <li><strong>Trust Your Gut:</strong> You know your child better than any test score does.</li>
-            </ul>
-        </div>
-    </main>
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" aria-label="Open Navigation">
+         <i class="fas fa-bars"></i>
+      </button>
 
-    <footer class="site-footer">
-        <div class="footer-container">
-            <div class="footer-brand">
-                <h3>NY Special Ed<span>.com</span></h3>
-                <p>© 2026. Not affiliated with NYC DOE or NYSED.</p>
-            </div>
-        </div>
-    </footer>
+   </div>
+</header>
+  <main class="placeholder-hero">
+    <h1>Guides</h1>
+    <p>We are currently compiling expert New York State special education resources for this section. Please check back soon.</p>
+  </main>
+  <!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
 
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+   <div class="footer-container">
+
+      <!-- COL 1: Brand & Mission -->
+      <div class="footer-brand">
+         <h3>NY Special Ed<span>.com</span></h3>
+         <p>
+            Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+         </p>
+         <div style="margin-top: 20px;">
+            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+         </div>
+      </div>
+
+      <!-- COL 2: Essential Guides -->
+      <div class="footer-col">
+         <h4>NY Parent Guides</h4>
+         <ul class="footer-links">
+            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
+            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 3: Top Districts -->
+      <div class="footer-col">
+         <h4>Popular Districts</h4>
+         <ul class="footer-links">
+            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+         </ul>
+      </div>
+
+      <!-- COL 4: Legal & Contact -->
+      <div class="footer-col">
+         <h4>Resources</h4>
+         <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Support</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+         </ul>
+      </div>
+
+   </div>
+
+   <!-- Bottom Bar -->
+   <div class="footer-bottom">
+      <p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+         For official inquiries, visit schools.nyc.gov or nysed.gov.
+      </p>
+   </div>
+</footer>
 </body>
 </html>
