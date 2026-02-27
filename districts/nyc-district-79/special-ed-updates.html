@@ -71,6 +71,41 @@
     .faq-item h3 { font-size:1.05rem; color:#0f172a; margin-bottom:8px; }
     .action-box { background:#eff6ff; border-left:4px solid #2563eb; padding:20px; border-radius:6px; margin:20px 0; }
   </style>
+<!-- __district-subnav-css-start__ -->
+<style>
+/* district-subnav — auto-injected by fix_district_nav.py */
+.district-subnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 0 0 24px 0;
+}
+.district-subnav a {
+  display: inline-block;
+  padding: 5px 11px;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0056b3;
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.district-subnav a:hover { background: #dbeafe; }
+.district-subnav a.subnav-active {
+  background: #002868;
+  color: #fff;
+  border-color: #002868;
+  cursor: default;
+}
+</style>
+<!-- __district-subnav-css-end__ -->
 </head>
 <body>
   <!-- 
@@ -190,6 +225,17 @@
     </div>
   </div>
   <main class="container">
+<!-- __district-subnav-start__ -->
+<nav class="district-subnav" aria-label="Pages in this district">
+  <a href="index.html">🏠 Hub</a>
+  <a href="leadership-directory.html">📞 Contacts</a>
+  <a href="cse-meeting-guide.html">🤝 CSE Guide</a>
+  <a href="evaluation-process.html">📝 Evaluations</a>
+  <a href="discipline-rights.html">⚖️ Discipline</a>
+  <a href="partners.html">🤲 Partners</a>
+  <a href="special-ed-updates.html" class="subnav-active" aria-current="page">📰 Updates</a>
+</nav>
+<!-- __district-subnav-end__ -->
     <div class="alert-banner">
       <strong>⚠ Heads Up:</strong> This page contains time-sensitive information about District 79's special education programs. If your child's IEP or evaluation timeline has been disrupted, document everything in writing immediately.
     </div>

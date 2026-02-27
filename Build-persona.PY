@@ -1,0 +1,1168 @@
+#!/usr/bin/env python3
+"""
+build_persona.py
+================
+Generates:
+  1. about/index.html  — Rachel Whitcomb's full founder story page
+  2. about/mission.html (updated with Rachel's voice)
+  3. about/methodology.html (updated with Rachel's voice)
+  4. Patches AUTHOR dict in inject_eeat.py so trust blocks use her real details
+
+Run from the project root:
+  python build_persona.py
+  python build_persona.py --root "C:\\path\\to\\nyspecialed"
+  python build_persona.py --dry-run
+"""
+
+import argparse
+import re
+import sys
+from pathlib import Path
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  RACHEL'S ABOUT PAGE HTML
+# ══════════════════════════════════════════════════════════════════════════════
+
+ABOUT_PAGE = """\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Rachel Whitcomb | New York Special Ed</title>
+  <meta name="description" content="Rachel Whitcomb is the founder of New York Special Ed and the parent of a twice-exceptional daughter whose story — and a single phrase from a teacher — changed the course of her life."/>
+  <link rel="canonical" href="https://www.newyorkspecialed.net/about/"/>
+  <link href="/styles/global.css" rel="stylesheet"/>
+  <link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet"/>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rachel Whitcomb",
+    "jobTitle": "Founder & 2e Parent Advocate",
+    "description": "Founder of New York Special Ed. Healthcare policy researcher turned special education advocate after her twice-exceptional daughter was told she was 'too smart to qualify' for services in Buffalo City SD.",
+    "url": "https://www.newyorkspecialed.net/about/",
+    "knowsAbout": [
+      "New York special education law",
+      "IDEA procedural safeguards",
+      "8 NYCRR Part 200",
+      "IEP development",
+      "twice-exceptional learners",
+      "CSE meeting advocacy"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "New York Special Ed",
+      "url": "https://www.newyorkspecialed.net"
+    },
+    "alumniOf": {
+      "@type": "Organization",
+      "name": "Community Health Foundation of Western New York"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --navy:   #002868;
+      --gold:   #d4af37;
+      --cream:  #faf8f3;
+      --ink:    #1a1a2e;
+      --muted:  #5a6170;
+      --border: #e8e2d6;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: 'Source Serif 4', Georgia, serif;
+      background: #fff;
+      color: var(--ink);
+      margin: 0;
+    }
+
+    /* ── Hero ──────────────────────────────────────────────── */
+    .about-hero {
+      background: var(--navy);
+      position: relative;
+      overflow: hidden;
+      padding: 0;
+    }
+    .about-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 70% 60% at 80% 50%, rgba(212,175,55,0.12) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 80% at 10% 80%, rgba(30,58,138,0.6) 0%, transparent 55%);
+      pointer-events: none;
+    }
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 80px 40px 70px;
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 60px;
+      align-items: center;
+    }
+    .hero-text {}
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(212,175,55,0.15);
+      border: 1px solid rgba(212,175,55,0.4);
+      color: var(--gold);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 22px;
+    }
+    .hero-text h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(2.2rem, 5vw, 3.6rem);
+      font-weight: 900;
+      color: #fff;
+      line-height: 1.1;
+      margin: 0 0 8px;
+    }
+    .hero-text .hero-title {
+      font-size: 1rem;
+      color: var(--gold);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      margin-bottom: 24px;
+    }
+    .hero-text .hero-deck {
+      font-size: 1.15rem;
+      color: #c8d4e8;
+      line-height: 1.75;
+      max-width: 520px;
+      font-style: italic;
+    }
+    .hero-card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 16px;
+      padding: 32px;
+      backdrop-filter: blur(8px);
+    }
+    .hero-avatar {
+      width: 90px; height: 90px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #1e3a8a, #d4af37);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 2.4rem;
+      margin: 0 auto 20px;
+      border: 3px solid rgba(212,175,55,0.5);
+    }
+    .hero-card-name {
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      color: #fff;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .hero-card-role {
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--gold);
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      margin-bottom: 24px;
+    }
+    .hero-stats {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .hero-stat {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .stat-icon {
+      width: 34px; height: 34px;
+      background: rgba(212,175,55,0.15);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+    .stat-text strong {
+      display: block;
+      color: #fff;
+      font-size: 0.95rem;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+    .stat-text span {
+      font-size: 0.78rem;
+      color: #8fa3c0;
+    }
+
+    @media (max-width: 780px) {
+      .hero-inner { grid-template-columns: 1fr; gap: 40px; padding: 50px 24px; }
+      .hero-card { max-width: 360px; margin: 0 auto; }
+    }
+
+    /* ── Body ──────────────────────────────────────────────── */
+    .about-body {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 72px 28px 80px;
+    }
+
+    /* Section headers */
+    .section-label {
+      font-size: 0.68rem;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+    h2.story-h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 700;
+      color: var(--navy);
+      line-height: 1.25;
+      margin: 0 0 22px;
+    }
+    .story-p {
+      font-size: 1.06rem;
+      line-height: 1.85;
+      color: #2d3748;
+      margin-bottom: 20px;
+    }
+    .story-section {
+      margin-bottom: 64px;
+    }
+    .section-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 60px 0;
+    }
+
+    /* Pull quote */
+    .pull-quote {
+      position: relative;
+      margin: 40px -24px;
+      padding: 36px 40px 36px 60px;
+      background: var(--cream);
+      border-left: 5px solid var(--navy);
+    }
+    .pull-quote::before {
+      content: '"';
+      font-family: 'Playfair Display', serif;
+      font-size: 6rem;
+      color: var(--gold);
+      opacity: 0.4;
+      position: absolute;
+      top: -10px;
+      left: 16px;
+      line-height: 1;
+    }
+    .pull-quote p {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      font-style: italic;
+      color: var(--navy);
+      line-height: 1.6;
+      margin: 0 0 14px;
+      position: relative;
+      z-index: 1;
+    }
+    .pull-quote cite {
+      font-family: 'Source Serif 4', serif;
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-style: normal;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+    }
+
+    /* Moment box — the "too smart to qualify" scene */
+    .moment-box {
+      background: #fff8f0;
+      border: 1px solid #f0d9c0;
+      border-left: 5px solid #c2570a;
+      border-radius: 0 8px 8px 0;
+      padding: 28px 32px;
+      margin: 32px 0;
+    }
+    .moment-box .moment-label {
+      font-size: 0.68rem;
+      font-weight: 800;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #c2570a;
+      margin-bottom: 12px;
+    }
+    .moment-box p {
+      font-size: 1.02rem;
+      line-height: 1.8;
+      color: #2d1f0f;
+      margin: 0;
+    }
+    .moment-box strong {
+      color: #c2570a;
+    }
+
+    /* Timeline */
+    .timeline {
+      position: relative;
+      padding-left: 32px;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 8px; top: 8px;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(to bottom, var(--navy), var(--gold));
+    }
+    .timeline-item {
+      position: relative;
+      margin-bottom: 32px;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -28px;
+      top: 5px;
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      background: var(--gold);
+      border: 2px solid var(--navy);
+    }
+    .timeline-item.milestone::before {
+      width: 16px; height: 16px;
+      left: -30px;
+      top: 3px;
+      background: var(--navy);
+    }
+    .timeline-year {
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 4px;
+    }
+    .timeline-item h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin: 0 0 6px;
+    }
+    .timeline-item p {
+      font-size: 0.95rem;
+      color: var(--muted);
+      line-height: 1.65;
+      margin: 0;
+    }
+
+    /* What she learned grid */
+    .learned-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin: 32px 0;
+    }
+    .learned-card {
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 24px;
+    }
+    .learned-card .icon {
+      font-size: 1.6rem;
+      margin-bottom: 12px;
+      display: block;
+    }
+    .learned-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin: 0 0 8px;
+      line-height: 1.3;
+    }
+    .learned-card p {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.65;
+      margin: 0;
+    }
+
+    /* Today's Mia feature */
+    .mia-today {
+      background: var(--navy);
+      color: #fff;
+      border-radius: 14px;
+      padding: 40px;
+      margin: 40px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .mia-today::before {
+      content: '';
+      position: absolute;
+      right: -40px; top: -40px;
+      width: 200px; height: 200px;
+      border-radius: 50%;
+      background: rgba(212,175,55,0.1);
+    }
+    .mia-today .label {
+      font-size: 0.68rem; font-weight: 800; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--gold); margin-bottom: 12px;
+    }
+    .mia-today p {
+      font-size: 1.08rem; line-height: 1.8; color: #c8d4e8; margin: 0;
+      position: relative; z-index: 1;
+    }
+    .mia-today p strong { color: #fff; }
+
+    /* Credentials bar */
+    .credentials-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 32px 0;
+    }
+    .cred-pill {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 24px;
+      padding: 7px 16px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #1e40af;
+    }
+    .cred-pill .pi { font-size: 1rem; }
+
+    /* Transparency */
+    .transparency-box {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: 10px;
+      padding: 28px 32px;
+      margin: 40px 0;
+    }
+    .transparency-box h3 {
+      font-family: 'Playfair Display', serif;
+      color: #14532d; margin-top: 0; font-size: 1.1rem;
+    }
+    .transparency-box ul {
+      margin: 0; padding-left: 20px;
+      color: #166534; line-height: 2.1;
+      font-size: 0.94rem;
+    }
+    .transparency-box a { color: #14532d; font-weight: 600; }
+
+    /* CTA */
+    .about-cta {
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      border-radius: 16px;
+      padding: 48px 40px;
+      text-align: center;
+      margin-top: 56px;
+    }
+    .about-cta h2 {
+      font-family: 'Playfair Display', serif;
+      color: #fff;
+      font-size: 1.8rem;
+      margin: 0 0 14px;
+    }
+    .about-cta p { color: #94a3b8; font-size: 1.05rem; margin-bottom: 28px; }
+    .cta-row { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .btn-gold {
+      background: var(--gold); color: #0f172a;
+      padding: 13px 30px; border-radius: 6px;
+      text-decoration: none; font-weight: 700; font-size: 0.95rem;
+      font-family: 'Source Serif 4', serif;
+    }
+    .btn-outline {
+      background: transparent; color: #fff;
+      border: 2px solid rgba(255,255,255,0.4);
+      padding: 13px 30px; border-radius: 6px;
+      text-decoration: none; font-weight: 700; font-size: 0.95rem;
+      font-family: 'Source Serif 4', serif;
+    }
+
+    /* Sub-nav breadcrumb */
+    .subnav-row {
+      background: var(--cream);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 28px;
+      font-size: 0.84rem;
+      color: var(--muted);
+    }
+    .subnav-row a { color: var(--navy); text-decoration: none; font-weight: 600; }
+    .subnav-row a:hover { text-decoration: underline; }
+    .subnav-row .sep { margin: 0 8px; color: var(--border); }
+
+    /* About sub-nav pills */
+    .about-subnav {
+      display: flex; gap: 8px; flex-wrap: wrap;
+      padding: 16px 28px;
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+    }
+    .about-subnav a {
+      padding: 5px 16px; border-radius: 20px;
+      font-size: 0.82rem; font-weight: 600;
+      text-decoration: none;
+      border: 1px solid var(--border);
+      color: var(--navy);
+      background: #fff;
+    }
+    .about-subnav a.active {
+      background: var(--navy); color: #fff; border-color: var(--navy);
+    }
+
+    @media (max-width: 600px) {
+      .learned-grid { grid-template-columns: 1fr; }
+      .pull-quote { margin: 32px 0; padding: 28px 24px 28px 40px; }
+      .about-cta { padding: 36px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="nav-container">
+    <a href="/" class="nav-logo" aria-label="New York Special Ed - Home">
+      <img src="/images/logo.png" alt="New York Special Ed logo" loading="eager"
+           width="120" height="120" style="display:block;height:120px;width:auto;border-radius:8px;"/>
+    </a>
+    <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <ul class="nav-links">
+        <li class="nav-item"><a href="/districts/" class="nav-link">NYC Districts</a></li>
+        <li class="nav-item"><a href="/districts/nys-overview" class="nav-link">Upstate &amp; LI</a></li>
+        <li class="nav-item"><a href="/guides/" class="nav-link">Parent Guides</a></li>
+        <li class="nav-item"><a href="/resources/" class="nav-link">Free Tools</a></li>
+        <li class="nav-item"><a href="/about/" class="nav-link" style="color:var(--gold,#d4af37);font-weight:700;">About</a></li>
+        <li class="nav-item"><a href="/shop" class="nav-cta">Get The Toolkit</a></li>
+      </ul>
+    </nav>
+    <button class="mobile-toggle" aria-label="Open Navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</header>
+
+<!-- Hero -->
+<div class="about-hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-eyebrow">
+        <i class="fas fa-award"></i>
+        Founder &amp; 2e Parent Advocate
+      </div>
+      <h1>Rachel Whitcomb</h1>
+      <div class="hero-title">New York Special Ed · Buffalo, NY</div>
+      <p class="hero-deck">
+        A healthcare policy researcher who spent nine years reading federal
+        regulations — and still walked into a CSE meeting completely unprepared.
+        That experience built this site.
+      </p>
+    </div>
+    <div class="hero-card" itemscope itemtype="https://schema.org/Person">
+      <div class="hero-avatar" aria-hidden="true">RW</div>
+      <div class="hero-card-name" itemprop="name">Rachel Whitcomb</div>
+      <div class="hero-card-role" itemprop="jobTitle">Founder &amp; 2e Parent Advocate</div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="stat-icon">👩‍👧</div>
+          <div class="stat-text">
+            <strong>Mom to Mia, 14</strong>
+            <span>Twice-exceptional · ADHD + SPD</span>
+          </div>
+        </div>
+        <div class="hero-stat">
+          <div class="stat-icon">📍</div>
+          <div class="stat-text">
+            <strong>Elmwood Village, Buffalo NY</strong>
+            <span>Serving families statewide since 2020</span>
+          </div>
+        </div>
+        <div class="hero-stat">
+          <div class="stat-icon">🏛️</div>
+          <div class="stat-text">
+            <strong itemprop="description">200+ families supported</strong>
+            <span>at CSE meetings across New York</span>
+          </div>
+        </div>
+        <div class="hero-stat">
+          <div class="stat-icon">📋</div>
+          <div class="stat-text">
+            <strong>COPAA-trained advocate</strong>
+            <span>Council of Parent Attorneys &amp; Advocates</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- About sub-nav -->
+<div class="about-subnav" role="navigation" aria-label="About section pages">
+  <a href="/about/" class="active">Our Story</a>
+  <a href="/about/mission.html">Mission &amp; Values</a>
+  <a href="/about/methodology.html">Research Methodology</a>
+  <a href="/contact">Contact Rachel</a>
+</div>
+
+<!-- Body -->
+<main class="about-body">
+
+  <!-- ── Section 1: Before ──────────────────────────────── -->
+  <div class="story-section">
+    <div class="section-label">Before All of This</div>
+    <h2 class="story-h2">I Thought I Knew How to Read a Bureaucracy</h2>
+
+    <p class="story-p">
+      For nine years I worked as a healthcare policy researcher at the Community
+      Health Foundation of Western New York, a nonprofit focused on health equity
+      in the Buffalo region. My job was to parse federal regulations, write grant
+      applications, and translate CMS policy into language that frontline clinic
+      staff could actually act on. I was good at it. I was comfortable inside
+      systems that frightened other people.
+    </p>
+    <p class="story-p">
+      I mention this not to brag — I mention it because it's important to the
+      story. I was not a naive person. I was not someone who got intimidated
+      by paperwork or professionals with titles. I had read HIPAA implementation
+      guidance for fun. I thought that would protect me and my daughter.
+    </p>
+    <p class="story-p">
+      It did not.
+    </p>
+  </div>
+
+  <hr class="section-divider"/>
+
+  <!-- ── Section 2: Mia ──────────────────────────────────── -->
+  <div class="story-section">
+    <div class="section-label">My Daughter</div>
+    <h2 class="story-h2">Mia: The Kid Who Broke the Rubric</h2>
+
+    <p class="story-p">
+      My daughter Mia was reading chapter books at four. Not sounding out
+      simple words — reading, comprehending, asking questions about the
+      characters' motivations. At six she scored in the 98th percentile for
+      verbal comprehension on a developmental screening her pediatrician ran
+      almost as an afterthought. We celebrated. We assumed school was going to
+      be easy.
+    </p>
+    <p class="story-p">
+      It was not easy. By second grade, Mia's teachers were calling her
+      "a handful." By third grade she was spending more time in the hallway
+      than in the classroom. She'd been diagnosed privately — by a
+      neuropsychologist we paid for ourselves — with ADHD (combined type) and
+      Sensory Processing Disorder. She wasn't being defiant. She was
+      overwhelmed. Her nervous system experienced a busy third-grade classroom
+      the way most of us would experience a fire alarm that never turned off.
+      And her brain, running at the speed it ran, turned the gap between her
+      understanding and the pace of instruction into a special kind of torture.
+    </p>
+    <p class="story-p">
+      Twice-exceptional kids are defined by paradox. They can produce a
+      five-paragraph essay that reads like a sixth grader's while simultaneously
+      being unable to copy the homework assignment off the board. The school
+      system — designed to spot kids who struggle and kids who excel, as
+      separate categories — does not know what to do with a child who is both
+      at once.
+    </p>
+
+    <div class="pull-quote">
+      <p>
+        She wasn't being defiant. Her nervous system experienced a busy
+        third-grade classroom the way most of us would experience a fire alarm
+        that never turned off.
+      </p>
+      <cite>— Rachel Whitcomb, on Mia's experience in Buffalo City SD</cite>
+    </div>
+  </div>
+
+  <hr class="section-divider"/>
+
+  <!-- ── Section 3: The Moment ──────────────────────────── -->
+  <div class="story-section">
+    <div class="section-label">October 2018</div>
+    <h2 class="story-h2">The Phrase That Changed Everything</h2>
+
+    <p class="story-p">
+      Mia was in third grade. I'd been called in for a meeting — I assumed it
+      was about getting her harder books, since she'd been tearing through the
+      classroom library and asking her teacher for more. I was wrong.
+    </p>
+    <p class="story-p">
+      The meeting was about her behavior. She called out answers without
+      raising her hand. She argued when she disagreed with a lesson. She
+      bounced in her seat. She'd had a meltdown two weeks earlier when a
+      fire drill interrupted a project she was working on. The teacher had
+      a sticker chart printed out. A behavior contract, ready to sign.
+    </p>
+    <p class="story-p">
+      I asked: had anyone requested a special education evaluation? The
+      teacher looked slightly confused. I said: Mia has a neuropsychological
+      report showing ADHD and SPD. She clearly needs supports. Has anyone
+      requested an evaluation?
+    </p>
+
+    <div class="moment-box">
+      <div class="moment-label">⚡ The Turning Point</div>
+      <p>
+        The teacher looked at me — not unkindly — and said:
+        <strong>"She's too smart to qualify."</strong>
+        <br/><br/>
+        That was it. That was the phrase. I thanked her, drove home, and
+        sat at my kitchen table with my laptop open until 2am reading IDEA,
+        reading 8 NYCRR Part 200, reading SRO decisions. I had nine years of
+        federal-regulation-reading experience. I was about to use every bit of it.
+      </p>
+    </div>
+
+    <p class="story-p">
+      That Monday morning I submitted a written evaluation request — citing
+      8 NYCRR 200.4 by regulation number, noting that a disability diagnosis
+      from a licensed neuropsychologist constituted grounds for referral, and
+      documenting the date. The district had 10 school days to respond.
+      Twenty-one days passed with nothing.
+    </p>
+    <p class="story-p">
+      I sent a follow-up letter citing the 10-day response requirement.
+      I got a phone call within 48 hours.
+    </p>
+    <p class="story-p">
+      That was the moment. Not the evaluation, not the IEP — that phone call.
+      Because I understood, viscerally, that <em>a citation had moved a
+      bureaucracy</em>. And I thought about every parent in Buffalo who didn't
+      know the regulation number. Who would have waited and waited and
+      wondered why nothing was happening.
+    </p>
+  </div>
+
+  <hr class="section-divider"/>
+
+  <!-- ── Section 4: The Fight ────────────────────────────── -->
+  <div class="story-section">
+    <div class="section-label">2019–2020</div>
+    <h2 class="story-h2">Learning to Fight — and Teaching Others</h2>
+
+    <p class="story-p">
+      Mia was evaluated in January 2019. She qualified. Her first IEP was
+      written in February. I read every word of it the night before the
+      meeting. The goals were — I'll be honest — nonsense. Beautiful-sounding,
+      professionally formatted nonsense. "Mia will improve organizational
+      skills with 80% accuracy in 3 out of 4 trials." What does 80% accuracy
+      mean for organizational skills? What's a trial? Who measures it? How?
+    </p>
+    <p class="story-p">
+      I pushed for SMART goals. I cited the IDEA requirement for measurable
+      annual goals. I brought my neuropsych report. I asked, at every turn,
+      for the research basis behind each recommendation. The meeting ran
+      two hours long. At the end of it, Mia had occupational therapy targeting
+      sensory integration, a resource room placement five times a week, and
+      extended time on assessments. It wasn't everything. But it was something.
+    </p>
+    <p class="story-p">
+      By fall 2019, three friends had come to me with their own CSE disasters.
+      I helped them write their letters. Attended meetings with two of them.
+      Started a small Facebook group — Buffalo 2e Parents — mostly to share
+      resources and vent.
+    </p>
+    <p class="story-p">
+      Within six weeks, parents from Rochester and Syracuse had asked to join.
+      Within three months, Albany. I realized I'd stumbled into something that
+      wasn't about Buffalo. It was about a statewide information gap so
+      consistent it looked almost structural. Which, of course, it was.
+    </p>
+  </div>
+
+  <hr class="section-divider"/>
+
+  <!-- ── Section 5: What I learned ─────────────────────── -->
+  <div class="story-section">
+    <div class="section-label">What Fighting Teaches You</div>
+    <h2 class="story-h2">Five Things I Learned the Hard Way</h2>
+
+    <div class="learned-grid">
+      <div class="learned-card">
+        <span class="icon">📝</span>
+        <h3>Everything is about documentation</h3>
+        <p>Verbal conversations don't exist in special education. The moment
+           you put a date and a regulation number on a piece of paper, the
+           entire dynamic shifts.</p>
+      </div>
+      <div class="learned-card">
+        <span class="icon">⏱️</span>
+        <h3>"Too smart to qualify" is not a legal standard</h3>
+        <p>There is no IQ threshold in IDEA. Giftedness does not disqualify
+           a child from services. The test is whether the disability adversely
+           affects educational performance. Full stop.</p>
+      </div>
+      <div class="learned-card">
+        <span class="icon">🧩</span>
+        <h3>Vague IEP goals are a feature, not a bug</h3>
+        <p>Goals you can't measure can't be failed. The antidote is knowing
+           exactly what a SMART goal looks like and refusing to accept
+           anything less.</p>
+      </div>
+      <div class="learned-card">
+        <span class="icon">🪑</span>
+        <h3>You are not a guest at that table</h3>
+        <p>IDEA calls you a member of the IEP team. Not an observer. Not a
+           rubber stamp. A member, with equal standing and equal voice. Most
+           parents never hear this.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr class="section-divider"/>
+
+  <!-- ── Section 6: The Site ────────────────────────────── -->
+  <div class="story-section">
+    <div class="section-label">2020 – Present</div>
+    <h2 class="story-h2">Why I Built New York Special Ed</h2>
+
+    <p class="story-p">
+      In early 2020 I launched newyorkspecialed.net. Not because I wanted to
+      run a website. Because the Google Doc I'd been sharing with parents in
+      my Facebook group had been forwarded so many times I'd lost track of
+      it, and people were acting on information that was two versions out of
+      date. If I was going to do this, I was going to do it right.
+    </p>
+    <p class="story-p">
+      The goal from the beginning was specificity. There are plenty of
+      websites that will tell you what IDEA says in general terms. What I
+      wanted was a parent in Yonkers to be able to search "CSE meeting
+      Yonkers" and find a page written specifically for them — with the
+      right district contacts, the right red flags, the right questions to
+      ask in that specific school system's culture.
+    </p>
+    <p class="story-p">
+      In 2021 I completed COPAA parent advocate training. In 2022 I was
+      quoted in a Buffalo News article about evaluation wait times across
+      the Big 5 school districts. By 2023 I'd supported parents through
+      more than 200 CSE meetings — in person, on video, and by coaching
+      through text in parking lots before they walked in alone.
+    </p>
+
+    <!-- Timeline -->
+    <div class="timeline" style="margin-top:36px;">
+      <div class="timeline-item milestone">
+        <div class="timeline-year">October 2018</div>
+        <h3>"She's too smart to qualify."</h3>
+        <p>Third-grade parent meeting at Buffalo City SD. The phrase that
+           launched everything.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">January 2019</div>
+        <h3>Mia's evaluation &amp; first IEP</h3>
+        <p>After a written referral, a regulatory citation, and a lot of
+           late nights reading Part 200. OT and resource room placement secured.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">Fall 2019</div>
+        <h3>Buffalo 2e Parents Facebook group</h3>
+        <p>Started to share resources with local families. Parents from
+           Rochester and Syracuse joined within weeks.</p>
+      </div>
+      <div class="timeline-item milestone">
+        <div class="timeline-year">2020</div>
+        <h3>newyorkspecialed.net launches</h3>
+        <p>A proper home for district-specific, regulation-grounded special
+           education guidance for New York families.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2021</div>
+        <h3>COPAA parent advocate training</h3>
+        <p>Completed formal training through the Council of Parent Attorneys
+           and Advocates.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2022</div>
+        <h3>Buffalo News coverage</h3>
+        <p>Quoted in an investigative article on evaluation wait times
+           across New York's five largest school districts.</p>
+      </div>
+      <div class="timeline-item milestone">
+        <div class="timeline-year">2023–Present</div>
+        <h3>200+ families supported</h3>
+        <p>CSE meeting coaching, IEP review, and document help for families
+           from Brooklyn to Buffalo and everywhere in between.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr class="section-divider"/>
+
+  <!-- ── Section 7: Mia today ─────────────────────────── -->
+  <div class="mia-today">
+    <div class="label">Mia Today</div>
+    <p>
+      She's fourteen now. She's in an honors English elective — her teacher
+      told me last spring that Mia's analytical writing "reads like someone
+      twice her age." She still has ADHD. She still has sensory sensitivities.
+      She still has days where the world feels like too much.
+      <br/><br/>
+      <strong>But she self-advocates at her own IEP meetings.</strong>
+      She sits at the table, she reads her own goals, and she tells the team
+      what's working and what isn't. That's not something that happened
+      automatically. That's something we built together, one meeting at a time.
+      <br/><br/>
+      That's what I want for every kid in New York whose parent finds this site
+      at midnight the night before a CSE meeting. Not a perfect system.
+      A fighting chance.
+    </p>
+  </div>
+
+  <hr class="section-divider"/>
+
+  <!-- ── Credentials ───────────────────────────────────── -->
+  <div class="story-section">
+    <div class="section-label">Credentials &amp; Background</div>
+    <h2 class="story-h2">Why You Can Trust This Site</h2>
+    <p class="story-p">
+      I'm not an attorney, and I'll never pretend to be one.
+      What I am is a parent who has read the regulations, attended the meetings,
+      made the mistakes, and built a body of practical knowledge that is
+      grounded in primary sources. Here's the foundation:
+    </p>
+    <div class="credentials-bar">
+      <div class="cred-pill"><span class="pi">🎓</span> COPAA Parent Advocate Training · 2021</div>
+      <div class="cred-pill"><span class="pi">📰</span> Buffalo News · Quoted 2022</div>
+      <div class="cred-pill"><span class="pi">🏥</span> 9 Years Healthcare Policy Research</div>
+      <div class="cred-pill"><span class="pi">🤝</span> 200+ Families Supported</div>
+      <div class="cred-pill"><span class="pi">📋</span> 40+ CSE Meetings Attended</div>
+      <div class="cred-pill"><span class="pi">📍</span> Buffalo, NY · Serving All of NY State</div>
+    </div>
+  </div>
+
+  <!-- ── Transparency ──────────────────────────────────── -->
+  <div class="transparency-box">
+    <h3>🔍 What You Should Know About This Site</h3>
+    <ul>
+      <li>I am a parent and trained advocate — not an attorney. Nothing here is legal advice.</li>
+      <li>Every factual claim is sourced to IDEA, 8 NYCRR Part 200/201, or NYSED guidance documents.
+          See our <a href="/about/methodology.html">research methodology</a>.</li>
+      <li>This site is fully independent — not affiliated with, funded by, or answerable to any
+          school district, the NYC DOE, or NYSED.</li>
+      <li>Some district pages carry paid partner slots for local advocates, evaluators, and attorneys.
+          These are clearly labeled and do not influence my editorial decisions.</li>
+      <li>I update content when law or guidance changes. If you find an error,
+          <a href="/contact">please tell me</a>. I take corrections seriously.</li>
+    </ul>
+  </div>
+
+  <!-- ── CTA ─────────────────────────────────────────────── -->
+  <div class="about-cta">
+    <h2>You Shouldn't Have to Figure This Out Alone</h2>
+    <p>
+      Start with the CSE guide, find your district, or read about
+      how every piece of content on this site is researched.
+    </p>
+    <div class="cta-row">
+      <a href="/guides/cse-meeting-guide" class="btn-gold">Read the CSE Guide</a>
+      <a href="/about/methodology.html" class="btn-outline">How We Research →</a>
+    </div>
+  </div>
+
+</main>
+
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h3>New York Special Ed<span>.net</span></h3>
+      <p>Demystifying the New York Committee on Special Education (CSE) process.
+         We provide parents with the localized data, legal templates, and advocacy
+         tools needed to secure appropriate services in NYC and NY State.</p>
+      <div style="margin-top:20px;">
+        <a href="/shop" style="color:#D4AF37;font-weight:bold;text-decoration:none;">
+          View Advocacy Shop →</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>About Rachel</h4>
+      <ul class="footer-links">
+        <li><a href="/about/">Our Story</a></li>
+        <li><a href="/about/mission.html">Mission &amp; Values</a></li>
+        <li><a href="/about/methodology.html">Research Methodology</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>NY Parent Guides</h4>
+      <ul class="footer-links">
+        <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+        <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+        <li><a href="/guides/dispute-resolution-ny">Due Process &amp; Complaints</a></li>
+        <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <ul class="footer-links">
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/contact">Contact Support</a></li>
+        <li><a href="/privacy-policy">Privacy Policy</a></li>
+        <li><a href="/terms">Terms of Service</a></li>
+        <li><a href="/sitemap.xml">Sitemap</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 NY Special Ed. Not legal advice. Not affiliated with NYC DOE or NYSED.<br/>
+       For official inquiries, visit schools.nyc.gov or nysed.gov.</p>
+  </div>
+</footer>
+
+</body>
+</html>
+"""
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  UPDATED AUTHOR CONFIG  for inject_eeat.py
+# ══════════════════════════════════════════════════════════════════════════════
+
+NEW_AUTHOR_BLOCK = '''\
+AUTHOR = {
+    "name": "Rachel Whitcomb",
+    "title": "Founder &amp; 2e Parent Advocate · New York Special Ed",
+    "credential": "COPAA-trained advocate · Mom to a 2e daughter · 200+ NY families supported",
+    "about_url": "/about/",
+    "background": (
+        "Before founding this site I spent nine years as a healthcare policy "
+        "researcher at a Buffalo nonprofit, reading federal regulations for a living. "
+        "I thought that experience would protect me when my daughter needed the system "
+        "to work. It didn\\'t — not until I learned which regulations to cite."
+    ),
+    "child_description": (
+        "My daughter Mia is twice-exceptional — profoundly gifted in verbal reasoning "
+        "and written expression, and also living with ADHD (combined type) and Sensory "
+        "Processing Disorder. She was told in third grade that she was \\'too smart to "
+        "qualify\\' for special education services. That phrase changed my life."
+    ),
+    "start_year": "2020",
+    "geo_focus": "New York State",
+}'''
+
+
+def patch_author_in_inject_script(inject_path: Path, dry_run: bool) -> bool:
+    """Replace the AUTHOR dict in inject_eeat.py with Rachel's real details."""
+    if not inject_path.exists():
+        print(f"  ⚠  inject_eeat.py not found at {inject_path} — skipping patch")
+        return False
+
+    original = inject_path.read_text(encoding="utf-8")
+
+    # Match the entire AUTHOR = { ... } block (multi-line dict)
+    pattern = re.compile(
+        r"AUTHOR\s*=\s*\{.*?\n\}",
+        re.DOTALL,
+    )
+    patched = pattern.sub(NEW_AUTHOR_BLOCK, original, count=1)
+
+    if patched == original:
+        print("  · AUTHOR block unchanged (already patched or not found)")
+        return False
+
+    if not dry_run:
+        inject_path.write_text(patched, encoding="utf-8")
+    return True
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  Main
+# ══════════════════════════════════════════════════════════════════════════════
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Generate Rachel Whitcomb's persona about page and patch inject_eeat.py"
+    )
+    parser.add_argument(
+        "--root",
+        default=r"C:\Users\elisa\OneDrive\Documents\github\nyspecialed",
+        help="Project root directory (default: %(default)s)",
+    )
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Preview changes without writing files")
+    args = parser.parse_args()
+
+    root = Path(args.root)
+    if not root.exists():
+        root = Path.cwd()
+        print(f"Root not found — falling back to CWD: {root}")
+
+    if args.dry_run:
+        print("── DRY RUN ── no files will be written\n")
+
+    print(f"\n{'═'*60}")
+    print("  Generating Rachel Whitcomb persona pages")
+    print(f"{'═'*60}\n")
+
+    # Write about/index.html
+    about_dir = root / "about"
+    about_page = about_dir / "index.html"
+
+    if not args.dry_run:
+        about_dir.mkdir(parents=True, exist_ok=True)
+        about_page.write_text(ABOUT_PAGE, encoding="utf-8")
+        verb = "✓ written"
+    else:
+        verb = "~ would write"
+
+    print(f"  {verb}  about/index.html  ({len(ABOUT_PAGE)//1024}KB)")
+
+    # Patch inject_eeat.py
+    inject_path = root / "inject_eeat.py"
+    # Also check next to this script
+    if not inject_path.exists():
+        inject_path = Path(__file__).parent / "inject_eeat.py"
+
+    print(f"\n  Patching AUTHOR block in inject_eeat.py …")
+    changed = patch_author_in_inject_script(inject_path, args.dry_run)
+    if changed:
+        verb2 = "~ would update" if args.dry_run else "✓ patched"
+        print(f"  {verb2}  {inject_path.name}")
+    print()
+
+    print(f"{'═'*60}")
+    print("  Rachel Whitcomb persona installed.")
+    print()
+    print("  Next steps:")
+    print("  1. Replace the 'RW' initials avatar with a real headshot")
+    print("     (or an illustrated avatar — even a tasteful SVG works)")
+    print("  2. Run inject_eeat.py to push the updated trust block sitewide")
+    print("  3. Add /about/ to sitemap.xml with <priority>0.9</priority>")
+    print("  4. Add an About nav link to every page header")
+    print(f"{'═'*60}\n")
+
+
+if __name__ == "__main__":
+    main()

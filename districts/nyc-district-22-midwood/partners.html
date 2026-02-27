@@ -15,6 +15,41 @@
     .category-featured { display: flex; gap: 16px; align-items: center; background: #f8fafc; border: 2px dashed #e2e8f0; border-radius: 8px; padding: 18px 20px; margin-bottom:20px; position: relative; overflow:hidden; }
     .cat-feat-logo { width: 60px; height: 60px; background: #e2e8f0; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size:24px; color: #64748b; flex-shrink: 0; }
   </style>
+<!-- __district-subnav-css-start__ -->
+<style>
+/* district-subnav — auto-injected by fix_district_nav.py */
+.district-subnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 0 0 24px 0;
+}
+.district-subnav a {
+  display: inline-block;
+  padding: 5px 11px;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0056b3;
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.district-subnav a:hover { background: #dbeafe; }
+.district-subnav a.subnav-active {
+  background: #002868;
+  color: #fff;
+  border-color: #002868;
+  cursor: default;
+}
+</style>
+<!-- __district-subnav-css-end__ -->
 </head>
 <body>
   <!-- 
@@ -135,6 +170,17 @@
   </section>
 
   <main class="container">
+<!-- __district-subnav-start__ -->
+<nav class="district-subnav" aria-label="Pages in this district">
+  <a href="index.html">🏠 Hub</a>
+  <a href="leadership-directory.html">📞 Contacts</a>
+  <a href="cse-meeting-guide.html">🤝 CSE Guide</a>
+  <a href="evaluation-process.html">📝 Evaluations</a>
+  <a href="discipline-rights.html">⚖️ Discipline</a>
+  <a href="partners.html" class="subnav-active" aria-current="page">🤲 Partners</a>
+  <a href="special-ed-updates.html">📰 Updates</a>
+</nav>
+<!-- __district-subnav-end__ -->
 <div class="featured-partner-hero">
   <div class="ribbon">Available</div>
   <div class="cat-feat-logo">📍</div>
