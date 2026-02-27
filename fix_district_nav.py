@@ -102,11 +102,11 @@ def build_nav_html(existing_pages: set, current_file: str) -> str:
             continue
         if fname == current_file:
             links.append(
-                f'  <a href="{fname}" class="subnav-active" aria-current="page">'
+                f'  <a href="./{fname}" class="subnav-active" aria-current="page">'
                 f"{icon} {label}</a>"
             )
         else:
-            links.append(f'  <a href="{fname}">{icon} {label}</a>')
+            links.append(f'  <a href="./{fname}">{icon} {label}</a>')
     return (
         '<nav class="district-subnav" aria-label="Pages in this district">\n'
         + "\n".join(links)
