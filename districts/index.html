@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>New York School Districts Directory | NY Special Education</title>
-  <meta name="description" content="Find special education resources, CSE guides, and parent support for every major New York school district.">
-  <link rel="stylesheet" href="/styles/global.css">
-  <link rel="stylesheet" href="/styles/styles-nav-footer.css">
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>New York School Districts Directory | NY Special Education</title>
+<meta content="Find special education resources, CSE guides, and parent support for every major New York school district." name="description"/>
+<link href="/styles/global.css" rel="stylesheet"/>
+<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
+<style>
     body { background: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
     .directory-hero { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white; padding: 60px 20px 80px 20px; text-align: center; }
     .directory-hero h1 { font-size: 2.5rem; margin-bottom: 15px; color: white; }
@@ -45,211 +45,219 @@
   </style>
 </head>
 <body>
-  <!-- 
+<!-- 
     INSTRUCTIONS: 
     Include this inside the <header> tag of every page.
     Requires: styles/nav-footer.css
     Requires: FontAwesome (for icons)
 -->
-
-<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
-   <div class="nav-container">
-
-      <!-- Logo -->
-      <a href="/" class="nav-logo" aria-label="New York Special Ed - Home">
-         <img src="/images/logo.png" alt="New York Special Ed logo" loading="eager" width="120" height="120" style="display:block; height:120px; width:auto; border-radius:8px;" />
-      </a>
-
-      <!-- Desktop Navigation -->
-      <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-         <ul class="nav-links">
-
-            <!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
-            <li class="nav-item">
-               <a href="/districts/" class="nav-link">NYC Districts <i class="fas fa-chevron-down"></i></a>
-               <div class="mega-menu">
-                  <div class="menu-column">
-                     <h4>Manhattan (D1-6)</h4>
-                     <ul>
-                        <li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
-                        <li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
-                        <li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
-                        <li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
-                        <li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
-                        <li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
-                     </ul>
-                  </div>
-                  <div class="menu-column">
-                     <h4>Brooklyn (Key Districts)</h4>
-                     <ul>
-                        <li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
-                        <li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
-                        <li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
-                        <li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
-                        <li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
-                     </ul>
-                  </div>
-                  <div class="menu-column">
-                     <h4>Queens & SI</h4>
-                     <ul>
-                        <li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
-                        <li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
-                        <li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
-                        <li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
-                        <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </li>
-
-            <!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
-            <li class="nav-item">
-               <a href="/districts/nys-overview" class="nav-link">Upstate & LI <i class="fas fa-chevron-down"></i></a>
-               <div class="dropdown-menu">
-                  <div class="menu-column" style="padding: 0 20px;">
-                     <h4>Big 5 Cities</h4>
-                     <ul>
-                        <li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
-                        <li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
-                        <li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
-                        <li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
-                        <li><a href="/districts/albany-city-sd">Albany City SD</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </li>
-
-            <!-- DROPDOWN 3: GUIDES (Contextual Content) -->
-            <li class="nav-item">
-               <a href="/guides/" class="nav-link">Parent Guides <i class="fas fa-chevron-down"></i></a>
-               <div class="dropdown-menu">
-                  <div class="menu-column" style="padding: 0 20px;">
-                     <ul>
-                        <li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
-                        <li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
-                        <li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
-                        <li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
-                        <li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </li>
-
-            <!-- LINK: RESOURCES -->
-            <li class="nav-item">
-               <a href="/resources/" class="nav-link">Free Tools</a>
-            </li>
-
-            <!-- CTA -->
-            <li class="nav-item">
-               <a href="/shop" class="nav-cta">Get The Toolkit</a>
-            </li>
-         </ul>
-      </nav>
-
-      <!-- Mobile Toggle -->
-      <button class="mobile-toggle" aria-label="Open Navigation">
-         <i class="fas fa-bars"></i>
-      </button>
-
-   </div>
+<header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader">
+<div class="nav-container">
+<!-- Logo -->
+<a aria-label="New York Special Ed - Home" class="nav-logo" href="/">
+<img alt="New York Special Ed logo" height="120" loading="eager" src="/images/logo.png" style="display:block; height:120px; width:auto; border-radius:8px;" width="120"/>
+</a>
+<!-- Desktop Navigation -->
+<nav itemscope="" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+<ul class="nav-links">
+<!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/">NYC Districts <i class="fas fa-chevron-down"></i></a>
+<div class="mega-menu">
+<div class="menu-column">
+<h4>Manhattan (D1-6)</h4>
+<ul>
+<li><a href="/districts/nyc-district-01-lower-east-side">District 1: Lower East Side</a></li>
+<li><a href="/districts/nyc-district-02-upper-east-side">District 2: Upper East Side/Tribeca</a></li>
+<li><a href="/districts/nyc-district-03-upper-west-side">District 3: Upper West Side</a></li>
+<li><a href="/districts/nyc-district-04-east-harlem">District 4: East Harlem</a></li>
+<li><a href="/districts/nyc-district-05-central-harlem">District 5: Central Harlem</a></li>
+<li><a href="/districts/nyc-district-06-washington-heights">District 6: Washington Heights</a></li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>Brooklyn (Key Districts)</h4>
+<ul>
+<li><a href="/districts/nyc-district-15-park-slope">District 15: Park Slope/Sunset Park</a></li>
+<li><a href="/districts/nyc-district-20-bay-ridge">District 20: Bay Ridge/Borough Park</a></li>
+<li><a href="/districts/nyc-district-13-brooklyn-heights">District 13: Brooklyn Heights</a></li>
+<li><a href="/districts/nyc-district-22-flatbush">District 22: Flatbush/Sheepshead</a></li>
+<li><a href="/districts/nyc-district-75"><strong>District 75 (Citywide Programs)</strong></a></li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>Queens &amp; SI</h4>
+<ul>
+<li><a href="/districts/nyc-district-24-corona">District 24: Corona/Maspeth</a></li>
+<li><a href="/districts/nyc-district-26-bayside">District 26: Bayside</a></li>
+<li><a href="/districts/nyc-district-30-astoria">District 30: Astoria/LIC</a></li>
+<li><a href="/districts/nyc-district-31-staten-island">District 31: Staten Island</a></li>
+<li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/nys-overview">Upstate &amp; LI <i class="fas fa-chevron-down"></i></a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<h4>Big 5 Cities</h4>
+<ul>
+<li><a href="/districts/buffalo-city-sd">Buffalo City SD</a></li>
+<li><a href="/districts/rochester-city-sd">Rochester City SD</a></li>
+<li><a href="/districts/syracuse-city-sd">Syracuse City SD</a></li>
+<li><a href="/districts/yonkers-city-sd">Yonkers City SD</a></li>
+<li><a href="/districts/albany-city-sd">Albany City SD</a></li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+<li class="nav-item">
+<a class="nav-link" href="/guides/">Parent Guides <i class="fas fa-chevron-down"></i></a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<ul>
+<li><a href="/guides/cse-meeting-guide">CSE Meeting Guide</a></li>
+<li><a href="/guides/evaluation-request-ny">Requesting an Evaluation</a></li>
+<li><a href="/guides/bilingual-iep-new-york">Bilingual IEP Rights</a></li>
+<li><a href="/guides/cpse-preschool-special-education">CPSE (Preschool) Guide</a></li>
+<li><a href="/guides/carter-cases-private-placement">Private Placement (Carter Cases)</a></li>
+</ul>
+</div>
+</div>
+</li>
+<!-- LINK: RESOURCES -->
+<li class="nav-item">
+<a class="nav-link" href="/resources/">Free Tools</a>
+</li>
+<!-- CTA -->
+<li class="nav-item">
+<a class="nav-cta" href="/shop">Get The Toolkit</a>
+</li>
+</ul>
+</nav>
+<!-- Mobile Toggle -->
+<button aria-label="Open Navigation" class="mobile-toggle">
+<i class="fas fa-bars"></i>
+</button>
+</div>
 </header>
-  
-  <header class="directory-hero">
-    <h1>New York Districts Directory</h1>
-    <p>Find specialized parent guides, CSE evaluation timelines, and impartial hearing contacts tailored directly to your local school district.</p>
-  </header>
-
-  <div class="controls-container">
-    <div class="search-box">
-      <input type="text" id="searchInput" placeholder="🔍 Search for your district (e.g., Albany, NYC District 15)...">
-    </div>
-    <div class="filter-box">
-      <select id="typeFilter">
-        <option value="all">Region: All NY Districts</option>
-        <option value="nyc">NYC Dept of Education</option>
-        <option value="nys">NYS Public Districts</option>
-      </select>
-      <select id="sortFilter">
-        <option value="az">Sort: A to Z</option>
-        <option value="za">Sort: Z to A</option>
-      </select>
-    </div>
-  </div>
-
-  <main class="district-grid" id="districtGrid">
-    </main>
-
-  <!-- 
+<header class="directory-hero">
+<h1>New York Districts Directory</h1>
+<p>Find specialized parent guides, CSE evaluation timelines, and impartial hearing contacts tailored directly to your local school district.</p>
+</header>
+<div class="controls-container">
+<div class="search-box">
+<input id="searchInput" placeholder="🔍 Search for your district (e.g., Albany, NYC District 15)..." type="text"/>
+</div>
+<div class="filter-box">
+<select id="typeFilter">
+<option value="all">Region: All NY Districts</option>
+<option value="nyc">NYC Dept of Education</option>
+<option value="nys">NYS Public Districts</option>
+</select>
+<select id="sortFilter">
+<option value="az">Sort: A to Z</option>
+<option value="za">Sort: Z to A</option>
+</select>
+</div>
+</div>
+<main class="district-grid" id="districtGrid">
+<!-- Sachem CSD — added by build_new_ny_districts.py --><html><body><div class="district-card">
+<div class="district-card-header">
+<span class="district-region-badge">Long Island</span>
+<h3><a href="sachem-csd/index.html">Sachem CSD</a></h3>
+<p class="district-county">Suffolk County</p>
+</div>
+<div class="district-card-body">
+<p>Special education resources, CSE meeting guides, and local provider directory for Sachem CSD families.</p>
+</div>
+<a class="district-card-cta" href="sachem-csd/index.html">View Resources →</a>
+</div></body></html><!-- Greece CSD — added by build_new_ny_districts.py --><html><body><div class="district-card">
+<div class="district-card-header">
+<span class="district-region-badge">Upstate</span>
+<h3><a href="greece-csd/index.html">Greece CSD</a></h3>
+<p class="district-county">Monroe County</p>
+</div>
+<div class="district-card-body">
+<p>Special education resources, CSE meeting guides, and local provider directory for Greece CSD families.</p>
+</div>
+<a class="district-card-cta" href="greece-csd/index.html">View Resources →</a>
+</div></body></html><!-- East Ramapo CSD — added by build_new_ny_districts.py --><html><body><div class="district-card">
+<div class="district-card-header">
+<span class="district-region-badge">Hudson Valley</span>
+<h3><a href="east-ramapo-csd/index.html">East Ramapo CSD</a></h3>
+<p class="district-county">Rockland County</p>
+</div>
+<div class="district-card-body">
+<p>Special education resources, CSE meeting guides, and local provider directory for East Ramapo CSD families.</p>
+</div>
+<a class="district-card-cta" href="east-ramapo-csd/index.html">View Resources →</a>
+</div></body></html></main>
+<!-- 
     INSTRUCTIONS: 
     Include this at the bottom of every page.
     Requires: styles/nav-footer.css
 -->
-
-<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
-   <div class="footer-container">
-
-      <!-- COL 1: Brand & Mission -->
-      <div class="footer-brand">
-         <h3>New York Special Ed<span>.net</span></h3>
-         <p>
+<footer class="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="footer-container">
+<!-- COL 1: Brand & Mission -->
+<div class="footer-brand">
+<h3>New York Special Ed<span>.net</span></h3>
+<p>
             Demystifying the New York Committee on Special Education (CSE) process.
             We provide parents with the localized data, legal templates, and advocacy
             tools needed to secure appropriate services in NYC and NY State.
          </p>
-         <div style="margin-top: 20px;">
-            <a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
-         </div>
-      </div>
-
-      <!-- COL 2: Essential Guides -->
-      <div class="footer-col">
-         <h4>NY Parent Guides</h4>
-         <ul class="footer-links">
-            <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
-            <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
-            <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
-            <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
-            <li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
-         </ul>
-      </div>
-
-      <!-- COL 3: Top Districts -->
-      <div class="footer-col">
-         <h4>Popular Districts</h4>
-         <ul class="footer-links">
-            <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
-            <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
-            <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
-            <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
-            <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
-         </ul>
-      </div>
-
-      <!-- COL 4: Legal & Contact -->
-      <div class="footer-col">
-         <h4>Resources</h4>
-         <ul class="footer-links">
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/contact">Contact Support</a></li>
-            <li><a href="/privacy-policy">Privacy Policy</a></li>
-            <li><a href="/terms">Terms of Service</a></li>
-            <li><a href="/sitemap.xml">Sitemap</a></li>
-         </ul>
-      </div>
-
-   </div>
-
-   <!-- Bottom Bar -->
-   <div class="footer-bottom">
-      <p>
-         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br>
+<div style="margin-top: 20px;">
+<a href="/shop" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+</div>
+</div>
+<!-- COL 2: Essential Guides -->
+<div class="footer-col">
+<h4>NY Parent Guides</h4>
+<ul class="footer-links">
+<li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+<li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+<li><a href="/guides/dispute-resolution-ny">Due Process &amp; Complaints</a></li>
+<li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+<li><a href="/districts/nyc-district-75">District 75 Explained</a></li>
+</ul>
+</div>
+<!-- COL 3: Top Districts -->
+<div class="footer-col">
+<h4>Popular Districts</h4>
+<ul class="footer-links">
+<li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+<li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+<li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+<li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+<li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+</ul>
+</div>
+<!-- COL 4: Legal & Contact -->
+<div class="footer-col">
+<h4>Resources</h4>
+<ul class="footer-links">
+<li><a href="/about">About Us</a></li>
+<li><a href="/contact">Contact Support</a></li>
+<li><a href="/privacy-policy">Privacy Policy</a></li>
+<li><a href="/terms">Terms of Service</a></li>
+<li><a href="/sitemap.xml">Sitemap</a></li>
+</ul>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="footer-bottom">
+<p>
+         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br/>
          For official inquiries, visit schools.nyc.gov or nysed.gov.
       </p>
-   </div>
+</div>
 </footer>
-
-  <script>
+<script>
     // Injected District Data
     const districts = [{"name": "Albany City SD", "slug": "albany-city-sd", "type": "nys"}, {"name": "Brentwood UFSD", "slug": "brentwood-ufsd", "type": "nys"}, {"name": "Buffalo City SD", "slug": "buffalo-city-sd", "type": "nys"}, {"name": "Central Islip UFSD", "slug": "central-islip-ufsd", "type": "nys"}, {"name": "District 1", "slug": "nyc-district-01-lower-east-side", "type": "nyc"}, {"name": "District 10", "slug": "nyc-district-10-riverdale", "type": "nyc"}, {"name": "District 11", "slug": "nyc-district-11-pelham-parkway", "type": "nyc"}, {"name": "District 12", "slug": "nyc-district-12-soundview", "type": "nyc"}, {"name": "District 13", "slug": "nyc-district-13-brooklyn-heights", "type": "nyc"}, {"name": "District 14", "slug": "nyc-district-14-williamsburg", "type": "nyc"}, {"name": "District 15", "slug": "nyc-district-15-park-slope", "type": "nyc"}, {"name": "District 16", "slug": "nyc-district-16-bed-stuy", "type": "nyc"}, {"name": "District 17", "slug": "nyc-district-17-crown-heights", "type": "nyc"}, {"name": "District 18", "slug": "nyc-district-18-east-flatbush", "type": "nyc"}, {"name": "District 19", "slug": "nyc-district-19-east-new-york", "type": "nyc"}, {"name": "District 2", "slug": "nyc-district-02-upper-east-side", "type": "nyc"}, {"name": "District 20", "slug": "nyc-district-20-bay-ridge", "type": "nyc"}, {"name": "District 21", "slug": "nyc-district-21-coney-island", "type": "nyc"}, {"name": "District 22", "slug": "nyc-district-22-midwood", "type": "nyc"}, {"name": "District 23", "slug": "nyc-district-23-brownsville", "type": "nyc"}, {"name": "District 24", "slug": "nyc-district-24-maspeth", "type": "nyc"}, {"name": "District 25", "slug": "nyc-district-25-flushing", "type": "nyc"}, {"name": "District 26", "slug": "nyc-district-26-bayside", "type": "nyc"}, {"name": "District 27", "slug": "nyc-district-27-rockaway", "type": "nyc"}, {"name": "District 28", "slug": "nyc-district-28-forest-hills", "type": "nyc"}, {"name": "District 29", "slug": "nyc-district-29-queens-village", "type": "nyc"}, {"name": "District 3", "slug": "nyc-district-03-upper-west-side", "type": "nyc"}, {"name": "District 30", "slug": "nyc-district-30-astoria", "type": "nyc"}, {"name": "District 31", "slug": "nyc-district-31-staten-island", "type": "nyc"}, {"name": "District 32", "slug": "nyc-district-32-bushwick", "type": "nyc"}, {"name": "District 4", "slug": "nyc-district-04-east-harlem", "type": "nyc"}, {"name": "District 5", "slug": "nyc-district-05-central-harlem", "type": "nyc"}, {"name": "District 6", "slug": "nyc-district-06-washington-heights", "type": "nyc"}, {"name": "District 7", "slug": "nyc-district-07-south-bronx", "type": "nyc"}, {"name": "District 75", "slug": "nyc-district-75", "type": "nyc"}, {"name": "District 79", "slug": "nyc-district-79", "type": "nyc"}, {"name": "District 8", "slug": "nyc-district-08-throgs-neck", "type": "nyc"}, {"name": "District 9", "slug": "nyc-district-09-grand-concourse", "type": "nyc"}, {"name": "Freeport UFSD", "slug": "freeport-ufsd", "type": "nys"}, {"name": "Hempstead UFSD", "slug": "hempstead-ufsd", "type": "nys"}, {"name": "Mount Vernon City SD", "slug": "mount-vernon-city-sd", "type": "nys"}, {"name": "New Rochelle City SD", "slug": "new-rochelle-city-sd", "type": "nys"}, {"name": "Newburgh Enlarged City SD", "slug": "newburgh-enlarged-city-sd", "type": "nys"}, {"name": "Niagara Falls City SD", "slug": "niagara-falls-city-sd", "type": "nys"}, {"name": "Poughkeepsie City SD", "slug": "poughkeepsie-city-sd", "type": "nys"}, {"name": "Rochester City SD", "slug": "rochester-city-sd", "type": "nys"}, {"name": "Schenectady City SD", "slug": "schenectady-city-sd", "type": "nys"}, {"name": "Syracuse City SD", "slug": "syracuse-city-sd", "type": "nys"}, {"name": "Utica City SD", "slug": "utica-city-sd", "type": "nys"}, {"name": "White Plains City SD", "slug": "white-plains-city-sd", "type": "nys"}, {"name": "William Floyd UFSD", "slug": "william-floyd-ufsd", "type": "nys"}, {"name": "Yonkers City SD", "slug": "yonkers-city-sd", "type": "nys"}];
 
