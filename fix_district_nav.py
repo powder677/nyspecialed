@@ -95,18 +95,29 @@ def human_name(dir_name: str) -> str:
     return name
 
 
-def build_nav_html(existing_pages: set, current_file: str) -> str:
+def build_nav_html(existing_pages: set, current_file: str, district_slug: str) -> str:
+    """Build nav using absolute paths with no .html extension.
+
+    Matches the URL format the host serves — e.g. /districts/buffalo-city-sd/cse-meeting-guide
+    index.html maps to the directory root: /districts/buffalo-city-sd/
+    """
+    def page_url(fname: str) -> str:
+        if fname == "index.html":
+            return f"/districts/{district_slug}/"
+        return f"/districts/{district_slug}/{fname[:-5]}"   # strip .html
+
     links = []
     for fname, icon, label in PAGE_DEFS:
         if fname not in existing_pages:
             continue
+        href = page_url(fname)
         if fname == current_file:
             links.append(
-                f'  <a href="./{fname}" class="subnav-active" aria-current="page">'
+                f'  <a href="{href}" class="subnav-active" aria-current="page">'
                 f"{icon} {label}</a>"
             )
         else:
-            links.append(f'  <a href="./{fname}">{icon} {label}</a>')
+            links.append(f'  <a href="{href}">{icon} {label}</a>')
     return (
         '<nav class="district-subnav" aria-label="Pages in this district">\n'
         + "\n".join(links)
@@ -197,7 +208,7 @@ def inject_nav(text: str, nav_html: str) -> str:
     return text
 
 
-def process_file(filepath: Path, existing_pages: set, dry_run: bool) -> bool:
+def process_file(filepath: Path, existing_pages: set, district_slug: str, dry_run: bool) -> bool:
     """Process one HTML file.  Returns True if the content changed."""
     try:
         original = filepath.read_text(encoding="utf-8")
@@ -213,7 +224,7 @@ def process_file(filepath: Path, existing_pages: set, dry_run: bool) -> bool:
 
     # Re-inject fresh content
     text = inject_css(text)
-    nav_html = build_nav_html(existing_pages, filepath.name)
+    nav_html = build_nav_html(existing_pages, filepath.name, district_slug)
     text = inject_nav(text, nav_html)
 
     changed = text != original
@@ -289,7 +300,7 @@ def main():
         print(f"{'─' * 60}")
 
         for html_file in all_html:
-            changed = process_file(html_file, existing_pages, args.dry_run)
+            changed = process_file(html_file, existing_pages, district_dir.name, args.dry_run)
             if args.dry_run:
                 status = "~ would update" if changed else "· no change  "
             else:
