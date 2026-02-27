@@ -4,14 +4,14 @@ import re
 BASE_DIR = r"C:\Users\elisa\OneDrive\Documents\github\nyspecialed"
 
 # Regex patterns
+# FIX: Group 1 captures base district path. Group 2 captures the subpage name.
 DISTRICT_PAGE_PATTERN = re.compile(
-    r'href="(/districts/[^"/]+/([^"/]+)/)"'
+    r'href="(/districts/[^"/]+/)([^"/]+)/"'
 )
 
 DISTRICT_ROOT_PATTERN = re.compile(
     r'href="(/districts/[^"/]+/)"'
 )
-
 
 def fix_links_in_file(filepath):
     with open(filepath, "r", encoding="utf-8") as f:
@@ -19,13 +19,15 @@ def fix_links_in_file(filepath):
 
     original_content = content
 
-    # Convert subpages to .html
+    # Convert subpages to explicit .html paths
+    # Result: /districts/brentwood-ufsd/discipline-rights.html
     content = DISTRICT_PAGE_PATTERN.sub(
         lambda m: f'href="{m.group(1)}{m.group(2)}.html"',
         content
     )
 
     # Convert district root to index.html
+    # Result: /districts/brentwood-ufsd/index.html
     content = DISTRICT_ROOT_PATTERN.sub(
         lambda m: f'href="{m.group(1)}index.html"',
         content
@@ -37,7 +39,6 @@ def fix_links_in_file(filepath):
         return True
 
     return False
-
 
 def run():
     changed_files = []
@@ -53,7 +54,6 @@ def run():
     print(f"Total files modified: {len(changed_files)}")
     for f in changed_files:
         print(f"✔ Fixed: {f}")
-
 
 if __name__ == "__main__":
     run()
