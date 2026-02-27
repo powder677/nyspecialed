@@ -104,7 +104,7 @@ def build_nav_html(existing_pages: set, current_file: str, district_slug: str) -
     def page_url(fname: str) -> str:
         if fname == "index.html":
             return f"/districts/{district_slug}/"
-        return f"/districts/{district_slug}/{fname[:-5]}"   # strip .html
+        return f"/districts/{district_slug}/{fname[:-5]}/"  # strip .html, add trailing slash
 
     links = []
     for fname, icon, label in PAGE_DEFS:
