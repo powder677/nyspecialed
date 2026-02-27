@@ -1030,7 +1030,7 @@ ABOUT_PAGE = """\
         <li><a href="/about">About Us</a></li>
         <li><a href="/contact">Contact Support</a></li>
         <li><a href="/privacy-policy">Privacy Policy</a></li>
-        <li><a href="/terms">Terms of Service</a></li>
+        
         <li><a href="/sitemap.xml">Sitemap</a></li>
       </ul>
     </div>
