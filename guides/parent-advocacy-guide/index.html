@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8" />
+   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+   <title>NY Parent Advocacy Guide | NY Special Ed</title>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+   <link href="https://www.newyorkspecialed.net/guides/parent-advocacy-guide.html" rel="canonical" />
+   <meta content="website" property="og:type" />
+   <meta content="NY Parent Advocacy Guide | NY Special Ed" property="og:title" />
+   <meta content="A comprehensive, step-by-step guide for New York parents advocating for their child's special education rights." property="og:description" />
+   <meta content="summary_large_image" name="twitter:card" />
+   <meta content="A comprehensive, step-by-step guide for New York parents advocating for their child's special education rights." name="description" />
+
+   <style>
+      /* ===== CSS VARIABLES (matching site palette) ===== */
+      :root {
+         --ny-navy: #002868;
+         --ny-red: #c8102e;
+         --ny-blue: #0056b3;
+         --ny-gold: #D4AF37;
+         --text-dark: #0f172a;
+         --text-mid: #475569;
+         --text-light: #64748b;
+         --border: #e2e8f0;
+         --bg-page: #f8fafc;
+         --bg-white: #ffffff;
+         --radius: 12px;
+      }
+
+      /* ===== RESET ===== */
+      *,
+      *::before,
+      *::after {
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+      }
+
+      html {
+         scroll-behavior: smooth;
+      }
+
+      body {
+         font-family: 'Source Sans 3', sans-serif;
+         background: var(--bg-page);
+         color: var(--text-dark);
+         line-height: 1.6;
+      }
+
+      a {
+         color: var(--ny-blue);
+         text-decoration: none;
+      }
+
+      a:hover {
+         text-decoration: underline;
+      }
+
+      /* ===== HEADER (mirrors site header) ===== */
+      .site-header {
+         background: var(--bg-white);
+         border-bottom: 3px solid var(--ny-red);
+         position: sticky;
+         top: 0;
+         z-index: 999;
+         box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+      }
+
+      .nav-container {
+         max-width: 1200px;
+         margin: 0 auto;
+         padding: 0 20px;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         gap: 20px;
+         height: 80px;
+      }
+
+      .nav-logo {
+         display: flex;
+         align-items: center;
+         gap: 12px;
+         text-decoration: none;
+      }
+
+      .nav-logo-text {
+         font-family: 'Merriweather', serif;
+         font-size: 1.1rem;
+         font-weight: 900;
+         color: var(--ny-navy);
+         line-height: 1.2;
+      }
+
+      .nav-logo-text span {
+         color: var(--ny-red);
+      }
+
+      .nav-links {
+         display: flex;
+         list-style: none;
+         gap: 8px;
+         align-items: center;
+      }
+
+      .nav-link {
+         padding: 8px 14px;
+         color: var(--text-dark);
+         font-weight: 600;
+         font-size: 0.92rem;
+         border-radius: 6px;
+         transition: background 0.15s, color 0.15s;
+      }
+
+      .nav-link:hover {
+         background: #f1f5f9;
+         color: var(--ny-navy);
+         text-decoration: none;
+      }
+
+      .nav-link.active {
+         color: var(--ny-red);
+      }
+
+      .nav-cta {
+         background: var(--ny-red);
+         color: #fff !important;
+         padding: 10px 20px;
+         border-radius: 8px;
+         font-weight: 700;
+         font-size: 0.9rem;
+         transition: background 0.15s;
+      }
+
+      .nav-cta:hover {
+         background: #a50d25;
+         text-decoration: none;
+      }
+
+      /* ===== HERO ===== */
+      .hero-section {
+         background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+         padding: 90px 20px 120px;
+         text-align: center;
+         position: relative;
+         overflow: hidden;
+      }
+
+      .hero-section::before {
+         content: '';
+         position: absolute;
+         inset: 0;
+         background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      }
+
+      .hero-badge {
+         display: inline-flex;
+         align-items: center;
+         gap: 8px;
+         background: rgba(200, 16, 46, 0.25);
+         border: 1px solid rgba(200, 16, 46, 0.5);
+         color: #fca5a5;
+         font-size: 0.82rem;
+         font-weight: 700;
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         padding: 6px 16px;
+         border-radius: 999px;
+         margin-bottom: 20px;
+      }
+
+      .hero-title {
+         font-family: 'Merriweather', serif;
+         font-size: clamp(2rem, 5vw, 3.2rem);
+         font-weight: 900;
+         color: #fff;
+         text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+         margin-bottom: 20px;
+         line-height: 1.2;
+      }
+
+      .hero-subtitle {
+         color: #bfdbfe;
+         font-size: 1.15rem;
+         max-width: 620px;
+         margin: 0 auto 32px;
+         line-height: 1.7;
+      }
+
+      .hero-meta {
+         display: flex;
+         justify-content: center;
+         gap: 24px;
+         flex-wrap: wrap;
+      }
+
+      .hero-meta-item {
+         color: #94a3b8;
+         font-size: 0.88rem;
+         display: flex;
+         align-items: center;
+         gap: 6px;
+      }
+
+      .hero-meta-item i {
+         color: var(--ny-gold);
+      }
+
+      /* ===== TABLE OF CONTENTS ===== */
+      .toc-wrapper {
+         max-width: 780px;
+         margin: -50px auto 0;
+         padding: 0 20px;
+         position: relative;
+         z-index: 10;
+      }
+
+      .toc-card {
+         background: var(--bg-white);
+         border-radius: var(--radius);
+         border: 1px solid var(--border);
+         border-top: 4px solid var(--ny-red);
+         box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.12);
+         padding: 28px 32px;
+      }
+
+      .toc-card h2 {
+         font-family: 'Merriweather', serif;
+         color: var(--ny-navy);
+         font-size: 1rem;
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         margin-bottom: 16px;
+         display: flex;
+         align-items: center;
+         gap: 10px;
+      }
+
+      .toc-card h2 i {
+         color: var(--ny-red);
+      }
+
+      .toc-grid {
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+         gap: 8px;
+      }
+
+      .toc-link {
+         display: flex;
+         align-items: center;
+         gap: 10px;
+         padding: 10px 14px;
+         border-radius: 8px;
+         color: var(--ny-blue);
+         font-size: 0.92rem;
+         font-weight: 600;
+         transition: background 0.15s;
+      }
+
+      .toc-link:hover {
+         background: #eff6ff;
+         text-decoration: none;
+      }
+
+      .toc-num {
+         background: var(--ny-red);
+         color: #fff;
+         width: 22px;
+         height: 22px;
+         border-radius: 50%;
+         font-size: 0.72rem;
+         font-weight: 700;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-shrink: 0;
+      }
+
+      /* ===== MAIN CONTENT LAYOUT ===== */
+      .content-wrapper {
+         max-width: 1100px;
+         margin: 0 auto;
+         padding: 60px 20px;
+         display: grid;
+         grid-template-columns: 1fr 300px;
+         gap: 40px;
+         align-items: start;
+      }
+
+      @media (max-width: 860px) {
+         .content-wrapper {
+            grid-template-columns: 1fr;
+         }
+
+         .sidebar {
+            order: -1;
+         }
+      }
+
+      /* ===== GUIDE SECTIONS ===== */
+      .guide-section {
+         margin-bottom: 64px;
+         scroll-margin-top: 100px;
+      }
+
+      .section-header {
+         display: flex;
+         align-items: flex-start;
+         gap: 18px;
+         margin-bottom: 24px;
+      }
+
+      .section-icon {
+         width: 56px;
+         height: 56px;
+         border-radius: 14px;
+         background: linear-gradient(135deg, var(--ny-navy), var(--ny-blue));
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         color: #fff;
+         font-size: 1.5rem;
+         flex-shrink: 0;
+      }
+
+      .section-num {
+         font-size: 0.78rem;
+         font-weight: 700;
+         text-transform: uppercase;
+         letter-spacing: 1.5px;
+         color: var(--ny-red);
+         margin-bottom: 4px;
+      }
+
+      .section-title {
+         font-family: 'Merriweather', serif;
+         font-size: 1.65rem;
+         color: var(--ny-navy);
+         font-weight: 700;
+         line-height: 1.3;
+      }
+
+      .section-body {
+         color: var(--text-mid);
+         font-size: 1rem;
+         line-height: 1.8;
+      }
+
+      .section-body p {
+         margin-bottom: 16px;
+      }
+
+      .section-body p:last-child {
+         margin-bottom: 0;
+      }
+
+      .section-divider {
+         border: none;
+         border-top: 2px solid var(--border);
+         margin: 64px 0;
+      }
+
+      /* ===== CALLOUT BOXES ===== */
+      .callout {
+         border-radius: 10px;
+         padding: 20px 24px;
+         margin: 24px 0;
+         display: flex;
+         gap: 16px;
+         align-items: flex-start;
+      }
+
+      .callout i {
+         font-size: 1.3rem;
+         margin-top: 2px;
+         flex-shrink: 0;
+      }
+
+      .callout-text {
+         font-size: 0.95rem;
+         line-height: 1.7;
+      }
+
+      .callout-text strong {
+         display: block;
+         margin-bottom: 4px;
+         font-size: 1rem;
+      }
+
+      .callout-law {
+         background: #eff6ff;
+         border-left: 4px solid var(--ny-blue);
+      }
+
+      .callout-law i {
+         color: var(--ny-blue);
+      }
+
+      .callout-law strong {
+         color: var(--ny-navy);
+      }
+
+      .callout-warn {
+         background: #fff7ed;
+         border-left: 4px solid #f97316;
+      }
+
+      .callout-warn i {
+         color: #f97316;
+      }
+
+      .callout-warn strong {
+         color: #9a3412;
+      }
+
+      .callout-tip {
+         background: #f0fdf4;
+         border-left: 4px solid #16a34a;
+      }
+
+      .callout-tip i {
+         color: #16a34a;
+      }
+
+      .callout-tip strong {
+         color: #14532d;
+      }
+
+      .callout-urgent {
+         background: #fff1f2;
+         border-left: 4px solid var(--ny-red);
+      }
+
+      .callout-urgent i {
+         color: var(--ny-red);
+      }
+
+      .callout-urgent strong {
+         color: #881337;
+      }
+
+      /* ===== STEP CARDS ===== */
+      .steps-list {
+         display: flex;
+         flex-direction: column;
+         gap: 16px;
+         margin: 24px 0;
+      }
+
+      .step-card {
+         background: var(--bg-white);
+         border: 1px solid var(--border);
+         border-radius: 10px;
+         padding: 20px 24px;
+         display: flex;
+         gap: 18px;
+         align-items: flex-start;
+         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+         transition: box-shadow 0.2s;
+      }
+
+      .step-card:hover {
+         box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+      }
+
+      .step-num {
+         background: var(--ny-red);
+         color: #fff;
+         width: 32px;
+         height: 32px;
+         border-radius: 50%;
+         font-weight: 800;
+         font-size: 0.9rem;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-shrink: 0;
+         margin-top: 2px;
+      }
+
+      .step-content h4 {
+         color: var(--ny-navy);
+         font-weight: 700;
+         font-size: 1rem;
+         margin-bottom: 6px;
+      }
+
+      .step-content p {
+         color: var(--text-mid);
+         font-size: 0.93rem;
+         line-height: 1.65;
+         margin: 0;
+      }
+
+      /* ===== RIGHTS TABLE ===== */
+      .rights-table {
+         width: 100%;
+         border-collapse: collapse;
+         margin: 24px 0;
+         font-size: 0.93rem;
+      }
+
+      .rights-table th {
+         background: var(--ny-navy);
+         color: #fff;
+         padding: 12px 16px;
+         text-align: left;
+         font-weight: 700;
+      }
+
+      .rights-table th:first-child {
+         border-radius: 8px 0 0 0;
+      }
+
+      .rights-table th:last-child {
+         border-radius: 0 8px 0 0;
+      }
+
+      .rights-table td {
+         padding: 12px 16px;
+         border-bottom: 1px solid var(--border);
+         vertical-align: top;
+         color: var(--text-mid);
+      }
+
+      .rights-table tr:nth-child(even) td {
+         background: #f8fafc;
+      }
+
+      .rights-table tr:last-child td:first-child {
+         border-radius: 0 0 0 8px;
+      }
+
+      .rights-table tr:last-child td:last-child {
+         border-radius: 0 0 8px 0;
+      }
+
+      .badge-yes {
+         background: #dcfce7;
+         color: #166534;
+         padding: 2px 10px;
+         border-radius: 999px;
+         font-weight: 700;
+         font-size: 0.82rem;
+      }
+
+      .badge-req {
+         background: #dbeafe;
+         color: #1e40af;
+         padding: 2px 10px;
+         border-radius: 999px;
+         font-weight: 700;
+         font-size: 0.82rem;
+      }
+
+      /* ===== CHECKLIST ===== */
+      .checklist {
+         list-style: none;
+         margin: 20px 0;
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+      }
+
+      .checklist li {
+         display: flex;
+         align-items: flex-start;
+         gap: 12px;
+         background: var(--bg-white);
+         border: 1px solid var(--border);
+         border-radius: 8px;
+         padding: 12px 16px;
+         font-size: 0.93rem;
+         color: var(--text-mid);
+      }
+
+      .checklist li i {
+         color: #16a34a;
+         margin-top: 2px;
+         flex-shrink: 0;
+      }
+
+      /* ===== TIMELINE ===== */
+      .timeline {
+         position: relative;
+         margin: 28px 0;
+         padding-left: 32px;
+      }
+
+      .timeline::before {
+         content: '';
+         position: absolute;
+         left: 10px;
+         top: 0;
+         bottom: 0;
+         width: 2px;
+         background: linear-gradient(to bottom, var(--ny-red), var(--ny-navy));
+         border-radius: 2px;
+      }
+
+      .timeline-item {
+         position: relative;
+         margin-bottom: 28px;
+      }
+
+      .timeline-item::before {
+         content: '';
+         position: absolute;
+         left: -26px;
+         top: 6px;
+         width: 14px;
+         height: 14px;
+         border-radius: 50%;
+         background: var(--ny-red);
+         border: 3px solid #fff;
+         box-shadow: 0 0 0 2px var(--ny-red);
+      }
+
+      .timeline-item h4 {
+         color: var(--ny-navy);
+         font-weight: 700;
+         font-size: 0.97rem;
+         margin-bottom: 4px;
+      }
+
+      .timeline-item .tl-day {
+         font-size: 0.78rem;
+         font-weight: 700;
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         color: var(--ny-red);
+         margin-bottom: 4px;
+      }
+
+      .timeline-item p {
+         color: var(--text-mid);
+         font-size: 0.92rem;
+         line-height: 1.65;
+      }
+
+      /* ===== SIDEBAR ===== */
+      .sidebar {
+         position: sticky;
+         top: 100px;
+         display: flex;
+         flex-direction: column;
+         gap: 24px;
+      }
+
+      .sidebar-card {
+         background: var(--bg-white);
+         border: 1px solid var(--border);
+         border-radius: var(--radius);
+         padding: 24px;
+         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      }
+
+      .sidebar-card h3 {
+         font-family: 'Merriweather', serif;
+         color: var(--ny-navy);
+         font-size: 1rem;
+         margin-bottom: 16px;
+         display: flex;
+         align-items: center;
+         gap: 8px;
+      }
+
+      .sidebar-card h3 i {
+         color: var(--ny-red);
+      }
+
+      .sidebar-links {
+         list-style: none;
+         display: flex;
+         flex-direction: column;
+         gap: 4px;
+      }
+
+      .sidebar-links a {
+         display: block;
+         padding: 8px 10px;
+         border-radius: 6px;
+         color: var(--ny-blue);
+         font-size: 0.9rem;
+         font-weight: 600;
+         transition: background 0.15s;
+      }
+
+      .sidebar-links a:hover {
+         background: #eff6ff;
+         text-decoration: none;
+      }
+
+      .quick-stat {
+         display: flex;
+         align-items: center;
+         gap: 12px;
+         padding: 10px 0;
+         border-bottom: 1px solid var(--border);
+         font-size: 0.88rem;
+         color: var(--text-mid);
+      }
+
+      .quick-stat:last-child {
+         border-bottom: none;
+         padding-bottom: 0;
+      }
+
+      .quick-stat i {
+         color: var(--ny-red);
+         width: 18px;
+         text-align: center;
+      }
+
+      .cta-card {
+         background: linear-gradient(135deg, var(--ny-navy), #1e40af);
+         border-radius: var(--radius);
+         padding: 28px;
+         text-align: center;
+         color: #fff;
+      }
+
+      .cta-card h3 {
+         font-family: 'Merriweather', serif;
+         margin-bottom: 12px;
+         font-size: 1.05rem;
+      }
+
+      .cta-card p {
+         font-size: 0.88rem;
+         color: #bfdbfe;
+         margin-bottom: 20px;
+         line-height: 1.6;
+      }
+
+      .cta-btn {
+         display: inline-block;
+         background: var(--ny-red);
+         color: #fff;
+         padding: 12px 22px;
+         border-radius: 8px;
+         font-weight: 700;
+         font-size: 0.9rem;
+         transition: background 0.15s;
+      }
+
+      .cta-btn:hover {
+         background: #a50d25;
+         text-decoration: none;
+         color: #fff;
+      }
+
+      /* ===== LETTER TEMPLATE ===== */
+      .letter-box {
+         background: #fefce8;
+         border: 2px dashed #ca8a04;
+         border-radius: 10px;
+         padding: 28px 32px;
+         margin: 24px 0;
+         font-family: 'Courier New', monospace;
+         font-size: 0.88rem;
+         line-height: 1.8;
+         color: #422006;
+      }
+
+      .letter-box .fill-in {
+         background: #fef9c3;
+         border-bottom: 2px solid #ca8a04;
+         padding: 0 4px;
+         font-style: italic;
+      }
+
+      .letter-box .letter-label {
+         font-family: 'Source Sans 3', sans-serif;
+         font-size: 0.75rem;
+         font-weight: 700;
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         color: #92400e;
+         background: #fef3c7;
+         border-radius: 4px;
+         padding: 2px 8px;
+         margin-bottom: 12px;
+         display: inline-block;
+      }
+
+      /* ===== RESOURCE GRID ===== */
+      .resource-grid {
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+         gap: 16px;
+         margin: 24px 0;
+      }
+
+      .resource-card {
+         background: var(--bg-white);
+         border: 1px solid var(--border);
+         border-top: 3px solid var(--ny-red);
+         border-radius: 10px;
+         padding: 20px;
+         text-decoration: none;
+         color: inherit;
+         transition: transform 0.2s, box-shadow 0.2s;
+         display: block;
+      }
+
+      .resource-card:hover {
+         transform: translateY(-4px);
+         box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+         text-decoration: none;
+      }
+
+      .resource-card i {
+         color: var(--ny-red);
+         font-size: 1.4rem;
+         margin-bottom: 10px;
+         display: block;
+      }
+
+      .resource-card h4 {
+         color: var(--ny-navy);
+         font-size: 0.95rem;
+         font-weight: 700;
+         margin-bottom: 6px;
+      }
+
+      .resource-card p {
+         color: var(--text-mid);
+         font-size: 0.84rem;
+         line-height: 1.5;
+         margin: 0;
+      }
+
+      /* ===== FOOTER ===== */
+      .site-footer {
+         background: #0f172a;
+         color: #94a3b8;
+         font-size: 0.9rem;
+         margin-top: 80px;
+      }
+
+      .footer-container {
+         max-width: 1100px;
+         margin: 0 auto;
+         padding: 60px 20px 40px;
+         display: grid;
+         grid-template-columns: 2fr 1fr 1fr 1fr;
+         gap: 40px;
+      }
+
+      @media (max-width: 768px) {
+         .footer-container {
+            grid-template-columns: 1fr 1fr;
+         }
+      }
+
+      @media (max-width: 480px) {
+         .footer-container {
+            grid-template-columns: 1fr;
+         }
+      }
+
+      .footer-brand h3 {
+         font-family: 'Merriweather', serif;
+         color: #fff;
+         font-size: 1.2rem;
+         margin-bottom: 12px;
+      }
+
+      .footer-brand h3 span {
+         color: var(--ny-gold);
+      }
+
+      .footer-brand p {
+         line-height: 1.7;
+         font-size: 0.88rem;
+      }
+
+      .footer-col h4 {
+         color: #e2e8f0;
+         font-size: 0.85rem;
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         font-weight: 700;
+         margin-bottom: 16px;
+      }
+
+      .footer-links {
+         list-style: none;
+         display: flex;
+         flex-direction: column;
+         gap: 8px;
+      }
+
+      .footer-links a {
+         color: #94a3b8;
+         transition: color 0.15s;
+         font-size: 0.88rem;
+      }
+
+      .footer-links a:hover {
+         color: #fff;
+         text-decoration: none;
+      }
+
+      .footer-bottom {
+         border-top: 1px solid #1e293b;
+         text-align: center;
+         padding: 24px 20px;
+         font-size: 0.82rem;
+         color: #64748b;
+      }
+
+      /* ===== RESPONSIVE ===== */
+      @media (max-width: 600px) {
+         .nav-links {
+            display: none;
+         }
+
+         .hero-section {
+            padding: 60px 20px 100px;
+         }
+
+         .hero-title {
+            font-size: 1.9rem;
+         }
+
+         .toc-grid {
+            grid-template-columns: 1fr;
+         }
+      }
+
+      /* ===== PRINT BREADCRUMB ===== */
+      .breadcrumb {
+         max-width: 1100px;
+         margin: 24px auto 0;
+         padding: 0 20px;
+         font-size: 0.85rem;
+         color: var(--text-light);
+      }
+
+      .breadcrumb a {
+         color: var(--ny-blue);
+      }
+
+      .breadcrumb span {
+         margin: 0 6px;
+      }
+   </style>
+</head>
+
+<body>
+
+   <!-- ===== HEADER ===== -->
+   <header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="nav-container">
+         <a class="nav-logo" href="/" aria-label="New York Special Ed - Home">
+            <div class="nav-logo-text">NY Special Ed<span>.net</span></div>
+         </a>
+         <nav role="navigation">
+            <ul class="nav-links">
+               <li><a class="nav-link" href="/districts/">NYC Districts</a></li>
+               <li><a class="nav-link" href="/districts/nys-overview">Upstate & LI</a></li>
+               <li><a class="nav-link active" href="/guides/">Parent Guides</a></li>
+               <li><a class="nav-link" href="/resources/">Free Tools</a></li>
+               <li><a class="nav-cta" href="/contact">Get The Toolkit</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+
+   <!-- ===== MAIN ===== -->
+   <main id="main-content">
+
+      <!-- HERO -->
+      <header class="hero-section">
+         <div class="hero-badge"><i class="fas fa-shield-halved"></i> Complete Parent Guide</div>
+         <h1 class="hero-title">NY Parent Advocacy Guide</h1>
+         <p class="hero-subtitle">Everything you need to advocate effectively for your child in the New York special education system — from your first concerns to due process.</p>
+         <div class="hero-meta">
+            <span class="hero-meta-item"><i class="fas fa-clock"></i> 20 min read</span>
+            <span class="hero-meta-item"><i class="fas fa-calendar-check"></i> Updated 2025–26</span>
+            <span class="hero-meta-item"><i class="fas fa-map-marker-alt"></i> NY & NYC Specific</span>
+         </div>
+      </header>
+
+      <!-- BREADCRUMB -->
+      <div class="breadcrumb">
+         <a href="/">Home</a><span>›</span>
+         <a href="/guides/">Guides</a><span>›</span>
+         Parent Advocacy Guide
+      </div>
+
+      <!-- TABLE OF CONTENTS -->
+      <div class="toc-wrapper">
+         <div class="toc-card">
+            <h2><i class="fas fa-list-ul"></i> What's In This Guide</h2>
+            <div class="toc-grid">
+               <a href="#know-your-rights" class="toc-link"><span class="toc-num">1</span> Know Your Rights</a>
+               <a href="#first-steps" class="toc-link"><span class="toc-num">2</span> First Steps</a>
+               <a href="#evaluation-process" class="toc-link"><span class="toc-num">3</span> Evaluation Process</a>
+               <a href="#cse-meetings" class="toc-link"><span class="toc-num">4</span> CSE Meetings</a>
+               <a href="#iep-essentials" class="toc-link"><span class="toc-num">5</span> IEP Essentials</a>
+               <a href="#dispute-resolution" class="toc-link"><span class="toc-num">6</span> Dispute Resolution</a>
+               <a href="#sample-letters" class="toc-link"><span class="toc-num">7</span> Sample Letters</a>
+               <a href="#resources" class="toc-link"><span class="toc-num">8</span> Key Resources</a>
+            </div>
+         </div>
+      </div>
+
+      <!-- CONTENT + SIDEBAR LAYOUT -->
+      <div class="content-wrapper">
+
+         <!-- ===== MAIN CONTENT ===== -->
+         <article>
+
+            <!-- SECTION 1 -->
+            <section id="know-your-rights" class="guide-section">
+               <div class="section-header">
+                  <div class="section-icon"><i class="fas fa-scale-balanced"></i></div>
+                  <div>
+                     <div class="section-num">Section 1</div>
+                     <h2 class="section-title">Know Your Rights as a New York Parent</h2>
+                  </div>
+               </div>
+               <div class="section-body">
+                  <p>As the parent of a child who may need special education services in New York, federal and state law give you powerful, enforceable rights. Understanding them is the first step to effective advocacy.</p>
+
+                  <callout class="callout callout-law">
+                     <i class="fas fa-landmark"></i>
+                     <div class="callout-text">
+                        <strong>The Legal Framework</strong>
+                        Two laws protect your child: the <strong>Individuals with Disabilities Education Act (IDEA)</strong> (federal) and <strong>New York Education Law Article 89</strong> (state). Together they guarantee a Free Appropriate Public Education (FAPE) in the Least Restrictive Environment (LRE).
+                     </div>
+                  </callout>
+
+                  <table class="rights-table">
+                     <thead>
+                        <tr>
+                           <th>Your Right</th>
+                           <th>What It Means</th>
+                           <th>Status</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td><strong>Prior Written Notice</strong></td>
+                           <td>The district must notify you in writing before making any change to your child's identification, evaluation, or placement.</td>
+                           <td><span class="badge-req">Required</span></td>
+                        </tr>
+                        <tr>
+                           <td><strong>Procedural Safeguards</strong></td>
+                           <td>You must receive a copy of the Procedural Safeguards Notice at least once per year, and at other key moments.</td>
+                           <td><span class="badge-req">Required</span></td>
+                        </tr>
+                        <tr>
+                           <td><strong>Informed Consent</strong></td>
+                           <td>The district cannot evaluate your child for the first time or initially place them in special education without your written consent.</td>
+                           <td><span class="badge-req">Required</span></td>
+                        </tr>
+                        <tr>
+                           <td><strong>Independent Educational Evaluation (IEE)</strong></td>
+                           <td>If you disagree with the district's evaluation, you can request an IEE at public expense. The district must either fund it or initiate a hearing to defend their evaluation.</td>
+                           <td><span class="badge-yes">Your Right</span></td>
+                        </tr>
+                        <tr>
+                           <td><strong>Participate in Meetings</strong></td>
+                           <td>You are a full IEP team member. Meetings must be scheduled at a mutually agreed time and place.</td>
+                           <td><span class="badge-yes">Your Right</span></td>
+                        </tr>
+                        <tr>
+                           <td><strong>Access Records</strong></td>
+                           <td>You have the right to inspect and receive copies of all educational records within 45 days of request.</td>
+                           <td><span class="badge-yes">Your Right</span></td>
+                        </tr>
+                     </tbody>
+                  </table>
+
+                  <callout class="callout callout-tip">
+                     <i class="fas fa-lightbulb"></i>
+                     <div class="callout-text">
+                        <strong>Advocacy Tip:</strong> Request a copy of the Procedural Safeguards Notice from your district and read it carefully. In NYC, the DOE's safeguards document is available in over 12 languages at <a href="https://www.schools.nyc.gov">schools.nyc.gov</a>.
+                     </div>
+                  </callout>
+               </div>
+            </section>
+
+            <hr class="section-divider" />
+
+            <!-- SECTION 2 -->
+            <section id="first-steps" class="guide-section">
+               <div class="section-header">
+                  <div class="section-icon"><i class="fas fa-shoe-prints"></i></div>
+                  <div>
+                     <div class="section-num">Section 2</div>
+                     <h2 class="section-title">First Steps: What to Do When You Have Concerns</h2>
+                  </div>
+               </div>
+               <div class="section-body">
+                  <p>If you suspect your child may need special education services, taking deliberate, documented steps from the very beginning will make a significant difference. Do not wait for the school to raise concerns — under NY law, parents have the right to initiate the process.</p>
+
+                  <div class="steps-list">
+                     <div class="step-card">
+                        <div class="step-num">1</div>
+                        <div class="step-content">
+                           <h4>Document Your Concerns in Writing</h4>
+                           <p>Write down specific examples of what you're observing at home — academic struggles, behavioral challenges, developmental differences. Date your notes. This becomes your baseline record.</p>
+                        </div>
+                     </div>
+                     <div class="step-card">
+                        <div class="step-num">2</div>
+                        <div class="step-content">
+                           <h4>Talk to the Classroom Teacher</h4>
+                           <p>Request a meeting with your child's teacher to understand what they're observing in school. Ask specifically: "Is my child receiving any supports? Has a referral been considered?" Follow up every verbal conversation with a brief email summary.</p>
+                        </div>
+                     </div>
+                     <div class="step-card">
+                        <div class="step-num">3</div>
+                        <div class="step-content">
+                           <h4>Request Intervention Documentation</h4>
+                           <p>Ask the school what tiered interventions (RTI/MTSS) are currently in place. You are entitled to data showing your child's response to general education interventions before a special education referral is made.</p>
+                        </div>
+                     </div>
+                     <div class="step-card">
+                        <div class="step-num">4</div>
+                        <div class="step-content">
+                           <h4>Submit a Formal Evaluation Request</h4>
+                           <p>If concerns persist, submit a written request for a special education evaluation directly to the school principal and the CSE Chairperson. This starts the official 60-day evaluation clock under New York law. See our <a href="/guides/evaluation-request-ny">full Evaluation Request Guide</a>.</p>
+                        </div>
+                     </div>
+                     <div class="step-card">
+                        <div class="step-num">5</div>
+                        <div class="step-content">
+                           <h4>Keep a Dedicated File</h4>
+                           <p>Create a physical or digital binder for all school-related documents: report cards, test scores, teacher notes, emails, IEPs, and evaluation reports. Organization is one of the most powerful advocacy tools you have.</p>
+                        </div>
+                     </div>
+                  </div>
+
+                  <callout class="callout callout-warn">
+                     <i class="fas fa-triangle-exclamation"></i>
+                     <div class="callout-text">
+                        <strong>Do Not Rely on Verbal Agreements:</strong> Any agreement, commitment, or promise made at a meeting should be confirmed in writing — either via email the same day or in the IEP document itself. Verbal assurances are not enforceable.
+                     </div>
+                  </callout>
+               </div>
+            </section>
+
+            <hr class="section-divider" />
+
+            <!-- SECTION 3 -->
+            <section id="evaluation-process" class="guide-section">
+               <div class="section-header">
+                  <div class="section-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+                  <div>
+                     <div class="section-num">Section 3</div>
+                     <h2 class="section-title">The Evaluation Process</h2>
+                  </div>
+               </div>
+               <div class="section-body">
+                  <p>Once you submit a written evaluation request (or the school refers your child), New York law sets strict timelines that the district must follow. Understanding these timelines is critical — delays are a common rights violation.</p>
+
+                  <div class="timeline">
+                     <div class="timeline-item">
+                        <div class="tl-day">Day 0</div>
+                        <h4>Parent Submits Written Evaluation Request</h4>
+                        <p>Send via certified mail or email to both the school principal and the CSE Chairperson. Keep a copy of everything you send.</p>
+                     </div>
+                     <div class="timeline-item">
+                        <div class="tl-day">Within 10 School Days</div>
+                        <h4>District Sends Consent Form</h4>
+                        <p>The district must provide you with a "Permission to Evaluate" form. Review it carefully — it specifies which assessments will be conducted.</p>
+                     </div>
+                     <div class="timeline-item">
+                        <div class="tl-day">You Sign Consent</div>
+                        <h4>60-School-Day Clock Starts</h4>
+                        <p>The moment you return signed consent, the official 60-school-day evaluation window begins. The district must complete all evaluations and hold an initial CSE meeting within this period.</p>
+                     </div>
+                     <div class="timeline-item">
+                        <div class="tl-day">Before the CSE Meeting</div>
+                        <h4>Receive Evaluation Reports</h4>
+                        <p>You are entitled to receive copies of all evaluation reports at least 5 days prior to the CSE meeting. Do not attend a CSE meeting without having reviewed these reports in advance — you can request a postponement.</p>
+                     </div>
+                     <div class="timeline-item">
+                        <div class="tl-day">Within 60 School Days</div>
+                        <h4>Initial CSE Meeting Held</h4>
+                        <p>The IEP team meets, reviews evaluation results, determines eligibility, and (if eligible) develops the Initial IEP. Services must begin within 60 school days of receiving consent.</p>
+                     </div>
+                  </div>
+
+                  <callout class="callout callout-urgent">
+                     <i class="fas fa-stopwatch"></i>
+                     <div class="callout-text">
+                        <strong>Track the Clock:</strong> Note the exact date you submitted your evaluation request. If the district misses the 60-school-day deadline, this is a procedural violation of IDEA that may entitle your child to compensatory services. Contact an advocate immediately.
+                     </div>
+                  </callout>
+
+                  <p>You have the right to request that additional evaluations be conducted beyond what the district proposes — for example, a speech-language evaluation, occupational therapy evaluation, or assistive technology evaluation — if you believe they are relevant to your child's needs.</p>
+               </div>
+            </section>
+
+            <hr class="section-divider" />
+
+            <!-- SECTION 4 -->
+            <section id="cse-meetings" class="guide-section">
+               <div class="section-header">
+                  <div class="section-icon"><i class="fas fa-users"></i></div>
+                  <div>
+                     <div class="section-num">Section 4</div>
+                     <h2 class="section-title">Mastering CSE Meetings</h2>
+                  </div>
+               </div>
+               <div class="section-body">
+                  <p>The Committee on Special Education (CSE) meeting is where critical decisions about your child's education are made. Many parents feel overwhelmed or outnumbered — the room is often filled with school staff. Preparation is your greatest equalizer.</p>
+
+                  <h3 style="color:var(--ny-navy); margin:24px 0 16px; font-size:1.15rem;">Before the Meeting</h3>
+                  <ul class="checklist">
+                     <li><i class="fas fa-check-circle"></i> Request and review all evaluation reports at least 5 days in advance. Take detailed notes on areas you have questions about.</li>
+                     <li><i class="fas fa-check-circle"></i> Write down your top 3–5 priorities for your child's program before you walk in the door.</li>
+                     <li><i class="fas fa-check-circle"></i> You may bring a support person — a trusted friend, family member, or private advocate. Notify the school in advance.</li>
+                     <li><i class="fas fa-check-circle"></i> Request an agenda. You can also submit agenda items you want discussed in writing ahead of the meeting.</li>
+                     <li><i class="fas fa-check-circle"></i> Review the previous IEP (for annual reviews) and note which goals were met, partially met, or not addressed.</li>
+                  </ul>
+
+                  <h3 style="color:var(--ny-navy); margin:24px 0 16px; font-size:1.15rem;">During the Meeting</h3>
+                  <ul class="checklist">
+                     <li><i class="fas fa-check-circle"></i> You have the right to audio record the meeting with advance notice to the school (in NYC, notify the school at least 24 hours before).</li>
+                     <li><i class="fas fa-check-circle"></i> Slow down and ask for clarification on any term or acronym you don't understand. Do not feel pressured to sign anything at the meeting.</li>
+                     <li><i class="fas fa-check-circle"></i> If the team proposes something you disagree with, calmly say: <em>"I'm not in agreement with that recommendation. I'd like to understand the data supporting it before I respond."</em></li>
+                     <li><i class="fas fa-check-circle"></i> Take notes or have your support person take notes throughout the meeting.</li>
+                     <li><i class="fas fa-check-circle"></i> Ask at the end: "What are the next steps, and what are the timelines?"</li>
+                  </ul>
+
+                  <callout class="callout callout-law">
+                     <i class="fas fa-gavel"></i>
+                     <div class="callout-text">
+                        <strong>Your Consent Rights:</strong> You are not required to sign the IEP at the meeting. Under IDEA, you have the right to take the draft IEP home, review it, consult with an advocate or attorney, and provide written consent separately. Do not let anyone pressure you to sign on the spot.
+                     </div>
+                  </callout>
+
+                  <h3 style="color:var(--ny-navy); margin:24px 0 16px; font-size:1.15rem;">After the Meeting</h3>
+                  <ul class="checklist">
+                     <li><i class="fas fa-check-circle"></i> Send a follow-up email within 48 hours summarizing key points, any agreements reached, and outstanding questions.</li>
+                     <li><i class="fas fa-check-circle"></i> You must receive a copy of the final IEP within 60 days. If you do not, follow up in writing.</li>
+                     <li><i class="fas fa-check-circle"></i> Review the final IEP document carefully to ensure it matches what was discussed. Discrepancies must be addressed immediately in writing.</li>
+                  </ul>
+               </div>
+            </section>
+
+            <hr class="section-divider" />
+
+            <!-- SECTION 5 -->
+            <section id="iep-essentials" class="guide-section">
+               <div class="section-header">
+                  <div class="section-icon"><i class="fas fa-file-contract"></i></div>
+                  <div>
+                     <div class="section-num">Section 5</div>
+                     <h2 class="section-title">IEP Essentials: What to Look For</h2>
+                  </div>
+               </div>
+               <div class="section-body">
+                  <p>An Individualized Education Program (IEP) is a legally binding document. Every element should be specifically tailored to your child — if it reads like it could apply to any student, push back. Vague IEPs produce vague services.</p>
+
+                  <div class="steps-list">
+                     <div class="step-card">
+                        <div class="step-num"><i class="fas fa-child" style="font-size:0.8rem"></i></div>
+                        <div class="step-content">
+                           <h4>Present Levels of Performance (PLOP)</h4>
+                           <p>The PLOP should describe your child's current academic achievement and functional performance with specific, measurable data — not general statements. Look for actual grade-level data, percentile scores, and qualitative observations.</p>
+                        </div>
+                     </div>
+                     <div class="step-card">
+                        <div class="step-num"><i class="fas fa-bullseye" style="font-size:0.8rem"></i></div>
+                        <div class="step-content">
+                           <h4>Annual Goals</h4>
+                           <p>Each goal must be measurable. A strong goal includes: a baseline, a target behavior, a level of accuracy (e.g., 80%), and a timeframe. If a goal says "the student will improve reading," ask how improvement will be measured and verified.</p>
+                        </div>
+                     </div>
+                     <div class="step-card">
+                        <div class="step-num"><i class="fas fa-hands-helping" style="font-size:0.8rem"></i></div>
+                        <div class="step-content">
+                           <h4>Special Education Services</h4>
+                           <p>Services must specify the type, frequency (e.g., 3x/week), duration (e.g., 45 minutes), location (push-in vs. pull-out), and start date. Vague service descriptions are a red flag — "as needed" is not a legal service specification.</p>
+                        </div>
+                     </div>
+                     <div class="step-card">
+                        <div class="step-num"><i class="fas fa-clipboard-check" style="font-size:0.8rem"></i></div>
+                        <div class="step-content">
+                           <h4>Accommodations & Modifications</h4>
+                           <p>Accommodations (extended time, preferential seating) change how your child accesses learning. Modifications change what they are expected to learn. Both should be listed specifically, not in a general list. Confirm they are documented for state testing.</p>
+                        </div>
+                     </div>
+                     <div class="step-card">
+                        <div class="step-num"><i class="fas fa-map-signs" style="font-size:0.8rem"></i></div>
+                        <div class="step-content">
+                           <h4>Placement Recommendation & LRE</h4>
+                           <p>Placement must be in the Least Restrictive Environment (LRE) where your child can receive a FAPE. If a more restrictive setting is recommended, the IEP must explain why a less restrictive environment is not appropriate. Push for this justification to be specific and data-driven.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <hr class="section-divider" />
+
+            <!-- SECTION 6 -->
+            <section id="dispute-resolution" class="guide-section">
+               <div class="section-header">
+                  <div class="section-icon"><i class="fas fa-balance-scale"></i></div>
+                  <div>
+                     <div class="section-num">Section 6</div>
+                     <h2 class="section-title">Dispute Resolution Options</h2>
+                  </div>
+               </div>
+               <div class="section-body">
+                  <p>When you and the school district cannot agree, New York provides several formal and informal dispute resolution options. Understanding each option — and its strategic implications — is essential before you choose a path.</p>
+
+                  <div class="steps-list">
+                     <div class="step-card">
+                        <div class="step-num">A</div>
+                        <div class="step-content">
+                           <h4>Informal Resolution: Direct Communication</h4>
+                           <p>Always attempt to resolve disagreements first by communicating directly with the CSE Chairperson or building administrator in writing. Many disputes are resolved at this stage, and it establishes a paper trail if escalation becomes necessary.</p>
+                        </div>
+                     </div>
+                     <div class="step-card">
+                        <div class="step-num">B</div>
+                        <div class="step-content">
+                           <h4>State Complaint (NYSED)</h4>
+                           <p>You can file a written complaint with the New York State Education Department (NYSED) alleging that the district violated a specific provision of IDEA or Article 89. NYSED must investigate and issue a written decision within 60 calendar days. No attorney is required, and there is no cost. This is most effective for systemic or procedural violations.</p>
+                        </div>
+                     </div>
+                     <div class="step-card">
+                        <div class="step-num">C</div>
+                        <div class="step-content">
+                           <h4>Mediation</h4>
+                           <p>A voluntary, free process facilitated by a neutral third party. Both the parent and district must agree to participate. Mediation agreements are legally binding. This is the fastest formal resolution method — often resolved within 30 days. Mediation does not waive your right to a hearing.</p>
+                        </div>
+                     </div>
+                     <div class="step-card">
+                        <div class="step-num">D</div>
+                        <div class="step-content">
+                           <h4>Impartial Hearing (Due Process)</h4>
+                           <p>The most formal option — a hearing before an Impartial Hearing Officer (IHO). You must file a Due Process Complaint Notice. A resolution meeting is required within 15 days. Hearings are conducted like legal proceedings — most parents are represented by an attorney. If you prevail, you may be entitled to attorney's fees. Explore our <a href="/guides/dispute-resolution-ny">full Dispute Resolution Guide</a> for details on the NYC Impartial Hearing process.</p>
+                        </div>
+                     </div>
+                  </div>
+
+                  <callout class="callout callout-urgent">
+                     <i class="fas fa-hourglass-half"></i>
+                     <div class="callout-text">
+                        <strong>Statute of Limitations:</strong> In New York, you generally have <strong>2 years</strong> from the date you knew or should have known about the violation to file a Due Process complaint. Do not delay — consult an advocate or attorney promptly if you believe your child's rights have been violated.
+                     </div>
+                  </callout>
+               </div>
+            </section>
+
+            <hr class="section-divider" />
+
+            <!-- SECTION 7 -->
+            <section id="sample-letters" class="guide-section">
+               <div class="section-header">
+                  <div class="section-icon"><i class="fas fa-envelope-open-text"></i></div>
+                  <div>
+                     <div class="section-num">Section 7</div>
+                     <h2 class="section-title">Sample Advocacy Letters</h2>
+                  </div>
+               </div>
+               <div class="section-body">
+                  <p>Written communication is the foundation of special education advocacy. Below are two templates to help you get started. Always send important correspondence via email (creating a timestamp) or certified mail.</p>
+
+                  <h3 style="color:var(--ny-navy); margin:24px 0 12px; font-size:1.1rem;">Template A: Request for Special Education Evaluation</h3>
+                  <div class="letter-box">
+                     <span class="letter-label">Copy & Customize</span><br />
+                     <span class="fill-in">[Your Name]</span><br />
+                     <span class="fill-in">[Your Address]</span><br />
+                     <span class="fill-in">[Date]</span><br /><br />
+                     <span class="fill-in">[CSE Chairperson Name]</span><br />
+                     Committee on Special Education<br />
+                     <span class="fill-in">[School District Name]</span><br /><br />
+                     Dear <span class="fill-in">[CSE Chairperson Name]</span>,<br /><br />
+                     I am the parent/guardian of <span class="fill-in">[Child's Full Name]</span>, DOB <span class="fill-in">[Date of Birth]</span>, currently enrolled in grade <span class="fill-in">[Grade]</span> at <span class="fill-in">[School Name]</span>.<br /><br />
+                     I am writing to formally request a comprehensive special education evaluation for my child pursuant to the Individuals with Disabilities Education Act (IDEA), 20 U.S.C. § 1414, and New York Education Law Article 89. I have concerns regarding my child's <span class="fill-in">[describe specific area: reading, attention, speech, social-emotional development, etc.]</span>, which are negatively affecting their educational performance.<br /><br />
+                     I understand that once I provide written consent, the district has <strong>60 school days</strong> to complete all evaluations and hold an initial CSE meeting. I respectfully request that evaluations include <span class="fill-in">[list specific evaluations you are requesting, e.g., psychoeducational, speech-language, OT]</span>.<br /><br />
+                     Please contact me at <span class="fill-in">[phone/email]</span> to provide the Permission to Evaluate form and schedule next steps.<br /><br />
+                     Sincerely,<br />
+                     <span class="fill-in">[Your Signature]</span><br />
+                     <span class="fill-in">[Your Printed Name]</span>
+                  </div>
+
+                  <h3 style="color:var(--ny-navy); margin:32px 0 12px; font-size:1.1rem;">Template B: Post-Meeting Follow-Up Email</h3>
+                  <div class="letter-box">
+                     <span class="letter-label">Send Within 48 Hours of Any CSE Meeting</span><br /><br />
+                     <strong>To:</strong> <span class="fill-in">[CSE Chairperson Email]</span><br />
+                     <strong>Cc:</strong> <span class="fill-in">[School Principal Email]</span><br />
+                     <strong>Subject:</strong> Follow-Up: CSE Meeting for <span class="fill-in">[Child's Name]</span>, held <span class="fill-in">[Date]</span><br /><br />
+                     Dear <span class="fill-in">[CSE Chairperson Name]</span>,<br /><br />
+                     Thank you for meeting with me on <span class="fill-in">[Date]</span> regarding <span class="fill-in">[Child's Name]</span>. I am writing to confirm my understanding of the meeting's outcomes:<br /><br />
+                     1. [First key point or agreement reached]<br />
+                     2. [Second key point — e.g., "The team agreed to add 30 minutes/week of speech therapy"]<br />
+                     3. [Outstanding items — e.g., "I requested additional OT evaluation; awaiting written response"]<br /><br />
+                     I also want to note that I did <strong>not</strong> consent to <span class="fill-in">[any item you did not agree to]</span> at this time and will provide written consent separately.<br /><br />
+                     Please correct me if I have mischaracterized any aspect of our discussion. I look forward to receiving the draft IEP for review within the required timeframe.<br /><br />
+                     Sincerely,<br />
+                     <span class="fill-in">[Your Name]</span><br />
+                     <span class="fill-in">[Phone Number]</span>
+                  </div>
+               </div>
+            </section>
+
+            <hr class="section-divider" />
+
+            <!-- SECTION 8 -->
+            <section id="resources" class="guide-section">
+               <div class="section-header">
+                  <div class="section-icon"><i class="fas fa-toolbox"></i></div>
+                  <div>
+                     <div class="section-num">Section 8</div>
+                     <h2 class="section-title">Key Resources for NY Parents</h2>
+                  </div>
+               </div>
+               <div class="section-body">
+                  <div class="resource-grid">
+                     <a class="resource-card" href="/guides/cse-meeting-guide">
+                        <i class="fas fa-users"></i>
+                        <h4>CSE Meeting Guide</h4>
+                        <p>Detailed preparation checklists and scripts for every type of CSE meeting.</p>
+                     </a>
+                     <a class="resource-card" href="/guides/evaluation-request-ny">
+                        <i class="fas fa-file-signature"></i>
+                        <h4>Evaluation Request Guide</h4>
+                        <p>Step-by-step walkthrough of the NY 60-day evaluation timeline.</p>
+                     </a>
+                     <a class="resource-card" href="/guides/dispute-resolution-ny">
+                        <i class="fas fa-gavel"></i>
+                        <h4>Dispute Resolution</h4>
+                        <p>State complaints, mediation, and Impartial Hearing procedures for NY.</p>
+                     </a>
+                     <a class="resource-card" href="/guides/bilingual-iep-new-york">
+                        <i class="fas fa-language"></i>
+                        <h4>Bilingual & ELL Rights</h4>
+                        <p>Native language assessment rights and bilingual IEP requirements.</p>
+                     </a>
+                     <a class="resource-card" href="/guides/cpse-preschool-special-education">
+                        <i class="fas fa-child"></i>
+                        <h4>CPSE Preschool Guide</h4>
+                        <p>Navigating the Committee on Preschool Special Education (ages 3–5).</p>
+                     </a>
+                     <a class="resource-card" href="/guides/carter-cases-private-placement">
+                        <i class="fas fa-school"></i>
+                        <h4>Private Placement</h4>
+                        <p>Carter Case procedure for seeking district-funded private school tuition.</p>
+                     </a>
+                  </div>
+
+                  <callout class="callout callout-tip">
+                     <i class="fas fa-phone-volume"></i>
+                     <div class="callout-text">
+                        <strong>Free Advocacy Support in NYC:</strong> NYC families can contact the <strong>IEP Parent Advocate program (iparent.nyc.gov)</strong> for free trained parent advocates. The <strong>Advocates for Children of New York</strong> (advocatesforchildren.org) also provides free legal and advocacy assistance to low-income families.
+                     </div>
+                  </callout>
+               </div>
+            </section>
+
+         </article>
+
+         <!-- ===== SIDEBAR ===== -->
+         <aside class="sidebar">
+
+            <div class="sidebar-card">
+               <h3><i class="fas fa-clock"></i> Key NY Timelines</h3>
+               <div class="quick-stat"><i class="fas fa-hourglass-start"></i> <strong>10 school days</strong> — District sends consent form</div>
+               <div class="quick-stat"><i class="fas fa-hourglass-half"></i> <strong>60 school days</strong> — Evaluation & initial CSE meeting</div>
+               <div class="quick-stat"><i class="fas fa-calendar-day"></i> <strong>5 days before</strong> — Receive evaluation reports</div>
+               <div class="quick-stat"><i class="fas fa-calendar-check"></i> <strong>1x per year</strong> — Annual IEP review required</div>
+               <div class="quick-stat"><i class="fas fa-redo"></i> <strong>Every 3 years</strong> — Full re-evaluation (triennial)</div>
+               <div class="quick-stat"><i class="fas fa-balance-scale"></i> <strong>2 years</strong> — Due process statute of limitations</div>
+            </div>
+
+            <div class="sidebar-card">
+               <h3><i class="fas fa-link"></i> Related Guides</h3>
+               <ul class="sidebar-links">
+                  <li><a href="/guides/cse-meeting-guide">→ CSE Meeting Guide</a></li>
+                  <li><a href="/guides/evaluation-request-ny">→ Evaluation Timeline</a></li>
+                  <li><a href="/guides/dispute-resolution-ny">→ Dispute Resolution</a></li>
+                  <li><a href="/guides/bilingual-iep-new-york">→ Bilingual IEP Rights</a></li>
+                  <li><a href="/guides/cpse-preschool-special-education">→ CPSE Preschool</a></li>
+                  <li><a href="/guides/carter-cases-private-placement">→ Private Placement</a></li>
+               </ul>
+            </div>
+
+            <div class="cta-card">
+               <h3>Get the Complete Advocacy Toolkit</h3>
+               <p>Templates, checklists, and scripts to navigate every stage of the NY CSE process.</p>
+               <a class="cta-btn" href="/contact">Get The Toolkit →</a>
+            </div>
+
+            <div class="sidebar-card">
+               <h3><i class="fas fa-map-marker-alt"></i> Your District</h3>
+               <ul class="sidebar-links">
+                  <li><a href="/districts/nyc-district-75">District 75 (Citywide)</a></li>
+                  <li><a href="/districts/nyc-district-02-upper-east-side">D2 Manhattan</a></li>
+                  <li><a href="/districts/nyc-district-15-park-slope">D15 Brooklyn</a></li>
+                  <li><a href="/districts/nyc-district-30-astoria">D30 Queens</a></li>
+                  <li><a href="/districts/nyc-district-31-staten-island">D31 Staten Island</a></li>
+                  <li><a href="/districts/">View All 32 Districts →</a></li>
+               </ul>
+            </div>
+
+         </aside>
+      </div>
+   </main>
+
+   <!-- ===== FOOTER ===== -->
+   <footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+      <div class="footer-container">
+         <div class="footer-brand">
+            <h3>New York Special Ed<span>.net</span></h3>
+            <p>Demystifying the New York Committee on Special Education (CSE) process. We provide parents with the localized data, legal templates, and advocacy tools needed to secure appropriate services in NYC and NY State.</p>
+            <div style="margin-top:20px;"><a href="/contact" style="color:var(--ny-gold);font-weight:bold;text-decoration:none;">View Advocacy Shop →</a></div>
+         </div>
+         <div class="footer-col">
+            <h4>NY Parent Guides</h4>
+            <ul class="footer-links">
+               <li><a href="/guides/cse-meeting-guide">The CSE Meeting Guide</a></li>
+               <li><a href="/guides/evaluation-request-ny">Evaluation Timelines (60 Days)</a></li>
+               <li><a href="/guides/dispute-resolution-ny">Due Process & Complaints</a></li>
+               <li><a href="/guides/bilingual-iep-new-york">Bilingual/ELL Rights</a></li>
+               <li><a href="/guides/parent-advocacy-guide.html">Parent Advocacy Guide</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h4>Popular Districts</h4>
+            <ul class="footer-links">
+               <li><a href="/districts/nyc-district-02-upper-east-side">NYC District 2 (Manhattan)</a></li>
+               <li><a href="/districts/nyc-district-15-park-slope">NYC District 15 (Brooklyn)</a></li>
+               <li><a href="/districts/nyc-district-31-staten-island">NYC District 31 (Staten Island)</a></li>
+               <li><a href="/districts/nyc-district-30-astoria">NYC District 30 (Queens)</a></li>
+               <li><a href="/districts/buffalo-city-sd">Buffalo City Schools</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h4>Resources</h4>
+            <ul class="footer-links">
+               <li><a href="/about">About Us</a></li>
+               <li><a href="/contact">Contact Support</a></li>
+               <li><a href="/privacy-policy">Privacy Policy</a></li>
+               <li><a href="/sitemap.xml">Sitemap</a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="footer-bottom">
+         <p>© 2026 New York Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br />For official inquiries, visit schools.nyc.gov or nysed.gov.</p>
+      </div>
+   </footer>
+
+</body>
+
+</html>
