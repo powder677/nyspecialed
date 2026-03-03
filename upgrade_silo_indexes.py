@@ -1,11 +1,8 @@
 import os
-import glob
 from bs4 import BeautifulSoup
 
 def main():
-    # Target all index.html files inside the subdirectories of 'districts'
-    # e.g., districts/albany-city-sd/index.html
-    index_files = glob.glob('districts/*/index.html')
+    print("Scanning for index.html files in district folders...")
     
     # CSS required for the Premium Sidebar Card
     sidebar_css = """
@@ -100,7 +97,6 @@ def main():
 """
 
     def get_sidebar_html(district_name):
-        # Generates the sidebar HTML dynamically using the specific district's name
         return f"""
         <div class="sidebar-right" style="flex: 1 1 30%; min-width: 300px; position: sticky; top: 20px; align-self: start;">
             <div class="premium-card">
@@ -143,25 +139,40 @@ def main():
         </div>
         """
 
+    # Recursively find all index.html files inside a "districts" folder
+    files_to_process = []
+    for root, dirs, files in os.walk('.'):
+        parts = root.split(os.sep)
+        # Check if any parent folder is 'districts' AND the current folder is NOT 'districts' itself
+        if 'districts' in parts and parts[-1] != 'districts':
+            if 'index.html' in files:
+                files_to_process.append(os.path.join(root, 'index.html'))
+                
+    print(f"-> Found {len(files_to_process)} target files in district subfolders.\n")
+    
+    if not files_to_process:
+        print("ERROR: Could not find any district index.html files. Please run this script from your project root folder.")
+        return
+
     count = 0
-    for file_path in index_files:
+    for file_path in files_to_process:
         with open(file_path, 'r', encoding='utf-8') as f:
             html = f.read()
             
         soup = BeautifulSoup(html, 'html.parser')
         
-        # 1. Skip if already processed to prevent duplicates
+        # 1. Skip if already processed
         if soup.find('div', class_='sidebar-right'):
-            print(f"Skipping {file_path}, already has sidebar layout.")
+            print(f"[SKIPPED] {file_path} - Already has sidebar layout.")
             continue
             
         # 2. Find the main content section to split
         section = soup.find('section', class_='local-aeo-section')
         if not section:
-            print(f"Skipping {file_path}, no 'local-aeo-section' found.")
+            print(f"[SKIPPED] {file_path} - No <section class='local-aeo-section'> found.")
             continue
             
-        # 3. Extract the district name dynamically from the <title> tag
+        # 3. Extract the district name dynamically
         title_tag = soup.find('title')
         district_name = "New York State"
         if title_tag:
@@ -171,39 +182,49 @@ def main():
             else:
                 district_name = title_text.split('|')[0].strip()
                 
-        # 4. Override old CSS constraints (like max-width: 800px) inline to allow the 70/30 split
+        print(f"[PROCESSING] {file_path} (Using name: '{district_name}')")
+        
+        # 4. Override old CSS constraints
         section['style'] = "background: #fff; padding: 40px 20px 60px 20px; max-width: 100% !important;"
         
         # 5. Build the flex container
-        container = soup.new_tag('div', **{'class': 'container', 'style': 'max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 40px;'})
+        container = soup.new_tag('div')
+        container['class'] = 'container'
+        container['style'] = 'max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 40px;'
         
-        # 6. Build the left column and move all current content from the section into it
-        left_col = soup.new_tag('div', **{'class': 'main-content-left', 'style': 'flex: 1 1 60%; min-width: 300px; line-height: 1.8;'})
+        # 6. Build the left column
+        left_col = soup.new_tag('div')
+        left_col['class'] = 'main-content-left'
+        left_col['style'] = 'flex: 1 1 60%; min-width: 300px; line-height: 1.8;'
+        
+        # Move all contents of the section into the left column
         for child in list(section.contents):
             left_col.append(child.extract())
             
-        # 7. Build the right column using the generated sidebar HTML
+        # 7. Build the right column
         right_col_soup = BeautifulSoup(get_sidebar_html(district_name), 'html.parser')
         
-        # 8. Append both columns to the container, and the container to the section
+        # 8. Append columns to the new container, and the container to the section
         container.append(left_col)
         container.append(right_col_soup)
         section.append(container)
         
-        # 9. Inject the premium card CSS into the <head>
+        # 9. Inject CSS (if not already there)
         head = soup.find('head')
         if head:
             css_soup = BeautifulSoup(sidebar_css, 'html.parser')
             head.append(css_soup)
             
-        # 10. Write the updated HTML back to the file
+        # 10. Write back to file
         with open(file_path, 'w', encoding='utf-8') as f:
             f.write(str(soup))
             
         count += 1
-        print(f"Updated {file_path}")
+        print(f"  └─> [SUCCESS] Saved!\n")
 
-    print(f"\nSuccessfully upgraded {count} silo index pages to the 70/30 layout.")
+    print(f"\n======================================")
+    print(f"DONE! Successfully upgraded {count} pages.")
+    print(f"======================================")
 
 if __name__ == '__main__':
     main()
