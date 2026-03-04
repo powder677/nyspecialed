@@ -784,5 +784,75 @@
     </p>
 </div>
 </footer>
-</body>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Target any form on the page
+    const leadForms = document.querySelectorAll('form');
+    
+    leadForms.forEach(form => {
+        const submitBtn = form.querySelector('button[type="submit"]');
+        if (!submitBtn) return;
+
+        submitBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            // Grab the specific inputs from your new Law Firm layout
+            const nameInput = form.querySelector('input[type="text"]');
+            const phoneInput = form.querySelector('input[type="tel"]');
+            const selectInputs = form.querySelectorAll('select');
+            let issueSelect = selectInputs.length > 0 ? selectInputs[0] : null;
+
+            // Basic Validation
+            if (nameInput && !nameInput.value.trim()) {
+                alert('Please enter your name.');
+                nameInput.focus();
+                return;
+            }
+            if (phoneInput && !phoneInput.value.trim()) {
+                alert('Please enter your phone number.');
+                phoneInput.focus();
+                return;
+            }
+
+            submitBtn.innerHTML = 'Sending...';
+            submitBtn.disabled = true;
+            submitBtn.style.opacity = '0.7';
+
+            // Prepare data for Google Sheets
+            const formData = new URLSearchParams();
+            formData.append('name', nameInput && nameInput.value ? nameInput.value : 'Not provided');
+            // We pass the phone number into the 'email' parameter so your existing Google Apps Script doesn't break
+            formData.append('email', phoneInput && phoneInput.value ? phoneInput.value : 'Not provided');
+            formData.append('concern', issueSelect && issueSelect.value ? issueSelect.value : 'Not provided');
+            formData.append('pageUrl', window.location.href);
+
+            const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwWpGXg3JMJnxyzUlJHPlQRnE_R2Dh6oFvapMureXQWG_0bLOBtN_e7f5s5jnKRdcG-/exec';
+
+            fetch(GOOGLE_SCRIPT_URL, {
+                method: 'POST',
+                body: formData,
+                mode: 'no-cors'
+            })
+            .then(() => {
+                // Success State matching your new Ink & Gold aesthetics
+                form.innerHTML = `
+                    <div style="text-align: center; padding: 20px 10px;">
+                        <div style="color: #b8963a; font-size: 40px; margin-bottom: 10px;">✓</div>
+                        <h4 style="font-family: 'Cormorant Garamond', serif; font-size: 26px; color: #1a1410; margin-bottom: 10px; font-weight: 600;">Request Received</h4>
+                        <p style="font-size: 14px; color: #6b5f53; line-height: 1.5; font-family: 'DM Sans', sans-serif;">
+                            Your information has been securely routed. We will be in touch shortly.
+                        </p>
+                    </div>
+                `;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                submitBtn.innerHTML = 'Error. Please Try Again.';
+                submitBtn.disabled = false;
+                submitBtn.style.opacity = '1';
+            });
+        });
+    });
+});
+</script></body>
 </html>

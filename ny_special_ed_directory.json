@@ -1,0 +1,346 @@
+[
+    {
+        "district_name": "New York City Geographic District #2 (Manhattan)",
+        "superintendent": "Kelly McGuire",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.schools.nyc.gov/learning/special-education",
+        "verified_forms": [
+            {
+                "form_name": "Initial Referral for Special Education Services",
+                "purpose": "Used to formally refer a student suspected of having a disability to the Committee on Special Education (CSE) for evaluation and consideration for special education services."
+            },
+            {
+                "form_name": "A Parent's Guide to Special Education in New York City",
+                "purpose": "Provides parents with information about the special education process in New York City, including referral, evaluation, IEP development, and rights."
+            }
+        ]
+    },
+    {
+        "district_name": "New York City Geographic District #15 (Brooklyn)",
+        "superintendent": "Rafael Alvarez",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.schools.nyc.gov/learning/special-education",
+        "verified_forms": [
+            {
+                "form_name": "Initial Referral for Special Education Services",
+                "purpose": "This form is used by parents, teachers, or other concerned individuals to initiate the process of evaluating a student for potential special education needs."
+            },
+            {
+                "form_name": "Procedural Safeguards Notice",
+                "purpose": "This document outlines the legal rights and protections afforded to students with disabilities and their parents under federal and state special education laws (IDEA and Part 200). It includes information on parental consent, access to records, dispute resolution, and more."
+            }
+        ]
+    },
+    {
+        "district_name": "New York City Geographic District #31 (Staten Island)",
+        "superintendent": "Marion Wilson",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.schools.nyc.gov/about-us/schools/district-31",
+        "verified_forms": [
+            {
+                "form_name": "Needs Verification",
+                "purpose": "Needs Verification"
+            },
+            {
+                "form_name": "Needs Verification",
+                "purpose": "Needs Verification"
+            }
+        ]
+    },
+    {
+        "district_name": "Buffalo City School District",
+        "superintendent": "Dr. Tonja M. Williams",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.buffaloschools.org/Page/9018",
+        "verified_forms": [
+            {
+                "form_name": "Request for Initial Referral for Special Education Services",
+                "purpose": "This form is used by parents, guardians, or other individuals to formally request that the school district evaluate a student for potential special education services."
+            },
+            {
+                "form_name": "Procedural Safeguards Notice",
+                "purpose": "This document outlines the rights and protections afforded to parents and students with disabilities under federal and state special education laws (IDEA and Part 200 of NYS regulations)."
+            }
+        ]
+    },
+    {
+        "district_name": "Rochester City School District",
+        "superintendent": "Carmine Peluso",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.rcsdk12.org/Page/341",
+        "verified_forms": [
+            {
+                "form_name": "RCSD Referral Form for Special Education Services",
+                "purpose": "To initiate the referral process for a student suspected of having a disability and requiring special education services."
+            },
+            {
+                "form_name": "Understanding the Special Education Process",
+                "purpose": "A brochure to provide parents with information about the special education process in the Rochester City School District."
+            }
+        ]
+    },
+    {
+        "district_name": "Yonkers City School District",
+        "superintendent": "Dr. Edwin M. Quezada",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.yonkerspublicschools.org/Page/16275",
+        "verified_forms": [
+            {
+                "form_name": "Referral Form for Special Education Services",
+                "purpose": "Used to initiate the special education process by referring a student who may have a disability for evaluation and consideration for special education services."
+            },
+            {
+                "form_name": "Notice of Meeting",
+                "purpose": "Informs parents/guardians about upcoming CSE meetings, including the date, time, location, purpose, and participants."
+            }
+        ]
+    },
+    {
+        "district_name": "Syracuse City School District",
+        "superintendent": "Anthony Q. Davis",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.syracusecityschools.com/departments/special-education",
+        "verified_forms": [
+            {
+                "form_name": "Special Education in Plain Language",
+                "purpose": "Provides an accessible overview of special education processes and rights for parents and families, explaining key terms and procedures in a clear and understandable manner."
+            },
+            {
+                "form_name": "Understanding the IEP and Services Guide",
+                "purpose": "A guide to help parents and educators understand the Individualized Education Program (IEP) and the special education services available to students with disabilities within the district."
+            }
+        ]
+    },
+    {
+        "district_name": "Brentwood Union Free School District",
+        "superintendent": "Dr. Richard Loeschner",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.brentwood.k12.ny.us/departments/pupil_personnel_services",
+        "verified_forms": [
+            {
+                "form_name": "Special Education in Brentwood UFSD",
+                "purpose": "Provides a general overview of special education services offered within the Brentwood UFSD, including referral process, CSE procedures, and available programs."
+            },
+            {
+                "form_name": "Parent Member Guide",
+                "purpose": "A guide for parents serving on the Committee on Special Education (CSE), explaining their role, responsibilities, and the special education process."
+            }
+        ]
+    },
+    {
+        "district_name": "Sachem Central School District",
+        "superintendent": "Dr. Christopher Pellettieri",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.sachem.edu/departments/pupil-personnel-services",
+        "verified_forms": [
+            {
+                "form_name": "Special Education in Sachem",
+                "purpose": "Provides an overview of Special Education services offered within the Sachem Central School District, possibly including eligibility criteria, available programs, and contact information for the Pupil Personnel Services department."
+            },
+            {
+                "form_name": "CSE Transition Handbook",
+                "purpose": "Offers guidance and resources for students transitioning from the Committee on Preschool Special Education (CPSE) to the Committee on Special Education (CSE). It outlines the transition process, roles of involved parties, and necessary documentation."
+            }
+        ]
+    },
+    {
+        "district_name": "Newburgh Enlarged City School District",
+        "superintendent": "Dr. Jackielyn Manning Campbell",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.newburghschools.org/departments/student_services",
+        "verified_forms": [
+            {
+                "form_name": "Special Education in New York State for Children Ages 3\u201321: A Parent\u2019s Guide",
+                "purpose": "Provides parents with information about the special education process in New York State, including eligibility, IEP development, and procedural safeguards."
+            },
+            {
+                "form_name": "Understanding the Individualized Education Program (IEP)",
+                "purpose": "Provides guidance to parents and educators on understanding and participating in the IEP process. It may outline the different sections of the IEP, parental rights, and strategies for effective collaboration."
+            }
+        ]
+    },
+    {
+        "district_name": "East Ramapo Central School District",
+        "superintendent": "Dr. Clarence Ellis",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.ercsd.org/Page/86",
+        "verified_forms": [
+            {
+                "form_name": "Request for Psychological Testing",
+                "purpose": "Likely a form used by school staff or parents to request a psychological evaluation of a student, which may be part of the special education referral process."
+            },
+            {
+                "form_name": "Referral to the Committee on Special Education (CSE)",
+                "purpose": "A standard form used to formally refer a student to the CSE for evaluation and consideration for special education services."
+            }
+        ]
+    },
+    {
+        "district_name": "Wappingers Central School District",
+        "superintendent": "Dr. Dwight Bonk",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.wappingersschools.org/Page/6163",
+        "verified_forms": [
+            {
+                "form_name": "Special Education in New York State for Children Ages 3-21: A Parent's Guide",
+                "purpose": "Provides parents with an overview of special education services and processes in New York State."
+            },
+            {
+                "form_name": "Initial Referral to Special Education",
+                "purpose": "Used to formally refer a student for evaluation to determine eligibility for special education services."
+            }
+        ]
+    },
+    {
+        "district_name": "Mount Vernon City School District",
+        "superintendent": "Dr. Kenneth R. Hamilton",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.mtvernoncsd.org/departments/pupil-personnel-services",
+        "verified_forms": [
+            {
+                "form_name": "Special Education in Mount Vernon: A Guide for Parents",
+                "purpose": "Provides an overview of special education services and processes for parents within the Mount Vernon City School District, including information about the CSE, evaluations, IEPs, and parent rights."
+            },
+            {
+                "form_name": "Parent Guide",
+                "purpose": "A guide for parents of students with disabilities, containing helpful resources and information regarding special education processes and supports."
+            }
+        ]
+    },
+    {
+        "district_name": "New Rochelle City School District",
+        "superintendent": "Jonathan P. Raymond",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.nredlearn.org/Page/662",
+        "verified_forms": [
+            {
+                "form_name": "Request for Special Education Referral",
+                "purpose": "This form is used by parents, teachers, or other concerned parties to initiate the process of referring a student for special education evaluation and services."
+            },
+            {
+                "form_name": "CPSE Transition to CSE",
+                "purpose": "This packet or information page outlines the process of transitioning a student from Committee on Preschool Special Education (CPSE) to the Committee on Special Education (CSE) as they enter school age."
+            }
+        ]
+    },
+    {
+        "district_name": "Freeport Union Free School District",
+        "superintendent": "Dr. Kishore Kuncham",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.freeportschools.org/departments/special_education",
+        "verified_forms": [
+            {
+                "form_name": "Special Education in New York State for Children Ages 3\u201321: A Parent\u2019s Guide",
+                "purpose": "To provide parents with information about special education services and supports in New York State."
+            },
+            {
+                "form_name": "Understanding the Committee on Special Education (CSE) Process",
+                "purpose": "To explain the CSE process to parents, including referrals, evaluations, IEP development, and placement."
+            }
+        ]
+    },
+    {
+        "district_name": "Central Islip Union Free School District",
+        "superintendent": "Dr. Sharon Dungee",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.centralislip.k12.ny.us/departments/special-education",
+        "verified_forms": [
+            {
+                "form_name": "Referral For Special Education Services",
+                "purpose": "To initiate the process of evaluating a student for potential special education eligibility and services."
+            },
+            {
+                "form_name": "Request for Psychological Evaluation",
+                "purpose": "Used to request a psychological evaluation as part of a special education evaluation process, assessing cognitive, emotional, and behavioral functioning."
+            }
+        ]
+    },
+    {
+        "district_name": "Utica City School District",
+        "superintendent": "Robert J. Nole",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.uticaschools.org/departments/student-services",
+        "verified_forms": [
+            {
+                "form_name": "Request for Initial Referral to Committee on Special Education",
+                "purpose": "This form is used by parents or other individuals to formally request an evaluation by the Committee on Special Education to determine if a student is eligible for special education services."
+            },
+            {
+                "form_name": "CPSE Transition Packet",
+                "purpose": "This packet outlines the process and necessary information for students transitioning from the Committee on Preschool Special Education (CPSE) to the Committee on Special Education (CSE) when they enter school-age programs."
+            }
+        ]
+    },
+    {
+        "district_name": "Niagara Falls City School District",
+        "superintendent": "Mark Laurrie",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.nfschools.net/Page/31",
+        "verified_forms": [
+            {
+                "form_name": "Referral for Special Education Services",
+                "purpose": "This form is used to initiate the process of evaluating a student for potential special education services. It is completed by a parent, teacher, or other school personnel who have concerns about a student's academic or developmental progress."
+            },
+            {
+                "form_name": "Procedural Safeguards",
+                "purpose": "This document outlines the legal rights and protections afforded to parents and students with disabilities under the Individuals with Disabilities Education Act (IDEA). It covers topics such as parental consent, access to records, impartial hearings, and mediation."
+            }
+        ]
+    },
+    {
+        "district_name": "William Floyd Union Free School District",
+        "superintendent": "Dr. Kevin M. Coster",
+        "special_ed_director": "Ms. Dawn Eisner, Assistant Superintendent for Special Services and Elementary Programs",
+        "special_ed_phone": "(631) 874-1120",
+        "special_ed_url": "https://www.wfsd.k12.ny.us/departments/special_education",
+        "verified_forms": [
+            {
+                "form_name": "Special Education in New York State for Children Ages 3\u201321: A Parent\u2019s Guide",
+                "purpose": "Provides parents with comprehensive information about special education services and processes in New York State."
+            },
+            {
+                "form_name": "CPSE Transition Packet",
+                "purpose": "Offers guidance and resources for families transitioning their child from Committee on Preschool Special Education (CPSE) to Committee on Special Education (CSE) services."
+            },
+            {
+                "form_name": "Procedural Safeguards Notice",
+                "purpose": "Outlines the rights and protections afforded to parents and students with disabilities under federal and state special education laws."
+            }
+        ]
+    },
+    {
+        "district_name": "Hempstead Union Free School District",
+        "superintendent": "Regina Armstrong",
+        "special_ed_director": "Needs Verification",
+        "special_ed_phone": "Needs Verification",
+        "special_ed_url": "https://www.hempsteadschools.org/departments/special-education",
+        "verified_forms": [
+            {
+                "form_name": "Special Education in New York State A Parent's Guide",
+                "purpose": "Provides parents with information about special education services and processes in New York State, including referral, evaluation, IEP development, and dispute resolution."
+            },
+            {
+                "form_name": "Understanding the Special Education Process",
+                "purpose": "Explains the steps involved in the special education process from referral to IEP implementation, likely intended for parents new to the process."
+            }
+        ]
+    }
+]
