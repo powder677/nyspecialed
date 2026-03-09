@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8" />
+   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+   <title>IEP Letter Writer — Free AI Tool | NY Special Ed</title>
+   <meta name="description" content="Generate a professional, legally-grounded IEP request letter in minutes. Free AI tool for New York parents navigating the CSE process." />
+   <link href="/styles/global.css" rel="stylesheet" />
+   <link href="/styles/styles-nav-footer.css" rel="stylesheet" />
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+   <link href="https://www.newyorkspecialed.net/iep-letter-writer/" rel="canonical" />
+   <meta property="og:type" content="website" />
+   <meta property="og:title" content="IEP Letter Writer — Free AI Tool | NY Special Ed" />
+   <meta property="og:description" content="Generate a professional, legally-grounded IEP request letter in minutes. Free AI tool for New York parents navigating the CSE process." />
+   <meta property="og:url" content="https://www.newyorkspecialed.net/iep-letter-writer/" />
+   <meta property="og:image" content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" />
+   <meta name="twitter:card" content="summary_large_image" />
+   <meta name="twitter:title" content="IEP Letter Writer — Free AI Tool | NY Special Ed" />
+   <meta name="twitter:description" content="Generate a professional, legally-grounded IEP request letter in minutes." />
+   <meta name="twitter:image" content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" />
+
+   <style>
+      /* ── Page-specific styles ─────────────────────────────────────────────── */
+
+      /* Hero */
+      .bot-hero {
+         background: linear-gradient(135deg, #0b1f3a 0%, #002868 60%, #1a3a5c 100%);
+         padding: 64px 20px 80px;
+         text-align: center;
+         position: relative;
+         overflow: hidden;
+      }
+
+      .bot-hero::before {
+         content: '';
+         position: absolute;
+         inset: 0;
+         background:
+            radial-gradient(ellipse 60% 50% at 20% 40%, rgba(212, 175, 55, 0.08) 0%, transparent 70%),
+            radial-gradient(ellipse 50% 60% at 80% 70%, rgba(45, 82, 72, 0.25) 0%, transparent 70%);
+         pointer-events: none;
+      }
+
+      .bot-hero .eyebrow {
+         display: inline-block;
+         background: #c9973a;
+         color: #0b1f3a;
+         font-family: 'DM Sans', sans-serif;
+         font-size: 0.7rem;
+         font-weight: 800;
+         letter-spacing: 0.16em;
+         text-transform: uppercase;
+         padding: 5px 14px;
+         border-radius: 3px;
+         margin-bottom: 20px;
+      }
+
+      .bot-hero h1 {
+         font-family: 'Lora', serif;
+         font-size: clamp(2rem, 5vw, 3.2rem);
+         font-weight: 700;
+         color: #f5f0e8;
+         line-height: 1.15;
+         margin: 0 auto 16px;
+         max-width: 720px;
+      }
+
+      .bot-hero h1 em {
+         font-style: italic;
+         color: #d4af37;
+      }
+
+      .bot-hero p.subhead {
+         font-family: 'DM Sans', sans-serif;
+         font-size: 1.05rem;
+         color: #94a3b8;
+         max-width: 560px;
+         margin: 0 auto 36px;
+         line-height: 1.7;
+      }
+
+      /* Trust badges row */
+      .trust-row {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 12px;
+         justify-content: center;
+         margin-bottom: 0;
+      }
+
+      .trust-badge {
+         display: flex;
+         align-items: center;
+         gap: 7px;
+         background: rgba(255, 255, 255, 0.07);
+         border: 1px solid rgba(255, 255, 255, 0.12);
+         border-radius: 30px;
+         padding: 7px 16px;
+         font-family: 'DM Sans', sans-serif;
+         font-size: 0.82rem;
+         color: #cbd5e1;
+         backdrop-filter: blur(4px);
+      }
+
+      .trust-badge i {
+         color: #d4af37;
+         font-size: 0.85rem;
+      }
+
+      /* Main layout */
+      .bot-layout {
+         max-width: 1200px;
+         margin: -40px auto 0;
+         padding: 0 20px 80px;
+         display: grid;
+         grid-template-columns: 1fr 380px;
+         gap: 36px;
+         align-items: start;
+      }
+
+      @media (max-width: 900px) {
+         .bot-layout {
+            grid-template-columns: 1fr;
+            margin-top: -24px;
+         }
+      }
+
+      /* Bot card */
+      .bot-card {
+         background: #fff;
+         border: 1px solid #e2e8f0;
+         border-radius: 16px;
+         overflow: hidden;
+         box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+         display: flex;
+         flex-direction: column;
+         min-height: 760px;
+      }
+
+      .bot-card-header {
+         background: #2d5248;
+         padding: 22px 28px 18px;
+         display: flex;
+         align-items: center;
+         gap: 14px;
+         border-bottom: 3px solid #c9973a;
+      }
+
+      .bot-card-header .bot-icon {
+         width: 44px;
+         height: 44px;
+         background: rgba(201, 151, 58, 0.2);
+         border: 1px solid rgba(201, 151, 58, 0.4);
+         border-radius: 10px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         font-size: 20px;
+         flex-shrink: 0;
+      }
+
+      .bot-card-header h2 {
+         font-family: 'Lora', serif;
+         font-size: 1.35rem;
+         font-weight: 700;
+         color: #f5f0e8;
+         margin: 0 0 3px;
+         line-height: 1.2;
+      }
+
+      .bot-card-header p {
+         font-family: 'DM Sans', sans-serif;
+         font-size: 0.82rem;
+         color: #a7c4b9;
+         margin: 0;
+      }
+
+      /* Pulse indicator */
+      .live-dot {
+         display: flex;
+         align-items: center;
+         gap: 6px;
+         margin-left: auto;
+         font-family: 'DM Sans', sans-serif;
+         font-size: 0.72rem;
+         color: #7ecfb3;
+         flex-shrink: 0;
+      }
+
+      .live-dot::before {
+         content: '';
+         width: 8px;
+         height: 8px;
+         background: #4ade80;
+         border-radius: 50%;
+         animation: pulse-dot 2s ease-in-out infinite;
+      }
+
+      @keyframes pulse-dot {
+
+         0%,
+         100% {
+            opacity: 1;
+            transform: scale(1);
+         }
+
+         50% {
+            opacity: 0.5;
+            transform: scale(0.75);
+         }
+      }
+
+      .bot-iframe-wrap {
+         flex: 1;
+         min-height: 680px;
+         position: relative;
+      }
+
+      .bot-iframe-wrap iframe {
+         position: absolute;
+         inset: 0;
+         width: 100%;
+         height: 100%;
+         border: none;
+      }
+
+      /* Sidebar */
+      .bot-sidebar {
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+         position: sticky;
+         top: 24px;
+      }
+
+      /* Info cards */
+      .info-card {
+         background: #fff;
+         border: 1px solid #e2e8f0;
+         border-radius: 12px;
+         padding: 24px;
+         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      }
+
+      .info-card h3 {
+         font-family: 'Lora', serif;
+         font-size: 1.05rem;
+         color: #002868;
+         margin: 0 0 14px;
+         padding-bottom: 10px;
+         border-bottom: 2px solid #f1f5f9;
+         display: flex;
+         align-items: center;
+         gap: 8px;
+      }
+
+      .info-card h3 i {
+         color: #d4af37;
+         font-size: 0.9rem;
+      }
+
+      /* Step list */
+      .step-list {
+         list-style: none;
+         margin: 0;
+         padding: 0;
+         display: flex;
+         flex-direction: column;
+         gap: 12px;
+      }
+
+      .step-list li {
+         display: flex;
+         gap: 12px;
+         align-items: flex-start;
+         font-family: 'DM Sans', sans-serif;
+         font-size: 0.88rem;
+         color: #475569;
+         line-height: 1.55;
+      }
+
+      .step-num {
+         width: 24px;
+         height: 24px;
+         background: #002868;
+         color: #d4af37;
+         border-radius: 50%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         font-size: 0.72rem;
+         font-weight: 800;
+         flex-shrink: 0;
+         margin-top: 1px;
+      }
+
+      /* Feature pills */
+      .feature-list {
+         list-style: none;
+         margin: 0;
+         padding: 0;
+         display: flex;
+         flex-direction: column;
+         gap: 9px;
+      }
+
+      .feature-list li {
+         display: flex;
+         align-items: center;
+         gap: 9px;
+         font-family: 'DM Sans', sans-serif;
+         font-size: 0.86rem;
+         color: #374151;
+      }
+
+      .feature-list li::before {
+         content: '✓';
+         width: 20px;
+         height: 20px;
+         background: #dcfce7;
+         color: #16a34a;
+         border-radius: 50%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         font-size: 0.7rem;
+         font-weight: 900;
+         flex-shrink: 0;
+      }
+
+      /* District links card */
+      .district-links {
+         display: flex;
+         flex-direction: column;
+         gap: 7px;
+      }
+
+      .district-link {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding: 9px 12px;
+         background: #f8fafc;
+         border: 1px solid #e2e8f0;
+         border-radius: 6px;
+         text-decoration: none;
+         font-family: 'DM Sans', sans-serif;
+         font-size: 0.82rem;
+         color: #0056b3;
+         font-weight: 600;
+         transition: background 0.15s, border-color 0.15s;
+      }
+
+      .district-link:hover {
+         background: #eff6ff;
+         border-color: #93c5fd;
+      }
+
+      .district-link span {
+         color: #94a3b8;
+         font-weight: 400;
+      }
+
+      /* Pricing note */
+      .pricing-note {
+         background: linear-gradient(135deg, #2d5248, #1a3d32);
+         border-radius: 12px;
+         padding: 22px;
+         text-align: center;
+         color: white;
+      }
+
+      .pricing-note .price {
+         font-family: 'Lora', serif;
+         font-size: 2rem;
+         font-weight: 700;
+         color: #d4af37;
+         line-height: 1;
+         margin-bottom: 4px;
+      }
+
+      .pricing-note .price-label {
+         font-family: 'DM Sans', sans-serif;
+         font-size: 0.78rem;
+         color: #a7c4b9;
+         letter-spacing: 0.08em;
+         text-transform: uppercase;
+         margin-bottom: 14px;
+      }
+
+      .pricing-note p {
+         font-family: 'DM Sans', sans-serif;
+         font-size: 0.84rem;
+         color: #cbd5e1;
+         line-height: 1.6;
+         margin: 0;
+      }
+   </style>
+</head>
+
+<body>
+
+   <!-- ── Site Header ──────────────────────────────────────────────────────── -->
+   <header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="nav-container">
+         <a aria-label="New York Special Ed - Home" class="nav-logo" href="/">
+            <img alt="New York Special Ed logo" height="120" loading="eager" src="/images/logo.png" style="display:block; height:120px; width:auto; border-radius:8px;" width="120" />
+         </a>
+         <nav itemscope="" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+            <ul class="nav-links">
+               <li class="nav-item">
+                  <a class="nav-link" href="/districts/">NYC Districts <i class="fas fa-chevron-down"></i></a>
+                  <div class="mega-menu">
+                     <div class="menu-column">
+                        <h4>Manhattan (D1-6)</h4>
+                        <ul>
+                           <li><a href="/districts/nyc-district-01-lower-east-side/">District 1: Lower East Side</a></li>
+                           <li><a href="/districts/nyc-district-02-upper-east-side/">District 2: Upper East Side/Tribeca</a></li>
+                           <li><a href="/districts/nyc-district-03-upper-west-side/">District 3: Upper West Side</a></li>
+                           <li><a href="/districts/nyc-district-04-east-harlem/">District 4: East Harlem</a></li>
+                           <li><a href="/districts/nyc-district-05-central-harlem/">District 5: Central Harlem</a></li>
+                           <li><a href="/districts/nyc-district-06-washington-heights/">District 6: Washington Heights</a></li>
+                        </ul>
+                     </div>
+                     <div class="menu-column">
+                        <h4>Brooklyn (Key Districts)</h4>
+                        <ul>
+                           <li><a href="/districts/nyc-district-15-park-slope/">District 15: Park Slope/Sunset Park</a></li>
+                           <li><a href="/districts/nyc-district-20-bay-ridge/">District 20: Bay Ridge/Borough Park</a></li>
+                           <li><a href="/districts/nyc-district-13-brooklyn-heights/">District 13: Brooklyn Heights</a></li>
+                           <li><a href="/districts/nyc-district-75/"><strong>District 75 (Citywide Programs)</strong></a></li>
+                        </ul>
+                     </div>
+                     <div class="menu-column">
+                        <h4>Queens & SI</h4>
+                        <ul>
+                           <li><a href="/districts/nyc-district-26-bayside/">District 26: Bayside</a></li>
+                           <li><a href="/districts/nyc-district-30-astoria/">District 30: Astoria/LIC</a></li>
+                           <li><a href="/districts/nyc-district-31-staten-island/">District 31: Staten Island</a></li>
+                           <li><a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">View All 32 NYC Districts →</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/districts/nys-overview/">Upstate & LI <i class="fas fa-chevron-down"></i></a>
+                  <div class="dropdown-menu">
+                     <div class="menu-column" style="padding: 0 20px;">
+                        <h4>Big 5 Cities</h4>
+                        <ul>
+                           <li><a href="/districts/buffalo-city-sd/">Buffalo City SD</a></li>
+                           <li><a href="/districts/rochester-city-sd/">Rochester City SD</a></li>
+                           <li><a href="/districts/syracuse-city-sd/">Syracuse City SD</a></li>
+                           <li><a href="/districts/yonkers-city-sd/">Yonkers City SD</a></li>
+                           <li><a href="/districts/albany-city-sd/">Albany City SD</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/guides/">Parent Guides <i class="fas fa-chevron-down"></i></a>
+                  <div class="dropdown-menu">
+                     <div class="menu-column" style="padding: 0 20px;">
+                        <ul>
+                           <li><a href="/guides/cse-meeting-guide/">CSE Meeting Guide</a></li>
+                           <li><a href="/guides/evaluation-request-ny/">Requesting an Evaluation</a></li>
+                           <li><a href="/guides/bilingual-iep-new-york/">Bilingual IEP Rights</a></li>
+                           <li><a href="/guides/cpse-preschool-special-education/">CPSE (Preschool) Guide</a></li>
+                           <li><a href="/guides/carter-cases-private-placement/">Private Placement (Carter Cases)</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+               <li class="nav-item"><a class="nav-link" href="/resources/">Free Tools</a></li>
+               <li class="nav-item"><a class="nav-cta" href="/contact/">Get The Toolkit</a></li>
+            </ul>
+         </nav>
+         <button aria-label="Open Navigation" class="mobile-toggle"><i class="fas fa-bars"></i></button>
+      </div>
+   </header>
+
+   <!-- ── Hero ─────────────────────────────────────────────────────────────── -->
+   <section class="bot-hero">
+      <div class="bot-hero__inner">
+         <div class="eyebrow">AI-Powered Tool</div>
+         <h1>Write Your <em>IEP Letter</em><br>in Minutes</h1>
+         <p class="subhead">
+            Tell us about your child. Our AI generates a professional,
+            legally-grounded letter tailored to your NYC district — ready to send.
+         </p>
+         <div class="trust-row">
+            <div class="trust-badge"><i class="fas fa-shield-alt"></i> Grounded in IDEA & NY State Law</div>
+            <div class="trust-badge"><i class="fas fa-language"></i> Works for bilingual families</div>
+            <div class="trust-badge"><i class="fas fa-bolt"></i> Ready in under 5 minutes</div>
+            <div class="trust-badge"><i class="fas fa-map-marker-alt"></i> Tailored to your NYC district</div>
+         </div>
+      </div>
+   </section>
+
+   <!-- ── Main Layout ───────────────────────────────────────────────────────── -->
+   <main>
+      <div class="bot-layout">
+
+         <!-- ── Bot iframe ─────────────────────────────────────────────────────── -->
+         <div class="bot-card">
+            <div class="bot-card-header">
+               <div class="bot-icon">✉️</div>
+               <div>
+                  <h2>IEP Letter Writer</h2>
+                  <p>Answer a few questions — get your letter instantly</p>
+               </div>
+               <div class="live-dot">Live</div>
+            </div>
+            <div class="bot-iframe-wrap">
+               <iframe src="https://iep-letter-writer-831148457361.us-central1.run.app" title="IEP Letter Writer Tool" loading="lazy" allow="clipboard-write">
+               </iframe>
+            </div>
+         </div>
+
+         <!-- ── Sidebar ────────────────────────────────────────────────────────── -->
+         <aside class="bot-sidebar">
+
+            <!-- Pricing -->
+            <div class="pricing-note">
+               <div class="price">$15</div>
+               <div class="price-label">One-time · Instant download</div>
+               <p>One letter, professionally written, legally grounded, and specific to your child and district.</p>
+            </div>
+
+            <!-- How it works -->
+            <div class="info-card">
+               <h3><i class="fas fa-list-ol"></i> How It Works</h3>
+               <ol class="step-list">
+                  <li><span class="step-num">1</span> Tell us your child's name, age, school, and district</li>
+                  <li><span class="step-num">2</span> Describe your concerns and what services you're requesting</li>
+                  <li><span class="step-num">3</span> The AI drafts a letter citing IDEA and NY State law</li>
+                  <li><span class="step-num">4</span> Review, copy, and send to your principal or CSE office</li>
+               </ol>
+            </div>
+
+            <!-- What's included -->
+            <div class="info-card">
+               <h3><i class="fas fa-check-circle"></i> What's Included</h3>
+               <ul class="feature-list">
+                  <li>Formal evaluation request language</li>
+                  <li>IDEA & 8 NYCRR 200 citations</li>
+                  <li>60-school-day timeline invocation</li>
+                  <li>District-specific CSE office reference</li>
+                  <li>Parent rights reminder paragraph</li>
+                  <li>Professional tone & formatting</li>
+               </ul>
+            </div>
+
+            <!-- District quick links -->
+            <div class="info-card">
+               <h3><i class="fas fa-map"></i> Go to Your District</h3>
+               <div class="district-links">
+                  <a class="district-link" href="/districts/nyc-district-01-lower-east-side/">District 1 <span>Lower East Side</span></a>
+                  <a class="district-link" href="/districts/nyc-district-02-upper-east-side/">District 2 <span>Upper East Side</span></a>
+                  <a class="district-link" href="/districts/nyc-district-15-park-slope/">District 15 <span>Park Slope</span></a>
+                  <a class="district-link" href="/districts/nyc-district-26-bayside/">District 26 <span>Bayside</span></a>
+                  <a class="district-link" href="/districts/nyc-district-30-astoria/">District 30 <span>Astoria</span></a>
+                  <a class="district-link" href="/districts/nyc-district-31-staten-island/">District 31 <span>Staten Island</span></a>
+                  <a class="district-link" href="/districts/" style="justify-content:center; background:#002868; color:white; border-color:#002868;">View All 34 Districts →</a>
+               </div>
+            </div>
+
+         </aside>
+      </div>
+   </main>
+
+   <!-- ── Site Footer ───────────────────────────────────────────────────────── -->
+   <footer class="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+      <div class="footer-container">
+         <div class="footer-brand">
+            <h3>New York Special Ed<span>.net</span></h3>
+            <p>Demystifying the New York Committee on Special Education (CSE) process.
+               We provide parents with the localized data, legal templates, and advocacy
+               tools needed to secure appropriate services in NYC and NY State.</p>
+            <div style="margin-top: 20px;">
+               <a href="/contact/" style="color: #D4AF37; font-weight: bold; text-decoration: none;">View Advocacy Shop →</a>
+            </div>
+         </div>
+         <div class="footer-col">
+            <h4>NY Parent Guides</h4>
+            <ul class="footer-links">
+               <li><a href="/guides/cse-meeting-guide/">The CSE Meeting Guide</a></li>
+               <li><a href="/guides/evaluation-request-ny/">Evaluation Timelines (60 Days)</a></li>
+               <li><a href="/guides/dispute-resolution-ny/">Due Process & Complaints</a></li>
+               <li><a href="/guides/bilingual-iep-new-york/">Bilingual/ELL Rights</a></li>
+               <li><a href="/districts/nyc-district-75/">District 75 Explained</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h4>Popular Districts</h4>
+            <ul class="footer-links">
+               <li><a href="/districts/nyc-district-02-upper-east-side/">NYC District 2 (Manhattan)</a></li>
+               <li><a href="/districts/nyc-district-15-park-slope/">NYC District 15 (Brooklyn)</a></li>
+               <li><a href="/districts/nyc-district-31-staten-island/">NYC District 31 (Staten Island)</a></li>
+               <li><a href="/districts/nyc-district-30-astoria/">NYC District 30 (Queens)</a></li>
+               <li><a href="/districts/buffalo-city-sd/">Buffalo City Schools</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h4>Resources</h4>
+            <ul class="footer-links">
+               <li><a href="/about/">About Us</a></li>
+               <li><a href="/contact/">Contact Support</a></li>
+               <li><a href="/privacy-policy/">Privacy Policy</a></li>
+               <li><a href="/sitemap.xml">Sitemap</a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="footer-bottom">
+         <p>© 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br />
+            For official inquiries, visit schools.nyc.gov or nysed.gov.</p>
+      </div>
+   </footer>
+
+</body>
+
+</html>
