@@ -5,7 +5,6 @@ import re
 # CONFIGURATION & MAPPING RULES
 # =========================================================
 
-# The root directory of your website (use '.' if running from the root)
 PROJECT_ROOT = "."
 
 KNOWN_FIXES = {
@@ -14,7 +13,7 @@ KNOWN_FIXES = {
     "CSE_MEETING_GUIDE_PAGE_URL": "cse-meeting-guide.html",
     "ADVOCACY_PAGE_URL": "parent-advocacy-guide.html",
     "GLOSSARY_PAGE_URL": "/guides/index.html", 
-    "/districts/${d.slug}/index.html": "/districts/index.html", # Missed literal template string
+    "/districts/${d.slug}/index.html": "/districts/index.html",
 
     # 2. Old CamelCase Links and Directories
     "CSEMeetingGuide.html": "cse-meeting-guide.html",
@@ -56,13 +55,21 @@ KNOWN_FIXES = {
     "/cse-meeting": "/guides/cse-meeting-guide/index.html",
     "/advocacy": "/guides/parent-advocacy-guide/index.html",
 
-    # 6. Orphaned CSS fixes
+    # 6. Orphaned CSS fixes & Hub Fixes
     "/styles/partners.css": "/styles/global.css",
-    
-    # 7. Broken Top-Level District Hub Links
     "/districts/evaluation-process.html": "/guides/evaluation-request-ny/index.html",
     "/districts/cse-meeting-guide.html": "/guides/cse-meeting-guide/index.html",
-    "/districts/discipline-rights.html": "/guides/index.html",
+    "/districts/discipline-rights.html": "/guides/index.html", 
+
+    # 7. The Final 49 Edge Cases (Typos & Missing Local Files)
+    "cse/": "/guides/cse-meeting-guide/index.html",
+    "iepgoals/": "/guides/index.html",
+    "504/": "/guides/index.html",
+    "Parent-Rights/": "/guides/parent-advocacy-guide/index.html",
+    "Resolving-Disputes/": "/guides/dispute-resolution-ny/index.html",
+    "meeting/": "/guides/cse-meeting-guide/index.html",
+    "evaluation-process/": "/guides/evaluation-request-ny/index.html",
+    "parent-advocacy-guide/": "/guides/parent-advocacy-guide/index.html",
 }
 
 LINK_PATTERN = re.compile(r'href=(["\'])(.*?)\1')
@@ -92,25 +99,32 @@ def does_local_file_exist(current_file_path, href):
     return os.path.exists(target_path)
 
 def attempt_to_fix_link(broken_href):
+    # 1. Check exact matches first
     if broken_href in KNOWN_FIXES:
         return KNOWN_FIXES[broken_href]
     
     clean_href = broken_href.split('?')[0].split('#')[0]
+    
+    # 2. Dynamic directory logic (turns 'folder/' into 'folder.html')
+    if not clean_href.endswith('.html') and not clean_href.endswith('.css'):
+        stripped = clean_href.rstrip('/')
+        if stripped and not stripped.endswith('.'): 
+            return stripped + '.html'
+
+    # 3. Check substring matches last
     for bad_pattern, fix in KNOWN_FIXES.items():
         if bad_pattern in clean_href:
             return fix
 
-    # DYNAMIC LOGIC FIX: Turn trailing slash directories into .html files
-    if not clean_href.endswith('.html') and not clean_href.endswith('.css'):
-        stripped = clean_href.rstrip('/')
-        if stripped and not stripped.endswith('.'): # Avoids formatting "../" into "...html"
-            return stripped + '.html'
-
     return None
 
-print("Starting intelligent link audit and fixing process V2...")
+print("Starting intelligent link audit and fixing process V3...")
 
 for root, dirs, files in os.walk(PROJECT_ROOT):
+    # SAFETY: Ignore the hidden .git folder
+    if '.git' in root:
+        continue
+        
     for filename in files:
         if filename.endswith(".html"):
             total_files_scanned += 1
@@ -152,7 +166,7 @@ for root, dirs, files in os.walk(PROJECT_ROOT):
 
 report_content = f"""
 ==================================================
-        INTELLIGENT LINK FIXER REPORT V2
+        INTELLIGENT LINK FIXER REPORT V3
 ==================================================
 Files Scanned: {total_files_scanned}
 Total Internal Links Checked: {total_links_checked}
