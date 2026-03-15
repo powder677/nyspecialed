@@ -4,24 +4,12 @@
 ==================================================
 Files Scanned: 537
 Total Internal Links Checked: 26344
-Successfully Fixed Links: 13
+Successfully Fixed Links: 0
 Broken Links Remaining: 34
 ==================================================
 
 === SUCCESSFULLY FIXED ===
-FIXED in .\districts\freeport-ufsd\index.html: [cse/] -> [/guides/cse-meeting-guide/index.html]
-FIXED in .\districts\freeport-ufsd\index.html: [iepgoals/] -> [/guides/index.html]
-FIXED in .\districts\freeport-ufsd\index.html: [504/] -> [/guides/index.html]
-FIXED in .\districts\nyc-district-06-washington-heights\index.html: [Parent-Rights/] -> [/guides/parent-advocacy-guide/index.html]
-FIXED in .\districts\nyc-district-06-washington-heights\index.html: [Resolving-Disputes/] -> [/guides/dispute-resolution-ny/index.html]
-FIXED in .\districts\nys-overview\partners.html: [parent-advocacy-guide/] -> [/guides/parent-advocacy-guide/index.html]
-FIXED in .\districts\patchogue-medford-ufsd\cse-meeting-guide.html: [evaluation-process/] -> [/guides/evaluation-request-ny/index.html]
-FIXED in .\districts\patchogue-medford-ufsd\discipline-rights.html: [evaluation-process/] -> [/guides/evaluation-request-ny/index.html]
-FIXED in .\districts\patchogue-medford-ufsd\leadership-directory.html: [evaluation-process/] -> [/guides/evaluation-request-ny/index.html]
-FIXED in .\districts\patchogue-medford-ufsd\parent-advocacy-guide.html: [evaluation-process/] -> [/guides/evaluation-request-ny/index.html]
-FIXED in .\districts\patchogue-medford-ufsd\special-ed-updates.html: [evaluation-process/] -> [/guides/evaluation-request-ny/index.html]
-FIXED in .\districts\william-floyd-ufsd\index.html: [meeting/] -> [/guides/cse-meeting-guide/index.html]
-FIXED in .\districts\william-floyd-ufsd\index.html: [meeting/] -> [/guides/cse-meeting-guide/index.html]
+
 
 === UNFIXABLE / STILL BROKEN ===
 UNFIXABLE (Missing Target) in .\districts\nyc-district-06-washington-heights\index.html: [Community-Resources/] -> [Community-Resources.html]
