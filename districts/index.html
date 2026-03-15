@@ -548,7 +548,7 @@
       }
 
       grid.innerHTML = filtered.map(d => `
-        <a href="/districts/index.html" class="district-card">
+        <a href="/districts/${d.slug}/index.html" class="district-card">
           <span class="district-type ${d.type === 'nyc' ? 'type-nyc' : 'type-nys'}">
             ${d.type === 'nyc' ? 'NYC Dept of Education' : 'NYS Public School'}
           </span>
