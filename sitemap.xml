@@ -361,11 +361,6 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/leadership-directory.html</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/mount-vernon-city-sd</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.6</priority>
@@ -2667,11 +2662,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/resources</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/rights</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.8</priority>
 	</url>
