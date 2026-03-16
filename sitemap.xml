@@ -11,32 +11,12 @@
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/advocacy</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/contact</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/cse-meeting</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/cse-meeting-guide</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/dispute-resolution</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/disputes</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.8</priority>
 	</url>
@@ -206,16 +186,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/cse-meeting-guide.html</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/discipline-rights.html</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/east-ramapo-csd</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.6</priority>
@@ -259,11 +229,6 @@
 		<loc>https://www.newyorkspecialed.net/districts/east-ramapo-csd/special-ed-updates.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/evaluation-process.html</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/freeport-ufsd</loc>
@@ -2106,11 +2071,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/parent-advocacy-guide.html</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/partners.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.6</priority>
@@ -2481,7 +2441,7 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-01-lower-east-side-chinatown/que-es-un-iep-lower-east-side.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-01-lower-east-side/que-es-un-iep-lower-east-side.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -2511,12 +2471,12 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-08-hunts-point-morrisania/que-es-un-iep-hunts-point.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-08-throgs-neck/que-es-un-iep-hunts-point.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-09-tremont/que-es-un-iep-tremont.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-09-grand-concourse/que-es-un-iep-tremont.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -2526,12 +2486,12 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-11-pelham-parkway-morris-park/que-es-un-iep-pelham-parkway.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-11-pelham-parkway/que-es-un-iep-pelham-parkway.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-12-wakefield-williamsbridge/que-es-un-iep-williamsbridge.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-12-soundview/que-es-un-iep-williamsbridge.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -2551,12 +2511,12 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-16-bushwick-bedford-stuyvesant/que-es-un-iep-bedford-stuyvesant.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-16-bed-stuy/que-es-un-iep-bedford-stuyvesant.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-17-crown-heights-flatbush/que-es-un-iep-crown-heights.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-17-crown-heights/que-es-un-iep-crown-heights.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -2566,7 +2526,7 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-19-east-new-yorkS/que-es-un-iep-east-new-york.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-19-east-new-york/que-es-un-iep-east-new-york.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -2581,7 +2541,7 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-22-flatbush/que-es-un-iep-flatbush.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-22-midwood/que-es-un-iep-flatbush.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -2606,7 +2566,7 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-27-jamaica-howard-beach/que-es-un-iep-jamaica.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-27-rockaway/que-es-un-iep-jamaica.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -2634,11 +2594,6 @@
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/que-es-un-iep-bushwick.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/evaluation</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/guides</loc>
