@@ -207,7 +207,7 @@ def fix_comprehensive(file_path):
         
         # ===== FIX 5: SPANISH PAGE LINKS =====
         # Spanish pages linking to English pages that don't exist in Spanish
-        # Example: /es/distritos/.../evaluation-process.html doesn't exist
+        # Example: /districts/.../evaluation-process.html doesn't exist
         # Fix: Link to English version or remove
         
         # Pattern: href="evaluation-process.html" in Spanish files

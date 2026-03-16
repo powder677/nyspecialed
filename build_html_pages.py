@@ -102,7 +102,7 @@ def build_html_page(
     css_path = get_css_path(lang)
 
     en_url = f"{BASE_URL}/districts/{slug}/{en_filename}"
-    es_url = f"{BASE_URL}/es/distritos/{slug}/{es_filename}"
+    es_url = f"{BASE_URL}/districts/{slug}/{es_filename}"
 
     hreflang_tags = f"""
     <link rel="alternate" hreflang="en" href="{en_url}">

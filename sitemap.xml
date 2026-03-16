@@ -11,11 +11,6 @@
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/accommodations</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/advocacy</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.8</priority>
@@ -2286,11 +2281,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/special-ed-updates.html</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/syracuse-city-sd</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.6</priority>
@@ -2491,162 +2481,157 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/eligibility</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-01-lower-east-side-chinatown/que-es-un-iep-lower-east-side.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-01-lower-east-side-chinatown/que-es-un-iep-lower-east-side.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-02-tribeca-greenwich-village/que-es-un-iep-tribeca.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-02-upper-east-side/que-es-un-iep-tribeca.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-03-upper-west-side/que-es-un-iep-upper-west-side.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-03-upper-west-side/que-es-un-iep-upper-west-side.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-04-east-harlem/que-es-un-iep-east-harlem.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/que-es-un-iep-east-harlem.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-05-central-harlem/que-es-un-iep-central-harlem.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-05-central-harlem/que-es-un-iep-central-harlem.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-07-south-bronx/que-es-un-iep-south-bronx.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-07-south-bronx/que-es-un-iep-south-bronx.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-08-hunts-point-morrisania/que-es-un-iep-hunts-point.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-08-hunts-point-morrisania/que-es-un-iep-hunts-point.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-09-tremont-belmont/que-es-un-iep-tremont.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-09-tremont/que-es-un-iep-tremont.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-10-fordham-riverdale/que-es-un-iep-riverdale.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-10-fordham-riverdale/que-es-un-iep-riverdale.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-11-pelham-parkway-morris-park/que-es-un-iep-pelham-parkway.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-11-pelham-parkway-morris-park/que-es-un-iep-pelham-parkway.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-12-wakefield-williamsbridge/que-es-un-iep-williamsbridge.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-12-wakefield-williamsbridge/que-es-un-iep-williamsbridge.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-13-brooklyn-heights-fort-greene/que-es-un-iep-brooklyn-heights.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-13-brooklyn-heights/que-es-un-iep-brooklyn-heights.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-14-williamsburg-greenpoint/que-es-un-iep-williamsburg.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-14-williamsburg/que-es-un-iep-williamsburg.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-15-park-slope-red-hook/que-es-un-iep-park-slope.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-15-park-slope/que-es-un-iep-park-slope.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-16-bushwick-bedford-stuyvesant/que-es-un-iep-bedford-stuyvesant.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-16-bushwick-bedford-stuyvesant/que-es-un-iep-bedford-stuyvesant.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-17-crown-heights-flatbush/que-es-un-iep-crown-heights.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-17-crown-heights-flatbush/que-es-un-iep-crown-heights.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-18-canarsie-flatlands/que-es-un-iep-canarsie.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-18-east-flatbush/que-es-un-iep-canarsie.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-19-east-new-york-starrett-city/que-es-un-iep-east-new-york.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-19-east-new-yorkS/que-es-un-iep-east-new-york.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-20-bay-ridge-bensonhurst/que-es-un-iep-bay-ridge.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-20-bay-ridge/que-es-un-iep-bay-ridge.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-21-coney-island-brighton-beach/que-es-un-iep-coney-island.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-21-coney-island/que-es-un-iep-coney-island.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-22-flatbush-marine-park/que-es-un-iep-flatbush.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-22-flatbush/que-es-un-iep-flatbush.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-23-brownsville/que-es-un-iep-brownsville.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-23-brownsville/que-es-un-iep-brownsville.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-24-middle-village-ridgewood/que-es-un-iep-ridgewood.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-24-maspeth/que-es-un-iep-ridgewood.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-25-flushing-whitestone/que-es-un-iep-flushing.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-25-flushing/que-es-un-iep-flushing.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-26-bayside/que-es-un-iep-bayside.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-26-bayside/que-es-un-iep-bayside.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-27-jamaica-howard-beach/que-es-un-iep-jamaica.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-27-jamaica-howard-beach/que-es-un-iep-jamaica.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-28-forest-hills-richmond-hill/que-es-un-iep-forest-hills.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-28-forest-hills/que-es-un-iep-forest-hills.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-29-queens-village/que-es-un-iep-springfield-gardens.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-29-queens-village/que-es-un-iep-springfield-gardens.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-30-astoria-long-island-city/que-es-un-iep-astoria.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-30-astoria/que-es-un-iep-astoria.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-31-staten-island/que-es-un-iep-staten-island.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-31-staten-island/que-es-un-iep-staten-island.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/es/distritos/nyc-district-32-bushwick/que-es-un-iep-bushwick.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/que-es-un-iep-bushwick.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -2716,24 +2701,9 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/guides/parent-advocacy-guide</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/parent-advocacy-guide/index.html</loc>
+		<loc>/guides/parent-advocacy-guide/index.html</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/iep</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/iep-goals</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/privacy-policy</loc>
@@ -2751,22 +2721,12 @@
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/services</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/sitemap.xml</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/tools</loc>
-		<lastmod>2026-03-15</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/transition-planning</loc>
 		<lastmod>2026-03-15</lastmod>
 		<priority>0.8</priority>
 	</url>

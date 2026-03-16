@@ -2,7 +2,7 @@ import os
 import re
 
 # Define our directories
-ES_DIR = "./es/distritos/"
+ES_DIR = "./districts/"
 EN_DIR = "./districts/"
 
 if not os.path.exists(ES_DIR):

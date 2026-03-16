@@ -108,7 +108,7 @@ class DeepLinkPatcher:
             normalized_path = self._normalize_href(original_href)
             
             # 2. Fix the broken Spanish architecture dynamically
-            if normalized_path and normalized_path.startswith('/es/distritos/'):
+            if normalized_path and normalized_path.startswith('/districts/'):
                 filename = os.path.basename(urlparse(normalized_path).path)
                 if filename in self.file_index:
                     a_tag['href'] = self.file_index[filename]
