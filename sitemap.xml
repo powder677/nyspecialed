@@ -11,17 +11,7 @@
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/central-islip-ufsd/cse-meeting-guide.html</loc>
-		<lastmod>2026-03-16</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/contact</loc>
-		<lastmod>2026-03-16</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/cse-meeting</loc>
 		<lastmod>2026-03-16</lastmod>
 		<priority>0.8</priority>
 	</url>
@@ -236,11 +226,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/evaluation-process.html</loc>
-		<lastmod>2026-03-16</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/freeport-ufsd</loc>
 		<lastmod>2026-03-16</lastmod>
 		<priority>0.6</priority>
@@ -367,11 +352,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/index.html</loc>
-		<lastmod>2026-03-16</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/leadership-directory.html</loc>
 		<lastmod>2026-03-16</lastmod>
 		<priority>0.6</priority>
 	</url>
@@ -706,11 +686,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/evaluation-process.html </loc>
-		<lastmod>2026-03-16</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/leadership-directory.html</loc>
 		<lastmod>2026-03-16</lastmod>
 		<priority>0.5</priority>
@@ -991,7 +966,7 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-10-fordham-riverdale/que-es-un-iep-riverdale.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-10-riverdale/que-es-un-iep-riverdale.html</loc>
 		<lastmod>2026-03-16</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -1211,7 +1186,7 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-14-williamsburg/guides/index.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-14-williamsburg/guides/bilingual-iep-new-york/index.html</loc>
 		<lastmod>2026-03-16</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -1721,7 +1696,7 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-24-maspeth/index.html</loc>
+		<loc>https://www.newyorkspecialed.net/districts/nyc-district-24-bayridge/index.html</loc>
 		<lastmod>2026-03-16</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -2126,11 +2101,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/guides/index.html</loc>
-		<lastmod>2026-03-16</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/leadership-directory.html</loc>
 		<lastmod>2026-03-16</lastmod>
 		<priority>0.5</priority>
@@ -2431,11 +2401,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/special-ed-updates.html</loc>
-		<lastmod>2026-03-16</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/syracuse-city-sd</loc>
 		<lastmod>2026-03-16</lastmod>
 		<priority>0.6</priority>
@@ -2696,11 +2661,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/guides/iep-development/index.html</loc>
-		<lastmod>2026-03-16</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/guides/index.html</loc>
 		<lastmod>2026-03-16</lastmod>
 		<priority>0.6</priority>
@@ -2712,11 +2672,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/guides/parent-advocacy-guide/index.html</loc>
-		<lastmod>2026-03-16</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/service-delivery-models/index.html</loc>
 		<lastmod>2026-03-16</lastmod>
 		<priority>0.5</priority>
 	</url>
