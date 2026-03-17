@@ -1,120 +1,14 @@
-<!DOCTYPE html>
+import os
+import re
 
-<html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>
-   Terms of Service | NY Special Ed
-  </title>
-<meta content="Terms of service for New York Special Ed — an independent parent resource for navigating the special education system in New York State." name="description"/>
-<link href="https://www.newyorkspecialed.net/terms" rel="canonical"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
-<link href="/styles/global.css" rel="stylesheet"/>
-<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
-<meta content="website" property="og:type"/><meta content="Terms of Service | NY Special Ed" property="og:title"/><meta content="Terms of service for New York Special Ed — an independent parent resource for navigating the special education system in New York State." property="og:description"/><meta content="https://www.newyorkspecialed.net/terms.html" property="og:url"/><meta content="summary_large_image" name="twitter:card"/><meta content="Terms of Service | NY Special Ed" name="twitter:title"/><meta content="Terms of service for New York Special Ed — an independent parent resource for navigating the special education system in New York State." name="twitter:description"/>
-    <meta property="og:image" content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" />
-    <meta name="twitter:image" content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" /></head>
-<body>
-<!-- ny-terms-v1 -->
-<header class="site-header">
-<!-- standard NY header here -->
-</header>
-<section class="page-hero-dark">
-<div class="container">
-<h1>
-     Terms of Service
-    </h1>
-<p class="hero-sub">
-     Please read these terms before using NY Special Ed.
-    </p>
-</div>
-</section>
-<main>
-<div class="container" style="max-width:760px; padding:48px 24px;">
-<p style="color:#666; margin-bottom:32px;">
-<em>
-      Last updated: February 2026
-     </em>
-</p>
-<div class="content-section">
-<h2>
-      1. About This Site
-     </h2>
-<p>
-      NY Special Ed (
-      <strong>
-       newyorkspecialed.net
-      </strong>
-      ) is an independent informational resource for parents of children receiving special education services in New York State. This site is not affiliated with, endorsed by, or operated by the New York State Education Department (NYSED), any school district, or any government agency.
-     </p>
-</div>
-<div class="content-section">
-<h2>
-      2. Not Legal Advice
-     </h2>
-<p>
-      Nothing on this website constitutes legal advice. The information provided is for general educational purposes only. For advice specific to your child's situation, consult a qualified special education attorney or advocate licensed in New York State.
-     </p>
-</div>
-<div class="content-section">
-<h2>
-      3. Accuracy of Information
-     </h2>
-<p>
-      We make every effort to keep information current and accurate, but special education law and district policies change. Always verify critical information with NYSED, your district's CSE office, or a qualified professional before taking action.
-     </p>
-</div>
-<div class="content-section">
-<h2>
-      4. Third-Party Providers
-     </h2>
-<p>
-      Some pages on this site list attorneys, advocates, and evaluators who have paid for placement. Listing does not constitute endorsement. We do not verify credentials, licensure, or outcomes. Always independently verify any provider's qualifications before engaging their services.
-     </p>
-</div>
-<div class="content-section">
-<h2>
-      5. External Links
-     </h2>
-<p>
-      We link to external websites for convenience. We are not responsible for the content, accuracy, or privacy practices of external sites.
-     </p>
-</div>
-<div class="content-section">
-<h2>
-      6. Limitation of Liability
-     </h2>
-<p>
-      NY Special Ed and its operators shall not be liable for any damages arising from your use of, or inability to use, this website or any information contained herein.
-     </p>
-</div>
-<div class="content-section">
-<h2>
-      7. Changes to These Terms
-     </h2>
-<p>
-      We may update these terms at any time. Continued use of the site constitutes acceptance of any updated terms.
-     </p>
-</div>
-<div class="content-section">
-<h2>
-      8. Contact
-     </h2>
-<p>
-      Questions about these terms?
-      <a href="/contact/">
-       Contact us here
-      </a>
-      .
-     </p>
-</div>
-</div>
-</main>
-<footer class="site-footer">
-<!-- standard NY footer here -->
-</footer>
+FOLDER_PATH = "." 
 
+def inject_popup(directory):
+    files_fixed = 0
+    skipped = 0
+    
+    # The universal popup code (HTML + JS) tailored for New York
+    popup_code = """
 <div id="ec-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:9998;align-items:center;justify-content:center;">
   <div id="ec-modal" style="background:#fff;border-radius:12px;padding:32px 28px;max-width:380px;width:90%;position:relative;box-shadow:0 8px 32px rgba(0,0,0,.18);">
     <button id="ec-close" aria-label="Close" style="position:absolute;top:12px;right:14px;background:none;border:none;font-size:20px;cursor:pointer;color:#888;line-height:1;">&#x2715;</button>
@@ -141,7 +35,7 @@
 <script
   id="ec-script"
   data-site="new_york_special_ed"
-  data-language="en"
+  data-language="PAGE_LANGUAGE_PLACEHOLDER"
   data-delay="10000"
   data-api="https://email-capture-api-831148457361.us-central1.run.app">
 (function() {
@@ -238,5 +132,46 @@
   emailEl.addEventListener("keydown", function(e) { if (e.key === "Enter") submitEl.click(); });
 })();
 </script>
-</body>
-</html>
+</body>"""
+
+    print("🔍 Scanning New York site to inject universal email popup...")
+    
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if file.endswith(".html"):
+                filepath = os.path.join(root, file)
+                
+                try:
+                    with open(filepath, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                        
+                    # Skip if the popup is already on this page!
+                    if 'id="ec-script"' in content:
+                        skipped += 1
+                        continue
+                        
+                    # Determine language by looking at the HTML tag
+                    lang = "es" if 'lang="es"' in content.lower() else "en"
+                    
+                    # Customize the popup block for this specific page's language
+                    customized_popup = popup_code.replace("PAGE_LANGUAGE_PLACEHOLDER", lang)
+                    
+                    # Inject it right before the closing </body> tag
+                    if "</body>" in content:
+                        new_content = content.replace("</body>", customized_popup)
+                        
+                        with open(filepath, 'w', encoding='utf-8') as f:
+                            f.write(new_content)
+                        
+                        files_fixed += 1
+                        print(f"✅ Injected ({lang.upper()}): {filepath}")
+                    else:
+                        print(f"⚠️ No </body> tag found in {filepath}. Skipping.")
+                        
+                except Exception as e:
+                    print(f"⚠️ Could not read {filepath}: {e}")
+
+    print(f"\n🎉 Done! Successfully injected the popup into {files_fixed} pages (Skipped {skipped} already injected).")
+
+if __name__ == "__main__":
+    inject_popup(FOLDER_PATH)
