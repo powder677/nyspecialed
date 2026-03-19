@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>
+   CSE Meeting Guide for District 7
+  </title>
+<meta content="Prepare for your Committee on Special Education meeting in District 7. Tips for Related services shortages, CPSE delays, D75 referrals." name="description"/>
+<link href="/styles/global.css" rel="stylesheet"/>
+<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+<!-- __content-css-start__ -->
+<style>
+   /* district content styles — injected by fix_content_format.py */
+.content-body {
+  max-width: 780px;
+  padding: 0 0 32px;
+  font-size: 1.02rem;
+  line-height: 1.85;
+  color: #2d3748;
+}
+.content-body h2 {
+  font-size: 1.3rem;
+  color: #002868;
+  border-left: 4px solid #d4af37;
+  padding-left: 14px;
+  margin: 44px 0 16px;
+  line-height: 1.3;
+}
+.content-body p {
+  margin: 0 0 18px;
+}
+/* Bullet list cards */
+.content-body ul.content-list {
+  margin: 8px 0 24px 0;
+  padding-left: 0;
+  list-style: none;
+}
+.content-body ul.content-list li {
+  padding: 14px 18px;
+  margin-bottom: 10px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #002868;
+  border-radius: 0 6px 6px 0;
+  line-height: 1.75;
+  font-size: 0.97rem;
+}
+.content-body ul.content-list li strong {
+  color: #002868;
+  display: block;
+  margin-bottom: 4px;
+}
+/* Red flag callout inside list items */
+.content-body .red-flag {
+  display: inline-block;
+  background: #fff1f2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+  border-radius: 4px;
+  padding: 1px 7px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+/* Letter template blockquote */
+.content-body blockquote.letter-template {
+  background: #f0f4ff;
+  border: 1px solid #c7d7f4;
+  border-left: 5px solid #002868;
+  border-radius: 0 8px 8px 0;
+  padding: 24px 28px;
+  margin: 24px 0 28px;
+  font-size: 0.94rem;
+  line-height: 1.8;
+  color: #1e2d4a;
+  font-style: italic;
+  white-space: pre-line;
+  position: relative;
+}
+.content-body blockquote.letter-template::before {
+  content: '✉  Sample Letter';
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #002868;
+  margin-bottom: 14px;
+}
+/* Page header */
+.content-page-header {
+  padding: 8px 0 24px;
+  border-bottom: 2px solid #e2e8f0;
+  margin-bottom: 32px;
+}
+.content-page-header .eyebrow {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+.content-page-header h1 {
+  font-size: clamp(1.5rem, 4vw, 2.1rem);
+  color: #002868;
+  margin: 0 0 10px;
+  line-height: 1.2;
+}
+.content-page-header .intro {
+  font-size: 1.02rem;
+  color: #4b5563;
+  line-height: 1.7;
+  max-width: 680px;
+  margin: 0;
+}
+  </style>
+<!-- __content-css-end__ -->
+<!-- __district-subnav-css-start__ -->
+<style>
+   /* district-subnav — auto-injected by fix_district_nav.py */
+.district-subnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 0 0 24px 0;
+}
+.district-subnav a {
+  display: inline-block;
+  padding: 5px 11px;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0056b3;
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.district-subnav a:hover { background: #dbeafe; }
+.district-subnav a.subnav-active {
+  background: #002868;
+  color: #fff;
+  border-color: #002868;
+  cursor: default;
+}
+  </style>
+<!-- __district-subnav-css-end__ -->
+<link href="https://www.newyorkspecialed.net/districts/nyc-district-07-south-bronx/cse-meeting-guide.html" rel="canonical"/>
+<meta content="website" property="og:type"/><meta content="CSE Meeting Guide for District 7" property="og:title"/><meta content="Prepare for your Committee on Special Education meeting in District 7. Tips for Related services shortages, CPSE delays, D75 referrals." property="og:description"/><meta content="https://www.newyorkspecialed.net/districts/nyc-district-07-south-bronx/cse-meeting-guide.html" property="og:url"/><meta content="summary_large_image" name="twitter:card"/><meta content="CSE Meeting Guide for District 7" name="twitter:title"/><meta content="Prepare for your Committee on Special Education meeting in District 7. Tips for Related services shortages, CPSE delays, D75 referrals." name="twitter:description"/>
+<meta content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" property="og:image"/>
+<meta content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" name="twitter:image"/></head>
+<body>
+<!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+<header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader">
+<div class="nav-container">
+<!-- Logo -->
+<a aria-label="New York Special Ed - Home" class="nav-logo" href="/">
+<img alt="New York Special Ed logo" height="120" loading="eager" src="/images/logo.png" style="display:block; height:120px; width:auto; border-radius:8px;" width="120"/>
+</a>
+<!-- Desktop Navigation -->
+<nav itemscope="" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+<ul class="nav-links">
+<!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/">
+        NYC Districts
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="mega-menu">
+<div class="menu-column">
+<h4>
+          Manhattan (D1-6)
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-01-lower-east-side/">
+            District 1: Lower East Side
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-02-upper-east-side/">
+            District 2: Upper East Side/Tribeca
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-03-upper-west-side/">
+            District 3: Upper West Side
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-04-east-harlem/">
+            District 4: East Harlem
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-05-central-harlem/">
+            District 5: Central Harlem
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-06-washington-heights/">
+            District 6: Washington Heights
+           </a>
+</li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>
+          Brooklyn (Key Districts)
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-15-park-slope/">
+            District 15: Park Slope/Sunset Park
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-20-bay-ridge/">
+            District 20: Bay Ridge/Borough Park
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-13-brooklyn-heights/">
+            District 13: Brooklyn Heights
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-75/">
+<strong>
+             District 75 (Citywide Programs)
+            </strong>
+</a>
+</li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>
+          Queens &amp; SI
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-26-bayside/">
+            District 26: Bayside
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-30-astoria/">
+            District 30: Astoria/LIC
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-31-staten-island/">
+            District 31: Staten Island
+           </a>
+</li>
+<li>
+<a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">
+            View All 32 NYC Districts →
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/nys-overview/">
+        Upstate &amp; LI
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<h4>
+          Big 5 Cities
+         </h4>
+<ul>
+<li>
+<a href="/districts/buffalo-city-sd/">
+            Buffalo City SD
+           </a>
+</li>
+<li>
+<a href="/districts/rochester-city-sd/">
+            Rochester City SD
+           </a>
+</li>
+<li>
+<a href="/districts/syracuse-city-sd/">
+            Syracuse City SD
+           </a>
+</li>
+<li>
+<a href="/districts/yonkers-city-sd/">
+            Yonkers City SD
+           </a>
+</li>
+<li>
+<a href="/districts/albany-city-sd/">
+            Albany City SD
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+<li class="nav-item">
+<a class="nav-link" href="/guides/">
+        Parent Guides
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<ul>
+<li>
+<a href="/guides/cse-meeting-guide/">
+            CSE Meeting Guide
+           </a>
+</li>
+<li>
+<a href="/guides/evaluation-request-ny/">
+            Requesting an Evaluation
+           </a>
+</li>
+<li>
+<a href="/guides/bilingual-iep-new-york/">
+            Bilingual IEP Rights
+           </a>
+</li>
+<li>
+<a href="/guides/cpse-preschool-special-education/">
+            CPSE (Preschool) Guide
+           </a>
+</li>
+<li>
+<a href="/guides/carter-cases-private-placement/">
+            Private Placement (Carter Cases)
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- LINK: RESOURCES -->
+<li class="nav-item">
+<a class="nav-link" href="/resources/">
+        Free Tools
+       </a>
+</li>
+<!-- CTA -->
+<li class="nav-item">
+<a class="nav-cta" href="/contact/">
+        Get The Toolkit
+       </a>
+</li>
+</ul>
+</nav>
+<!-- Mobile Toggle -->
+<button aria-label="Open Navigation" class="mobile-toggle">
+<i class="fas fa-bars">
+</i>
+</button>
+</div>
+</header>
+<main class="container">
+<div class="aeo-authority-block">
+<a href="/districts/nyc-district-07-south-bronx/">
+     ← Back to District 7 Hub
+    </a>
+</div>
+<!-- __district-subnav-start__ -->
+<nav aria-label="Pages in this district" class="district-subnav">
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-07-south-bronx/">
+     🏠 Hub
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-07-south-bronx/leadership-directory.html">
+     📞 Contacts
+    </a>
+<a aria-current="page" class="subnav-active" href="https://www.newyorkspecialed.net/districts/nyc-district-07-south-bronx/cse-meeting-guide.html">
+     🤝 CSE Guide
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-07-south-bronx/evaluation-process.html">
+     📝 Evaluations
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-07-south-bronx/discipline-rights.html">
+     ⚖️ Discipline
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-07-south-bronx/partners.html">
+     🤲 Partners
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-07-south-bronx/special-ed-updates.html">
+     📰 Updates
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-07-south-bronx/parent-advocacy-guide.html">🛡️ Advocacy</a><a href="https://www.newyorkspecialed.net/districts/nyc-district-07-south-bronx/what-is-an-iep.html">📋 What Is an IEP?</a></nav>
+<!-- __district-subnav-end__ -->
+<!-- Top Banner Anchor to Bot -->
+<div style="background: #2d5248; color: white; padding: 16px 24px; border-radius: 8px; margin-top: 24px; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-wrap: wrap; gap: 16px;">
+<div style="display: flex; align-items: center; gap: 12px;">
+<span style="background: #c9973a; color: #2d5248; padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: 800; letter-spacing: 0.1em;">NEW</span>
+<span style="font-family:'Lora',serif; font-size:18px; font-weight:700;">Get Your IEP Letter Written by our AI Bot</span>
+</div>
+<a href="/tools/" style="background: #c9973a; color: #2d5248; font-weight: 800; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-size: 14px; white-space: nowrap; transition: background 0.2s;">Start Now — $15 →</a>
+</div>
+<div class="premium-split-container" style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start; width: 100%; margin-top: 30px;"><div class="content-body" style="flex: 1 1 60%; min-width: 300px; max-width: 100%; padding: 0; margin-top: 0;">
+<div class="content-page-header">
+<div class="eyebrow">
+      District 7 · CSE Meeting Guide
+     </div>
+<h1>
+      Who Must Be in the Room
+     </h1>
+<p class="intro">
+      Your rights, preparation checklist, red flags, and what every section of the IEP document means — for District 7 parents.
+     </p>
+</div>
+<p>
+     Understanding who is required to be present at your child's Committee on Special Education (CSE) meeting is the first step in ensuring your voice is heard and your child's needs are met. New York State law, specifically 8 NYCRR §200.3, clearly outlines the mandatory members of the CSE. These members are not optional; their presence is legally required to ensure a comprehensive and balanced discussion of your child's educational needs.
+    </p>
+<p>
+     The required members include: a representative of the school district (often the CSE Chairperson), a school psychologist, your child's special education teacher (or, if your child doesn't yet receive special education services, a special education teacher knowledgeable about your child's disability), a general education teacher (if your child is, or may be, participating in the general education environment), you as the parent or guardian, and a Parent Member. When transition services are discussed (generally starting at age 15 in New York), your child
+     <em>
+      must
+     </em>
+     be invited to the meeting.
+    </p>
+<p>
+     Each member brings a unique perspective and expertise to the table. The district representative is authorized to commit resources on behalf of the district. The school psychologist contributes expertise in evaluation and educational planning. The special education teacher provides insight into your child's specific learning needs and progress. The general education teacher offers perspective on the general curriculum and classroom environment. And you, the parent, possess invaluable knowledge about your child's strengths, weaknesses, and overall well-being.
+    </p>
+<p>
+     The Parent Member is a particularly important, yet often underutilized, resource. This individual is another parent of a child with a disability who resides in New York City. They are trained to provide support and guidance to other parents navigating the special education system. They can offer practical advice, share their own experiences, and help you understand your rights and responsibilities. Don't hesitate to reach out to the Parent Member before, during, and after the CSE meeting. Contact District 7 to confirm how to best connect with the Parent Member assigned to your child's school.
+    </p>
+<p>
+     It's crucial to remember that you, as the parent, are an
+     <em>
+      equal
+     </em>
+     member of the CSE. Your input is not merely welcomed; it is legally required. You have the right to actively participate in all discussions, ask questions, and express your concerns. The CSE cannot make decisions about your child's education without your meaningful participation.
+    </p>
+<p>
+     Under certain circumstances, a required member may be excused from attending the CSE meeting. However, this is only permissible if you, as the parent, provide written consent
+     <em>
+      and
+     </em>
+     the member submits written input into the development of the IEP prior to the meeting. This written input must be directly related to your child's needs and potential services. Be wary of blanket excusals; each excusal should be considered on a case-by-case basis.
+    </p>
+<h2>
+     Before the Meeting: How to Prepare
+    </h2>
+<p>
+     Thorough preparation is key to a productive CSE meeting. You are your child's best advocate, and being well-informed and organized will empower you to effectively communicate their needs and ensure they receive the appropriate services.
+    </p>
+<p>
+     First, request
+     <em>
+      all
+     </em>
+     evaluations and the draft IEP at least five school days before the scheduled meeting. This includes psychological evaluations, educational assessments, speech and language reports, occupational therapy evaluations, and any other relevant documentation. Review these documents carefully, noting any areas of agreement or disagreement. Having the draft IEP in advance is crucial; its absence is a red flag indicating a potentially pre-determined outcome. If you do not receive these documents in a timely manner, contact the CSE office immediately and request an adjournment until you have had sufficient time to review them.
+    </p>
+<p>
+     Next, write a one-page "Parent Concerns" statement. This document should clearly and concisely outline your primary concerns regarding your child's education. Include specific examples of challenges your child is facing, as well as your goals and aspirations for their future. This statement will serve as a roadmap for the CSE meeting and ensure that your priorities are addressed.
+    </p>
+<p>
+     If you have obtained any private evaluations or reports, bring them to the meeting. These documents can provide valuable additional information about your child's strengths and weaknesses. Be prepared to discuss the findings and how they relate to your child's educational needs. While the district is not obligated to accept private evaluations outright, they must consider them.
+    </p>
+<p>
+     Consider bringing a support person to the meeting. This could be a family member, friend, advocate, or educational consultant. Having someone present to take notes, ask questions, and provide emotional support can be invaluable, especially if you feel intimidated or overwhelmed by the process.
+    </p>
+<p>
+     Finally, review your child's current IEP (if applicable) and note which goals were met and which were not. Be prepared to discuss the reasons why certain goals were not achieved and what steps can be taken to address these challenges in the upcoming IEP. If you believe the goals were inappropriate or unrealistic, be prepared to articulate why.
+    </p>
+<p>
+     Remember, you have the right to actively participate in the development of your child's IEP. By preparing thoroughly, you can ensure that your voice is heard and that your child receives the support and services they need to succeed.
+    </p>
+<h2>
+     Your Rights During the Meeting
+    </h2>
+<p>
+     You have specific rights during the CSE meeting, designed to ensure fairness and transparency. Understanding and asserting these rights is crucial for effective advocacy.
+    </p>
+<p>
+     First, you have the right to interpretation services if you are not fluent in English. The district is legally obligated to provide a qualified interpreter to ensure you fully understand the discussions and can effectively communicate your concerns. Do not hesitate to request an interpreter if needed.
+    </p>
+<p>
+     You also have the right to audio record the CSE meeting, provided you inform the district in advance. This can be a valuable tool for documenting the discussion and ensuring that your concerns are accurately reflected in the IEP. Send a written notification to the CSE office at least 24 hours prior to the meeting, stating your intention to record.
+    </p>
+<p>
+     You have the right to question every recommendation made by the CSE members. Do not feel pressured to accept suggestions without fully understanding the rationale behind them. Ask for clarification, request supporting data, and express any concerns you may have. Remember, you are an equal member of the team, and your input is essential.
+    </p>
+<p>
+     If you disagree with any aspect of the proposed IEP, you have the right to express your dissent in writing. This written statement should clearly outline your specific objections and the reasons for your disagreement. This statement will be included in your child's educational record.
+    </p>
+<p>
+     You also have the right to request an adjournment of the meeting if you feel that you need more time to review information, gather additional documentation, or consult with experts. Do not feel pressured to make decisions on the spot. You can request to reconvene the meeting at a later date.
+    </p>
+<p>
+     Crucially, you are
+     <em>
+      not
+     </em>
+     required to sign the IEP at the meeting. Take the document home, review it carefully, and seek advice from trusted sources if needed. You have the right to consider the IEP thoroughly before making a decision. Signing the IEP indicates your attendance at the meeting, not necessarily your agreement with its contents.
+    </p>
+<h2>
+     Navigating the IEP Document
+    </h2>
+<p>
+     The Individualized Education Program (IEP) is the cornerstone of your child's special education. Understanding each section of the IEP is essential for ensuring that it accurately reflects your child's needs and provides a roadmap for their educational journey.
+    </p>
+<p>
+     The Present Levels of Academic Achievement and Functional Performance (PLAAFP) section is the foundation of the IEP. This section describes your child's current academic and functional skills, including their strengths, weaknesses, and areas where they need support. It should be based on a variety of data sources, including evaluations, classroom observations, and your input as the parent. Red flags in this section include vague or generic statements, a lack of specific data, and a failure to address your concerns.
+    </p>
+<p>
+     The Annual Goals section outlines the specific, measurable, achievable, relevant, and time-bound (SMART) goals that your child is expected to achieve within one year. These goals should be directly related to the needs identified in the PLAAFP section. Red flags include goals that are too broad or unrealistic, a lack of clear measurement criteria, and a failure to address all areas of need.
+    </p>
+<p>
+     The Special Education Services section describes the specific instructional supports and interventions that your child will receive to achieve their annual goals. This may include specialized instruction, modifications to the curriculum, and assistive technology. Red flags include a lack of detail about the type, frequency, and duration of services, and a failure to provide evidence-based interventions.
+    </p>
+<p>
+     The Related Services section outlines any additional services that your child needs to benefit from their education. This may include speech therapy, occupational therapy, physical therapy, counseling, or transportation. Red flags include a failure to address all necessary related services, and a lack of coordination between related service providers and classroom teachers.
+    </p>
+<p>
+     The Supplementary Aids and Services section describes any additional supports that your child needs to participate in the general education environment. This may include preferential seating, assistive technology, or one-on-one support. Red flags include a failure to provide necessary accommodations, and a lack of training for staff on how to implement these accommodations.
+    </p>
+<p>
+     The Testing Accommodations section outlines any modifications to standardized testing procedures that your child needs to accurately demonstrate their knowledge and skills. This may include extended time, a separate testing location, or the use of assistive technology. Red flags include a failure to provide appropriate accommodations, and a lack of consistency between classroom accommodations and testing accommodations.
+    </p>
+<p>
+     The Least Restrictive Environment (LRE) justification explains why your child is placed in their current educational setting. Federal law requires that students with disabilities be educated in the least restrictive environment possible, meaning that they should be educated with their non-disabled peers to the maximum extent appropriate. Red flags include a lack of justification for a more restrictive placement, and a failure to consider less restrictive options.
+    </p>
+<p>
+     The Transition Plan (required starting at age 15 in New York) outlines the steps that will be taken to prepare your child for life after high school. This may include vocational training, college preparation, or independent living skills training. Red flags include a lack of specific goals and activities, and a failure to involve your child in the planning process.
+    </p>
+<h2>
+     After the Meeting: The 10-Day Rule
+    </h2>
+<p>
+     Once the CSE meeting concludes and the IEP is finalized, the school district has a legal obligation to implement the IEP within 10 school days. This means that all services, accommodations, and supports outlined in the IEP must be in place and actively provided to your child within this timeframe.
+    </p>
+<p>
+     If you disagree with the IEP, it is crucial to take immediate action. First, submit a written statement of dissent to the CSE office. This statement should clearly outline your specific objections to the IEP and the reasons for your disagreement. This statement will be included in your child's educational record.
+    </p>
+<p>
+     You can also request a re-evaluation of your child's needs. This may involve additional testing or assessments to gather more information about your child's strengths and weaknesses. A re-evaluation can provide valuable data to support your concerns and inform the development of a more appropriate IEP.
+    </p>
+<p>
+     Another option is to file a formal complaint with the New York State Education Department (NYSED). This complaint should detail the specific violations of law or regulation that you believe have occurred. NYSED will investigate your complaint and take appropriate action if necessary. Information on how to file a complaint can be found on the NYSED website.
+    </p>
+<p>
+     Regardless of the actions you take, it is essential to keep copies of everything related to your child's special education. This includes the IEP, evaluations, reports, correspondence, and any other relevant documentation. These records will be invaluable if you need to advocate for your child's rights in the future.
+    </p>
+<p>
+     Remember, you are not alone in this process. There are many resources available to support you, including parent advocacy organizations, legal aid services, and independent educational consultants. Don't hesitate to seek assistance from these resources if you need help navigating the special education system.
+    </p>
+<h2>
+     Red Flags: Signs Your CSE Meeting Is Off Track
+    </h2>
+<p>
+     Recognizing red flags during your child's CSE meeting is crucial for ensuring a fair and appropriate outcome. These red flags signal potential procedural violations or a lack of genuine consideration for your child's individual needs.
+    </p>
+<p>
+     One of the most significant red flags is a pre-determined outcome. This occurs when the CSE members have already decided on the IEP before the meeting even begins. Signs of a pre-determined outcome include a draft IEP that is presented as non-negotiable, a reluctance to consider your input, and a lack of flexibility in the discussion.
+    </p>
+<p>
+     Another red flag is a meeting that is excessively short, particularly under 20 minutes. Developing an appropriate IEP requires careful consideration of your child's needs, goals, and services. A rushed meeting suggests that the CSE members are not taking the process seriously.
+    </p>
+<p>
+     The absence of a draft IEP beforehand is another cause for concern. As mentioned earlier, you should receive the draft IEP and all relevant evaluations at least five school days before the meeting. The absence of these documents indicates a lack of preparation and may suggest a pre-determined outcome.
+    </p>
+<p>
+     Pressure to sign the IEP immediately is a major red flag. You have the right to take the IEP home, review it carefully, and seek advice from trusted sources before making a decision. Any attempt to pressure you into signing the IEP on the spot is a violation of your rights.
+    </p>
+<p>
+     The absence of the Parent Member is another red flag. The Parent Member is a required member of the CSE and provides valuable support and guidance to parents. Their absence may indicate a lack of resources or a disregard for the parent perspective.
+    </p>
+<p>
+     Finally, a district representative who cannot commit resources is a significant red flag. The district representative must have the authority to allocate the necessary resources to implement the IEP. If the representative is unable to make these commitments, it may be difficult to ensure that your child receives the services they need.
+    </p>
+<p>
+     If you notice any of these red flags during your child's CSE meeting, it is important to take action. First, calmly and respectfully express your concerns to the CSE members. Document your concerns in writing and request that they be included in the meeting minutes. If your concerns are not addressed, consider adjourning the meeting and seeking assistance from a parent advocacy organization or legal aid service. Remember, you have the right to a fair and appropriate CSE process, and you should not hesitate to assert your rights if you believe they are being violated.
+    </p>
+</div>
+<div class="premium-sidebar-right" style="flex: 1 1 30%; min-width: 300px; position: sticky; top: 20px;">
+  <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.08);">
+    <div style="background: #2d5248; padding: 36px 24px; text-align: center; color: white;">
+      <h3 style="margin: 0 0 12px 0; font-family: 'Lora', serif; font-size: 24px;">IEP Letter Writer</h3>
+      <p style="margin: 0 0 24px 0; font-size: 15px; color: #e2e8f0; line-height: 1.6;">Don't know what to say to the CSE? Let our AI bot generate a custom, legally-sound request letter for you in minutes.</p>
+      <a href="/tools/" style="display: inline-block; background: #c9973a; color: #2d5248; font-weight: 800; padding: 14px 24px; border-radius: 6px; text-decoration: none; font-size: 15px; box-shadow: 0 4px 12px rgba(201, 151, 58, 0.3);">Open Letter Writer →</a>
+    </div>
+  </div>
+</div>
+</div>
+<div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
+<h3>
+     Need More Help?
+    </h3>
+<p>
+     Download our complete toolkit for District 7 parents, including sample letters, IEP goal trackers, and a comprehensive guide to your rights.
+    </p>
+<a class="button-primary" href="/contact/">
+     Get the Toolkit
+    </a>
+</div>
+</main>
+<!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+<footer class="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="footer-container">
+<!-- COL 1: Brand & Mission -->
+<div class="footer-brand">
+<h3>
+      New York Special Ed
+      <span>
+       .net
+      </span>
+</h3>
+<p>
+      Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+     </p>
+<div style="margin-top: 20px;">
+<a href="/contact/" style="color: #D4AF37; font-weight: bold; text-decoration: none;">
+       View Advocacy Shop →
+      </a>
+</div>
+</div>
+<!-- COL 2: Essential Guides -->
+<div class="footer-col">
+<h4>
+      NY Parent Guides
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/guides/cse-meeting-guide/">
+        The CSE Meeting Guide
+       </a>
+</li>
+<li>
+<a href="/guides/evaluation-request-ny/">
+        Evaluation Timelines (60 Days)
+       </a>
+</li>
+<li>
+<a href="/guides/dispute-resolution-ny/">
+        Due Process &amp; Complaints
+       </a>
+</li>
+<li>
+<a href="/guides/bilingual-iep-new-york/">
+        Bilingual/ELL Rights
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-75/">
+        District 75 Explained
+       </a>
+</li>
+</ul>
+</div>
+<!-- COL 3: Top Districts -->
+<div class="footer-col">
+<h4>
+      Popular Districts
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/districts/nyc-district-02-upper-east-side/">
+        NYC District 2 (Manhattan)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-15-park-slope/">
+        NYC District 15 (Brooklyn)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-31-staten-island/">
+        NYC District 31 (Staten Island)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-30-astoria/">
+        NYC District 30 (Queens)
+       </a>
+</li>
+<li>
+<a href="/districts/buffalo-city-sd/">
+        Buffalo City Schools
+       </a>
+</li>
+</ul>
+</div>
+<!-- COL 4: Legal & Contact -->
+<div class="footer-col">
+<h4>
+      Resources
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/about/">
+        About Us
+       </a>
+</li>
+<li>
+<a href="/contact/">
+        Contact Support
+       </a>
+</li>
+<li>
+<a href="/privacy-policy/">
+        Privacy Policy
+       </a>
+</li>
+<li>
+<a href="/sitemap.xml">
+        Sitemap
+       </a>
+</li>
+</ul>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="footer-bottom">
+<p>
+     © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.
+     <br/>
+     For official inquiries, visit schools.nyc.gov or nysed.gov.
+    </p>
+</div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Target any form on the page
+    const leadForms = document.querySelectorAll('form');
+    
+    leadForms.forEach(form => {
+        const submitBtn = form.querySelector('button[type="submit"]');
+        if (!submitBtn) return;
+
+        submitBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            // Grab the specific inputs from your new Law Firm layout
+            const nameInput = form.querySelector('input[type="text"]');
+            const phoneInput = form.querySelector('input[type="tel"]');
+            const selectInputs = form.querySelectorAll('select');
+            let issueSelect = selectInputs.length > 0 ? selectInputs[0] : null;
+
+            // Basic Validation
+            if (nameInput && !nameInput.value.trim()) {
+                alert('Please enter your name.');
+                nameInput.focus();
+                return;
+            }
+            if (phoneInput && !phoneInput.value.trim()) {
+                alert('Please enter your phone number.');
+                phoneInput.focus();
+                return;
+            }
+
+            submitBtn.innerHTML = 'Sending...';
+            submitBtn.disabled = true;
+            submitBtn.style.opacity = '0.7';
+
+            // Prepare data for Google Sheets
+            const formData = new URLSearchParams();
+            formData.append('name', nameInput && nameInput.value ? nameInput.value : 'Not provided');
+            // We pass the phone number into the 'email' parameter so your existing Google Apps Script doesn't break
+            formData.append('email', phoneInput && phoneInput.value ? phoneInput.value : 'Not provided');
+            formData.append('concern', issueSelect && issueSelect.value ? issueSelect.value : 'Not provided');
+            formData.append('pageUrl', window.location.href);
+
+            const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwWpGXg3JMJnxyzUlJHPlQRnE_R2Dh6oFvapMureXQWG_0bLOBtN_e7f5s5jnKRdcG-/exec';
+
+            fetch(GOOGLE_SCRIPT_URL, {
+                method: 'POST',
+                body: formData,
+                mode: 'no-cors'
+            })
+            .then(() => {
+                // Success State matching your new Ink & Gold aesthetics
+                form.innerHTML = `
+                    <div style="text-align: center; padding: 20px 10px;">
+                        <div style="color: #b8963a; font-size: 40px; margin-bottom: 10px;">✓</div>
+                        <h4 style="font-family: 'Cormorant Garamond', serif; font-size: 26px; color: #1a1410; margin-bottom: 10px; font-weight: 600;">Request Received</h4>
+                        <p style="font-size: 14px; color: #6b5f53; line-height: 1.5; font-family: 'DM Sans', sans-serif;">
+                            Your information has been securely routed. We will be in touch shortly.
+                        </p>
+                    </div>
+                `;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                submitBtn.innerHTML = 'Error. Please Try Again.';
+                submitBtn.disabled = false;
+                submitBtn.style.opacity = '1';
+            });
+        });
+    });
+});
+</script>
+<!-- ============================================================
+  NY Special Ed — Premium Newsletter Popup
+  Drop this just before </body> on every page.
+  Replaces the generic blue popup with the site's Ink & Gold aesthetic.
+
+  To configure per page, change data-site and data-language on the script tag.
+  ============================================================ -->
+
+<!-- Popup HTML -->
+<div id="ec-overlay" style="display:none;position:fixed;inset:0;background:rgba(10,15,30,.72);z-index:9998;align-items:center;justify-content:center;backdrop-filter:blur(3px);">
+  <div id="ec-modal" style="max-width:420px;width:92%;position:relative;font-family:'DM Sans',sans-serif;border-radius:6px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.45);">
+
+    <!-- Header -->
+    <div id="ec-header" style="background:#002868;padding:28px 28px 22px;border-bottom:3px solid #d4af37;position:relative;">
+      <button id="ec-close" aria-label="Close"
+        style="position:absolute;top:14px;right:16px;background:none;border:none;color:rgba(255,255,255,.5);font-size:18px;cursor:pointer;line-height:1;padding:4px;">&#x2715;</button>
+      <div style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#d4af37;margin-bottom:10px;">
+        District Intelligence
+      </div>
+      <h2 id="ec-title"
+        style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:500;color:#f5f0e8;line-height:1.15;margin:0;">
+      </h2>
+    </div>
+
+    <!-- Body -->
+    <div style="background:#fdfaf5;padding:26px 28px 24px;">
+      <p id="ec-body" style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:#002868;line-height:1.45;margin:0 0 14px;"></p>
+
+      <div style="width:40px;height:2px;background:#d4af37;margin-bottom:18px;"></div>
+
+      <ul id="ec-checklist" style="list-style:none;margin:0 0 22px;padding:0;"></ul>
+
+      <!-- Form -->
+      <div id="ec-form-wrap">
+        <input id="ec-email" type="email" placeholder="your@email.com"
+          style="width:100%;box-sizing:border-box;padding:11px 14px;border:1.5px solid #d6cbbf;border-radius:4px;font-size:14px;font-family:'DM Sans',sans-serif;margin-bottom:10px;outline:none;background:#fff;color:#1a1410;"/>
+        <button id="ec-submit"
+          style="width:100%;padding:14px;background:#c8102e;color:#fff;border:none;border-radius:4px;font-weight:600;font-family:'DM Sans',sans-serif;font-size:15px;cursor:pointer;transition:background .2s;letter-spacing:.01em;">
+        </button>
+      </div>
+
+      <!-- Success state -->
+      <div id="ec-success" style="display:none;text-align:center;padding:12px 0 6px;">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:32px;color:#d4af37;margin-bottom:8px;">✦</div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#002868;margin:0 0 6px;">You're on the list.</p>
+        <p style="font-size:13px;color:#6b5f53;margin:0;line-height:1.5;">District updates and parent rights resources will arrive in your inbox.</p>
+      </div>
+
+      <p style="margin:14px 0 0;font-size:11px;color:#b0a799;text-align:center;letter-spacing:.02em;">
+        No spam &nbsp;·&nbsp; Unsubscribe any time
+      </p>
+    </div>
+  </div>
+</div>
+
+<script
+  id="ec-script"
+  data-site="new_york_special_ed"
+  data-language="en"
+  data-delay="10000"
+  data-api="https://email-capture-api-831148457361.us-central1.run.app">
+(function() {
+  var script   = document.getElementById("ec-script");
+  var API_BASE = script.getAttribute("data-api");
+  var SITE     = script.getAttribute("data-site")     || "new_york_special_ed";
+  var LANG     = script.getAttribute("data-language") || "en";
+  var DELAY    = parseInt(script.getAttribute("data-delay") || "10000", 10);
+
+  var COPY = {
+    en: {
+      title:   "Know Your District.<br><em style='color:#e5c158;font-style:italic;'>Know Your Rights.</em>",
+      body:    "Most NYC parents don't know what their district is required to provide — until it's too late.",
+      checks:  [
+        "District-specific CSE timelines & contacts",
+        "IEP rights and evaluation deadlines",
+        "What to say at your next meeting",
+        "Real outcomes from parents in your district"
+      ],
+      button:  "Send Me Free District Updates"
+    },
+    es: {
+      title:   "Conozca Su Distrito.<br><em style='color:#e5c158;font-style:italic;'>Sus Derechos.</em>",
+      body:    "La mayoría de los padres de NYC no saben lo que su distrito está obligado a proveer.",
+      checks:  [
+        "Plazos del CSE y contactos por distrito",
+        "Derechos del IEP y plazos de evaluación",
+        "Qué decir en su próxima reunión",
+        "Resultados reales de padres en su distrito"
+      ],
+      button:  "Recibir Actualizaciones Gratis"
+    }
+  };
+
+  var copy = COPY[LANG] || COPY.en;
+  var STORAGE_KEY = "ec_dismissed_" + SITE + "_" + LANG;
+  if (localStorage.getItem(STORAGE_KEY)) return;
+
+  /* -- Inject copy -- */
+  document.getElementById("ec-title").innerHTML  = copy.title;
+  document.getElementById("ec-body").textContent = copy.body;
+  document.getElementById("ec-submit").textContent = copy.button;
+
+  var list = document.getElementById("ec-checklist");
+  copy.checks.forEach(function(item) {
+    var li = document.createElement("li");
+    li.style.cssText = "font-size:13px;color:#6b5f53;padding:5px 0 5px 20px;position:relative;";
+    li.innerHTML = '<span style="position:absolute;left:0;font-family:\'Cormorant Garamond\',serif;font-size:16px;color:#d4af37;">§</span>' + item;
+    list.appendChild(li);
+  });
+
+  var overlay  = document.getElementById("ec-overlay");
+  var emailEl  = document.getElementById("ec-email");
+  var submitEl = document.getElementById("ec-submit");
+
+  /* -- Show after delay -- */
+  setTimeout(function() {
+    overlay.style.display = "flex";
+    emailEl.focus();
+  }, DELAY);
+
+  /* -- Close -- */
+  function close() {
+    overlay.style.display = "none";
+    localStorage.setItem(STORAGE_KEY, "1");
+  }
+  document.getElementById("ec-close").addEventListener("click", close);
+  overlay.addEventListener("click", function(e) { if (e.target === overlay) close(); });
+  document.addEventListener("keydown", function(e) { if (e.key === "Escape") close(); });
+
+  /* -- Hover on button -- */
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+  submitEl.addEventListener("mouseout",   function() { this.style.background = "#c8102e"; });
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+
+  /* -- Submit -- */
+  submitEl.addEventListener("click", function() {
+    var email = emailEl.value.trim();
+    if (!email || !email.includes("@")) {
+      emailEl.style.borderColor = "#c8102e";
+      emailEl.focus();
+      return;
+    }
+    emailEl.style.borderColor = "#d6cbbf";
+    submitEl.disabled    = true;
+    submitEl.textContent = "…";
+
+    fetch(API_BASE + "/api/signup", {
+      method:  "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email:      email,
+        site:       SITE,
+        language:   LANG,
+        source:     "newsletter_popup",
+        page_url:   window.location.href,
+        page_title: document.title,
+        district:   (document.querySelector("[data-district]") || {}).dataset && document.querySelector("[data-district]").dataset.district || null
+      })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(res) {
+      if (res.success) {
+        document.getElementById("ec-form-wrap").style.display = "none";
+        document.getElementById("ec-success").style.display   = "block";
+        localStorage.setItem(STORAGE_KEY, "1");
+        setTimeout(close, 4000);
+      } else {
+        submitEl.disabled    = false;
+        submitEl.textContent = copy.button;
+        alert(res.error || "Something went wrong. Please try again.");
+      }
+    })
+    .catch(function() {
+      submitEl.disabled    = false;
+      submitEl.textContent = copy.button;
+      alert("Network error. Please try again.");
+    });
+  });
+
+  emailEl.addEventListener("keydown", function(e) { if (e.key === "Enter") submitEl.click(); });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>
+   Student Discipline Rights in District 32
+  </title>
+<meta content="Suspension, MDR, and discipline rights for students with disabilities in District 32." name="description"/>
+<link href="/styles/global.css" rel="stylesheet"/>
+<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+<!-- __content-css-start__ -->
+<style>
+   /* district content styles — injected by fix_content_format.py */
+.content-body {
+  max-width: 780px;
+  padding: 0 0 32px;
+  font-size: 1.02rem;
+  line-height: 1.85;
+  color: #2d3748;
+}
+.content-body h2 {
+  font-size: 1.3rem;
+  color: #002868;
+  border-left: 4px solid #d4af37;
+  padding-left: 14px;
+  margin: 44px 0 16px;
+  line-height: 1.3;
+}
+.content-body p {
+  margin: 0 0 18px;
+}
+/* Bullet list cards */
+.content-body ul.content-list {
+  margin: 8px 0 24px 0;
+  padding-left: 0;
+  list-style: none;
+}
+.content-body ul.content-list li {
+  padding: 14px 18px;
+  margin-bottom: 10px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #002868;
+  border-radius: 0 6px 6px 0;
+  line-height: 1.75;
+  font-size: 0.97rem;
+}
+.content-body ul.content-list li strong {
+  color: #002868;
+  display: block;
+  margin-bottom: 4px;
+}
+/* Red flag callout inside list items */
+.content-body .red-flag {
+  display: inline-block;
+  background: #fff1f2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+  border-radius: 4px;
+  padding: 1px 7px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+/* Letter template blockquote */
+.content-body blockquote.letter-template {
+  background: #f0f4ff;
+  border: 1px solid #c7d7f4;
+  border-left: 5px solid #002868;
+  border-radius: 0 8px 8px 0;
+  padding: 24px 28px;
+  margin: 24px 0 28px;
+  font-size: 0.94rem;
+  line-height: 1.8;
+  color: #1e2d4a;
+  font-style: italic;
+  white-space: pre-line;
+  position: relative;
+}
+.content-body blockquote.letter-template::before {
+  content: '✉  Sample Letter';
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #002868;
+  margin-bottom: 14px;
+}
+/* Page header */
+.content-page-header {
+  padding: 8px 0 24px;
+  border-bottom: 2px solid #e2e8f0;
+  margin-bottom: 32px;
+}
+.content-page-header .eyebrow {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+.content-page-header h1 {
+  font-size: clamp(1.5rem, 4vw, 2.1rem);
+  color: #002868;
+  margin: 0 0 10px;
+  line-height: 1.2;
+}
+.content-page-header .intro {
+  font-size: 1.02rem;
+  color: #4b5563;
+  line-height: 1.7;
+  max-width: 680px;
+  margin: 0;
+}
+  </style>
+<!-- __content-css-end__ -->
+<!-- __district-subnav-css-start__ -->
+<style>
+   /* district-subnav — auto-injected by fix_district_nav.py */
+.district-subnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 0 0 24px 0;
+}
+.district-subnav a {
+  display: inline-block;
+  padding: 5px 11px;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0056b3;
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.district-subnav a:hover { background: #dbeafe; }
+.district-subnav a.subnav-active {
+  background: #002868;
+  color: #fff;
+  border-color: #002868;
+  cursor: default;
+}
+  </style>
+<!-- __district-subnav-css-end__ -->
+<link href="https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/discipline-rights.html" rel="canonical"/>
+<meta content="website" property="og:type"/><meta content="Student Discipline Rights in District 32" property="og:title"/><meta content="Suspension, MDR, and discipline rights for students with disabilities in District 32." property="og:description"/><meta content="https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/discipline-rights.html" property="og:url"/><meta content="summary_large_image" name="twitter:card"/><meta content="Student Discipline Rights in District 32" name="twitter:title"/><meta content="Suspension, MDR, and discipline rights for students with disabilities in District 32." name="twitter:description"/>
+<meta content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" property="og:image"/>
+<meta content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" name="twitter:image"/></head>
+<body>
+<!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+<header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader">
+<div class="nav-container">
+<!-- Logo -->
+<a aria-label="New York Special Ed - Home" class="nav-logo" href="/">
+<img alt="New York Special Ed logo" height="120" loading="eager" src="/images/logo.png" style="display:block; height:120px; width:auto; border-radius:8px;" width="120"/>
+</a>
+<!-- Desktop Navigation -->
+<nav itemscope="" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+<ul class="nav-links">
+<!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/">
+        NYC Districts
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="mega-menu">
+<div class="menu-column">
+<h4>
+          Manhattan (D1-6)
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-01-lower-east-side/">
+            District 1: Lower East Side
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-02-upper-east-side/">
+            District 2: Upper East Side/Tribeca
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-03-upper-west-side/">
+            District 3: Upper West Side
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-04-east-harlem/">
+            District 4: East Harlem
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-05-central-harlem/">
+            District 5: Central Harlem
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-06-washington-heights/">
+            District 6: Washington Heights
+           </a>
+</li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>
+          Brooklyn (Key Districts)
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-15-park-slope/">
+            District 15: Park Slope/Sunset Park
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-20-bay-ridge/">
+            District 20: Bay Ridge/Borough Park
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-13-brooklyn-heights/">
+            District 13: Brooklyn Heights
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-75/">
+<strong>
+             District 75 (Citywide Programs)
+            </strong>
+</a>
+</li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>
+          Queens &amp; SI
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-26-bayside/">
+            District 26: Bayside
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-30-astoria/">
+            District 30: Astoria/LIC
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-31-staten-island/">
+            District 31: Staten Island
+           </a>
+</li>
+<li>
+<a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">
+            View All 32 NYC Districts →
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/nys-overview/">
+        Upstate &amp; LI
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<h4>
+          Big 5 Cities
+         </h4>
+<ul>
+<li>
+<a href="/districts/buffalo-city-sd/">
+            Buffalo City SD
+           </a>
+</li>
+<li>
+<a href="/districts/rochester-city-sd/">
+            Rochester City SD
+           </a>
+</li>
+<li>
+<a href="/districts/syracuse-city-sd/">
+            Syracuse City SD
+           </a>
+</li>
+<li>
+<a href="/districts/yonkers-city-sd/">
+            Yonkers City SD
+           </a>
+</li>
+<li>
+<a href="/districts/albany-city-sd/">
+            Albany City SD
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+<li class="nav-item">
+<a class="nav-link" href="/guides/">
+        Parent Guides
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<ul>
+<li>
+<a href="/guides/cse-meeting-guide/">
+            CSE Meeting Guide
+           </a>
+</li>
+<li>
+<a href="/guides/evaluation-request-ny/">
+            Requesting an Evaluation
+           </a>
+</li>
+<li>
+<a href="/guides/bilingual-iep-new-york/">
+            Bilingual IEP Rights
+           </a>
+</li>
+<li>
+<a href="/guides/cpse-preschool-special-education/">
+            CPSE (Preschool) Guide
+           </a>
+</li>
+<li>
+<a href="/guides/carter-cases-private-placement/">
+            Private Placement (Carter Cases)
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- LINK: RESOURCES -->
+<li class="nav-item">
+<a class="nav-link" href="/resources/">
+        Free Tools
+       </a>
+</li>
+<!-- CTA -->
+<li class="nav-item">
+<a class="nav-cta" href="/contact/">
+        Get The Toolkit
+       </a>
+</li>
+</ul>
+</nav>
+<!-- Mobile Toggle -->
+<button aria-label="Open Navigation" class="mobile-toggle">
+<i class="fas fa-bars">
+</i>
+</button>
+</div>
+</header>
+<main class="container">
+<div class="aeo-authority-block">
+<a href="/districts/nyc-district-32-bushwick/">
+     ← Back to District 32 Hub
+    </a>
+</div>
+<!-- __district-subnav-start__ -->
+<nav aria-label="Pages in this district" class="district-subnav">
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/">
+     🏠 Hub
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/leadership-directory.html">
+     📞 Contacts
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/cse-meeting-guide.html">
+     🤝 CSE Guide
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/evaluation-process.html">
+     📝 Evaluations
+    </a>
+<a aria-current="page" class="subnav-active" href="https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/discipline-rights.html">
+     ⚖️ Discipline
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/partners.html">
+     🤲 Partners
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/special-ed-updates.html">
+     📰 Updates
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/parent-advocacy-guide.html">🛡️ Advocacy</a><a href="https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/what-is-an-iep.html">📋 What Is an IEP?</a></nav>
+<!-- __district-subnav-end__ -->
+<!-- Top Banner Anchor to Bot -->
+<div style="background: #2d5248; color: white; padding: 16px 24px; border-radius: 8px; margin-top: 24px; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-wrap: wrap; gap: 16px;">
+<div style="display: flex; align-items: center; gap: 12px;">
+<span style="background: #c9973a; color: #2d5248; padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: 800; letter-spacing: 0.1em;">NEW</span>
+<span style="font-family:'Lora',serif; font-size:18px; font-weight:700;">Get Your IEP Letter Written by our AI Bot</span>
+</div>
+<a href="/tools/" style="background: #c9973a; color: #2d5248; font-weight: 800; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-size: 14px; white-space: nowrap; transition: background 0.2s;">Start Now — $15 →</a>
+</div>
+<div class="premium-split-container" style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start; width: 100%; margin-top: 30px;"><div class="content-body" style="flex: 1 1 60%; min-width: 300px; max-width: 100%; padding: 0; margin-top: 0;">
+<div class="content-page-header">
+<div class="eyebrow">
+      District 32 · Discipline Rights
+     </div>
+<h1>
+      Discipline Rights &amp; the Manifestation Determination Review
+     </h1>
+<p class="intro">
+      What District 32 parents need to know about suspension limits, MDRs, and protecting your child's right to education under IDEA.
+     </p>
+</div>
+<h2>
+     Short-Term Suspensions: The 10-Day Rule
+    </h2>
+<p>
+     If your child in NYC District 32 (Bushwick) has been suspended, it's crucial to understand the rules surrounding short-term suspensions. New York State Education Law §3214 governs suspensions in New York, and it differentiates between short-term and long-term suspensions, especially for students with IEPs. A short-term suspension is generally defined as a suspension of 10 cumulative school days or less in a single school year.
+    </p>
+<p>
+     For suspensions totaling 10 cumulative school days or less, the school district is
+     <em>
+      not
+     </em>
+     required to conduct a Manifestation Determination Review (MDR). However, this doesn't mean your child's educational needs can be ignored. Even during a short-term suspension, the district has an obligation to consider whether your child requires continued services to ensure they can still access their education. Contact the Committee on Special Education (CSE) office to advocate for continued services, even for short suspensions.
+    </p>
+<p>
+     It's important to note that even for short-term suspensions, you are entitled to certain due process rights under New York Education Law §3214. The school must provide you with written notice of the suspension, explaining the reasons for the disciplinary action. This notice should be provided as soon as possible following the incident. The notice should include the charges against your child and an opportunity for you and your child to meet with the principal (or other designated school official) to discuss the suspension. This meeting allows you to present your child's side of the story and challenge the suspension if you believe it is unwarranted.
+    </p>
+<h2>
+     When an MDR Is Required
+    </h2>
+<p>
+     A Manifestation Determination Review (MDR) is a critical safeguard for students with IEPs facing disciplinary action. In NYC District 32 (Bushwick), an MDR is legally required under the Individuals with Disabilities Education Act (IDEA) when a student with an IEP faces a suspension exceeding 10 cumulative school days in a school year, or when there is a pattern of removals that constitutes a change of placement. A "change of placement" isn't always clear-cut, but it generally refers to a series of short-term suspensions that, taken together, create a significant disruption to the student's learning and access to their IEP.
+    </p>
+<p>
+     The purpose of the MDR is to determine if the student's behavior that led to the suspension was caused by, or directly and substantially related to, their disability. The MDR also examines whether the behavior was a direct result of the school district's failure to properly implement the student's IEP.
+    </p>
+<p>
+     The MDR team must include you (the parent or guardian), relevant members of the IEP team (such as teachers, special education staff, and related service providers), and a representative of the school district who has the authority to make decisions about the student's placement and services. The student should also be involved when appropriate.
+    </p>
+<p>
+     The MDR team will address two crucial questions:
+    </p>
+<p>
+     1.  Was the conduct in question caused by, or did it have a direct and substantial relationship to, the child's disability?
+2.  Was the conduct in question the direct result of the school district's failure to implement the IEP?
+    </p>
+<p>
+     The MDR must be conducted within 10 school days of the decision to take disciplinary action that triggers the MDR requirement (i.e., after the 10th cumulative day of suspension or when a pattern of removals suggests a change of placement). The district must gather all relevant information, including the student's IEP, teacher observations, and any relevant medical or psychological evaluations.
+    </p>
+<h2>
+     The Two MDR Outcomes
+    </h2>
+<p>
+     The Manifestation Determination Review (MDR) process in NYC District 32 (Bushwick) will lead to one of two possible outcomes, each with significant implications for your child's education and disciplinary future.
+    </p>
+<p>
+<strong>
+      Outcome 1: Behavior IS a Manifestation of the Disability
+     </strong>
+</p>
+<p>
+     If the MDR team determines that the student's behavior
+     <em>
+      was
+     </em>
+     caused by, or had a direct and substantial relationship to, their disability,
+     <em>
+      or
+     </em>
+     that it was the direct result of the district's failure to implement the IEP, then the behavior is considered a manifestation of the disability. In this case, the district
+     <em>
+      cannot
+     </em>
+     proceed with a long-term suspension (more than 10 days).
+    </p>
+<p>
+     Instead, the school district must take immediate steps to address the underlying causes of the behavior. This typically involves the following:
+    </p>
+<ul class="content-list">
+<li>
+<strong>
+       Return to Placement:
+      </strong>
+      The student must be returned to their original placement unless you and the district agree to a change of placement as part of the IEP process.
+*
+      <strong>
+       Review and Revise FBA and BIP:
+      </strong>
+      The district must review and, if necessary, revise the student's Functional Behavioral Assessment (FBA) and Behavior Intervention Plan (BIP). The FBA identifies the triggers and functions of the student's behavior, while the BIP outlines strategies to prevent and address the behavior. The revised FBA and BIP should be tailored to address the specific behavior that led to the suspension.
+*
+      <strong>
+       IEP Review:
+      </strong>
+      The IEP team should convene to review the IEP and determine if any changes are needed to better support the student's needs. This may involve adding new goals, modifying existing goals, or providing additional services.
+     </li>
+</ul>
+<p>
+<strong>
+      Outcome 2: Behavior is NOT a Manifestation of the Disability
+     </strong>
+</p>
+<p>
+     If the MDR team determines that the student's behavior was
+     <em>
+      not
+     </em>
+     caused by, or did not have a direct and substantial relationship to, their disability,
+     <em>
+      and
+     </em>
+     that it was not the direct result of the district's failure to implement the IEP, then the behavior is
+     <em>
+      not
+     </em>
+     considered a manifestation of the disability.
+    </p>
+<p>
+     In this case, the district
+     <em>
+      may
+     </em>
+     proceed with the disciplinary action, including a long-term suspension. However, even if the suspension is deemed appropriate, the district
+     <em>
+      must
+     </em>
+     continue to provide the student with a Free Appropriate Public Education (FAPE). This means that the student is entitled to receive services that allow them to continue to participate in the general education curriculum and progress toward their IEP goals, even while they are suspended. These services could include tutoring, alternative assignments, or other supports.
+    </p>
+<h2>
+     The 45-Day Interim Alternative Setting
+    </h2>
+<p>
+     Under very specific circumstances, NYC District 32 (Bushwick) can remove a student with an IEP to an interim alternative educational setting for up to 45 school days, regardless of whether the behavior is determined to be a manifestation of the student's disability. These circumstances are limited to situations involving:
+    </p>
+<ul class="content-list">
+<li>
+<strong>
+       Weapons:
+      </strong>
+      The student carries a weapon to school or possesses a weapon at school or a school function.
+*
+      <strong>
+       Drugs:
+      </strong>
+      The student knowingly possesses or uses illegal drugs, or sells or solicits the sale of a controlled substance, while at school or a school function.
+*
+      <strong>
+       Serious Bodily Injury:
+      </strong>
+      The student has inflicted serious bodily injury upon another person while at school or a school function. "Serious bodily injury" generally means an injury that involves a substantial risk of death; extreme physical pain; protracted and obvious disfigurement; or protracted loss or impairment of the function of a bodily member, organ, or mental faculty.
+     </li>
+</ul>
+<p>
+     Even in these situations, the district
+     <em>
+      must
+     </em>
+     provide the student with educational services that allow them to continue to participate in the general education curriculum and progress toward their IEP goals. The interim alternative educational setting must be designed to enable the student to continue to receive FAPE.
+    </p>
+<p>
+     If you disagree with the district's decision to place your child in an interim alternative educational setting, you have the right to challenge the decision by requesting an expedited due process hearing. An expedited hearing is a faster version of a regular due process hearing, designed to resolve disputes quickly in situations where a student's placement is at stake. Contact an attorney or advocate to help you navigate this process.
+    </p>
+<h2>
+     FBAs and Behavior Intervention Plans
+    </h2>
+<p>
+     A Functional Behavioral Assessment (FBA) and a Behavior Intervention Plan (BIP) are critical tools for understanding and addressing challenging behaviors in students with IEPs in NYC District 32 (Bushwick).
+    </p>
+<p>
+     An FBA is a systematic process of gathering information about a student's behavior to determine the function or purpose of the behavior. It seeks to answer the question: "Why is this student engaging in this behavior?" The FBA typically involves observing the student in different settings, interviewing teachers and parents, and reviewing the student's records. The goal is to identify the triggers (antecedents) that precede the behavior, the behavior itself, and the consequences that follow the behavior. By understanding the function of the behavior (e.g., is the student seeking attention, escaping a task, or seeking sensory stimulation?), the IEP team can develop more effective interventions.
+    </p>
+<p>
+     The district is required to conduct an FBA when a student's behavior impedes their learning or the learning of others. This is often triggered by repeated disciplinary incidents or when a student is facing a long-term suspension.
+    </p>
+<p>
+     A BIP is a plan that outlines strategies to prevent and address challenging behaviors. It is based on the findings of the FBA and should be tailored to the individual student's needs. A good BIP will include:
+    </p>
+<ul class="content-list">
+<li>
+<strong>
+       Antecedent Strategies:
+      </strong>
+      These strategies focus on preventing the behavior from occurring in the first place by modifying the environment or teaching the student alternative ways to respond to triggers.
+*
+      <strong>
+       Replacement Behaviors:
+      </strong>
+      The BIP should identify and teach the student alternative behaviors that serve the same function as the challenging behavior but are more appropriate.
+*
+      <strong>
+       Consequence Strategies:
+      </strong>
+      These strategies outline how staff will respond to the behavior when it occurs. They should focus on reinforcing positive behaviors and minimizing the reinforcement of challenging behaviors.
+*
+      <strong>
+       Data Collection:
+      </strong>
+      The BIP should include a system for collecting data on the student's behavior to monitor the effectiveness of the plan.
+     </li>
+</ul>
+<p>
+     You, as a parent, have the right to request an FBA for your child at any time. Don't wait for a crisis to occur. If you are concerned about your child's behavior, put your request in writing to the school principal and the CSE. A proactive FBA can help prevent disciplinary problems and ensure that your child receives the support they need to succeed.
+    </p>
+<h2>
+     Day 1 Checklist: What to Do When Your Child Is Suspended
+    </h2>
+<p>
+     If your child in NYC District 32 (Bushwick) has been suspended, it's important to act quickly to protect their rights and ensure they continue to receive a Free Appropriate Public Education (FAPE). Here's a checklist of what to do on Day 1 of the suspension:
+    </p>
+<p>
+     1.
+     <strong>
+      Get the Suspension Notice in Writing:
+     </strong>
+     Immediately request a written copy of the suspension notice from the school. This notice should include the specific charges against your child, the date and time of the incident, the duration of the suspension, and the reasons for the disciplinary action. Do not rely on verbal communication alone.
+    </p>
+<p>
+     2.
+     <strong>
+      Count Cumulative Suspension Days:
+     </strong>
+     Keep track of the number of days your child has been suspended during the current school year. This is crucial because once your child exceeds 10 cumulative days of suspension, it triggers the requirement for a Manifestation Determination Review (MDR).
+    </p>
+<p>
+     3.
+     <strong>
+      If Approaching 10 Days, Request MDR in Writing Immediately:
+     </strong>
+     If your child is approaching 10 cumulative days of suspension, immediately send a written request to the school principal and the CSE for an MDR. Do not wait for the school to initiate the process. Be proactive in asserting your child's rights.
+    </p>
+<p>
+     4.
+     <strong>
+      Contact the CSE Office to Request Continuation of Services:
+     </strong>
+     Contact the Committee on Special Education (CSE) office in District 32 and request that your child's educational services continue during the suspension. Even for short-term suspensions, your child is entitled to receive services that allow them to continue to participate in the general education curriculum and progress toward their IEP goals.
+    </p>
+<p>
+     5.
+     <strong>
+      Review the IEP and Behavior Intervention Plan (BIP):
+     </strong>
+     Review your child's IEP and BIP to ensure that they are being properly implemented and that they are addressing your child's behavioral needs. If you believe that the IEP or BIP is not adequate, request an IEP meeting to discuss revisions.
+    </p>
+<p>
+     6.
+     <strong>
+      Document Everything:
+     </strong>
+     Keep a detailed record of all communications with the school, including dates, times, and the names of the people you spoke with. Save copies of all documents related to the suspension.
+    </p>
+<p>
+     7.
+     <strong>
+      Consider Legal Advice:
+     </strong>
+     If you are unsure of your rights or if you are having difficulty navigating the disciplinary process, consider contacting an attorney or advocate who specializes in special education law.
+    </p>
+<p>
+     8.
+     <strong>
+      Escalation:
+     </strong>
+     If the district is unresponsive or fails to uphold your child's rights, you have several options for escalation:
+    *
+     <strong>
+      State Complaint to NYSED:
+     </strong>
+     You can file a formal complaint with the New York State Education Department (NYSED) if you believe the district has violated IDEA or state special education laws.
+    *
+     <strong>
+      Expedited Due Process Hearing:
+     </strong>
+     You can request an expedited due process hearing to resolve disputes with the district regarding your child's placement, services, or disciplinary action. This is a more formal process that involves presenting evidence and testimony before an impartial hearing officer.
+    </p>
+</div>
+<div class="premium-sidebar-right" style="flex: 1 1 30%; min-width: 300px; position: sticky; top: 20px;">
+  <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.08);">
+    <div style="background: #2d5248; padding: 36px 24px; text-align: center; color: white;">
+      <h3 style="margin: 0 0 12px 0; font-family: 'Lora', serif; font-size: 24px;">IEP Letter Writer</h3>
+      <p style="margin: 0 0 24px 0; font-size: 15px; color: #e2e8f0; line-height: 1.6;">Don't know what to say to the CSE? Let our AI bot generate a custom, legally-sound request letter for you in minutes.</p>
+      <a href="/tools/" style="display: inline-block; background: #c9973a; color: #2d5248; font-weight: 800; padding: 14px 24px; border-radius: 6px; text-decoration: none; font-size: 15px; box-shadow: 0 4px 12px rgba(201, 151, 58, 0.3);">Open Letter Writer →</a>
+    </div>
+  </div>
+</div>
+</div>
+<div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
+<h3>
+     Need More Help?
+    </h3>
+<p>
+     Download our complete toolkit for District 32 parents.
+    </p>
+<a class="button-primary" href="/contact/">
+     Get the Toolkit
+    </a>
+</div>
+</main>
+<!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+<footer class="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="footer-container">
+<!-- COL 1: Brand & Mission -->
+<div class="footer-brand">
+<h3>
+      New York Special Ed
+      <span>
+       .net
+      </span>
+</h3>
+<p>
+      Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+     </p>
+<div style="margin-top: 20px;">
+<a href="/contact/" style="color: #D4AF37; font-weight: bold; text-decoration: none;">
+       View Advocacy Shop →
+      </a>
+</div>
+</div>
+<!-- COL 2: Essential Guides -->
+<div class="footer-col">
+<h4>
+      NY Parent Guides
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/guides/cse-meeting-guide/">
+        The CSE Meeting Guide
+       </a>
+</li>
+<li>
+<a href="/guides/evaluation-request-ny/">
+        Evaluation Timelines (60 Days)
+       </a>
+</li>
+<li>
+<a href="/guides/dispute-resolution-ny/">
+        Due Process &amp; Complaints
+       </a>
+</li>
+<li>
+<a href="/guides/bilingual-iep-new-york/">
+        Bilingual/ELL Rights
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-75/">
+        District 75 Explained
+       </a>
+</li>
+</ul>
+</div>
+<!-- COL 3: Top Districts -->
+<div class="footer-col">
+<h4>
+      Popular Districts
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/districts/nyc-district-02-upper-east-side/">
+        NYC District 2 (Manhattan)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-15-park-slope/">
+        NYC District 15 (Brooklyn)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-31-staten-island/">
+        NYC District 31 (Staten Island)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-30-astoria/">
+        NYC District 30 (Queens)
+       </a>
+</li>
+<li>
+<a href="/districts/buffalo-city-sd/">
+        Buffalo City Schools
+       </a>
+</li>
+</ul>
+</div>
+<!-- COL 4: Legal & Contact -->
+<div class="footer-col">
+<h4>
+      Resources
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/about/">
+        About Us
+       </a>
+</li>
+<li>
+<a href="/contact/">
+        Contact Support
+       </a>
+</li>
+<li>
+<a href="/privacy-policy/">
+        Privacy Policy
+       </a>
+</li>
+<li>
+<a href="/sitemap.xml">
+        Sitemap
+       </a>
+</li>
+</ul>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="footer-bottom">
+<p>
+     © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.
+     <br/>
+     For official inquiries, visit schools.nyc.gov or nysed.gov.
+    </p>
+</div>
+</footer>
+
+<!-- ============================================================
+  NY Special Ed — Premium Newsletter Popup
+  Drop this just before </body> on every page.
+  Replaces the generic blue popup with the site's Ink & Gold aesthetic.
+
+  To configure per page, change data-site and data-language on the script tag.
+  ============================================================ -->
+
+<!-- Popup HTML -->
+<div id="ec-overlay" style="display:none;position:fixed;inset:0;background:rgba(10,15,30,.72);z-index:9998;align-items:center;justify-content:center;backdrop-filter:blur(3px);">
+  <div id="ec-modal" style="max-width:420px;width:92%;position:relative;font-family:'DM Sans',sans-serif;border-radius:6px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.45);">
+
+    <!-- Header -->
+    <div id="ec-header" style="background:#002868;padding:28px 28px 22px;border-bottom:3px solid #d4af37;position:relative;">
+      <button id="ec-close" aria-label="Close"
+        style="position:absolute;top:14px;right:16px;background:none;border:none;color:rgba(255,255,255,.5);font-size:18px;cursor:pointer;line-height:1;padding:4px;">&#x2715;</button>
+      <div style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#d4af37;margin-bottom:10px;">
+        District Intelligence
+      </div>
+      <h2 id="ec-title"
+        style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:500;color:#f5f0e8;line-height:1.15;margin:0;">
+      </h2>
+    </div>
+
+    <!-- Body -->
+    <div style="background:#fdfaf5;padding:26px 28px 24px;">
+      <p id="ec-body" style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:#002868;line-height:1.45;margin:0 0 14px;"></p>
+
+      <div style="width:40px;height:2px;background:#d4af37;margin-bottom:18px;"></div>
+
+      <ul id="ec-checklist" style="list-style:none;margin:0 0 22px;padding:0;"></ul>
+
+      <!-- Form -->
+      <div id="ec-form-wrap">
+        <input id="ec-email" type="email" placeholder="your@email.com"
+          style="width:100%;box-sizing:border-box;padding:11px 14px;border:1.5px solid #d6cbbf;border-radius:4px;font-size:14px;font-family:'DM Sans',sans-serif;margin-bottom:10px;outline:none;background:#fff;color:#1a1410;"/>
+        <button id="ec-submit"
+          style="width:100%;padding:14px;background:#c8102e;color:#fff;border:none;border-radius:4px;font-weight:600;font-family:'DM Sans',sans-serif;font-size:15px;cursor:pointer;transition:background .2s;letter-spacing:.01em;">
+        </button>
+      </div>
+
+      <!-- Success state -->
+      <div id="ec-success" style="display:none;text-align:center;padding:12px 0 6px;">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:32px;color:#d4af37;margin-bottom:8px;">✦</div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#002868;margin:0 0 6px;">You're on the list.</p>
+        <p style="font-size:13px;color:#6b5f53;margin:0;line-height:1.5;">District updates and parent rights resources will arrive in your inbox.</p>
+      </div>
+
+      <p style="margin:14px 0 0;font-size:11px;color:#b0a799;text-align:center;letter-spacing:.02em;">
+        No spam &nbsp;·&nbsp; Unsubscribe any time
+      </p>
+    </div>
+  </div>
+</div>
+
+<script
+  id="ec-script"
+  data-site="new_york_special_ed"
+  data-language="en"
+  data-delay="10000"
+  data-api="https://email-capture-api-831148457361.us-central1.run.app">
+(function() {
+  var script   = document.getElementById("ec-script");
+  var API_BASE = script.getAttribute("data-api");
+  var SITE     = script.getAttribute("data-site")     || "new_york_special_ed";
+  var LANG     = script.getAttribute("data-language") || "en";
+  var DELAY    = parseInt(script.getAttribute("data-delay") || "10000", 10);
+
+  var COPY = {
+    en: {
+      title:   "Know Your District.<br><em style='color:#e5c158;font-style:italic;'>Know Your Rights.</em>",
+      body:    "Most NYC parents don't know what their district is required to provide — until it's too late.",
+      checks:  [
+        "District-specific CSE timelines & contacts",
+        "IEP rights and evaluation deadlines",
+        "What to say at your next meeting",
+        "Real outcomes from parents in your district"
+      ],
+      button:  "Send Me Free District Updates"
+    },
+    es: {
+      title:   "Conozca Su Distrito.<br><em style='color:#e5c158;font-style:italic;'>Sus Derechos.</em>",
+      body:    "La mayoría de los padres de NYC no saben lo que su distrito está obligado a proveer.",
+      checks:  [
+        "Plazos del CSE y contactos por distrito",
+        "Derechos del IEP y plazos de evaluación",
+        "Qué decir en su próxima reunión",
+        "Resultados reales de padres en su distrito"
+      ],
+      button:  "Recibir Actualizaciones Gratis"
+    }
+  };
+
+  var copy = COPY[LANG] || COPY.en;
+  var STORAGE_KEY = "ec_dismissed_" + SITE + "_" + LANG;
+  if (localStorage.getItem(STORAGE_KEY)) return;
+
+  /* -- Inject copy -- */
+  document.getElementById("ec-title").innerHTML  = copy.title;
+  document.getElementById("ec-body").textContent = copy.body;
+  document.getElementById("ec-submit").textContent = copy.button;
+
+  var list = document.getElementById("ec-checklist");
+  copy.checks.forEach(function(item) {
+    var li = document.createElement("li");
+    li.style.cssText = "font-size:13px;color:#6b5f53;padding:5px 0 5px 20px;position:relative;";
+    li.innerHTML = '<span style="position:absolute;left:0;font-family:\'Cormorant Garamond\',serif;font-size:16px;color:#d4af37;">§</span>' + item;
+    list.appendChild(li);
+  });
+
+  var overlay  = document.getElementById("ec-overlay");
+  var emailEl  = document.getElementById("ec-email");
+  var submitEl = document.getElementById("ec-submit");
+
+  /* -- Show after delay -- */
+  setTimeout(function() {
+    overlay.style.display = "flex";
+    emailEl.focus();
+  }, DELAY);
+
+  /* -- Close -- */
+  function close() {
+    overlay.style.display = "none";
+    localStorage.setItem(STORAGE_KEY, "1");
+  }
+  document.getElementById("ec-close").addEventListener("click", close);
+  overlay.addEventListener("click", function(e) { if (e.target === overlay) close(); });
+  document.addEventListener("keydown", function(e) { if (e.key === "Escape") close(); });
+
+  /* -- Hover on button -- */
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+  submitEl.addEventListener("mouseout",   function() { this.style.background = "#c8102e"; });
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+
+  /* -- Submit -- */
+  submitEl.addEventListener("click", function() {
+    var email = emailEl.value.trim();
+    if (!email || !email.includes("@")) {
+      emailEl.style.borderColor = "#c8102e";
+      emailEl.focus();
+      return;
+    }
+    emailEl.style.borderColor = "#d6cbbf";
+    submitEl.disabled    = true;
+    submitEl.textContent = "…";
+
+    fetch(API_BASE + "/api/signup", {
+      method:  "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email:      email,
+        site:       SITE,
+        language:   LANG,
+        source:     "newsletter_popup",
+        page_url:   window.location.href,
+        page_title: document.title,
+        district:   (document.querySelector("[data-district]") || {}).dataset && document.querySelector("[data-district]").dataset.district || null
+      })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(res) {
+      if (res.success) {
+        document.getElementById("ec-form-wrap").style.display = "none";
+        document.getElementById("ec-success").style.display   = "block";
+        localStorage.setItem(STORAGE_KEY, "1");
+        setTimeout(close, 4000);
+      } else {
+        submitEl.disabled    = false;
+        submitEl.textContent = copy.button;
+        alert(res.error || "Something went wrong. Please try again.");
+      }
+    })
+    .catch(function() {
+      submitEl.disabled    = false;
+      submitEl.textContent = copy.button;
+      alert("Network error. Please try again.");
+    });
+  });
+
+  emailEl.addEventListener("keydown", function(e) { if (e.key === "Enter") submitEl.click(); });
+})();
+</script>
+</body>
+</html>

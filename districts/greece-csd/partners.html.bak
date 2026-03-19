@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Special Education Providers &amp; Support | New York Special Ed</title>
+<meta content="Find special education advocates and providers serving Greece CSD in Monroe County, NY. Understand your rights, navigate the CSE, and access local support." name="description"/>
+<link href="https://www.newyorkspecialed.net/districts/greece-csd/partners.html" rel="canonical"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="/styles/global.css" rel="stylesheet"/>
+<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
+<link href="/styles/global.css" rel="stylesheet"/>
+<meta content="website" property="og:type"/><meta content="Special Education Providers &amp; Support — Greece CSD | NY Special Ed" property="og:title"/><meta content="Find special education advocates and providers serving Greece CSD in Monroe County, NY. Understand your rights, navigate the CSE, and access local support." property="og:description"/><meta content="https://www.newyorkspecialed.net/districts/greece-csd/partners.html" property="og:url"/><meta content="summary_large_image" name="twitter:card"/><meta content="Special Education Providers &amp; Support — Greece CSD | NY Special Ed" name="twitter:title"/><meta content="Find special education advocates and providers serving Greece CSD in Monroe County, NY. Understand your rights, navigate the CSE, and access local support." name="twitter:description"/>
+<meta content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" property="og:image"/>
+<meta content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" name="twitter:image"/>
+<style id="district-subnav-css">
+/* district-subnav styling */
+.district-subnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 0 0 24px 0;
+}
+.district-subnav a {
+  display: inline-block;
+  padding: 5px 11px;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0056b3;
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.district-subnav a:hover { background: #dbeafe; }
+.district-subnav a.subnav-active {
+  background: #002868;
+  color: #fff;
+  border-color: #002868;
+  cursor: default;
+}
+</style>
+</head>
+<body>
+<!-- ny-partners-rebuilt-v1 -->
+<header class="site-header">
+<!-- standard NY header here -->
+</header>
+<section class="page-hero-dark">
+<div class="container">
+<span class="label label-gold">
+     Greece CSD
+    </span>
+<h1>
+     Special Education Providers
+     <br/>
+     in Greece CSD
+    </h1>
+<p class="hero-sub">
+     Connect with local advocates, attorneys, and evaluators who know NY special education law — and the CSE process in Greece CSD specifically.
+    </p>
+</div>
+</section>
+<main>
+<div class="container">
+<div class="aeo-authority-block" style="margin-bottom: 15px;">
+<a href="/districts/greece-csd/" style="color: #0056b3; font-weight: 600; text-decoration: none;">
+         ← Back to New York State Hub
+        </a>
+</div>
+<nav aria-label="Pages in this district" class="district-subnav">
+<a href="/districts/greece-csd/">🏠 Hub</a>
+<a href="/districts/greece-csd/leadership-directory.html">📞 Contacts</a>
+<a href="/guides/cse-meeting-guide/index.html">🤝 CSE Guide</a>
+<a href="/districts/greece-csd/evaluation-process.html">📝 Evaluations</a>
+<a href="/districts/greece-csd/discipline-rights.html">⚖️ Discipline</a>
+<a aria-current="page" class="subnav-active" href="/districts/greece-csd/partners.html">🤲 Partners</a>
+<a href="/districts/greece-csd/special-ed-updates.html">📰 Updates</a>
+<a href="/districts/greece-csd/parent-advocacy-guide.html">🛡️ Advocacy</a></nav>
+<div class="trust-anchor">
+<strong>
+      Hi, I'm a New York parent of a child with an IEP.
+     </strong>
+     When I watched the system fail my child, I realized how broken the CSE process is. I built this resource to help parents like you get the services your child deserves. You are not alone.
+    </div>
+<hr class="divider" style="margin:8px 0 40px;"/>
+<!-- FEATURED AD SLOT -->
+<style>
+    .large-law-card {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 25px 50px -12px rgba(0,0,0,0.15);
+        margin: 40px 0 60px 0;
+        border: 1px solid #d6cbbf;
+    }
+    .ll-left {
+        flex: 1 1 45%;
+        background: #1a1410;
+        padding: 50px 45px;
+        color: #f5f0e8;
+        position: relative;
+    }
+    .ll-right {
+        flex: 1 1 55%;
+        background: #faf7f2;
+        padding: 50px 45px;
+    }
+    .ll-eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 0.25em; text-transform: uppercase; color: #b8963a; margin-bottom: 15px; font-family: 'DM Sans', sans-serif;}
+    .ll-title { font-family: 'Cormorant Garamond', serif; font-size: 42px; font-weight: 400; color: #f5f0e8; line-height: 1.1; margin: 0 0 20px 0; }
+    .ll-title em { color: #b8963a; font-style: italic; }
+    .ll-desc { font-family: 'DM Sans', sans-serif; font-size: 16px; line-height: 1.6; color: #d6cbbf; margin-bottom: 35px; font-weight: 300;}
+    .ll-list { list-style: none; padding: 0; margin: 0; font-family: 'DM Sans', sans-serif; }
+    .ll-list li { font-size: 15px; color: #f5f0e8; padding: 10px 0 10px 26px; position: relative; border-bottom: 1px solid rgba(214, 203, 191, 0.1); }
+    .ll-list li:last-child { border-bottom: none; }
+    .ll-list li::before { content: '§'; font-family: 'Cormorant Garamond', serif; font-size: 18px; color: #b8963a; position: absolute; left: 0; top: 8px; }
+    
+    .ll-form-title { font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 600; color: #1a1410; margin: 0 0 8px 0; }
+    .ll-form-desc { font-family: 'DM Sans', sans-serif; font-size: 15px; color: #6b5f53; margin-bottom: 25px; line-height: 1.5; }
+    .ll-form { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; font-family: 'DM Sans', sans-serif; }
+    .ll-full { grid-column: 1 / -1; }
+    .ll-label { display: block; font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #6b5f53; margin-bottom: 6px; }
+    .ll-input { width: 100%; padding: 14px; border: 1px solid #d6cbbf; font-size: 14px; color: #1a1410; background: #fff; border-radius: 4px; outline: none; box-sizing: border-box; }
+    .ll-select { -webkit-appearance: none; background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2210%22%20height%3D%226%22%3E%3Cpath%20d%3D%22M0%200l5%206%205-6z%22%20fill%3D%22%23b8963a%22%2F%3E%3C%2Fsvg%3E'); background-repeat: no-repeat; background-position: right 14px center; cursor: pointer; }
+    .ll-btn { width: 100%; background: #1a1410; color: #b8963a; border: none; padding: 18px; font-size: 13px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; cursor: pointer; border-radius: 4px; transition: all 0.25s ease; grid-column: 1 / -1; margin-top: 10px;}
+    .ll-btn:hover { background: #b8963a; color: #1a1410; }
+    
+    @media (max-width: 768px) {
+        .ll-left, .ll-right { flex: 1 1 100%; padding: 35px 25px; }
+        .ll-form { grid-template-columns: 1fr; }
+        .ll-full { grid-column: 1; }
+        .ll-btn { grid-column: 1; }
+    }
+    </style>
+<div class="large-law-card" id="largeLawFirmCard">
+<div class="ll-left">
+<p class="ll-eyebrow">Local Representation</p>
+<h2 class="ll-title">Need a <em>New York State</em> Advocate?</h2>
+<p class="ll-desc">
+                Don't walk into your CSE meeting unprepared. The district's representatives are legally trained professionals — but you have equal rights at the table.
+            </p>
+<ul class="ll-list">
+<li>CSE / IEP Meeting Advocacy</li>
+<li>60-Day Evaluation Enforcement</li>
+<li>Independent Educational Evaluations (IEE)</li>
+<li>Discipline, Manifestation (MDR) &amp; Suspensions</li>
+<li>Due Process Hearings &amp; State Complaints</li>
+</ul>
+</div>
+<div class="ll-right" id="partnerFormContainer">
+<h3 class="ll-form-title">Request a Case Evaluation</h3>
+<p class="ll-form-desc">Get connected with a specialized education advocate. No fees unless we take your case.</p>
+<form class="ll-form" id="partnerLeadForm">
+<div>
+<label class="ll-label">Parent Name</label>
+<input class="ll-input" id="pName" placeholder="First and last name" required="" type="text"/>
+</div>
+<div>
+<label class="ll-label">Phone Number</label>
+<input class="ll-input" id="pPhone" placeholder="(555) 000-0000" required="" type="tel"/>
+</div>
+<div class="ll-full">
+<label class="ll-label">Email Address</label>
+<input class="ll-input" id="pEmail" placeholder="Your best email address" required="" type="email"/>
+</div>
+<div class="ll-full">
+<label class="ll-label">Primary Concern</label>
+<select class="ll-input ll-select" id="pIssue" required="">
+<option disabled="" selected="" value="">Select the main issue...</option>
+<option>Upcoming CSE / IEP Meeting</option>
+<option>Evaluation Denied or Delayed</option>
+<option>School Discipline / Suspension</option>
+<option>IEP Not Being Followed</option>
+<option>Due Process Filing</option>
+<option>Other</option>
+</select>
+</div>
+<button class="ll-btn" id="pSubmitBtn" type="submit">
+                    Secure My Free Consultation
+                </button>
+</form>
+<div style="font-size: 11px; color: #a09488; line-height: 1.6; margin-top: 16px; text-align: center; font-family: 'DM Sans', sans-serif;">
+<strong><i class="fas fa-lock"></i> 100% Confidential.</strong> No obligation.
+            </div>
+</div>
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('partnerLeadForm');
+            const submitBtn = document.getElementById('pSubmitBtn');
+            const container = document.getElementById('partnerFormContainer');
+
+            if (form && submitBtn) {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    submitBtn.innerHTML = 'Securely Sending...';
+                    submitBtn.disabled = true;
+                    submitBtn.style.opacity = '0.7';
+
+                    const formData = new URLSearchParams();
+                    formData.append('name', document.getElementById('pName').value || 'Not provided');
+                    formData.append('email', document.getElementById('pEmail').value || 'Not provided');
+                    formData.append('phone', document.getElementById('pPhone').value || 'Not provided');
+                    formData.append('concern', document.getElementById('pIssue').value || 'Not provided');
+                    formData.append('pageUrl', window.location.href);
+
+                    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwWpGXg3JMJnxyzUlJHPlQRnE_R2Dh6oFvapMureXQWG_0bLOBtN_e7f5s5jnKRdcG-/exec';
+
+                    fetch(GOOGLE_SCRIPT_URL, {
+                        method: 'POST',
+                        body: formData,
+                        mode: 'no-cors'
+                    })
+                    .then(() => {
+                        container.innerHTML = `
+                            <div style="text-align: center; padding: 60px 20px;">
+                                <div style="color: #b8963a; font-size: 56px; margin-bottom: 20px;">✓</div>
+                                <h4 style="font-family: 'Cormorant Garamond', serif; font-size: 32px; color: #1a1410; margin-bottom: 12px; font-weight: 600;">Request Received</h4>
+                                <p style="font-size: 16px; color: #6b5f53; line-height: 1.6; font-family: 'DM Sans', sans-serif;">
+                                    Your information has been securely routed. A legal professional familiar with your district will reach out to you shortly.
+                                </p>
+                            </div>
+                        `;
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        submitBtn.innerHTML = 'Error. Please Try Again.';
+                        submitBtn.disabled = false;
+                        submitBtn.style.opacity = '1';
+                    });
+                });
+            }
+        });
+        </script>
+</div>
+<!-- INSIGHT BOX -->
+<div class="insight-box">
+<div class="insight-icon">
+<i class="fas fa-lightbulb">
+</i>
+</div>
+<div class="insight-text">
+<h4>
+       Understanding Special Education in Greece CSD
+      </h4>
+<p>
+       Greece Central School District parents have the right to access free appropriate public education (FAPE) for their children. This includes advocating for the least restrictive environment (LRE), independent educational evaluations (IEE) at public expense when warranted, and comprehensive transition planning services.
+      </p>
+</div>
+</div>
+<!-- PROCESS STRIP -->
+<div class="section-title-row">
+<h2>
+      Navigating Special Ed in Greece CSD
+     </h2>
+<span>
+      Key rights to know —
+      <a href="parent-advocacy-guide.html">
+       read the full guide →
+      </a>
+</span>
+</div>
+<div class="process-strip">
+<div class="process-item">
+<div class="process-num">
+       1
+      </div>
+<div class="process-body">
+<h4>
+        Navigating LRE Placement
+       </h4>
+<p>
+        Ensure your child is learning alongside general education peers to the greatest extent appropriate.
+       </p>
+</div>
+</div>
+<div class="process-item">
+<div class="process-num">
+       2
+      </div>
+<div class="process-body">
+<h4>
+        Requesting an IEE
+       </h4>
+<p>
+        Parents have the right to an Independent Educational Evaluation if they disagree with the district's.
+       </p>
+</div>
+</div>
+<div class="process-item">
+<div class="process-num">
+       3
+      </div>
+<div class="process-body">
+<h4>
+        Transitioning to Adulthood
+       </h4>
+<p>
+        Start planning early for post-secondary education, vocational training, and independent living.
+       </p>
+</div>
+</div>
+</div>
+<!-- AD SLOTS -->
+<div class="section-title-row mt-56">
+<h2>
+      Advocates &amp; CSE Support
+     </h2>
+<span>
+      Local area providers
+     </span>
+</div>
+<div class="ad-slot-card">
+<div class="ad-slot-logo">
+<i class="fas fa-user-tie fa-lg">
+</i>
+</div>
+<div class="ad-slot-content">
+<h4>
+       Your Advocacy Firm
+      </h4>
+<p>
+       Be the first advocate parents call when they hit a wall at the CSE table. Exclusive to this category in Greece CSD.
+      </p>
+</div>
+<a class="ad-slot-cta" href="https://www.newyorkspecialed.net/contact">
+      Claim this listing
+      <i class="fas fa-chevron-right" style="font-size:.65rem;">
+</i>
+</a>
+</div>
+<div class="section-title-row mt-48">
+<h2>
+      Special Education Attorneys
+     </h2>
+<span>
+      Impartial hearings &amp; NYSED complaints
+     </span>
+</div>
+<div class="ad-slot-card">
+<div class="ad-slot-logo">
+<i class="fas fa-scale-balanced fa-lg">
+</i>
+</div>
+<div class="ad-slot-content">
+<h4>
+       Your Law Firm
+      </h4>
+<p>
+       Position your firm as the go-to legal resource for families in Greece CSD navigating due process or NYSED complaints.
+      </p>
+</div>
+<a class="ad-slot-cta" href="https://www.newyorkspecialed.net/contact">
+      Claim this listing
+      <i class="fas fa-chevron-right" style="font-size:.65rem;">
+</i>
+</a>
+</div>
+<div class="section-title-row mt-48">
+<h2>
+      Independent Evaluators
+     </h2>
+<span>
+      IEE, neuropsychological &amp; specialty
+     </span>
+</div>
+<div class="ad-slot-card">
+<div class="ad-slot-logo">
+<i class="fas fa-brain fa-lg">
+</i>
+</div>
+<div class="ad-slot-content">
+<h4>
+       Your Evaluation Practice
+      </h4>
+<p>
+       Reach parents in Greece CSD seeking an independent second opinion after the district's evaluation.
+      </p>
+</div>
+<a class="ad-slot-cta" href="https://www.newyorkspecialed.net/contact">
+      Claim this listing
+      <i class="fas fa-chevron-right" style="font-size:.65rem;">
+</i>
+</a>
+</div>
+<div class="section-title-row mt-48">
+<h2>
+      Therapists &amp; Related Services
+     </h2>
+<span>
+      Speech, OT, PT &amp; counseling
+     </span>
+</div>
+<div class="ad-slot-card">
+<div class="ad-slot-logo">
+<i class="fas fa-heart-pulse fa-lg">
+</i>
+</div>
+<div class="ad-slot-content">
+<h4>
+       Your Therapy Practice
+      </h4>
+<p>
+       Connect with families whose children need private therapy to supplement their IEP services in Greece CSD.
+      </p>
+</div>
+<a class="ad-slot-cta" href="https://www.newyorkspecialed.net/contact">
+      Claim this listing
+      <i class="fas fa-chevron-right" style="font-size:.65rem;">
+</i>
+</a>
+</div>
+</div>
+<!-- PARTNER CTA BAND -->
+<div class="container">
+<div class="partner-cta-band">
+<div class="partner-cta-copy">
+<span class="label label-muted">
+       For Practices &amp; Firms
+      </span>
+<h2>
+       Why Partner With NY Special Ed?
+      </h2>
+<p>
+       We are the only independent resource hub for New York special education parents. Our Greece CSD pages capture high-intent traffic from families actively seeking evaluations and legal support — often within hours of a CSE meeting.
+      </p>
+</div>
+<a class="btn-partner" href="https://www.newyorkspecialed.net/contact">
+      Become a Partner
+      <i class="fas fa-arrow-right" style="font-size:.75rem;">
+</i>
+</a>
+</div>
+</div>
+<!-- FREE RESOURCES -->
+<div class="container">
+<section class="free-resources-section">
+<div class="free-resources-intro">
+<span class="label label-green">
+       No cost to families
+      </span>
+<h2>
+       Free &amp; Non-Profit Resources
+      </h2>
+</div>
+<div class="resource-tier tier-national">
+<div class="tier-header">
+<i class="fas fa-flag-usa">
+</i>
+       National Free Resources
+      </div>
+<div class="tier-body">
+<a class="free-card" href="https://www.wrightslaw.com" rel="noopener noreferrer" target="_blank">
+<div class="free-card-icon">
+<i class="fas fa-balance-scale">
+</i>
+</div>
+<div class="free-card-text">
+<strong>
+          Wrightslaw
+         </strong>
+<span>
+          Free guides on special education law, IEPs, and parent rights under IDEA.
+         </span>
+</div>
+<i class="fas fa-external-link-alt free-card-arrow">
+</i>
+</a>
+<a class="free-card" href="https://www.understood.org" rel="noopener noreferrer" target="_blank">
+<div class="free-card-icon">
+<i class="fas fa-brain">
+</i>
+</div>
+<div class="free-card-text">
+<strong>
+          Understood.org
+         </strong>
+<span>
+          Free expert guidance for parents of children with learning differences.
+         </span>
+</div>
+<i class="fas fa-external-link-alt free-card-arrow">
+</i>
+</a>
+<a class="free-card" href="https://www.parentcenterhub.org/find-your-center/" rel="noopener noreferrer" target="_blank">
+<div class="free-card-icon">
+<i class="fas fa-users">
+</i>
+</div>
+<div class="free-card-text">
+<strong>
+          Parent Training &amp; Information Centers
+         </strong>
+<span>
+          Federally funded free training for families of children with disabilities.
+         </span>
+</div>
+<i class="fas fa-external-link-alt free-card-arrow">
+</i>
+</a>
+</div>
+</div>
+<div class="resource-tier tier-state">
+<div class="tier-header">
+<i class="fas fa-star">
+</i>
+       New York State Resources
+      </div>
+<div class="tier-body">
+<a class="free-card" href="https://www.nysed.gov/special-education" rel="noopener noreferrer" target="_blank">
+<div class="free-card-icon">
+<i class="fas fa-landmark">
+</i>
+</div>
+<div class="free-card-text">
+<strong>
+          NYSED Office of Special Education
+         </strong>
+<span>
+          NY State's official hub for special ed regulations, parent rights, and complaint filing.
+         </span>
+</div>
+<i class="fas fa-external-link-alt free-card-arrow">
+</i>
+</a>
+<a class="free-card" href="https://www.disabilityrightsny.org" rel="noopener noreferrer" target="_blank">
+<div class="free-card-icon">
+<i class="fas fa-gavel">
+</i>
+</div>
+<div class="free-card-text">
+<strong>
+          Disability Rights New York
+         </strong>
+<span>
+          Free legal advocacy for New Yorkers with disabilities, including IEP disputes.
+         </span>
+</div>
+<i class="fas fa-external-link-alt free-card-arrow">
+</i>
+</a>
+<a class="free-card" href="https://www.advocatesforchildren.org" rel="noopener noreferrer" target="_blank">
+<div class="free-card-icon">
+<i class="fas fa-child">
+</i>
+</div>
+<div class="free-card-text">
+<strong>
+          Advocates for Children of New York
+         </strong>
+<span>
+          Free legal representation for NYC-area students in special education disputes.
+         </span>
+</div>
+<i class="fas fa-external-link-alt free-card-arrow">
+</i>
+</a>
+<a class="free-card" href="https://www.parentcenterhub.org/find-your-center/" rel="noopener noreferrer" target="_blank">
+<div class="free-card-icon">
+<i class="fas fa-users">
+</i>
+</div>
+<div class="free-card-text">
+<strong>
+          NY Parent Training &amp; Information Center
+         </strong>
+<span>
+          Free federally funded training and support for NY families of children with disabilities.
+         </span>
+</div>
+<i class="fas fa-external-link-alt free-card-arrow">
+</i>
+</a>
+</div>
+</div>
+<div class="resource-tier tier-local">
+<div class="tier-header">
+<i class="fas fa-map-marker-alt">
+</i>
+       Local Resources — Greece CSD Area
+      </div>
+<div class="tier-body">
+<a class="free-card" href="https://cprochester.org/" rel="noopener noreferrer" target="_blank">
+<div class="free-card-icon">
+<i class="fas fa-globe">
+</i>
+</div>
+<div class="free-card-text">
+<strong>
+          CP Rochester
+         </strong>
+<span>
+          Provides a wide range of services and supports for individuals with disabilities and their families in the Rochester area.
+         </span>
+</div>
+<i class="fas fa-external-link-alt free-card-arrow">
+</i>
+</a>
+<a class="free-card" href="https://arcmonroecounty.org/" rel="noopener noreferrer" target="_blank">
+<div class="free-card-icon">
+<i class="fas fa-globe">
+</i>
+</div>
+<div class="free-card-text">
+<strong>
+          The Arc of Monroe County
+         </strong>
+<span>
+          Offers advocacy, services, and supports to individuals with intellectual and developmental disabilities and their families.
+         </span>
+</div>
+<i class="fas fa-external-link-alt free-card-arrow">
+</i>
+</a>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer class="site-footer">
+<!-- standard NY footer here -->
+</footer>
+
+<!-- ============================================================
+  NY Special Ed — Premium Newsletter Popup
+  Drop this just before </body> on every page.
+  Replaces the generic blue popup with the site's Ink & Gold aesthetic.
+
+  To configure per page, change data-site and data-language on the script tag.
+  ============================================================ -->
+
+<!-- Popup HTML -->
+<div id="ec-overlay" style="display:none;position:fixed;inset:0;background:rgba(10,15,30,.72);z-index:9998;align-items:center;justify-content:center;backdrop-filter:blur(3px);">
+  <div id="ec-modal" style="max-width:420px;width:92%;position:relative;font-family:'DM Sans',sans-serif;border-radius:6px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.45);">
+
+    <!-- Header -->
+    <div id="ec-header" style="background:#002868;padding:28px 28px 22px;border-bottom:3px solid #d4af37;position:relative;">
+      <button id="ec-close" aria-label="Close"
+        style="position:absolute;top:14px;right:16px;background:none;border:none;color:rgba(255,255,255,.5);font-size:18px;cursor:pointer;line-height:1;padding:4px;">&#x2715;</button>
+      <div style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#d4af37;margin-bottom:10px;">
+        District Intelligence
+      </div>
+      <h2 id="ec-title"
+        style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:500;color:#f5f0e8;line-height:1.15;margin:0;">
+      </h2>
+    </div>
+
+    <!-- Body -->
+    <div style="background:#fdfaf5;padding:26px 28px 24px;">
+      <p id="ec-body" style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:#002868;line-height:1.45;margin:0 0 14px;"></p>
+
+      <div style="width:40px;height:2px;background:#d4af37;margin-bottom:18px;"></div>
+
+      <ul id="ec-checklist" style="list-style:none;margin:0 0 22px;padding:0;"></ul>
+
+      <!-- Form -->
+      <div id="ec-form-wrap">
+        <input id="ec-email" type="email" placeholder="your@email.com"
+          style="width:100%;box-sizing:border-box;padding:11px 14px;border:1.5px solid #d6cbbf;border-radius:4px;font-size:14px;font-family:'DM Sans',sans-serif;margin-bottom:10px;outline:none;background:#fff;color:#1a1410;"/>
+        <button id="ec-submit"
+          style="width:100%;padding:14px;background:#c8102e;color:#fff;border:none;border-radius:4px;font-weight:600;font-family:'DM Sans',sans-serif;font-size:15px;cursor:pointer;transition:background .2s;letter-spacing:.01em;">
+        </button>
+      </div>
+
+      <!-- Success state -->
+      <div id="ec-success" style="display:none;text-align:center;padding:12px 0 6px;">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:32px;color:#d4af37;margin-bottom:8px;">✦</div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#002868;margin:0 0 6px;">You're on the list.</p>
+        <p style="font-size:13px;color:#6b5f53;margin:0;line-height:1.5;">District updates and parent rights resources will arrive in your inbox.</p>
+      </div>
+
+      <p style="margin:14px 0 0;font-size:11px;color:#b0a799;text-align:center;letter-spacing:.02em;">
+        No spam &nbsp;·&nbsp; Unsubscribe any time
+      </p>
+    </div>
+  </div>
+</div>
+
+<script
+  id="ec-script"
+  data-site="new_york_special_ed"
+  data-language="en"
+  data-delay="10000"
+  data-api="https://email-capture-api-831148457361.us-central1.run.app">
+(function() {
+  var script   = document.getElementById("ec-script");
+  var API_BASE = script.getAttribute("data-api");
+  var SITE     = script.getAttribute("data-site")     || "new_york_special_ed";
+  var LANG     = script.getAttribute("data-language") || "en";
+  var DELAY    = parseInt(script.getAttribute("data-delay") || "10000", 10);
+
+  var COPY = {
+    en: {
+      title:   "Know Your District.<br><em style='color:#e5c158;font-style:italic;'>Know Your Rights.</em>",
+      body:    "Most NYC parents don't know what their district is required to provide — until it's too late.",
+      checks:  [
+        "District-specific CSE timelines & contacts",
+        "IEP rights and evaluation deadlines",
+        "What to say at your next meeting",
+        "Real outcomes from parents in your district"
+      ],
+      button:  "Send Me Free District Updates"
+    },
+    es: {
+      title:   "Conozca Su Distrito.<br><em style='color:#e5c158;font-style:italic;'>Sus Derechos.</em>",
+      body:    "La mayoría de los padres de NYC no saben lo que su distrito está obligado a proveer.",
+      checks:  [
+        "Plazos del CSE y contactos por distrito",
+        "Derechos del IEP y plazos de evaluación",
+        "Qué decir en su próxima reunión",
+        "Resultados reales de padres en su distrito"
+      ],
+      button:  "Recibir Actualizaciones Gratis"
+    }
+  };
+
+  var copy = COPY[LANG] || COPY.en;
+  var STORAGE_KEY = "ec_dismissed_" + SITE + "_" + LANG;
+  if (localStorage.getItem(STORAGE_KEY)) return;
+
+  /* -- Inject copy -- */
+  document.getElementById("ec-title").innerHTML  = copy.title;
+  document.getElementById("ec-body").textContent = copy.body;
+  document.getElementById("ec-submit").textContent = copy.button;
+
+  var list = document.getElementById("ec-checklist");
+  copy.checks.forEach(function(item) {
+    var li = document.createElement("li");
+    li.style.cssText = "font-size:13px;color:#6b5f53;padding:5px 0 5px 20px;position:relative;";
+    li.innerHTML = '<span style="position:absolute;left:0;font-family:\'Cormorant Garamond\',serif;font-size:16px;color:#d4af37;">§</span>' + item;
+    list.appendChild(li);
+  });
+
+  var overlay  = document.getElementById("ec-overlay");
+  var emailEl  = document.getElementById("ec-email");
+  var submitEl = document.getElementById("ec-submit");
+
+  /* -- Show after delay -- */
+  setTimeout(function() {
+    overlay.style.display = "flex";
+    emailEl.focus();
+  }, DELAY);
+
+  /* -- Close -- */
+  function close() {
+    overlay.style.display = "none";
+    localStorage.setItem(STORAGE_KEY, "1");
+  }
+  document.getElementById("ec-close").addEventListener("click", close);
+  overlay.addEventListener("click", function(e) { if (e.target === overlay) close(); });
+  document.addEventListener("keydown", function(e) { if (e.key === "Escape") close(); });
+
+  /* -- Hover on button -- */
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+  submitEl.addEventListener("mouseout",   function() { this.style.background = "#c8102e"; });
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+
+  /* -- Submit -- */
+  submitEl.addEventListener("click", function() {
+    var email = emailEl.value.trim();
+    if (!email || !email.includes("@")) {
+      emailEl.style.borderColor = "#c8102e";
+      emailEl.focus();
+      return;
+    }
+    emailEl.style.borderColor = "#d6cbbf";
+    submitEl.disabled    = true;
+    submitEl.textContent = "…";
+
+    fetch(API_BASE + "/api/signup", {
+      method:  "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email:      email,
+        site:       SITE,
+        language:   LANG,
+        source:     "newsletter_popup",
+        page_url:   window.location.href,
+        page_title: document.title,
+        district:   (document.querySelector("[data-district]") || {}).dataset && document.querySelector("[data-district]").dataset.district || null
+      })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(res) {
+      if (res.success) {
+        document.getElementById("ec-form-wrap").style.display = "none";
+        document.getElementById("ec-success").style.display   = "block";
+        localStorage.setItem(STORAGE_KEY, "1");
+        setTimeout(close, 4000);
+      } else {
+        submitEl.disabled    = false;
+        submitEl.textContent = copy.button;
+        alert(res.error || "Something went wrong. Please try again.");
+      }
+    })
+    .catch(function() {
+      submitEl.disabled    = false;
+      submitEl.textContent = copy.button;
+      alert("Network error. Please try again.");
+    });
+  });
+
+  emailEl.addEventListener("keydown", function(e) { if (e.key === "Enter") submitEl.click(); });
+})();
+</script>
+</body>
+</html>

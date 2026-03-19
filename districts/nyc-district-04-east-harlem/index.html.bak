@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>
+   District 4 Special Education Hub | newyorkspecialed.net
+  </title>
+<meta content="Complete guide to Special Education in District 4. Contacts, CSE meetings, evaluation timelines, and parent rights." name="description"/>
+<link href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/" rel="canonical"/>
+<link href="/styles/global.css" rel="stylesheet"/>
+<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+<style>
+   .local-hero {
+        background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+        color: white;
+        padding: 60px 20px 100px 20px;
+        text-align: center;
+        margin-bottom: -40px;
+    }
+    .local-hero h1 { color: white; margin-bottom: 10px; }
+    
+    .hub-grid {
+        display: grid; 
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
+        gap: 20px; 
+        max-width: 1100px;
+        margin: 0 auto 40px auto;
+        position: relative;
+        z-index: 2;
+        padding: 0 20px;
+    }
+    .hub-card {
+        background: white;
+        padding: 25px; 
+        border: 1px solid #ddd; 
+        border-radius: 8px; 
+        text-decoration: none; 
+        color: inherit; 
+        display: block;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+    }
+    .hub-card:hover { transform: translateY(-5px); border-color: #0056b3; }
+    
+    .local-aeo-section {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        background: #fff;
+    }
+    .local-aeo-section h3 { color: #002868; border-bottom: 2px solid #d4af37; padding-bottom: 5px; display: inline-block; margin-top: 30px; }
+  </style>
+<!-- __district-subnav-css-start__ -->
+<style>
+   /* district-subnav — auto-injected by fix_district_nav.py */
+.district-subnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 0 0 24px 0;
+}
+.district-subnav a {
+  display: inline-block;
+  padding: 5px 11px;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0056b3;
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.district-subnav a:hover { background: #dbeafe; }
+.district-subnav a.subnav-active {
+  background: #002868;
+  color: #fff;
+  border-color: #002868;
+  cursor: default;
+}
+  </style>
+<!-- __district-subnav-css-end__ -->
+<meta content="website" property="og:type"/><meta content="District 4 Special Education Hub | newyorkspecialed.net" property="og:title"/><meta content="Complete guide to Special Education in District 4. Contacts, CSE meetings, evaluation timelines, and parent rights." property="og:description"/><meta content="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/" property="og:url"/><meta content="summary_large_image" name="twitter:card"/><meta content="District 4 Special Education Hub | newyorkspecialed.net" name="twitter:title"/><meta content="Complete guide to Special Education in District 4. Contacts, CSE meetings, evaluation timelines, and parent rights." name="twitter:description"/>
+<meta content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" property="og:image"/>
+<meta content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" name="twitter:image"/>
+<style>
+    /* --- PREMIUM SIDEBAR CARD STYLES --- */
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap');
+    
+    .premium-card {
+      background: #fdfaf5;
+      border: 1px solid #d6cbbf;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+      font-family: 'DM Sans', sans-serif;
+    }
+    .card-header {
+      background: #002868;
+      padding: 22px 24px 18px;
+      border-bottom: 3px solid #d4af37;
+    }
+    .premium-card .eyebrow {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #d4af37;
+      margin-bottom: 8px;
+    }
+    .premium-card .title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 26px;
+      font-weight: 500;
+      color: #f5f0e8;
+      line-height: 1.1;
+      margin: 0;
+    }
+    .premium-card .title em {
+      font-style: italic;
+      color: #e5c158;
+    }
+    .premium-card .card-body {
+      padding: 24px;
+    }
+    .premium-card .empathy {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: #002868;
+      line-height: 1.4;
+      margin-bottom: 12px;
+    }
+    .premium-card .divider {
+      width: 48px;
+      height: 2px;
+      background: #d4af37;
+      margin: 16px 0;
+    }
+    .premium-card .checklist {
+      list-style: none;
+      margin: 16px 0;
+      padding: 0;
+    }
+    .premium-card .checklist li {
+      font-size: 14px;
+      color: #6b5f53;
+      padding: 6px 0 6px 20px;
+      position: relative;
+    }
+    .premium-card .checklist li::before {
+      content: '§';
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 16px;
+      color: #d4af37;
+      position: absolute;
+      left: 0;
+    }
+    .premium-card .premium-btn {
+      background: #c8102e;
+      color: white;
+      border: none;
+      padding: 14px;
+      border-radius: 4px;
+      font-weight: 600;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.2s;
+      width: 100%;
+    }
+    .premium-card .premium-btn:hover { background: #a50b24; }
+</style>
+</head>
+<body>
+<!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+<header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader">
+<div class="nav-container">
+<!-- Logo -->
+<a aria-label="New York Special Ed - Home" class="nav-logo" href="/">
+<img alt="New York Special Ed logo" height="120" loading="eager" src="/images/logo.png" style="display:block; height:120px; width:auto; border-radius:8px;" width="120"/>
+</a>
+<!-- Desktop Navigation -->
+<nav itemscope="" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+<ul class="nav-links">
+<!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/">
+        NYC Districts
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="mega-menu">
+<div class="menu-column">
+<h4>
+          Manhattan (D1-6)
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-01-lower-east-side/">
+            District 1: Lower East Side
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-02-upper-east-side/">
+            District 2: Upper East Side/Tribeca
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-03-upper-west-side/">
+            District 3: Upper West Side
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-04-east-harlem/">
+            District 4: East Harlem
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-05-central-harlem/">
+            District 5: Central Harlem
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-06-washington-heights/">
+            District 6: Washington Heights
+           </a>
+</li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>
+          Brooklyn (Key Districts)
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-15-park-slope/">
+            District 15: Park Slope/Sunset Park
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-20-bay-ridge/">
+            District 20: Bay Ridge/Borough Park
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-13-brooklyn-heights/">
+            District 13: Brooklyn Heights
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-75/">
+<strong>
+             District 75 (Citywide Programs)
+            </strong>
+</a>
+</li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>
+          Queens &amp; SI
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-26-bayside/">
+            District 26: Bayside
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-30-astoria/">
+            District 30: Astoria/LIC
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-31-staten-island/">
+            District 31: Staten Island
+           </a>
+</li>
+<li>
+<a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">
+            View All 32 NYC Districts →
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/nys-overview/">
+        Upstate &amp; LI
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<h4>
+          Big 5 Cities
+         </h4>
+<ul>
+<li>
+<a href="/districts/buffalo-city-sd/">
+            Buffalo City SD
+           </a>
+</li>
+<li>
+<a href="/districts/rochester-city-sd/">
+            Rochester City SD
+           </a>
+</li>
+<li>
+<a href="/districts/syracuse-city-sd/">
+            Syracuse City SD
+           </a>
+</li>
+<li>
+<a href="/districts/yonkers-city-sd/">
+            Yonkers City SD
+           </a>
+</li>
+<li>
+<a href="/districts/albany-city-sd/">
+            Albany City SD
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+<li class="nav-item">
+<a class="nav-link" href="/guides/">
+        Parent Guides
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<ul>
+<li>
+<a href="/guides/cse-meeting-guide/">
+            CSE Meeting Guide
+           </a>
+</li>
+<li>
+<a href="/guides/evaluation-request-ny/">
+            Requesting an Evaluation
+           </a>
+</li>
+<li>
+<a href="/guides/bilingual-iep-new-york/">
+            Bilingual IEP Rights
+           </a>
+</li>
+<li>
+<a href="/guides/cpse-preschool-special-education/">
+            CPSE (Preschool) Guide
+           </a>
+</li>
+<li>
+<a href="/guides/carter-cases-private-placement/">
+            Private Placement (Carter Cases)
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- LINK: RESOURCES -->
+<li class="nav-item">
+<a class="nav-link" href="/resources/">
+        Free Tools
+       </a>
+</li>
+<!-- CTA -->
+<li class="nav-item">
+<a class="nav-cta" href="/contact/">
+        Get The Toolkit
+       </a>
+</li>
+</ul>
+</nav>
+<!-- Mobile Toggle -->
+<button aria-label="Open Navigation" class="mobile-toggle">
+<i class="fas fa-bars">
+</i>
+</button>
+</div>
+</header>
+<div class="local-hero">
+<h1>
+    District 4 Special Ed Hub
+   </h1>
+<p style="color: #e2e8f0; font-size: 1.1rem;">
+    Your guide to the CSE process, evaluations, and rights in NYC District District 4 covering East Harlem, Spanish Harlem, Randalls Island.
+   </p>
+</div>
+<div class="hub-grid">
+<a class="hub-card" href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/leadership-directory.html">
+<h3 style="color: #0056b3; margin-top: 0;">📞 Contacts</h3>
+<p>Phone numbers &amp; emails for CSE Chairperson.</p>
+</a>
+<a class="hub-card" href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/cse-meeting-guide.html">
+<h3 style="color: #0056b3; margin-top: 0;">🤝 CSE Guide</h3>
+<p>What to expect at your Annual Review.</p>
+</a>
+<a class="hub-card" href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/evaluation-process.html">
+<h3 style="color: #0056b3; margin-top: 0;">📝 Evaluations</h3>
+<p>How to trigger the 60-day timeline.</p>
+</a>
+<a class="hub-card" href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/discipline-rights.html">
+<h3 style="color: #0056b3; margin-top: 0;">⚖️ Discipline</h3>
+<p>Suspensions and MDR rights.</p>
+</a>
+<a class="hub-card" href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/partners.html">
+<h3 style="color: #0056b3; margin-top: 0;">🤲 Partners</h3>
+<p>Local advocates, legal aid, and support organizations.</p>
+</a>
+<a class="hub-card" href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/special-ed-updates.html">
+<h3 style="color: #0056b3; margin-top: 0;">📰 Updates</h3>
+<p>Latest news and policy changes affecting your district.</p>
+</a>
+<a class="hub-card" href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/parent-advocacy-guide.html">
+<h3 style="color: #0056b3; margin-top: 0;">🛡️ Advocacy</h3>
+<p>Strategies for navigating the CSE process and asserting your rights.</p>
+</a>
+<a class="hub-card" href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/que-es-un-iep-east-harlem.html">
+<h3 style="color: #0056b3; margin-top: 0;">🌐 ¿Qué Es un IEP? (Español)</h3>
+<p>Guía completa sobre el IEP en el Distrito 04 para familias hispanohablantes.</p>
+</a>
+<a class="hub-card" href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/what-is-an-iep.html">
+<h3 style="color: #0056b3; margin-top: 0;">📋 What Is an IEP?</h3>
+<p>Plain-language guide to the IEP document, eligibility, and services in this district.</p>
+</a>
+</div>
+<!-- __district-subnav-start__ -->
+<nav aria-label="Pages in this district" class="district-subnav">
+<a aria-current="page" class="subnav-active" href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/">
+    🏠 Hub
+   </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/leadership-directory.html">
+    📞 Contacts
+   </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/cse-meeting-guide.html">
+    🤝 CSE Guide
+   </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/evaluation-process.html">
+    📝 Evaluations
+   </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/discipline-rights.html">
+    ⚖️ Discipline
+   </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/partners.html">
+    🤲 Partners
+   </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/special-ed-updates.html">
+    📰 Updates
+   </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/parent-advocacy-guide.html">🛡️ Advocacy</a><a href="https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/what-is-an-iep.html">📋 What Is an IEP?</a></nav>
+<!-- __district-subnav-end__ -->
+<!-- Top Banner Anchor to Bot -->
+<div style="background: #2d5248; color: white; padding: 16px 24px; border-radius: 8px; margin-top: 24px; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-wrap: wrap; gap: 16px;">
+<div style="display: flex; align-items: center; gap: 12px;">
+<span style="background: #c9973a; color: #2d5248; padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: 800; letter-spacing: 0.1em;">NEW</span>
+<span style="font-family:'Lora',serif; font-size:18px; font-weight:700;">Get Your IEP Letter Written by our AI Bot</span>
+</div>
+<a href="/tools/" style="background: #c9973a; color: #2d5248; font-weight: 800; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-size: 14px; white-space: nowrap; transition: background 0.2s;">Start Now — $15 →</a>
+</div>
+<section class="premium-split-section" style="background: #fff; padding: 40px 20px 60px 20px; max-width: 100% !important;"><div class="premium-split-container"><div class="premium-content-left"><div class="container" style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 40px;"><div class="main-content-left" style="flex: 1 1 60%; min-width: 300px; line-height: 1.8;">
+<h2>
+    About NYC District 4 - East Harlem and Its Students
+   </h2>
+   Welcome to the NYC District 4 - East Harlem Special Education Hub. If you're navigating the special education system in East Harlem, you're likely feeling overwhelmed. This page is designed to provide you with clear, practical information to help you advocate for your child.
+<p style="margin-bottom: 28px; line-height: 1.85; color: #334155; font-size: 1.125rem;">NYC District 4 serves the East Harlem neighborhood of Manhattan, New York City. East Harlem, also known as Spanish Harlem or El Barrio, is a vibrant community with a rich cultural history. According to available data, the district is part of Region 4. Because enrollment numbers can change, it's always best to verify the most up-to-date figures directly with the New York State Education Department (NYSED) at data.nysed.gov. However, understanding the general context of the district can be helpful as you begin this process.</p>
+<p style="margin-bottom: 28px; line-height: 1.85; color: #334155; font-size: 1.125rem;">East Harlem is known for its strong Latino/Hispanic presence, and Spanish is widely spoken throughout the community. This linguistic diversity is an important factor to consider when it comes to special education services, particularly evaluations. It's essential that your child's evaluation is conducted in their native language to ensure accurate assessment and appropriate support. We'll discuss bilingual evaluations in more detail later. If you need to confirm the percentage of students with IEPs (Individualized Education Programs) in District 4, please consult data.nysed.gov.
+   <h2>
+    How Special Education Works in NYC District 4 - East Harlem
+   </h2>
+   In New York City, the special education process is primarily managed by the Committee on Special Education, or CSE. The CSE is responsible for determining whether a child is eligible for special education services and, if so, for developing and implementing an Individualized Education Program (IEP). The CSE is a multidisciplinary team that includes parents, teachers, school psychologists, and other professionals.</p>
+<p style="margin-bottom: 28px; line-height: 1.85; color: #334155; font-size: 1.125rem;">For children under the age of five, the process is handled by the Committee on Preschool Special Education, or CPSE. The CPSE operates similarly to the CSE, but it focuses on the unique needs of preschool-aged children with disabilities. If your child is transitioning from CPSE to CSE services as they enter kindergarten, it's important to understand how the process changes and what to expect.</p>
+<p style="margin-bottom: 28px; line-height: 1.85; color: #334155; font-size: 1.125rem;">As a parent, you are an *equal* member of the CSE team. This means your input is valued and you have the right to participate in all decisions regarding your child's education. You are not simply a guest at the table; you are a critical partner in ensuring your child receives the appropriate support and services. Don't hesitate to ask questions, share your concerns, and advocate for your child's needs. Remember, the law requires a comprehensive evaluation to be completed within 60 school days of you providing consent.
+   <h2>
+    Who Qualifies for Services
+   </h2>
+   To qualify for special education services in New York City, a child must have a disability that falls under one of the 13 categories defined by the Individuals with Disabilities Education Act (IDEA). These categories include:</p>
+<ul style="margin-top: 15px; margin-bottom: 30px; padding-left: 25px; line-height: 1.8; color: #334155; font-size: 1.1rem;">
+<li style="margin-bottom: 12px; padding-left: 8px;">Autism</li>
+<li style="margin-bottom: 12px; padding-left: 8px;">Deafness</li>
+<li style="margin-bottom: 12px; padding-left: 8px;">Deaf-blindness</li>
+<li style="margin-bottom: 12px; padding-left: 8px;">Emotional disturbance</li>
+<li style="margin-bottom: 12px; padding-left: 8px;">Hearing impairment</li>
+<li style="margin-bottom: 12px; padding-left: 8px;">Intellectual disability</li>
+<li style="margin-bottom: 12px; padding-left: 8px;">Multiple disabilities</li>
+<li style="margin-bottom: 12px; padding-left: 8px;">Orthopedic impairment</li>
+<li style="margin-bottom: 12px; padding-left: 8px;">Other health impairment</li>
+<li style="margin-bottom: 12px; padding-left: 8px;">Specific learning disability</li>
+<li style="margin-bottom: 12px; padding-left: 8px;">Speech or language impairment</li>
+<li style="margin-bottom: 12px; padding-left: 8px;">Traumatic brain injury</li>
+<li style="margin-bottom: 12px; padding-left: 8px;">Visual impairment (including blindness)</li>
+</ul>
+<p style="margin-bottom: 28px; line-height: 1.85; color: #334155; font-size: 1.125rem;">It's important to understand that simply having a diagnosis within one of these categories does *not* automatically qualify a child for special education services. The disability must *adversely affect* the child's educational performance. This means the disability must create significant challenges in the child's ability to learn and participate in the general education curriculum.</p>
+<p style="margin-bottom: 28px; line-height: 1.85; color: #334155; font-size: 1.125rem;">For example, a child with a mild speech impediment might not qualify for special education if it doesn't significantly impact their ability to understand and participate in classroom instruction. On the other hand, a child with a more severe speech impairment that makes it difficult for them to communicate with teachers and peers would likely qualify for services.</p>
+<p style="margin-bottom: 28px; line-height: 1.85; color: #334155; font-size: 1.125rem;">It's also crucial to remember that English Language Learner (ELL) status alone does *not* qualify a child for special education. While language barriers can certainly impact a child's academic performance, they are not considered a disability under IDEA. If a child is struggling in school due to language difficulties, the school should provide appropriate language support services. If there are concerns about a possible disability, the child should be evaluated, and that evaluation *must* be conducted in the child's native language to ensure accurate results. In District 4, with its large Spanish-speaking population, it's vital that bilingual evaluations are readily available and properly administered.
+   <h2>
+    What Services Are Available
+   </h2>
+   The special education system offers a range of services designed to meet the diverse needs of students with disabilities. These services are typically provided along a continuum, with the least restrictive environment (LRE) being the goal. The LRE means that students with disabilities should be educated with their non-disabled peers to the greatest extent possible. Here are some of the common service models you might encounter:</p>
+<ul style="margin-top: 15px; margin-bottom: 30px; padding-left: 25px; line-height: 1.8; color: #334155; font-size: 1.1rem;">
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>Integrated Co-Teaching (ICT):</strong> In an ICT classroom, a general education teacher and a special education teacher work together to provide instruction to all students, including those with IEPs. This model allows students with disabilities to access the general education curriculum while receiving individualized support.</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>Special Classes:</strong> Special classes are self-contained classrooms with a smaller student-to-teacher ratio. These classes are designed for students with more significant disabilities who require more intensive support. Common special class ratios include:</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>12:1:1:</strong> 12 students, 1 teacher, and 1 paraprofessional</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>8:1:1:</strong> 8 students, 1 teacher, and 1 paraprofessional</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>6:1:1:</strong> 6 students, 1 teacher, and 1 paraprofessional</li>
+</ul>
+<p style="margin-bottom: 28px; line-height: 1.85; color: #334155; font-size: 1.125rem;">In addition to these classroom settings, students with IEPs may also receive related services. Related services are support services that help students benefit from their special education program. Common related services include:</p>
+<ul style="margin-top: 15px; margin-bottom: 30px; padding-left: 25px; line-height: 1.8; color: #334155; font-size: 1.1rem;">
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>Speech Therapy:</strong> Helps students with speech and language impairments improve their communication skills.</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>Occupational Therapy (OT):</strong> Helps students develop fine motor skills, sensory processing skills, and other skills needed to participate in daily activities.</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>Physical Therapy (PT):</strong> Helps students improve their gross motor skills, mobility, and physical functioning.</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>Counseling:</strong> Provides emotional and behavioral support to students who are struggling with mental health issues or social-emotional challenges.</li>
+</ul>
+<p style="margin-bottom: 28px; line-height: 1.85; color: #334155; font-size: 1.125rem;">In some cases, a district may not be able to provide a Free Appropriate Public Education (FAPE) within its own schools. In these situations, the CSE may recommend an out-of-district placement. This could include a specialized school or program that is better equipped to meet the student's unique needs.</p>
+<p style="margin-bottom: 28px; line-height: 1.85; color: #334155; font-size: 1.125rem;">District 4 also has co-located programs with District 75. District 75 is a city-wide district that serves students with significant disabilities. Co-located programs allow District 75 classes to operate within general education schools in District 4. This model can provide opportunities for integration and social interaction between students with and without disabilities. However, it's important to carefully consider whether a co-located program is the right fit for your child, as these programs often serve students with more intensive needs.
+   <h2>
+    Your Rights as a Parent
+   </h2>
+   As a parent of a child with a disability, you have certain rights under the law. These rights, often referred to as procedural safeguards, are designed to ensure that you are actively involved in your child's education and that your child receives a FAPE. Some of the most important procedural safeguards include:</p>
+<ul style="margin-top: 15px; margin-bottom: 30px; padding-left: 25px; line-height: 1.8; color: #334155; font-size: 1.1rem;">
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>Right to Participate in the CSE:</strong> As mentioned earlier, you are an equal member of the CSE team and have the right to participate in all meetings and decisions regarding your child's education.</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>Right to an Independent Educational Evaluation (IEE) at Public Expense:</strong> If you disagree with the school's evaluation of your child, you have the right to obtain an IEE from a qualified professional. If the IEE meets certain criteria, the school district may be required to pay for it.</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>Right to Prior Written Notice:</strong> The school district must provide you with written notice whenever it proposes to change or refuses to change your child's identification, evaluation, or educational placement. This notice must explain the reasons for the proposed or refused action and provide you with information about your rights.</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>Right to Mediation and Impartial Hearing:</strong> If you have a dispute with the school district regarding your child's special education services, you have the right to request mediation or an impartial hearing. Mediation is a voluntary process in which a neutral third party helps you and the school district reach a mutually agreeable resolution. An impartial hearing is a more formal process in which an independent hearing officer hears evidence and makes a decision.</li>
+</ul>
+<p style="margin-bottom: 28px; line-height: 1.85; color: #334155; font-size: 1.125rem;">It's important to remember that you do *not* need a lawyer to assert these rights. While a lawyer can be helpful in navigating the special education system, you have the right to advocate for your child on your own. There are many parent advocacy organizations that can provide you with information, support, and training.
+   <h2>
+    Next Steps
+   </h2>
+   Navigating the special education system can be challenging, but you are not alone. Here are some next steps you can take to advocate for your child:</p>
+<ul style="margin-top: 15px; margin-bottom: 30px; padding-left: 25px; line-height: 1.8; color: #334155; font-size: 1.1rem;">
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>If your child has not yet been evaluated:</strong> Start by visiting our Evaluation Process page to learn about the steps involved in requesting an evaluation.</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>If you have a CSE meeting coming up:</strong> Review our CSE Meeting Guide to prepare for the meeting and understand your rights.</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>Explore the other pages in this hub:</strong></li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>[Evaluation Process]:</strong> Learn how to request an initial evaluation for your child. (Link to Evaluation Process page)</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>[CSE Meeting Guide]:</strong> Prepare for your child's Committee on Special Education (CSE) meeting. (Link to CSE Meeting Guide page)</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>[IEP Guide]:</strong> Understand the components of your child's Individualized Education Program (IEP). (Link to IEP Guide page)</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>[Services and Placement]:</strong> Explore the different types of special education services and placements available. (Link to Services and Placement page)</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>[Your Rights]:</strong> Learn about your rights as a parent in the special education process. (Link to Your Rights page)</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>[Dispute Resolution]:</strong> Understand your options for resolving disputes with the school district. (Link to Dispute Resolution page)</li>
+</ul>
+<p style="margin-bottom: 28px; line-height: 1.85; color: #334155; font-size: 1.125rem;">Remember, you are your child's best advocate. By understanding the special education system and your rights, you can ensure that your child receives the support and services they need to succeed.
+  </p></div>
+<div class="sidebar-right" style="flex: 1 1 30%; min-width: 300px; position: sticky; top: 20px; align-self: start;">
+<div class="premium-card">
+<div class="card-header">
+<p class="eyebrow">District 4 Expertise</p>
+<h3 class="title">CSE Meeting <em>Toolkit</em></h3>
+</div>
+<div class="card-body">
+<p class="empathy">
+                     Don't walk into your CSE meeting unprepared.
+                  </p>
+<div class="divider"></div>
+<p class="copy" style="font-size: 15px; color: #6b5f53; margin-bottom: 15px;">
+                     Get the exact email templates, timeline checklists, 
+                     and red-flag warnings used by experienced advocates.
+                  </p>
+<ul class="checklist">
+<li>Evaluation request template</li>
+<li>60-day timeline tracker</li>
+<li>CSE meeting preparation checklist</li>
+<li>IEE request letter sample</li>
+</ul>
+<form action="#" method="POST" style="display: flex; flex-direction: column; gap: 12px; margin-top: 25px;">
+<input placeholder="Your best email address" required="" style="padding: 14px; border: 1px solid #d6cbbf; border-radius: 4px; font-family: 'DM Sans', sans-serif; font-size: 15px; outline: none;" type="email"/>
+<button class="premium-btn" type="submit">
+                        Get Free Toolkit →
+                     </button>
+</form>
+<p class="confidential-note" style="font-size: 12px; color: #888; margin-top: 15px; text-align: center;">
+<strong><i class="fas fa-lock"></i> Privacy guaranteed.</strong> No spam.<br/>Unsubscribe anytime.
+                  </p>
+</div>
+</div>
+</div>
+</div></div>
+<div class="premium-sidebar-right" style="flex: 1 1 30%; min-width: 300px; position: sticky; top: 20px;">
+  <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.08);">
+    <div style="background: #2d5248; padding: 36px 24px; text-align: center; color: white;">
+      <h3 style="margin: 0 0 12px 0; font-family: 'Lora', serif; font-size: 24px;">IEP Letter Writer</h3>
+      <p style="margin: 0 0 24px 0; font-size: 15px; color: #e2e8f0; line-height: 1.6;">Don't know what to say to the CSE? Let our AI bot generate a custom, legally-sound request letter for you in minutes.</p>
+      <a href="/tools/" style="display: inline-block; background: #c9973a; color: #2d5248; font-weight: 800; padding: 14px 24px; border-radius: 6px; text-decoration: none; font-size: 15px; box-shadow: 0 4px 12px rgba(201, 151, 58, 0.3);">Open Letter Writer →</a>
+    </div>
+  </div>
+</div>
+</div></section>
+<!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+<footer class="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="footer-container">
+<!-- COL 1: Brand & Mission -->
+<div class="footer-brand">
+<h3>
+      New York Special Ed
+      <span>
+       .net
+      </span>
+</h3>
+<p>
+      Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+     </p>
+<div style="margin-top: 20px;">
+<a href="/contact/" style="color: #D4AF37; font-weight: bold; text-decoration: none;">
+       View Advocacy Shop →
+      </a>
+</div>
+</div>
+<!-- COL 2: Essential Guides -->
+<div class="footer-col">
+<h4>
+      NY Parent Guides
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/guides/cse-meeting-guide/">
+        The CSE Meeting Guide
+       </a>
+</li>
+<li>
+<a href="/guides/evaluation-request-ny/">
+        Evaluation Timelines (60 Days)
+       </a>
+</li>
+<li>
+<a href="/guides/dispute-resolution-ny/">
+        Due Process &amp; Complaints
+       </a>
+</li>
+<li>
+<a href="/guides/bilingual-iep-new-york/">
+        Bilingual/ELL Rights
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-75/">
+        District 75 Explained
+       </a>
+</li>
+</ul>
+</div>
+<!-- COL 3: Top Districts -->
+<div class="footer-col">
+<h4>
+      Popular Districts
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/districts/nyc-district-02-upper-east-side/">
+        NYC District 2 (Manhattan)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-15-park-slope/">
+        NYC District 15 (Brooklyn)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-31-staten-island/">
+        NYC District 31 (Staten Island)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-30-astoria/">
+        NYC District 30 (Queens)
+       </a>
+</li>
+<li>
+<a href="/districts/buffalo-city-sd/">
+        Buffalo City Schools
+       </a>
+</li>
+</ul>
+</div>
+<!-- COL 4: Legal & Contact -->
+<div class="footer-col">
+<h4>
+      Resources
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/about/">
+        About Us
+       </a>
+</li>
+<li>
+<a href="/contact/">
+        Contact Support
+       </a>
+</li>
+<li>
+<a href="/privacy-policy/">
+        Privacy Policy
+       </a>
+</li>
+<li>
+<a href="/sitemap.xml">
+        Sitemap
+       </a>
+</li>
+</ul>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="footer-bottom">
+<p>
+     © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.
+     <br/>
+     For official inquiries, visit schools.nyc.gov or nysed.gov.
+    </p>
+<!-- advocacy-guide-card-added -->
+</div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Target any form on the page
+    const leadForms = document.querySelectorAll('form');
+    
+    leadForms.forEach(form => {
+        const submitBtn = form.querySelector('button[type="submit"]');
+        if (!submitBtn) return;
+
+        submitBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            // Grab the specific inputs from your new Law Firm layout
+            const nameInput = form.querySelector('input[type="text"]');
+            const phoneInput = form.querySelector('input[type="tel"]');
+            const selectInputs = form.querySelectorAll('select');
+            let issueSelect = selectInputs.length > 0 ? selectInputs[0] : null;
+
+            // Basic Validation
+            if (nameInput && !nameInput.value.trim()) {
+                alert('Please enter your name.');
+                nameInput.focus();
+                return;
+            }
+            if (phoneInput && !phoneInput.value.trim()) {
+                alert('Please enter your phone number.');
+                phoneInput.focus();
+                return;
+            }
+
+            submitBtn.innerHTML = 'Sending...';
+            submitBtn.disabled = true;
+            submitBtn.style.opacity = '0.7';
+
+            // Prepare data for Google Sheets
+            const formData = new URLSearchParams();
+            formData.append('name', nameInput && nameInput.value ? nameInput.value : 'Not provided');
+            // We pass the phone number into the 'email' parameter so your existing Google Apps Script doesn't break
+            formData.append('email', phoneInput && phoneInput.value ? phoneInput.value : 'Not provided');
+            formData.append('concern', issueSelect && issueSelect.value ? issueSelect.value : 'Not provided');
+            formData.append('pageUrl', window.location.href);
+
+            const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwWpGXg3JMJnxyzUlJHPlQRnE_R2Dh6oFvapMureXQWG_0bLOBtN_e7f5s5jnKRdcG-/exec';
+
+            fetch(GOOGLE_SCRIPT_URL, {
+                method: 'POST',
+                body: formData,
+                mode: 'no-cors'
+            })
+            .then(() => {
+                // Success State matching your new Ink & Gold aesthetics
+                form.innerHTML = `
+                    <div style="text-align: center; padding: 20px 10px;">
+                        <div style="color: #b8963a; font-size: 40px; margin-bottom: 10px;">✓</div>
+                        <h4 style="font-family: 'Cormorant Garamond', serif; font-size: 26px; color: #1a1410; margin-bottom: 10px; font-weight: 600;">Request Received</h4>
+                        <p style="font-size: 14px; color: #6b5f53; line-height: 1.5; font-family: 'DM Sans', sans-serif;">
+                            Your information has been securely routed. We will be in touch shortly.
+                        </p>
+                    </div>
+                `;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                submitBtn.innerHTML = 'Error. Please Try Again.';
+                submitBtn.disabled = false;
+                submitBtn.style.opacity = '1';
+            });
+        });
+    });
+});
+</script>
+<!-- ============================================================
+  NY Special Ed — Premium Newsletter Popup
+  Drop this just before </body> on every page.
+  Replaces the generic blue popup with the site's Ink & Gold aesthetic.
+
+  To configure per page, change data-site and data-language on the script tag.
+  ============================================================ -->
+
+<!-- Popup HTML -->
+<div id="ec-overlay" style="display:none;position:fixed;inset:0;background:rgba(10,15,30,.72);z-index:9998;align-items:center;justify-content:center;backdrop-filter:blur(3px);">
+  <div id="ec-modal" style="max-width:420px;width:92%;position:relative;font-family:'DM Sans',sans-serif;border-radius:6px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.45);">
+
+    <!-- Header -->
+    <div id="ec-header" style="background:#002868;padding:28px 28px 22px;border-bottom:3px solid #d4af37;position:relative;">
+      <button id="ec-close" aria-label="Close"
+        style="position:absolute;top:14px;right:16px;background:none;border:none;color:rgba(255,255,255,.5);font-size:18px;cursor:pointer;line-height:1;padding:4px;">&#x2715;</button>
+      <div style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#d4af37;margin-bottom:10px;">
+        District Intelligence
+      </div>
+      <h2 id="ec-title"
+        style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:500;color:#f5f0e8;line-height:1.15;margin:0;">
+      </h2>
+    </div>
+
+    <!-- Body -->
+    <div style="background:#fdfaf5;padding:26px 28px 24px;">
+      <p id="ec-body" style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:#002868;line-height:1.45;margin:0 0 14px;"></p>
+
+      <div style="width:40px;height:2px;background:#d4af37;margin-bottom:18px;"></div>
+
+      <ul id="ec-checklist" style="list-style:none;margin:0 0 22px;padding:0;"></ul>
+
+      <!-- Form -->
+      <div id="ec-form-wrap">
+        <input id="ec-email" type="email" placeholder="your@email.com"
+          style="width:100%;box-sizing:border-box;padding:11px 14px;border:1.5px solid #d6cbbf;border-radius:4px;font-size:14px;font-family:'DM Sans',sans-serif;margin-bottom:10px;outline:none;background:#fff;color:#1a1410;"/>
+        <button id="ec-submit"
+          style="width:100%;padding:14px;background:#c8102e;color:#fff;border:none;border-radius:4px;font-weight:600;font-family:'DM Sans',sans-serif;font-size:15px;cursor:pointer;transition:background .2s;letter-spacing:.01em;">
+        </button>
+      </div>
+
+      <!-- Success state -->
+      <div id="ec-success" style="display:none;text-align:center;padding:12px 0 6px;">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:32px;color:#d4af37;margin-bottom:8px;">✦</div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#002868;margin:0 0 6px;">You're on the list.</p>
+        <p style="font-size:13px;color:#6b5f53;margin:0;line-height:1.5;">District updates and parent rights resources will arrive in your inbox.</p>
+      </div>
+
+      <p style="margin:14px 0 0;font-size:11px;color:#b0a799;text-align:center;letter-spacing:.02em;">
+        No spam &nbsp;·&nbsp; Unsubscribe any time
+      </p>
+    </div>
+  </div>
+</div>
+
+<script
+  id="ec-script"
+  data-site="new_york_special_ed"
+  data-language="en"
+  data-delay="10000"
+  data-api="https://email-capture-api-831148457361.us-central1.run.app">
+(function() {
+  var script   = document.getElementById("ec-script");
+  var API_BASE = script.getAttribute("data-api");
+  var SITE     = script.getAttribute("data-site")     || "new_york_special_ed";
+  var LANG     = script.getAttribute("data-language") || "en";
+  var DELAY    = parseInt(script.getAttribute("data-delay") || "10000", 10);
+
+  var COPY = {
+    en: {
+      title:   "Know Your District.<br><em style='color:#e5c158;font-style:italic;'>Know Your Rights.</em>",
+      body:    "Most NYC parents don't know what their district is required to provide — until it's too late.",
+      checks:  [
+        "District-specific CSE timelines & contacts",
+        "IEP rights and evaluation deadlines",
+        "What to say at your next meeting",
+        "Real outcomes from parents in your district"
+      ],
+      button:  "Send Me Free District Updates"
+    },
+    es: {
+      title:   "Conozca Su Distrito.<br><em style='color:#e5c158;font-style:italic;'>Sus Derechos.</em>",
+      body:    "La mayoría de los padres de NYC no saben lo que su distrito está obligado a proveer.",
+      checks:  [
+        "Plazos del CSE y contactos por distrito",
+        "Derechos del IEP y plazos de evaluación",
+        "Qué decir en su próxima reunión",
+        "Resultados reales de padres en su distrito"
+      ],
+      button:  "Recibir Actualizaciones Gratis"
+    }
+  };
+
+  var copy = COPY[LANG] || COPY.en;
+  var STORAGE_KEY = "ec_dismissed_" + SITE + "_" + LANG;
+  if (localStorage.getItem(STORAGE_KEY)) return;
+
+  /* -- Inject copy -- */
+  document.getElementById("ec-title").innerHTML  = copy.title;
+  document.getElementById("ec-body").textContent = copy.body;
+  document.getElementById("ec-submit").textContent = copy.button;
+
+  var list = document.getElementById("ec-checklist");
+  copy.checks.forEach(function(item) {
+    var li = document.createElement("li");
+    li.style.cssText = "font-size:13px;color:#6b5f53;padding:5px 0 5px 20px;position:relative;";
+    li.innerHTML = '<span style="position:absolute;left:0;font-family:\'Cormorant Garamond\',serif;font-size:16px;color:#d4af37;">§</span>' + item;
+    list.appendChild(li);
+  });
+
+  var overlay  = document.getElementById("ec-overlay");
+  var emailEl  = document.getElementById("ec-email");
+  var submitEl = document.getElementById("ec-submit");
+
+  /* -- Show after delay -- */
+  setTimeout(function() {
+    overlay.style.display = "flex";
+    emailEl.focus();
+  }, DELAY);
+
+  /* -- Close -- */
+  function close() {
+    overlay.style.display = "none";
+    localStorage.setItem(STORAGE_KEY, "1");
+  }
+  document.getElementById("ec-close").addEventListener("click", close);
+  overlay.addEventListener("click", function(e) { if (e.target === overlay) close(); });
+  document.addEventListener("keydown", function(e) { if (e.key === "Escape") close(); });
+
+  /* -- Hover on button -- */
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+  submitEl.addEventListener("mouseout",   function() { this.style.background = "#c8102e"; });
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+
+  /* -- Submit -- */
+  submitEl.addEventListener("click", function() {
+    var email = emailEl.value.trim();
+    if (!email || !email.includes("@")) {
+      emailEl.style.borderColor = "#c8102e";
+      emailEl.focus();
+      return;
+    }
+    emailEl.style.borderColor = "#d6cbbf";
+    submitEl.disabled    = true;
+    submitEl.textContent = "…";
+
+    fetch(API_BASE + "/api/signup", {
+      method:  "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email:      email,
+        site:       SITE,
+        language:   LANG,
+        source:     "newsletter_popup",
+        page_url:   window.location.href,
+        page_title: document.title,
+        district:   (document.querySelector("[data-district]") || {}).dataset && document.querySelector("[data-district]").dataset.district || null
+      })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(res) {
+      if (res.success) {
+        document.getElementById("ec-form-wrap").style.display = "none";
+        document.getElementById("ec-success").style.display   = "block";
+        localStorage.setItem(STORAGE_KEY, "1");
+        setTimeout(close, 4000);
+      } else {
+        submitEl.disabled    = false;
+        submitEl.textContent = copy.button;
+        alert(res.error || "Something went wrong. Please try again.");
+      }
+    })
+    .catch(function() {
+      submitEl.disabled    = false;
+      submitEl.textContent = copy.button;
+      alert("Network error. Please try again.");
+    });
+  });
+
+  emailEl.addEventListener("keydown", function(e) { if (e.key === "Enter") submitEl.click(); });
+})();
+</script>
+</body>
+</html>

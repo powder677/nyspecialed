@@ -308,7 +308,7 @@
 <h3 style="color: #0056b3; margin-top: 0;">🛡️ Advocacy</h3>
 <p>Strategies for navigating the CSE process and asserting your rights.</p>
 </a>
-<a class="hub-card" href="https://www.newyorkspecialed.net/districts/nyc-district-12-wakefield-williamsbridge/que-es-un-iep-williamsbridge.html">
+<a class="hub-card" href="https://www.newyorkspecialed.net/districts/nyc-district-12-soundview/que-es-un-iep-williamsbridge.html">
 <h3 style="color: #0056b3; margin-top: 0;">🌐 ¿Qué Es un IEP? (Español)</h3>
 <p>Guía completa sobre el IEP en el Distrito 12 para familias hispanohablantes.</p>
 </a>
@@ -395,11 +395,10 @@
 <p style="margin-bottom: 28px; line-height: 1.85; color: #334155; font-size: 1.125rem;">Navigating the special education system can feel overwhelming, but you are not alone. Here are some next steps you can take to learn more and advocate effectively for your child:</p>
 <ul style="margin-top: 15px; margin-bottom: 30px; padding-left: 25px; line-height: 1.8; color: #334155; font-size: 1.1rem;">
 <li style="margin-bottom: 12px; padding-left: 8px;"><strong>If your child has not yet been evaluated:</strong> Start by visiting our <a href="evaluation-process.html" style="color: #0056b3; font-weight: 600; text-decoration: none; border-bottom: 1px solid #0056b3;">Evaluation Process</a> page to understand the steps involved in requesting an initial evaluation.</li>
-<li style="margin-bottom: 12px; padding-left: 8px;"><strong>If you have an upcoming CSE meeting:</strong> Review our <a href="cse-meeting-guide.html" style="color: #0056b3; font-weight: 600; text-decoration: none; border-bottom: 1px solid #0056b3;">CSE Meeting Guide</a> to prepare for the meeting and understand your role as a parent.</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>If you have an upcoming CSE meeting:</strong> Review our <a href="/districts/nyc-district-12-soundview/cse-meeting-guide.html" style="color: #0056b3; font-weight: 600; text-decoration: none; border-bottom: 1px solid #0056b3;">CSE Meeting Guide</a> to prepare for the meeting and understand your role as a parent.</li>
 <li style="margin-bottom: 12px; padding-left: 8px;"><strong>To learn more about IEPs:</strong> Read our <a href="/guides/cse-meeting-guide/" style="color: #0056b3; font-weight: 600; text-decoration: none; border-bottom: 1px solid #0056b3;">All About IEPs</a> page.</li>
-<li style="margin-bottom: 12px; padding-left: 8px;"><strong>For information on related services:</strong> Visit our <a href="/guides/related-services/" style="color: #0056b3; font-weight: 600; text-decoration: none; border-bottom: 1px solid #0056b3;">Related Services</a> page.</li>
-<li style="margin-bottom: 12px; padding-left: 8px;"><strong>To understand your legal rights:</strong> See our <a href="/guides/" style="color: #0056b3; font-weight: 600; text-decoration: none; border-bottom: 1px solid #0056b3;">Your Rights as a Parent</a> page.</li>
-<li style="margin-bottom: 12px; padding-left: 8px;"><strong>For dispute resolution options:</strong> Check out our <a href="/guides/dispute-resolution-ny/" style="color: #0056b3; font-weight: 600; text-decoration: none; border-bottom: 1px solid #0056b3;">Dispute Resolution</a> page.</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>For information on related services:</strong> Visit our <a href="/guides/index.html" style="color: #0056b3; font-weight: 600; text-decoration: none; border-bottom: 1px solid #0056b3;">Related Services</a> page.</li>
+<li style="margin-bottom: 12px; padding-left: 8px;"><strong>To understand your legal rights:</strong> See our <a href="/guides/parent-advocacy-guide/index.html" style="color: #0056b3; font-weight: 600; text-decoration: none; border-bottom： 1px solid #0056b3;">Your Rights as a Parent</a> page.</li>
 </ul>
 <p style="margin-bottom: 28px; line-height: 1.85; color: #334155; font-size: 1.125rem;">We hope this information is helpful. Remember, you are your child's best advocate. By understanding the special education process and your rights, you can ensure that your child receives the services and supports they need to succeed.</p></div>
 <div class="sidebar-right" style="flex: 1 1 30%; min-width: 300px; position: sticky; top: 20px; align-self: start;">
@@ -436,14 +435,14 @@
 </div>
 </div>
 </div></div>
-<div class="premium-sidebar-right">
-<div id="iep-bot-sidebar" style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.08); height: 750px; display: flex; flex-direction: column;">
-<div style="background: #2d5248; padding: 20px; text-align: center; color: white;">
-<h3 style="margin: 0 0 5px 0; font-family: 'Lora', serif; font-size: 22px;">IEP Letter Writer</h3>
-<p style="margin: 0; font-size: 14px; color: #e2e8f0;">Generate your custom request in minutes.</p>
-</div>
-<iframe height="100%" loading="lazy" src="https://iep-letter-writer-831148457361.us-central1.run.app" style="border:none; flex-grow: 1;" width="100%"></iframe>
-</div>
+<div class="premium-sidebar-right" style="flex: 1 1 30%; min-width: 300px; position: sticky; top: 20px;">
+  <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.08);">
+    <div style="background: #2d5248; padding: 36px 24px; text-align: center; color: white;">
+      <h3 style="margin: 0 0 12px 0; font-family: 'Lora', serif; font-size: 24px;">IEP Letter Writer</h3>
+      <p style="margin: 0 0 24px 0; font-size: 15px; color: #e2e8f0; line-height: 1.6;">Don't know what to say to the CSE? Let our AI bot generate a custom, legally-sound request letter for you in minutes.</p>
+      <a href="/tools/" style="display: inline-block; background: #c9973a; color: #2d5248; font-weight: 800; padding: 14px 24px; border-radius: 6px; text-decoration: none; font-size: 15px; box-shadow: 0 4px 12px rgba(201, 151, 58, 0.3);">Open Letter Writer →</a>
+    </div>
+  </div>
 </div>
 </div></section>
 <!-- 
@@ -577,5 +576,188 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-</script></body>
+</script>
+<!-- ============================================================
+  NY Special Ed — Premium Newsletter Popup
+  Drop this just before </body> on every page.
+  Replaces the generic blue popup with the site's Ink & Gold aesthetic.
+
+  To configure per page, change data-site and data-language on the script tag.
+  ============================================================ -->
+
+<!-- Popup HTML -->
+<div id="ec-overlay" style="display:none;position:fixed;inset:0;background:rgba(10,15,30,.72);z-index:9998;align-items:center;justify-content:center;backdrop-filter:blur(3px);">
+  <div id="ec-modal" style="max-width:420px;width:92%;position:relative;font-family:'DM Sans',sans-serif;border-radius:6px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.45);">
+
+    <!-- Header -->
+    <div id="ec-header" style="background:#002868;padding:28px 28px 22px;border-bottom:3px solid #d4af37;position:relative;">
+      <button id="ec-close" aria-label="Close"
+        style="position:absolute;top:14px;right:16px;background:none;border:none;color:rgba(255,255,255,.5);font-size:18px;cursor:pointer;line-height:1;padding:4px;">&#x2715;</button>
+      <div style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#d4af37;margin-bottom:10px;">
+        District Intelligence
+      </div>
+      <h2 id="ec-title"
+        style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:500;color:#f5f0e8;line-height:1.15;margin:0;">
+      </h2>
+    </div>
+
+    <!-- Body -->
+    <div style="background:#fdfaf5;padding:26px 28px 24px;">
+      <p id="ec-body" style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:#002868;line-height:1.45;margin:0 0 14px;"></p>
+
+      <div style="width:40px;height:2px;background:#d4af37;margin-bottom:18px;"></div>
+
+      <ul id="ec-checklist" style="list-style:none;margin:0 0 22px;padding:0;"></ul>
+
+      <!-- Form -->
+      <div id="ec-form-wrap">
+        <input id="ec-email" type="email" placeholder="your@email.com"
+          style="width:100%;box-sizing:border-box;padding:11px 14px;border:1.5px solid #d6cbbf;border-radius:4px;font-size:14px;font-family:'DM Sans',sans-serif;margin-bottom:10px;outline:none;background:#fff;color:#1a1410;"/>
+        <button id="ec-submit"
+          style="width:100%;padding:14px;background:#c8102e;color:#fff;border:none;border-radius:4px;font-weight:600;font-family:'DM Sans',sans-serif;font-size:15px;cursor:pointer;transition:background .2s;letter-spacing:.01em;">
+        </button>
+      </div>
+
+      <!-- Success state -->
+      <div id="ec-success" style="display:none;text-align:center;padding:12px 0 6px;">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:32px;color:#d4af37;margin-bottom:8px;">✦</div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#002868;margin:0 0 6px;">You're on the list.</p>
+        <p style="font-size:13px;color:#6b5f53;margin:0;line-height:1.5;">District updates and parent rights resources will arrive in your inbox.</p>
+      </div>
+
+      <p style="margin:14px 0 0;font-size:11px;color:#b0a799;text-align:center;letter-spacing:.02em;">
+        No spam &nbsp;·&nbsp; Unsubscribe any time
+      </p>
+    </div>
+  </div>
+</div>
+
+<script
+  id="ec-script"
+  data-site="new_york_special_ed"
+  data-language="en"
+  data-delay="10000"
+  data-api="https://email-capture-api-831148457361.us-central1.run.app">
+(function() {
+  var script   = document.getElementById("ec-script");
+  var API_BASE = script.getAttribute("data-api");
+  var SITE     = script.getAttribute("data-site")     || "new_york_special_ed";
+  var LANG     = script.getAttribute("data-language") || "en";
+  var DELAY    = parseInt(script.getAttribute("data-delay") || "10000", 10);
+
+  var COPY = {
+    en: {
+      title:   "Know Your District.<br><em style='color:#e5c158;font-style:italic;'>Know Your Rights.</em>",
+      body:    "Most NYC parents don't know what their district is required to provide — until it's too late.",
+      checks:  [
+        "District-specific CSE timelines & contacts",
+        "IEP rights and evaluation deadlines",
+        "What to say at your next meeting",
+        "Real outcomes from parents in your district"
+      ],
+      button:  "Send Me Free District Updates"
+    },
+    es: {
+      title:   "Conozca Su Distrito.<br><em style='color:#e5c158;font-style:italic;'>Sus Derechos.</em>",
+      body:    "La mayoría de los padres de NYC no saben lo que su distrito está obligado a proveer.",
+      checks:  [
+        "Plazos del CSE y contactos por distrito",
+        "Derechos del IEP y plazos de evaluación",
+        "Qué decir en su próxima reunión",
+        "Resultados reales de padres en su distrito"
+      ],
+      button:  "Recibir Actualizaciones Gratis"
+    }
+  };
+
+  var copy = COPY[LANG] || COPY.en;
+  var STORAGE_KEY = "ec_dismissed_" + SITE + "_" + LANG;
+  if (localStorage.getItem(STORAGE_KEY)) return;
+
+  /* -- Inject copy -- */
+  document.getElementById("ec-title").innerHTML  = copy.title;
+  document.getElementById("ec-body").textContent = copy.body;
+  document.getElementById("ec-submit").textContent = copy.button;
+
+  var list = document.getElementById("ec-checklist");
+  copy.checks.forEach(function(item) {
+    var li = document.createElement("li");
+    li.style.cssText = "font-size:13px;color:#6b5f53;padding:5px 0 5px 20px;position:relative;";
+    li.innerHTML = '<span style="position:absolute;left:0;font-family:\'Cormorant Garamond\',serif;font-size:16px;color:#d4af37;">§</span>' + item;
+    list.appendChild(li);
+  });
+
+  var overlay  = document.getElementById("ec-overlay");
+  var emailEl  = document.getElementById("ec-email");
+  var submitEl = document.getElementById("ec-submit");
+
+  /* -- Show after delay -- */
+  setTimeout(function() {
+    overlay.style.display = "flex";
+    emailEl.focus();
+  }, DELAY);
+
+  /* -- Close -- */
+  function close() {
+    overlay.style.display = "none";
+    localStorage.setItem(STORAGE_KEY, "1");
+  }
+  document.getElementById("ec-close").addEventListener("click", close);
+  overlay.addEventListener("click", function(e) { if (e.target === overlay) close(); });
+  document.addEventListener("keydown", function(e) { if (e.key === "Escape") close(); });
+
+  /* -- Hover on button -- */
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+  submitEl.addEventListener("mouseout",   function() { this.style.background = "#c8102e"; });
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+
+  /* -- Submit -- */
+  submitEl.addEventListener("click", function() {
+    var email = emailEl.value.trim();
+    if (!email || !email.includes("@")) {
+      emailEl.style.borderColor = "#c8102e";
+      emailEl.focus();
+      return;
+    }
+    emailEl.style.borderColor = "#d6cbbf";
+    submitEl.disabled    = true;
+    submitEl.textContent = "…";
+
+    fetch(API_BASE + "/api/signup", {
+      method:  "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email:      email,
+        site:       SITE,
+        language:   LANG,
+        source:     "newsletter_popup",
+        page_url:   window.location.href,
+        page_title: document.title,
+        district:   (document.querySelector("[data-district]") || {}).dataset && document.querySelector("[data-district]").dataset.district || null
+      })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(res) {
+      if (res.success) {
+        document.getElementById("ec-form-wrap").style.display = "none";
+        document.getElementById("ec-success").style.display   = "block";
+        localStorage.setItem(STORAGE_KEY, "1");
+        setTimeout(close, 4000);
+      } else {
+        submitEl.disabled    = false;
+        submitEl.textContent = copy.button;
+        alert(res.error || "Something went wrong. Please try again.");
+      }
+    })
+    .catch(function() {
+      submitEl.disabled    = false;
+      submitEl.textContent = copy.button;
+      alert("Network error. Please try again.");
+    });
+  });
+
+  emailEl.addEventListener("keydown", function(e) { if (e.key === "Enter") submitEl.click(); });
+})();
+</script>
+</body>
 </html>

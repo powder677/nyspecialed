@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CPSE: Preschool Special Education | New York Special Ed</title>
+<link href="/styles/global.css" rel="stylesheet"/>
+<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
+<style>
+   .page-hero { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white; padding: 60px 20px; text-align: center; margin-bottom: 40px; }
+    .page-hero h1 { margin: 0; font-size: 2.5rem; }
+    .content-container { max-width: 900px; margin: 0 auto; padding: 0 20px 80px 20px; line-height: 1.7; color: #334155; }
+    .content-container h2 { color: #0f172a; margin-top: 40px; margin-bottom: 15px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; }
+    .content-container h3 { color: #1e3a8a; margin-top: 25px; }
+    .content-container ul, .content-container ol { padding-left: 20px; margin-bottom: 20px; }
+    .content-container li { margin-bottom: 10px; }
+    .content-container p { margin-bottom: 20px; }
+    .alert-box { background: #eff6ff; border-left: 4px solid #2563eb; padding: 20px; border-radius: 4px; margin: 25px 0; }
+  
+        /* Bulletproof Hero Contrast Override */
+        .guide-wrapper .hero-section {
+            border-radius: 8px; /* Makes it look nice if constrained in the wrapper */
+            margin-bottom: 30px;
+        }
+        .guide-wrapper .hero-section h1, 
+        .guide-wrapper .hero-section h2, 
+        .guide-wrapper .hero-section p,
+        .guide-wrapper .hero-title { 
+            color: #ffffff !important; 
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+  </style>
+<link href="https://www.newyorkspecialed.net/guides/cpse-preschool-special-education/" rel="canonical"/>
+<meta content="website" property="og:type"/><meta content="CPSE: Preschool Special Education Guide | newyorkspecialed.net" property="og:title"/><meta content="" property="og:description"/><meta content="https://www.newyorkspecialed.net/guides/cpse-preschool-special-education/" property="og:url"/><meta content="summary_large_image" name="twitter:card"/><meta content="CPSE: Preschool Special Education Guide | newyorkspecialed.net" name="twitter:title"/><meta content="" name="twitter:description"/><meta content="Navigating the world of special education for young children can be complex, especially when transitioning from early intervention services. In New York..." name="description"/>
+<meta content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" property="og:image"/>
+<meta content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" name="twitter:image"/></head>
+<body>
+<!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+<header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader">
+<div class="nav-container">
+<!-- Logo -->
+<a aria-label="New York Special Ed - Home" class="nav-logo" href="/">
+<img alt="New York Special Ed logo" height="120" loading="eager" src="/images/logo.png" style="display:block; height:120px; width:auto; border-radius:8px;" width="120"/>
+</a>
+<!-- Desktop Navigation -->
+<nav itemscope="" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+<ul class="nav-links">
+<!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/">
+        NYC Districts
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="mega-menu">
+<div class="menu-column">
+<h4>
+          Manhattan (D1-6)
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-01-lower-east-side/">
+            District 1: Lower East Side
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-02-upper-east-side/">
+            District 2: Upper East Side/Tribeca
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-03-upper-west-side/">
+            District 3: Upper West Side
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-04-east-harlem/">
+            District 4: East Harlem
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-05-central-harlem/">
+            District 5: Central Harlem
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-06-washington-heights/">
+            District 6: Washington Heights
+           </a>
+</li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>
+          Brooklyn (Key Districts)
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-15-park-slope/">
+            District 15: Park Slope/Sunset Park
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-20-bay-ridge/">
+            District 20: Bay Ridge/Borough Park
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-13-brooklyn-heights/">
+            District 13: Brooklyn Heights
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-22-midwood/">
+            District 22: Flatbush/Sheepshead
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-75/">
+<strong>
+             District 75 (Citywide Programs)
+            </strong>
+</a>
+</li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>
+          Queens &amp; SI
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-24-maspeth/">
+            District 24: Corona/Maspeth
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-26-bayside/">
+            District 26: Bayside
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-30-astoria/">
+            District 30: Astoria/LIC
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-31-staten-island/">
+            District 31: Staten Island
+           </a>
+</li>
+<li>
+<a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">
+            View All 32 NYC Districts →
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/nys-overview/">
+        Upstate &amp; LI
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<h4>
+          Big 5 Cities
+         </h4>
+<ul>
+<li>
+<a href="/districts/buffalo-city-sd/">
+            Buffalo City SD
+           </a>
+</li>
+<li>
+<a href="/districts/rochester-city-sd/">
+            Rochester City SD
+           </a>
+</li>
+<li>
+<a href="/districts/syracuse-city-sd/">
+            Syracuse City SD
+           </a>
+</li>
+<li>
+<a href="/districts/yonkers-city-sd/">
+            Yonkers City SD
+           </a>
+</li>
+<li>
+<a href="/districts/albany-city-sd/">
+            Albany City SD
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+<li class="nav-item">
+<a class="nav-link" href="/guides/">
+        Parent Guides
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<ul>
+<li>
+<a href="/guides/cse-meeting-guide/">
+            CSE Meeting Guide
+           </a>
+</li>
+<li>
+<a href="/guides/evaluation-request-ny/">
+            Requesting an Evaluation
+           </a>
+</li>
+<li>
+<a href="/guides/bilingual-iep-new-york/">
+            Bilingual IEP Rights
+           </a>
+</li>
+<li>
+<a href="/guides/cpse-preschool-special-education/">
+            CPSE (Preschool) Guide
+           </a>
+</li>
+<li>
+<a href="/guides/carter-cases-private-placement/">
+            Private Placement (Carter Cases)
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- LINK: RESOURCES -->
+<li class="nav-item">
+<a class="nav-link" href="/resources/">
+        Free Tools
+       </a>
+</li>
+<!-- CTA -->
+<li class="nav-item">
+<a class="nav-cta" href="/contact/">
+        Get The Toolkit
+       </a>
+</li>
+</ul>
+</nav>
+<!-- Mobile Toggle -->
+<button aria-label="Open Navigation" class="mobile-toggle">
+<i class="fas fa-bars">
+</i>
+</button>
+</div>
+</header>
+<div class="page-hero">
+<h1>
+    CPSE: Preschool Special Education Guide
+   </h1>
+</div>
+<main class="content-container">
+
+<div class="premium-split-container" style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start; width: 100%; margin-top: 30px;"><div class="content-body" style="flex: 1 1 60%; min-width: 300px; max-width: 100%; padding: 0; margin-top: 0;"><section>
+<h1>
+     Understanding the Committee on Preschool Special Education (CPSE) in New York State
+    </h1>
+<p>
+     Navigating the world of special education for young children can be complex, especially when transitioning from early intervention services. In New York State, the **Committee on Preschool Special Education (CPSE)** plays a crucial role in identifying, evaluating, and providing services for preschool-aged children with disabilities. This comprehensive guide will explain the CPSE process, particularly the transition from Early Intervention (EI), evaluation timelines, and the various services available.
+    </p>
+<h2>
+     What is the CPSE?
+    </h2>
+<p>
+     The CPSE is a multidisciplinary team responsible for overseeing special education services for children with disabilities aged three to five years old in New York State. Each school district has its own CPSE, which acts as the gateway to special education programs for preschoolers. Its primary goal is to ensure that children with developmental delays or disabilities receive appropriate, individualized support to prepare them for school-age learning.
+    </p>
+<p>
+     The CPSE team typically includes:
+    </p>
+<ul>
+<li>
+      The child's parent(s).
+     </li>
+<li>
+      A representative of the school district qualified to provide or supervise special education.
+     </li>
+<li>
+      A special education teacher or provider (from an agency providing services, if applicable).
+     </li>
+<li>
+      A professional who participated in the evaluation of the child, or someone knowledgeable about the instructional implications of the evaluation results.
+     </li>
+<li>
+      A county representative (optional).
+     </li>
+<li>
+      An additional parent member of a child with a disability, upon request.
+     </li>
+</ul>
+<h2>
+     Transitioning from Early Intervention (EI) to CPSE
+    </h2>
+<p>
+     For many families, the journey into CPSE begins with a transition from the New York State Department of Health's Early Intervention (EI) Program. EI serves children from birth to three years old. The transition process is critical and involves specific timelines and steps to ensure a seamless continuation of services.
+    </p>
+<h3>
+     Key Aspects of the EI to CPSE Transition:
+    </h3>
+<ul>
+<li>
+<strong>
+       Referral by Second Birthday:
+      </strong>
+      If a child receiving EI services is likely to need continued special education services upon turning three, the EI service coordinator must refer the child to the CPSE of the school district where the family resides by the child's **second birthday**. This early referral is vital for adequate planning and to avoid gaps in service.
+     </li>
+<li>
+<strong>
+       Transition Conference:
+      </strong>
+      Between the child's second and third birthdays, a transition conference will be held. This meeting includes the parents, the EI service coordinator, and a representative from the school district's CPSE. The purpose is to discuss the child's progress in EI, current needs, and the CPSE process. This is an opportunity for parents to ask questions and understand the next steps.
+     </li>
+<li>
+<strong>
+       Parental Consent for Referral:
+      </strong>
+      Parents must provide written consent for the EI program to refer their child to the CPSE and to share relevant EI records. Without this consent, the referral cannot proceed.
+     </li>
+<li>
+<strong>
+       Differences Between EI and CPSE:
+      </strong>
+      It's important for families to understand the distinctions:
+      <ul>
+<li>
+<strong>
+         Age Range:
+        </strong>
+        EI serves birth to age 3; CPSE serves age 3 to age 5.
+       </li>
+<li>
+<strong>
+         Funding:
+        </strong>
+        EI is funded by the NYS Department of Health; CPSE is funded by the NYS Education Department and the county.
+       </li>
+<li>
+<strong>
+         Focus:
+        </strong>
+        EI is family-centered, focusing on natural environments; CPSE is more educationally focused, preparing children for school.
+       </li>
+<li>
+<strong>
+         Legal Framework:
+        </strong>
+        EI operates under Part C of IDEA; CPSE operates under Part B of IDEA.
+       </li>
+</ul>
+</li>
+</ul>
+<h2>
+     The CPSE Evaluation Process and Timelines
+    </h2>
+<p>
+     Whether a child is referred from EI or directly by a parent/doctor/other professional, the evaluation process is standardized.
+    </p>
+<h3>
+     1. Initial Referral:
+    </h3>
+<ul>
+<li>
+<strong>
+       For EI Children:
+      </strong>
+      As mentioned, the EI service coordinator refers the child by their second birthday with parental consent.
+     </li>
+<li>
+<strong>
+       For Non-EI Children:
+      </strong>
+      Parents, physicians, or other concerned individuals can directly refer a child to their local school district's CPSE if they suspect a disability and the child is between ages three and five. The referral must be in writing.
+     </li>
+</ul>
+<h3>
+     2. Evaluation Authorization and Process:
+    </h3>
+<ul>
+<li>
+      Upon receiving a referral, the CPSE will provide parents with written notice and seek **parental consent** for an initial evaluation.
+     </li>
+<li>
+      The evaluation includes a comprehensive assessment of the child's developmental areas: physical, cognitive, communication, social-emotional, and adaptive development. It typically involves:
+      <ul>
+<li>
+        Psychological evaluation
+       </li>
+<li>
+        Educational evaluation
+       </li>
+<li>
+        Speech and language evaluation
+       </li>
+<li>
+        Occupational therapy evaluation
+       </li>
+<li>
+        Physical therapy evaluation
+       </li>
+<li>
+        Medical history
+       </li>
+<li>
+        Parent input and observations
+       </li>
+</ul>
+      Additional evaluations may be recommended based on the child's suspected needs.
+     </li>
+<li>
+<strong>
+       Evaluation Timeline:
+      </strong>
+      Once parental consent for evaluation is received, the evaluations must be completed within **30 school days**. Parents will receive copies of the evaluation reports.
+     </li>
+</ul>
+<h3>
+     3. The CPSE Meeting and IEP Development:
+    </h3>
+<ul>
+<li>
+      Within **30 school days** of the completed evaluation reports, the CPSE will convene a meeting with the parents and other team members.
+     </li>
+<li>
+      At this meeting, the evaluation results are reviewed, and the team determines if the child is eligible for preschool special education services based on New York State criteria. Eligibility requires a significant developmental delay or a diagnosed disability.
+     </li>
+<li>
+      If eligible, the team develops an **Individualized Education Program (IEP)**. The IEP is a legally binding document that outlines:
+      <ul>
+<li>
+        The child's current levels of performance.
+       </li>
+<li>
+        Measurable annual goals.
+       </li>
+<li>
+        Specific special education services (type, frequency, duration, location).
+       </li>
+<li>
+        Least Restrictive Environment (LRE) justification.
+       </li>
+<li>
+        Transportation needs.
+       </li>
+</ul>
+</li>
+<li>
+<strong>
+       Parental Consent for Services:
+      </strong>
+      Parents must provide written consent for the initial provision of services outlined in the IEP. Services cannot begin without this consent.
+     </li>
+</ul>
+<h2>
+     Types of CPSE Services Available
+    </h2>
+<p>
+     CPSE offers a range of services designed to meet the unique needs of each eligible child. Services are provided in the Least Restrictive Environment (LRE), meaning children are educated with their non-disabled peers to the maximum extent appropriate.
+    </p>
+<h3>
+     1. Related Services:
+    </h3>
+<p>
+     These are supportive services that help a child benefit from special education. They can be provided individually or in small groups at a variety of locations, including a preschool, daycare, or the child's home.
+    </p>
+<ul>
+<li>
+<strong>
+       Speech-Language Therapy:
+      </strong>
+      To address communication disorders.
+     </li>
+<li>
+<strong>
+       Occupational Therapy (OT):
+      </strong>
+      To improve fine motor skills, sensory processing, and daily living activities.
+     </li>
+<li>
+<strong>
+       Physical Therapy (PT):
+      </strong>
+      To enhance gross motor skills and mobility.
+     </li>
+<li>
+<strong>
+       Counseling Services:
+      </strong>
+      For emotional or behavioral support.
+     </li>
+<li>
+<strong>
+       Parent Counseling and Training:
+      </strong>
+      To help parents understand and address their child's needs.
+     </li>
+<li>
+<strong>
+       Assistive Technology Services:
+      </strong>
+      To provide devices and services that help children with disabilities.
+     </li>
+</ul>
+<h3>
+     2. Special Education Itinerant Teacher (SEIT) Services:
+    </h3>
+<p>
+     SEIT services involve a certified special education teacher working with the child either individually or in a small group within a general education preschool, daycare, or home setting. The goal is to support the child's participation and learning in their natural environment.
+    </p>
+<ul>
+<li>
+<strong>
+       Individual SEIT:
+      </strong>
+      One-on-one instruction and support.
+     </li>
+<li>
+<strong>
+       Group SEIT:
+      </strong>
+      A special education teacher works with a small group of children (typically 2-5) within a larger setting, addressing shared goals.
+     </li>
+<li>
+      SEIT services focus on integrating special education strategies into the child's routine and environment.
+     </li>
+</ul>
+<h3>
+     3. Special Class Services:
+    </h3>
+<p>
+     These services are provided in a classroom setting specifically designed for preschool children with disabilities. Special classes have smaller student-to-staff ratios and a highly structured environment.
+    </p>
+<ul>
+<li>
+<strong>
+       Integrated Special Class:
+      </strong>
+      A class that includes both children with disabilities and typically developing children (usually 50/50 ratio). This setting promotes inclusion and peer modeling.
+     </li>
+<li>
+<strong>
+       Special Class (Self-Contained):
+      </strong>
+      A class composed entirely of children with disabilities. These classes are for children with more significant needs who require intensive support and a specialized curriculum. Ratios vary based on the severity of student needs (e.g., 6:1+2 for severe disabilities, 8:1+2, 12:1+2).
+     </li>
+</ul>
+<h3>
+     4. Other Services:
+    </h3>
+<ul>
+<li>
+<strong>
+       Program Aide/One-to-One Paraprofessional:
+      </strong>
+      For children requiring continuous individual support to participate in their program.
+     </li>
+<li>
+<strong>
+       Transportation:
+      </strong>
+      If specified in the IEP, the school district provides transportation to and from the special education program.
+     </li>
+</ul>
+<h2>
+     Parental Rights and Advocacy
+    </h2>
+<p>
+     Parents are vital members of the CPSE team and have significant rights under the Individuals with Disabilities Education Act (IDEA).
+    </p>
+<ul>
+<li>
+<strong>
+       Prior Written Notice:
+      </strong>
+      Parents must receive written notice before the CPSE proposes or refuses to initiate or change the identification, evaluation, or educational placement of their child.
+     </li>
+<li>
+<strong>
+       Consent:
+      </strong>
+      Parental consent is required for initial evaluations and for the initial provision of services.
+     </li>
+<li>
+<strong>
+       Right to Review Records:
+      </strong>
+      Parents can inspect and review all educational records related to their child.
+     </li>
+<li>
+<strong>
+       Due Process:
+      </strong>
+      Parents have the right to challenge CPSE decisions through mediation or a due process hearing if they disagree with the proposed IEP or placement.
+     </li>
+<li>
+<strong>
+       Advocacy:
+      </strong>
+      Parents can bring advocates, attorneys, or other individuals with special knowledge about their child to CPSE meetings.
+     </li>
+</ul>
+<h2>
+     Conclusion
+    </h2>
+<p>
+     The Committee on Preschool Special Education in New York State is a critical resource for families of young children with disabilities. Understanding the transition from Early Intervention, the evaluation timelines, and the array of services available empowers parents to effectively advocate for their child's educational needs. By working collaboratively with the CPSE team, families can ensure their preschoolers receive the appropriate support to build a strong foundation for future learning and development.
+    </p>
+</section>
+<style>
+    /* STACKED OFFERS FOR NEW YORK */
+    .offers-container { display: flex; flex-direction: column; gap: 24px; margin-top: 50px; border-top: 2px solid #e2e8f0; padding-top: 40px; }
+    .offers-title { font-family: 'Cormorant Garamond', serif; font-size: 2.2rem; color: #002868; text-align: center; margin: 0 0 5px 0; border: none; padding: 0;}
+    .offers-subtitle { text-align: center; color: #475569; font-family: 'DM Sans', sans-serif; margin-bottom: 25px; font-size: 1.1rem;}
+    
+    .sales-card { background: linear-gradient(135deg, #002868 0%, #1e3a8a 100%); padding: 36px; border-radius: 12px; text-align: center; color: white; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15); position: relative; overflow: hidden; }
+    .sales-card .badge { background: #d4af37; color: #002868; padding: 6px 16px; border-radius: 50px; font-size: 0.8rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; display: inline-block; margin-bottom: 15px;}
+    .sales-card h3 { margin: 0 0 12px; color: #ffffff; font-size: 1.8rem; font-family: 'Cormorant Garamond', serif; }
+    .sales-card p { color: #e2e8f0; margin: 0 auto 24px; font-size: 1.05rem; line-height: 1.6; max-width: 90%; font-family: 'DM Sans', sans-serif;}
+    .sales-card a.buy-btn { background: #d4af37; color: #002868; padding: 16px 32px; text-decoration: none; border-radius: 6px; font-weight: 700; font-size: 1.1rem; display: inline-block; transition: 0.2s; font-family: 'DM Sans', sans-serif;}
+    .sales-card a.buy-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(212,175,55,0.4); }
+
+    .sales-card.coming-soon { background: linear-gradient(135deg, #475569 0%, #334155 100%); }
+    .sales-card.coming-soon .badge { background: #94a3b8; color: #1e293b; }
+    .sales-card.coming-soon p { color: #cbd5e1; }
+    .sales-card.coming-soon a.buy-btn { background: #64748b; color: #f8fafc; cursor: not-allowed; }
+    
+    .coming-soon-overlay {
+        position: absolute;
+        top: 28px;
+        right: -45px;
+        background: #d4af37;
+        color: #002868;
+        padding: 8px 50px;
+        font-weight: 800;
+        font-size: 0.85rem;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        transform: rotate(45deg);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        z-index: 2;
+        font-family: 'DM Sans', sans-serif;
+    }
+</style>
+<div class="offers-container" id="premium-offers">
+<h2 class="offers-title">Take the Next Step</h2>
+<p class="offers-subtitle">Protect your child's right to a Free Appropriate Public Education.</p>
+<div class="sales-card">
+<span class="badge">Essential</span>
+<h3>The CSE Meeting Prep Kit</h3>
+<p>Master the NY Special Education evaluation and IEP process. Includes independent evaluation (IEE) request templates, 60-day timeline trackers, and exact scripts to use at your meeting.</p>
+<a class="buy-btn" href="/contact/">Get the Prep Kit — $47</a>
+</div>
+<div class="sales-card coming-soon">
+<div class="coming-soon-overlay">Coming Soon</div>
+<span class="badge">Advanced</span>
+<h3>The CSE Kit + Autism Pack</h3>
+<p>Everything in the standard Prep Kit, plus specialized autism IEP goals, sensory diet accommodations, and FBA/BIP behavioral strategies tailored specifically for New York schools.</p>
+<a class="buy-btn" href="#" onclick="return false;">Available Next Month</a>
+</div>
+</div>
+</div>
+<div class="premium-sidebar-right" style="flex: 1 1 30%; min-width: 300px; position: sticky; top: 20px;">
+  <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.08);">
+    <div style="background: #2d5248; padding: 36px 24px; text-align: center; color: white;">
+      <h3 style="margin: 0 0 12px 0; font-family: 'Lora', serif; font-size: 24px;">IEP Letter Writer</h3>
+      <p style="margin: 0 0 24px 0; font-size: 15px; color: #e2e8f0; line-height: 1.6;">Don't know what to say to the CSE? Let our AI bot generate a custom, legally-sound request letter for you in minutes.</p>
+      <a href="/tools/" style="display: inline-block; background: #c9973a; color: #2d5248; font-weight: 800; padding: 14px 24px; border-radius: 6px; text-decoration: none; font-size: 15px; box-shadow: 0 4px 12px rgba(201, 151, 58, 0.3);">Open Letter Writer →</a>
+    </div>
+  </div>
+</div>
+</div></main>
+<!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+<footer class="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="footer-container">
+<!-- COL 1: Brand & Mission -->
+<div class="footer-brand">
+<h3>
+      New York Special Ed
+      <span>
+       .net
+      </span>
+</h3>
+<p>
+      Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+     </p>
+<div style="margin-top: 20px;">
+<a href="/contact/" style="color: #D4AF37; font-weight: bold; text-decoration: none;">
+       View Advocacy Shop →
+      </a>
+</div>
+</div>
+<!-- COL 2: Essential Guides -->
+<div class="footer-col">
+<h4>
+      NY Parent Guides
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/guides/cse-meeting-guide/">
+        The CSE Meeting Guide
+       </a>
+</li>
+<li>
+<a href="/guides/evaluation-request-ny/">
+        Evaluation Timelines (60 Days)
+       </a>
+</li>
+<li>
+<a href="/guides/dispute-resolution-ny/">
+        Due Process &amp; Complaints
+       </a>
+</li>
+<li>
+<a href="/guides/bilingual-iep-new-york/">
+        Bilingual/ELL Rights
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-75/">
+        District 75 Explained
+       </a>
+</li>
+</ul>
+</div>
+<!-- COL 3: Top Districts -->
+<div class="footer-col">
+<h4>
+      Popular Districts
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/districts/nyc-district-02-upper-east-side/">
+        NYC District 2 (Manhattan)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-15-park-slope/">
+        NYC District 15 (Brooklyn)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-31-staten-island/">
+        NYC District 31 (Staten Island)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-30-astoria/">
+        NYC District 30 (Queens)
+       </a>
+</li>
+<li>
+<a href="/districts/buffalo-city-sd/">
+        Buffalo City Schools
+       </a>
+</li>
+</ul>
+</div>
+<!-- COL 4: Legal & Contact -->
+<div class="footer-col">
+<h4>
+      Resources
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/about/">
+        About Us
+       </a>
+</li>
+<li>
+<a href="/contact/">
+        Contact Support
+       </a>
+</li>
+<li>
+<a href="/privacy-policy/">
+        Privacy Policy
+       </a>
+</li>
+<li>
+<a href="/sitemap.xml">
+        Sitemap
+       </a>
+</li>
+</ul>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="footer-bottom">
+<p>
+     © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.
+     <br/>
+     For official inquiries, visit schools.nyc.gov or nysed.gov.
+    </p>
+</div>
+</footer>
+
+<!-- ============================================================
+  NY Special Ed — Premium Newsletter Popup
+  Drop this just before </body> on every page.
+  Replaces the generic blue popup with the site's Ink & Gold aesthetic.
+
+  To configure per page, change data-site and data-language on the script tag.
+  ============================================================ -->
+
+<!-- Popup HTML -->
+<div id="ec-overlay" style="display:none;position:fixed;inset:0;background:rgba(10,15,30,.72);z-index:9998;align-items:center;justify-content:center;backdrop-filter:blur(3px);">
+  <div id="ec-modal" style="max-width:420px;width:92%;position:relative;font-family:'DM Sans',sans-serif;border-radius:6px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.45);">
+
+    <!-- Header -->
+    <div id="ec-header" style="background:#002868;padding:28px 28px 22px;border-bottom:3px solid #d4af37;position:relative;">
+      <button id="ec-close" aria-label="Close"
+        style="position:absolute;top:14px;right:16px;background:none;border:none;color:rgba(255,255,255,.5);font-size:18px;cursor:pointer;line-height:1;padding:4px;">&#x2715;</button>
+      <div style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#d4af37;margin-bottom:10px;">
+        District Intelligence
+      </div>
+      <h2 id="ec-title"
+        style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:500;color:#f5f0e8;line-height:1.15;margin:0;">
+      </h2>
+    </div>
+
+    <!-- Body -->
+    <div style="background:#fdfaf5;padding:26px 28px 24px;">
+      <p id="ec-body" style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:#002868;line-height:1.45;margin:0 0 14px;"></p>
+
+      <div style="width:40px;height:2px;background:#d4af37;margin-bottom:18px;"></div>
+
+      <ul id="ec-checklist" style="list-style:none;margin:0 0 22px;padding:0;"></ul>
+
+      <!-- Form -->
+      <div id="ec-form-wrap">
+        <input id="ec-email" type="email" placeholder="your@email.com"
+          style="width:100%;box-sizing:border-box;padding:11px 14px;border:1.5px solid #d6cbbf;border-radius:4px;font-size:14px;font-family:'DM Sans',sans-serif;margin-bottom:10px;outline:none;background:#fff;color:#1a1410;"/>
+        <button id="ec-submit"
+          style="width:100%;padding:14px;background:#c8102e;color:#fff;border:none;border-radius:4px;font-weight:600;font-family:'DM Sans',sans-serif;font-size:15px;cursor:pointer;transition:background .2s;letter-spacing:.01em;">
+        </button>
+      </div>
+
+      <!-- Success state -->
+      <div id="ec-success" style="display:none;text-align:center;padding:12px 0 6px;">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:32px;color:#d4af37;margin-bottom:8px;">✦</div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#002868;margin:0 0 6px;">You're on the list.</p>
+        <p style="font-size:13px;color:#6b5f53;margin:0;line-height:1.5;">District updates and parent rights resources will arrive in your inbox.</p>
+      </div>
+
+      <p style="margin:14px 0 0;font-size:11px;color:#b0a799;text-align:center;letter-spacing:.02em;">
+        No spam &nbsp;·&nbsp; Unsubscribe any time
+      </p>
+    </div>
+  </div>
+</div>
+
+<script
+  id="ec-script"
+  data-site="new_york_special_ed"
+  data-language="en"
+  data-delay="10000"
+  data-api="https://email-capture-api-831148457361.us-central1.run.app">
+(function() {
+  var script   = document.getElementById("ec-script");
+  var API_BASE = script.getAttribute("data-api");
+  var SITE     = script.getAttribute("data-site")     || "new_york_special_ed";
+  var LANG     = script.getAttribute("data-language") || "en";
+  var DELAY    = parseInt(script.getAttribute("data-delay") || "10000", 10);
+
+  var COPY = {
+    en: {
+      title:   "Know Your District.<br><em style='color:#e5c158;font-style:italic;'>Know Your Rights.</em>",
+      body:    "Most NYC parents don't know what their district is required to provide — until it's too late.",
+      checks:  [
+        "District-specific CSE timelines & contacts",
+        "IEP rights and evaluation deadlines",
+        "What to say at your next meeting",
+        "Real outcomes from parents in your district"
+      ],
+      button:  "Send Me Free District Updates"
+    },
+    es: {
+      title:   "Conozca Su Distrito.<br><em style='color:#e5c158;font-style:italic;'>Sus Derechos.</em>",
+      body:    "La mayoría de los padres de NYC no saben lo que su distrito está obligado a proveer.",
+      checks:  [
+        "Plazos del CSE y contactos por distrito",
+        "Derechos del IEP y plazos de evaluación",
+        "Qué decir en su próxima reunión",
+        "Resultados reales de padres en su distrito"
+      ],
+      button:  "Recibir Actualizaciones Gratis"
+    }
+  };
+
+  var copy = COPY[LANG] || COPY.en;
+  var STORAGE_KEY = "ec_dismissed_" + SITE + "_" + LANG;
+  if (localStorage.getItem(STORAGE_KEY)) return;
+
+  /* -- Inject copy -- */
+  document.getElementById("ec-title").innerHTML  = copy.title;
+  document.getElementById("ec-body").textContent = copy.body;
+  document.getElementById("ec-submit").textContent = copy.button;
+
+  var list = document.getElementById("ec-checklist");
+  copy.checks.forEach(function(item) {
+    var li = document.createElement("li");
+    li.style.cssText = "font-size:13px;color:#6b5f53;padding:5px 0 5px 20px;position:relative;";
+    li.innerHTML = '<span style="position:absolute;left:0;font-family:\'Cormorant Garamond\',serif;font-size:16px;color:#d4af37;">§</span>' + item;
+    list.appendChild(li);
+  });
+
+  var overlay  = document.getElementById("ec-overlay");
+  var emailEl  = document.getElementById("ec-email");
+  var submitEl = document.getElementById("ec-submit");
+
+  /* -- Show after delay -- */
+  setTimeout(function() {
+    overlay.style.display = "flex";
+    emailEl.focus();
+  }, DELAY);
+
+  /* -- Close -- */
+  function close() {
+    overlay.style.display = "none";
+    localStorage.setItem(STORAGE_KEY, "1");
+  }
+  document.getElementById("ec-close").addEventListener("click", close);
+  overlay.addEventListener("click", function(e) { if (e.target === overlay) close(); });
+  document.addEventListener("keydown", function(e) { if (e.key === "Escape") close(); });
+
+  /* -- Hover on button -- */
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+  submitEl.addEventListener("mouseout",   function() { this.style.background = "#c8102e"; });
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+
+  /* -- Submit -- */
+  submitEl.addEventListener("click", function() {
+    var email = emailEl.value.trim();
+    if (!email || !email.includes("@")) {
+      emailEl.style.borderColor = "#c8102e";
+      emailEl.focus();
+      return;
+    }
+    emailEl.style.borderColor = "#d6cbbf";
+    submitEl.disabled    = true;
+    submitEl.textContent = "…";
+
+    fetch(API_BASE + "/api/signup", {
+      method:  "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email:      email,
+        site:       SITE,
+        language:   LANG,
+        source:     "newsletter_popup",
+        page_url:   window.location.href,
+        page_title: document.title,
+        district:   (document.querySelector("[data-district]") || {}).dataset && document.querySelector("[data-district]").dataset.district || null
+      })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(res) {
+      if (res.success) {
+        document.getElementById("ec-form-wrap").style.display = "none";
+        document.getElementById("ec-success").style.display   = "block";
+        localStorage.setItem(STORAGE_KEY, "1");
+        setTimeout(close, 4000);
+      } else {
+        submitEl.disabled    = false;
+        submitEl.textContent = copy.button;
+        alert(res.error || "Something went wrong. Please try again.");
+      }
+    })
+    .catch(function() {
+      submitEl.disabled    = false;
+      submitEl.textContent = copy.button;
+      alert("Network error. Please try again.");
+    });
+  });
+
+  emailEl.addEventListener("keydown", function(e) { if (e.key === "Enter") submitEl.click(); });
+})();
+</script>
+</body>
+</html>

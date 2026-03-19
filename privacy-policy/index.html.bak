@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
+   Privacy Policy | newyorkspecialed.net
+  </title>
+<link href="/styles/global.css" rel="stylesheet"/>
+<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
+<style>
+   .page-hero { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white; padding: 60px 20px; text-align: center; margin-bottom: 40px; }
+    .page-hero h1 { margin: 0; font-size: 2.5rem; }
+    .content-container { max-width: 900px; margin: 0 auto; padding: 0 20px 80px 20px; line-height: 1.7; color: #334155; }
+    .content-container h2 { color: #0f172a; margin-top: 40px; margin-bottom: 15px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; }
+    .content-container h3 { color: #1e3a8a; margin-top: 25px; }
+    .content-container ul, .content-container ol { padding-left: 20px; margin-bottom: 20px; }
+    .content-container li { margin-bottom: 10px; }
+    .content-container p { margin-bottom: 20px; }
+    .alert-box { background: #eff6ff; border-left: 4px solid #2563eb; padding: 20px; border-radius: 4px; margin: 25px 0; }
+  </style>
+<link href="https://www.newyorkspecialed.net/privacy-policy/" rel="canonical"/>
+<meta content="website" property="og:type"/><meta content="Privacy Policy | newyorkspecialed.net" property="og:title"/><meta content="" property="og:description"/><meta content="https://www.newyorkspecialed.net/privacy-policy/" property="og:url"/><meta content="summary_large_image" name="twitter:card"/><meta content="Privacy Policy | newyorkspecialed.net" name="twitter:title"/><meta content="" name="twitter:description"/><meta content="Effective Date:
+     
+     [Insert Current Date]" name="description"/>
+    <meta property="og:image" content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" />
+    <meta name="twitter:image" content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" /></head>
+<body>
+<!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+<header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader">
+<div class="nav-container">
+<!-- Logo -->
+<a aria-label="New York Special Ed - Home" class="nav-logo" href="/">
+<img alt="New York Special Ed logo" height="120" loading="eager" src="/images/logo.png" style="display:block; height:120px; width:auto; border-radius:8px;" width="120"/>
+</a>
+<!-- Desktop Navigation -->
+<nav itemscope="" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+<ul class="nav-links">
+<!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/">
+        NYC Districts
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="mega-menu">
+<div class="menu-column">
+<h4>
+          Manhattan (D1-6)
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-01-lower-east-side/">
+            District 1: Lower East Side
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-02-upper-east-side/">
+            District 2: Upper East Side/Tribeca
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-03-upper-west-side/">
+            District 3: Upper West Side
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-04-east-harlem/">
+            District 4: East Harlem
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-05-central-harlem/">
+            District 5: Central Harlem
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-06-washington-heights/">
+            District 6: Washington Heights
+           </a>
+</li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>
+          Brooklyn (Key Districts)
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-15-park-slope/">
+            District 15: Park Slope/Sunset Park
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-20-bay-ridge/">
+            District 20: Bay Ridge/Borough Park
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-13-brooklyn-heights/">
+            District 13: Brooklyn Heights
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-22-midwood/">
+            District 22: Flatbush/Sheepshead
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-75/">
+<strong>
+             District 75 (Citywide Programs)
+            </strong>
+</a>
+</li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>
+          Queens &amp; SI
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-24-maspeth/">
+            District 24: Corona/Maspeth
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-26-bayside/">
+            District 26: Bayside
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-30-astoria/">
+            District 30: Astoria/LIC
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-31-staten-island/">
+            District 31: Staten Island
+           </a>
+</li>
+<li>
+<a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">
+            View All 32 NYC Districts →
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/nys-overview/">
+        Upstate &amp; LI
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<h4>
+          Big 5 Cities
+         </h4>
+<ul>
+<li>
+<a href="/districts/buffalo-city-sd/">
+            Buffalo City SD
+           </a>
+</li>
+<li>
+<a href="/districts/rochester-city-sd/">
+            Rochester City SD
+           </a>
+</li>
+<li>
+<a href="/districts/syracuse-city-sd/">
+            Syracuse City SD
+           </a>
+</li>
+<li>
+<a href="/districts/yonkers-city-sd/">
+            Yonkers City SD
+           </a>
+</li>
+<li>
+<a href="/districts/albany-city-sd/">
+            Albany City SD
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+<li class="nav-item">
+<a class="nav-link" href="/guides/">
+        Parent Guides
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<ul>
+<li>
+<a href="/guides/cse-meeting-guide/">
+            CSE Meeting Guide
+           </a>
+</li>
+<li>
+<a href="/guides/evaluation-request-ny/">
+            Requesting an Evaluation
+           </a>
+</li>
+<li>
+<a href="/guides/bilingual-iep-new-york/">
+            Bilingual IEP Rights
+           </a>
+</li>
+<li>
+<a href="/guides/cpse-preschool-special-education/">
+            CPSE (Preschool) Guide
+           </a>
+</li>
+<li>
+<a href="/guides/carter-cases-private-placement/">
+            Private Placement (Carter Cases)
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- LINK: RESOURCES -->
+<li class="nav-item">
+<a class="nav-link" href="/resources/">
+        Free Tools
+       </a>
+</li>
+<!-- CTA -->
+<li class="nav-item">
+<a class="nav-cta" href="/contact/">
+        Get The Toolkit
+       </a>
+</li>
+</ul>
+</nav>
+<!-- Mobile Toggle -->
+<button aria-label="Open Navigation" class="mobile-toggle">
+<i class="fas fa-bars">
+</i>
+</button>
+</div>
+</header>
+<div class="page-hero">
+<h1>
+    Privacy Policy
+   </h1>
+</div>
+<main class="content-container">
+<section>
+<h2>
+     Privacy Policy for newyorkspecialed.net
+    </h2>
+<p>
+<strong>
+      Effective Date:
+     </strong>
+     [Insert Current Date]
+    </p>
+<p>
+     newyorkspecialed.net ("we," "our," or "us") is dedicated to protecting your privacy. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you visit and use
+     <a href="https://www.newyorkspecialed.net" target="_blank">
+      newyorkspecialed.net
+     </a>
+     (our "Website"). By accessing or using our Website, you agree to the practices described in this policy.
+    </p>
+<h2>
+     1. Information We Collect
+    </h2>
+<p>
+     We collect both Personal Information and Non-Personal Information from you.
+    </p>
+<h3>
+     1.1. Personal Information
+    </h3>
+<p>
+     Personal Information is data that can identify you. We collect this when you voluntarily provide it, such as:
+    </p>
+<ul>
+<li>
+<strong>
+       Contact Information:
+      </strong>
+      Your name, email address, phone number, or mailing address when you submit forms, subscribe to newsletters, or communicate with us.
+     </li>
+<li>
+<strong>
+       Correspondence:
+      </strong>
+      Records of your communications with us.
+     </li>
+</ul>
+<h3>
+     1.2. Non-Personal Information
+    </h3>
+<p>
+     Non-Personal Information cannot identify you personally and is collected automatically as you use our Website. This includes:
+    </p>
+<ul>
+<li>
+<strong>
+       Usage Data:
+      </strong>
+      Your IP address, browser type, operating system, device type, pages visited, time spent, and referring URLs.
+     </li>
+<li>
+<strong>
+       Cookie Data:
+      </strong>
+      Information gathered via cookies and tracking technologies (see Section 3).
+     </li>
+</ul>
+<h2>
+     2. How We Use Your Information
+    </h2>
+<p>
+     We use the collected information for purposes such as:
+    </p>
+<ul>
+<li>
+<strong>
+       Providing Services:
+      </strong>
+      To operate, maintain, and enhance our Website and educational resources.
+     </li>
+<li>
+<strong>
+       Responding to Inquiries:
+      </strong>
+      To address your questions and requests.
+     </li>
+<li>
+<strong>
+       Sending Communications:
+      </strong>
+      To send newsletters, updates, or administrative messages you've opted into. You can opt-out of marketing communications at any time.
+     </li>
+<li>
+<strong>
+       Improving User Experience:
+      </strong>
+      To understand user engagement and personalize your experience.
+     </li>
+<li>
+<strong>
+       Analytics:
+      </strong>
+      To monitor and analyze usage trends for Website improvement.
+     </li>
+<li>
+<strong>
+       Security:
+      </strong>
+      To detect, prevent, and address technical issues or illegal activities.
+     </li>
+<li>
+<strong>
+       Legal Compliance:
+      </strong>
+      To meet applicable legal and regulatory obligations.
+     </li>
+</ul>
+<h2>
+     3. Cookies and Tracking Technologies
+    </h2>
+<p>
+     Our Website uses cookies and similar tracking technologies to improve your experience and gather usage information.
+    </p>
+<h3>
+     3.1. What are Cookies?
+    </h3>
+<p>
+     Cookies are small text files placed on your device by a website. They help websites function efficiently and provide data to website owners.
+    </p>
+<h3>
+     3.2. How We Use Cookies
+    </h3>
+<p>
+     We use cookies for:
+    </p>
+<ul>
+<li>
+<strong>
+       Essential Functionality:
+      </strong>
+      Strictly necessary for our Website's operation.
+     </li>
+<li>
+<strong>
+       Performance &amp; Analytics:
+      </strong>
+      We use Google Analytics cookies to understand how users interact with our Website. Information (including your IP address) is transmitted to Google and used to evaluate Website usage and compile activity reports.
+     </li>
+<li>
+<strong>
+       Functionality:
+      </strong>
+      To remember your preferences and provide personalized features.
+     </li>
+</ul>
+<h3>
+     3.3. Your Choices Regarding Cookies
+    </h3>
+<p>
+     You can accept or decline cookies through your browser settings. Most browsers accept cookies by default, but you can usually modify settings to decline them. Disabling cookies may impact Website functionality.
+    </p>
+<h2>
+     4. Disclosure of Your Information
+    </h2>
+<p>
+     We do not sell, trade, or rent your Personal Information to third parties for their direct marketing. We may share your information in these situations:
+    </p>
+<ul>
+<li>
+<strong>
+       Service Providers:
+      </strong>
+      With third-party providers for website hosting, analytics, email delivery, etc. These parties are contractually bound to protect your information.
+     </li>
+<li>
+<strong>
+       Legal Requirements:
+      </strong>
+      If required by law, court order, or governmental requests.
+     </li>
+<li>
+<strong>
+       Protection of Rights:
+      </strong>
+      To protect our rights, property, or safety, or those of our users or others.
+     </li>
+<li>
+<strong>
+       Business Transfers:
+      </strong>
+      During a merger, acquisition, or sale of assets, your information may be transferred.
+     </li>
+<li>
+<strong>
+       Aggregated Data:
+      </strong>
+      We may share anonymized, non-personal data for research or analysis.
+     </li>
+</ul>
+<h2>
+     5. Third-Party Links
+    </h2>
+<p>
+     Our Website may link to third-party websites not controlled by newyorkspecialed.net. We are not responsible for the privacy practices or content of these external sites. We encourage you to review their privacy policies.
+    </p>
+<h2>
+     6. Data Security
+    </h2>
+<p>
+     We implement reasonable security measures to protect your Personal Information from unauthorized access, alteration, or disclosure. These include SSL/TLS encryption, system monitoring, and restricted data access. However, no internet transmission or electronic storage is 100% secure, and we cannot guarantee absolute security.
+    </p>
+<h2>
+     7. Children's Privacy (COPPA)
+    </h2>
+<p>
+     Our Website is for adults (parents, educators, professionals). We do not knowingly collect personally identifiable information from children under 13. If you believe your child has provided us with Personal Information, please contact us at
+     <a href="mailto:privacy@newyorkspecialed.net">
+      privacy@newyorkspecialed.net
+     </a>
+     , and we will remove it.
+    </p>
+<h2>
+     8. Your Rights and Choices
+    </h2>
+<p>
+     You may have the following rights regarding your Personal Information:
+    </p>
+<ul>
+<li>
+<strong>
+       Access &amp; Correction:
+      </strong>
+      Request access to, or correction of, your data.
+     </li>
+<li>
+<strong>
+       Deletion:
+      </strong>
+      Request deletion of your Personal Information (subject to legal exceptions).
+     </li>
+<li>
+<strong>
+       Opt-Out of Communications:
+      </strong>
+      Unsubscribe from marketing emails via provided instructions or by contacting us.
+     </li>
+<li>
+<strong>
+       Cookie Preferences:
+      </strong>
+      Manage through your browser settings.
+     </li>
+<li>
+<strong>
+       "Do Not Track" Signals:
+      </strong>
+      We do not currently respond to DNT signals due to a lack of universal standards.
+     </li>
+</ul>
+<p>
+     To exercise these rights, please contact us using the information in Section 9.
+    </p>
+<h2>
+     9. Changes to This Privacy Policy
+    </h2>
+<p>
+     We may update this Privacy Policy periodically. We will post the new policy on this page and update the "Effective Date." We encourage you to review this policy regularly for changes. Updates are effective when posted.
+    </p>
+<h2>
+     10. Contact Us
+    </h2>
+<p>
+     For questions or concerns about this Privacy Policy or our data practices, please contact us:
+    </p>
+<p>
+<strong>
+      Email:
+     </strong>
+<a href="mailto:privacy@newyorkspecialed.net">
+      privacy@newyorkspecialed.net
+     </a>
+</p>
+</section>
+</main>
+<!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+<footer class="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="footer-container">
+<!-- COL 1: Brand & Mission -->
+<div class="footer-brand">
+<h3>
+      New York Special Ed
+      <span>
+       .net
+      </span>
+</h3>
+<p>
+      Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+     </p>
+<div style="margin-top: 20px;">
+<a href="/contact/" style="color: #D4AF37; font-weight: bold; text-decoration: none;">
+       View Advocacy Shop →
+      </a>
+</div>
+</div>
+<!-- COL 2: Essential Guides -->
+<div class="footer-col">
+<h4>
+      NY Parent Guides
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/guides/cse-meeting-guide/">
+        The CSE Meeting Guide
+       </a>
+</li>
+<li>
+<a href="/guides/evaluation-request-ny/">
+        Evaluation Timelines (60 Days)
+       </a>
+</li>
+<li>
+<a href="/guides/dispute-resolution-ny/">
+        Due Process &amp; Complaints
+       </a>
+</li>
+<li>
+<a href="/guides/bilingual-iep-new-york/">
+        Bilingual/ELL Rights
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-75/">
+        District 75 Explained
+       </a>
+</li>
+</ul>
+</div>
+<!-- COL 3: Top Districts -->
+<div class="footer-col">
+<h4>
+      Popular Districts
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/districts/nyc-district-02-upper-east-side/">
+        NYC District 2 (Manhattan)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-15-park-slope/">
+        NYC District 15 (Brooklyn)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-31-staten-island/">
+        NYC District 31 (Staten Island)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-30-astoria/">
+        NYC District 30 (Queens)
+       </a>
+</li>
+<li>
+<a href="/districts/buffalo-city-sd/">
+        Buffalo City Schools
+       </a>
+</li>
+</ul>
+</div>
+<!-- COL 4: Legal & Contact -->
+<div class="footer-col">
+<h4>
+      Resources
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/about/">
+        About Us
+       </a>
+</li>
+<li>
+<a href="/contact/">
+        Contact Support
+       </a>
+</li>
+<li>
+<a href="/privacy-policy/">
+        Privacy Policy
+       </a>
+</li>
+<li>
+<a href="/sitemap.xml">
+        Sitemap
+       </a>
+</li>
+</ul>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="footer-bottom">
+<p>
+     © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.
+     <br/>
+     For official inquiries, visit schools.nyc.gov or nysed.gov.
+    </p>
+</div>
+</footer>
+
+<!-- ============================================================
+  NY Special Ed — Premium Newsletter Popup
+  Drop this just before </body> on every page.
+  Replaces the generic blue popup with the site's Ink & Gold aesthetic.
+
+  To configure per page, change data-site and data-language on the script tag.
+  ============================================================ -->
+
+<!-- Popup HTML -->
+<div id="ec-overlay" style="display:none;position:fixed;inset:0;background:rgba(10,15,30,.72);z-index:9998;align-items:center;justify-content:center;backdrop-filter:blur(3px);">
+  <div id="ec-modal" style="max-width:420px;width:92%;position:relative;font-family:'DM Sans',sans-serif;border-radius:6px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.45);">
+
+    <!-- Header -->
+    <div id="ec-header" style="background:#002868;padding:28px 28px 22px;border-bottom:3px solid #d4af37;position:relative;">
+      <button id="ec-close" aria-label="Close"
+        style="position:absolute;top:14px;right:16px;background:none;border:none;color:rgba(255,255,255,.5);font-size:18px;cursor:pointer;line-height:1;padding:4px;">&#x2715;</button>
+      <div style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#d4af37;margin-bottom:10px;">
+        District Intelligence
+      </div>
+      <h2 id="ec-title"
+        style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:500;color:#f5f0e8;line-height:1.15;margin:0;">
+      </h2>
+    </div>
+
+    <!-- Body -->
+    <div style="background:#fdfaf5;padding:26px 28px 24px;">
+      <p id="ec-body" style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:#002868;line-height:1.45;margin:0 0 14px;"></p>
+
+      <div style="width:40px;height:2px;background:#d4af37;margin-bottom:18px;"></div>
+
+      <ul id="ec-checklist" style="list-style:none;margin:0 0 22px;padding:0;"></ul>
+
+      <!-- Form -->
+      <div id="ec-form-wrap">
+        <input id="ec-email" type="email" placeholder="your@email.com"
+          style="width:100%;box-sizing:border-box;padding:11px 14px;border:1.5px solid #d6cbbf;border-radius:4px;font-size:14px;font-family:'DM Sans',sans-serif;margin-bottom:10px;outline:none;background:#fff;color:#1a1410;"/>
+        <button id="ec-submit"
+          style="width:100%;padding:14px;background:#c8102e;color:#fff;border:none;border-radius:4px;font-weight:600;font-family:'DM Sans',sans-serif;font-size:15px;cursor:pointer;transition:background .2s;letter-spacing:.01em;">
+        </button>
+      </div>
+
+      <!-- Success state -->
+      <div id="ec-success" style="display:none;text-align:center;padding:12px 0 6px;">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:32px;color:#d4af37;margin-bottom:8px;">✦</div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#002868;margin:0 0 6px;">You're on the list.</p>
+        <p style="font-size:13px;color:#6b5f53;margin:0;line-height:1.5;">District updates and parent rights resources will arrive in your inbox.</p>
+      </div>
+
+      <p style="margin:14px 0 0;font-size:11px;color:#b0a799;text-align:center;letter-spacing:.02em;">
+        No spam &nbsp;·&nbsp; Unsubscribe any time
+      </p>
+    </div>
+  </div>
+</div>
+
+<script
+  id="ec-script"
+  data-site="new_york_special_ed"
+  data-language="en"
+  data-delay="10000"
+  data-api="https://email-capture-api-831148457361.us-central1.run.app">
+(function() {
+  var script   = document.getElementById("ec-script");
+  var API_BASE = script.getAttribute("data-api");
+  var SITE     = script.getAttribute("data-site")     || "new_york_special_ed";
+  var LANG     = script.getAttribute("data-language") || "en";
+  var DELAY    = parseInt(script.getAttribute("data-delay") || "10000", 10);
+
+  var COPY = {
+    en: {
+      title:   "Know Your District.<br><em style='color:#e5c158;font-style:italic;'>Know Your Rights.</em>",
+      body:    "Most NYC parents don't know what their district is required to provide — until it's too late.",
+      checks:  [
+        "District-specific CSE timelines & contacts",
+        "IEP rights and evaluation deadlines",
+        "What to say at your next meeting",
+        "Real outcomes from parents in your district"
+      ],
+      button:  "Send Me Free District Updates"
+    },
+    es: {
+      title:   "Conozca Su Distrito.<br><em style='color:#e5c158;font-style:italic;'>Sus Derechos.</em>",
+      body:    "La mayoría de los padres de NYC no saben lo que su distrito está obligado a proveer.",
+      checks:  [
+        "Plazos del CSE y contactos por distrito",
+        "Derechos del IEP y plazos de evaluación",
+        "Qué decir en su próxima reunión",
+        "Resultados reales de padres en su distrito"
+      ],
+      button:  "Recibir Actualizaciones Gratis"
+    }
+  };
+
+  var copy = COPY[LANG] || COPY.en;
+  var STORAGE_KEY = "ec_dismissed_" + SITE + "_" + LANG;
+  if (localStorage.getItem(STORAGE_KEY)) return;
+
+  /* -- Inject copy -- */
+  document.getElementById("ec-title").innerHTML  = copy.title;
+  document.getElementById("ec-body").textContent = copy.body;
+  document.getElementById("ec-submit").textContent = copy.button;
+
+  var list = document.getElementById("ec-checklist");
+  copy.checks.forEach(function(item) {
+    var li = document.createElement("li");
+    li.style.cssText = "font-size:13px;color:#6b5f53;padding:5px 0 5px 20px;position:relative;";
+    li.innerHTML = '<span style="position:absolute;left:0;font-family:\'Cormorant Garamond\',serif;font-size:16px;color:#d4af37;">§</span>' + item;
+    list.appendChild(li);
+  });
+
+  var overlay  = document.getElementById("ec-overlay");
+  var emailEl  = document.getElementById("ec-email");
+  var submitEl = document.getElementById("ec-submit");
+
+  /* -- Show after delay -- */
+  setTimeout(function() {
+    overlay.style.display = "flex";
+    emailEl.focus();
+  }, DELAY);
+
+  /* -- Close -- */
+  function close() {
+    overlay.style.display = "none";
+    localStorage.setItem(STORAGE_KEY, "1");
+  }
+  document.getElementById("ec-close").addEventListener("click", close);
+  overlay.addEventListener("click", function(e) { if (e.target === overlay) close(); });
+  document.addEventListener("keydown", function(e) { if (e.key === "Escape") close(); });
+
+  /* -- Hover on button -- */
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+  submitEl.addEventListener("mouseout",   function() { this.style.background = "#c8102e"; });
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+
+  /* -- Submit -- */
+  submitEl.addEventListener("click", function() {
+    var email = emailEl.value.trim();
+    if (!email || !email.includes("@")) {
+      emailEl.style.borderColor = "#c8102e";
+      emailEl.focus();
+      return;
+    }
+    emailEl.style.borderColor = "#d6cbbf";
+    submitEl.disabled    = true;
+    submitEl.textContent = "…";
+
+    fetch(API_BASE + "/api/signup", {
+      method:  "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email:      email,
+        site:       SITE,
+        language:   LANG,
+        source:     "newsletter_popup",
+        page_url:   window.location.href,
+        page_title: document.title,
+        district:   (document.querySelector("[data-district]") || {}).dataset && document.querySelector("[data-district]").dataset.district || null
+      })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(res) {
+      if (res.success) {
+        document.getElementById("ec-form-wrap").style.display = "none";
+        document.getElementById("ec-success").style.display   = "block";
+        localStorage.setItem(STORAGE_KEY, "1");
+        setTimeout(close, 4000);
+      } else {
+        submitEl.disabled    = false;
+        submitEl.textContent = copy.button;
+        alert(res.error || "Something went wrong. Please try again.");
+      }
+    })
+    .catch(function() {
+      submitEl.disabled    = false;
+      submitEl.textContent = copy.button;
+      alert("Network error. Please try again.");
+    });
+  });
+
+  emailEl.addEventListener("keydown", function(e) { if (e.key === "Enter") submitEl.click(); });
+})();
+</script>
+</body>
+</html>

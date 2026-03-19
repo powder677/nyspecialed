@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>
+   Requesting an Evaluation in District 9
+  </title>
+<meta content="Step-by-step guide to the 60-day special education evaluation timeline in District 9." name="description"/>
+<link href="/styles/global.css" rel="stylesheet"/>
+<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+<!-- __eval-css-start__ -->
+<style>
+   /* evaluation-process content styles — injected by fix_evaluation_format.py */
+.content-body {
+  max-width: 780px;
+  padding: 0 0 32px;
+  font-size: 1.02rem;
+  line-height: 1.8;
+  color: #2d3748;
+}
+.content-body h2 {
+  font-size: 1.35rem;
+  color: #002868;
+  border-left: 4px solid #d4af37;
+  padding-left: 14px;
+  margin: 44px 0 16px;
+  line-height: 1.3;
+}
+.content-body p {
+  margin: 0 0 18px;
+}
+.content-body ul.eval-list {
+  margin: 8px 0 24px 0;
+  padding-left: 0;
+  list-style: none;
+}
+.content-body ul.eval-list li {
+  padding: 14px 18px;
+  margin-bottom: 10px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #002868;
+  border-radius: 0 6px 6px 0;
+  line-height: 1.7;
+  font-size: 0.97rem;
+}
+.content-body ul.eval-list li strong {
+  color: #002868;
+  display: block;
+  margin-bottom: 4px;
+}
+.content-body blockquote.letter-template {
+  background: #f0f4ff;
+  border: 1px solid #c7d7f4;
+  border-left: 5px solid #002868;
+  border-radius: 0 8px 8px 0;
+  padding: 24px 28px;
+  margin: 24px 0 28px;
+  font-size: 0.94rem;
+  line-height: 1.8;
+  color: #1e2d4a;
+  font-style: italic;
+  white-space: pre-line;
+  position: relative;
+}
+.content-body blockquote.letter-template::before {
+  content: '✉  Sample Referral Letter';
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #002868;
+  margin-bottom: 14px;
+}
+.eval-page-header {
+  padding: 8px 0 24px;
+  border-bottom: 2px solid #e2e8f0;
+  margin-bottom: 32px;
+}
+.eval-page-header .eyebrow {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+.eval-page-header h1 {
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  color: #002868;
+  margin: 0 0 10px;
+  line-height: 1.2;
+}
+.eval-page-header .intro {
+  font-size: 1.05rem;
+  color: #4b5563;
+  line-height: 1.7;
+  max-width: 680px;
+  margin: 0;
+}
+  </style>
+<!-- __eval-css-end__ -->
+<!-- __district-subnav-css-start__ -->
+<style>
+   /* district-subnav — auto-injected by fix_district_nav.py */
+.district-subnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 0 0 24px 0;
+}
+.district-subnav a {
+  display: inline-block;
+  padding: 5px 11px;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0056b3;
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.district-subnav a:hover { background: #dbeafe; }
+.district-subnav a.subnav-active {
+  background: #002868;
+  color: #fff;
+  border-color: #002868;
+  cursor: default;
+}
+  </style>
+<!-- __district-subnav-css-end__ -->
+<link href="https://www.newyorkspecialed.net/districts/nyc-district-09-grand-concourse/evaluation-process.html" rel="canonical"/>
+<meta content="website" property="og:type"/><meta content="Requesting an Evaluation in District 9" property="og:title"/><meta content="Step-by-step guide to the 60-day special education evaluation timeline in District 9." property="og:description"/><meta content="https://www.newyorkspecialed.net/districts/nyc-district-09-grand-concourse/evaluation-process.html" property="og:url"/><meta content="summary_large_image" name="twitter:card"/><meta content="Requesting an Evaluation in District 9" name="twitter:title"/><meta content="Step-by-step guide to the 60-day special education evaluation timeline in District 9." name="twitter:description"/>
+<meta content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" property="og:image"/>
+<meta content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" name="twitter:image"/></head>
+<body>
+<!-- 
+    INSTRUCTIONS: 
+    Include this inside the <header> tag of every page.
+    Requires: styles/nav-footer.css
+    Requires: FontAwesome (for icons)
+-->
+<header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader">
+<div class="nav-container">
+<!-- Logo -->
+<a aria-label="New York Special Ed - Home" class="nav-logo" href="/">
+<img alt="New York Special Ed logo" height="120" loading="eager" src="/images/logo.png" style="display:block; height:120px; width:auto; border-radius:8px;" width="120"/>
+</a>
+<!-- Desktop Navigation -->
+<nav itemscope="" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+<ul class="nav-links">
+<!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/">
+        NYC Districts
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="mega-menu">
+<div class="menu-column">
+<h4>
+          Manhattan (D1-6)
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-01-lower-east-side/">
+            District 1: Lower East Side
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-02-upper-east-side/">
+            District 2: Upper East Side/Tribeca
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-03-upper-west-side/">
+            District 3: Upper West Side
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-04-east-harlem/">
+            District 4: East Harlem
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-05-central-harlem/">
+            District 5: Central Harlem
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-06-washington-heights/">
+            District 6: Washington Heights
+           </a>
+</li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>
+          Brooklyn (Key Districts)
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-15-park-slope/">
+            District 15: Park Slope/Sunset Park
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-20-bay-ridge/">
+            District 20: Bay Ridge/Borough Park
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-13-brooklyn-heights/">
+            District 13: Brooklyn Heights
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-75/">
+<strong>
+             District 75 (Citywide Programs)
+            </strong>
+</a>
+</li>
+</ul>
+</div>
+<div class="menu-column">
+<h4>
+          Queens &amp; SI
+         </h4>
+<ul>
+<li>
+<a href="/districts/nyc-district-26-bayside/">
+            District 26: Bayside
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-30-astoria/">
+            District 30: Astoria/LIC
+           </a>
+</li>
+<li>
+<a href="/districts/nyc-district-31-staten-island/">
+            District 31: Staten Island
+           </a>
+</li>
+<li>
+<a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">
+            View All 32 NYC Districts →
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
+<li class="nav-item">
+<a class="nav-link" href="/districts/nys-overview/">
+        Upstate &amp; LI
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<h4>
+          Big 5 Cities
+         </h4>
+<ul>
+<li>
+<a href="/districts/buffalo-city-sd/">
+            Buffalo City SD
+           </a>
+</li>
+<li>
+<a href="/districts/rochester-city-sd/">
+            Rochester City SD
+           </a>
+</li>
+<li>
+<a href="/districts/syracuse-city-sd/">
+            Syracuse City SD
+           </a>
+</li>
+<li>
+<a href="/districts/yonkers-city-sd/">
+            Yonkers City SD
+           </a>
+</li>
+<li>
+<a href="/districts/albany-city-sd/">
+            Albany City SD
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- DROPDOWN 3: GUIDES (Contextual Content) -->
+<li class="nav-item">
+<a class="nav-link" href="/guides/">
+        Parent Guides
+        <i class="fas fa-chevron-down">
+</i>
+</a>
+<div class="dropdown-menu">
+<div class="menu-column" style="padding: 0 20px;">
+<ul>
+<li>
+<a href="/guides/cse-meeting-guide/">
+            CSE Meeting Guide
+           </a>
+</li>
+<li>
+<a href="/guides/evaluation-request-ny/">
+            Requesting an Evaluation
+           </a>
+</li>
+<li>
+<a href="/guides/bilingual-iep-new-york/">
+            Bilingual IEP Rights
+           </a>
+</li>
+<li>
+<a href="/guides/cpse-preschool-special-education/">
+            CPSE (Preschool) Guide
+           </a>
+</li>
+<li>
+<a href="/guides/carter-cases-private-placement/">
+            Private Placement (Carter Cases)
+           </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<!-- LINK: RESOURCES -->
+<li class="nav-item">
+<a class="nav-link" href="/resources/">
+        Free Tools
+       </a>
+</li>
+<!-- CTA -->
+<li class="nav-item">
+<a class="nav-cta" href="/contact/">
+        Get The Toolkit
+       </a>
+</li>
+</ul>
+</nav>
+<!-- Mobile Toggle -->
+<button aria-label="Open Navigation" class="mobile-toggle">
+<i class="fas fa-bars">
+</i>
+</button>
+</div>
+</header>
+<main class="container">
+<div class="aeo-authority-block">
+<a href="/districts/nyc-district-09-grand-concourse/">
+     ← Back to District 9 Hub
+    </a>
+</div>
+<!-- __district-subnav-start__ -->
+<nav aria-label="Pages in this district" class="district-subnav">
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-09-grand-concourse/">
+     🏠 Hub
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-09-grand-concourse/leadership-directory.html">
+     📞 Contacts
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-09-grand-concourse/cse-meeting-guide.html">
+     🤝 CSE Guide
+    </a>
+<a aria-current="page" class="subnav-active" href="https://www.newyorkspecialed.net/districts/nyc-district-09-grand-concourse/evaluation-process.html">
+     📝 Evaluations
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-09-grand-concourse/discipline-rights.html">
+     ⚖️ Discipline
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-09-grand-concourse/partners.html">
+     🤲 Partners
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-09-grand-concourse/special-ed-updates.html">
+     📰 Updates
+    </a>
+<a href="https://www.newyorkspecialed.net/districts/nyc-district-09-grand-concourse/parent-advocacy-guide.html">🛡️ Advocacy</a><a href="https://www.newyorkspecialed.net/districts/nyc-district-09-grand-concourse/what-is-an-iep.html">📋 What Is an IEP?</a></nav>
+<!-- __district-subnav-end__ -->
+<!-- Top Banner Anchor to Bot -->
+<div style="background: #2d5248; color: white; padding: 16px 24px; border-radius: 8px; margin-top: 24px; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-wrap: wrap; gap: 16px;">
+<div style="display: flex; align-items: center; gap: 12px;">
+<span style="background: #c9973a; color: #2d5248; padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: 800; letter-spacing: 0.1em;">NEW</span>
+<span style="font-family:'Lora',serif; font-size:18px; font-weight:700;">Get Your IEP Letter Written by our AI Bot</span>
+</div>
+<a href="/tools/" style="background: #c9973a; color: #2d5248; font-weight: 800; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-size: 14px; white-space: nowrap; transition: background 0.2s;">Start Now — $15 →</a>
+</div>
+<div class="premium-split-container" style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start; width: 100%; margin-top: 30px;"><div class="content-body" style="flex: 1 1 60%; min-width: 300px; max-width: 100%; padding: 0; margin-top: 0;">
+<div class="eval-page-header">
+<div class="eyebrow">
+      District 9 · Special Education Guide
+     </div>
+<h1>
+      Requesting a Special Education Evaluation
+     </h1>
+<p class="intro">
+      A step-by-step guide to your rights, the 60-school-day timeline, and what evaluations District 9 must conduct under 8 NYCRR 200.4 and IDEA.
+     </p>
+</div>
+<h2>
+     Step 1: Making the Referral in Writing
+    </h2>
+<p>
+     The journey toward special education services for your child in NYC District 9 begins with a formal, written referral. This letter serves as your official request to the district, alerting them to your concerns about your child's educational progress and suggesting the need for a comprehensive evaluation. It's a crucial first step, and understanding how to craft an effective referral can significantly impact the process.
+    </p>
+<p>
+     Why must the referral be in writing? A written referral creates a clear record of your request, ensuring that the district acknowledges and addresses your concerns. It also establishes a timeline for the evaluation process, protecting your child's right to a timely assessment. While verbal conversations with teachers or school staff are valuable, they don't initiate the formal evaluation process. Only a written referral to the Committee on Special Education (CSE) does.
+    </p>
+<p>
+     Who can make a referral? While parents are the most common referral source, other individuals can also initiate the process, including teachers, doctors, therapists, or even a judge. However, as a parent, your involvement and advocacy are paramount. Even if another professional suggests an evaluation, it's essential that you, as the parent, submit the written referral to the CSE.
+    </p>
+<p>
+     What should you include in your referral letter? Specificity is key. Avoid vague statements like "My child is struggling in school." Instead, provide concrete examples of the challenges your child faces, both academically and behaviorally. Include details about:
+    </p>
+<ul class="eval-list">
+<li>
+<strong>
+       Specific academic areas of concern:
+      </strong>
+      Reading comprehension, writing skills, math fluency, etc.
+*
+      <strong>
+       Observed behaviors:
+      </strong>
+      Difficulty focusing, impulsivity, hyperactivity, social interaction challenges, emotional regulation difficulties.
+*
+      <strong>
+       Impact on learning:
+      </strong>
+      How these challenges affect your child's ability to participate in class, complete assignments, and interact with peers.
+*
+      <strong>
+       Previous interventions:
+      </strong>
+      Any strategies or supports that have already been tried, and their effectiveness (or lack thereof).
+*
+      <strong>
+       Relevant medical or developmental history:
+      </strong>
+      Any diagnoses or concerns raised by doctors or therapists.
+     </li>
+</ul>
+<p>
+     Here's a sample snippet of language you can adapt for your referral letter:
+    </p>
+<p>
+     "To the District 9 CSE Chairperson,
+    </p>
+<p>
+     I am writing to request a special education evaluation for my child, [Child's Name], who is currently in [Grade Level] at [School Name]. I am concerned about [Child's Name]'s [specific area of concern, e.g., reading fluency]. Specifically, [he/she] struggles to [describe the specific challenge, e.g., decode unfamiliar words] and frequently [provide an example, e.g., skips words when reading aloud]. At home, [he/she] becomes [describe the behavior, e.g., frustrated and tearful] when attempting [specific task, e.g., reading homework] and often [describe the consequence, e.g., refuses to complete it]. These difficulties have been present for [duration, e.g., the past six months] and are impacting [his/her] ability to [describe the impact, e.g., keep up with the class reading assignments]."
+    </p>
+<p>
+     Where do you send the referral in NYC District 9? To ensure your referral reaches the appropriate individuals, address it to the Chairperson of the Committee on Special Education (CSE) for District 9. You can typically send the referral to your child's school, addressed to the CSE Chairperson, or you can try to find the direct address for the District 9 CSE office on the NYC Department of Education website. Contact the district to confirm the most up-to-date address and preferred method of delivery (e.g., mail, email, or hand delivery). Keeping a copy of the referral for your records is also crucial.
+    </p>
+<h2>
+     Step 2: The District's 10-Day Response
+    </h2>
+<p>
+     Once the District 9 CSE receives your written referral, the clock starts ticking. New York State law mandates that the district respond to your request within 10 school days. This response must be in writing and will either inform you that the district will proceed with the evaluation or that they are refusing to evaluate your child.
+    </p>
+<p>
+     If the district agrees to evaluate your child, the written notice will typically include:
+    </p>
+<p>
+     *   A consent form for you to sign, granting permission for the evaluations to be conducted.
+*   Information about the types of evaluations the district proposes to conduct (e.g., psychoeducational, speech-language, occupational therapy).
+*   Information about your rights as a parent in the special education process.
+    </p>
+<p>
+     It is crucial to carefully review the consent form and ensure you understand what evaluations are being proposed. You have the right to ask questions and seek clarification from the district if anything is unclear. Remember, you must provide informed consent before any evaluations can begin.
+    </p>
+<p>
+     What happens if the district refuses to evaluate your child? In this scenario, the district is legally obligated to provide you with a written explanation of their reasons for refusing the evaluation. This written notice must also include a clear explanation of your parental rights, including your right to challenge the district's decision. Common reasons for refusing an evaluation might include:
+    </p>
+<p>
+     *   The district believes your child's academic or behavioral difficulties are not significant enough to warrant special education services.
+*   The district believes your child's needs can be met through general education interventions.
+*   The district lacks sufficient information to determine whether an evaluation is necessary.
+    </p>
+<p>
+     If you disagree with the district's decision to refuse an evaluation, you have several options:
+    </p>
+<ul class="eval-list">
+<li>
+<strong>
+       Request a meeting with the school team:
+      </strong>
+      Discuss your concerns and provide additional information to support your request for an evaluation.
+*
+      <strong>
+       File a complaint with the New York State Education Department:
+      </strong>
+      If you believe the district violated your child's rights, you can file a formal complaint.
+*
+      <strong>
+       Request mediation:
+      </strong>
+      A neutral third party can help you and the district reach a mutually agreeable solution.
+*
+      <strong>
+       Request a due process hearing:
+      </strong>
+      This is a more formal legal process where an impartial hearing officer will make a decision about whether your child is entitled to an evaluation.
+     </li>
+</ul>
+<p>
+     It's important to remember that you have the right to advocate for your child's needs. Don't hesitate to seek assistance from parent advocacy organizations or legal professionals if you need help navigating the process.
+    </p>
+<h2>
+     Step 3: The 60-School-Day Clock
+    </h2>
+<p>
+     The 60-school-day timeline is a cornerstone of the special education evaluation process in New York State. It's a legally mandated timeframe (8 NYCRR 200.4) that dictates how long the district has to complete the entire evaluation process, from the moment you provide signed consent to the completion of your child's Individualized Education Program (IEP). It's vital to understand this timeline to ensure your child receives timely services.
+    </p>
+<p>
+     The clock starts ticking the moment the district receives your signed consent for the evaluations. It's crucial to note that the clock
+     <em>
+      does not
+     </em>
+     start when you submit the initial referral letter. It only begins when you sign and return the consent form provided by the district after they agree to proceed with the evaluation.
+    </p>
+<p>
+     What does the 60-school-day timeline encompass? This timeframe covers everything from the initial evaluations to the final IEP development. This includes:
+    </p>
+<p>
+     *   Conducting all necessary evaluations (psychoeducational, speech-language, occupational therapy, etc.).
+*   Analyzing the evaluation results.
+*   Holding the Committee on Special Education (CSE) meeting to discuss the evaluation findings and determine your child's eligibility for special education services.
+*   Developing the IEP, if your child is found eligible.
+    </p>
+<p>
+     It's important to remember that the 60 days are
+     <em>
+      school days
+     </em>
+     , not calendar days. This means weekends, holidays, and school breaks are not counted.
+    </p>
+<p>
+     Are there any circumstances that can pause the 60-day clock? Yes, there are a few specific situations where the timeline can be paused:
+    </p>
+<ul class="eval-list">
+<li>
+<strong>
+       Parent unavailability:
+      </strong>
+      If you are consistently unavailable to schedule or attend evaluation appointments or CSE meetings, the district can pause the clock. It's crucial to communicate with the district and make every effort to attend scheduled appointments to avoid delays.
+*
+      <strong>
+       Extended school closures:
+      </strong>
+      Unforeseen circumstances, such as extended school closures due to weather or other emergencies, can also pause the timeline.
+     </li>
+</ul>
+<p>
+     What should you do if the district misses the 60-day deadline? If the district fails to complete the evaluation process and develop an IEP within the 60-school-day timeframe, you have grounds to file a State Complaint with the New York State Education Department. This complaint will trigger an investigation into the district's compliance with special education regulations. While filing a complaint can be helpful, it's often more productive to proactively communicate with the district throughout the evaluation process. If you see the deadline approaching and the evaluations are not yet complete, reach out to the CSE Chairperson and express your concerns. Document all communication with the district, including dates, times, and the content of your conversations.
+    </p>
+<h2>
+     What Evaluations Are Conducted
+    </h2>
+<p>
+     When a child is referred for a special education evaluation in District 9, a variety of assessments may be conducted to gain a comprehensive understanding of their strengths and needs. These evaluations are designed to identify specific areas where a child may be struggling and to inform the development of an appropriate IEP. Each type of evaluation requires separate parental consent. The most common evaluations include:
+    </p>
+<ul class="eval-list">
+<li>
+<strong>
+       Psychoeducational Evaluation:
+      </strong>
+      This is a broad assessment that examines a child's cognitive abilities, academic skills, and learning style. It typically includes standardized tests of intelligence, achievement, and information processing. The psychoeducational evaluation helps determine a child's overall cognitive functioning, identify learning disabilities, and pinpoint specific academic strengths and weaknesses.
+     </li>
+<li>
+<strong>
+       Speech and Language Evaluation:
+      </strong>
+      This evaluation assesses a child's communication skills, including articulation, fluency, language comprehension, and expressive language. It helps determine if a child has a speech or language impairment that is affecting their ability to communicate effectively in the classroom.
+     </li>
+<li>
+<strong>
+       Occupational Therapy (OT) Evaluation:
+      </strong>
+      This evaluation focuses on a child's fine motor skills, sensory processing, and adaptive skills. It assesses a child's ability to perform everyday tasks, such as writing, using scissors, buttoning clothes, and organizing their materials. An OT evaluation can help identify sensory processing issues that may be impacting a child's behavior and learning.
+     </li>
+<li>
+<strong>
+       Physical Therapy (PT) Evaluation:
+      </strong>
+      This evaluation assesses a child's gross motor skills, such as balance, coordination, and mobility. It helps determine if a child has physical limitations that are affecting their ability to participate in physical activities and navigate the school environment.
+     </li>
+<li>
+<strong>
+       Social History:
+      </strong>
+      This is not an evaluation in the same sense as the others, but rather a gathering of information about the child's background, development, and family history. It often involves an interview with the parents or caregivers to gather information about the child's social, emotional, and medical history. This information helps the CSE understand the child's overall development and identify any factors that may be contributing to their learning challenges.
+     </li>
+<li>
+<strong>
+       Classroom Observation:
+      </strong>
+      A qualified professional observes the child in their classroom setting to assess their behavior, interactions with peers and teachers, and academic performance. This observation provides valuable insights into how the child functions in a real-world learning environment.
+     </li>
+<li>
+<strong>
+       Functional Behavioral Assessment (FBA):
+      </strong>
+      If a child is exhibiting challenging behaviors that are interfering with their learning or the learning of others, the district may conduct a Functional Behavioral Assessment (FBA). An FBA is a systematic process of gathering information about the function of a behavior, identifying the triggers and consequences that are maintaining the behavior. The results of the FBA are used to develop a Behavior Intervention Plan (BIP) to address the challenging behavior.
+     </li>
+</ul>
+<p>
+     It's important to remember that you have the right to request specific evaluations if you believe they are necessary to fully assess your child's needs. Discuss your concerns with the CSE and advocate for the evaluations you believe are appropriate.
+    </p>
+<h2>
+     Your Right to an IEE
+    </h2>
+<p>
+     If you disagree with the results of any evaluation conducted by NYC District 9, you have a powerful right under the Individuals with Disabilities Education Act (IDEA): the right to an Independent Educational Evaluation (IEE). An IEE is an evaluation conducted by a qualified professional who is not employed by the school district. This provides an independent perspective on your child's strengths and needs.
+    </p>
+<p>
+     To request an IEE, you must do so in writing to the District 9 CSE. Your letter should clearly state that you disagree with the district's evaluation and are requesting an IEE at public expense. You don't need to provide a detailed explanation of why you disagree, but it can be helpful to briefly outline your concerns.
+    </p>
+<p>
+     Once you request an IEE, the district has two options:
+    </p>
+<p>
+     1.
+     <strong>
+      Pay for the IEE:
+     </strong>
+     The district can agree to pay for the IEE, selecting an evaluator who meets their established criteria (e.g., qualifications, fees). You may also have the option to choose an evaluator from a list provided by the district.
+2.
+     <strong>
+      File for Due Process:
+     </strong>
+     The district can initiate a due process hearing to defend the validity of their evaluation. In this case, an impartial hearing officer will review the evidence and determine whether the district's evaluation was appropriate. If the hearing officer rules in favor of the district, you will not be entitled to an IEE at public expense.
+    </p>
+<p>
+     The district cannot simply ignore your request for an IEE. They must either pay for it or file for due process to defend their evaluation. It's crucial to understand that the district's criteria for IEE evaluators must be reasonable and cannot unduly restrict your ability to obtain an independent evaluation.
+    </p>
+<p>
+     The IEE must be considered by the CSE. Regardless of who pays for the IEE, the results must be considered by the CSE when making decisions about your child's IEP. This means the CSE must review the IEE report, discuss the findings, and explain how the information was used (or not used) in developing the IEP. While the CSE is required to consider the IEE, they are not necessarily required to follow its recommendations. However, if the CSE disagrees with the IEE's recommendations, they should be prepared to explain their reasoning.
+    </p>
+<p>
+     It is important to note that you are only entitled to one IEE at public expense for each district evaluation with which you disagree. If you obtain multiple independent evaluations, the district is only obligated to consider the first one you request.
+    </p>
+<h2>
+     Private Evaluations: When and Why
+    </h2>
+<p>
+     Parents in District 9 may choose to obtain private evaluations for their children at any time, regardless of whether the district has already conducted its own evaluations. Private evaluations can provide valuable insights into your child's strengths and needs, and they can be particularly helpful in advocating for appropriate services and supports.
+    </p>
+<p>
+     Why might you consider getting a private evaluation?
+    </p>
+<ul class="eval-list">
+<li>
+<strong>
+       To gain a more comprehensive understanding of your child's needs:
+      </strong>
+      The district's evaluations may not always be as thorough or comprehensive as you would like. A private evaluation can provide a more in-depth assessment of your child's specific areas of concern.
+*
+      <strong>
+       To obtain a second opinion:
+      </strong>
+      If you disagree with the results of the district's evaluations, a private evaluation can provide a second opinion from a qualified professional.
+*
+      <strong>
+       To support your advocacy efforts:
+      </strong>
+      Private evaluations can provide valuable documentation to support your requests for specific services and accommodations in your child's IEP.
+*
+      <strong>
+       To expedite the evaluation process:
+      </strong>
+      The district's evaluation process can sometimes be lengthy. Obtaining a private evaluation can provide you with information more quickly, allowing you to start addressing your child's needs sooner.
+     </li>
+</ul>
+<p>
+     How are private evaluations used at CSE meetings? You have the right to present private evaluations at CSE meetings and have them considered by the committee. The CSE must review the evaluation report, discuss the findings, and explain how the information was used (or not used) in developing the IEP. While the CSE is not required to follow the recommendations of a private evaluation, they must give it due consideration.
+    </p>
+<p>
+     The
+     <em>
+      Carter
+     </em>
+     case doctrine and tuition reimbursement: In certain circumstances, parents may be able to obtain tuition reimbursement from the district for private school placement if they can demonstrate that the district failed to provide their child with a Free Appropriate Public Education (FAPE). The
+     <em>
+      Carter
+     </em>
+     case established that parents who unilaterally place their child in a private school may be entitled to reimbursement if the following conditions are met:
+    </p>
+<p>
+     1.  The district's proposed IEP was not appropriate.
+2.  The private placement is appropriate.
+3.  Equitable considerations support reimbursement.
+    </p>
+<p>
+     Obtaining private evaluations can be a crucial step in building a strong case for tuition reimbursement.
+    </p>
+<p>
+     What makes a private evaluation credible to a CSE? To ensure that your private evaluation is given due consideration by the CSE, it's important to choose a qualified and experienced evaluator. Look for professionals who are licensed or certified in their respective fields and who have a strong reputation in the community. The evaluation report should be thorough, well-written, and based on sound assessment practices. It should also clearly outline the evaluator's findings, conclusions, and recommendations. Contact the evaluator and ask about their experience working with children with special needs and their familiarity with the special education process.
+    </p>
+<style>
+    /* STACKED OFFERS FOR NEW YORK */
+    .offers-container { display: flex; flex-direction: column; gap: 24px; margin-top: 50px; border-top: 2px solid #e2e8f0; padding-top: 40px; }
+    .offers-title { font-family: 'Cormorant Garamond', serif; font-size: 2.2rem; color: #002868; text-align: center; margin: 0 0 5px 0; border: none; padding: 0;}
+    .offers-subtitle { text-align: center; color: #475569; font-family: 'DM Sans', sans-serif; margin-bottom: 25px; font-size: 1.1rem;}
+    
+    .sales-card { background: linear-gradient(135deg, #002868 0%, #1e3a8a 100%); padding: 36px; border-radius: 12px; text-align: center; color: white; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15); position: relative; overflow: hidden; }
+    .sales-card .badge { background: #d4af37; color: #002868; padding: 6px 16px; border-radius: 50px; font-size: 0.8rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; display: inline-block; margin-bottom: 15px;}
+    .sales-card h3 { margin: 0 0 12px; color: #ffffff; font-size: 1.8rem; font-family: 'Cormorant Garamond', serif; }
+    .sales-card p { color: #e2e8f0; margin: 0 auto 24px; font-size: 1.05rem; line-height: 1.6; max-width: 90%; font-family: 'DM Sans', sans-serif;}
+    .sales-card a.buy-btn { background: #d4af37; color: #002868; padding: 16px 32px; text-decoration: none; border-radius: 6px; font-weight: 700; font-size: 1.1rem; display: inline-block; transition: 0.2s; font-family: 'DM Sans', sans-serif;}
+    .sales-card a.buy-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(212,175,55,0.4); }
+
+    /* COMING SOON CARD STYLING */
+    .sales-card.coming-soon { background: linear-gradient(135deg, #475569 0%, #334155 100%); }
+    .sales-card.coming-soon .badge { background: #94a3b8; color: #1e293b; }
+    .sales-card.coming-soon p { color: #cbd5e1; }
+    .sales-card.coming-soon a.buy-btn { background: #64748b; color: #f8fafc; cursor: not-allowed; }
+    .sales-card.coming-soon a.buy-btn:hover { transform: none; box-shadow: none; }
+    
+    /* DIAGONAL OVERLAY */
+    .coming-soon-overlay {
+        position: absolute;
+        top: 28px;
+        right: -45px;
+        background: #d4af37;
+        color: #002868;
+        padding: 8px 50px;
+        font-weight: 800;
+        font-size: 0.85rem;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        transform: rotate(45deg);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        z-index: 2;
+        font-family: 'DM Sans', sans-serif;
+    }
+    </style>
+<div class="offers-container" id="premium-offers">
+<h2 class="offers-title">Take the Next Step</h2>
+<p class="offers-subtitle">Protect your child's right to a Free Appropriate Public Education.</p>
+<div class="sales-card">
+<span class="badge">Essential</span>
+<h3>The CSE Meeting Prep Kit</h3>
+<p>Master the NY Special Education evaluation and IEP process. Includes independent evaluation (IEE) request templates, 60-day timeline trackers, and exact scripts to use at your meeting.</p>
+<a class="buy-btn" href="/contact/">Get the Prep Kit — $47</a>
+</div>
+<div class="sales-card coming-soon">
+<div class="coming-soon-overlay">Coming Soon</div>
+<span class="badge">Advanced</span>
+<h3>The CSE Kit + Autism Pack</h3>
+<p>Everything in the standard Prep Kit, plus specialized autism IEP goals, sensory diet accommodations, and FBA/BIP behavioral strategies tailored specifically for New York schools.</p>
+<a class="buy-btn" href="#" onclick="return false;">Available Next Month</a>
+</div>
+</div>
+</div>
+<div class="premium-sidebar-right" style="flex: 1 1 30%; min-width: 300px; position: sticky; top: 20px;">
+  <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.08);">
+    <div style="background: #2d5248; padding: 36px 24px; text-align: center; color: white;">
+      <h3 style="margin: 0 0 12px 0; font-family: 'Lora', serif; font-size: 24px;">IEP Letter Writer</h3>
+      <p style="margin: 0 0 24px 0; font-size: 15px; color: #e2e8f0; line-height: 1.6;">Don't know what to say to the CSE? Let our AI bot generate a custom, legally-sound request letter for you in minutes.</p>
+      <a href="/tools/" style="display: inline-block; background: #c9973a; color: #2d5248; font-weight: 800; padding: 14px 24px; border-radius: 6px; text-decoration: none; font-size: 15px; box-shadow: 0 4px 12px rgba(201, 151, 58, 0.3);">Open Letter Writer →</a>
+    </div>
+  </div>
+</div>
+</div>
+<div class="cta-box" style="margin-top: 40px; background: #f8f9fa; padding: 25px; border-radius: 8px; text-align: center;">
+<h3>
+     Need More Help?
+    </h3>
+<p>
+     Download our complete toolkit for District 9 parents.
+    </p>
+<a class="button-primary" href="/contact/">
+     Get the Toolkit
+    </a>
+</div>
+</main>
+<!-- 
+    INSTRUCTIONS: 
+    Include this at the bottom of every page.
+    Requires: styles/nav-footer.css
+-->
+<footer class="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="footer-container">
+<!-- COL 1: Brand & Mission -->
+<div class="footer-brand">
+<h3>
+      New York Special Ed
+      <span>
+       .net
+      </span>
+</h3>
+<p>
+      Demystifying the New York Committee on Special Education (CSE) process.
+            We provide parents with the localized data, legal templates, and advocacy
+            tools needed to secure appropriate services in NYC and NY State.
+     </p>
+<div style="margin-top: 20px;">
+<a href="/contact/" style="color: #D4AF37; font-weight: bold; text-decoration: none;">
+       View Advocacy Shop →
+      </a>
+</div>
+</div>
+<!-- COL 2: Essential Guides -->
+<div class="footer-col">
+<h4>
+      NY Parent Guides
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/guides/cse-meeting-guide/">
+        The CSE Meeting Guide
+       </a>
+</li>
+<li>
+<a href="/guides/evaluation-request-ny/">
+        Evaluation Timelines (60 Days)
+       </a>
+</li>
+<li>
+<a href="/guides/dispute-resolution-ny/">
+        Due Process &amp; Complaints
+       </a>
+</li>
+<li>
+<a href="/guides/bilingual-iep-new-york/">
+        Bilingual/ELL Rights
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-75/">
+        District 75 Explained
+       </a>
+</li>
+</ul>
+</div>
+<!-- COL 3: Top Districts -->
+<div class="footer-col">
+<h4>
+      Popular Districts
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/districts/nyc-district-02-upper-east-side/">
+        NYC District 2 (Manhattan)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-15-park-slope/">
+        NYC District 15 (Brooklyn)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-31-staten-island/">
+        NYC District 31 (Staten Island)
+       </a>
+</li>
+<li>
+<a href="/districts/nyc-district-30-astoria/">
+        NYC District 30 (Queens)
+       </a>
+</li>
+<li>
+<a href="/districts/buffalo-city-sd/">
+        Buffalo City Schools
+       </a>
+</li>
+</ul>
+</div>
+<!-- COL 4: Legal & Contact -->
+<div class="footer-col">
+<h4>
+      Resources
+     </h4>
+<ul class="footer-links">
+<li>
+<a href="/about/">
+        About Us
+       </a>
+</li>
+<li>
+<a href="/contact/">
+        Contact Support
+       </a>
+</li>
+<li>
+<a href="/privacy-policy/">
+        Privacy Policy
+       </a>
+</li>
+<li>
+<a href="/sitemap.xml">
+        Sitemap
+       </a>
+</li>
+</ul>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="footer-bottom">
+<p>
+     © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.
+     <br/>
+     For official inquiries, visit schools.nyc.gov or nysed.gov.
+    </p>
+</div>
+</footer>
+
+<!-- ============================================================
+  NY Special Ed — Premium Newsletter Popup
+  Drop this just before </body> on every page.
+  Replaces the generic blue popup with the site's Ink & Gold aesthetic.
+
+  To configure per page, change data-site and data-language on the script tag.
+  ============================================================ -->
+
+<!-- Popup HTML -->
+<div id="ec-overlay" style="display:none;position:fixed;inset:0;background:rgba(10,15,30,.72);z-index:9998;align-items:center;justify-content:center;backdrop-filter:blur(3px);">
+  <div id="ec-modal" style="max-width:420px;width:92%;position:relative;font-family:'DM Sans',sans-serif;border-radius:6px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.45);">
+
+    <!-- Header -->
+    <div id="ec-header" style="background:#002868;padding:28px 28px 22px;border-bottom:3px solid #d4af37;position:relative;">
+      <button id="ec-close" aria-label="Close"
+        style="position:absolute;top:14px;right:16px;background:none;border:none;color:rgba(255,255,255,.5);font-size:18px;cursor:pointer;line-height:1;padding:4px;">&#x2715;</button>
+      <div style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#d4af37;margin-bottom:10px;">
+        District Intelligence
+      </div>
+      <h2 id="ec-title"
+        style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:500;color:#f5f0e8;line-height:1.15;margin:0;">
+      </h2>
+    </div>
+
+    <!-- Body -->
+    <div style="background:#fdfaf5;padding:26px 28px 24px;">
+      <p id="ec-body" style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:#002868;line-height:1.45;margin:0 0 14px;"></p>
+
+      <div style="width:40px;height:2px;background:#d4af37;margin-bottom:18px;"></div>
+
+      <ul id="ec-checklist" style="list-style:none;margin:0 0 22px;padding:0;"></ul>
+
+      <!-- Form -->
+      <div id="ec-form-wrap">
+        <input id="ec-email" type="email" placeholder="your@email.com"
+          style="width:100%;box-sizing:border-box;padding:11px 14px;border:1.5px solid #d6cbbf;border-radius:4px;font-size:14px;font-family:'DM Sans',sans-serif;margin-bottom:10px;outline:none;background:#fff;color:#1a1410;"/>
+        <button id="ec-submit"
+          style="width:100%;padding:14px;background:#c8102e;color:#fff;border:none;border-radius:4px;font-weight:600;font-family:'DM Sans',sans-serif;font-size:15px;cursor:pointer;transition:background .2s;letter-spacing:.01em;">
+        </button>
+      </div>
+
+      <!-- Success state -->
+      <div id="ec-success" style="display:none;text-align:center;padding:12px 0 6px;">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:32px;color:#d4af37;margin-bottom:8px;">✦</div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#002868;margin:0 0 6px;">You're on the list.</p>
+        <p style="font-size:13px;color:#6b5f53;margin:0;line-height:1.5;">District updates and parent rights resources will arrive in your inbox.</p>
+      </div>
+
+      <p style="margin:14px 0 0;font-size:11px;color:#b0a799;text-align:center;letter-spacing:.02em;">
+        No spam &nbsp;·&nbsp; Unsubscribe any time
+      </p>
+    </div>
+  </div>
+</div>
+
+<script
+  id="ec-script"
+  data-site="new_york_special_ed"
+  data-language="en"
+  data-delay="10000"
+  data-api="https://email-capture-api-831148457361.us-central1.run.app">
+(function() {
+  var script   = document.getElementById("ec-script");
+  var API_BASE = script.getAttribute("data-api");
+  var SITE     = script.getAttribute("data-site")     || "new_york_special_ed";
+  var LANG     = script.getAttribute("data-language") || "en";
+  var DELAY    = parseInt(script.getAttribute("data-delay") || "10000", 10);
+
+  var COPY = {
+    en: {
+      title:   "Know Your District.<br><em style='color:#e5c158;font-style:italic;'>Know Your Rights.</em>",
+      body:    "Most NYC parents don't know what their district is required to provide — until it's too late.",
+      checks:  [
+        "District-specific CSE timelines & contacts",
+        "IEP rights and evaluation deadlines",
+        "What to say at your next meeting",
+        "Real outcomes from parents in your district"
+      ],
+      button:  "Send Me Free District Updates"
+    },
+    es: {
+      title:   "Conozca Su Distrito.<br><em style='color:#e5c158;font-style:italic;'>Sus Derechos.</em>",
+      body:    "La mayoría de los padres de NYC no saben lo que su distrito está obligado a proveer.",
+      checks:  [
+        "Plazos del CSE y contactos por distrito",
+        "Derechos del IEP y plazos de evaluación",
+        "Qué decir en su próxima reunión",
+        "Resultados reales de padres en su distrito"
+      ],
+      button:  "Recibir Actualizaciones Gratis"
+    }
+  };
+
+  var copy = COPY[LANG] || COPY.en;
+  var STORAGE_KEY = "ec_dismissed_" + SITE + "_" + LANG;
+  if (localStorage.getItem(STORAGE_KEY)) return;
+
+  /* -- Inject copy -- */
+  document.getElementById("ec-title").innerHTML  = copy.title;
+  document.getElementById("ec-body").textContent = copy.body;
+  document.getElementById("ec-submit").textContent = copy.button;
+
+  var list = document.getElementById("ec-checklist");
+  copy.checks.forEach(function(item) {
+    var li = document.createElement("li");
+    li.style.cssText = "font-size:13px;color:#6b5f53;padding:5px 0 5px 20px;position:relative;";
+    li.innerHTML = '<span style="position:absolute;left:0;font-family:\'Cormorant Garamond\',serif;font-size:16px;color:#d4af37;">§</span>' + item;
+    list.appendChild(li);
+  });
+
+  var overlay  = document.getElementById("ec-overlay");
+  var emailEl  = document.getElementById("ec-email");
+  var submitEl = document.getElementById("ec-submit");
+
+  /* -- Show after delay -- */
+  setTimeout(function() {
+    overlay.style.display = "flex";
+    emailEl.focus();
+  }, DELAY);
+
+  /* -- Close -- */
+  function close() {
+    overlay.style.display = "none";
+    localStorage.setItem(STORAGE_KEY, "1");
+  }
+  document.getElementById("ec-close").addEventListener("click", close);
+  overlay.addEventListener("click", function(e) { if (e.target === overlay) close(); });
+  document.addEventListener("keydown", function(e) { if (e.key === "Escape") close(); });
+
+  /* -- Hover on button -- */
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+  submitEl.addEventListener("mouseout",   function() { this.style.background = "#c8102e"; });
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+
+  /* -- Submit -- */
+  submitEl.addEventListener("click", function() {
+    var email = emailEl.value.trim();
+    if (!email || !email.includes("@")) {
+      emailEl.style.borderColor = "#c8102e";
+      emailEl.focus();
+      return;
+    }
+    emailEl.style.borderColor = "#d6cbbf";
+    submitEl.disabled    = true;
+    submitEl.textContent = "…";
+
+    fetch(API_BASE + "/api/signup", {
+      method:  "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email:      email,
+        site:       SITE,
+        language:   LANG,
+        source:     "newsletter_popup",
+        page_url:   window.location.href,
+        page_title: document.title,
+        district:   (document.querySelector("[data-district]") || {}).dataset && document.querySelector("[data-district]").dataset.district || null
+      })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(res) {
+      if (res.success) {
+        document.getElementById("ec-form-wrap").style.display = "none";
+        document.getElementById("ec-success").style.display   = "block";
+        localStorage.setItem(STORAGE_KEY, "1");
+        setTimeout(close, 4000);
+      } else {
+        submitEl.disabled    = false;
+        submitEl.textContent = copy.button;
+        alert(res.error || "Something went wrong. Please try again.");
+      }
+    })
+    .catch(function() {
+      submitEl.disabled    = false;
+      submitEl.textContent = copy.button;
+      alert("Network error. Please try again.");
+    });
+  });
+
+  emailEl.addEventListener("keydown", function(e) { if (e.key === "Enter") submitEl.click(); });
+})();
+</script>
+</body>
+</html>

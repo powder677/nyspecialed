@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
+   Our Mission | NY Special Ed
+  </title>
+<meta content="NY Special Ed exists to give New York parents the information, tools, and local resources they need to advocate effectively for their child's special education rights." name="description"/>
+<link href="https://www.newyorkspecialed.net/about/mission.html" rel="canonical"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="/styles/global.css" rel="stylesheet"/>
+<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
+<meta content="website" property="og:type"/><meta content="Our Mission | NY Special Ed" property="og:title"/><meta content="NY Special Ed exists to give New York parents the information, tools, and local resources they need to advocate effectively for their child's special education rights." property="og:description"/><meta content="https://www.newyorkspecialed.net/about/mission.html" property="og:url"/><meta content="summary_large_image" name="twitter:card"/><meta content="Our Mission | NY Special Ed" name="twitter:title"/><meta content="NY Special Ed exists to give New York parents the information, tools, and local resources they need to advocate effectively for their child's special education rights." name="twitter:description"/>
+    <meta property="og:image" content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" />
+    <meta name="twitter:image" content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" /></head>
+<body>
+<!-- ny-mission-v1 -->
+<header class="site-header">
+<!-- standard NY header here -->
+</header>
+<section class="page-hero-dark">
+<div class="container">
+<h1>
+     Our Mission
+    </h1>
+<p class="hero-sub">
+     Why we built this — and who we built it for.
+    </p>
+</div>
+</section>
+<main>
+<div class="container" style="max-width:760px; padding:48px 24px;">
+<div class="trust-anchor">
+<strong>
+      Hi, I'm a New York parent of a child with an IEP.
+     </strong>
+     When I watched the system fail my child, I realized how broken the CSE process is.
+      I built this resource to help parents like you get the services your child deserves. You are not alone.
+    </div>
+<hr class="divider" style="margin:8px 0 40px;"/>
+<div class="content-section">
+<h2>
+      Why This Site Exists
+     </h2>
+<p>
+      New York's special education system is complex, fragmented, and often hostile to the parents it's supposed to serve. Every district has a CSE. Every CSE has lawyers. Most parents walk in alone.
+     </p>
+<p>
+      NY Special Ed was built to change that balance — even a little. By giving parents clear, district-specific information about their rights under the IDEA and New York State's Part 200 regulations, we aim to level a playing field that has been tilted against families for too long.
+     </p>
+</div>
+<div class="content-section">
+<h2>
+      What We Do
+     </h2>
+<p>
+      We maintain independent resource pages for every significant school district in New York State. Each district page covers:
+     </p>
+<ul>
+<li>
+       How to request an evaluation and what happens when timelines are missed
+      </li>
+<li>
+       Your rights at CSE meetings — including the right to bring advocates and record proceedings
+      </li>
+<li>
+       Discipline protections under the IDEA, including Manifestation Determination Reviews
+      </li>
+<li>
+       How to request an Independent Educational Evaluation (IEE) at district expense
+      </li>
+<li>
+       Local attorneys, advocates, and evaluators who serve that community
+      </li>
+</ul>
+</div>
+<div class="content-section">
+<h2>
+      What We Are Not
+     </h2>
+<p>
+      We are not a government agency, law firm, or advocacy organization. Nothing on this site constitutes legal advice. We are an independent informational resource run by a New York parent.
+     </p>
+</div>
+<div class="content-section">
+<h2>
+      Our Commitment to Parents
+     </h2>
+<p>
+      We do not take money from school districts. We do not accept advertising from any party with financial interest in minimizing special education services. The only paid placements on this site are from private practitioners — attorneys, advocates, and evaluators — who serve families, not districts.
+     </p>
+<p>
+      Every resource we link to has been reviewed for relevance and accuracy. We update pages when laws or district policies change.
+     </p>
+</div>
+<div class="insight-box" style="margin-top:40px;">
+<div class="insight-icon">
+<i class="fas fa-envelope">
+</i>
+</div>
+<div class="insight-text">
+<h4>
+       Questions or corrections?
+      </h4>
+<p>
+       If you find an error or have information that would help other parents,
+       <a href="/contact/">
+        contact us here
+       </a>
+       .
+      </p>
+</div>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+<!-- standard NY footer here -->
+</footer>
+
+<!-- ============================================================
+  NY Special Ed — Premium Newsletter Popup
+  Drop this just before </body> on every page.
+  Replaces the generic blue popup with the site's Ink & Gold aesthetic.
+
+  To configure per page, change data-site and data-language on the script tag.
+  ============================================================ -->
+
+<!-- Popup HTML -->
+<div id="ec-overlay" style="display:none;position:fixed;inset:0;background:rgba(10,15,30,.72);z-index:9998;align-items:center;justify-content:center;backdrop-filter:blur(3px);">
+  <div id="ec-modal" style="max-width:420px;width:92%;position:relative;font-family:'DM Sans',sans-serif;border-radius:6px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.45);">
+
+    <!-- Header -->
+    <div id="ec-header" style="background:#002868;padding:28px 28px 22px;border-bottom:3px solid #d4af37;position:relative;">
+      <button id="ec-close" aria-label="Close"
+        style="position:absolute;top:14px;right:16px;background:none;border:none;color:rgba(255,255,255,.5);font-size:18px;cursor:pointer;line-height:1;padding:4px;">&#x2715;</button>
+      <div style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#d4af37;margin-bottom:10px;">
+        District Intelligence
+      </div>
+      <h2 id="ec-title"
+        style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:500;color:#f5f0e8;line-height:1.15;margin:0;">
+      </h2>
+    </div>
+
+    <!-- Body -->
+    <div style="background:#fdfaf5;padding:26px 28px 24px;">
+      <p id="ec-body" style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:#002868;line-height:1.45;margin:0 0 14px;"></p>
+
+      <div style="width:40px;height:2px;background:#d4af37;margin-bottom:18px;"></div>
+
+      <ul id="ec-checklist" style="list-style:none;margin:0 0 22px;padding:0;"></ul>
+
+      <!-- Form -->
+      <div id="ec-form-wrap">
+        <input id="ec-email" type="email" placeholder="your@email.com"
+          style="width:100%;box-sizing:border-box;padding:11px 14px;border:1.5px solid #d6cbbf;border-radius:4px;font-size:14px;font-family:'DM Sans',sans-serif;margin-bottom:10px;outline:none;background:#fff;color:#1a1410;"/>
+        <button id="ec-submit"
+          style="width:100%;padding:14px;background:#c8102e;color:#fff;border:none;border-radius:4px;font-weight:600;font-family:'DM Sans',sans-serif;font-size:15px;cursor:pointer;transition:background .2s;letter-spacing:.01em;">
+        </button>
+      </div>
+
+      <!-- Success state -->
+      <div id="ec-success" style="display:none;text-align:center;padding:12px 0 6px;">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:32px;color:#d4af37;margin-bottom:8px;">✦</div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#002868;margin:0 0 6px;">You're on the list.</p>
+        <p style="font-size:13px;color:#6b5f53;margin:0;line-height:1.5;">District updates and parent rights resources will arrive in your inbox.</p>
+      </div>
+
+      <p style="margin:14px 0 0;font-size:11px;color:#b0a799;text-align:center;letter-spacing:.02em;">
+        No spam &nbsp;·&nbsp; Unsubscribe any time
+      </p>
+    </div>
+  </div>
+</div>
+
+<script
+  id="ec-script"
+  data-site="new_york_special_ed"
+  data-language="en"
+  data-delay="10000"
+  data-api="https://email-capture-api-831148457361.us-central1.run.app">
+(function() {
+  var script   = document.getElementById("ec-script");
+  var API_BASE = script.getAttribute("data-api");
+  var SITE     = script.getAttribute("data-site")     || "new_york_special_ed";
+  var LANG     = script.getAttribute("data-language") || "en";
+  var DELAY    = parseInt(script.getAttribute("data-delay") || "10000", 10);
+
+  var COPY = {
+    en: {
+      title:   "Know Your District.<br><em style='color:#e5c158;font-style:italic;'>Know Your Rights.</em>",
+      body:    "Most NYC parents don't know what their district is required to provide — until it's too late.",
+      checks:  [
+        "District-specific CSE timelines & contacts",
+        "IEP rights and evaluation deadlines",
+        "What to say at your next meeting",
+        "Real outcomes from parents in your district"
+      ],
+      button:  "Send Me Free District Updates"
+    },
+    es: {
+      title:   "Conozca Su Distrito.<br><em style='color:#e5c158;font-style:italic;'>Sus Derechos.</em>",
+      body:    "La mayoría de los padres de NYC no saben lo que su distrito está obligado a proveer.",
+      checks:  [
+        "Plazos del CSE y contactos por distrito",
+        "Derechos del IEP y plazos de evaluación",
+        "Qué decir en su próxima reunión",
+        "Resultados reales de padres en su distrito"
+      ],
+      button:  "Recibir Actualizaciones Gratis"
+    }
+  };
+
+  var copy = COPY[LANG] || COPY.en;
+  var STORAGE_KEY = "ec_dismissed_" + SITE + "_" + LANG;
+  if (localStorage.getItem(STORAGE_KEY)) return;
+
+  /* -- Inject copy -- */
+  document.getElementById("ec-title").innerHTML  = copy.title;
+  document.getElementById("ec-body").textContent = copy.body;
+  document.getElementById("ec-submit").textContent = copy.button;
+
+  var list = document.getElementById("ec-checklist");
+  copy.checks.forEach(function(item) {
+    var li = document.createElement("li");
+    li.style.cssText = "font-size:13px;color:#6b5f53;padding:5px 0 5px 20px;position:relative;";
+    li.innerHTML = '<span style="position:absolute;left:0;font-family:\'Cormorant Garamond\',serif;font-size:16px;color:#d4af37;">§</span>' + item;
+    list.appendChild(li);
+  });
+
+  var overlay  = document.getElementById("ec-overlay");
+  var emailEl  = document.getElementById("ec-email");
+  var submitEl = document.getElementById("ec-submit");
+
+  /* -- Show after delay -- */
+  setTimeout(function() {
+    overlay.style.display = "flex";
+    emailEl.focus();
+  }, DELAY);
+
+  /* -- Close -- */
+  function close() {
+    overlay.style.display = "none";
+    localStorage.setItem(STORAGE_KEY, "1");
+  }
+  document.getElementById("ec-close").addEventListener("click", close);
+  overlay.addEventListener("click", function(e) { if (e.target === overlay) close(); });
+  document.addEventListener("keydown", function(e) { if (e.key === "Escape") close(); });
+
+  /* -- Hover on button -- */
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+  submitEl.addEventListener("mouseout",   function() { this.style.background = "#c8102e"; });
+  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
+
+  /* -- Submit -- */
+  submitEl.addEventListener("click", function() {
+    var email = emailEl.value.trim();
+    if (!email || !email.includes("@")) {
+      emailEl.style.borderColor = "#c8102e";
+      emailEl.focus();
+      return;
+    }
+    emailEl.style.borderColor = "#d6cbbf";
+    submitEl.disabled    = true;
+    submitEl.textContent = "…";
+
+    fetch(API_BASE + "/api/signup", {
+      method:  "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email:      email,
+        site:       SITE,
+        language:   LANG,
+        source:     "newsletter_popup",
+        page_url:   window.location.href,
+        page_title: document.title,
+        district:   (document.querySelector("[data-district]") || {}).dataset && document.querySelector("[data-district]").dataset.district || null
+      })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(res) {
+      if (res.success) {
+        document.getElementById("ec-form-wrap").style.display = "none";
+        document.getElementById("ec-success").style.display   = "block";
+        localStorage.setItem(STORAGE_KEY, "1");
+        setTimeout(close, 4000);
+      } else {
+        submitEl.disabled    = false;
+        submitEl.textContent = copy.button;
+        alert(res.error || "Something went wrong. Please try again.");
+      }
+    })
+    .catch(function() {
+      submitEl.disabled    = false;
+      submitEl.textContent = copy.button;
+      alert("Network error. Please try again.");
+    });
+  });
+
+  emailEl.addEventListener("keydown", function(e) { if (e.key === "Enter") submitEl.click(); });
+})();
+</script>
+</body>
+</html>
