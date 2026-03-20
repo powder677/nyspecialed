@@ -22,8 +22,8 @@
    <link rel="alternate" hreflang="en" href="https://www.newyorkspecialed.net/guides/" />
    <link rel="alternate" hreflang="es" href="https://www.newyorkspecialed.net/es/guias/" />
 
-   <link href="/styles/global.css" rel="stylesheet" />
-   <link href="/styles/styles-nav-footer.css" rel="stylesheet" />
+   <link href="../../styles/global.css" rel="stylesheet" />
+   <link href="../../styles/styles-nav-footer.css" rel="stylesheet" />
 
    <style>
       /* ── TOKENS ── */
@@ -720,51 +720,55 @@
 
    <!-- Language banner -->
    <div class="lang-banner">
-      🇺🇸 ¿Prefiere leer en inglés? <a href="/guides/">Ver guías en inglés</a>
+      🇺🇸 ¿Prefiere leer en inglés? <a href="../../guides/">Ver guías en inglés</a>
    </div>
 
    <!-- ═══════════ NAV ═══════════ -->
    <header class="site-nav">
-  <div class="nav-inner">
+      <div class="nav-inner">
 
-    <!-- Wordmark -->
-    <a class="nav-wordmark" href="/">NY Special<span>Ed</span>.net</a>
+         <!-- Wordmark -->
+         <a class="nav-wordmark" href="../../">NY Special<span>Ed</span>.net</a>
 
-    <!-- Desktop links — flat, no dropdowns -->
-    <ul class="nav-links">
-      <li><a class="nav-link" href="/districts/">NYC Districts</a></li>
-      <li><a class="nav-link" href="/districts/upstate/">Upstate Districts</a></li>
-      <li><a class="nav-link" href="/guides/">Parent Guides</a></li>
-      <li><a class="nav-link es" href="/guides/es/index.html">&#127466;&#127480; En Espa&ntilde;ol</a></li>
-      <li><a class="nav-link" href="/tools/">Tools</a></li>
-      <li><a class="nav-link" href="/resources/">Resources</a></li>
-    </ul>
+         <!-- Desktop links — flat, no dropdowns -->
+         <ul class="nav-links">
+            <li><a class="nav-link" href="../../districts/">NYC Districts</a></li>
+            <li><a class="nav-link" href="../../districts/upstate/">Upstate Districts</a></li>
+            <li><a class="nav-link" href="../../guides/">Parent Guides</a></li>
+            <li><a class="nav-link es" href="index.html">🇪🇸 En Español</a></li>
+            <li><a class="nav-link" href="../../tools/">Tools</a></li>
+            <li><a class="nav-link" href="../../resources/">Resources</a></li>
+         </ul>
 
-    <!-- CTA button -->
-    <a class="nav-cta" href="/tools/">IEP Letter</a>
+         <!-- CTA button -->
+         <a class="nav-cta" href="../../tools/">IEP Letter</a>
 
-    <!-- Hamburger -->
-    <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Open menu">&#9776;</button>
-  </div>
+         <!-- Hamburger -->
+         <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Open menu">☰</button>
+      </div>
 
-  <!-- Mobile menu — same flat links -->
-  <div class="mobile-menu" id="mobileMenu">
-    <a href="/districts/">NYC Districts</a>
-    <a href="/districts/upstate/">Upstate Districts</a>
-    <a href="/guides/">Parent Guides</a>
-    <a class="es" href="/guides/es/index.html">&#127466;&#127480; En Espa&ntilde;ol</a>
-    <a href="/tools/">Tools</a>
-    <a href="/resources/">Resources</a>
-    <a class="cta-mobile" href="/tools/">IEP Letter &rarr;</a>
-  </div>
-</header>
-<script>
-(function(){
-  var t = document.getElementById('mobileToggle');
-  var m = document.getElementById('mobileMenu');
-  if(t && m){ t.addEventListener('click', function(){ m.classList.toggle('open'); }); }
-})();
-</script>
+      <!-- Mobile menu — same flat links -->
+      <div class="mobile-menu" id="mobileMenu">
+         <a href="../../districts/">NYC Districts</a>
+         <a href="../../districts/upstate/">Upstate Districts</a>
+         <a href="../../guides/">Parent Guides</a>
+         <a class="es" href="index.html">🇪🇸 En Español</a>
+         <a href="../../tools/">Tools</a>
+         <a href="../../resources/">Resources</a>
+         <a class="cta-mobile" href="../../tools/">IEP Letter →</a>
+      </div>
+   </header>
+   <script>
+      (function() {
+         var t = document.getElementById('mobileToggle');
+         var m = document.getElementById('mobileMenu');
+         if (t && m) {
+            t.addEventListener('click', function() {
+               m.classList.toggle('open');
+            });
+         }
+      })();
+   </script>
 
    <!-- ═══════════ HERO ═══════════ -->
    <header class="hero-section">
@@ -839,7 +843,7 @@
             </div>
             <div class="hub-grid">
 
-               <a class="hub-card featured" href="/es/guias/guia-reunion-cse/" data-cat="proceso-cse">
+               <a class="hub-card featured" href="guia-reunion-cse.html" data-cat="proceso-cse">
                   <i class="fas fa-star hub-icon"></i>
                   <div class="hub-card-tag">Comience aquí</div>
                   <h3>Guía de la Reunión CSE</h3>
@@ -850,7 +854,7 @@
                   </div>
                </a>
 
-               <a class="hub-card" href="/es/guias/guia-supervivencia-reunion-cse/" data-cat="proceso-cse">
+               <a class="hub-card" href="guia-supervivencia-reunion-cse.html" data-cat="proceso-cse">
                   <i class="fas fa-shield-alt hub-icon"></i>
                   <h3>Guía de Supervivencia para la Reunión CSE</h3>
                   <p>Quién debe estar en la sala, su lista de verificación previa a la reunión y las señales de alerta que todo padre debe conocer.</p>
@@ -860,7 +864,7 @@
                   </div>
                </a>
 
-               <a class="hub-card" href="/es/guias/que-es-una-reunion-cse/" data-cat="proceso-cse">
+               <a class="hub-card" href="que-es-una-reunion-cse.html" data-cat="proceso-cse">
                   <i class="fas fa-question-circle hub-icon"></i>
                   <h3>¿Qué Es una Reunión CSE?</h3>
                   <p>Explicación clara del significado de CSE, qué sucede en la reunión y por qué el IEP resultante es un contrato legalmente exigible.</p>
@@ -885,7 +889,7 @@
             </div>
             <div class="hub-grid">
 
-               <a class="hub-card" href="/es/guias/solicitud-evaluacion-ny/" data-cat="evaluaciones">
+               <a class="hub-card" href="solicitud-evaluacion-ny.html" data-cat="evaluaciones">
                   <i class="fas fa-file-signature hub-icon"></i>
                   <h3>Cómo Solicitar una Evaluación en NY</h3>
                   <p>Instrucciones paso a paso para iniciar el proceso de evaluación de 60 días, qué decir y cómo hacer que el distrito responda por escrito.</p>
@@ -895,7 +899,7 @@
                   </div>
                </a>
 
-               <a class="hub-card" href="/es/guias/evaluacion-educativa-independiente-iee/" data-cat="evaluaciones">
+               <a class="hub-card" href="evaluacion-educativa-independiente-iee.html" data-cat="evaluaciones">
                   <i class="fas fa-search hub-icon"></i>
                   <h3>Evaluación Educativa Independiente (IEE)</h3>
                   <p>Cuando la evaluación del distrito no es suficiente — cómo obtener una evaluación independiente pagada por el distrito y qué puede revelar.</p>
@@ -920,7 +924,7 @@
             </div>
             <div class="hub-grid">
 
-               <a class="hub-card" href="/es/guias/cpse-educacion-especial-preescolar/" data-cat="preescolar">
+               <a class="hub-card" href="cpse-educacion-especial-preescolar.html" data-cat="preescolar">
                   <i class="fas fa-school hub-icon"></i>
                   <h3>CPSE: Educación Especial Preescolar</h3>
                   <p>Cómo navegar el Comité de Educación Especial Preescolar — desde la referencia inicial hasta los servicios y los derechos de los padres en esta etapa.</p>
@@ -930,7 +934,7 @@
                   </div>
                </a>
 
-               <a class="hub-card" href="/es/guias/transicion-a-los-5-anos-cpse-a-cse/" data-cat="preescolar">
+               <a class="hub-card" href="transicion-a-los-5-anos-cpse-a-cse.html" data-cat="preescolar">
                   <i class="fas fa-exchange-alt hub-icon"></i>
                   <h3>La Transición a los 5 Años: del CPSE al CSE</h3>
                   <p>Por qué los servicios a menudo cambian al pasar al kindergarten, cómo proteger los servicios de su hijo y qué esperar en la reunión de "Cumple 5".</p>
@@ -955,7 +959,7 @@
             </div>
             <div class="hub-grid">
 
-               <a class="hub-card" href="/es/guias/casos-carter-ubicacion-privada/" data-cat="colocacion">
+               <a class="hub-card" href="casos-carter-ubicacion-privada.html" data-cat="colocacion">
                   <i class="fas fa-gavel hub-icon"></i>
                   <h3>Casos Carter: Colocación Privada</h3>
                   <p>Cuándo y cómo buscar que el distrito pague la matrícula de una escuela privada de educación especial cuando la escuela pública no puede satisfacer las necesidades de su hijo.</p>
@@ -965,7 +969,7 @@
                   </div>
                </a>
 
-               <a class="hub-card" href="/es/guias/casos-carter-ubicacion-unilateral/" data-cat="colocacion">
+               <a class="hub-card" href="casos-carter-ubicacion-unilateral.html" data-cat="colocacion">
                   <i class="fas fa-door-open hub-icon"></i>
                   <h3>Colocación Unilateral: La "Opción Nuclear"</h3>
                   <p>Qué hacer cuando la brecha entre lo que necesita su hijo y lo que ofrece la escuela pública es demasiado grande — y qué necesita probar para ganar el reembolso.</p>
@@ -990,7 +994,7 @@
             </div>
             <div class="hub-grid">
 
-               <a class="hub-card" href="/es/guias/educacion-especial-nyc-sbst-iesp-1-junio/" data-cat="nyc">
+               <a class="hub-card" href="educacion-especial-nyc-sbst-iesp-1-junio.html" data-cat="nyc">
                   <i class="fas fa-map-marker-alt hub-icon"></i>
                   <div class="nyc-badge">🏗 Solo NYC</div>
                   <h3>Educación Especial en NYC: SBST, IESP y el 1 de Junio</h3>
@@ -1016,7 +1020,7 @@
             </div>
             <div class="hub-grid">
 
-               <a class="hub-card featured" href="/es/guias/guia-defensa-para-padres/" data-cat="derechos">
+               <a class="hub-card featured" href="guia-defensa-para-padres.html" data-cat="derechos">
                   <i class="fas fa-hands-helping hub-icon"></i>
                   <div class="hub-card-tag">Guía Destacada</div>
                   <h3>Guía de Defensa para Padres</h3>
@@ -1027,7 +1031,7 @@
                   </div>
                </a>
 
-               <a class="hub-card" href="/es/guias/iep-bilingue-nueva-york/" data-cat="derechos">
+               <a class="hub-card" href="iep-bilingue-nueva-york.html" data-cat="derechos">
                   <i class="fas fa-language hub-icon"></i>
                   <h3>IEP Bilingüe y Derechos ELL en Nueva York</h3>
                   <p>Cómo asegurar evaluaciones en el idioma nativo de su hijo, apoyo bilingüe en el IEP y los derechos específicos para familias de habla hispana en NY.</p>
@@ -1037,7 +1041,7 @@
                   </div>
                </a>
 
-               <a class="hub-card" href="/es/guias/resolucion-disputas-ny/" data-cat="derechos">
+               <a class="hub-card" href="resolucion-disputas-ny.html" data-cat="derechos">
                   <i class="fas fa-handshake hub-icon"></i>
                   <h3>Resolución de Disputas en Nueva York</h3>
                   <p>Mediación, audiencias imparciales y quejas estatales — cómo usar cada opción cuando el distrito no cumple con lo prometido en el IEP de su hijo.</p>
@@ -1056,7 +1060,7 @@
       <div class="en-guides-banner">
          <div class="en-guides-inner">
             <p><strong>¿Busca las guías en inglés?</strong> Todas estas guías también están disponibles en inglés con información adicional y recursos complementarios.</p>
-            <a class="en-guides-link" href="/guides/">Ver Guías en Inglés →</a>
+            <a class="en-guides-link" href="../../guides/">Ver Guías en Inglés →</a>
          </div>
       </div>
 
@@ -1068,36 +1072,36 @@
          <div class="footer-brand">
             <h3>New York Special Ed<span>.net</span></h3>
             <p>Desmitificando el proceso del Comité de Educación Especial (CSE) de Nueva York. Proporcionamos a los padres datos locales, plantillas legales y herramientas de defensa necesarias para obtener los servicios adecuados en la Ciudad de Nueva York y el Estado de Nueva York.</p>
-            <div style="margin-top:20px;"><a href="/contact/" style="color:#D4AF37;font-weight:bold;text-decoration:none;">Ver Tienda de Recursos →</a></div>
+            <div style="margin-top:20px;"><a href="../../contact/" style="color:#D4AF37;font-weight:bold;text-decoration:none;">Ver Tienda de Recursos →</a></div>
          </div>
          <div class="footer-col">
             <h4>Guías en Español</h4>
             <ul class="footer-links">
-               <li><a href="/es/guias/guia-reunion-cse/">Guía de Reunión CSE</a></li>
-               <li><a href="/es/guias/solicitud-evaluacion-ny/">Solicitar una Evaluación</a></li>
-               <li><a href="/es/guias/resolucion-disputas-ny/">Proceso Debido y Quejas</a></li>
-               <li><a href="/es/guias/iep-bilingue-nueva-york/">Derechos Bilingüe / ELL</a></li>
-               <li><a href="/es/guias/educacion-especial-nyc-sbst-iesp-1-junio/">SBST, IESP y el 1 de Junio</a></li>
+               <li><a href="guia-reunion-cse.html">Guía de Reunión CSE</a></li>
+               <li><a href="solicitud-evaluacion-ny.html">Solicitar una Evaluación</a></li>
+               <li><a href="resolucion-disputas-ny.html">Proceso Debido y Quejas</a></li>
+               <li><a href="iep-bilingue-nueva-york.html">Derechos Bilingüe / ELL</a></li>
+               <li><a href="educacion-especial-nyc-sbst-iesp-1-junio.html">SBST, IESP y el 1 de Junio</a></li>
             </ul>
          </div>
          <div class="footer-col">
             <h4>Distritos Populares</h4>
             <ul class="footer-links">
-               <li><a href="/districts/nyc-district-02-upper-east-side/">NYC Distrito 2 (Manhattan)</a></li>
-               <li><a href="/districts/nyc-district-15-park-slope/">NYC Distrito 15 (Brooklyn)</a></li>
-               <li><a href="/districts/nyc-district-06-washington-heights/">NYC Distrito 6 (Washington Hts.)</a></li>
-               <li><a href="/districts/nyc-district-30-astoria/">NYC Distrito 30 (Queens)</a></li>
-               <li><a href="/districts/brentwood-ufsd/">Brentwood UFSD (Long Island)</a></li>
+               <li><a href="../../districts/nyc-district-02-upper-east-side/">NYC Distrito 2 (Manhattan)</a></li>
+               <li><a href="../../districts/nyc-district-15-park-slope/">NYC Distrito 15 (Brooklyn)</a></li>
+               <li><a href="../../districts/nyc-district-06-washington-heights/">NYC Distrito 6 (Washington Hts.)</a></li>
+               <li><a href="../../districts/nyc-district-30-astoria/">NYC Distrito 30 (Queens)</a></li>
+               <li><a href="../../districts/brentwood-ufsd/">Brentwood UFSD (Long Island)</a></li>
             </ul>
          </div>
          <div class="footer-col">
             <h4>Recursos</h4>
             <ul class="footer-links">
-               <li><a href="/about/">Acerca de Nosotros</a></li>
-               <li><a href="/contact/">Soporte de Contacto</a></li>
-               <li><a href="/privacy-policy/">Política de Privacidad</a></li>
-               <li><a href="/sitemap.xml">Mapa del Sitio</a></li>
-               <li><a href="/guides/">Guías en Inglés</a></li>
+               <li><a href="../../about/">Acerca de Nosotros</a></li>
+               <li><a href="../../contact/">Soporte de Contacto</a></li>
+               <li><a href="../../privacy-policy/">Política de Privacidad</a></li>
+               <li><a href="../../sitemap.xml">Mapa del Sitio</a></li>
+               <li><a href="../../guides/">Guías en Inglés</a></li>
             </ul>
          </div>
       </div>
