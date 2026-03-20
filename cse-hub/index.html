@@ -36,235 +36,29 @@
    </script>
 
    <!-- __new-nav-css-start__ -->
-   <style>
-      .site-nav {
-         position: sticky;
-         top: 0;
-         z-index: 100;
-         background: #fff;
-         border-bottom: 1px solid #e2e8f0;
-      }
-
-      .nav-inner {
-         max-width: 1160px;
-         margin: 0 auto;
-         padding: 0 24px;
-         display: flex;
-         align-items: center;
-         justify-content: space-between;
-         height: 58px;
-         gap: 32px;
-      }
-
-      .nav-wordmark {
-         font-family: 'Cormorant Garamond', serif;
-         font-size: 1.18rem;
-         font-weight: 600;
-         color: #002868;
-         text-decoration: none;
-         white-space: nowrap;
-         letter-spacing: .01em;
-         flex-shrink: 0;
-      }
-
-      .nav-wordmark span {
-         color: #c8102e;
-      }
-
-      .nav-links {
-         display: flex;
-         list-style: none;
-         align-items: center;
-         gap: 2px;
-         flex: 1;
-         justify-content: center;
-      }
-
-      .nav-item {
-         position: relative;
-      }
-
-      .nav-link {
-         display: block;
-         padding: 8px 13px;
-         font-size: .84rem;
-         font-weight: 500;
-         color: #374151;
-         text-decoration: none;
-         border-radius: 5px;
-         transition: color .15s, background .15s;
-         white-space: nowrap;
-         cursor: pointer;
-         background: none;
-         border: none;
-         font-family: inherit;
-      }
-
-      .nav-link:hover {
-         color: #002868;
-         background: #f1f5f9;
-      }
-
-      .nav-dropdown {
-         display: none;
-         position: absolute;
-         top: calc(100% + 8px);
-         left: 0;
-         background: #fff;
-         border: 1px solid #e2e8f0;
-         border-radius: 10px;
-         box-shadow: 0 12px 32px rgba(0, 0, 0, .10);
-         padding: 10px 0;
-         min-width: 220px;
-         z-index: 200;
-      }
-
-      .nav-dropdown.wide {
-         min-width: 540px;
-         display: none;
-         grid-template-columns: 1fr 1fr 1fr;
-         padding: 20px;
-         gap: 0 24px;
-      }
-
-      .nav-item:hover .nav-dropdown {
-         display: block;
-      }
-
-      .nav-item:hover .nav-dropdown.wide {
-         display: grid;
-      }
-
-      .nav-dropdown a {
-         display: block;
-         padding: 8px 18px;
-         font-size: .83rem;
-         color: #374151;
-         text-decoration: none;
-         transition: background .12s, color .12s;
-      }
-
-      .nav-dropdown a:hover {
-         background: #f1f5f9;
-         color: #002868;
-      }
-
-      .dropdown-section h4 {
-         font-size: .7rem;
-         font-weight: 700;
-         letter-spacing: .1em;
-         text-transform: uppercase;
-         color: #94a3b8;
-         padding: 6px 18px 4px;
-         margin-bottom: 2px;
-      }
-
-      .dropdown-section.wide-col h4 {
-         padding: 0 0 8px;
-         margin-bottom: 4px;
-         border-bottom: 1px solid #f1f5f9;
-      }
-
-      .dropdown-section.wide-col a {
-         padding: 6px 0;
-      }
-
-      .nav-es-badge {
-         font-size: .83rem;
-         font-weight: 600;
-         color: #c8102e;
-         cursor: pointer;
-         background: none;
-         border: none;
-         font-family: inherit;
-         padding: 8px 13px;
-         border-radius: 5px;
-         transition: background .15s;
-      }
-
-      .nav-item:hover .nav-es-badge {
-         background: #fff5f5;
-      }
-
-      .nav-cta {
-         display: inline-block;
-         padding: 8px 16px;
-         background: #002868;
-         color: #fff !important;
-         font-size: .83rem;
-         font-weight: 600;
-         border-radius: 6px;
-         text-decoration: none;
-         transition: background .15s;
-         white-space: nowrap;
-         flex-shrink: 0;
-      }
-
-      .nav-cta:hover {
-         background: #001a44;
-      }
-
-      .nav-mobile-toggle {
-         display: none;
-         background: none;
-         border: 1px solid #e2e8f0;
-         border-radius: 6px;
-         padding: 6px 10px;
-         cursor: pointer;
-         font-size: 1.1rem;
-         color: #374151;
-      }
-
-      .mobile-menu {
-         display: none;
-         background: #fff;
-         border-top: 1px solid #e2e8f0;
-         padding: 16px 24px 20px;
-      }
-
-      .mobile-menu a {
-         display: block;
-         padding: 10px 0;
-         font-size: .9rem;
-         color: #374151;
-         text-decoration: none;
-         border-bottom: 1px solid #f1f5f9;
-      }
-
-      .mobile-menu a:last-child {
-         border-bottom: none;
-      }
-
-      .mobile-section-head {
-         font-size: .7rem;
-         font-weight: 700;
-         letter-spacing: .1em;
-         text-transform: uppercase;
-         color: #94a3b8;
-         padding: 14px 0 4px;
-      }
-
-      @media(max-width:900px) {
-         .nav-links {
-            display: none;
-         }
-
-         .nav-cta {
-            display: none;
-         }
-
-         .nav-mobile-toggle {
-            display: block;
-         }
-      }
-
-      @media(max-width:900px) {
-         .mobile-menu.open {
-            display: block;
-         }
-      }
-   </style>
-   <!-- __new-nav-css-end__ -->
+<style>
+/* ── FLAT NAV — no dropdowns ── */
+.site-nav{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid #e2e8f0;}
+.nav-inner{max-width:1160px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:58px;gap:24px;}
+.nav-wordmark{font-family:'Cormorant Garamond',serif;font-size:1.18rem;font-weight:600;color:#002868;text-decoration:none;white-space:nowrap;letter-spacing:.01em;flex-shrink:0;}
+.nav-wordmark span{color:#c8102e;}
+.nav-links{display:flex;list-style:none;align-items:center;gap:2px;flex:1;justify-content:center;margin:0;padding:0;}
+.nav-link{display:block;padding:8px 12px;font-size:.84rem;font-weight:500;color:#374151;text-decoration:none;border-radius:5px;transition:color .15s,background .15s;white-space:nowrap;}
+.nav-link:hover{color:#002868;background:#f1f5f9;}
+.nav-link.es{color:#c8102e;font-weight:600;}
+.nav-link.es:hover{background:#fff5f5;}
+.nav-cta{display:inline-block;padding:8px 16px;background:#c8102e;color:#fff!important;font-size:.83rem;font-weight:600;border-radius:6px;text-decoration:none;transition:background .15s;white-space:nowrap;flex-shrink:0;}
+.nav-cta:hover{background:#a50b24;}
+.nav-mobile-toggle{display:none;background:none;border:1px solid #e2e8f0;border-radius:6px;padding:6px 10px;cursor:pointer;font-size:1.1rem;color:#374151;line-height:1;}
+.mobile-menu{display:none;background:#fff;border-top:1px solid #e2e8f0;padding:12px 24px 20px;}
+.mobile-menu a{display:block;padding:11px 0;font-size:.9rem;color:#374151;text-decoration:none;border-bottom:1px solid #f1f5f9;font-weight:500;}
+.mobile-menu a:last-child{border-bottom:none;}
+.mobile-menu a.es{color:#c8102e;font-weight:600;}
+.mobile-menu a.cta-mobile{margin-top:10px;display:block;text-align:center;padding:12px;background:#c8102e;color:#fff!important;border-radius:6px;font-weight:700;font-size:.9rem;text-decoration:none;border:none;}
+@media(max-width:860px){.nav-links{display:none;}.nav-cta{display:none;}.nav-mobile-toggle{display:block;}}
+@media(max-width:860px){.mobile-menu.open{display:block;}}
+</style>
+<!-- __new-nav-css-end__ -->
 
    <style>
       /* ── PAGE LAYOUT ── */
@@ -708,429 +502,46 @@
 
    <!-- ══ NAV ══ -->
    <header class="site-nav">
-      <div class="nav-inner">
-         <a class="nav-wordmark" href="/">NY Special<span>Ed</span>.net</a>
-         <ul class="nav-links">
-            <li class="nav-item">
-               <button class="nav-link">NYC Districts ▼</button>
-               <div class="nav-dropdown wide">
-                  <div class="dropdown-section wide-col">
-                     <h4>Manhattan</h4>
-                     <a href="/districts/nyc-district-01-lower-east-side/">D1 · Lower East Side</a>
-                     <a href="/districts/nyc-district-02-upper-east-side/">D2 · Upper East Side</a>
-                     <a href="/districts/nyc-district-03-upper-west-side/">D3 · Upper West Side</a>
-                     <a href="/districts/nyc-district-04-east-harlem/">D4 · East Harlem</a>
-                     <a href="/districts/nyc-district-05-central-harlem/">D5 · Central Harlem</a>
-                     <a href="/districts/nyc-district-06-washington-heights/">D6 · Washington Heights</a>
-                  </div>
-                  <div class="dropdown-section wide-col">
-                     <h4>Brooklyn & Queens</h4>
-                     <a href="/districts/nyc-district-13-brooklyn-heights/">D13 · Brooklyn Heights</a>
-                     <a href="/districts/nyc-district-15-park-slope/">D15 · Park Slope</a>
-                     <a href="/districts/nyc-district-20-bay-ridge/">D20 · Bay Ridge</a>
-                     <a href="/districts/nyc-district-26-bayside/">D26 · Bayside</a>
-                     <a href="/districts/nyc-district-30-astoria/">D30 · Astoria / LIC</a>
-                     <a href="/districts/nyc-district-75/" style="font-weight:600;color:#002868;">D75 · Citywide Programs</a>
-                  </div>
-                  <div class="dropdown-section wide-col">
-                     <h4>Bronx & Staten Island</h4>
-                     <a href="/districts/nyc-district-07-south-bronx/">D7 · South Bronx</a>
-                     <a href="/districts/nyc-district-09-grand-concourse/">D9 · Grand Concourse</a>
-                     <a href="/districts/nyc-district-10-riverdale/">D10 · Riverdale</a>
-                     <a href="/districts/nyc-district-12-soundview/">D12 · Soundview</a>
-                     <a href="/districts/nyc-district-31-staten-island/">D31 · Staten Island</a>
-                     <a href="/districts/" style="font-weight:600;color:#002868;">View All 32 Districts →</a>
-                  </div>
-               </div>
-            </li>
-            <li class="nav-item">
-               <button class="nav-link">Upstate & LI ▼</button>
-               <div class="nav-dropdown">
-                  <div class="dropdown-section">
-                     <h4>Big 5 Cities</h4>
-                     <a href="/districts/buffalo-city-sd/">Buffalo City SD</a>
-                     <a href="/districts/rochester-city-sd/">Rochester City SD</a>
-                     <a href="/districts/syracuse-city-sd/">Syracuse City SD</a>
-                     <a href="/districts/yonkers-city-sd/">Yonkers City SD</a>
-                     <a href="/districts/albany-city-sd/">Albany City SD</a>
-                  </div>
-                  <div class="dropdown-section">
-                     <h4>Long Island</h4>
-                     <a href="/districts/sachem-csd/">Sachem CSD</a>
-                     <a href="/districts/brentwood-ufsd/">Brentwood UFSD</a>
-                     <a href="/districts/hempstead-ufsd/">Hempstead UFSD</a>
-                  </div>
-               </div>
-            </li>
-            <li class="nav-item">
-               <button class="nav-link" style="color:#002868;font-weight:600;">Parent Guides ▼</button>
-               <div class="nav-dropdown">
-                  <div class="dropdown-section">
-                     <a href="/guides/cse-meeting-guide/" style="font-weight:600;color:#002868;">CSE Meeting Guide</a>
-                     <a href="/guides/evaluation-request-ny/">Requesting an Evaluation</a>
-                     <a href="/guides/cpse-preschool-special-education/">CPSE · Preschool Guide</a>
-                     <a href="/guides/carter-cases-private-placement/">Private Placement (Carter Cases)</a>
-                     <a href="/guides/bilingual-iep-new-york/">Bilingual IEP Rights</a>
-                     <a href="/guides/dispute-resolution-ny/">Due Process & Complaints</a>
-                  </div>
-               </div>
-            </li>
-            <li class="nav-item">
-               <button class="nav-link nav-es-badge">🇪🇸 En Español ▼</button>
-               <div class="nav-dropdown">
-                  <div class="dropdown-section">
-                     <h4>Herramientas en Español</h4>
-                     <a href="/es/distritos/">Directorio de Distritos</a>
-                     <a href="/es/guias/reuni%C3%B3n-cse/">Guía de Reunión CSE</a>
-                     <a href="/es/guias/solicitar-evaluacion/">Solicitar una Evaluación</a>
-                     <a href="/tools/">Generador de Carta IEP →</a>
-                  </div>
-               </div>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="/tools/">Free Tools</a></li>
-         </ul>
-         <a class="nav-cta" href="/contact/">Get the Toolkit</a>
-         <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Open menu">☰</button>
-      </div>
-      <div class="mobile-menu" id="mobileMenu">
-         <div class="mobile-section-head">Parent Guides</div>
-         <a href="/guides/cse-meeting-guide/" style="font-weight:600;color:#002868;">CSE Meeting Guide</a>
-         <a href="/guides/evaluation-request-ny/">Requesting an Evaluation</a>
-         <a href="/guides/cpse-preschool-special-education/">CPSE Preschool Guide</a>
-         <a href="/guides/carter-cases-private-placement/">Carter Cases</a>
-         <div class="mobile-section-head">NYC Districts</div>
-         <a href="/districts/nyc-district-75/">D75 · Citywide Programs</a>
-         <a href="/districts/">View All Districts →</a>
-         <div class="mobile-section-head">🇪🇸 En Español</div>
-         <a href="/es/guias/reuni%C3%B3n-cse/">Guía de Reunión CSE</a>
-         <a href="/tools/">Free Tools</a>
-         <a href="/contact/" style="font-weight:600;color:#002868;">Get the Toolkit →</a>
-      </div>
-   </header>
+  <div class="nav-inner">
 
-   <!-- ══ MAIN CONTENT ══ -->
-   <main class="page-wrap">
+    <!-- Wordmark -->
+    <a class="nav-wordmark" href="/">NY Special<span>Ed</span>.net</a>
 
-      <!-- Breadcrumb -->
-      <nav class="breadcrumb" aria-label="Breadcrumb">
-         <a href="/">Home</a><span>›</span>
-         <a href="/guides/">Parent Guides</a><span>›</span>
-         CSE Meeting Guide
-      </nav>
+    <!-- Desktop links — flat, no dropdowns -->
+    <ul class="nav-links">
+      <li><a class="nav-link" href="/districts/">NYC Districts</a></li>
+      <li><a class="nav-link" href="/districts/upstate/">Upstate Districts</a></li>
+      <li><a class="nav-link" href="/guides/">Parent Guides</a></li>
+      <li><a class="nav-link es" href="/guides/es/index.html">&#127466;&#127480; En Espa&ntilde;ol</a></li>
+      <li><a class="nav-link" href="/tools/">Tools</a></li>
+      <li><a class="nav-link" href="/resources/">Resources</a></li>
+    </ul>
 
-      <!-- Page Header -->
-      <div class="guide-header">
-         <div class="guide-eyebrow">New York State · Parent Guides</div>
-         <h1>The CSE Meeting: A Complete Guide for NY Parents</h1>
-         <p class="guide-intro">
-            Your child's CSE meeting is one of the most consequential meetings you'll ever sit in. This guide explains what it is, who must be in the room, how to prepare, what your rights are, and the red flags that tell you something is wrong — all in plain language.
-         </p>
-      </div>
+    <!-- CTA button -->
+    <a class="nav-cta" href="/tools/">IEP Letter</a>
 
-      <!-- Table of Contents -->
-      <nav class="toc" aria-label="Table of contents">
-         <div class="toc-title">On This Page</div>
-         <ol>
-            <li><a href="#what-is-cse">What is a CSE meeting?</a></li>
-            <li><a href="#who-attends">Who must attend</a></li>
-            <li><a href="#prepare">How to prepare</a></li>
-            <li><a href="#your-rights">Your rights in the room</a></li>
-            <li><a href="#iep-sections">Reading the IEP document</a></li>
-            <li><a href="#after">After the meeting: 10-day rule</a></li>
-            <li><a href="#red-flags">Red flags checklist</a></li>
-            <li><a href="#nyc">NYC-specific: SBST vs. regional CSE</a></li>
-         </ol>
-      </nav>
+    <!-- Hamburger -->
+    <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Open menu">&#9776;</button>
+  </div>
 
-      <div class="guide-body">
-
-         <!-- ══ SECTION 1 ══ -->
-         <h2 id="what-is-cse">What is a CSE meeting?</h2>
-
-         <p>CSE stands for <strong>Committee on Special Education</strong>. It's a team — made up of you, school staff, and specialists — that meets to decide what special education services your child is entitled to receive under New York State law.</p>
-
-         <p>The result of a CSE meeting is your child's <strong>Individualized Education Program (IEP)</strong> — a legally binding document that spells out exactly what services the district must provide: the type and frequency of instruction, therapies like speech or OT, testing accommodations, and classroom supports. Once the IEP is signed, the district is legally obligated to deliver everything in it.</p>
-
-         <p>CSE meetings happen at several points:</p>
-
-         <ul class="card-list">
-            <li><strong>Initial eligibility meeting</strong> After the district finishes evaluating your child, the CSE meets to decide if they qualify for special education services under one of the 13 disability classifications.</li>
-            <li><strong>Annual review</strong> Every year, the CSE must meet to review your child's progress and write a new IEP for the coming school year.</li>
-            <li><strong>Triennial reevaluation</strong> Every three years, the district must conduct updated evaluations and reconvene the full CSE.</li>
-            <li><strong>Amendment meeting</strong> Any time during the year that you or the school believes the IEP needs to change — for example, if your child is not making progress or their needs have shifted.</li>
-         </ul>
-
-         <div class="callout callout-blue">
-            <div class="callout-title">CSE vs. CPSE</div>
-            The CSE handles children ages 5 through 21 (school-age). If your child is under 5, they fall under the <strong>Committee on Preschool Special Education (CPSE)</strong>. The "Turning 5" transition from CPSE to CSE is a separate process with its own timeline and is often where services get reduced — <a href="/guides/cpse-preschool-special-education/">see our CPSE guide</a> for more on that transition.
-         </div>
-
-         <!-- ══ SECTION 2 ══ -->
-         <h2 id="who-attends">Who must attend the CSE meeting</h2>
-
-         <p>New York State law (8 NYCRR § 200.3) is very specific about who must be at the table. An improperly staffed meeting can make the resulting IEP legally invalid — so it's worth knowing this list and checking it before you walk in the door.</p>
-
-         <table class="data-table">
-            <thead>
-               <tr>
-                  <th>Member</th>
-                  <th>Required?</th>
-                  <th>Their role</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td><strong>You (the parent)</strong></td>
-                  <td class="required">Required</td>
-                  <td>You are an equal member of this team — not a guest. Your observations about your child carry legal weight.</td>
-               </tr>
-               <tr>
-                  <td><strong>District Representative</strong></td>
-                  <td class="required">Required</td>
-                  <td>Must have authority to commit district money and resources. If this person can't say yes to services on the spot, that's a problem.</td>
-               </tr>
-               <tr>
-                  <td><strong>Special Education Teacher</strong></td>
-                  <td class="required">Required</td>
-                  <td>Advises on instruction methods, modifications, and what the child needs to access learning.</td>
-               </tr>
-               <tr>
-                  <td><strong>General Education Teacher</strong></td>
-                  <td class="required">Required if child is (or may be) in gen-ed</td>
-                  <td>Explains what the mainstream classroom demands and what supports would realistically work there.</td>
-               </tr>
-               <tr>
-                  <td><strong>School Psychologist</strong></td>
-                  <td class="required">Required for initial & triennial meetings</td>
-                  <td>Interprets psychological and academic testing; translates scores into educational recommendations.</td>
-               </tr>
-               <tr>
-                  <td><strong>Someone who can interpret evaluations</strong></td>
-                  <td class="required">Required</td>
-                  <td>Often the psychologist fills this role — someone must explain what the test results actually mean for your child's learning.</td>
-               </tr>
-               <tr>
-                  <td><strong>The student</strong></td>
-                  <td class="required">Required at age 15+ for transition planning</td>
-                  <td>Legally required once transition services are being discussed. You can invite your child at any age if helpful.</td>
-               </tr>
-               <tr>
-                  <td><strong>Additional Parent Member</strong></td>
-                  <td class="conditional">Conditional</td>
-                  <td>A parent of another child with a disability, there to support you. Must be requested in writing at least 72 hours before the meeting. You can also decline this role if you prefer privacy.</td>
-               </tr>
-               <tr>
-                  <td><strong>School Physician</strong></td>
-                  <td class="conditional">Conditional</td>
-                  <td>Only required if you or another member formally requests their attendance 72 hours in advance.</td>
-               </tr>
-            </tbody>
-         </table>
-
-         <div class="callout callout-gold">
-            <div class="callout-title">On member excusals</div>
-            Districts frequently ask to excuse required members due to scheduling conflicts. This is only legal if you agree <em>in writing</em>, and the excused member must submit written input on the IEP at least <strong>5 calendar days before the meeting</strong>. Never agree to excuse the psychologist or special education teacher verbally — get it in writing and review their input before you walk in.
-         </div>
-
-         <!-- ══ SECTION 3 ══ -->
-         <h2 id="prepare">How to prepare for your CSE meeting</h2>
-
-         <p>The families who get the most from CSE meetings are the ones who show up prepared. Here's what to do in the two weeks before your meeting.</p>
-
-         <ul class="card-list checklist">
-            <li><strong>Request documents 5 business days before the meeting.</strong> You have a legal right to all evaluations, reports, and the draft IEP at least 5 school days before the meeting. Send a written request (email is fine) to the CSE Chairperson. Don't let the district hand you a stack of papers at the table and ask you to decide on the spot.</li>
-            <li><strong>Review last year's goals and progress reports.</strong> Pull out the current IEP and check which annual goals your child actually met. If goals were consistently missed, you need to ask at the meeting: why didn't the current approach work, and what is specifically changing this year?</li>
-            <li><strong>Write a Parent Concerns Statement.</strong> A one-page summary of your observations — your child's strengths, struggles, what you're seeing at home, what you want the school year to look like. Submit it to the Chairperson before the meeting. It goes in the official record and forces the committee to address your priorities.</li>
-            <li><strong>Bring any private evaluations.</strong> Reports from outside neuropsychologists, therapists, or tutors must be considered by the CSE. They are not required to follow every recommendation, but they can't ignore the data.</li>
-            <li><strong>Bring a support person.</strong> A friend, family member, advocate, or attorney can sit with you — to take notes, offer a second perspective, and keep the meeting from feeling one-sided.</li>
-            <li><strong>Know your right to an IEE.</strong> If you disagree with the district's evaluations, you can request an <a href="/guides/evaluation-request-ny/">Independent Educational Evaluation (IEE)</a> at the district's expense. The district either funds it or files for a hearing to defend their own evaluation.</li>
-         </ul>
-
-         <!-- INLINE CTA -->
-         <div class="inline-cta">
-            <div class="inline-cta-text">
-               <h3>Don't know what to write to the CSE?</h3>
-               <p>Our AI Letter Writer generates a custom, legally-grounded letter for your specific situation in minutes.</p>
-            </div>
-            <a href="/tools/">Open Letter Writer →</a>
-         </div>
-
-         <!-- ══ SECTION 4 ══ -->
-         <h2 id="your-rights">Your rights during the meeting</h2>
-
-         <p>You are an equal member of this committee. That phrase appears in the statute for a reason — use it. Here are the specific rights you need to know before you sit down.</p>
-
-         <ul class="card-list">
-            <li><strong>Right to a language interpreter.</strong> If English is not your primary language, the district must provide interpretation services. Request this in advance when you confirm the meeting.</li>
-            <li><strong>Right to audio record the meeting.</strong> In New York State, you can record the CSE meeting — but you must notify the district in writing at least 24 hours beforehand. A recording is your most reliable protection if there's a dispute later about what was agreed.</li>
-            <li><strong>Right to question every recommendation.</strong> Nothing in the IEP should be presented as non-negotiable. Ask why. Ask what alternatives were considered. Ask for the data behind every service frequency and placement recommendation.</li>
-            <li><strong>Right to disagree in writing.</strong> If you don't agree with what the IEP says, you can note your specific objections in writing. Your dissent becomes part of the official record and preserves your right to challenge the IEP later.</li>
-            <li><strong>Right to adjourn.</strong> If you feel rushed, overwhelmed, or ambushed with new information, stop the meeting. You have the right to request an adjournment to review materials and consult with an advocate or attorney. Use it.</li>
-            <li><strong>You do not have to sign the IEP that day.</strong> Take the document home. Read it carefully. A parent who signs the same day rarely has time to catch what's missing.</li>
-         </ul>
-
-         <!-- ══ SECTION 5 ══ -->
-         <h2 id="iep-sections">Reading the IEP document</h2>
-
-         <p>The IEP can run 15–30 pages. Here are the sections that matter most and what to look for in each one.</p>
-
-         <ul class="card-list">
-            <li>
-               <strong>Present Levels of Academic Achievement and Functional Performance (PLAAFP)</strong>
-               This is the foundation of the entire IEP — a description of where your child is right now. Every goal and service recommendation should flow from this section. Watch for: vague language ("struggles with reading"), missing data, or a PLAAFP that hasn't changed from last year despite your child's growth.
-            </li>
-            <li>
-               <strong>Annual Goals</strong>
-               Goals must be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound. A goal like "will improve reading skills" is not a goal — it has no baseline, no target, and no way to measure progress. Push for goals that name a specific skill, a measurable standard (e.g., "with 80% accuracy across 3 consecutive trials"), and a method of measurement.
-            </li>
-            <li>
-               <strong>Special Education Services</strong>
-               The exact type of instruction (resource room, ICT, self-contained), how many minutes per week, and who delivers it. Check that the frequency actually matches what you discussed in the meeting — drafts are sometimes written before the meeting and don't reflect what was agreed.
-            </li>
-            <li>
-               <strong>Related Services</strong>
-               Speech, OT, PT, counseling — each one lists the frequency and duration. "1x30 per week" means once per week for 30 minutes. Make sure this matches what your child's private providers recommend if you have outside evaluations.
-            </li>
-            <li>
-               <strong>Accommodations vs. Modifications</strong>
-               These are fundamentally different. <em>Accommodations</em> change how your child learns (extended time, text-to-speech, preferential seating) without changing what they're expected to master. <em>Modifications</em> change the academic standard itself (fewer questions, lower-grade materials). Make sure the IEP clearly separates these and that modifications are only used when genuinely necessary.
-            </li>
-            <li>
-               <strong>Least Restrictive Environment (LRE) Justification</strong>
-               If the CSE recommends removing your child from a general education classroom, that decision requires a written justification explaining why less restrictive options were considered and found insufficient. If this section is blank or generic, challenge it.
-            </li>
-            <li>
-               <strong>Transition Plan (age 15+)</strong>
-               For students 15 and older, the IEP must include measurable post-secondary goals for employment, education or training, and independent living. These goals must reflect your child's actual interests and be supported by vocational assessments — not be generic placeholders.
-            </li>
-         </ul>
-
-         <!-- ══ SECTION 6 ══ -->
-         <h2 id="after">After the meeting: the 10-day rule</h2>
-
-         <p>Once the IEP is finalized, the district must begin implementing all services within <strong>10 school days</strong>. Not 10 business days, not when it's convenient — 10 school days.</p>
-
-         <p>Every teacher and service provider who works with your child must be given a copy of the IEP and told specifically what their responsibilities are. If your child's speech therapist tells you in October they've never seen the IEP, that's a compliance violation.</p>
-
-         <p>What to do if services don't start on time:</p>
-
-         <ul class="card-list">
-            <li><strong>Document it.</strong> Send an email to the CSE Chairperson noting the date services were supposed to start and asking for a written update on the delay. Emails create a paper trail.</li>
-            <li><strong>File a state complaint.</strong> If the district is in clear violation of the IEP's timelines or service delivery, you can file a complaint directly with NYSED. NYSED investigates and can order the district to take corrective action.</li>
-            <li><strong>Request compensatory services.</strong> If your child missed weeks of speech or OT due to the district's failure to implement the IEP, you may be entitled to make-up sessions — called compensatory education — as a remedy.</li>
-         </ul>
-
-         <!-- ══ SECTION 7 ══ -->
-         <h2 id="red-flags">Red flags: signs your meeting is off track</h2>
-
-         <p>These situations don't always mean the district is acting in bad faith — but each one is a signal to slow down, ask questions, and document what's happening.</p>
-
-         <ul class="card-list redflag">
-            <li><strong>The IEP was clearly written before the meeting.</strong> If the document lands in front of you fully completed before anyone has spoken, meaningful participation has already been bypassed. This is a procedural violation under IDEA.</li>
-            <li><strong>The meeting is over in under 20 minutes.</strong> There is no legal time minimum, but a meeting covering evaluations, goals, placement, and services for a child with complex needs cannot be done in 15 minutes. Speed is a sign the outcome was predetermined.</li>
-            <li><strong>You weren't given documents in advance.</strong> If you're seeing evaluations for the first time at the table, request an adjournment immediately. You cannot meaningfully participate in a meeting about data you haven't had time to read.</li>
-            <li><strong>Someone is pressuring you to sign.</strong> "We just need your signature to get services started" is not a reason to sign a document you haven't fully reviewed. Signing the IEP starts the district's implementation clock — but you have the right to take it home first.</li>
-            <li><strong>The Parent Member is absent with no explanation.</strong> If you requested a Parent Member and they simply didn't show up, ask the Chairperson to document the absence and reschedule if needed.</li>
-            <li><strong>The District Rep says they can't commit resources.</strong> The person across from you must have actual authority. If they say "I'll have to check with my supervisor on that service," the committee is not properly constituted for that decision.</li>
-         </ul>
-
-         <!-- ══ SECTION 8 ══ -->
-         <h2 id="nyc">NYC-specific: SBST vs. the regional CSE office</h2>
-
-         <p>New York City's size creates a split in how the CSE system operates that trips up a lot of families. The key question is: <em>where does your child go to school?</em></p>
-
-         <h3>If your child attends a traditional NYC public school</h3>
-         <p>The CSE functions are handled by the <strong>School-Based Support Team (SBST)</strong> located inside your child's building. The SBST — typically a school psychologist, social worker, and educational evaluator — manages all evaluations, annual reviews, and IEP meetings. Your contact for any referral or meeting request is the SBST coordinator at your child's school.</p>
-
-         <h3>If your child attends a private, charter, religious, or homeschool</h3>
-         <p>Your contact is the <strong>regional CSE office</strong> for your geographic district. The NYC DOE runs 11 regional offices across the city. For children in non-public settings, the CSE does not write a standard IEP — instead they write an <strong>IESP (Individualized Education Services Program)</strong>, which covers related services like speech and OT but does not cover a full educational placement.</p>
-
-         <div class="callout callout-red">
-            <div class="callout-title">Critical NYC deadline: Notice of Intent</div>
-            If your child is in a private school or homeschooled and you want to maintain IESP services for the next school year, you must submit a written <strong>Notice of Intent to your regional CSE office by June 1st</strong>. Missing this deadline can result in losing all services for the entire following school year. Set a calendar reminder now.
-         </div>
-
-         <!-- Bottom CTA -->
-         <div class="inline-cta">
-            <div class="inline-cta-text">
-               <h3>Need a letter for your CSE?</h3>
-               <p>Request an evaluation, demand missing services, or document a disagreement — our AI Letter Writer has templates for every situation.</p>
-            </div>
-            <a href="/tools/">Open Letter Writer →</a>
-         </div>
-
-         <!-- Related Guides -->
-         <div class="guide-nav-bottom">
-            <a class="guide-nav-card" href="/guides/evaluation-request-ny/">
-               <div class="guide-nav-label">Next Guide</div>
-               <div class="guide-nav-title">How to Request a Special Education Evaluation in New York →</div>
-            </a>
-            <a class="guide-nav-card" href="/guides/carter-cases-private-placement/">
-               <div class="guide-nav-label">Related Guide</div>
-               <div class="guide-nav-title">Private Placement & Carter Cases: When the Public School Isn't Enough →</div>
-            </a>
-            <a class="guide-nav-card" href="/guides/cpse-preschool-special-education/">
-               <div class="guide-nav-label">Related Guide</div>
-               <div class="guide-nav-title">CPSE & the "Turning 5" Transition: What Changes When Your Child Enters School Age →</div>
-            </a>
-            <a class="guide-nav-card" href="/guides/dispute-resolution-ny/">
-               <div class="guide-nav-label">Related Guide</div>
-               <div class="guide-nav-title">Due Process, Mediation & Complaints: What to Do When the District Says No →</div>
-            </a>
-         </div>
-
-      </div><!-- /guide-body -->
-   </main>
-
-   <!-- Sticky mobile CTA -->
-   <div class="mobile-sticky-cta">
-      <a href="/tools/">✍ Need a CSE letter? Use our free AI Letter Writer →</a>
-   </div>
-
-   <!-- Footer -->
-   <footer style="background:#0d1b3e;color:#94a3b8;padding:40px 24px 24px;margin-top:0;">
-      <div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:32px;">
-         <div>
-            <div style="font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:600;color:#f5f0e8;margin-bottom:10px;">NY Special<span style="color:#d4af37;">Ed</span>.net</div>
-            <p style="font-size:0.82rem;line-height:1.7;">Demystifying the New York CSE process for parents navigating special education in NYC and across New York State.</p>
-         </div>
-         <div>
-            <h4 style="font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#f5f0e8;margin-bottom:10px;">Parent Guides</h4>
-            <ul style="list-style:none;padding:0;font-size:.82rem;line-height:2;">
-               <li><a href="/guides/cse-meeting-guide/" style="color:#94a3b8;text-decoration:none;">CSE Meeting Guide</a></li>
-               <li><a href="/guides/evaluation-request-ny/" style="color:#94a3b8;text-decoration:none;">Requesting an Evaluation</a></li>
-               <li><a href="/guides/carter-cases-private-placement/" style="color:#94a3b8;text-decoration:none;">Carter Cases</a></li>
-               <li><a href="/guides/bilingual-iep-new-york/" style="color:#94a3b8;text-decoration:none;">Bilingual IEP Rights</a></li>
-               <li><a href="/guides/dispute-resolution-ny/" style="color:#94a3b8;text-decoration:none;">Due Process</a></li>
-            </ul>
-         </div>
-         <div>
-            <h4 style="font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#f5f0e8;margin-bottom:10px;">Resources</h4>
-            <ul style="list-style:none;padding:0;font-size:.82rem;line-height:2;">
-               <li><a href="/tools/" style="color:#94a3b8;text-decoration:none;">Free IEP Letter Tool</a></li>
-               <li><a href="/districts/" style="color:#94a3b8;text-decoration:none;">Districts Directory</a></li>
-               <li><a href="/es/distritos/" style="color:#94a3b8;text-decoration:none;">En Español</a></li>
-               <li><a href="/about/" style="color:#94a3b8;text-decoration:none;">About Us</a></li>
-               <li><a href="/contact/" style="color:#94a3b8;text-decoration:none;">Contact</a></li>
-            </ul>
-         </div>
-      </div>
-      <div style="max-width:1100px;margin:24px auto 0;padding-top:18px;border-top:1px solid rgba(255,255,255,0.08);font-size:.76rem;color:#475569;text-align:center;">
-         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.
-      </div>
-   </footer>
-
-   <script>
-      (function() {
-         var t = document.getElementById('mobileToggle');
-         var m = document.getElementById('mobileMenu');
-         if (t && m) {
-            t.addEventListener('click', function() {
-               m.classList.toggle('open');
-            });
-         }
-      })();
-   </script>
+  <!-- Mobile menu — same flat links -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="/districts/">NYC Districts</a>
+    <a href="/districts/upstate/">Upstate Districts</a>
+    <a href="/guides/">Parent Guides</a>
+    <a class="es" href="/guides/es/index.html">&#127466;&#127480; En Espa&ntilde;ol</a>
+    <a href="/tools/">Tools</a>
+    <a href="/resources/">Resources</a>
+    <a class="cta-mobile" href="/tools/">IEP Letter &rarr;</a>
+  </div>
+</header>
+<script>
+(function(){
+  var t = document.getElementById('mobileToggle');
+  var m = document.getElementById('mobileMenu');
+  if(t && m){ t.addEventListener('click', function(){ m.classList.toggle('open'); }); }
+})();
+</script>
 
 </body>
 

@@ -1,634 +1,1348 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>
-   Special Education Guides | NY Special Ed
-  </title>
-<link href="/styles/global.css" rel="stylesheet"/>
-<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
-<style>
-   .hero-section { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); padding: 80px 20px; text-align: center; }
-        .hero-title { font-size: 3rem; font-weight: 800; color: #ffffff !important; text-shadow: 0 2px 4px rgba(0,0,0,0.4); margin-bottom: 20px; }
-        .hub-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; max-width: 1100px; margin: -40px auto 60px auto; padding: 0 20px; position: relative; z-index: 2; }
-        .hub-card { background: white; padding: 30px; border: 1px solid #e2e8f0; border-top: 4px solid #c8102e; border-radius: 12px; text-decoration: none; color: inherit; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); transition: transform 0.2s ease, box-shadow 0.2s ease; display: flex; flex-direction: column; }
-        .hub-card:hover { transform: translateY(-6px); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1); border-color: #0056b3; }
-        .hub-card h3 { color: #002868; font-size: 1.4rem; margin-top: 0; margin-bottom: 10px; }
-        .hub-card p { color: #475569; line-height: 1.5; margin-bottom: 0; }
-        .hub-icon { font-size: 2rem; color: #c8102e; margin-bottom: 15px; }
-  </style>
-<link href="https://www.newyorkspecialed.net/guides/" rel="canonical"/>
-<meta content="website" property="og:type"/><meta content="Special Education Guides | NY Special Ed" property="og:title"/><meta content="" property="og:description"/><meta content="https://www.newyorkspecialed.net/guides/" property="og:url"/><meta content="summary_large_image" name="twitter:card"/><meta content="Special Education Guides | NY Special Ed" name="twitter:title"/><meta content="" name="twitter:description"/><meta content="Comprehensive, easy-to-understand resources for navigating your child's rights." name="description"/>
-    <meta property="og:image" content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" />
-    <meta name="twitter:image" content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" /></head>
-<body style="background: #f8fafc;">
-<!-- 
-    INSTRUCTIONS: 
-    Include this inside the <header> tag of every page.
-    Requires: styles/styles-nav-footer.css
-    Requires: FontAwesome (for icons)
--->
-<header class="site-header" itemscope="" itemtype="http://schema.org/WPHeader">
-<div class="nav-container">
-<!-- Logo -->
-<a aria-label="New York Special Ed - Home" class="nav-logo" href="/">
-<img alt="New York Special Ed logo" height="120" loading="eager" src="/images/logo.png" style="display:block; height:120px; width:auto; border-radius:8px;" width="120"/>
-</a>
-<!-- Desktop Navigation -->
-<nav itemscope="" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
-<ul class="nav-links">
-<!-- DROPDOWN 1: NYC DISTRICTS (Mega Menu) -->
-<li class="nav-item">
-<a class="nav-link" href="/districts/">
-        NYC Districts
-        <i class="fas fa-chevron-down">
-</i>
-</a>
-<div class="mega-menu">
-<div class="menu-column">
-<h4>
-          Manhattan (D1-6)
-         </h4>
-<ul>
-<li>
-<a href="/districts/nyc-district-01-lower-east-side/">
-            District 1: Lower East Side
-           </a>
-</li>
-<li>
-<a href="/districts/nyc-district-02-upper-east-side/">
-            District 2: Upper East Side/Tribeca
-           </a>
-</li>
-<li>
-<a href="/districts/nyc-district-03-upper-west-side/">
-            District 3: Upper West Side
-           </a>
-</li>
-<li>
-<a href="/districts/nyc-district-04-east-harlem/">
-            District 4: East Harlem
-           </a>
-</li>
-<li>
-<a href="/districts/nyc-district-05-central-harlem/">
-            District 5: Central Harlem
-           </a>
-</li>
-<li>
-<a href="/districts/nyc-district-06-washington-heights/">
-            District 6: Washington Heights
-           </a>
-</li>
-</ul>
-</div>
-<div class="menu-column">
-<h4>
-          Brooklyn (Key Districts)
-         </h4>
-<ul>
-<li>
-<a href="/districts/nyc-district-15-park-slope/">
-            District 15: Park Slope/Sunset Park
-           </a>
-</li>
-<li>
-<a href="/districts/nyc-district-20-bay-ridge/">
-            District 20: Bay Ridge/Borough Park
-           </a>
-</li>
-<li>
-<a href="/districts/nyc-district-13-brooklyn-heights/">
-            District 13: Brooklyn Heights
-           </a>
-</li>
-<li>
-<a href="/districts/nyc-district-75/">
-<strong>
-             District 75 (Citywide Programs)
-            </strong>
-</a>
-</li>
-</ul>
-</div>
-<div class="menu-column">
-<h4>
-          Queens &amp; SI
-         </h4>
-<ul>
-<li>
-<a href="/districts/nyc-district-26-bayside/">
-            District 26: Bayside
-           </a>
-</li>
-<li>
-<a href="/districts/nyc-district-30-astoria/">
-            District 30: Astoria/LIC
-           </a>
-</li>
-<li>
-<a href="/districts/nyc-district-31-staten-island/">
-            District 31: Staten Island
-           </a>
-</li>
-<li>
-<a href="/districts/" style="color: var(--ny-navy); font-weight: 700; margin-top: 10px;">
-            View All 32 NYC Districts →
-           </a>
-</li>
-</ul>
-</div>
-</div>
-</li>
-<!-- DROPDOWN 2: STATEWIDE (Simple Dropdown) -->
-<li class="nav-item">
-<a class="nav-link" href="/districts/nys-overview/">
-        Upstate &amp; LI
-        <i class="fas fa-chevron-down">
-</i>
-</a>
-<div class="dropdown-menu">
-<div class="menu-column" style="padding: 0 20px;">
-<h4>
-          Big 5 Cities
-         </h4>
-<ul>
-<li>
-<a href="/districts/buffalo-city-sd/">
-            Buffalo City SD
-           </a>
-</li>
-<li>
-<a href="/districts/rochester-city-sd/">
-            Rochester City SD
-           </a>
-</li>
-<li>
-<a href="/districts/syracuse-city-sd/">
-            Syracuse City SD
-           </a>
-</li>
-<li>
-<a href="/districts/yonkers-city-sd/">
-            Yonkers City SD
-           </a>
-</li>
-<li>
-<a href="/districts/albany-city-sd/">
-            Albany City SD
-           </a>
-</li>
-</ul>
-</div>
-</div>
-</li>
-<!-- DROPDOWN 3: GUIDES (Contextual Content) -->
-<li class="nav-item">
-<a class="nav-link" href="/guides/">
-        Parent Guides
-        <i class="fas fa-chevron-down">
-</i>
-</a>
-<div class="dropdown-menu">
-<div class="menu-column" style="padding: 0 20px;">
-<ul>
-<li>
-<a href="/guides/cse-meeting-guide/">
-            CSE Meeting Guide
-           </a>
-</li>
-<li>
-<a href="/guides/evaluation-request-ny/">
-            Requesting an Evaluation
-           </a>
-</li>
-<li>
-<a href="/guides/bilingual-iep-new-york/">
-            Bilingual IEP Rights
-           </a>
-</li>
-<li>
-<a href="/guides/cpse-preschool-special-education/">
-            CPSE (Preschool) Guide
-           </a>
-</li>
-<li>
-<a href="/guides/carter-cases-private-placement/">
-            Private Placement (Carter Cases)
-           </a>
-</li>
-</ul>
-</div>
-</div>
-</li>
-<!-- LINK: RESOURCES -->
-<li class="nav-item">
-<a class="nav-link" href="/resources/">
-        Free Tools
-       </a>
-</li>
-<!-- CTA -->
-<li class="nav-item">
-<a class="nav-cta" href="/contact/">
-        Get The Toolkit
-       </a>
-</li>
-</ul>
-</nav>
-<!-- Mobile Toggle -->
-<button aria-label="Open Navigation" class="mobile-toggle">
-<i class="fas fa-bars">
-</i>
-</button>
-</div>
-</header>
-<main id="main-content">
-<header class="hero-section">
-<h1 class="hero-title">
-     NY Special Education Guides
-    </h1>
-<p style="color: #e2e8f0; font-size: 1.2rem; max-width: 600px; margin: 0 auto;">
-     Comprehensive, easy-to-understand resources for navigating your child's rights.
-    </p>
-</header>
-<div class="hub-grid">
-<a class="hub-card" href="/guides/cse-meeting-guide/">
-<i class="fas fa-users hub-icon">
-</i>
-<h3>
-      CSE Meeting Guide
-     </h3>
-<p>
-      Master the Annual Review and Initial Eligibility meetings.
-     </p>
-</a>
-<a class="hub-card" href="/guides/evaluation-request-ny/">
-<i class="fas fa-file-signature hub-icon">
-</i>
-<h3>
-      Requesting an Evaluation
-     </h3>
-<p>
-      Step-by-step instructions on initiating the 60-day timeline.
-     </p>
-</a>
-<a class="hub-card" href="/guides/dispute-resolution-ny/">
-<i class="fas fa-balance-scale hub-icon">
-</i>
-<h3>
-      Dispute Resolution
-     </h3>
-<p>
-      Mediation, Impartial Hearings, and state complaints.
-     </p>
-</a>
-<a class="hub-card" href="/guides/cpse-preschool-special-education/">
-<i class="fas fa-child hub-icon">
-</i>
-<h3>
-      CPSE (Preschool Services)
-     </h3>
-<p>
-      Navigating the Committee on Preschool Special Education.
-     </p>
-</a>
-<a class="hub-card" href="/guides/bilingual-iep-new-york/">
-<i class="fas fa-language hub-icon">
-</i>
-<h3>
-      Bilingual &amp; ELL Rights
-     </h3>
-<p>
-      Securing bilingual assessments and native language support.
-     </p>
-</a>
-<a class="hub-card" href="/guides/carter-cases-private-placement/">
-<i class="fas fa-school hub-icon">
-</i>
-<h3>
-      Private Placement (Carter Cases)
-     </h3>
-<p>
-      Seeking district funding for private school tuition.
-     </p>
-</a>
-</div>
-</main>
-<!-- 
-    INSTRUCTIONS: 
-    Include this at the bottom of every page.
-    Requires: styles/styles-nav-footer.css
--->
-<footer class="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
-<div class="footer-container">
-<!-- COL 1: Brand & Mission -->
-<div class="footer-brand">
-<h3>
-      New York Special Ed
-      <span>
-       .net
-      </span>
-</h3>
-<p>
-      Demystifying the New York Committee on Special Education (CSE) process.
-            We provide parents with the localized data, legal templates, and advocacy
-            tools needed to secure appropriate services in NYC and NY State.
-     </p>
-<div style="margin-top: 20px;">
-<a href="/contact/" style="color: #D4AF37; font-weight: bold; text-decoration: none;">
-       View Advocacy Shop →
-      </a>
-</div>
-</div>
-<!-- COL 2: Essential Guides -->
-<div class="footer-col">
-<h4>
-      NY Parent Guides
-     </h4>
-<ul class="footer-links">
-<li>
-<a href="/guides/cse-meeting-guide/">
-        The CSE Meeting Guide
-       </a>
-</li>
-<li>
-<a href="/guides/evaluation-request-ny/">
-        Evaluation Timelines (60 Days)
-       </a>
-</li>
-<li>
-<a href="/guides/dispute-resolution-ny/">
-        Due Process &amp; Complaints
-       </a>
-</li>
-<li>
-<a href="/guides/bilingual-iep-new-york/">
-        Bilingual/ELL Rights
-       </a>
-</li>
-<li>
-<a href="/districts/nyc-district-75/">
-        District 75 Explained
-       </a>
-</li>
-</ul>
-</div>
-<!-- COL 3: Top Districts -->
-<div class="footer-col">
-<h4>
-      Popular Districts
-     </h4>
-<ul class="footer-links">
-<li>
-<a href="/districts/nyc-district-02-upper-east-side/">
-        NYC District 2 (Manhattan)
-       </a>
-</li>
-<li>
-<a href="/districts/nyc-district-15-park-slope/">
-        NYC District 15 (Brooklyn)
-       </a>
-</li>
-<li>
-<a href="/districts/nyc-district-31-staten-island/">
-        NYC District 31 (Staten Island)
-       </a>
-</li>
-<li>
-<a href="/districts/nyc-district-30-astoria/">
-        NYC District 30 (Queens)
-       </a>
-</li>
-<li>
-<a href="/districts/buffalo-city-sd/">
-        Buffalo City Schools
-       </a>
-</li>
-</ul>
-</div>
-<!-- COL 4: Legal & Contact -->
-<div class="footer-col">
-<h4>
-      Resources
-     </h4>
-<ul class="footer-links">
-<li>
-<a href="/about/">
-        About Us
-       </a>
-</li>
-<li>
-<a href="/contact/">
-        Contact Support
-       </a>
-</li>
-<li>
-<a href="/privacy-policy/">
-        Privacy Policy
-       </a>
-</li>
-<li>
-<a href="/sitemap.xml">
-        Sitemap
-       </a>
-</li>
-</ul>
-</div>
-</div>
-<!-- Bottom Bar -->
-<div class="footer-bottom">
-<p>
-     © 2026 New York Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.
-     <br/>
-     For official inquiries, visit schools.nyc.gov or nysed.gov.
-    </p>
-</div>
-</footer>
+   <meta charset="utf-8" />
+   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+   <title>Special Education Guides | NY Special Ed</title>
+   <meta name="description" content="Comprehensive, easy-to-understand resources for navigating your child's rights in New York special education — CSE meetings, IEPs, evaluations, private placement, and more." />
+   <link rel="canonical" href="https://www.newyorkspecialed.net/guides/" />
+   <meta property="og:type" content="website" />
+   <meta property="og:title" content="Special Education Guides | NY Special Ed" />
+   <meta property="og:description" content="Comprehensive, easy-to-understand resources for navigating your child's rights in New York special education." />
+   <meta property="og:url" content="https://www.newyorkspecialed.net/guides/" />
+   <meta property="og:image" content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" />
+   <meta name="twitter:card" content="summary_large_image" />
+   <meta name="twitter:title" content="Special Education Guides | NY Special Ed" />
+   <meta name="twitter:description" content="Comprehensive, easy-to-understand resources for navigating your child's rights in New York special education." />
+   <meta name="twitter:image" content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" />
+   <!-- hreflang -->
+   <link rel="alternate" hreflang="en" href="https://www.newyorkspecialed.net/guides/" />
+   <link rel="alternate" hreflang="es" href="https://www.newyorkspecialed.net/es/guias/" />
 
-<!-- ============================================================
-  NY Special Ed — Premium Newsletter Popup
-  Drop this just before </body> on every page.
-  Replaces the generic blue popup with the site's Ink & Gold aesthetic.
+   <link href="/styles/global.css" rel="stylesheet" />
+   <link href="/styles/styles-nav-footer.css" rel="stylesheet" />
 
-  To configure per page, change data-site and data-language on the script tag.
-  ============================================================ -->
-
-<!-- Popup HTML -->
-<div id="ec-overlay" style="display:none;position:fixed;inset:0;background:rgba(10,15,30,.72);z-index:9998;align-items:center;justify-content:center;backdrop-filter:blur(3px);">
-  <div id="ec-modal" style="max-width:420px;width:92%;position:relative;font-family:'DM Sans',sans-serif;border-radius:6px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.45);">
-
-    <!-- Header -->
-    <div id="ec-header" style="background:#002868;padding:28px 28px 22px;border-bottom:3px solid #d4af37;position:relative;">
-      <button id="ec-close" aria-label="Close"
-        style="position:absolute;top:14px;right:16px;background:none;border:none;color:rgba(255,255,255,.5);font-size:18px;cursor:pointer;line-height:1;padding:4px;">&#x2715;</button>
-      <div style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#d4af37;margin-bottom:10px;">
-        District Intelligence
-      </div>
-      <h2 id="ec-title"
-        style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:500;color:#f5f0e8;line-height:1.15;margin:0;">
-      </h2>
-    </div>
-
-    <!-- Body -->
-    <div style="background:#fdfaf5;padding:26px 28px 24px;">
-      <p id="ec-body" style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:#002868;line-height:1.45;margin:0 0 14px;"></p>
-
-      <div style="width:40px;height:2px;background:#d4af37;margin-bottom:18px;"></div>
-
-      <ul id="ec-checklist" style="list-style:none;margin:0 0 22px;padding:0;"></ul>
-
-      <!-- Form -->
-      <div id="ec-form-wrap">
-        <input id="ec-email" type="email" placeholder="your@email.com"
-          style="width:100%;box-sizing:border-box;padding:11px 14px;border:1.5px solid #d6cbbf;border-radius:4px;font-size:14px;font-family:'DM Sans',sans-serif;margin-bottom:10px;outline:none;background:#fff;color:#1a1410;"/>
-        <button id="ec-submit"
-          style="width:100%;padding:14px;background:#c8102e;color:#fff;border:none;border-radius:4px;font-weight:600;font-family:'DM Sans',sans-serif;font-size:15px;cursor:pointer;transition:background .2s;letter-spacing:.01em;">
-        </button>
-      </div>
-
-      <!-- Success state -->
-      <div id="ec-success" style="display:none;text-align:center;padding:12px 0 6px;">
-        <div style="font-family:'Cormorant Garamond',serif;font-size:32px;color:#d4af37;margin-bottom:8px;">✦</div>
-        <p style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#002868;margin:0 0 6px;">You're on the list.</p>
-        <p style="font-size:13px;color:#6b5f53;margin:0;line-height:1.5;">District updates and parent rights resources will arrive in your inbox.</p>
-      </div>
-
-      <p style="margin:14px 0 0;font-size:11px;color:#b0a799;text-align:center;letter-spacing:.02em;">
-        No spam &nbsp;·&nbsp; Unsubscribe any time
-      </p>
-    </div>
-  </div>
-</div>
-
-<script
-  id="ec-script"
-  data-site="new_york_special_ed"
-  data-language="en"
-  data-delay="10000"
-  data-api="https://email-capture-api-831148457361.us-central1.run.app">
-(function() {
-  var script   = document.getElementById("ec-script");
-  var API_BASE = script.getAttribute("data-api");
-  var SITE     = script.getAttribute("data-site")     || "new_york_special_ed";
-  var LANG     = script.getAttribute("data-language") || "en";
-  var DELAY    = parseInt(script.getAttribute("data-delay") || "10000", 10);
-
-  var COPY = {
-    en: {
-      title:   "Know Your District.<br><em style='color:#e5c158;font-style:italic;'>Know Your Rights.</em>",
-      body:    "Most NYC parents don't know what their district is required to provide — until it's too late.",
-      checks:  [
-        "District-specific CSE timelines & contacts",
-        "IEP rights and evaluation deadlines",
-        "What to say at your next meeting",
-        "Real outcomes from parents in your district"
-      ],
-      button:  "Send Me Free District Updates"
-    },
-    es: {
-      title:   "Conozca Su Distrito.<br><em style='color:#e5c158;font-style:italic;'>Sus Derechos.</em>",
-      body:    "La mayoría de los padres de NYC no saben lo que su distrito está obligado a proveer.",
-      checks:  [
-        "Plazos del CSE y contactos por distrito",
-        "Derechos del IEP y plazos de evaluación",
-        "Qué decir en su próxima reunión",
-        "Resultados reales de padres en su distrito"
-      ],
-      button:  "Recibir Actualizaciones Gratis"
-    }
-  };
-
-  var copy = COPY[LANG] || COPY.en;
-  var STORAGE_KEY = "ec_dismissed_" + SITE + "_" + LANG;
-  if (localStorage.getItem(STORAGE_KEY)) return;
-
-  /* -- Inject copy -- */
-  document.getElementById("ec-title").innerHTML  = copy.title;
-  document.getElementById("ec-body").textContent = copy.body;
-  document.getElementById("ec-submit").textContent = copy.button;
-
-  var list = document.getElementById("ec-checklist");
-  copy.checks.forEach(function(item) {
-    var li = document.createElement("li");
-    li.style.cssText = "font-size:13px;color:#6b5f53;padding:5px 0 5px 20px;position:relative;";
-    li.innerHTML = '<span style="position:absolute;left:0;font-family:\'Cormorant Garamond\',serif;font-size:16px;color:#d4af37;">§</span>' + item;
-    list.appendChild(li);
-  });
-
-  var overlay  = document.getElementById("ec-overlay");
-  var emailEl  = document.getElementById("ec-email");
-  var submitEl = document.getElementById("ec-submit");
-
-  /* -- Show after delay -- */
-  setTimeout(function() {
-    overlay.style.display = "flex";
-    emailEl.focus();
-  }, DELAY);
-
-  /* -- Close -- */
-  function close() {
-    overlay.style.display = "none";
-    localStorage.setItem(STORAGE_KEY, "1");
-  }
-  document.getElementById("ec-close").addEventListener("click", close);
-  overlay.addEventListener("click", function(e) { if (e.target === overlay) close(); });
-  document.addEventListener("keydown", function(e) { if (e.key === "Escape") close(); });
-
-  /* -- Hover on button -- */
-  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
-  submitEl.addEventListener("mouseout",   function() { this.style.background = "#c8102e"; });
-  submitEl.addEventListener("mouseover",  function() { this.style.background = "#a50b24"; });
-
-  /* -- Submit -- */
-  submitEl.addEventListener("click", function() {
-    var email = emailEl.value.trim();
-    if (!email || !email.includes("@")) {
-      emailEl.style.borderColor = "#c8102e";
-      emailEl.focus();
-      return;
-    }
-    emailEl.style.borderColor = "#d6cbbf";
-    submitEl.disabled    = true;
-    submitEl.textContent = "…";
-
-    fetch(API_BASE + "/api/signup", {
-      method:  "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        email:      email,
-        site:       SITE,
-        language:   LANG,
-        source:     "newsletter_popup",
-        page_url:   window.location.href,
-        page_title: document.title,
-        district:   (document.querySelector("[data-district]") || {}).dataset && document.querySelector("[data-district]").dataset.district || null
-      })
-    })
-    .then(function(r) { return r.json(); })
-    .then(function(res) {
-      if (res.success) {
-        document.getElementById("ec-form-wrap").style.display = "none";
-        document.getElementById("ec-success").style.display   = "block";
-        localStorage.setItem(STORAGE_KEY, "1");
-        setTimeout(close, 4000);
-      } else {
-        submitEl.disabled    = false;
-        submitEl.textContent = copy.button;
-        alert(res.error || "Something went wrong. Please try again.");
+   <style>
+      /* ── TOKENS ── */
+      :root {
+         --navy: #002868;
+         --red: #c8102e;
+         --gold: #d4af37;
+         --slate: #475569;
+         --bg: #f8fafc;
+         --bdr: #e2e8f0;
       }
-    })
-    .catch(function() {
-      submitEl.disabled    = false;
-      submitEl.textContent = copy.button;
-      alert("Network error. Please try again.");
-    });
-  });
 
-  emailEl.addEventListener("keydown", function(e) { if (e.key === "Enter") submitEl.click(); });
-})();
-</script>
+      /* ── NAV ── */
+      .site-nav {
+         position: sticky;
+         top: 0;
+         z-index: 100;
+         background: #fff;
+         border-bottom: 1px solid var(--bdr);
+      }
+
+      .nav-inner {
+         max-width: 1160px;
+         margin: 0 auto;
+         padding: 0 24px;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         height: 58px;
+         gap: 32px;
+      }
+
+      .nav-wordmark {
+         font-family: 'Cormorant Garamond', serif;
+         font-size: 1.18rem;
+         font-weight: 600;
+         color: var(--navy);
+         text-decoration: none;
+         white-space: nowrap;
+         letter-spacing: .01em;
+         flex-shrink: 0;
+      }
+
+      .nav-wordmark span {
+         color: var(--red);
+      }
+
+      .nav-links {
+         display: flex;
+         list-style: none;
+         align-items: center;
+         gap: 2px;
+         flex: 1;
+         justify-content: center;
+      }
+
+      .nav-item {
+         position: relative;
+      }
+
+      .nav-link {
+         display: block;
+         padding: 8px 13px;
+         font-size: .84rem;
+         font-weight: 500;
+         color: #374151;
+         text-decoration: none;
+         border-radius: 5px;
+         transition: color .15s, background .15s;
+         white-space: nowrap;
+         cursor: pointer;
+         background: none;
+         border: none;
+         font-family: inherit;
+      }
+
+      .nav-link:hover {
+         color: var(--navy);
+         background: #f1f5f9;
+      }
+
+      .nav-dropdown {
+         display: none;
+         position: absolute;
+         top: calc(100% + 8px);
+         left: 0;
+         background: #fff;
+         border: 1px solid var(--bdr);
+         border-radius: 10px;
+         box-shadow: 0 12px 32px rgba(0, 0, 0, .10);
+         padding: 10px 0;
+         min-width: 220px;
+         z-index: 200;
+      }
+
+      .nav-dropdown.wide {
+         min-width: 540px;
+         display: none;
+         grid-template-columns: 1fr 1fr 1fr;
+         padding: 20px;
+         gap: 0 24px;
+      }
+
+      .nav-item:hover .nav-dropdown {
+         display: block;
+      }
+
+      .nav-item:hover .nav-dropdown.wide {
+         display: grid;
+      }
+
+      .nav-dropdown a {
+         display: block;
+         padding: 8px 18px;
+         font-size: .83rem;
+         color: #374151;
+         text-decoration: none;
+         transition: background .12s, color .12s;
+      }
+
+      .nav-dropdown a:hover {
+         background: #f1f5f9;
+         color: var(--navy);
+      }
+
+      .dropdown-section h4 {
+         font-size: .7rem;
+         font-weight: 700;
+         letter-spacing: .1em;
+         text-transform: uppercase;
+         color: #94a3b8;
+         padding: 6px 18px 4px;
+         margin-bottom: 2px;
+      }
+
+      .dropdown-section.wide-col h4 {
+         padding: 0 0 8px;
+         margin-bottom: 4px;
+         border-bottom: 1px solid #f1f5f9;
+      }
+
+      .dropdown-section.wide-col a {
+         padding: 6px 0;
+      }
+
+      .nav-es-badge {
+         display: inline-flex;
+         align-items: center;
+         gap: 5px;
+         font-size: .83rem;
+         font-weight: 600;
+         color: var(--red);
+         padding: 5px 11px;
+         border-radius: 5px;
+         cursor: pointer;
+         background: none;
+         border: none;
+         font-family: inherit;
+         transition: background .15s;
+      }
+
+      .nav-item:hover .nav-es-badge {
+         background: #fff5f5;
+      }
+
+      .nav-cta {
+         display: inline-block;
+         padding: 8px 16px;
+         background: var(--navy);
+         color: #fff !important;
+         font-size: .83rem;
+         font-weight: 600;
+         border-radius: 6px;
+         text-decoration: none;
+         transition: background .15s;
+         white-space: nowrap;
+         flex-shrink: 0;
+      }
+
+      .nav-cta:hover {
+         background: #001a44;
+      }
+
+      .nav-mobile-toggle {
+         display: none;
+         background: none;
+         border: 1px solid var(--bdr);
+         border-radius: 6px;
+         padding: 6px 10px;
+         cursor: pointer;
+         font-size: 1.1rem;
+         color: #374151;
+      }
+
+      .mobile-menu {
+         display: none;
+         background: #fff;
+         border-top: 1px solid var(--bdr);
+         padding: 16px 24px 20px;
+      }
+
+      .mobile-menu a {
+         display: block;
+         padding: 10px 0;
+         font-size: .9rem;
+         color: #374151;
+         text-decoration: none;
+         border-bottom: 1px solid #f1f5f9;
+      }
+
+      .mobile-menu a:last-child {
+         border-bottom: none;
+      }
+
+      .mobile-section-head {
+         font-size: .7rem;
+         font-weight: 700;
+         letter-spacing: .1em;
+         text-transform: uppercase;
+         color: #94a3b8;
+         padding: 14px 0 4px;
+      }
+
+      @media(max-width:900px) {
+         .nav-links {
+            display: none;
+         }
+
+         .nav-cta {
+            display: none;
+         }
+
+         .nav-mobile-toggle {
+            display: block;
+         }
+      }
+
+      @media(max-width:900px) {
+         .mobile-menu.open {
+            display: block;
+         }
+      }
+
+      /* ── HERO ── */
+      .hero-section {
+         background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+         padding: 72px 20px 96px;
+         text-align: center;
+         position: relative;
+         overflow: hidden;
+      }
+
+      .hero-section::before {
+         content: '';
+         position: absolute;
+         inset: 0;
+         background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+         pointer-events: none;
+      }
+
+      .hero-inner {
+         position: relative;
+         max-width: 700px;
+         margin: 0 auto;
+      }
+
+      .hero-title {
+         font-family: 'Cormorant Garamond', serif;
+         font-size: clamp(2.2rem, 5vw, 3.4rem);
+         font-weight: 600;
+         color: #fff;
+         line-height: 1.15;
+         margin: 0 0 16px;
+         text-shadow: 0 2px 8px rgba(0, 0, 0, .35);
+      }
+
+      .hero-title em {
+         font-style: italic;
+         color: var(--gold);
+      }
+
+      .hero-subtitle {
+         font-family: 'DM Sans', sans-serif;
+         font-size: 1.1rem;
+         color: #cbd5e1;
+         max-width: 560px;
+         margin: 0 auto 28px;
+         line-height: 1.6;
+      }
+
+      .hero-stats {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 28px;
+         flex-wrap: wrap;
+      }
+
+      .hero-stat {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+
+      .hero-stat strong {
+         font-family: 'Cormorant Garamond', serif;
+         font-size: 2rem;
+         font-weight: 600;
+         color: var(--gold);
+         line-height: 1;
+      }
+
+      .hero-stat span {
+         font-size: .75rem;
+         color: rgba(255, 255, 255, .55);
+         margin-top: 3px;
+         text-transform: uppercase;
+         letter-spacing: .06em;
+      }
+
+      .hero-stat-div {
+         width: 1px;
+         height: 36px;
+         background: rgba(255, 255, 255, .15);
+      }
+
+      /* ── FILTER BAR ── */
+      .filter-section {
+         max-width: 1100px;
+         margin: -28px auto 0;
+         padding: 0 20px;
+         position: relative;
+         z-index: 3;
+      }
+
+      .filter-bar {
+         background: #fff;
+         border: 1px solid var(--bdr);
+         border-radius: 10px;
+         box-shadow: 0 8px 24px rgba(0, 0, 0, .09);
+         padding: 14px 18px;
+         display: flex;
+         align-items: center;
+         gap: 8px;
+         flex-wrap: wrap;
+      }
+
+      .filter-label {
+         font-size: .72rem;
+         font-weight: 700;
+         letter-spacing: .1em;
+         text-transform: uppercase;
+         color: #94a3b8;
+         margin-right: 4px;
+         white-space: nowrap;
+      }
+
+      .filter-btn {
+         padding: 6px 14px;
+         border-radius: 20px;
+         border: 1.5px solid var(--bdr);
+         background: #fff;
+         font-size: .8rem;
+         font-weight: 600;
+         color: #374151;
+         cursor: pointer;
+         font-family: inherit;
+         transition: all .15s;
+         white-space: nowrap;
+      }
+
+      .filter-btn:hover {
+         border-color: var(--navy);
+         color: var(--navy);
+      }
+
+      .filter-btn.active {
+         background: var(--navy);
+         border-color: var(--navy);
+         color: #fff;
+      }
+
+      .filter-count {
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         width: 18px;
+         height: 18px;
+         background: rgba(255, 255, 255, .25);
+         border-radius: 50%;
+         font-size: .65rem;
+         font-weight: 700;
+         margin-left: 4px;
+      }
+
+      .filter-btn:not(.active) .filter-count {
+         background: #e2e8f0;
+         color: #64748b;
+      }
+
+      /* ── GUIDES MAIN ── */
+      .guides-main {
+         max-width: 1100px;
+         margin: 32px auto 64px;
+         padding: 0 20px;
+      }
+
+      .category-section {
+         margin-bottom: 44px;
+      }
+
+      .category-header {
+         display: flex;
+         align-items: center;
+         gap: 14px;
+         margin-bottom: 20px;
+      }
+
+      .category-icon {
+         width: 38px;
+         height: 38px;
+         border-radius: 8px;
+         background: var(--navy);
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-shrink: 0;
+      }
+
+      .category-icon i {
+         color: #fff;
+         font-size: .95rem;
+      }
+
+      .category-icon.red-bg {
+         background: var(--red);
+      }
+
+      .category-icon.gold-bg {
+         background: var(--gold);
+      }
+
+      .category-icon.gold-bg i {
+         color: #1a1410;
+      }
+
+      .category-title {
+         font-family: 'Cormorant Garamond', serif;
+         font-size: 1.45rem;
+         font-weight: 600;
+         color: var(--navy);
+         margin: 0;
+      }
+
+      .category-title-line {
+         flex: 1;
+         height: 1px;
+         background: var(--bdr);
+      }
+
+      .category-count {
+         font-size: .75rem;
+         font-weight: 600;
+         color: #94a3b8;
+         letter-spacing: .06em;
+         text-transform: uppercase;
+      }
+
+      /* ── CARDS ── */
+      .hub-grid {
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+         gap: 20px;
+      }
+
+      .hub-card {
+         background: white;
+         padding: 28px;
+         border: 1px solid var(--bdr);
+         border-top: 4px solid var(--red);
+         border-radius: 12px;
+         text-decoration: none;
+         color: inherit;
+         box-shadow: 0 6px 16px rgba(0, 0, 0, .07);
+         transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+         display: flex;
+         flex-direction: column;
+      }
+
+      .hub-card:hover {
+         transform: translateY(-5px);
+         box-shadow: 0 18px 28px rgba(0, 0, 0, .1);
+         border-color: var(--navy);
+         border-top-color: var(--red);
+      }
+
+      .hub-card.featured {
+         border-top-color: var(--gold);
+         background: linear-gradient(145deg, #fffdf7 0%, #fff 60%);
+      }
+
+      .hub-card.featured .hub-icon {
+         color: var(--gold);
+      }
+
+      .hub-card-tag {
+         font-size: .68rem;
+         font-weight: 700;
+         letter-spacing: .1em;
+         text-transform: uppercase;
+         color: var(--red);
+         margin-bottom: 10px;
+      }
+
+      .hub-card.featured .hub-card-tag {
+         color: #92400e;
+      }
+
+      .hub-icon {
+         font-size: 1.8rem;
+         color: var(--red);
+         margin-bottom: 12px;
+      }
+
+      .hub-card h3 {
+         font-family: 'Cormorant Garamond', serif;
+         color: var(--navy);
+         font-size: 1.3rem;
+         font-weight: 600;
+         margin: 0 0 10px;
+         line-height: 1.25;
+      }
+
+      .hub-card p {
+         font-family: 'DM Sans', sans-serif;
+         color: var(--slate);
+         font-size: .9rem;
+         line-height: 1.55;
+         margin: 0;
+         flex: 1;
+      }
+
+      .hub-card-footer {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         margin-top: 16px;
+         padding-top: 14px;
+         border-top: 1px solid #f1f5f9;
+      }
+
+      .hub-card-read {
+         font-size: .78rem;
+         font-weight: 600;
+         color: var(--navy);
+         display: flex;
+         align-items: center;
+         gap: 5px;
+      }
+
+      .hub-card-time {
+         font-size: .72rem;
+         color: #94a3b8;
+         display: flex;
+         align-items: center;
+         gap: 4px;
+      }
+
+      /* NYC-only badge */
+      .nyc-badge {
+         display: inline-flex;
+         align-items: center;
+         gap: 4px;
+         background: #eff6ff;
+         color: var(--navy);
+         font-size: .68rem;
+         font-weight: 700;
+         letter-spacing: .06em;
+         text-transform: uppercase;
+         padding: 3px 8px;
+         border-radius: 3px;
+         margin-bottom: 10px;
+      }
+
+      /* Filter hide/show */
+      .hub-card[data-hidden="true"] {
+         display: none;
+      }
+
+      .category-section[data-hidden="true"] {
+         display: none;
+      }
+
+      /* ── ES GUIDES BANNER ── */
+      .es-guides-banner {
+         max-width: 1100px;
+         margin: 0 auto 40px;
+         padding: 0 20px;
+      }
+
+      .es-guides-inner {
+         background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+         border-radius: 10px;
+         padding: 22px 28px;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         gap: 20px;
+         flex-wrap: wrap;
+         border-left: 4px solid var(--gold);
+      }
+
+      .es-guides-inner p {
+         font-family: 'DM Sans', sans-serif;
+         font-size: .92rem;
+         color: #cbd5e1;
+         margin: 0;
+         line-height: 1.5;
+      }
+
+      .es-guides-inner p strong {
+         color: #fff;
+      }
+
+      .es-guides-link {
+         display: inline-block;
+         padding: 10px 20px;
+         background: var(--gold);
+         color: #1a1410;
+         font-size: .84rem;
+         font-weight: 700;
+         border-radius: 6px;
+         text-decoration: none;
+         white-space: nowrap;
+         transition: opacity .15s;
+         flex-shrink: 0;
+      }
+
+      .es-guides-link:hover {
+         opacity: .85;
+      }
+   </style>
+</head>
+
+<body style="background: var(--bg);">
+
+   <!-- ═══════════ NAV ═══════════ -->
+   <header class="site-nav">
+      <div class="nav-inner">
+         <a class="nav-wordmark" href="/">NY Special<span>Ed</span>.net</a>
+         <ul class="nav-links">
+            <!-- NYC Districts -->
+            <li class="nav-item">
+               <button class="nav-link">NYC Districts ▼</button>
+               <div class="nav-dropdown wide">
+                  <div class="dropdown-section wide-col">
+                     <h4>Manhattan</h4>
+                     <a href="/districts/nyc-district-01-lower-east-side/">D1 · Lower East Side</a>
+                     <a href="/districts/nyc-district-02-upper-east-side/">D2 · Upper East Side</a>
+                     <a href="/districts/nyc-district-03-upper-west-side/">D3 · Upper West Side</a>
+                     <a href="/districts/nyc-district-04-east-harlem/">D4 · East Harlem</a>
+                     <a href="/districts/nyc-district-05-central-harlem/">D5 · Central Harlem</a>
+                     <a href="/districts/nyc-district-06-washington-heights/">D6 · Washington Heights</a>
+                  </div>
+                  <div class="dropdown-section wide-col">
+                     <h4>Brooklyn & Queens</h4>
+                     <a href="/districts/nyc-district-13-brooklyn-heights/">D13 · Brooklyn Heights</a>
+                     <a href="/districts/nyc-district-15-park-slope/">D15 · Park Slope</a>
+                     <a href="/districts/nyc-district-20-bay-ridge/">D20 · Bay Ridge</a>
+                     <a href="/districts/nyc-district-26-bayside/">D26 · Bayside</a>
+                     <a href="/districts/nyc-district-30-astoria/">D30 · Astoria / LIC</a>
+                     <a href="/districts/nyc-district-75/" style="font-weight:600;color:#002868;">D75 · Citywide Programs</a>
+                  </div>
+                  <div class="dropdown-section wide-col">
+                     <h4>Bronx & Staten Island</h4>
+                     <a href="/districts/nyc-district-07-south-bronx/">D7 · South Bronx</a>
+                     <a href="/districts/nyc-district-09-grand-concourse/">D9 · Grand Concourse</a>
+                     <a href="/districts/nyc-district-10-riverdale/">D10 · Riverdale</a>
+                     <a href="/districts/nyc-district-12-soundview/">D12 · Soundview</a>
+                     <a href="/districts/nyc-district-31-staten-island/">D31 · Staten Island</a>
+                     <a href="/districts/" style="font-weight:600;color:#002868;">View All 32 Districts →</a>
+                  </div>
+               </div>
+            </li>
+            <!-- Upstate & LI -->
+            <li class="nav-item">
+               <button class="nav-link">Upstate & LI ▼</button>
+               <div class="nav-dropdown">
+                  <div class="dropdown-section">
+                     <h4>Big 5 Cities</h4>
+                     <a href="/districts/buffalo-city-sd/">Buffalo City SD</a>
+                     <a href="/districts/rochester-city-sd/">Rochester City SD</a>
+                     <a href="/districts/syracuse-city-sd/">Syracuse City SD</a>
+                     <a href="/districts/yonkers-city-sd/">Yonkers City SD</a>
+                     <a href="/districts/albany-city-sd/">Albany City SD</a>
+                  </div>
+                  <div class="dropdown-section">
+                     <h4>Long Island</h4>
+                     <a href="/districts/sachem-csd/">Sachem CSD</a>
+                     <a href="/districts/brentwood-ufsd/">Brentwood UFSD</a>
+                     <a href="/districts/central-islip-ufsd/">Central Islip UFSD</a>
+                     <a href="/districts/patchogue-medford-ufsd/">Patchogue-Medford UFSD</a>
+                     <a href="/districts/william-floyd-ufsd/">William Floyd UFSD</a>
+                     <a href="/districts/hempstead-ufsd/">Hempstead UFSD</a>
+                     <a href="/districts/freeport-ufsd/">Freeport UFSD</a>
+                  </div>
+                  <div class="dropdown-section">
+                     <h4>Westchester & Hudson</h4>
+                     <a href="/districts/mount-vernon-city-sd/">Mount Vernon City SD</a>
+                     <a href="/districts/new-rochelle-city-sd/">New Rochelle City SD</a>
+                     <a href="/districts/white-plains-city-sd/">White Plains City SD</a>
+                     <a href="/districts/newburgh-enlarged-city-sd/">Newburgh Enlarged CSD</a>
+                     <a href="/districts/poughkeepsie-city-sd/">Poughkeepsie City SD</a>
+                     <a href="/districts/east-ramapo-csd/">East Ramapo CSD</a>
+                  </div>
+               </div>
+            </li>
+            <!-- Parent Guides -->
+            <li class="nav-item">
+               <button class="nav-link">Parent Guides ▼</button>
+               <div class="nav-dropdown">
+                  <div class="dropdown-section">
+                     <a href="/guides/cse-meeting-guide/">CSE Meeting Guide</a>
+                     <a href="/guides/evaluation-request-ny/">Requesting an Evaluation</a>
+                     <a href="/guides/cpse-preschool-special-education/">CPSE · Preschool Guide</a>
+                     <a href="/guides/carter-cases-private-placement/">Private Placement (Carter Cases)</a>
+                     <a href="/guides/bilingual-iep-new-york/">Bilingual IEP Rights</a>
+                     <a href="/guides/dispute-resolution-ny/">Due Process & Complaints</a>
+                     <a href="/guides/parent-advocacy-guide/">Parent Advocacy Guide</a>
+                  </div>
+               </div>
+            </li>
+            <!-- Spanish Tools -->
+            <li class="nav-item">
+               <button class="nav-link nav-es-badge">🇪🇸 En Español ▼</button>
+               <div class="nav-dropdown">
+                  <div class="dropdown-section">
+                     <h4>Herramientas en Español</h4>
+                     <a href="/es/distritos/">Directorio de Distritos</a>
+                     <a href="/es/guias/guia-reunion-cse/">Guía de Reunión CSE</a>
+                     <a href="/es/guias/solicitud-evaluacion-ny/">Solicitar una Evaluación</a>
+                     <a href="/es/guias/iep-bilingue-nueva-york/">Derechos IEP Bilingüe</a>
+                     <a href="/tools/">Generador de Carta IEP →</a>
+                  </div>
+               </div>
+            </li>
+            <!-- Free Tools -->
+            <li class="nav-item">
+               <a class="nav-link" href="/tools/">Free Tools</a>
+            </li>
+         </ul>
+         <a class="nav-cta" href="/contact/">Get the Toolkit</a>
+         <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Open menu">☰</button>
+      </div>
+      <!-- Mobile menu -->
+      <div class="mobile-menu" id="mobileMenu">
+         <div class="mobile-section-head">NYC Districts</div>
+         <a href="/districts/nyc-district-03-upper-west-side/">D3 · Upper West Side</a>
+         <a href="/districts/nyc-district-06-washington-heights/">D6 · Washington Heights</a>
+         <a href="/districts/nyc-district-75/">D75 · Citywide Programs</a>
+         <a href="/districts/">View All NYC Districts →</a>
+         <div class="mobile-section-head">Upstate & LI</div>
+         <a href="/districts/buffalo-city-sd/">Buffalo City SD</a>
+         <a href="/districts/yonkers-city-sd/">Yonkers City SD</a>
+         <a href="/districts/sachem-csd/">Sachem CSD</a>
+         <div class="mobile-section-head">Parent Guides</div>
+         <a href="/guides/cse-meeting-guide/">CSE Meeting Guide</a>
+         <a href="/guides/evaluation-request-ny/">Requesting an Evaluation</a>
+         <a href="/guides/carter-cases-private-placement/">Private Placement (Carter Cases)</a>
+         <div class="mobile-section-head">🇪🇸 En Español</div>
+         <a href="/es/distritos/">Directorio de Distritos</a>
+         <a href="/es/guias/guia-reunion-cse/">Guía de Reunión CSE</a>
+         <a href="/tools/">Free Tools</a>
+         <a href="/contact/" style="font-weight:600;color:#002868;">Get the Toolkit →</a>
+      </div>
+   </header>
+   <script>
+      (function() {
+         var t = document.getElementById('mobileToggle');
+         var m = document.getElementById('mobileMenu');
+         if (t && m) {
+            t.addEventListener('click', function() {
+               m.classList.toggle('open');
+            });
+         }
+      })();
+   </script>
+
+   <!-- ═══════════ HERO ═══════════ -->
+   <header class="hero-section">
+      <div class="hero-inner">
+         <h1 class="hero-title">NY Special Education <em>Guides</em></h1>
+         <p class="hero-subtitle">
+            Comprehensive, easy-to-understand resources for navigating your child's rights in New York's special education system.
+         </p>
+         <div class="hero-stats">
+            <div class="hero-stat">
+               <strong>13</strong>
+               <span>Guides</span>
+            </div>
+            <div class="hero-stat-div"></div>
+            <div class="hero-stat">
+               <strong>6</strong>
+               <span>Topics</span>
+            </div>
+            <div class="hero-stat-div"></div>
+            <div class="hero-stat">
+               <strong>100%</strong>
+               <span>Free</span>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <!-- ═══════════ FILTER BAR ═══════════ -->
+   <div class="filter-section">
+      <div class="filter-bar">
+         <span class="filter-label">Filter:</span>
+         <button class="filter-btn active" data-filter="all">
+            All <span class="filter-count">13</span>
+         </button>
+         <button class="filter-btn" data-filter="cse-process">
+            CSE Process <span class="filter-count">3</span>
+         </button>
+         <button class="filter-btn" data-filter="evaluations">
+            Evaluations <span class="filter-count">2</span>
+         </button>
+         <button class="filter-btn" data-filter="preschool">
+            Preschool (CPSE) <span class="filter-count">2</span>
+         </button>
+         <button class="filter-btn" data-filter="placement">
+            Private Placement <span class="filter-count">2</span>
+         </button>
+         <button class="filter-btn" data-filter="nyc">
+            NYC-Specific <span class="filter-count">1</span>
+         </button>
+         <button class="filter-btn" data-filter="rights">
+            Rights & Advocacy <span class="filter-count">3</span>
+         </button>
+      </div>
+   </div>
+
+   <!-- ═══════════ MAIN CONTENT ═══════════ -->
+   <main id="main-content">
+      <div class="guides-main">
+
+         <!-- ── CSE PROCESS ── -->
+         <section class="category-section" data-category="cse-process">
+            <div class="category-header">
+               <div class="category-icon">
+                  <i class="fas fa-users"></i>
+               </div>
+               <h2 class="category-title">CSE Process</h2>
+               <div class="category-title-line"></div>
+               <span class="category-count">3 guides</span>
+            </div>
+            <div class="hub-grid">
+
+               <!-- DIR: cse-meeting-guide/ -->
+               <a class="hub-card featured" href="/guides/cse-meeting-guide/" data-cat="cse-process">
+                  <i class="fas fa-star hub-icon"></i>
+                  <div class="hub-card-tag">Start Here</div>
+                  <h3>CSE Meeting Guide</h3>
+                  <p>Master the Annual Review and Initial Eligibility meetings. Everything you need to know before, during, and after your Committee on Special Education meeting.</p>
+                  <div class="hub-card-footer">
+                     <span class="hub-card-read"><i class="fas fa-arrow-right"></i> Read guide</span>
+                     <span class="hub-card-time"><i class="far fa-clock"></i> 10 min</span>
+                  </div>
+               </a>
+
+               <!-- FILE: cse-meeting-hub-survival-guide.html -->
+               <a class="hub-card" href="/guides/cse-meeting-hub-survival-guide.html" data-cat="cse-process">
+                  <i class="fas fa-shield-alt hub-icon"></i>
+                  <h3>CSE Meeting Hub: A Survival Guide</h3>
+                  <p>Who must be in the room, your pre-meeting checklist, and red flags to watch for. Don't walk in without reading this first.</p>
+                  <div class="hub-card-footer">
+                     <span class="hub-card-read"><i class="fas fa-arrow-right"></i> Read guide</span>
+                     <span class="hub-card-time"><i class="far fa-clock"></i> 8 min</span>
+                  </div>
+               </a>
+
+               <!-- FILE: what-is-a-cse-meeting.html -->
+               <a class="hub-card" href="/guides/what-is-a-cse-meeting.html" data-cat="cse-process">
+                  <i class="fas fa-question-circle hub-icon"></i>
+                  <h3>What Is a CSE Meeting?</h3>
+                  <p>The plain-English explanation of what CSE stands for, what happens at the meeting, and why the resulting IEP is a legally enforceable contract.</p>
+                  <div class="hub-card-footer">
+                     <span class="hub-card-read"><i class="fas fa-arrow-right"></i> Read guide</span>
+                     <span class="hub-card-time"><i class="far fa-clock"></i> 7 min</span>
+                  </div>
+               </a>
+
+            </div>
+         </section>
+
+         <!-- ── EVALUATIONS ── -->
+         <section class="category-section" data-category="evaluations">
+            <div class="category-header">
+               <div class="category-icon red-bg">
+                  <i class="fas fa-file-medical-alt"></i>
+               </div>
+               <h2 class="category-title">Evaluations</h2>
+               <div class="category-title-line"></div>
+               <span class="category-count">2 guides</span>
+            </div>
+            <div class="hub-grid">
+
+               <!-- DIR: evaluation-request-ny/ -->
+               <a class="hub-card" href="/guides/evaluation-request-ny/" data-cat="evaluations">
+                  <i class="fas fa-file-signature hub-icon"></i>
+                  <h3>Requesting an Evaluation in NY</h3>
+                  <p>Step-by-step instructions for initiating the 60-day evaluation timeline — what to say, how to say it in writing, and how to hold the district to its deadline.</p>
+                  <div class="hub-card-footer">
+                     <span class="hub-card-read"><i class="fas fa-arrow-right"></i> Read guide</span>
+                     <span class="hub-card-time"><i class="far fa-clock"></i> 8 min</span>
+                  </div>
+               </a>
+
+               <!-- FILE: independent-educational-evaluation-iee.html -->
+               <a class="hub-card" href="/guides/independent-educational-evaluation-iee.html" data-cat="evaluations">
+                  <i class="fas fa-search hub-icon"></i>
+                  <h3>Independent Educational Evaluation (IEE)</h3>
+                  <p>When the school's testing isn't enough — how to get an outside expert to evaluate your child at the district's expense, and what an IEE can uncover.</p>
+                  <div class="hub-card-footer">
+                     <span class="hub-card-read"><i class="fas fa-arrow-right"></i> Read guide</span>
+                     <span class="hub-card-time"><i class="far fa-clock"></i> 9 min</span>
+                  </div>
+               </a>
+
+            </div>
+         </section>
+
+         <!-- ── PRESCHOOL (CPSE) ── -->
+         <section class="category-section" data-category="preschool">
+            <div class="category-header">
+               <div class="category-icon gold-bg">
+                  <i class="fas fa-child"></i>
+               </div>
+               <h2 class="category-title">Preschool & Transition (CPSE)</h2>
+               <div class="category-title-line"></div>
+               <span class="category-count">2 guides</span>
+            </div>
+            <div class="hub-grid">
+
+               <!-- DIR: cpse-preschool-special-education/ -->
+               <a class="hub-card" href="/guides/cpse-preschool-special-education/" data-cat="preschool">
+                  <i class="fas fa-school hub-icon"></i>
+                  <h3>CPSE: Preschool Special Education</h3>
+                  <p>Navigating the Committee on Preschool Special Education — from the initial referral through services, timelines, and your rights as a parent at every step.</p>
+                  <div class="hub-card-footer">
+                     <span class="hub-card-read"><i class="fas fa-arrow-right"></i> Read guide</span>
+                     <span class="hub-card-time"><i class="far fa-clock"></i> 9 min</span>
+                  </div>
+               </a>
+
+               <!-- FILE: turning-5-cpse-to-cse-transition.html -->
+               <a class="hub-card" href="/guides/turning-5-cpse-to-cse-transition.html" data-cat="preschool">
+                  <i class="fas fa-exchange-alt hub-icon"></i>
+                  <h3>The "Turning 5" Transition: CPSE to CSE</h3>
+                  <p>Why services often look different after the move to kindergarten, how to protect your child's supports, and what to expect at the Turning 5 meeting.</p>
+                  <div class="hub-card-footer">
+                     <span class="hub-card-read"><i class="fas fa-arrow-right"></i> Read guide</span>
+                     <span class="hub-card-time"><i class="far fa-clock"></i> 9 min</span>
+                  </div>
+               </a>
+
+            </div>
+         </section>
+
+         <!-- ── PRIVATE PLACEMENT ── -->
+         <section class="category-section" data-category="placement">
+            <div class="category-header">
+               <div class="category-icon red-bg">
+                  <i class="fas fa-balance-scale"></i>
+               </div>
+               <h2 class="category-title">Private Placement (Carter Cases)</h2>
+               <div class="category-title-line"></div>
+               <span class="category-count">2 guides</span>
+            </div>
+            <div class="hub-grid">
+
+               <!-- DIR: carter-cases-private-placement/ -->
+               <a class="hub-card" href="/guides/carter-cases-private-placement/" data-cat="placement">
+                  <i class="fas fa-gavel hub-icon"></i>
+                  <h3>Private Placement (Carter Cases)</h3>
+                  <p>When the public school can't meet your child's needs — how to seek district-funded tuition at a private special education school and what you need to prove.</p>
+                  <div class="hub-card-footer">
+                     <span class="hub-card-read"><i class="fas fa-arrow-right"></i> Read guide</span>
+                     <span class="hub-card-time"><i class="far fa-clock"></i> 10 min</span>
+                  </div>
+               </a>
+
+               <!-- FILE: carter-cases-unilateral-placement.html -->
+               <a class="hub-card" href="/guides/carter-cases-unilateral-placement.html" data-cat="placement">
+                  <i class="fas fa-door-open hub-icon"></i>
+                  <h3>Unilateral Placement: The "Nuclear Option"</h3>
+                  <p>What happens when parents pull their child out of public school without district approval — the three-part legal test, the risks, and the potential reward.</p>
+                  <div class="hub-card-footer">
+                     <span class="hub-card-read"><i class="fas fa-arrow-right"></i> Read guide</span>
+                     <span class="hub-card-time"><i class="far fa-clock"></i> 10 min</span>
+                  </div>
+               </a>
+
+            </div>
+         </section>
+
+         <!-- ── NYC-SPECIFIC ── -->
+         <section class="category-section" data-category="nyc">
+            <div class="category-header">
+               <div class="category-icon">
+                  <i class="fas fa-city"></i>
+               </div>
+               <h2 class="category-title">NYC-Specific</h2>
+               <div class="category-title-line"></div>
+               <span class="category-count">1 guide</span>
+            </div>
+            <div class="hub-grid">
+
+               <!-- FILE: nyc-special-education-sbst-iesp-june-1.html -->
+               <a class="hub-card" href="/guides/nyc-special-education-sbst-iesp-june-1.html" data-cat="nyc">
+                  <i class="fas fa-map-marker-alt hub-icon"></i>
+                  <div class="nyc-badge">🏗 NYC Only</div>
+                  <h3>NYC Special Ed: SBST, IESPs & the June 1st Deadline</h3>
+                  <p>The unique rules of New York City — who handles your child's services based on their school type, IESPs for private school students, and the June 1st notice deadline you cannot miss.</p>
+                  <div class="hub-card-footer">
+                     <span class="hub-card-read"><i class="fas fa-arrow-right"></i> Read guide</span>
+                     <span class="hub-card-time"><i class="far fa-clock"></i> 10 min</span>
+                  </div>
+               </a>
+
+            </div>
+         </section>
+
+         <!-- ── RIGHTS & ADVOCACY ── -->
+         <section class="category-section" data-category="rights">
+            <div class="category-header">
+               <div class="category-icon gold-bg">
+                  <i class="fas fa-fist-raised"></i>
+               </div>
+               <h2 class="category-title">Rights & Advocacy</h2>
+               <div class="category-title-line"></div>
+               <span class="category-count">3 guides</span>
+            </div>
+            <div class="hub-grid">
+
+               <!-- DIR: parent-advocacy-guide/ -->
+               <a class="hub-card featured" href="/guides/parent-advocacy-guide/" data-cat="rights">
+                  <i class="fas fa-hands-helping hub-icon"></i>
+                  <div class="hub-card-tag">Featured Guide</div>
+                  <h3>Parent Advocacy Guide</h3>
+                  <p>Practical strategies for becoming your child's most effective advocate — from documenting everything to knowing exactly when and how to escalate a situation.</p>
+                  <div class="hub-card-footer">
+                     <span class="hub-card-read"><i class="fas fa-arrow-right"></i> Read guide</span>
+                     <span class="hub-card-time"><i class="far fa-clock"></i> 12 min</span>
+                  </div>
+               </a>
+
+               <!-- DIR: bilingual-iep-new-york/ -->
+               <a class="hub-card" href="/guides/bilingual-iep-new-york/" data-cat="rights">
+                  <i class="fas fa-language hub-icon"></i>
+                  <h3>Bilingual & ELL Rights in New York</h3>
+                  <p>How to secure bilingual assessments, native language support in the IEP, and the specific rights that apply to English Language Learners in New York State.</p>
+                  <div class="hub-card-footer">
+                     <span class="hub-card-read"><i class="fas fa-arrow-right"></i> Read guide</span>
+                     <span class="hub-card-time"><i class="far fa-clock"></i> 8 min</span>
+                  </div>
+               </a>
+
+               <!-- DIR: dispute-resolution-ny/ -->
+               <a class="hub-card" href="/guides/dispute-resolution-ny/" data-cat="rights">
+                  <i class="fas fa-handshake hub-icon"></i>
+                  <h3>Dispute Resolution in New York</h3>
+                  <p>Mediation, Impartial Hearings, and state complaints — when to use each option and how to pursue them when the district isn't holding up its end of the IEP.</p>
+                  <div class="hub-card-footer">
+                     <span class="hub-card-read"><i class="fas fa-arrow-right"></i> Read guide</span>
+                     <span class="hub-card-time"><i class="far fa-clock"></i> 9 min</span>
+                  </div>
+               </a>
+
+            </div>
+         </section>
+
+      </div><!-- /guides-main -->
+
+      <!-- Spanish guides cross-link -->
+      <div class="es-guides-banner">
+         <div class="es-guides-inner">
+            <p><strong>🇪🇸 También disponible en español.</strong> All of these guides are available in Spanish for families who prefer to read in their native language.</p>
+            <a class="es-guides-link" href="/es/guias/">Ver Guías en Español →</a>
+         </div>
+      </div>
+
+   </main>
+
+   <!-- ═══════════ FOOTER (preserved exactly from original) ═══════════ -->
+   <footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+      <div class="footer-container">
+         <div class="footer-brand">
+            <h3>New York Special Ed<span>.net</span></h3>
+            <p>Demystifying the New York Committee on Special Education (CSE) process. We provide parents with the localized data, legal templates, and advocacy tools needed to secure appropriate services in NYC and NY State.</p>
+            <div style="margin-top:20px;"><a href="/contact/" style="color:#D4AF37;font-weight:bold;text-decoration:none;">View Advocacy Shop →</a></div>
+         </div>
+         <div class="footer-col">
+            <h4>NY Parent Guides</h4>
+            <ul class="footer-links">
+               <li><a href="/guides/cse-meeting-guide/">The CSE Meeting Guide</a></li>
+               <li><a href="/guides/evaluation-request-ny/">Evaluation Timelines (60 Days)</a></li>
+               <li><a href="/guides/dispute-resolution-ny/">Due Process & Complaints</a></li>
+               <li><a href="/guides/bilingual-iep-new-york/">Bilingual/ELL Rights</a></li>
+               <li><a href="/districts/nyc-district-75/">District 75 Explained</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h4>Popular Districts</h4>
+            <ul class="footer-links">
+               <li><a href="/districts/nyc-district-02-upper-east-side/">NYC District 2 (Manhattan)</a></li>
+               <li><a href="/districts/nyc-district-15-park-slope/">NYC District 15 (Brooklyn)</a></li>
+               <li><a href="/districts/nyc-district-31-staten-island/">NYC District 31 (Staten Island)</a></li>
+               <li><a href="/districts/nyc-district-30-astoria/">NYC District 30 (Queens)</a></li>
+               <li><a href="/districts/buffalo-city-sd/">Buffalo City Schools</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h4>Resources</h4>
+            <ul class="footer-links">
+               <li><a href="/about/">About Us</a></li>
+               <li><a href="/contact/">Contact Support</a></li>
+               <li><a href="/privacy-policy/">Privacy Policy</a></li>
+               <li><a href="/sitemap.xml">Sitemap</a></li>
+               <li><a href="/es/guias/">Guías en Español</a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="footer-bottom">
+         <p>© 2026 New York Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br />
+            For official inquiries, visit <a href="https://schools.nyc.gov" style="color:#d4af37;">schools.nyc.gov</a> or <a href="https://nysed.gov" style="color:#d4af37;">nysed.gov</a>.</p>
+      </div>
+   </footer>
+
+   <!-- ═══════════ FILTER SCRIPT ═══════════ -->
+   <script>
+      (function() {
+         var btns = document.querySelectorAll('.filter-btn');
+         var sections = document.querySelectorAll('.category-section');
+
+         btns.forEach(function(btn) {
+            btn.addEventListener('click', function() {
+               var filter = this.getAttribute('data-filter');
+
+               btns.forEach(function(b) {
+                  b.classList.remove('active');
+               });
+               this.classList.add('active');
+
+               if (filter === 'all') {
+                  sections.forEach(function(s) {
+                     s.removeAttribute('data-hidden');
+                     s.querySelectorAll('.hub-card').forEach(function(c) {
+                        c.removeAttribute('data-hidden');
+                     });
+                  });
+               } else {
+                  sections.forEach(function(section) {
+                     var cards = section.querySelectorAll('.hub-card');
+                     var hasVisible = false;
+                     cards.forEach(function(card) {
+                        if (card.getAttribute('data-cat') === filter) {
+                           card.removeAttribute('data-hidden');
+                           hasVisible = true;
+                        } else {
+                           card.setAttribute('data-hidden', 'true');
+                        }
+                     });
+                     hasVisible
+                        ?
+                        section.removeAttribute('data-hidden') :
+                        section.setAttribute('data-hidden', 'true');
+                  });
+               }
+            });
+         });
+      })();
+   </script>
+
+   <!-- ═══════════ NEWSLETTER POPUP (preserved exactly from original) ═══════════ -->
+   <div id="ec-overlay" style="display:none;position:fixed;inset:0;background:rgba(10,15,30,.72);z-index:9998;align-items:center;justify-content:center;backdrop-filter:blur(3px);">
+      <div id="ec-modal" style="max-width:420px;width:92%;position:relative;font-family:'DM Sans',sans-serif;border-radius:6px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.45);">
+         <div id="ec-header" style="background:#002868;padding:28px 28px 22px;border-bottom:3px solid #d4af37;position:relative;">
+            <button id="ec-close" aria-label="Close" style="position:absolute;top:14px;right:16px;background:none;border:none;color:rgba(255,255,255,.5);font-size:18px;cursor:pointer;line-height:1;padding:4px;">✕</button>
+            <div style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#d4af37;margin-bottom:10px;">District Intelligence</div>
+            <h2 id="ec-title" style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:500;color:#f5f0e8;line-height:1.15;margin:0;"></h2>
+         </div>
+         <div style="background:#fdfaf5;padding:26px 28px 24px;">
+            <p id="ec-body" style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:#002868;line-height:1.45;margin:0 0 14px;"></p>
+            <div style="width:40px;height:2px;background:#d4af37;margin-bottom:18px;"></div>
+            <ul id="ec-checklist" style="list-style:none;margin:0 0 22px;padding:0;"></ul>
+            <div id="ec-form-wrap">
+               <input id="ec-email" type="email" placeholder="your@email.com" style="width:100%;box-sizing:border-box;padding:11px 14px;border:1.5px solid #d6cbbf;border-radius:4px;font-size:14px;font-family:'DM Sans',sans-serif;margin-bottom:10px;outline:none;background:#fff;color:#1a1410;" />
+               <button id="ec-submit" style="width:100%;padding:14px;background:#c8102e;color:#fff;border:none;border-radius:4px;font-weight:600;font-family:'DM Sans',sans-serif;font-size:15px;cursor:pointer;transition:background .2s;letter-spacing:.01em;"></button>
+            </div>
+            <div id="ec-success" style="display:none;text-align:center;padding:12px 0 6px;">
+               <div style="font-family:'Cormorant Garamond',serif;font-size:32px;color:#d4af37;margin-bottom:8px;">✦</div>
+               <p style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#002868;margin:0 0 6px;">You're on the list.</p>
+               <p style="font-size:13px;color:#6b5f53;margin:0;line-height:1.5;">District updates and parent rights resources will arrive in your inbox.</p>
+            </div>
+         </div>
+         <p style="margin:14px 0 0;font-size:11px;color:#b0a799;text-align:center;letter-spacing:.02em;">No spam  ·  Unsubscribe any time</p>
+      </div>
+   </div>
+
+   <script id="ec-script" data-site="new_york_special_ed" data-language="en" data-delay="10000" data-api="https://email-capture-api-831148457361.us-central1.run.app">
+      (function() {
+         var script = document.getElementById("ec-script");
+         var API_BASE = script.getAttribute("data-api");
+         var SITE = script.getAttribute("data-site") || "new_york_special_ed";
+         var LANG = script.getAttribute("data-language") || "en";
+         var DELAY = parseInt(script.getAttribute("data-delay") || "10000", 10);
+         var COPY = {
+            en: {
+               title: "Know Your District.<br><em style='color:#e5c158;font-style:italic;'>Know Your Rights.</em>",
+               body: "Most NYC parents don't know what their district is required to provide — until it's too late.",
+               checks: ["District-specific CSE timelines & contacts", "IEP rights and evaluation deadlines", "What to say at your next meeting", "Real outcomes from parents in your district"],
+               button: "Send Me Free District Updates"
+            },
+            es: {
+               title: "Conozca Su Distrito.<br><em style='color:#e5c158;font-style:italic;'>Sus Derechos.</em>",
+               body: "La mayoría de los padres de NYC no saben lo que su distrito está obligado a proveer.",
+               checks: ["Plazos del CSE y contactos por distrito", "Derechos del IEP y plazos de evaluación", "Qué decir en su próxima reunión", "Resultados reales de padres en su distrito"],
+               button: "Recibir Actualizaciones Gratis"
+            }
+         };
+         var copy = COPY[LANG] || COPY.en;
+         var STORAGE_KEY = "ec_dismissed_" + SITE + "_" + LANG;
+         if (localStorage.getItem(STORAGE_KEY)) return;
+         document.getElementById("ec-title").innerHTML = copy.title;
+         document.getElementById("ec-body").textContent = copy.body;
+         document.getElementById("ec-submit").textContent = copy.button;
+         var list = document.getElementById("ec-checklist");
+         copy.checks.forEach(function(item) {
+            var li = document.createElement("li");
+            li.style.cssText = "font-size:13px;color:#6b5f53;padding:5px 0 5px 20px;position:relative;";
+            li.innerHTML = '<span style="position:absolute;left:0;font-family:\'Cormorant Garamond\',serif;font-size:16px;color:#d4af37;">§</span>' + item;
+            list.appendChild(li);
+         });
+         var overlay = document.getElementById("ec-overlay");
+         var emailEl = document.getElementById("ec-email");
+         var submitEl = document.getElementById("ec-submit");
+         setTimeout(function() {
+            overlay.style.display = "flex";
+            emailEl.focus();
+         }, DELAY);
+
+         function close() {
+            overlay.style.display = "none";
+            localStorage.setItem(STORAGE_KEY, "1");
+         }
+         document.getElementById("ec-close").addEventListener("click", close);
+         overlay.addEventListener("click", function(e) {
+            if (e.target === overlay) close();
+         });
+         document.addEventListener("keydown", function(e) {
+            if (e.key === "Escape") close();
+         });
+         submitEl.addEventListener("mouseover", function() {
+            this.style.background = "#a50b24";
+         });
+         submitEl.addEventListener("mouseout", function() {
+            this.style.background = "#c8102e";
+         });
+         submitEl.addEventListener("click", function() {
+            var email = emailEl.value.trim();
+            if (!email || !email.includes("@")) {
+               emailEl.style.borderColor = "#c8102e";
+               emailEl.focus();
+               return;
+            }
+            emailEl.style.borderColor = "#d6cbbf";
+            submitEl.disabled = true;
+            submitEl.textContent = "…";
+            fetch(API_BASE + "/api/signup", {
+                  method: "POST",
+                  headers: {
+                     "Content-Type": "application/json"
+                  },
+                  body: JSON.stringify({
+                     email: email,
+                     site: SITE,
+                     language: LANG,
+                     source: "newsletter_popup",
+                     page_url: window.location.href,
+                     page_title: document.title
+                  })
+               })
+               .then(function(r) {
+                  return r.json();
+               })
+               .then(function(res) {
+                  if (res.success) {
+                     document.getElementById("ec-form-wrap").style.display = "none";
+                     document.getElementById("ec-success").style.display = "block";
+                     localStorage.setItem(STORAGE_KEY, "1");
+                     setTimeout(close, 4000);
+                  } else {
+                     submitEl.disabled = false;
+                     submitEl.textContent = copy.button;
+                     alert(res.error || "Something went wrong. Please try again.");
+                  }
+               })
+               .catch(function() {
+                  submitEl.disabled = false;
+                  submitEl.textContent = copy.button;
+                  alert("Network error. Please try again.");
+               });
+         });
+         emailEl.addEventListener("keydown", function(e) {
+            if (e.key === "Enter") submitEl.click();
+         });
+      })();
+   </script>
 </body>
+
 </html>

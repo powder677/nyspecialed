@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<!-- ═══════════════════════════════════════════
+     REEMPLAZA ESTAS ETIQUETAS META EN CADA ARTÍCULO
+═══════════════════════════════════════════ -->
+<title>La guía definitiva para la defensa de los padres en Nueva York | NY Special Ed</title>
+<meta content="Aprenda sobre La guía definitiva para la defensa de los padres en Nueva York. Una guía en español para padres de Nueva York." name="description"/>
+<link href="https://www.newyorkspecialed.net/es/guias/parent-advocacy-guide-es/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="La guía definitiva para la defensa de los padres en Nueva York | NY Special Ed" property="og:title"/>
+<meta content="Aprenda sobre La guía definitiva para la defensa de los padres en Nueva York. Una guía en español para padres de Nueva York." property="og:description"/>
+<meta content="https://www.newyorkspecialed.net/es/guias/parent-advocacy-guide-es/" property="og:url"/>
+<meta content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="La guía definitiva para la defensa de los padres en Nueva York | NY Special Ed" name="twitter:title"/>
+<meta content="Aprenda sobre La guía definitiva para la defensa de los padres en Nueva York. Una guía en español para padres de Nueva York." name="twitter:description"/>
+<link href="/styles/global.css" rel="stylesheet"/>
+<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
+<style>
+      /* ═══════════════════════════════════════════
+   GLOBAL / TOKENS
+═══════════════════════════════════════════ */
+      :root {
+         --navy: #002868;
+         --red: #c8102e;
+         --gold: #d4af37;
+         --cream: #fdfaf5;
+         --slate: #475569;
+         --border: #e2e8f0;
+         --bg: #f8fafc;
+      }
+
+      /* ═══════════════════════════════════════════
+   NAV
+═══════════════════════════════════════════ */
+      .site-nav {
+         position: sticky;
+         top: 0;
+         z-index: 100;
+         background: #fff;
+         border-bottom: 1px solid var(--border);
+      }
+
+      .nav-inner {
+         max-width: 1160px;
+         margin: 0 auto;
+         padding: 0 24px;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         height: 58px;
+         gap: 32px;
+      }
+
+      .nav-wordmark {
+         font-family: 'Cormorant Garamond', serif;
+         font-size: 1.18rem;
+         font-weight: 600;
+         color: var(--navy);
+         text-decoration: none;
+         white-space: nowrap;
+         letter-spacing: .01em;
+         flex-shrink: 0;
+      }
+
+      .nav-wordmark span {
+         color: var(--red);
+      }
+
+      .nav-links {
+         display: flex;
+         list-style: none;
+         align-items: center;
+         gap: 2px;
+         flex: 1;
+         justify-content: center;
+      }
+
+      .nav-item {
+         position: relative;
+      }
+
+      .nav-link {
+         display: block;
+         padding: 8px 13px;
+         font-size: .84rem;
+         font-weight: 500;
+         color: #374151;
+         text-decoration: none;
+         border-radius: 5px;
+         transition: color .15s, background .15s;
+         white-space: nowrap;
+         cursor: pointer;
+         background: none;
+         border: none;
+         font-family: inherit;
+      }
+
+      .nav-link:hover {
+         color: var(--navy);
+         background: #f1f5f9;
+      }
+
+      .nav-dropdown {
+         display: none;
+         position: absolute;
+         top: calc(100% + 8px);
+         left: 0;
+         background: #fff;
+         border: 1px solid var(--border);
+         border-radius: 10px;
+         box-shadow: 0 12px 32px rgba(0, 0, 0, .10);
+         padding: 10px 0;
+         min-width: 220px;
+         z-index: 200;
+      }
+
+      .nav-dropdown.wide {
+         min-width: 540px;
+         display: none;
+         grid-template-columns: 1fr 1fr 1fr;
+         padding: 20px;
+         gap: 0 24px;
+      }
+
+      .nav-item:hover .nav-dropdown {
+         display: block;
+      }
+
+      .nav-item:hover .nav-dropdown.wide {
+         display: grid;
+      }
+
+      .nav-dropdown a {
+         display: block;
+         padding: 8px 18px;
+         font-size: .83rem;
+         color: #374151;
+         text-decoration: none;
+         transition: background .12s, color .12s;
+      }
+
+      .nav-dropdown a:hover {
+         background: #f1f5f9;
+         color: var(--navy);
+      }
+
+      .dropdown-section h4 {
+         font-size: .7rem;
+         font-weight: 700;
+         letter-spacing: .1em;
+         text-transform: uppercase;
+         color: #94a3b8;
+         padding: 6px 18px 4px;
+         margin-bottom: 2px;
+      }
+
+      .dropdown-section.wide-col h4 {
+         padding: 0 0 8px;
+         margin-bottom: 4px;
+         border-bottom: 1px solid #f1f5f9;
+      }
+
+      .dropdown-section.wide-col a {
+         padding: 6px 0;
+      }
+
+      .nav-es-badge {
+         display: inline-flex;
+         align-items: center;
+         gap: 5px;
+         font-size: .83rem;
+         font-weight: 600;
+         color: var(--red);
+         padding: 5px 11px;
+         border-radius: 5px;
+         cursor: pointer;
+         background: none;
+         border: none;
+         font-family: inherit;
+         transition: background .15s;
+      }
+
+      .nav-item:hover .nav-es-badge {
+         background: #fff5f5;
+      }
+
+      .nav-cta {
+         display: inline-block;
+         padding: 8px 16px;
+         background: var(--navy);
+         color: #fff !important;
+         font-size: .83rem;
+         font-weight: 600;
+         border-radius: 6px;
+         text-decoration: none;
+         transition: background .15s;
+         white-space: nowrap;
+         flex-shrink: 0;
+      }
+
+      .nav-cta:hover {
+         background: #001a44;
+      }
+
+      .nav-mobile-toggle {
+         display: none;
+         background: none;
+         border: 1px solid var(--border);
+         border-radius: 6px;
+         padding: 6px 10px;
+         cursor: pointer;
+         font-size: 1.1rem;
+         color: #374151;
+      }
+
+      .mobile-menu {
+         display: none;
+         background: #fff;
+         border-top: 1px solid var(--border);
+         padding: 16px 24px 20px;
+      }
+
+      .mobile-menu a {
+         display: block;
+         padding: 10px 0;
+         font-size: .9rem;
+         color: #374151;
+         text-decoration: none;
+         border-bottom: 1px solid #f1f5f9;
+      }
+
+      .mobile-menu a:last-child {
+         border-bottom: none;
+      }
+
+      .mobile-section-head {
+         font-size: .7rem;
+         font-weight: 700;
+         letter-spacing: .1em;
+         text-transform: uppercase;
+         color: #94a3b8;
+         padding: 14px 0 4px;
+      }
+
+      @media(max-width:900px) {
+         .nav-links {
+            display: none;
+         }
+
+         .nav-cta {
+            display: none;
+         }
+
+         .nav-mobile-toggle {
+            display: block;
+         }
+      }
+
+      @media(max-width:900px) {
+         .mobile-menu.open {
+            display: block;
+         }
+      }
+
+      /* ═══════════════════════════════════════════
+   LANGUAGE SWITCHER BANNER
+═══════════════════════════════════════════ */
+      .lang-banner {
+         background: #fff8f0;
+         border-bottom: 1px solid #ffe4cc;
+         padding: 9px 24px;
+         text-align: center;
+         font-size: .82rem;
+         color: #92400e;
+      }
+
+      .lang-banner a {
+         color: var(--navy);
+         font-weight: 600;
+         text-decoration: underline;
+         text-underline-offset: 2px;
+      }
+
+      /* ═══════════════════════════════════════════
+   BLOG HERO (Spanish — gold accent badge)
+═══════════════════════════════════════════ */
+      .blog-hero {
+         background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+         padding: 56px 24px 80px;
+         text-align: center;
+         position: relative;
+         overflow: hidden;
+      }
+
+      .blog-hero::before {
+         content: '';
+         position: absolute;
+         inset: 0;
+         background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+         pointer-events: none;
+      }
+
+      /* Spanish page flag accent strip */
+      .blog-hero::after {
+         content: '';
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         height: 3px;
+         background: linear-gradient(90deg, #aa151b 33.3%, #f1bf00 33.3% 66.6%, #aa151b 66.6%);
+      }
+
+      .blog-hero-inner {
+         position: relative;
+         max-width: 760px;
+         margin: 0 auto;
+      }
+
+      .blog-breadcrumb {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 6px;
+         font-size: .78rem;
+         font-weight: 500;
+         color: rgba(255, 255, 255, .55);
+         margin-bottom: 20px;
+      }
+
+      .blog-breadcrumb a {
+         color: rgba(255, 255, 255, .55);
+         text-decoration: none;
+         transition: color .15s;
+      }
+
+      .blog-breadcrumb a:hover {
+         color: var(--gold);
+      }
+
+      .blog-breadcrumb .sep {
+         color: rgba(255, 255, 255, .3);
+      }
+
+      /* Spanish badge — gold instead of red to differentiate */
+      .blog-category-badge {
+         display: inline-flex;
+         align-items: center;
+         gap: 6px;
+         background: var(--gold);
+         color: #1a1410;
+         font-size: .72rem;
+         font-weight: 700;
+         letter-spacing: .1em;
+         text-transform: uppercase;
+         padding: 4px 14px;
+         border-radius: 3px;
+         margin-bottom: 18px;
+      }
+
+      .blog-hero-title {
+         font-family: 'Cormorant Garamond', serif;
+         font-size: clamp(2rem, 5vw, 3.2rem);
+         font-weight: 600;
+         color: #fff;
+         line-height: 1.18;
+         margin: 0 0 20px;
+         text-shadow: 0 2px 8px rgba(0, 0, 0, .3);
+      }
+
+      .blog-hero-meta {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 18px;
+         flex-wrap: wrap;
+         font-size: .8rem;
+         color: rgba(255, 255, 255, .6);
+      }
+
+      .blog-hero-meta span {
+         display: flex;
+         align-items: center;
+         gap: 5px;
+      }
+
+      .blog-hero-meta i {
+         color: var(--gold);
+         font-size: .75rem;
+      }
+
+      /* ═══════════════════════════════════════════
+   LAYOUT
+═══════════════════════════════════════════ */
+      .blog-layout {
+         max-width: 1100px;
+         margin: -32px auto 64px;
+         padding: 0 20px;
+         display: grid;
+         grid-template-columns: 1fr 300px;
+         gap: 32px;
+         position: relative;
+         z-index: 2;
+      }
+
+      @media(max-width: 860px) {
+         .blog-layout {
+            grid-template-columns: 1fr;
+         }
+
+         .blog-sidebar {
+            order: -1;
+         }
+      }
+
+      /* ═══════════════════════════════════════════
+   ARTICLE
+═══════════════════════════════════════════ */
+      .blog-article {
+         background: #fff;
+         border-radius: 12px;
+         border: 1px solid var(--border);
+         border-top: 4px solid var(--gold);
+         /* Gold top border for Spanish pages */
+         box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .08);
+         padding: 48px 52px;
+      }
+
+      @media(max-width:620px) {
+         .blog-article {
+            padding: 28px 22px;
+         }
+      }
+
+      .blog-article h2 {
+         font-family: 'Cormorant Garamond', serif;
+         font-size: 1.75rem;
+         font-weight: 600;
+         color: var(--navy);
+         margin: 2.2em 0 .6em;
+         padding-bottom: .4em;
+         border-bottom: 1px solid #f1f5f9;
+         line-height: 1.2;
+      }
+
+      .blog-article h2:first-of-type {
+         margin-top: 0;
+      }
+
+      .blog-article h3 {
+         font-family: 'Cormorant Garamond', serif;
+         font-size: 1.3rem;
+         font-weight: 600;
+         color: var(--navy);
+         margin: 1.8em 0 .5em;
+      }
+
+      .blog-article p {
+         font-family: 'DM Sans', sans-serif;
+         font-size: 1.025rem;
+         line-height: 1.78;
+         color: #334155;
+         margin: 0 0 1.2em;
+      }
+
+      .blog-article ul,
+      .blog-article ol {
+         font-family: 'DM Sans', sans-serif;
+         font-size: 1.025rem;
+         line-height: 1.78;
+         color: #334155;
+         padding-left: 1.5em;
+         margin: 0 0 1.2em;
+      }
+
+      .blog-article li {
+         margin-bottom: .5em;
+      }
+
+      .blog-article strong {
+         color: #1e293b;
+         font-weight: 600;
+      }
+
+      .blog-article a {
+         color: var(--navy);
+         font-weight: 500;
+         text-decoration: underline;
+         text-decoration-color: var(--gold);
+         text-underline-offset: 3px;
+         transition: color .15s;
+      }
+
+      .blog-article a:hover {
+         color: var(--red);
+      }
+
+      .blog-article hr {
+         border: none;
+         border-top: 1px solid var(--border);
+         margin: 2.5em 0;
+      }
+
+      /* Callouts */
+      .callout {
+         background: #eff6ff;
+         border-left: 4px solid var(--navy);
+         border-radius: 0 8px 8px 0;
+         padding: 18px 22px;
+         margin: 1.8em 0;
+      }
+
+      .callout.red {
+         background: #fff5f5;
+         border-color: var(--red);
+      }
+
+      .callout.gold {
+         background: #fffbeb;
+         border-color: var(--gold);
+      }
+
+      .callout-label {
+         font-size: .72rem;
+         font-weight: 700;
+         letter-spacing: .1em;
+         text-transform: uppercase;
+         color: var(--navy);
+         margin-bottom: 6px;
+         display: block;
+      }
+
+      .callout.red .callout-label {
+         color: var(--red);
+      }
+
+      .callout.gold .callout-label {
+         color: #92400e;
+      }
+
+      .callout p {
+         margin: 0;
+         font-size: .96rem;
+         color: #1e293b;
+      }
+
+      .pull-quote {
+         border-left: 4px solid var(--gold);
+         padding: 12px 24px;
+         margin: 2em 0;
+         font-family: 'Cormorant Garamond', serif;
+         font-size: 1.45rem;
+         font-weight: 500;
+         font-style: italic;
+         color: var(--navy);
+         line-height: 1.45;
+      }
+
+      .key-term {
+         background: linear-gradient(120deg, #fef9c3 0%, #fef9c3 100%);
+         padding: 1px 5px;
+         border-radius: 3px;
+         font-weight: 600;
+         color: #92400e;
+      }
+
+      /* Spanish legal term — slightly different styling to signal translation */
+      .term-es {
+         font-style: italic;
+         color: #6b5f53;
+         font-size: .92em;
+      }
+
+      .share-bar {
+         display: flex;
+         align-items: center;
+         gap: 10px;
+         flex-wrap: wrap;
+         margin-top: 3em;
+         padding-top: 1.5em;
+         border-top: 1px solid var(--border);
+      }
+
+      .share-bar-label {
+         font-size: .78rem;
+         font-weight: 700;
+         letter-spacing: .08em;
+         text-transform: uppercase;
+         color: #94a3b8;
+      }
+
+      .share-btn {
+         display: inline-flex;
+         align-items: center;
+         gap: 6px;
+         padding: 7px 14px;
+         border-radius: 5px;
+         font-size: .8rem;
+         font-weight: 600;
+         text-decoration: none;
+         transition: opacity .15s;
+      }
+
+      .share-btn:hover {
+         opacity: .8;
+      }
+
+      .share-btn.fb {
+         background: #1877f2;
+         color: #fff;
+      }
+
+      .share-btn.tw {
+         background: #000;
+         color: #fff;
+      }
+
+      .share-btn.copy {
+         background: var(--border);
+         color: #334155;
+         cursor: pointer;
+         border: none;
+         font-family: inherit;
+      }
+
+      /* ═══════════════════════════════════════════
+   SIDEBAR
+═══════════════════════════════════════════ */
+      .blog-sidebar {
+         display: flex;
+         flex-direction: column;
+         gap: 22px;
+      }
+
+      .sidebar-card {
+         background: #fff;
+         border: 1px solid var(--border);
+         border-top: 3px solid var(--navy);
+         border-radius: 10px;
+         padding: 22px;
+         box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
+      }
+
+      .sidebar-card h4 {
+         font-size: .7rem;
+         font-weight: 700;
+         letter-spacing: .12em;
+         text-transform: uppercase;
+         color: #94a3b8;
+         margin: 0 0 14px;
+      }
+
+      .toc-list {
+         list-style: none;
+         padding: 0;
+         margin: 0;
+         counter-reset: toc;
+      }
+
+      .toc-list li {
+         counter-increment: toc;
+         padding: 7px 0;
+         border-bottom: 1px solid #f1f5f9;
+         display: flex;
+         align-items: flex-start;
+         gap: 10px;
+      }
+
+      .toc-list li:last-child {
+         border-bottom: none;
+      }
+
+      .toc-list li::before {
+         content: counter(toc);
+         min-width: 22px;
+         height: 22px;
+         background: var(--navy);
+         color: #fff;
+         font-size: .68rem;
+         font-weight: 700;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         border-radius: 50%;
+         flex-shrink: 0;
+         margin-top: 1px;
+      }
+
+      .toc-list a {
+         font-size: .85rem;
+         color: #374151;
+         text-decoration: none;
+         line-height: 1.4;
+         transition: color .15s;
+      }
+
+      .toc-list a:hover {
+         color: var(--navy);
+      }
+
+      .related-list {
+         list-style: none;
+         padding: 0;
+         margin: 0;
+      }
+
+      .related-list li {
+         padding: 8px 0;
+         border-bottom: 1px solid #f1f5f9;
+      }
+
+      .related-list li:last-child {
+         border-bottom: none;
+      }
+
+      .related-list a {
+         font-size: .88rem;
+         color: #374151;
+         text-decoration: none;
+         display: flex;
+         align-items: center;
+         gap: 8px;
+         transition: color .15s;
+      }
+
+      .related-list a i {
+         color: var(--red);
+         font-size: .8rem;
+         flex-shrink: 0;
+      }
+
+      .related-list a:hover {
+         color: var(--navy);
+      }
+
+      .sidebar-newsletter {
+         background: linear-gradient(135deg, var(--navy) 0%, #1e3a8a 100%);
+         border: none;
+      }
+
+      .sidebar-newsletter h4 {
+         color: var(--gold);
+      }
+
+      .sidebar-newsletter p {
+         font-family: 'Cormorant Garamond', serif;
+         font-size: 1.05rem;
+         color: #e2e8f0;
+         margin: 0 0 14px;
+         line-height: 1.5;
+      }
+
+      .sidebar-newsletter input {
+         width: 100%;
+         box-sizing: border-box;
+         padding: 10px 12px;
+         border: 1.5px solid rgba(255, 255, 255, .2);
+         background: rgba(255, 255, 255, .1);
+         color: #fff;
+         border-radius: 5px;
+         font-size: .88rem;
+         font-family: inherit;
+         margin-bottom: 8px;
+         outline: none;
+      }
+
+      .sidebar-newsletter input::placeholder {
+         color: rgba(255, 255, 255, .45);
+      }
+
+      .sidebar-newsletter input:focus {
+         border-color: var(--gold);
+      }
+
+      .sidebar-newsletter button {
+         width: 100%;
+         padding: 11px;
+         background: var(--red);
+         color: #fff;
+         border: none;
+         border-radius: 5px;
+         font-size: .88rem;
+         font-weight: 600;
+         cursor: pointer;
+         font-family: inherit;
+         transition: background .2s;
+      }
+
+      .sidebar-newsletter button:hover {
+         background: #a50b24;
+      }
+
+      .sidebar-newsletter .fine {
+         font-size: .72rem;
+         color: rgba(255, 255, 255, .4);
+         text-align: center;
+         margin-top: 8px;
+         display: block;
+      }
+
+      /* ═══════════════════════════════════════════
+   RELATED POSTS
+═══════════════════════════════════════════ */
+      .related-posts-section {
+         max-width: 1100px;
+         margin: 0 auto 64px;
+         padding: 0 20px;
+      }
+
+      .related-posts-section h2 {
+         font-family: 'Cormorant Garamond', serif;
+         font-size: 1.6rem;
+         font-weight: 600;
+         color: var(--navy);
+         margin: 0 0 20px;
+         display: flex;
+         align-items: center;
+         gap: 10px;
+      }
+
+      .related-posts-section h2::after {
+         content: '';
+         flex: 1;
+         height: 1px;
+         background: var(--border);
+      }
+
+      .related-grid {
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+         gap: 20px;
+      }
+
+      .related-card {
+         background: #fff;
+         border: 1px solid var(--border);
+         border-top: 4px solid var(--gold);
+         border-radius: 10px;
+         padding: 24px;
+         text-decoration: none;
+         color: inherit;
+         box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
+         transition: transform .2s ease, box-shadow .2s ease;
+         display: flex;
+         flex-direction: column;
+      }
+
+      .related-card:hover {
+         transform: translateY(-4px);
+         box-shadow: 0 12px 24px rgba(0, 0, 0, .1);
+      }
+
+      .related-card .rc-tag {
+         font-size: .7rem;
+         font-weight: 700;
+         letter-spacing: .1em;
+         text-transform: uppercase;
+         color: #92400e;
+         margin-bottom: 8px;
+      }
+
+      .related-card h3 {
+         font-family: 'Cormorant Garamond', serif;
+         font-size: 1.2rem;
+         font-weight: 600;
+         color: var(--navy);
+         margin: 0 0 8px;
+         line-height: 1.3;
+      }
+
+      .related-card p {
+         font-size: .88rem;
+         color: var(--slate);
+         margin: 0;
+         line-height: 1.5;
+      }
+
+      .related-card .rc-link {
+         margin-top: auto;
+         padding-top: 14px;
+         font-size: .82rem;
+         font-weight: 600;
+         color: var(--navy);
+         display: flex;
+         align-items: center;
+         gap: 5px;
+      }
+
+      /* ═══════════════════════════════════════════
+   FOOTER
+═══════════════════════════════════════════ */
+      .site-footer {
+         background: #1a110a;
+         color: #d6cdbf;
+         padding: 56px 24px 0;
+         font-family: 'DM Sans', sans-serif;
+      }
+
+      .footer-container {
+         max-width: 1100px;
+         margin: 0 auto;
+         display: grid;
+         grid-template-columns: 2fr 1fr 1fr 1fr;
+         gap: 40px;
+         padding-bottom: 48px;
+      }
+
+      @media(max-width:800px) {
+         .footer-container {
+            grid-template-columns: 1fr 1fr;
+         }
+      }
+
+      @media(max-width:480px) {
+         .footer-container {
+            grid-template-columns: 1fr;
+         }
+      }
+
+      .footer-brand h3 {
+         font-family: 'Cormorant Garamond', serif;
+         font-size: 1.3rem;
+         font-weight: 600;
+         color: #f5f0e8;
+         margin: 0 0 12px;
+      }
+
+      .footer-brand h3 span {
+         color: var(--gold);
+      }
+
+      .footer-brand p {
+         font-size: .88rem;
+         line-height: 1.65;
+         color: #a89e94;
+         margin: 0;
+      }
+
+      .footer-col h4 {
+         font-size: .72rem;
+         font-weight: 700;
+         letter-spacing: .12em;
+         text-transform: uppercase;
+         color: var(--gold);
+         margin: 0 0 14px;
+      }
+
+      .footer-links {
+         list-style: none;
+         padding: 0;
+         margin: 0;
+      }
+
+      .footer-links li {
+         margin-bottom: 8px;
+      }
+
+      .footer-links a {
+         font-size: .88rem;
+         color: #a89e94;
+         text-decoration: none;
+         transition: color .15s;
+      }
+
+      .footer-links a:hover {
+         color: #f5f0e8;
+      }
+
+      .footer-bottom {
+         border-top: 1px solid rgba(255, 255, 255, .08);
+         padding: 20px 0;
+         text-align: center;
+         max-width: 1100px;
+         margin: 0 auto;
+      }
+
+      .footer-bottom p {
+         font-size: .78rem;
+         color: #6b5f53;
+         margin: 0;
+         line-height: 1.6;
+      }
+   </style>
+</head>
+<body style="background: var(--bg, #f8fafc);">
+<!-- Language Switcher Banner -->
+<div class="lang-banner">
+      🇺🇸 ¿Prefiere leer en inglés? <a href="https://www.newyorkspecialed.net/guides/parent-advocacy-guide-es/">Ver versión en inglés</a>
+</div>
+<!-- ═══════════════════════════════════════
+     NAV
+═══════════════════════════════════════ -->
+<header class="site-nav">
+<div class="nav-inner">
+<a class="nav-wordmark" href="/">NY Special<span>Ed</span>.net</a>
+<ul class="nav-links">
+<li class="nav-item">
+<button class="nav-link">NYC Districts ▼</button>
+<div class="nav-dropdown wide">
+<div class="dropdown-section wide-col">
+<h4>Manhattan</h4>
+<a href="/districts/nyc-district-01-lower-east-side/">D1 · Lower East Side</a>
+<a href="/districts/nyc-district-02-upper-east-side/">D2 · Upper East Side</a>
+<a href="/districts/nyc-district-03-upper-west-side/">D3 · Upper West Side</a>
+<a href="/districts/nyc-district-04-east-harlem/">D4 · East Harlem</a>
+<a href="/districts/nyc-district-05-central-harlem/">D5 · Central Harlem</a>
+<a href="/districts/nyc-district-06-washington-heights/">D6 · Washington Heights</a>
+</div>
+<div class="dropdown-section wide-col">
+<h4>Brooklyn &amp; Queens</h4>
+<a href="/districts/nyc-district-13-brooklyn-heights/">D13 · Brooklyn Heights</a>
+<a href="/districts/nyc-district-15-park-slope/">D15 · Park Slope</a>
+<a href="/districts/nyc-district-20-bay-ridge/">D20 · Bay Ridge</a>
+<a href="/districts/nyc-district-26-bayside/">D26 · Bayside</a>
+<a href="/districts/nyc-district-30-astoria/">D30 · Astoria / LIC</a>
+<a href="/districts/nyc-district-75/" style="font-weight:600;color:#002868;">D75 · Citywide Programs</a>
+</div>
+<div class="dropdown-section wide-col">
+<h4>Bronx &amp; Staten Island</h4>
+<a href="/districts/nyc-district-07-south-bronx/">D7 · South Bronx</a>
+<a href="/districts/nyc-district-09-grand-concourse/">D9 · Grand Concourse</a>
+<a href="/districts/nyc-district-10-riverdale/">D10 · Riverdale</a>
+<a href="/districts/nyc-district-12-soundview/">D12 · Soundview</a>
+<a href="/districts/nyc-district-31-staten-island/">D31 · Staten Island</a>
+<a href="/districts/" style="font-weight:600;color:#002868;">Ver los 32 Distritos →</a>
+</div>
+</div>
+</li>
+<li class="nav-item">
+<button class="nav-link">Upstate &amp; LI ▼</button>
+<div class="nav-dropdown">
+<div class="dropdown-section">
+<h4>Grandes Ciudades</h4>
+<a href="/districts/buffalo-city-sd/">Buffalo City SD</a>
+<a href="/districts/rochester-city-sd/">Rochester City SD</a>
+<a href="/districts/syracuse-city-sd/">Syracuse City SD</a>
+<a href="/districts/yonkers-city-sd/">Yonkers City SD</a>
+<a href="/districts/albany-city-sd/">Albany City SD</a>
+</div>
+<div class="dropdown-section">
+<h4>Long Island</h4>
+<a href="/districts/sachem-csd/">Sachem CSD</a>
+<a href="/districts/brentwood-ufsd/">Brentwood UFSD</a>
+<a href="/districts/hempstead-ufsd/">Hempstead UFSD</a>
+<a href="/districts/freeport-ufsd/">Freeport UFSD</a>
+</div>
+</div>
+</li>
+<li class="nav-item">
+<button class="nav-link">Guías para Padres ▼</button>
+<div class="nav-dropdown">
+<div class="dropdown-section">
+<a href="/es/guias/reuni%C3%B3n-cse/">Guía de Reunión CSE</a>
+<a href="/es/guias/solicitar-evaluacion/">Solicitar una Evaluación</a>
+<a href="/es/guias/derechos-iep-bilingue/">Derechos IEP Bilingüe</a>
+<a href="/guides/cpse-preschool-special-education/">Guía Preescolar (CPSE)</a>
+<a href="/guides/carter-cases-private-placement/">Colocación Privada (Carter)</a>
+<a href="/guides/dispute-resolution-ny/">Proceso Debido &amp; Quejas</a>
+</div>
+</div>
+</li>
+<li class="nav-item">
+<button class="nav-link nav-es-badge">🇪🇸 En Español ▼</button>
+<div class="nav-dropdown">
+<div class="dropdown-section">
+<h4>Herramientas en Español</h4>
+<a href="/es/distritos/">Directorio de Distritos</a>
+<a href="/es/guias/reuni%C3%B3n-cse/">Guía de Reunión CSE</a>
+<a href="/es/guias/solicitar-evaluacion/">Solicitar una Evaluación</a>
+<a href="/es/guias/derechos-iep-bilingue/">Derechos IEP Bilingüe</a>
+<a href="/tools/">Generador de Carta IEP →</a>
+</div>
+</div>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/tools/">Herramientas Gratis</a>
+</li>
+</ul>
+<a class="nav-cta" href="/contact/">Obtener el Kit</a>
+<button aria-label="Abrir menú" class="nav-mobile-toggle" id="mobileToggle">☰</button>
+</div>
+<div class="mobile-menu" id="mobileMenu">
+<div class="mobile-section-head">Distritos NYC</div>
+<a href="/districts/nyc-district-03-upper-west-side/">D3 · Upper West Side</a>
+<a href="/districts/nyc-district-06-washington-heights/">D6 · Washington Heights</a>
+<a href="/districts/nyc-district-75/">D75 · Programas Citywide</a>
+<a href="/districts/">Ver todos los distritos →</a>
+<div class="mobile-section-head">Guías para Padres</div>
+<a href="/es/guias/reuni%C3%B3n-cse/">Guía de Reunión CSE</a>
+<a href="/es/guias/solicitar-evaluacion/">Solicitar una Evaluación</a>
+<a href="/guides/carter-cases-private-placement/">Colocación Privada (Carter)</a>
+<div class="mobile-section-head">🇪🇸 En Español</div>
+<a href="/es/distritos/">Directorio de Distritos</a>
+<a href="/tools/">Herramientas Gratis</a>
+<a href="/contact/" style="font-weight:600;color:#002868;">Obtener el Kit →</a>
+</div>
+</header>
+<script>
+      (function() {
+         var t = document.getElementById('mobileToggle');
+         var m = document.getElementById('mobileMenu');
+         if (t && m) {
+            t.addEventListener('click', function() {
+               m.classList.toggle('open');
+            });
+         }
+      })();
+   </script>
+<!-- ═══════════════════════════════════════
+     HERO — Editar título, categoría, fecha
+═══════════════════════════════════════ -->
+<div class="blog-hero">
+<div class="blog-hero-inner">
+<!-- Migas de pan (Breadcrumb) -->
+<nav aria-label="Ruta de navegación" class="blog-breadcrumb">
+<a href="/">Inicio</a>
+<span class="sep">›</span>
+<a href="/es/guias/">Guías para Padres</a>
+<span class="sep">›</span>
+<span style="color:rgba(255,255,255,.8);">La guía definitiva para la defensa de los padres en Nueva Yo</span>
+</nav>
+<!-- Categoría — cambiar según el tema -->
+<span class="blog-category-badge">🇪🇸 Proceso CSE</span>
+<!-- Otras opciones: Derechos IEP · Preescolar (CPSE) · Evaluaciones · Específico NYC · Proceso Debido -->
+<!-- ✏️ EDITAR: Título del artículo -->
+<h1 class="blog-hero-title">La guía definitiva para la defensa de los padres en Nueva York</h1>
+<!-- ✏️ EDITAR: Fecha y tiempo de lectura -->
+<div class="blog-hero-meta">
+<span><i class="far fa-calendar-alt"></i> 19 de marzo de 2026</span>
+<span><i class="far fa-clock"></i> 14 min de lectura</span>
+<span><i class="fas fa-map-marker-alt"></i> Estado de Nueva York</span>
+</div>
+</div>
+</div>
+<!-- ═══════════════════════════════════════
+     DISEÑO PRINCIPAL
+═══════════════════════════════════════ -->
+<main id="main-content">
+<div class="blog-layout">
+<!-- ─────────────────────────────────────
+       CUERPO DEL ARTÍCULO — Escribe tu contenido aquí
+  ───────────────────────────────────────── -->
+<article class="blog-article"><p>Todo lo que necesita para defender eficazmente a su hijo en el sistema de educación especial de Nueva York, desde sus primeras inquietudes hasta el debido proceso.</p>
+<hr/>
+<h2 id="seccion-1-conozca-sus-derechos-como-padre-de-familia-en-nueva-york">Sección 1: Conozca sus derechos como padre de familia en Nueva York</h2>
+<p>Como padre de un niño que puede necesitar servicios de educación especial en Nueva York, las leyes federales y estatales le otorgan derechos poderosos y exigibles. Comprenderlos es la base de una promoción eficaz.</p>
+<blockquote>
+<p><strong>El marco legal:</strong> Dos leyes protegen a su hijo: la <strong>Ley de Educación para Individuos con Discapacidades (IDEA)</strong> (federal) y la <strong>Ley de Educación de Nueva York, Artículo 89</strong> (estatal). Juntos garantizan una <em>Educación Pública Gratuita y Apropiada (FAPE)</em> impartida en el <em>Ambiente Menos Restrictivo (LRE)</em>.</p>
+</blockquote>
+<h3 id="tus-derechos-clave">Tus derechos clave</h3>
+<table>
+<thead>
+<tr>
+<th>Tu derecho</th>
+<th>Qué significa en la práctica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Aviso previo por escrito (PWN)</strong></td>
+<td>El distrito debe notificarle por escrito antes de realizar cualquier cambio en la identificación, evaluación o colocación de su hijo y explicarle el motivo.</td>
+</tr>
+<tr>
+<td><strong>Garantías procesales</strong></td>
+<td>Debe recibir el Aviso de garantías procesales completo al menos una vez al año, además de cuando se remite la evaluación y cuando se presenta una queja de debido proceso.</td>
+</tr>
+<tr>
+<td><strong>Consentimiento informado por escrito</strong></td>
+<td>El distrito no puede realizar una evaluación inicial ni colocar a su hijo en educación especial sin su consentimiento firmado. El consentimiento es voluntario y puede revocarse.</td>
+</tr>
+<tr>
+<td><strong>Evaluación Educativa Independiente (IEE)</strong></td>
+<td>Si no está de acuerdo con la evaluación del distrito, puede solicitar una IEE con fondos públicos. El distrito debe financiarlo o iniciar una audiencia para defender su propia evaluación.</td>
+</tr>
+<tr>
+<td><strong>Participe como miembro igualitario del equipo del IEP</strong></td>
+<td>Las reuniones deben programarse en un horario mutuamente acordado. Puede traer una persona de apoyo, un abogado o un defensor privado. Se debe considerar su aporte.</td>
+</tr>
+<tr>
+<td><strong>Acceda a todos los registros educativos</strong></td>
+<td>Puede inspeccionar y recibir copias de todos los registros educativos (evaluaciones, IEP, notas de progreso) dentro de los 45 días posteriores a una solicitud por escrito.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Consejo de promoción:</strong> Solicite una copia impresa del Aviso de garantías procesales en cada reunión del CSE y léala cada vez; se actualiza periódicamente. En la Ciudad de Nueva York, el documento de salvaguardias del DOE está disponible en más de 12 idiomas en schools.nyc.gov.</p>
+</blockquote>
+<hr/>
+<h2 id="seccion-2-primeros-pasos-cuando-tiene-inquietudes">Sección 2: Primeros pasos cuando tiene inquietudes</h2>
+<p>Si sospecha que su hijo puede necesitar servicios de educación especial, tomar medidas deliberadas y documentadas desde el principio marca una diferencia significativa. Según la ley de Nueva York, <strong>los padres tienen derecho a iniciar el proceso</strong>; no es necesario esperar a que la escuela plantee sus inquietudes.</p>
+<h3 id="paso-1-documente-sus-inquietudes-por-escrito">Paso 1: Documente sus inquietudes por escrito</h3>
+<p>Escriba ejemplos específicos y anticuados de lo que esté observando en casa: dificultades académicas, desafíos de comportamiento, diferencias de desarrollo. Este se convierte en su registro de referencia y establece un cronograma de cuándo comenzaron las inquietudes.</p>
+<h3 id="paso-2-hable-con-el-maestro-del-aula-y-luego-haga-un-seguimiento-por-escrito">Paso 2: Hable con el maestro del aula y luego haga un seguimiento por escrito</h3>
+<p>Solicite una reunión y pregunte específicamente: “¿Mi hijo recibe algún apoyo? ¿Se ha considerado una remisión?” Después de cada conversación verbal, envíe un breve correo electrónico el mismo día confirmando lo discutido. Esto crea un registro ejecutable.</p>
+<h3 id="paso-3-solicitar-datos-de-intervencion-rtimtss">Paso 3: Solicitar datos de intervención (RTI/MTSS)</h3>
+<p>Pregunte a la escuela qué intervenciones escalonadas existen actualmente y solicite los datos que muestren la respuesta de su hijo. Tienes derecho a esta información. La mala respuesta a una intervención de educación general de alta calidad es un factor clave en muchas derivaciones a educación especial.</p>
+<h3 id="paso-4-presentar-una-solicitud-de-evaluacion-formal-por-escrito">Paso 4: Presentar una solicitud de evaluación formal por escrito</h3>
+<p>Si las inquietudes persisten, envíe una <strong>solicitud de evaluación por escrito</strong> directamente al director de la escuela y al presidente del CSE. Esto inicia formalmente el reloj de 60 días escolares. Consulte la Guía de solicitud de evaluación para obtener un tutorial completo y un modelo de carta.</p>
+<h3 id="paso-5-cree-una-carpeta-dedicada-a-la-promocion">Paso 5: Cree una carpeta dedicada a la promoción</h3>
+<p>Cree una carpeta física o digital para todos los documentos relacionados con la escuela: boletas de calificaciones, informes de evaluación, IEP, correos electrónicos de maestros y notas de reuniones. La organización es una de las herramientas más poderosas que tiene un defensor.</p>
+<blockquote>
+<p><strong>No confíe en acuerdos verbales:</strong> Cualquier compromiso asumido en una reunión debe confirmarse por escrito, ya sea por usted en un correo electrónico de seguimiento enviado el mismo día o plasmado en el documento del IEP. Las garantías verbales no tienen peso legal en los procedimientos de educación especial.</p>
+</blockquote>
+<hr/>
+<h2 id="seccion-3-el-proceso-de-evaluacion-y-el-cronograma-de-60-dias">Sección 3: El proceso de evaluación y el cronograma de 60 días</h2>
+<p>Una vez que envíe una solicitud de evaluación por escrito, la ley de Nueva York impone plazos estrictos. Comprenderlos es fundamental: los plazos incumplidos se encuentran entre las violaciones procesales más comunes de IDEA.</p>
+<h3 id="cronologia">Cronología</h3>
+<p><strong>Día 0: los padres envían una solicitud de evaluación por escrito</strong>
+Envíelo por correo electrónico al director de la escuela Y al presidente del CSE. BCC usted mismo y guarde una copia. El correo certificado es un sólido respaldo para la correspondencia importante.</p>
+<p><strong>Dentro de 10 días escolares: el distrito envía el formulario de permiso para evaluar (PTE)</strong>
+Revise la PTE detenidamente: enumera las evaluaciones propuestas. Puede solicitar evaluaciones adicionales (por ejemplo, OT, habla y lenguaje, tecnología de asistencia) antes de firmar si cree que están justificadas.</p>
+<p><strong>Devuelve el PTE firmado: comienza el cronómetro de 60 días escolares</strong>
+En el momento en que devuelva el consentimiento firmado, comienza la ventana de evaluación oficial. Anota la fecha exacta en tu calendario. El distrito debe completar todas las evaluaciones <em>y</em> celebrar la reunión inicial del CSE dentro de este período.</p>
+<p><strong>Al menos 5 días antes de la reunión del CSE: reciba todos los informes de evaluación</strong>
+Tiene derecho legal a recibir informes por adelantado. Si no los recibe al menos 5 días antes de la reunión, solicite un aplazamiento por escrito.</p>
+<p><strong>Dentro de 60 días escolares: reunión inicial del CSE y desarrollo del IEP</strong>
+Todo el equipo del IEP se reúne, revisa los resultados, determina la elegibilidad y (si es elegible) desarrolla el IEP inicial.</p>
+<blockquote>
+<p><strong>Seguimiento de cada fecha límite:</strong> Si el distrito no cumple con el cronograma de 60 días escolares, esto es una violación de procedimiento de IDEA. Dependiendo de las circunstancias, su hijo puede tener derecho a servicios compensatorios.</p>
+</blockquote>
+<hr/>
+<h2 id="seccion-4-dominar-las-reuniones-de-cse">Sección 4: Dominar las reuniones de CSE</h2>
+<p>La reunión del CSE es donde se toman decisiones vinculantes sobre el programa de su hijo. La preparación es su mayor ecualizador y sus derechos legales son su escudo.</p>
+<h3 id="antes-de-la-reunion">Antes de la reunión</h3>
+<ul>
+<li>Solicitar y revisar todos los informes de evaluación al menos 5 días antes. Anota tus preguntas e inquietudes.</li>
+<li>Identifique sus 3 a 5 prioridades principales para el programa de su hijo antes de entrar por la puerta.</li>
+<li>Puede traer a una persona de apoyo: un amigo de confianza, un familiar o un defensor privado. Notificar a la escuela con antelación, por escrito.</li>
+<li>Solicitar una agenda de reuniones. También puede enviar los puntos de la agenda que desea discutir por escrito antes de la fecha de la reunión.</li>
+<li>Para las revisiones anuales, compare el IEP anterior meta por meta. ¿Qué objetivos se cumplieron? ¿Cuáles no fueron abordados?</li>
+</ul>
+<h3 id="durante-la-reunion">Durante la reunión</h3>
+<ul>
+<li>En Nueva York, tiene derecho a grabar la reunión con <strong>aviso escrito con 24 horas de antelación</strong> a la escuela. Consulte la política de su distrito para otros distritos.</li>
+<li>Desacelerar. Solicite aclaraciones sobre cualquier acrónimo o término que no comprenda.</li>
+<li>Si no está de acuerdo con una recomendación, diga: <em>“No estoy de acuerdo con eso en este momento. Me gustaría ver los datos que la respaldan antes de responder”.</em></li>
+<li>Haga que su persona de apoyo tome notas mientras usted habla y escucha.</li>
+<li>Antes de partir, confirme: “¿Cuáles son los próximos pasos, quién es el responsable y cuál es el cronograma?”</li>
+</ul>
+<blockquote>
+<p><strong>No está obligado a firmar en la reunión:</strong> Según IDEA, tiene derecho a llevarse el borrador del IEP a casa, revisarlo a su propio ritmo, consultar a un defensor o abogado y proporcionar su consentimiento por escrito por separado. <strong>No dejes que nadie te presione para que firmes en el acto.</strong></p>
+</blockquote>
+<h3 id="despues-de-la-reunion">Después de la reunión</h3>
+<ul>
+<li>Envíe un correo electrónico de seguimiento dentro de las 48 horas que resuma los acuerdos clave, los problemas pendientes y cualquier elemento que <em>no</em> haya aceptado.</li>
+<li>Cuando reciba el documento final del IEP, compárelo línea por línea con las notas de su reunión. Cualquier discrepancia debe abordarse por escrito de inmediato.</li>
+<li>Confirmar que los servicios realmente comiencen en la fecha especificada en el IEP.</li>
+</ul>
+<hr/>
+<h2 id="seccion-5-aspectos-basicos-del-iep-que-buscar">Sección 5: Aspectos básicos del IEP: qué buscar</h2>
+<p>Un Programa de Educación Individualizado (IEP) es un documento legalmente vinculante. Cada elemento debe ser específico para <em>su hijo</em>. Si una sección parece que podría aplicarse a cualquier estudiante, retroceda: los IEP vagos producen servicios vagos.</p>
+<h3 id="niveles-actuales-de-desempeno-plop">Niveles actuales de desempeño (PLOP)</h3>
+<p>El PLOP debe describir el funcionamiento actual de su hijo con datos específicos y mensurables: puntuaciones de nivel de grado, rangos percentiles y observaciones cualitativas. Rechace declaraciones vagas como “se desempeña por debajo del nivel de grado”. Exija los números reales.</p>
+<h3 id="los-objetivos-anuales-deben-ser-mensurables">Los objetivos anuales deben ser mensurables</h3>
+<p>Un objetivo sólido y ejecutable incluye: una línea de base, un comportamiento objetivo, un criterio mensurable (por ejemplo, “con un 80% de precisión”) y un marco de tiempo. Si una meta dice <em>“el estudiante mejorará la lectura”,</em> eso no es legalmente suficiente; pregunte cómo se medirá y quién lo medirá.</p>
+<h3 id="los-servicios-deben-tener-especificaciones-completas">Los servicios deben tener especificaciones completas</h3>
+<p>Cada servicio debe indicar: <strong>tipo</strong>, <strong>frecuencia</strong> (p. ej., 3 veces por semana), <strong>duración</strong> (p. ej., 45 minutos), <strong>ubicación</strong> (entrada o retirada) y <strong>fecha de inicio</strong>. “Según sea necesario” no es una especificación de servicio legal.</p>
+<h3 id="adaptaciones-versus-modificaciones">Adaptaciones versus modificaciones</h3>
+<p>Las adaptaciones cambian <em>cómo</em> su hijo accede al aprendizaje (tiempo adicional, asiento preferencial, uso de calculadora). Las modificaciones cambian <em>lo</em> que se espera que aprendan. Confirme que las adaptaciones para los exámenes estatales estén enumeradas explícitamente.</p>
+<h3 id="justificacion-de-colocacion-y-lre">Justificación de colocación y LRE</h3>
+<p>Si se recomienda una ubicación más restrictiva, el IEP debe documentar <em>específicamente por qué</em> un entorno menos restrictivo no es apropiado. Presione para que esta explicación sea detallada y esté basada en datos.</p>
+<hr/>
+<h2 id="seccion-6-opciones-de-resolucion-de-disputas">Sección 6: Opciones de resolución de disputas</h2>
+<p>Cuando usted y el distrito escolar no pueden llegar a un acuerdo, Nueva York ofrece cuatro niveles de resolución de disputas formales e informales. Elija su camino estratégicamente: cada opción tiene diferentes cronogramas, costos e implicaciones para la relación con su distrito.</p>
+<h3 id="opcion-a-comenzar-aqui-resolucion-informal">Opción A: comenzar aquí: resolución informal</h3>
+<p>Siempre intente resolver los desacuerdos primero comunicándose por escrito directamente con el presidente del CSE o el administrador del edificio. Muchas disputas se resuelven aquí, y un rastro documentado en papel es esencial si es necesario escalarlas.</p>
+<h3 id="opcion-b-gratis-no-se-requiere-abogado-queja-estatal-nysed">Opción B: Gratis, no se requiere abogado: queja estatal (NYSED)</h3>
+<p>Presentar una queja por escrito ante el Departamento de Educación del Estado de Nueva York alegando una violación específica de IDEA o del Artículo 89. El NYSED debe investigar y emitir una decisión por escrito dentro de <strong>60 días calendario</strong>. No hay costo, no se requiere abogado y no hay riesgo de perder. Se utiliza mejor para infracciones procesales claras (plazos incumplidos, faltan componentes requeridos del IEP).</p>
+<h3 id="opcion-c-voluntaria-rapida-mediacion">Opción C: voluntaria, rápida: mediación</h3>
+<p>Un proceso gratuito y voluntario con un tercero mediador neutral. Ambas partes deben aceptar participar. Los acuerdos de mediación son legalmente vinculantes y normalmente se alcanzan en un plazo de 30 días. La mediación <strong>no</strong> renuncia a su derecho a solicitar una audiencia de debido proceso más adelante.</p>
+<h3 id="opcion-d-mas-formal-audiencia-imparcial-debido-proceso">Opción D — Más formal: Audiencia imparcial (debido proceso)</h3>
+<p>Un procedimiento legal formal ante un Oficial de Audiencia Imparcial (OHI). Usted presenta un Aviso de queja de debido proceso; Se requiere una reunión de resolución dentro de los 15 días. Las audiencias se llevan a cabo como procedimientos judiciales: la mayoría de los padres contratan a un abogado. Si prevalece, puede recuperar los honorarios del abogado.</p>
+<blockquote>
+<p><strong>Estatuto de limitaciones de Nueva York: 2 años.</strong> Generalmente tiene <strong>2 años</strong> a partir de la fecha en que conoció o debería haber conocido una infracción para presentar una queja de debido proceso. No se demore: comuníquese con un defensor o un abogado de educación especial tan pronto como crea que se han violado los derechos de su hijo.</p>
+</blockquote>
+<hr/>
+<h2 id="seccion-7-ejemplos-de-cartas-de-promocion">Sección 7: Ejemplos de cartas de promoción</h2>
+<p>La comunicación escrita es la base de la defensa de la educación especial. Envíe siempre correspondencia importante por correo electrónico (que crea una marca de tiempo) o correo certificado.</p>
+<h3 id="plantilla-a-solicitud-de-evaluacion-formal">Plantilla A: Solicitud de evaluación formal</h3>
+<p>[Su nombre completo]
+[Su dirección]
+[Fecha: anótelo como el día 0 de su reloj de 60 días]</p>
+<p>[Nombre completo del presidente del CSE]
+Comité de Educación Especial
+[Distrito escolar / Distrito escolar comunitario del DOE de la ciudad de Nueva York]</p>
+<p>Estimado [Nombre del Presidente],</p>
+<p>Le escribo para solicitar formalmente una evaluación integral de educación especial para mi hijo, [Nombre completo del niño], fecha de nacimiento [fecha de nacimiento], actualmente matriculado en el grado [Grado] en [Nombre de la escuela].</p>
+<p>Esta solicitud se realiza de conformidad con la Ley de Educación para Personas con Discapacidades (IDEA), 20 U.S.C. § 1414 y artículo 89 de la Ley de Educación de Nueva York. Tengo inquietudes con respecto al [área específica: lectura, atención, habla/lenguaje, desarrollo socioemocional, etc.] de mi hijo que están afectando negativamente su desempeño educativo.</p>
+<p>Solicito que las evaluaciones incluyan, como mínimo: [por ejemplo, evaluación psicoeducativa, evaluación del habla y lenguaje, evaluación de terapia ocupacional]. Entiendo que una vez que proporcione mi consentimiento por escrito a través del formulario de Permiso para evaluar, el distrito tiene <strong>60 días escolares</strong> para completar todas las evaluaciones y celebrar una reunión inicial del CSE.</p>
+<p>Comuníquese conmigo al [teléfono y correo electrónico] para proporcionar el formulario de Permiso para evaluar y confirmar la recepción de esta solicitud.</p>
+<p>Atentamente,
+[Su firma]
+[Su nombre impreso]
+Padre/Tutor de [Nombre del niño]</p>
+<hr/>
+<h3 id="plantilla-b-correo-electronico-de-seguimiento-posterior-a-la-reunion">Plantilla B: correo electrónico de seguimiento posterior a la reunión</h3>
+<p><strong>Para:</strong> [correo electrónico del presidente del CSE]
+<strong>Cc:</strong> [Correo electrónico del director de la escuela]
+<strong>Asunto:</strong> Seguimiento: Reunión del CSE para [Nombre del niño] — [Fecha de la reunión]</p>
+<p>Estimado [Nombre del Presidente],</p>
+<p>Gracias por reunirse conmigo el [Fecha]. Le escribo para confirmar mi comprensión de los resultados clave:</p>
+<ol>
+<li>[Primer acuerdo o decisión alcanzada en la reunión]</li>
+<li>[Segundo elemento: por ejemplo, “El equipo acordó agregar 30 minutos por semana de terapia del habla y el lenguaje”]</li>
+<li>[Elementos pendientes: por ejemplo, “Solicité una evaluación de OT; entiendo que esto requiere un formulario de consentimiento por separado”]</li>
+</ol>
+<p>También quiero dejar constancia de que <strong>no</strong> di mi consentimiento para [cualquier cosa con la que usted no estuviera de acuerdo] en este momento. Proporcionaré mi consentimiento por escrito por separado después de revisar el borrador del IEP.</p>
+<p>Corrija cualquier elemento en el que pueda haber escrito incorrectamente. Espero recibir el borrador del IEP para su revisión dentro del plazo requerido.</p>
+<p>Atentamente,
+[Su nombre completo]
+[Número de teléfono]</p>
+<hr/>
+<h2 id="seccion-8-recursos-clave-para-padres-de-nueva-york">Sección 8: Recursos clave para padres de Nueva York</h2>
+<ul>
+<li><strong>Guía de reuniones del CSE</strong>: listas de verificación de preparación y estrategias lingüísticas para cada tipo de reunión del CSE</li>
+<li><strong>Guía de solicitud de evaluación</strong>: recorrido completo del cronograma de evaluación de 60 días escolares de Nueva York con plantillas</li>
+<li><strong>Guía de resolución de disputas</strong>: explicación de los procedimientos de quejas estatales, mediación y audiencia imparcial de la Ciudad de Nueva York</li>
+<li><strong>Derechos bilingües y ELL</strong>: derechos de evaluación del idioma nativo y requisitos del IEP bilingüe en Nueva York</li>
+<li><strong>Guía preescolar CPSE</strong> — Navegando por el Comité de Educación Especial Preescolar para niños de 3 a 5 años</li>
+<li><strong>Colocación privada (Casos Carter)</strong> — Procedimientos para solicitar matrícula de escuela privada financiada por el distrito</li>
+</ul>
+<h3 id="ayuda-de-defensa-gratuita-en-nueva-york">Ayuda de defensa gratuita en Nueva York</h3>
+<ul>
+<li><strong>Programa de Defensores de Padres del IEP de la Ciudad de Nueva York:</strong> iparent.nyc.gov: defensores capacitados gratuitos para las familias de la Ciudad de Nueva York</li>
+<li><strong>Advocates for Children of New York:</strong> defendersforchildren.org: apoyo legal y de defensa gratuito para familias de bajos ingresos en todo el estado</li>
+<li><strong>Oficina de Educación Especial del NYSED:</strong> nysed.gov</li>
+<li><strong>Pautas oficiales del DOE de la ciudad de Nueva York:</strong> schools.nyc.gov</li>
+</ul>
+<hr/>
+<h2 id="cronogramas-clave-de-nueva-york-de-un-vistazo">Cronogramas clave de Nueva York de un vistazo</h2>
+<table>
+<thead>
+<tr>
+<th>Fecha límite</th>
+<th>Qué pasa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10 días escolares</td>
+<td>Distrito envía el formulario de Permiso para Evaluar</td>
+</tr>
+<tr>
+<td>60 días escolares</td>
+<td>Evaluación completa y reunión inicial del CSE celebrada</td>
+</tr>
+<tr>
+<td>5 días antes de la reunión</td>
+<td>Recibe todos los informes de evaluación</td>
+</tr>
+<tr>
+<td>1× por año</td>
+<td>Se requiere revisión anual del IEP</td>
+</tr>
+<tr>
+<td>Cada 3 años</td>
+<td>Reevaluación trienal completa</td>
+</tr>
+<tr>
+<td>2 años</td>
+<td>Estatuto de limitaciones del debido proceso</td>
+</tr>
+</tbody>
+</table><div class="share-bar">
+<span class="share-bar-label">Compartir</span>
+<a class="share-btn fb" href="https://www.facebook.com/sharer/sharer.php?u=https://www.newyorkspecialed.net/es/guias/parent-advocacy-guide-es/" rel="noopener" target="_blank">
+<i class="fab fa-facebook-f"></i> Facebook
+               </a>
+<a class="share-btn tw" href="https://twitter.com/intent/tweet?url=https://www.newyorkspecialed.net/es/guias/parent-advocacy-guide-es/&amp;text=La+guía+definitiva+para+la+defensa+de+los+padres+en+Nueva+York" rel="noopener" target="_blank">
+<i class="fab fa-x-twitter"></i> X / Twitter
+               </a>
+<button class="share-btn copy" onclick="navigator.clipboard.writeText(window.location.href); this.textContent='✓ Copiado!';">
+<i class="far fa-copy"></i> Copiar enlace
+               </button>
+</div></article><!-- /blog-article -->
+<!-- ─────────────────────────────────────
+       BARRA LATERAL
+  ───────────────────────────────────────── -->
+<aside class="blog-sidebar">
+<!-- Tabla de contenidos — actualizar anclas para que coincidan con tus ids H2 -->
+<div class="sidebar-card">
+<h4>En Esta Guía</h4>
+<ol class="toc-list"><li><a href="#seccion-1-conozca-sus-derechos-como-padre-de-familia-en-nueva-york">Sección 1: Conozca sus derechos como padre de familia en Nueva York</a></li><li><a href="#seccion-2-primeros-pasos-cuando-tiene-inquietudes">Sección 2: Primeros pasos cuando tiene inquietudes</a></li><li><a href="#seccion-3-el-proceso-de-evaluacion-y-el-cronograma-de-60-dias">Sección 3: El proceso de evaluación y el cronograma de 60 días</a></li><li><a href="#seccion-4-dominar-las-reuniones-de-cse">Sección 4: Dominar las reuniones de CSE</a></li><li><a href="#seccion-5-aspectos-basicos-del-iep-que-buscar">Sección 5: Aspectos básicos del IEP: qué buscar</a></li><li><a href="#seccion-6-opciones-de-resolucion-de-disputas">Sección 6: Opciones de resolución de disputas</a></li><li><a href="#seccion-7-ejemplos-de-cartas-de-promocion">Sección 7: Ejemplos de cartas de promoción</a></li><li><a href="#seccion-8-recursos-clave-para-padres-de-nueva-york">Sección 8: Recursos clave para padres de Nueva York</a></li><li><a href="#cronogramas-clave-de-nueva-york-de-un-vistazo">Cronogramas clave de Nueva York de un vistazo</a></li></ol>
+</div>
+<!-- Guías relacionadas -->
+<div class="sidebar-card">
+<h4>Guías Relacionadas</h4>
+<ul class="related-list">
+<li><a href="/es/guias/reuni%C3%B3n-cse/"><i class="fas fa-chevron-right"></i> Guía de Reunión CSE</a></li>
+<li><a href="/es/guias/solicitar-evaluacion/"><i class="fas fa-chevron-right"></i> Solicitar una Evaluación</a></li>
+<li><a href="/guides/cpse-preschool-special-education/"><i class="fas fa-chevron-right"></i> Guía Preescolar CPSE</a></li>
+<li><a href="/guides/carter-cases-private-placement/"><i class="fas fa-chevron-right"></i> Colocación Privada (Carter)</a></li>
+<li><a href="/es/guias/derechos-iep-bilingue/"><i class="fas fa-chevron-right"></i> Derechos IEP Bilingüe</a></li>
+</ul>
+</div>
+<!-- Boletín CTA (español) -->
+<div class="sidebar-card sidebar-newsletter">
+<h4>Actualizaciones del Distrito</h4>
+<p>Conozca los plazos del CSE, los contactos y sus derechos como padre.</p>
+<input placeholder="su@correo.com" type="email"/>
+<button>Recibir Actualizaciones Gratis</button>
+<span class="fine">Sin spam  ·  Cancele cuando quiera</span>
+</div>
+<!-- Herramientas gratis CTA -->
+<div class="sidebar-card" style="background: #fff8f0; border-top-color: var(--red);">
+<h4 style="color: var(--red);">Herramientas Gratis</h4>
+<p style="font-size:.88rem;color:#334155;margin:0 0 12px;line-height:1.5;">Generadores de cartas IEP, plantillas de solicitud de evaluación, y más.</p>
+<a href="/tools/" style="display:block;text-align:center;padding:10px;background:var(--navy);color:#fff;border-radius:6px;font-size:.85rem;font-weight:600;text-decoration:none;">
+                  Ver Todas las Herramientas →
+               </a>
+</div>
+</aside>
+</div><!-- /blog-layout -->
+<!-- ═══════════════════════════════════════
+     ARTÍCULOS RELACIONADOS
+═══════════════════════════════════════ -->
+<section class="related-posts-section">
+<h2>Más Guías para Padres</h2>
+<div class="related-grid">
+<a class="related-card" href="/es/guias/reuni%C3%B3n-cse/">
+<span class="rc-tag">Proceso CSE</span>
+<h3>Su Guía de Supervivencia para la Reunión CSE</h3>
+<p>Quién debe estar en la sala, su lista de verificación previa a la reunión y las señales de alerta.</p>
+<span class="rc-link"><i class="fas fa-arrow-right"></i> Leer guía</span>
+</a>
+<a class="related-card" href="/es/guias/solicitar-evaluacion/">
+<span class="rc-tag">Evaluaciones</span>
+<h3>Cuando la Evaluación de la Escuela No Es Suficiente</h3>
+<p>Su derecho a una Evaluación Educativa Independiente y cómo obtenerla sin costo.</p>
+<span class="rc-link"><i class="fas fa-arrow-right"></i> Leer guía</span>
+</a>
+<a class="related-card" href="/es/guias/derechos-iep-bilingue/">
+<span class="rc-tag">Bilingüe</span>
+<h3>Derechos IEP para Familias Bilingües</h3>
+<p>Cómo asegurar evaluaciones en el idioma nativo y apoyo en español para su hijo.</p>
+<span class="rc-link"><i class="fas fa-arrow-right"></i> Leer guía</span>
+</a>
+</div>
+</section>
+</main>
+<!-- ═══════════════════════════════════════
+     PIE DE PÁGINA
+═══════════════════════════════════════ -->
+<footer class="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="footer-container">
+<div class="footer-brand">
+<h3>New York Special Ed<span>.net</span></h3>
+<p>Desmitificando el proceso del Comité de Educación Especial (CSE) de Nueva York. Proporcionamos a los padres datos locales, plantillas legales y herramientas de defensa necesarias para obtener los servicios adecuados en la Ciudad de Nueva York y el Estado de Nueva York.</p>
+<div style="margin-top:20px;"><a href="/contact/" style="color:var(--gold);font-weight:bold;text-decoration:none;">Ver Tienda de Recursos →</a></div>
+</div>
+<div class="footer-col">
+<h4>Guías para Padres</h4>
+<ul class="footer-links">
+<li><a href="/es/guias/reuni%C3%B3n-cse/">Guía de Reunión CSE</a></li>
+<li><a href="/es/guias/solicitar-evaluacion/">Plazos de Evaluación (60 Días)</a></li>
+<li><a href="/guides/dispute-resolution-ny/">Proceso Debido y Quejas</a></li>
+<li><a href="/es/guias/derechos-iep-bilingue/">Derechos Bilingüe/ELL</a></li>
+<li><a href="/districts/nyc-district-75/">Distrito 75 Explicado</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Distritos Populares</h4>
+<ul class="footer-links">
+<li><a href="/districts/nyc-district-02-upper-east-side/">NYC Distrito 2 (Manhattan)</a></li>
+<li><a href="/districts/nyc-district-15-park-slope/">NYC Distrito 15 (Brooklyn)</a></li>
+<li><a href="/districts/nyc-district-06-washington-heights/">NYC Distrito 6 (Washington Hts.)</a></li>
+<li><a href="/districts/nyc-district-30-astoria/">NYC Distrito 30 (Queens)</a></li>
+<li><a href="/districts/brentwood-ufsd/">Brentwood UFSD (LI)</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Recursos</h4>
+<ul class="footer-links">
+<li><a href="/about/">Acerca de Nosotros</a></li>
+<li><a href="/contact/">Soporte de Contacto</a></li>
+<li><a href="/privacy-policy/">Política de Privacidad</a></li>
+<li><a href="/sitemap.xml">Mapa del Sitio</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 New York Special Ed. No es asesoramiento legal. No está afiliado con el NYC DOE ni NYSED.<br/>Para consultas oficiales, visite <a href="https://schools.nyc.gov" style="color:var(--gold);">schools.nyc.gov</a> o <a href="https://nysed.gov" style="color:var(--gold);">nysed.gov</a>.</p>
+</div>
+</footer>
+<!-- ═══════════════════════════════════════
+     POPUP BOLETÍN — data-language="es"
+═══════════════════════════════════════ -->
+<div id="ec-overlay" style="display:none;position:fixed;inset:0;background:rgba(10,15,30,.72);z-index:9998;align-items:center;justify-content:center;backdrop-filter:blur(3px);">
+<div id="ec-modal" style="max-width:420px;width:92%;position:relative;font-family:'DM Sans',sans-serif;border-radius:6px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.45);">
+<div id="ec-header" style="background:#002868;padding:28px 28px 22px;border-bottom:3px solid #d4af37;position:relative;">
+<button aria-label="Cerrar" id="ec-close" style="position:absolute;top:14px;right:16px;background:none;border:none;color:rgba(255,255,255,.5);font-size:18px;cursor:pointer;line-height:1;padding:4px;">✕</button>
+<div style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#d4af37;margin-bottom:10px;">Información del Distrito</div>
+<h2 id="ec-title" style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:500;color:#f5f0e8;line-height:1.15;margin:0;"></h2>
+</div>
+<div style="background:#fdfaf5;padding:26px 28px 24px;">
+<p id="ec-body" style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:#002868;line-height:1.45;margin:0 0 14px;"></p>
+<div style="width:40px;height:2px;background:#d4af37;margin-bottom:18px;"></div>
+<ul id="ec-checklist" style="list-style:none;margin:0 0 22px;padding:0;"></ul>
+<div id="ec-form-wrap">
+<input id="ec-email" placeholder="su@correo.com" style="width:100%;box-sizing:border-box;padding:11px 14px;border:1.5px solid #d6cbbf;border-radius:4px;font-size:14px;font-family:'DM Sans',sans-serif;margin-bottom:10px;outline:none;background:#fff;color:#1a1410;" type="email"/>
+<button id="ec-submit" style="width:100%;padding:14px;background:#c8102e;color:#fff;border:none;border-radius:4px;font-weight:600;font-family:'DM Sans',sans-serif;font-size:15px;cursor:pointer;transition:background .2s;letter-spacing:.01em;"></button>
+</div>
+<div id="ec-success" style="display:none;text-align:center;padding:12px 0 6px;">
+<div style="font-family:'Cormorant Garamond',serif;font-size:32px;color:#d4af37;margin-bottom:8px;">✦</div>
+<p style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#002868;margin:0 0 6px;">Está en la lista.</p>
+<p style="font-size:13px;color:#6b5f53;margin:0;line-height:1.5;">Las actualizaciones del distrito y los recursos de derechos para padres llegarán a su bandeja de entrada.</p>
+</div>
+</div>
+<p style="margin:14px 0 0;font-size:11px;color:#b0a799;text-align:center;letter-spacing:.02em;background:#fdfaf5;padding-bottom:16px;">Sin spam  ·  Cancele cuando quiera</p>
+</div>
+</div>
+<script data-api="https://email-capture-api-831148457361.us-central1.run.app" data-delay="10000" data-language="es" data-site="new_york_special_ed" id="ec-script">
+      (function() {
+         var script = document.getElementById("ec-script");
+         var API_BASE = script.getAttribute("data-api");
+         var SITE = script.getAttribute("data-site") || "new_york_special_ed";
+         var LANG = script.getAttribute("data-language") || "es";
+         var DELAY = parseInt(script.getAttribute("data-delay") || "10000", 10);
+         var COPY = {
+            en: {
+               title: "Know Your District.<br><em style='color:#e5c158;font-style:italic;'>Know Your Rights.</em>",
+               body: "Most NYC parents don't know what their district is required to provide — until it's too late.",
+               checks: ["District-specific CSE timelines & contacts", "IEP rights and evaluation deadlines", "What to say at your next meeting", "Real outcomes from parents in your district"],
+               button: "Send Me Free District Updates"
+            },
+            es: {
+               title: "Conozca Su Distrito.<br><em style='color:#e5c158;font-style:italic;'>Sus Derechos.</em>",
+               body: "La mayoría de los padres de NYC no saben lo que su distrito está obligado a proveer.",
+               checks: ["Plazos del CSE y contactos por distrito", "Derechos del IEP y plazos de evaluación", "Qué decir en su próxima reunión", "Resultados reales de padres en su distrito"],
+               button: "Recibir Actualizaciones Gratis"
+            }
+         };
+         var copy = COPY[LANG] || COPY.en;
+         var STORAGE_KEY = "ec_dismissed_" + SITE + "_" + LANG;
+         if (localStorage.getItem(STORAGE_KEY)) return;
+         document.getElementById("ec-title").innerHTML = copy.title;
+         document.getElementById("ec-body").textContent = copy.body;
+         document.getElementById("ec-submit").textContent = copy.button;
+         var list = document.getElementById("ec-checklist");
+         copy.checks.forEach(function(item) {
+            var li = document.createElement("li");
+            li.style.cssText = "font-size:13px;color:#6b5f53;padding:5px 0 5px 20px;position:relative;";
+            li.innerHTML = '<span style="position:absolute;left:0;font-family:\'Cormorant Garamond\',serif;font-size:16px;color:#d4af37;">§</span>' + item;
+            list.appendChild(li);
+         });
+         var overlay = document.getElementById("ec-overlay");
+         var emailEl = document.getElementById("ec-email");
+         var submitEl = document.getElementById("ec-submit");
+         setTimeout(function() {
+            overlay.style.display = "flex";
+            emailEl.focus();
+         }, DELAY);
+
+         function close() {
+            overlay.style.display = "none";
+            localStorage.setItem(STORAGE_KEY, "1");
+         }
+         document.getElementById("ec-close").addEventListener("click", close);
+         overlay.addEventListener("click", function(e) {
+            if (e.target === overlay) close();
+         });
+         document.addEventListener("keydown", function(e) {
+            if (e.key === "Escape") close();
+         });
+         submitEl.addEventListener("mouseover", function() {
+            this.style.background = "#a50b24";
+         });
+         submitEl.addEventListener("mouseout", function() {
+            this.style.background = "#c8102e";
+         });
+         submitEl.addEventListener("click", function() {
+            var email = emailEl.value.trim();
+            if (!email || !email.includes("@")) {
+               emailEl.style.borderColor = "#c8102e";
+               emailEl.focus();
+               return;
+            }
+            emailEl.style.borderColor = "#d6cbbf";
+            submitEl.disabled = true;
+            submitEl.textContent = "…";
+            fetch(API_BASE + "/api/signup", {
+                  method: "POST",
+                  headers: {
+                     "Content-Type": "application/json"
+                  },
+                  body: JSON.stringify({
+                     email: email,
+                     site: SITE,
+                     language: LANG,
+                     source: "newsletter_popup",
+                     page_url: window.location.href,
+                     page_title: document.title
+                  })
+               })
+               .then(function(r) {
+                  return r.json();
+               })
+               .then(function(res) {
+                  if (res.success) {
+                     document.getElementById("ec-form-wrap").style.display = "none";
+                     document.getElementById("ec-success").style.display = "block";
+                     localStorage.setItem(STORAGE_KEY, "1");
+                     setTimeout(close, 4000);
+                  } else {
+                     submitEl.disabled = false;
+                     submitEl.textContent = copy.button;
+                     alert(res.error || "Algo salió mal. Intente nuevamente.");
+                  }
+               })
+               .catch(function() {
+                  submitEl.disabled = false;
+                  submitEl.textContent = copy.button;
+                  alert("Error de red. Intente nuevamente.");
+               });
+         });
+         emailEl.addEventListener("keydown", function(e) {
+            if (e.key === "Enter") submitEl.click();
+         });
+      })();
+   </script>
+</body>
+</html>
