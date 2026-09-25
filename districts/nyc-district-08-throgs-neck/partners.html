@@ -81,10 +81,9 @@
 <!-- Desktop links — flat, no dropdowns -->
 <ul class="nav-links">
 <li><a class="nav-link" href="/districts/">Districts</a></li>
-
 <li><a class="nav-link" href="/guides/">Parent Guides</a></li>
 <li><a class="nav-link es" href="/guides/es/index.html">🇪🇸 En Español</a></li>
-<li><a class="nav-link" href="/tools/">Tools</a></li>
+
 <li><a class="nav-link" href="/resources/">Resources</a></li>
 </ul>
 <!-- CTA button -->
@@ -94,10 +93,9 @@
 <!-- Mobile menu — same flat links -->
 <div class="mobile-menu" id="mobileMenu">
 <a href="/districts/">Districts</a>
-
 <a href="/guides/">Parent Guides</a>
 <a class="es" href="/guides/es/index.html">🇪🇸 En Español</a>
-<a href="/tools/">Tools</a>
+
 <a href="/resources/">Resources</a>
 </div>
 </header>
@@ -195,107 +193,7 @@
         .ll-btn { grid-column: 1; }
     }
     </style>
-<div class="large-law-card" id="largeLawFirmCard">
-<div class="ll-left">
-<p class="ll-eyebrow">Local Representation</p>
-<h2 class="ll-title">Need a <em>New York State</em> Advocate?</h2>
-<p class="ll-desc">
-                Don't walk into your CSE meeting unprepared. The district's representatives are legally trained professionals — but you have equal rights at the table.
-            </p>
-<ul class="ll-list">
-<li>CSE / IEP Meeting Advocacy</li>
-<li>60-Day Evaluation Enforcement</li>
-<li>Independent Educational Evaluations (IEE)</li>
-<li>Discipline, Manifestation (MDR) &amp; Suspensions</li>
-<li>Due Process Hearings &amp; State Complaints</li>
-</ul>
-</div>
-<div class="ll-right" id="partnerFormContainer">
-<h3 class="ll-form-title">Request a Case Evaluation</h3>
-<p class="ll-form-desc">Get connected with a specialized education advocate. No fees unless we take your case.</p>
-<form class="ll-form" id="partnerLeadForm">
-<div>
-<label class="ll-label">Parent Name</label>
-<input class="ll-input" id="pName" placeholder="First and last name" required="" type="text"/>
-</div>
-<div>
-<label class="ll-label">Phone Number</label>
-<input class="ll-input" id="pPhone" placeholder="(555) 000-0000" required="" type="tel"/>
-</div>
-<div class="ll-full">
-<label class="ll-label">Email Address</label>
-<input class="ll-input" id="pEmail" placeholder="Your best email address" required="" type="email"/>
-</div>
-<div class="ll-full">
-<label class="ll-label">Primary Concern</label>
-<select class="ll-input ll-select" id="pIssue" required="">
-<option disabled="" selected="" value="">Select the main issue...</option>
-<option>Upcoming CSE / IEP Meeting</option>
-<option>Evaluation Denied or Delayed</option>
-<option>School Discipline / Suspension</option>
-<option>IEP Not Being Followed</option>
-<option>Due Process Filing</option>
-<option>Other</option>
-</select>
-</div>
-<button class="ll-btn" id="pSubmitBtn" type="submit">
-                    Secure My Free Consultation
-                </button>
-</form>
-<div style="font-size: 11px; color: #a09488; line-height: 1.6; margin-top: 16px; text-align: center; font-family: 'DM Sans', sans-serif;">
-<strong><i class="fas fa-lock"></i> 100% Confidential.</strong> No obligation.
-            </div>
-</div>
-<script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const form = document.getElementById('partnerLeadForm');
-            const submitBtn = document.getElementById('pSubmitBtn');
-            const container = document.getElementById('partnerFormContainer');
 
-            if (form && submitBtn) {
-                form.addEventListener('submit', function(e) {
-                    e.preventDefault();
-                    
-                    submitBtn.innerHTML = 'Securely Sending...';
-                    submitBtn.disabled = true;
-                    submitBtn.style.opacity = '0.7';
-
-                    const formData = new URLSearchParams();
-                    formData.append('name', document.getElementById('pName').value || 'Not provided');
-                    formData.append('email', document.getElementById('pEmail').value || 'Not provided');
-                    formData.append('phone', document.getElementById('pPhone').value || 'Not provided');
-                    formData.append('concern', document.getElementById('pIssue').value || 'Not provided');
-                    formData.append('pageUrl', window.location.href);
-
-                    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwWpGXg3JMJnxyzUlJHPlQRnE_R2Dh6oFvapMureXQWG_0bLOBtN_e7f5s5jnKRdcG-/exec';
-
-                    fetch(GOOGLE_SCRIPT_URL, {
-                        method: 'POST',
-                        body: formData,
-                        mode: 'no-cors'
-                    })
-                    .then(() => {
-                        container.innerHTML = `
-                            <div style="text-align: center; padding: 60px 20px;">
-                                <div style="color: #b8963a; font-size: 56px; margin-bottom: 20px;">✓</div>
-                                <h4 style="font-family: 'Cormorant Garamond', serif; font-size: 32px; color: #1a1410; margin-bottom: 12px; font-weight: 600;">Request Received</h4>
-                                <p style="font-size: 16px; color: #6b5f53; line-height: 1.6; font-family: 'DM Sans', sans-serif;">
-                                    Your information has been securely routed. A legal professional familiar with your district will reach out to you shortly.
-                                </p>
-                            </div>
-                        `;
-                    })
-                    .catch(error => {
-                        console.error('Error:', error);
-                        submitBtn.innerHTML = 'Error. Please Try Again.';
-                        submitBtn.disabled = false;
-                        submitBtn.style.opacity = '1';
-                    });
-                });
-            }
-        });
-        </script>
-</div>
 <!-- INSIGHT BOX -->
 <div class="insight-box">
 <div class="insight-icon">
