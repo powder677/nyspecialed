@@ -1,49 +1,54 @@
 import os
-from bs4 import BeautifulSoup
+import re
+from pathlib import Path
 
-def clean_html_files(root_dir="."):
+# Configuration: Update to your project's root directory if needed
+HTML_DIR = "./"
+
+# Regex pattern to match the entire .offers-container block from opening <div class="offers-container"...> 
+# to its closing </div> tags before the main container closes.
+OFFERS_PATTERN = re.compile(
+    r'<div\s+class="offers-container"[^>]*id="premium-offers">.*?</style>\s*<div\s+class="offers-container"[^>]*>.*?(?=</div>\s*</div>\s*</main>)</div>\s*</div>',
+    re.DOTALL | re.IGNORECASE
+)
+
+# Alternative robust pattern if styling blocks vary slightly:
+# Matches from <div class="offers-container" id="premium-offers"> all the way to its last closing tags.
+FALLBACK_PATTERN = re.compile(
+    r'<div\s+class="offers-container"\s+id="premium-offers">.*?(?=<div class="footer-container">|</main></body>)',
+    re.DOTALL | re.IGNORECASE
+)
+
+def clean_html_files():
+    html_path = Path(HTML_DIR)
     modified_count = 0
     
-    # Walk through all directories and subdirectories
-    for subdir, dirs, files in os.walk(root_dir):
-        for file in files:
-            if file.endswith(".html"):
-                filepath = os.path.join(subdir, file)
+    for file_path in html_path.glob("**/*.html"):
+        # Skip hidden directories
+        if "." in file_path.parts[0]:
+            continue
+            
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                content = f.read()
                 
-                with open(filepath, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                    
-                soup = BeautifulSoup(content, 'html.parser')
-                changed = False
+            # Check if the offers section exists in the file
+            if 'id="premium-offers"' in content or 'offers-container' in content:
+                # Apply regex removal
+                new_content, count = FALLBACK_PATTERN.subn('', content)
                 
-                # 1. Remove "Tools" / "Toolkit" navigation links (both <a> tags with href="/tools/" or text matching Tools/Toolkit in navs)
-                nav_elements = soup.select('.site-nav a, .nav-links a, .mobile-menu a, .district-subnav a')
-                for a in nav_elements:
-                    href = a.get('href', '')
-                    text = a.get_text().strip().lower()
-                    if '/tools/' in href or 'tools' in text or 'toolkit' in text:
-                        li = a.find_parent('li')
-                        if li:
-                            li.decompose()
-                        else:
-                            a.decompose()
-                        changed = True
-
-                # 2. Remove the Legal Referral offer box on partners pages (or anywhere it appears)
-                law_card = soup.find(id='largeLawFirmCard') or soup.find('div', class_='large-law-card')
-                if law_card:
-                    law_card.decompose()
-                    changed = True
-
-                # Save the file only if changes were made
-                if changed:
-                    with open(filepath, 'w', encoding='utf-8') as f:
-                        f.write(str(soup))
+                if count > 0:
+                    with open(file_path, "w", encoding="utf-8") as f:
+                        f.write(new_content)
                     modified_count += 1
-                    print(f"Cleaned: {filepath}")
+                    print(f"Removed offers section from: {file_path}")
+                else:
+                    print(f"Could not cleanly match pattern in: {file_path}")
+                    
+        except Exception as e:
+            print(f"Error processing {file_path}: {e}")
 
-    print(f"\nDone! Successfully processed and updated {modified_count} HTML files.")
+    print(f"\nCleanup complete! Removed offers block from {modified_count} files.")
 
-if __name__ == '__main__':
-    # Run this from the root folder of your 550-page project
-    clean_html_files(".")
+if __name__ == "__main__":
+    clean_html_files()
