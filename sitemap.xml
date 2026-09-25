@@ -16,11 +16,6 @@
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/albany-city-sd</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.6</priority>
@@ -181,11 +176,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/evaluation-process.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/freeport-ufsd</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.6</priority>
@@ -264,11 +254,6 @@
 		<loc>https://www.newyorkspecialed.net/districts/hempstead-ufsd/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/index.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/mount-vernon-city-sd</loc>
@@ -466,11 +451,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-01-lower-east-side/que-es-un-iep-lower-east-side.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-01-lower-east-side/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -512,11 +492,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-02-upper-east-side/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-02-upper-east-side/que-es-un-iep-tribeca.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -566,11 +541,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-03-upper-west-side/que-es-un-iep-upper-west-side.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-03-upper-west-side/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -601,11 +571,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/evaluation-process.html </loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/leadership-directory.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -617,11 +582,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-04-east-harlem/que-es-un-iep-east-harlem.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -671,11 +631,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-05-central-harlem/que-es-un-iep-central-harlem.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-05-central-harlem/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -717,11 +672,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-06-washington-heights/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-06-washington-heights/que-es-un-iep-washington-heights.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -771,11 +721,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-07-south-bronx/que-es-un-iep-south-bronx.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-07-south-bronx/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -817,11 +762,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-08-throgs-neck/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-08-throgs-neck/que-es-un-iep-hunts-point.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -871,11 +811,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-09-grand-concourse/que-es-un-iep-tremont.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-09-grand-concourse/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -917,11 +852,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-10-riverdale/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-10-riverdale/que-es-un-iep-riverdale.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -971,11 +901,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-11-pelham-parkway/que-es-un-iep-pelham-parkway.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-11-pelham-parkway/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -1017,11 +942,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-12-soundview/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-12-soundview/que-es-un-iep-williamsbridge.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -1071,11 +991,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-13-brooklyn-heights/que-es-un-iep-brooklyn-heights.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-13-brooklyn-heights/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -1117,11 +1032,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-14-williamsburg/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-14-williamsburg/que-es-un-iep-williamsburg.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -1171,11 +1081,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-15-park-slope/que-es-un-iep-park-slope.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-15-park-slope/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -1217,11 +1122,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-16-bed-stuy/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-16-bed-stuy/que-es-un-iep-bedford-stuyvesant.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -1271,11 +1171,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-17-crown-heights/que-es-un-iep-crown-heights.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-17-crown-heights/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -1317,11 +1212,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-18-east-flatbush/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-18-east-flatbush/que-es-un-iep-canarsie.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -1371,11 +1261,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-19-east-new-york/que-es-un-iep-east-new-york.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-19-east-new-york/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -1417,11 +1302,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-20-bay-ridge/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-20-bay-ridge/que-es-un-iep-bay-ridge.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -1471,11 +1351,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-21-coney-island/que-es-un-iep-coney-island.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-21-coney-island/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -1517,11 +1392,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-22-midwood/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-22-midwood/que-es-un-iep-flatbush.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -1571,11 +1441,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-23-brownsville/que-es-un-iep-brownsville.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-23-brownsville/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -1606,11 +1471,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-24-maspeth/index.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-24-maspeth/leadership-directory.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -1622,11 +1482,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-24-maspeth/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-24-maspeth/que-es-un-iep-ridgewood.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -1676,11 +1531,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-25-flushing/que-es-un-iep-flushing.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-25-flushing/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -1722,11 +1572,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-26-bayside/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-26-bayside/que-es-un-iep-bayside.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -1776,11 +1621,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-27-rockaway/que-es-un-iep-jamaica.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-27-rockaway/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -1822,11 +1662,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-28-forest-hills/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-28-forest-hills/que-es-un-iep-forest-hills.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -1876,11 +1711,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-29-queens-village/que-es-un-iep-springfield-gardens.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-29-queens-village/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -1922,11 +1752,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-30-astoria/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-30-astoria/que-es-un-iep-astoria.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -1976,11 +1801,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-31-staten-island/que-es-un-iep-staten-island.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-31-staten-island/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
@@ -2022,11 +1842,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/nyc-district-32-bushwick/que-es-un-iep-bushwick.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
 	</url>
@@ -2129,16 +1944,6 @@
 		<loc>https://www.newyorkspecialed.net/districts/nyc-district-79/what-is-an-iep.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/parent-advocacy-guide.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/partners.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/poughkeepsie-city-sd</loc>
@@ -2299,11 +2104,6 @@
 		<loc>https://www.newyorkspecialed.net/districts/syracuse-city-sd/special-ed-updates.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/districts/upstate</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/districts/utica-city-sd</loc>
@@ -2471,27 +2271,12 @@
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/guides//parent-advocacy-guide</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/guides/bilingual-iep-new-york</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/guides/carter-cases-private-placement</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/carter-cases-private-placement/index.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/carter-cases-unilateral-placement.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.6</priority>
 	</url>
@@ -2506,89 +2291,9 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/guides/cse-meeting-guide/index.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/cse-meeting-hub-survival-guide.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/guides/dispute-resolution-ny</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/es/casos-carter-ubicacion-privada.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/es/casos-carter-ubicacion-unilateral.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/es/cpse-educacion-especial-preescolar.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/es/educacion-especial-nyc-sbst-iesp-1-junio.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/es/evaluacion-educativa-independiente-iee.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/es/guia-defensa-para-padres.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/es/guia-reunion-cse.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/es/guia-supervivencia-reunion-cse.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/es/iep-bilingue-nueva-york.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/es/index.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/es/que-es-una-reunion-cse.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/es/resolucion-disputas-ny.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/es/solicitud-evaluacion-ny.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/es/transicion-a-los-5-anos-cpse-a-cse.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/guides/evaluation-request-ny</loc>
@@ -2596,42 +2301,7 @@
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://www.newyorkspecialed.net/guides/evaluation-request-ny/index.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/independent-educational-evaluation-iee.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/index.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/nyc-special-education-sbst-iesp-june-1.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>https://www.newyorkspecialed.net/guides/parent-advocacy-guide</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/parent-advocacy-guide/index.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/turning-5-cpse-to-cse-transition.html</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.6</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/guides/what-is-a-cse-meeting.html</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.6</priority>
 	</url>
@@ -2642,16 +2312,6 @@
 	</url>
 	<url>
 		<loc>https://www.newyorkspecialed.net/resources</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/sitemap.xml</loc>
-		<lastmod>2026-09-25</lastmod>
-		<priority>0.8</priority>
-	</url>
-	<url>
-		<loc>https://www.newyorkspecialed.net/tools</loc>
 		<lastmod>2026-09-25</lastmod>
 		<priority>0.8</priority>
 	</url>
