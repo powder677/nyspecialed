@@ -69,18 +69,32 @@ def build_footer_block():
 
 
 def build_top_block():
+    img = (
+        f'<img src="{SHIRT_IMAGE}" alt="{SHIRT_NAME}" loading="lazy" '
+        f'style="width:96px;height:96px;object-fit:cover;border-radius:6px;flex-shrink:0;'
+        f'border:2px solid #ffd700;box-shadow:0 6px 18px rgba(0,0,0,.35);">'
+        if SHIRT_IMAGE else ""
+    )
     return f"""{TOP_START}
-<div id="shirt-top-banner" style="background:linear-gradient(90deg,#c8102e,#a80d24 50%,#c8102e);border-bottom:3px solid #d4af37;padding:12px 16px;">
+<div id="shirt-top-banner" style="background:linear-gradient(90deg,#c8102e,#a80d24 50%,#c8102e);border-bottom:4px solid #d4af37;padding:18px 16px;">
   <style>
-    @keyframes shirtPulse {{ 0%,100%{{transform:scale(1);}} 50%{{transform:scale(1.05);}} }}
-    #shirt-top-banner .shirt-cta {{ animation:shirtPulse 1.4s ease-in-out infinite; }}
+    @keyframes shirtPulse {{ 0%,100%{{transform:scale(1);}} 50%{{transform:scale(1.06);}} }}
+    #shirt-top-banner .shirt-cta {{ animation:shirtPulse 1.3s ease-in-out infinite; }}
     @media (prefers-reduced-motion: reduce) {{ #shirt-top-banner .shirt-cta {{ animation:none; }} }}
+    @media (max-width:600px) {{
+      #shirt-top-banner .shirt-top-inner {{ flex-direction:column; text-align:center; }}
+      #shirt-top-banner .shirt-top-img {{ width:80px !important; height:80px !important; }}
+    }}
   </style>
-  <div style="max-width:1160px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;font-family:'DM Sans',sans-serif;position:relative;">
-    <span style="font-size:22px;line-height:1;">🚨</span>
-    <span style="color:#fff;font-weight:700;font-size:15px;letter-spacing:.02em;">NEW: THE "{SHIRT_NAME.upper()}" SHIRT IS HERE</span>
-    <a href="{SHIRT_URL}" target="_blank" rel="noopener" class="shirt-cta" style="display:inline-block;background:#ffd700;color:#002868;text-decoration:none;font-weight:800;font-size:13px;letter-spacing:.03em;padding:8px 18px;border-radius:20px;">{TOP_BUTTON_TEXT} &rarr;</a>
-    <button onclick="document.getElementById('shirt-top-banner').style.display='none'" aria-label="Dismiss" style="position:absolute;right:0;top:50%;transform:translateY(-50%);background:none;border:none;color:#fff;opacity:.7;font-size:16px;cursor:pointer;padding:4px 8px;">✕</button>
+  <div class="shirt-top-inner" style="max-width:1160px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:22px;flex-wrap:wrap;font-family:'DM Sans',sans-serif;position:relative;">
+    <button onclick="document.getElementById('shirt-top-banner').style.display='none'" aria-label="Dismiss" style="position:absolute;right:0;top:0;background:none;border:none;color:#fff;opacity:.7;font-size:18px;cursor:pointer;padding:4px 8px;">✕</button>
+    <a href="{SHIRT_URL}" target="_blank" rel="noopener" class="shirt-top-img">{img}</a>
+    <div style="text-align:left;">
+      <div style="color:#ffd700;font-weight:800;font-size:11px;letter-spacing:.18em;text-transform:uppercase;margin-bottom:4px;">🚨 New Merch Drop</div>
+      <div style="color:#fff;font-weight:800;font-size:30px;line-height:1.05;font-family:'Cormorant Garamond',serif;">The "{SHIRT_NAME}" Shirt</div>
+      <div style="color:#ffe9b0;font-size:14px;margin-top:4px;">{SHIRT_BLURB}</div>
+    </div>
+    <a href="{SHIRT_URL}" target="_blank" rel="noopener" class="shirt-cta" style="display:inline-block;background:#ffd700;color:#002868;text-decoration:none;font-weight:800;font-size:16px;letter-spacing:.03em;padding:14px 28px;border-radius:28px;white-space:nowrap;">{TOP_BUTTON_TEXT} &rarr;</a>
   </div>
 </div>
 {TOP_END}
@@ -90,17 +104,24 @@ def build_top_block():
 def build_side_block():
     img = (
         f'<img src="{SHIRT_IMAGE}" alt="{SHIRT_NAME}" loading="lazy" '
-        f'style="width:64px;height:64px;object-fit:cover;border-radius:4px;margin-bottom:6px;">'
+        f'style="width:140px;height:140px;object-fit:cover;border-radius:8px;margin-bottom:10px;'
+        f'border:2px solid #d4af37;">'
         if SHIRT_IMAGE else ""
     )
     return f"""{SIDE_START}
-<div id="shirt-side-tab" style="position:fixed;right:14px;top:50%;transform:translateY(-50%);z-index:9500;font-family:'DM Sans',sans-serif;">
-  <div style="position:relative;background:#002868;border:2px solid #d4af37;border-radius:10px;padding:16px 14px;width:120px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.3);">
-    <button onclick="document.getElementById('shirt-side-tab').style.display='none'" aria-label="Dismiss" style="position:absolute;top:2px;right:4px;background:none;border:none;color:rgba(255,255,255,.6);font-size:13px;cursor:pointer;">✕</button>
-    {img}
-    <div style="color:#d4af37;font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:4px;">New Merch</div>
-    <div style="color:#f5f0e8;font-size:13px;font-weight:600;line-height:1.2;margin-bottom:8px;">{SHIRT_NAME}</div>
-    <a href="{SHIRT_URL}" target="_blank" rel="noopener" style="display:block;background:#c8102e;color:#fff;text-decoration:none;font-weight:700;font-size:11px;padding:8px 6px;border-radius:4px;">SHOP NOW</a>
+<div id="shirt-side-tab" style="position:fixed;right:16px;top:50%;transform:translateY(-50%);z-index:9500;font-family:'DM Sans',sans-serif;">
+  <style>
+    @media (max-width:480px) {{
+      #shirt-side-tab > div {{ width:130px; padding:14px 12px; }}
+      #shirt-side-tab img {{ width:90px !important; height:90px !important; }}
+    }}
+  </style>
+  <div style="position:relative;background:#002868;border:3px solid #d4af37;border-radius:12px;padding:20px 18px;width:190px;text-align:center;box-shadow:0 14px 36px rgba(0,0,0,.4);">
+    <button onclick="document.getElementById('shirt-side-tab').style.display='none'" aria-label="Dismiss" style="position:absolute;top:4px;right:6px;background:none;border:none;color:rgba(255,255,255,.6);font-size:15px;cursor:pointer;">✕</button>
+    <a href="{SHIRT_URL}" target="_blank" rel="noopener" style="display:block;">{img}</a>
+    <div style="color:#d4af37;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:5px;">New Merch</div>
+    <div style="color:#f5f0e8;font-size:18px;font-weight:700;font-family:'Cormorant Garamond',serif;line-height:1.2;margin-bottom:12px;">{SHIRT_NAME}</div>
+    <a href="{SHIRT_URL}" target="_blank" rel="noopener" style="display:block;background:#c8102e;color:#fff;text-decoration:none;font-weight:700;font-size:13px;padding:11px 8px;border-radius:6px;">SHOP NOW &rarr;</a>
   </div>
 </div>
 {SIDE_END}
