@@ -38,21 +38,22 @@
 <!-- __new-nav-css-end__ -->
 <!-- nyse:css:start -->
 <style>
+:root{--nyse-ink:#14110f;--nyse-gold:#d4a017;--nyse-gold-lt:#f3d36b}
 .nyse-header{position:sticky;top:0;z-index:1000;background:#fff;border-bottom:1px solid #e2e8f0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
 .nyse-header *{box-sizing:border-box}
 .nyse-inner{max-width:1100px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;min-height:60px}
-.nyse-logo{font-weight:800;font-size:1.15rem;color:#1a365d;text-decoration:none}
-.nyse-logo span{color:#2b6cb0}
+.nyse-logo{font-weight:800;font-size:1.15rem;color:var(--nyse-ink);text-decoration:none}
+.nyse-logo span{color:var(--nyse-gold)}
 .nyse-nav ul{list-style:none;margin:0;padding:0;display:flex;gap:4px;align-items:center}
 .nyse-nav li{position:relative;margin:0;padding:0}
 .nyse-nav a{display:block;padding:20px 14px;color:#2d3748;text-decoration:none;font-size:.95rem;font-weight:500}
-.nyse-nav a:hover,.nyse-nav a:focus-visible{color:#2b6cb0}
-.nyse-nav .nyse-shop{color:#fff;background:#2b6cb0;border-radius:6px;padding:8px 14px;margin-left:6px}
-.nyse-nav .nyse-shop:hover{color:#fff;background:#1a365d}
+.nyse-nav a:hover,.nyse-nav a:focus-visible{color:#8a6a00}
+.nyse-nav .nyse-shop{color:var(--nyse-ink);font-weight:800;background:var(--nyse-gold);border-radius:6px;padding:8px 14px;margin-left:6px}
+.nyse-nav .nyse-shop:hover{color:var(--nyse-gold);background:var(--nyse-ink)}
 .nyse-nav .nyse-sub{display:none;position:absolute;top:100%;left:0;min-width:260px;background:#fff;border:1px solid #e2e8f0;border-radius:0 0 8px 8px;box-shadow:0 8px 20px rgba(0,0,0,.12);flex-direction:column;gap:0;padding:6px 0}
 .nyse-nav .nyse-sub a{padding:10px 18px;white-space:nowrap}
-.nyse-nav .nyse-sub a:hover{background:#f4f8fc}
-.nyse-toggle{display:none;background:none;border:0;font-size:1.6rem;line-height:1;padding:8px;cursor:pointer;color:#1a365d}
+.nyse-nav .nyse-sub a:hover{background:#faf5e4}
+.nyse-toggle{display:none;background:none;border:0;font-size:1.6rem;line-height:1;padding:8px;cursor:pointer;color:var(--nyse-ink)}
 @media (hover:hover) and (min-width:769px){
   .nyse-has-sub:hover>.nyse-sub{display:flex}
 }
@@ -67,9 +68,33 @@
   .nyse-nav .nyse-sub a{padding-left:36px;white-space:normal}
   .nyse-nav .nyse-shop{margin:10px 20px;text-align:center}
 }
-.nyse-banner{background:#1a365d;color:#fff;text-align:center;padding:10px 16px;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-size:.92rem}
-.nyse-banner strong{letter-spacing:.02em}
-.nyse-banner a{color:#fff;font-weight:700;text-decoration:underline;margin-left:8px;white-space:nowrap}
+
+/* ---- TOP BANNER ---- */
+.nyse-banner{position:relative;overflow:hidden;background:linear-gradient(90deg,var(--nyse-gold),var(--nyse-gold-lt),var(--nyse-gold));color:var(--nyse-ink);text-align:center;padding:16px 16px;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;border-bottom:4px solid var(--nyse-ink)}
+.nyse-banner .nyse-b-tag{display:block;font-size:clamp(1.4rem,4.5vw,2.4rem);font-weight:900;letter-spacing:.06em;text-transform:uppercase;line-height:1.1}
+.nyse-banner .nyse-b-sub{display:block;font-size:1rem;font-weight:600;margin:6px 0 10px}
+.nyse-btn{display:inline-block;background:var(--nyse-ink);color:var(--nyse-gold-lt)!important;font-weight:800;text-transform:uppercase;letter-spacing:.05em;text-decoration:none!important;padding:12px 26px;border-radius:999px;border:2px solid var(--nyse-ink);animation:nysePulse 1.6s ease-in-out infinite}
+.nyse-btn:hover{background:#fff;color:var(--nyse-ink)!important}
+.nyse-banner:after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.55),transparent);animation:nyseShine 3.2s ease-in-out infinite}
+@keyframes nysePulse{0%,100%{transform:scale(1);box-shadow:0 0 0 0 rgba(20,17,15,.5)}50%{transform:scale(1.07);box-shadow:0 0 0 10px rgba(20,17,15,0)}}
+@keyframes nyseShine{0%{left:-60%}60%,100%{left:130%}}
+/* ---- STICKY BOTTOM BAR ---- */
+.nyse-bar{position:fixed;left:0;right:0;bottom:0;z-index:9999;display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;background:var(--nyse-ink);color:var(--nyse-gold-lt);border-top:4px solid var(--nyse-gold);padding:10px 48px 10px 16px;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.05em;font-size:.95rem;text-align:center}
+.nyse-bar .nyse-btn{background:var(--nyse-gold);color:var(--nyse-ink)!important;border-color:var(--nyse-gold);padding:8px 20px}
+.nyse-bar-x{position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:0;color:var(--nyse-gold-lt);font-size:1.6rem;line-height:1;cursor:pointer;padding:4px 8px}
+body.nyse-bar-on{padding-bottom:72px}
+/* ---- DESKTOP SIDE RAILS (only when the margins are empty) ---- */
+.nyse-rail{display:none}
+@media (min-width:1400px){
+  .nyse-rail{display:flex;position:fixed;top:140px;width:130px;z-index:900;flex-direction:column;align-items:center;text-align:center;gap:10px;background:var(--nyse-ink);color:var(--nyse-gold-lt);border:3px solid var(--nyse-gold);border-radius:10px;padding:18px 10px;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+  .nyse-rail-l{left:max(8px,calc((100vw - 1100px)/4 - 65px))}
+  .nyse-rail-r{right:max(8px,calc((100vw - 1100px)/4 - 65px))}
+  .nyse-rail .nyse-r-ico{font-size:2.6rem;line-height:1}
+  .nyse-rail .nyse-r-tag{font-weight:900;text-transform:uppercase;letter-spacing:.05em;font-size:1rem;line-height:1.15}
+  .nyse-rail .nyse-btn{background:var(--nyse-gold);color:var(--nyse-ink)!important;border-color:var(--nyse-gold);padding:8px 12px;font-size:.8rem}
+  .nyse-rail:hover{transform:translateY(-4px)}
+}
+@media (prefers-reduced-motion:reduce){.nyse-btn,.nyse-banner:after{animation:none}}
 </style>
 <!-- nyse:css:end -->
 </head>
@@ -529,6 +554,15 @@ tools needed to secure appropriate services in NYC and NY State.
     });
     document.addEventListener('keydown',function(e){if(e.key==='Escape'){sub.classList.remove('nyse-open');link.setAttribute('aria-expanded','false');}});
     document.addEventListener('click',function(e){if(!sub.contains(e.target)){sub.classList.remove('nyse-open');}});
+  }
+
+  /* ---- bottom bar: dismiss for this session ---- */
+  var bar=document.getElementById('nyse-bar');
+  if(bar){
+    var gone=false;try{gone=sessionStorage.getItem('nyseBar')==='1';}catch(e){}
+    if(gone){bar.style.display='none';}else{document.body.classList.add('nyse-bar-on');}
+    var x=bar.querySelector('.nyse-bar-x');
+    if(x)x.addEventListener('click',function(){bar.style.display='none';document.body.classList.remove('nyse-bar-on');try{sessionStorage.setItem('nyseBar','1');}catch(e){}});
   }
 
   /* ---- mobile: remove email-capture pop-up ---- */
