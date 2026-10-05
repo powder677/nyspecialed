@@ -143,6 +143,42 @@
 @media(max-width:860px){.mobile-menu.open{display:block;}}
 </style>
 <!-- __new-nav-css-end__ -->
+<!-- nyse:css:start -->
+<style>
+.nyse-header{position:sticky;top:0;z-index:1000;background:#fff;border-bottom:1px solid #e2e8f0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.nyse-header *{box-sizing:border-box}
+.nyse-inner{max-width:1100px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;min-height:60px}
+.nyse-logo{font-weight:800;font-size:1.15rem;color:#1a365d;text-decoration:none}
+.nyse-logo span{color:#2b6cb0}
+.nyse-nav ul{list-style:none;margin:0;padding:0;display:flex;gap:4px;align-items:center}
+.nyse-nav li{position:relative;margin:0;padding:0}
+.nyse-nav a{display:block;padding:20px 14px;color:#2d3748;text-decoration:none;font-size:.95rem;font-weight:500}
+.nyse-nav a:hover,.nyse-nav a:focus-visible{color:#2b6cb0}
+.nyse-nav .nyse-shop{color:#fff;background:#2b6cb0;border-radius:6px;padding:8px 14px;margin-left:6px}
+.nyse-nav .nyse-shop:hover{color:#fff;background:#1a365d}
+.nyse-nav .nyse-sub{display:none;position:absolute;top:100%;left:0;min-width:260px;background:#fff;border:1px solid #e2e8f0;border-radius:0 0 8px 8px;box-shadow:0 8px 20px rgba(0,0,0,.12);flex-direction:column;gap:0;padding:6px 0}
+.nyse-nav .nyse-sub a{padding:10px 18px;white-space:nowrap}
+.nyse-nav .nyse-sub a:hover{background:#f4f8fc}
+.nyse-toggle{display:none;background:none;border:0;font-size:1.6rem;line-height:1;padding:8px;cursor:pointer;color:#1a365d}
+@media (hover:hover) and (min-width:769px){
+  .nyse-has-sub:hover>.nyse-sub{display:flex}
+}
+.nyse-has-sub:focus-within>.nyse-sub,.nyse-has-sub.nyse-open>.nyse-sub{display:flex}
+@media (max-width:768px){
+  .nyse-toggle{display:block}
+  .nyse-nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;border-bottom:1px solid #e2e8f0;box-shadow:0 8px 20px rgba(0,0,0,.1)}
+  .nyse-nav.nyse-open{display:block}
+  .nyse-nav ul{flex-direction:column;align-items:stretch;gap:0}
+  .nyse-nav a{padding:14px 20px;border-top:1px solid #f1f5f9}
+  .nyse-nav .nyse-sub{position:static;box-shadow:none;border:0;border-radius:0;background:#f8fafc;min-width:0}
+  .nyse-nav .nyse-sub a{padding-left:36px;white-space:normal}
+  .nyse-nav .nyse-shop{margin:10px 20px;text-align:center}
+}
+.nyse-banner{background:#1a365d;color:#fff;text-align:center;padding:10px 16px;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-size:.92rem}
+.nyse-banner strong{letter-spacing:.02em}
+.nyse-banner a{color:#fff;font-weight:700;text-decoration:underline;margin-left:8px;white-space:nowrap}
+</style>
+<!-- nyse:css:end -->
 </head>
 <body>
 <!-- shirt-promo-side:start -->
@@ -163,31 +199,34 @@
 </div>
 <!-- shirt-promo-side:end -->
 
-<header class="site-nav">
-<div class="nav-inner">
-<!-- Wordmark -->
-<a class="nav-wordmark" href="/">NY Special<span>Ed</span>.net</a>
-<!-- Desktop links — flat, no dropdowns -->
-<ul class="nav-links">
-<li><a class="nav-link" href="/districts/">Districts</a></li>
-<li><a class="nav-link" href="/guides/">Parent Guides</a></li>
-<li><a class="nav-link es" href="/guides/es/index.html">🇪🇸 En Español</a></li>
-
-<li><a class="nav-link" href="/resources/">Resources</a></li>
-</ul>
-<!-- CTA button -->
-<!-- Hamburger -->
-<button aria-label="Open menu" class="nav-mobile-toggle" id="mobileToggle">☰</button>
+<!-- nyse:header:start -->
+<div class="nyse-header" role="banner">
+  <div class="nyse-inner">
+    <a class="nyse-logo" href="/">NY SpecialEd<span>.net</span></a>
+    <button class="nyse-toggle" type="button" aria-label="Menu" aria-controls="nyse-nav" aria-expanded="false">&#9776;</button>
+    <div class="nyse-nav" id="nyse-nav" role="navigation" aria-label="Main">
+      <ul>
+        <li class="nyse-has-sub">
+          <a class="nyse-sub-toggle" href="/districts/" aria-haspopup="true" aria-expanded="false">Districts &#9662;</a>
+          <ul class="nyse-sub">
+<li><a href="/districts/">All Districts</a></li>
+<li><a href="/districts/nyc-district-02-upper-east-side/">NYC District 2 (Manhattan)</a></li>
+<li><a href="/districts/nyc-district-15-park-slope/">NYC District 15 (Brooklyn)</a></li>
+<li><a href="/districts/nyc-district-30-astoria/">NYC District 30 (Queens)</a></li>
+<li><a href="/districts/nyc-district-31-staten-island/">NYC District 31 (Staten Island)</a></li>
+<li><a href="/districts/nyc-district-75/">NYC District 75</a></li>
+<li><a href="/districts/buffalo-city-sd/">Buffalo City Schools</a></li>
+          </ul>
+        </li>
+        <li><a href="/guides/">Parent Guides</a></li>
+        <li><a href="/guides/es/index.html">🇪🇸 En Español</a></li>
+        <li><a href="/resources/">Resources</a></li>
+        <li><a class="nyse-shop" href="https://newyorkspecialed.printify.me/" target="_blank" rel="noopener sponsored">Shop</a></li>
+      </ul>
+    </div>
+  </div>
 </div>
-<!-- Mobile menu — same flat links -->
-<div class="mobile-menu" id="mobileMenu">
-<a href="/districts/">Districts</a>
-<a href="/guides/">Parent Guides</a>
-<a class="es" href="/guides/es/index.html">🇪🇸 En Español</a>
-
-<a href="/resources/">Resources</a>
-</div>
-</header>
+<!-- nyse:header:end -->
 <!-- shirt-promo-top:start -->
 <div id="shirt-top-banner" style="background:linear-gradient(90deg,#c8102e,#a80d24 50%,#c8102e);border-bottom:4px solid #d4af37;padding:18px 16px;">
   <style>
@@ -404,7 +443,7 @@
             tools needed to secure appropriate services in NYC and NY State.
      </p>
 <div style="margin-top: 20px;">
-<a href="/contact/" style="color: #D4AF37; font-weight: bold; text-decoration: none;">
+<a style="color: #D4AF37; font-weight: bold; text-decoration: none;" href="https://newyorkspecialed.printify.me/" target="_blank" rel="noopener sponsored">
        View Advocacy Shop →
       </a>
 </div>
@@ -513,5 +552,58 @@
     </p>
 </div>
 </footer>
+<!-- nyse:js:start -->
+<script>
+(function(){
+  /* ---- header: menu + Districts dropdown ---- */
+  var toggle=document.querySelector('.nyse-toggle'), nav=document.getElementById('nyse-nav');
+  if(toggle&&nav){toggle.addEventListener('click',function(){
+    var o=nav.classList.toggle('nyse-open');toggle.setAttribute('aria-expanded',o);});}
+  var sub=document.querySelector('.nyse-has-sub'), link=sub&&sub.querySelector('.nyse-sub-toggle');
+  function touchMode(){return window.matchMedia('(max-width:768px), (hover:none)').matches;}
+  if(link){
+    link.addEventListener('click',function(e){
+      if(touchMode()){e.preventDefault();var o=sub.classList.toggle('nyse-open');link.setAttribute('aria-expanded',o);}
+    });
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'){sub.classList.remove('nyse-open');link.setAttribute('aria-expanded','false');}});
+    document.addEventListener('click',function(e){if(!sub.contains(e.target)){sub.classList.remove('nyse-open');}});
+  }
+
+  /* ---- mobile: remove email-capture pop-up ---- */
+  var mq=window.matchMedia('(max-width:768px)');
+  var LABELS=['District Intelligence',"You're on the list"];
+  function unlock(){
+    [document.body,document.documentElement].forEach(function(el){
+      el.style.setProperty('overflow','auto','important');
+      el.className=(el.className||'').replace(/\b[\w-]*(modal|no-?scroll|lock)[\w-]*\b/gi,'').trim();
+    });
+  }
+  function kill(){
+    if(!mq.matches||!document.body)return;
+    var w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT),n,hit=false;
+    while((n=w.nextNode())){
+      if(!LABELS.some(function(t){return n.nodeValue.indexOf(t)>-1;}))continue;
+      var el=n.parentElement,target=null;
+      while(el&&el!==document.body){
+        var cs=getComputedStyle(el);
+        if(cs.position==='fixed'){target=el;}
+        else if(!target&&/modal|popup|pop-up|overlay|capture|subscribe/i.test((el.id||'')+' '+(el.className||''))){target=el;}
+        el=el.parentElement;
+      }
+      if(target){target.style.setProperty('display','none','important');hit=true;}
+    }
+    if(hit)unlock();
+  }
+  kill();
+  document.addEventListener('DOMContentLoaded',kill);
+  [500,1500,3000,6000,12000].forEach(function(t){setTimeout(kill,t);});
+  if(window.MutationObserver){
+    var mo=new MutationObserver(function(){kill();});
+    mo.observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['class','style']});
+    setTimeout(function(){mo.disconnect();},30000);
+  }
+})();
+</script>
+<!-- nyse:js:end -->
 </body>
 </html>
