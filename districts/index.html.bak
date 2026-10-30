@@ -1,35 +1,315 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
 <head>
-   <meta charset="utf-8" />
-   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-   <title>New York School Districts Directory | NY Special Education</title>
-   <meta content="Find special education resources, CSE guides, and parent support for every major New York school district." name="description" />
-   <link href="/styles/global.css" rel="stylesheet" />
-   <link href="/styles/styles-nav-footer.css" rel="stylesheet" />
-   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet" />
-   <link href="https://www.newyorkspecialed.net/districts/" rel="canonical" />
+<meta charset="utf-8"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Cormorant+Garamond:wght@500;600&amp;display=swap" rel="stylesheet"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>NY Special Education Rights &amp; CSE | New York Special Ed</title>
+<meta content="The comprehensive parent guide to New York Special Education. Navigate the Committee on Special Education (CSE), evaluations, and IEPs in NYC and NY State." name="description"/>
+<link href="https://www.newyorkspecialed.net/" rel="canonical"/>
+<link href="/styles/global.css" rel="stylesheet"/>
+<link href="/styles/styles-nav-footer.css" rel="stylesheet"/>
+<script type="application/ld+json">
+      {
+         "@context": "https://schema.org",
+         "@type": "FAQPage",
+         "mainEntity": [{
+            "@type": "Question",
+            "name": "What is the timeline for a special education evaluation in NY?",
+            "acceptedAnswer": {
+               "@type": "Answer",
+               "text": "In New York State, the school district must complete all evaluations and hold the eligibility meeting within 60 calendar days of receiving your signed consent to evaluate."
+            }
+         }, {
+            "@type": "Question",
+            "name": "What is the CSE in New York schools?",
+            "acceptedAnswer": {
+               "@type": "Answer",
+               "text": "The Committee on Special Education (CSE) is the multidisciplinary team responsible for evaluating and creating IEPs for students ages 5-21. It is equivalent to the 'ARD Committee' or 'IEP Team' in other states."
+            }
+         }, {
+            "@type": "Question",
+            "name": "Does New York recognize dyslexia as a disability category?",
+            "acceptedAnswer": {
+               "@type": "Answer",
+               "text": "New York classifies dyslexia under the broader category of 'Learning Disability.' While the IEP can specify dyslexia in the management needs, the official classification remains Learning Disability."
+            }
+         }]
+      }
+   </script>
+<style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap');
 
-   <style>
-      /* ── RESET & BASE ── */
-      *,
-      *::before,
-      *::after {
-         box-sizing: border-box;
+      /* Homepage Specific Styles */
+      .hero-section {
+         background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+         color: white;
+         padding: 80px 20px;
+         text-align: center;
+      }
+
+      .hero-title {
+         font-size: 3rem;
+         margin-bottom: 20px;
+         font-weight: 800;
+         color: #ffffff;
+         text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+      }
+
+      .hero-subtitle {
+         font-size: 1.2rem;
+         max-width: 600px;
+         margin: 0 auto 30px auto;
+         color: #e2e8f0;
+      }
+
+      .hero-cta {
+         background: #d4af37;
+         color: #0f172a;
+         padding: 15px 30px;
+         border-radius: 50px;
+         text-decoration: none;
+         font-weight: 700;
+         font-size: 1.1rem;
+         display: inline-block;
+         transition: transform 0.2s;
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      }
+
+      .hero-cta:hover {
+         transform: translateY(-2px);
+         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      }
+
+      .directory-section {
+         padding: 60px 20px;
+         background: #f8f9fa;
+      }
+
+      .directory-container {
+         max-width: 1200px;
+         margin: 0 auto;
+      }
+
+      .stats-bar {
+         display: flex;
+         justify-content: center;
+         gap: 40px;
+         margin-top: 40px;
+         flex-wrap: wrap;
+      }
+
+      .stat-item {
+         text-align: center;
+      }
+
+      .stat-num {
+         display: block;
+         font-size: 2.5rem;
+         font-weight: 800;
+         color: #d4af37;
+      }
+
+      .stat-label {
+         color: #e2e8f0;
+         font-size: 0.9rem;
+         text-transform: uppercase;
+         letter-spacing: 1px;
+      }
+
+      /* Main Hub Grid */
+      .main-hub-grid {
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+         gap: 20px;
+         margin: -40px auto 40px auto;
+         max-width: 1100px;
+         position: relative;
+         z-index: 2;
+         padding: 0 20px;
+      }
+
+      .hub-card {
+         background: white;
+         padding: 30px 25px;
+         border: 1px solid #e2e8f0;
+         border-top: 4px solid #c8102e;
+         border-radius: 12px;
+         text-decoration: none;
+         color: inherit;
+         display: block;
+         box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+         transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      .hub-card:hover {
+         transform: translateY(-6px);
+         box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+      }
+
+      /* --- PREMIUM FLEXBOX DIRECTORY CARDS --- */
+      details>summary::-webkit-details-marker {
+         display: none;
+      }
+
+      .directory-grid {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         gap: 20px;
+         max-width: 1100px;
+         margin: 10px auto 0 auto;
+         align-items: stretch;
+      }
+
+      .directory-card {
+         flex: 1 1 300px;
+         max-width: 340px;
+         background: #ffffff;
+         border-radius: 12px;
+         padding: 24px 20px;
+         text-align: center;
+         text-decoration: none;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         border: 1px solid #e2e8f0;
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+         transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      }
+
+      .directory-card:hover {
+         transform: translateY(-5px);
+         box-shadow: 0 12px 24px rgba(0, 86, 179, 0.12);
+         border-color: #0056b3;
+      }
+
+      .directory-card .d-name {
+         display: block;
+         font-size: 1.25rem;
+         color: #002868;
+         font-weight: 800;
+         margin-bottom: 8px;
+      }
+
+      .directory-card .d-desc {
+         font-size: 0.95rem;
+         color: #475569;
+         line-height: 1.4;
+      }
+
+      /* --- PREMIUM SIDEBAR CARD STYLES --- */
+      .premium-card {
+         background: #fdfaf5;
+         border: 1px solid #d6cbbf;
+         border-radius: 6px;
+         overflow: hidden;
+         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+         font-family: 'DM Sans', sans-serif;
+      }
+
+      .card-header {
+         background: #002868;
+         padding: 22px 24px 18px;
+         border-bottom: 3px solid #d4af37;
+      }
+
+      .eyebrow {
+         font-size: 10px;
+         font-weight: 600;
+         letter-spacing: 0.2em;
+         text-transform: uppercase;
+         color: #d4af37;
+         margin-bottom: 8px;
+      }
+
+      .premium-card .title {
+         font-family: 'Cormorant Garamond', serif;
+         font-size: 26px;
+         font-weight: 500;
+         color: #f5f0e8;
+         line-height: 1.1;
          margin: 0;
+      }
+
+      .premium-card .title em {
+         font-style: italic;
+         color: #e5c158;
+      }
+
+      .card-body {
+         padding: 24px;
+      }
+
+      .empathy {
+         font-family: 'Cormorant Garamond', serif;
+         font-size: 20px;
+         font-weight: 600;
+         color: #002868;
+         line-height: 1.4;
+         margin-bottom: 12px;
+      }
+
+      .premium-card .divider {
+         width: 48px;
+         height: 2px;
+         background: #d4af37;
+         margin: 16px 0;
+      }
+
+      .checklist {
+         list-style: none;
+         margin: 16px 0;
          padding: 0;
       }
 
-      body {
-         background: #f8fafc;
-         font-family: 'DM Sans', -apple-system, sans-serif;
-         color: #1a202c;
+      .checklist li {
+         font-size: 14px;
+         color: #6b5f53;
+         padding: 6px 0 6px 20px;
+         position: relative;
       }
 
-      /* ══════════════════════════════════════════
-   CLEAN TEXT NAVBAR
-══════════════════════════════════════════ */
+      .checklist li::before {
+         content: '§';
+         font-family: 'Cormorant Garamond', serif;
+         font-size: 16px;
+         color: #d4af37;
+         position: absolute;
+         left: 0;
+      }
+
+      .premium-btn {
+         background: #c8102e;
+         color: white;
+         border: none;
+         padding: 14px;
+         border-radius: 4px;
+         font-weight: 600;
+         font-family: 'DM Sans', sans-serif;
+         font-size: 16px;
+         cursor: pointer;
+         transition: background 0.2s;
+         width: 100%;
+      }
+
+      .premium-btn:hover {
+         background: #a50b24;
+      }
+   </style>
+<meta content="website" property="og:type"/>
+<meta content="NY Special Education Rights &amp; CSE Guide | newyorkspecialed.net" property="og:title"/>
+<meta content="The comprehensive parent guide to New York Special Education. Navigate the Committee on Special Education (CSE), evaluations, and IEPs in NYC and NY State." property="og:description"/>
+<meta content="https://www.newyorkspecialed.net/" property="og:url"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="NY Special Education Rights &amp; CSE Guide | newyorkspecialed.net" name="twitter:title"/>
+<meta content="The comprehensive parent guide to New York Special Education. Navigate the Committee on Special Education (CSE), evaluations, and IEPs in NYC and NY State." name="twitter:description"/>
+<meta content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" property="og:image"/>
+<meta content="https://www.newyorkspecialed.net/assets/images/social-default.jpg" name="twitter:image"/>
+<!-- __new-nav-css-start__ -->
+<style>
+      /* ── NEW CLEAN NAV ── */
       .site-nav {
          position: sticky;
          top: 0;
@@ -56,7 +336,7 @@
          color: #002868;
          text-decoration: none;
          white-space: nowrap;
-         letter-spacing: 0.01em;
+         letter-spacing: .01em;
          flex-shrink: 0;
       }
 
@@ -80,12 +360,12 @@
       .nav-link {
          display: block;
          padding: 8px 13px;
-         font-size: 0.84rem;
+         font-size: .84rem;
          font-weight: 500;
          color: #374151;
          text-decoration: none;
          border-radius: 5px;
-         transition: color 0.15s, background 0.15s;
+         transition: color .15s, background .15s;
          white-space: nowrap;
          cursor: pointer;
          background: none;
@@ -98,12 +378,6 @@
          background: #f1f5f9;
       }
 
-      .nav-link.active {
-         color: #002868;
-         font-weight: 600;
-      }
-
-      /* Dropdown */
       .nav-dropdown {
          display: none;
          position: absolute;
@@ -112,7 +386,7 @@
          background: #fff;
          border: 1px solid #e2e8f0;
          border-radius: 10px;
-         box-shadow: 0 12px 32px rgba(0, 0, 0, 0.10);
+         box-shadow: 0 12px 32px rgba(0, 0, 0, .10);
          padding: 10px 0;
          min-width: 220px;
          z-index: 200;
@@ -137,10 +411,10 @@
       .nav-dropdown a {
          display: block;
          padding: 8px 18px;
-         font-size: 0.83rem;
+         font-size: .83rem;
          color: #374151;
          text-decoration: none;
-         transition: background 0.12s, color 0.12s;
+         transition: background .12s, color .12s;
       }
 
       .nav-dropdown a:hover {
@@ -149,9 +423,9 @@
       }
 
       .dropdown-section h4 {
-         font-size: 0.7rem;
+         font-size: .7rem;
          font-weight: 700;
-         letter-spacing: 0.1em;
+         letter-spacing: .1em;
          text-transform: uppercase;
          color: #94a3b8;
          padding: 6px 18px 4px;
@@ -168,25 +442,20 @@
          padding: 6px 0;
       }
 
-      /* Spanish badge */
       .nav-es-badge {
          display: inline-flex;
          align-items: center;
          gap: 5px;
-         font-size: 0.83rem;
+         font-size: .83rem;
          font-weight: 600;
          color: #c8102e;
          padding: 5px 11px;
          border-radius: 5px;
-         border: 1.5px solid #fecdd3;
-         background: #fff5f5;
-         text-decoration: none;
-         white-space: nowrap;
          cursor: pointer;
          background: none;
          border: none;
          font-family: inherit;
-         transition: background 0.15s;
+         transition: background .15s;
       }
 
       .nav-item:hover .nav-es-badge {
@@ -198,11 +467,11 @@
          padding: 8px 16px;
          background: #002868;
          color: #fff !important;
-         font-size: 0.83rem;
+         font-size: .83rem;
          font-weight: 600;
          border-radius: 6px;
          text-decoration: none;
-         transition: background 0.15s;
+         transition: background .15s;
          white-space: nowrap;
          flex-shrink: 0;
       }
@@ -211,7 +480,6 @@
          background: #001a44;
       }
 
-      /* Mobile nav */
       .nav-mobile-toggle {
          display: none;
          background: none;
@@ -233,7 +501,7 @@
       .mobile-menu a {
          display: block;
          padding: 10px 0;
-         font-size: 0.9rem;
+         font-size: .9rem;
          color: #374151;
          text-decoration: none;
          border-bottom: 1px solid #f1f5f9;
@@ -243,16 +511,16 @@
          border-bottom: none;
       }
 
-      .mobile-menu .mobile-section-head {
-         font-size: 0.7rem;
+      .mobile-section-head {
+         font-size: .7rem;
          font-weight: 700;
-         letter-spacing: 0.1em;
+         letter-spacing: .1em;
          text-transform: uppercase;
          color: #94a3b8;
          padding: 14px 0 4px;
       }
 
-      @media (max-width: 900px) {
+      @media(max-width:900px) {
          .nav-links {
             display: none;
          }
@@ -266,1114 +534,598 @@
          }
       }
 
-      @media (max-width: 900px) {
+      @media(max-width:900px) {
          .mobile-menu.open {
             display: block;
          }
       }
-
-      /* ══════════════════════════════════════════
-   HERO
-══════════════════════════════════════════ */
-      .directory-hero {
-         background: linear-gradient(135deg, #0d1b3e 0%, #1a3a8a 100%);
-         color: white;
-         padding: 56px 24px 72px;
-         text-align: center;
-      }
-
-      .directory-hero h1 {
-         font-family: 'Cormorant Garamond', serif;
-         font-size: clamp(2rem, 5vw, 2.8rem);
-         font-weight: 600;
-         margin-bottom: 14px;
-         color: #fff;
-         line-height: 1.15;
-      }
-
-      .directory-hero p {
-         font-size: 1.05rem;
-         color: #94a3b8;
-         max-width: 620px;
-         margin: 0 auto;
-         line-height: 1.65;
-      }
-
-      /* ══════════════════════════════════════════
-   CONTROLS
-══════════════════════════════════════════ */
-      .controls-container {
-         max-width: 1100px;
-         margin: -32px auto 40px;
-         background: white;
-         padding: 18px 20px;
-         border-radius: 12px;
-         box-shadow: 0 10px 28px -5px rgba(0, 0, 0, 0.10);
-         display: flex;
-         gap: 14px;
-         flex-wrap: wrap;
-         justify-content: space-between;
-         position: relative;
-         z-index: 10;
-         border: 1px solid #e2e8f0;
-      }
-
-      .search-box {
-         flex: 1;
-         min-width: 240px;
-      }
-
-      .search-box input {
-         width: 100%;
-         padding: 13px 16px;
-         border: 1.5px solid #cbd5e1;
-         border-radius: 8px;
-         font-size: 0.95rem;
-         outline: none;
-         transition: border-color 0.2s;
-         font-family: inherit;
-         color: #1a202c;
-      }
-
-      .search-box input:focus {
-         border-color: #2563eb;
-      }
-
-      .filter-box {
-         display: flex;
-         gap: 12px;
-      }
-
-      .filter-box select {
-         padding: 13px 14px;
-         border: 1.5px solid #cbd5e1;
-         border-radius: 8px;
-         font-size: 0.9rem;
-         background: white;
-         cursor: pointer;
-         outline: none;
-         font-family: inherit;
-         color: #374151;
-      }
-
-      .filter-box select:focus {
-         border-color: #2563eb;
-      }
-
-      @media (max-width: 640px) {
-         .filter-box {
-            flex-direction: column;
-            width: 100%;
-         }
-
-         .filter-box select {
-            width: 100%;
-         }
-      }
-
-      /* ══════════════════════════════════════════
-   SECTION LABELS
-══════════════════════════════════════════ */
-      .section-label {
-         max-width: 1100px;
-         margin: 0 auto 14px;
-         padding: 0 20px;
-         font-size: 0.72rem;
-         font-weight: 700;
-         letter-spacing: 0.1em;
-         text-transform: uppercase;
-         color: #94a3b8;
-      }
-
-      .section-label.first {
-         margin-top: 0;
-      }
-
-      /* ══════════════════════════════════════════
-   DISTRICT GRID
-══════════════════════════════════════════ */
-      .district-grid {
-         max-width: 1100px;
-         margin: 0 auto 20px;
-         padding: 0 20px;
-         display: grid;
-         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-         gap: 20px;
-      }
-
-      .district-card {
-         background: white;
-         border: 1px solid #e2e8f0;
-         border-radius: 10px;
-         padding: 20px 22px;
-         text-decoration: none;
-         color: inherit;
-         transition: transform 0.18s, box-shadow 0.18s, border-color 0.18s;
-         display: flex;
-         flex-direction: column;
-         position: relative;
-         overflow: hidden;
-      }
-
-      .district-card::before {
-         content: '';
-         position: absolute;
-         top: 0;
-         left: 0;
-         right: 0;
-         height: 3px;
-         background: #e2e8f0;
-         transition: background 0.18s;
-      }
-
-      .district-card:hover {
-         transform: translateY(-3px);
-         box-shadow: 0 14px 28px -5px rgba(0, 0, 0, 0.09);
-         border-color: #bfdbfe;
-      }
-
-      .district-card:hover::before {
-         background: #002868;
-      }
-
-      .district-type-badge {
-         font-size: 0.72rem;
-         font-weight: 700;
-         text-transform: uppercase;
-         letter-spacing: 0.06em;
-         padding: 4px 9px;
-         border-radius: 5px;
-         display: inline-block;
-         align-self: flex-start;
-         margin-bottom: 10px;
-      }
-
-      .badge-nyc {
-         background: #e0e7ff;
-         color: #2d3a8c;
-      }
-
-      .badge-nys {
-         background: #dcfce7;
-         color: #166534;
-      }
-
-      .badge-li {
-         background: #fef9c3;
-         color: #854d0e;
-      }
-
-      .district-name {
-         font-size: 1.05rem;
-         font-weight: 700;
-         color: #0f172a;
-         margin-bottom: 6px;
-         line-height: 1.3;
-      }
-
-      .district-county {
-         font-size: 0.8rem;
-         color: #64748b;
-         margin-bottom: 12px;
-      }
-
-      .district-desc {
-         font-size: 0.84rem;
-         color: #4b5563;
-         line-height: 1.6;
-         flex: 1;
-         margin-bottom: 14px;
-      }
-
-      .district-cta {
-         font-size: 0.83rem;
-         font-weight: 600;
-         color: #2563eb;
-         display: flex;
-         align-items: center;
-         gap: 4px;
-         margin-top: auto;
-      }
-
-      .district-cta::after {
-         content: '→';
-         transition: transform 0.15s;
-      }
-
-      .district-card:hover .district-cta::after {
-         transform: translateX(4px);
-      }
-
-      /* No results */
-      #noResults {
-         display: none;
-         max-width: 1100px;
-         margin: 0 auto 60px;
-         padding: 40px 20px;
-         text-align: center;
-         color: #64748b;
-         font-size: 0.95rem;
-      }
-
-      /* Bottom spacer */
-      .page-bottom {
-         height: 80px;
-      }
-
-      /* ══════════════════════════════════════════
-   FOOTER
-══════════════════════════════════════════ */
-      .site-footer {
-         background: #0d1b3e;
-         color: #94a3b8;
-         padding: 48px 24px 28px;
-      }
-
-      .footer-inner {
-         max-width: 1100px;
-         margin: 0 auto;
-         display: grid;
-         grid-template-columns: 2fr 1fr 1fr 1fr;
-         gap: 36px;
-      }
-
-      .footer-brand-name {
-         font-family: 'Cormorant Garamond', serif;
-         font-size: 1.2rem;
-         font-weight: 600;
-         color: #f5f0e8;
-         margin-bottom: 10px;
-      }
-
-      .footer-brand-name span {
-         color: #d4af37;
-      }
-
-      .footer-brand p {
-         font-size: 0.83rem;
-         line-height: 1.7;
-         margin-bottom: 16px;
-      }
-
-      .footer-col h4 {
-         font-size: 0.7rem;
-         font-weight: 700;
-         text-transform: uppercase;
-         letter-spacing: 0.1em;
-         color: #f5f0e8;
-         margin-bottom: 12px;
-      }
-
-      .footer-col ul {
-         list-style: none;
-      }
-
-      .footer-col ul li {
-         margin-bottom: 8px;
-      }
-
-      .footer-col ul a {
-         color: #94a3b8;
-         text-decoration: none;
-         font-size: 0.83rem;
-         transition: color 0.15s;
-      }
-
-      .footer-col ul a:hover {
-         color: #d4af37;
-      }
-
-      .footer-bottom {
-         max-width: 1100px;
-         margin: 32px auto 0;
-         padding-top: 20px;
-         border-top: 1px solid rgba(255, 255, 255, 0.08);
-         font-size: 0.78rem;
-         color: #475569;
-         text-align: center;
-      }
-
-      @media (max-width: 768px) {
-         .footer-inner {
-            grid-template-columns: 1fr 1fr;
-            gap: 28px;
-         }
-      }
-
-      @media (max-width: 480px) {
-         .footer-inner {
-            grid-template-columns: 1fr;
-         }
-      }
    </style>
+<!-- __new-nav-css-end__ -->
+<!-- nyse:css:start -->
+<style>
+:root{--nyse-ink:#14110f;--nyse-gold:#d4a017;--nyse-gold-lt:#f3d36b}
+.nyse-header{position:sticky;top:0;z-index:1000;background:#fff;border-bottom:1px solid #e2e8f0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.nyse-header *{box-sizing:border-box}
+.nyse-inner{max-width:1100px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;min-height:60px}
+.nyse-logo{font-weight:800;font-size:1.15rem;color:var(--nyse-ink);text-decoration:none}
+.nyse-logo span{color:var(--nyse-gold)}
+.nyse-nav ul{list-style:none;margin:0;padding:0;display:flex;gap:4px;align-items:center}
+.nyse-nav li{position:relative;margin:0;padding:0}
+.nyse-nav a{display:block;padding:20px 14px;color:#2d3748;text-decoration:none;font-size:.95rem;font-weight:500}
+.nyse-nav a:hover,.nyse-nav a:focus-visible{color:#8a6a00}
+.nyse-nav .nyse-shop{color:var(--nyse-ink);font-weight:800;background:var(--nyse-gold);border-radius:6px;padding:8px 14px;margin-left:6px}
+.nyse-nav .nyse-shop:hover{color:var(--nyse-gold);background:var(--nyse-ink)}
+.nyse-nav .nyse-sub{display:none;position:absolute;top:100%;left:0;min-width:260px;background:#fff;border:1px solid #e2e8f0;border-radius:0 0 8px 8px;box-shadow:0 8px 20px rgba(0,0,0,.12);flex-direction:column;gap:0;padding:6px 0}
+.nyse-nav .nyse-sub a{padding:10px 18px;white-space:nowrap}
+.nyse-nav .nyse-sub a:hover{background:#faf5e4}
+.nyse-toggle{display:none;background:none;border:0;font-size:1.6rem;line-height:1;padding:8px;cursor:pointer;color:var(--nyse-ink)}
+@media (hover:hover) and (min-width:769px){
+  .nyse-has-sub:hover>.nyse-sub{display:flex}
+}
+.nyse-has-sub:focus-within>.nyse-sub,.nyse-has-sub.nyse-open>.nyse-sub{display:flex}
+@media (max-width:768px){
+  .nyse-toggle{display:block}
+  .nyse-nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;border-bottom:1px solid #e2e8f0;box-shadow:0 8px 20px rgba(0,0,0,.1)}
+  .nyse-nav.nyse-open{display:block}
+  .nyse-nav ul{flex-direction:column;align-items:stretch;gap:0}
+  .nyse-nav a{padding:14px 20px;border-top:1px solid #f1f5f9}
+  .nyse-nav .nyse-sub{position:static;box-shadow:none;border:0;border-radius:0;background:#f8fafc;min-width:0}
+  .nyse-nav .nyse-sub a{padding-left:36px;white-space:normal}
+  .nyse-nav .nyse-shop{margin:10px 20px;text-align:center}
+}
+
+/* ---- TOP BANNER ---- */
+.nyse-banner{position:relative;overflow:hidden;background:linear-gradient(90deg,var(--nyse-gold),var(--nyse-gold-lt),var(--nyse-gold));color:var(--nyse-ink);text-align:center;padding:16px 16px;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;border-bottom:4px solid var(--nyse-ink)}
+.nyse-banner .nyse-b-tag{display:block;font-size:clamp(1.4rem,4.5vw,2.4rem);font-weight:900;letter-spacing:.06em;text-transform:uppercase;line-height:1.1}
+.nyse-banner .nyse-b-sub{display:block;font-size:1rem;font-weight:600;margin:6px 0 10px}
+.nyse-btn{display:inline-block;background:var(--nyse-ink);color:var(--nyse-gold-lt)!important;font-weight:800;text-transform:uppercase;letter-spacing:.05em;text-decoration:none!important;padding:12px 26px;border-radius:999px;border:2px solid var(--nyse-ink);animation:nysePulse 1.6s ease-in-out infinite}
+.nyse-btn:hover{background:#fff;color:var(--nyse-ink)!important}
+.nyse-banner:after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.55),transparent);animation:nyseShine 3.2s ease-in-out infinite}
+@keyframes nysePulse{0%,100%{transform:scale(1);box-shadow:0 0 0 0 rgba(20,17,15,.5)}50%{transform:scale(1.07);box-shadow:0 0 0 10px rgba(20,17,15,0)}}
+@keyframes nyseShine{0%{left:-60%}60%,100%{left:130%}}
+/* ---- STICKY BOTTOM BAR ---- */
+.nyse-bar{position:fixed;left:0;right:0;bottom:0;z-index:9999;display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;background:var(--nyse-ink);color:var(--nyse-gold-lt);border-top:4px solid var(--nyse-gold);padding:10px 48px 10px 16px;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.05em;font-size:.95rem;text-align:center}
+.nyse-bar .nyse-btn{background:var(--nyse-gold);color:var(--nyse-ink)!important;border-color:var(--nyse-gold);padding:8px 20px}
+.nyse-bar-x{position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:0;color:var(--nyse-gold-lt);font-size:1.6rem;line-height:1;cursor:pointer;padding:4px 8px}
+body.nyse-bar-on{padding-bottom:72px}
+/* ---- DESKTOP SIDE RAILS (only when the margins are empty) ---- */
+.nyse-rail{display:none}
+@media (min-width:1400px){
+  .nyse-rail{display:flex;position:fixed;top:140px;width:130px;z-index:900;flex-direction:column;align-items:center;text-align:center;gap:10px;background:var(--nyse-ink);color:var(--nyse-gold-lt);border:3px solid var(--nyse-gold);border-radius:10px;padding:18px 10px;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+  .nyse-rail-l{left:max(8px,calc((100vw - 1100px)/4 - 65px))}
+  .nyse-rail-r{right:max(8px,calc((100vw - 1100px)/4 - 65px))}
+  .nyse-rail .nyse-r-ico{font-size:2.6rem;line-height:1}
+  .nyse-rail .nyse-r-tag{font-weight:900;text-transform:uppercase;letter-spacing:.05em;font-size:1rem;line-height:1.15}
+  .nyse-rail .nyse-btn{background:var(--nyse-gold);color:var(--nyse-ink)!important;border-color:var(--nyse-gold);padding:8px 12px;font-size:.8rem}
+  .nyse-rail:hover{transform:translateY(-4px)}
+}
+@media (prefers-reduced-motion:reduce){.nyse-btn,.nyse-banner:after{animation:none}}
+</style>
+<!-- nyse:css:end -->
 </head>
-
 <body>
-
-   <!-- ══════════════════════════════════════════
-     CLEAN TEXT NAVBAR
-══════════════════════════════════════════ -->
-   <header class="site-nav">
-      <div class="nav-inner">
-         <!-- Wordmark -->
-         <a class="nav-wordmark" href="/">NY Special<span>Ed</span>.net</a>
-
-         <!-- Desktop links -->
-         <ul class="nav-links">
-
-            <!-- NYC Districts mega menu -->
-            <li class="nav-item">
-               <button class="nav-link">NYC Districts ▾</button>
-               <div class="nav-dropdown wide">
-                  <div class="dropdown-section wide-col">
-                     <h4>Manhattan</h4>
-                     <a href="/districts/nyc-district-01-lower-east-side/">D1 · Lower East Side</a>
-                     <a href="/districts/nyc-district-02-upper-east-side/">D2 · Upper East Side</a>
-                     <a href="/districts/nyc-district-03-upper-west-side/">D3 · Upper West Side</a>
-                     <a href="/districts/nyc-district-04-east-harlem/">D4 · East Harlem</a>
-                     <a href="/districts/nyc-district-05-central-harlem/">D5 · Central Harlem</a>
-                     <a href="/districts/nyc-district-06-washington-heights/">D6 · Washington Heights</a>
-                  </div>
-                  <div class="dropdown-section wide-col">
-                     <h4>Brooklyn · Queens</h4>
-                     <a href="/districts/nyc-district-13-brooklyn-heights/">D13 · Brooklyn Heights</a>
-                     <a href="/districts/nyc-district-15-park-slope/">D15 · Park Slope</a>
-                     <a href="/districts/nyc-district-20-bay-ridge/">D20 · Bay Ridge</a>
-                     <a href="/districts/nyc-district-26-bayside/">D26 · Bayside</a>
-                     <a href="/districts/nyc-district-30-astoria/">D30 · Astoria / LIC</a>
-                     <a href="/districts/nyc-district-75/" style="font-weight:600;color:#002868;">D75 · Citywide Programs</a>
-                  </div>
-                  <div class="dropdown-section wide-col">
-                     <h4>Bronx · Staten Island</h4>
-                     <a href="/districts/nyc-district-07-south-bronx/">D7 · South Bronx</a>
-                     <a href="/districts/nyc-district-09-grand-concourse/">D9 · Grand Concourse</a>
-                     <a href="/districts/nyc-district-10-riverdale/">D10 · Riverdale</a>
-                     <a href="/districts/nyc-district-12-soundview/">D12 · Soundview</a>
-                     <a href="/districts/nyc-district-31-staten-island/">D31 · Staten Island</a>
-                     <a href="/districts/" style="font-weight:600;color:#002868;">View All 32 Districts →</a>
-                  </div>
-               </div>
-            </li>
-
-            <!-- Upstate & LI -->
-            <li class="nav-item">
-               <button class="nav-link">Upstate & LI ▾</button>
-               <div class="nav-dropdown">
-                  <div class="dropdown-section">
-                     <h4>Big 5 Cities</h4>
-                     <a href="/districts/buffalo-city-sd/">Buffalo City SD</a>
-                     <a href="/districts/rochester-city-sd/">Rochester City SD</a>
-                     <a href="/districts/syracuse-city-sd/">Syracuse City SD</a>
-                     <a href="/districts/yonkers-city-sd/">Yonkers City SD</a>
-                     <a href="/districts/albany-city-sd/">Albany City SD</a>
-                  </div>
-                  <div class="dropdown-section">
-                     <h4>Long Island</h4>
-                     <a href="/districts/sachem-csd/">Sachem CSD</a>
-                     <a href="/districts/brentwood-ufsd/">Brentwood UFSD</a>
-                     <a href="/districts/central-islip-ufsd/">Central Islip UFSD</a>
-                     <a href="/districts/patchogue-medford-ufsd/">Patchogue-Medford UFSD</a>
-                     <a href="/districts/william-floyd-ufsd/">William Floyd UFSD</a>
-                     <a href="/districts/hempstead-ufsd/">Hempstead UFSD</a>
-                     <a href="/districts/freeport-ufsd/">Freeport UFSD</a>
-                  </div>
-                  <div class="dropdown-section">
-                     <h4>Westchester & Hudson</h4>
-                     <a href="/districts/mount-vernon-city-sd/">Mount Vernon City SD</a>
-                     <a href="/districts/new-rochelle-city-sd/">New Rochelle City SD</a>
-                     <a href="/districts/white-plains-city-sd/">White Plains City SD</a>
-                     <a href="/districts/newburgh-enlarged-city-sd/">Newburgh Enlarged CSD</a>
-                     <a href="/districts/poughkeepsie-city-sd/">Poughkeepsie City SD</a>
-                     <a href="/districts/east-ramapo-csd/">East Ramapo CSD</a>
-                  </div>
-               </div>
-            </li>
-
-            <!-- Parent Guides -->
-            <li class="nav-item">
-               <button class="nav-link">Parent Guides ▾</button>
-               <div class="nav-dropdown">
-                  <div class="dropdown-section">
-                     <a href="/guides/cse-meeting-guide/">CSE Meeting Guide</a>
-                     <a href="/guides/evaluation-request-ny/">Requesting an Evaluation</a>
-                     <a href="/guides/cpse-preschool-special-education/">CPSE · Preschool Guide</a>
-                     <a href="/guides/carter-cases-private-placement/">Private Placement (Carter Cases)</a>
-                     <a href="/guides/bilingual-iep-new-york/">Bilingual IEP Rights</a>
-                     <a href="/guides/dispute-resolution-ny/">Due Process & Complaints</a>
-                  </div>
-               </div>
-            </li>
-
-            <!-- Spanish Tools -->
-            <li class="nav-item">
-               <button class="nav-link nav-es-badge">🇪🇸 En Español ▾</button>
-               <div class="nav-dropdown">
-                  <div class="dropdown-section">
-                     <h4>Herramientas en Español</h4>
-                     <a href="/es/distritos/">Directorio de Distritos</a>
-                     <a href="/es/guias/reunión-cse/">Guía de Reunión CSE</a>
-                     <a href="/es/guias/solicitar-evaluacion/">Solicitar una Evaluación</a>
-                     <a href="/es/guias/derechos-iep-bilingue/">Derechos IEP Bilingüe</a>
-                     <a href="/tools/">Generador de Carta IEP →</a>
-                  </div>
-               </div>
-            </li>
-
-            <!-- Tools -->
-            <li class="nav-item">
-               <a class="nav-link" href="/tools/">Free Tools</a>
-            </li>
-
-         </ul>
-
-         <!-- Desktop CTA -->
-         <a class="nav-cta" href="/contact/">Get the Toolkit</a>
-
-         <!-- Mobile toggle -->
-         <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Open menu">☰</button>
-      </div>
-
-      <!-- Mobile menu -->
-      <div class="mobile-menu" id="mobileMenu">
-         <div class="mobile-section-head">NYC Districts</div>
-         <a href="/districts/nyc-district-03-upper-west-side/">D3 · Upper West Side</a>
-         <a href="/districts/nyc-district-06-washington-heights/">D6 · Washington Heights</a>
-         <a href="/districts/nyc-district-75/">D75 · Citywide Programs</a>
-         <a href="/districts/">View All NYC Districts →</a>
-         <div class="mobile-section-head">Upstate & LI</div>
-         <a href="/districts/buffalo-city-sd/">Buffalo City SD</a>
-         <a href="/districts/yonkers-city-sd/">Yonkers City SD</a>
-         <a href="/districts/sachem-csd/">Sachem CSD</a>
-         <div class="mobile-section-head">Parent Guides</div>
-         <a href="/guides/cse-meeting-guide/">CSE Meeting Guide</a>
-         <a href="/guides/evaluation-request-ny/">Requesting an Evaluation</a>
-         <a href="/guides/carter-cases-private-placement/">Private Placement (Carter Cases)</a>
-         <div class="mobile-section-head">🇪🇸 En Español</div>
-         <a href="/es/distritos/">Directorio de Distritos</a>
-         <a href="/es/guias/reunión-cse/">Guía de Reunión CSE</a>
-         <a href="/tools/">Free Tools</a>
-         <a href="/contact/" style="font-weight:600;color:#002868;">Get the Toolkit →</a>
-      </div>
-   </header>
-
-   <!-- ══════════════════════════════════════════
-     HERO
-══════════════════════════════════════════ -->
-   <div class="directory-hero">
-      <h1>New York Districts Directory</h1>
-      <p>Find specialized parent guides, CSE evaluation timelines, and impartial hearing contacts tailored directly to your local school district.</p>
-   </div>
-
-   <!-- ══════════════════════════════════════════
-     CONTROLS
-══════════════════════════════════════════ -->
-   <div class="controls-container">
-      <div class="search-box">
-         <input id="searchInput" placeholder="🔍 Search by district name, borough, or county…" type="text" autocomplete="off" />
-      </div>
-      <div class="filter-box">
-         <select id="typeFilter">
-            <option value="all">Region: All NY</option>
-            <option value="nyc">NYC DOE Districts</option>
-            <option value="li">Long Island</option>
-            <option value="upstate">Upstate NY</option>
-            <option value="westchester">Westchester / Hudson</option>
-         </select>
-         <select id="sortFilter">
-            <option value="az">Sort: A → Z</option>
-            <option value="za">Sort: Z → A</option>
-         </select>
-      </div>
-   </div>
-
-   <!-- ══════════════════════════════════════════
-     DISTRICT GRID
-══════════════════════════════════════════ -->
-   <div class="district-grid" id="districtGrid"></div>
-   <div id="noResults">No districts match your search. Try a different name or filter.</div>
-   <div class="page-bottom"></div>
-
-   <!-- ══════════════════════════════════════════
-     FOOTER
-══════════════════════════════════════════ -->
-   <footer class="site-footer">
-      <div class="footer-inner">
-         <div class="footer-brand">
-            <div class="footer-brand-name">NY Special<span>Ed</span>.net</div>
-            <p>Demystifying the New York Committee on Special Education (CSE) process. We provide parents with localized data, legal templates, and advocacy tools to secure appropriate services in NYC and NY State.</p>
-            <a href="/contact/" style="color:#d4af37;font-weight:600;text-decoration:none;font-size:0.83rem;">View Advocacy Shop →</a>
-         </div>
-         <div class="footer-col">
-            <h4>NY Parent Guides</h4>
-            <ul>
-               <li><a href="/guides/cse-meeting-guide/">The CSE Meeting Guide</a></li>
-               <li><a href="/guides/evaluation-request-ny/">Evaluation Timelines (60 Days)</a></li>
-               <li><a href="/guides/dispute-resolution-ny/">Due Process & Complaints</a></li>
-               <li><a href="/guides/bilingual-iep-new-york/">Bilingual / ELL Rights</a></li>
-               <li><a href="/districts/nyc-district-75/">District 75 Explained</a></li>
-            </ul>
-         </div>
-         <div class="footer-col">
-            <h4>Popular Districts</h4>
-            <ul>
-               <li><a href="/districts/nyc-district-02-upper-east-side/">NYC District 2 · Manhattan</a></li>
-               <li><a href="/districts/nyc-district-15-park-slope/">NYC District 15 · Brooklyn</a></li>
-               <li><a href="/districts/nyc-district-31-staten-island/">NYC District 31 · Staten Island</a></li>
-               <li><a href="/districts/nyc-district-30-astoria/">NYC District 30 · Queens</a></li>
-               <li><a href="/districts/buffalo-city-sd/">Buffalo City Schools</a></li>
-            </ul>
-         </div>
-         <div class="footer-col">
-            <h4>Resources</h4>
-            <ul>
-               <li><a href="/about/">About Us</a></li>
-               <li><a href="/tools/">Free IEP Letter Tool</a></li>
-               <li><a href="/es/distritos/">En Español</a></li>
-               <li><a href="/contact/">Contact Support</a></li>
-               <li><a href="/privacy-policy/">Privacy Policy</a></li>
-               <li><a href="/sitemap.xml">Sitemap</a></li>
-            </ul>
-         </div>
-      </div>
-      <div class="footer-bottom">
-         © 2026 NY Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br />
-         For official inquiries, visit <a href="https://schools.nyc.gov" style="color:#475569;">schools.nyc.gov</a> or <a href="https://nysed.gov" style="color:#475569;">nysed.gov</a>.
-      </div>
-   </footer>
-
-   <!-- ══════════════════════════════════════════
-     DISTRICT DATA + FILTER LOGIC
-══════════════════════════════════════════ -->
-   <script>
-      const DISTRICTS = [
-         // ── NYC Manhattan ──
-         {
-            name: "NYC District 1 · Lower East Side",
-            type: "nyc",
-            region: "Manhattan",
-            county: "NYC",
-            slug: "nyc-district-01-lower-east-side",
-            desc: "CSE meeting guides, evaluation timelines, and parent advocacy resources for District 1 families."
-         },
-         {
-            name: "NYC District 2 · Upper East Side",
-            type: "nyc",
-            region: "Manhattan",
-            county: "NYC",
-            slug: "nyc-district-02-upper-east-side",
-            desc: "Special education resources and CSE contacts for the Upper East Side, Tribeca, and downtown Manhattan."
-         },
-         {
-            name: "NYC District 3 · Upper West Side",
-            type: "nyc",
-            region: "Manhattan",
-            county: "NYC",
-            slug: "nyc-district-03-upper-west-side",
-            desc: "IEP guides, CSE meeting prep, and parent advocacy tools for Upper West Side families."
-         },
-         {
-            name: "NYC District 4 · East Harlem",
-            type: "nyc",
-            region: "Manhattan",
-            county: "NYC",
-            slug: "nyc-district-04-east-harlem",
-            desc: "Special education parent guides and CSE contact directory for East Harlem and El Barrio."
-         },
-         {
-            name: "NYC District 5 · Central Harlem",
-            type: "nyc",
-            region: "Manhattan",
-            county: "NYC",
-            slug: "nyc-district-05-central-harlem",
-            desc: "CSE guides, evaluation resources, and advocacy support for Central Harlem families."
-         },
-         {
-            name: "NYC District 6 · Washington Heights",
-            type: "nyc",
-            region: "Manhattan",
-            county: "NYC",
-            slug: "nyc-district-06-washington-heights",
-            desc: "Bilingual special education resources and CSE meeting guides for Washington Heights and Inwood."
-         },
-         // ── NYC Bronx ──
-         {
-            name: "NYC District 7 · South Bronx",
-            type: "nyc",
-            region: "Bronx",
-            county: "NYC",
-            slug: "nyc-district-07-south-bronx",
-            desc: "CSE meeting guides and IEP resources for South Bronx families navigating special education."
-         },
-         {
-            name: "NYC District 8 · Throgs Neck",
-            type: "nyc",
-            region: "Bronx",
-            county: "NYC",
-            slug: "nyc-district-08-throgs-neck",
-            desc: "Special education contacts, evaluation timelines, and CSE guides for Throgs Neck and Pelham Bay."
-         },
-         {
-            name: "NYC District 9 · Grand Concourse",
-            type: "nyc",
-            region: "Bronx",
-            county: "NYC",
-            slug: "nyc-district-09-grand-concourse",
-            desc: "IEP advocacy guides and CSE contact resources for the Grand Concourse and Highbridge area."
-         },
-         {
-            name: "NYC District 10 · Riverdale",
-            type: "nyc",
-            region: "Bronx",
-            county: "NYC",
-            slug: "nyc-district-10-riverdale",
-            desc: "Parent guides and CSE meeting resources for Riverdale, Kingsbridge, and Marble Hill."
-         },
-         {
-            name: "NYC District 11 · Pelham Parkway",
-            type: "nyc",
-            region: "Bronx",
-            county: "NYC",
-            slug: "nyc-district-11-pelham-parkway",
-            desc: "Special education resources and CSE contacts for Pelham Parkway and Allerton families."
-         },
-         {
-            name: "NYC District 12 · Soundview",
-            type: "nyc",
-            region: "Bronx",
-            county: "NYC",
-            slug: "nyc-district-12-soundview",
-            desc: "CSE evaluation guides and parent advocacy resources for Soundview and Crotona Park families."
-         },
-         // ── NYC Brooklyn ──
-         {
-            name: "NYC District 13 · Brooklyn Heights",
-            type: "nyc",
-            region: "Brooklyn",
-            county: "NYC",
-            slug: "nyc-district-13-brooklyn-heights",
-            desc: "IEP resources and CSE meeting guides for Brooklyn Heights, Fort Greene, and Dumbo families."
-         },
-         {
-            name: "NYC District 14 · Williamsburg",
-            type: "nyc",
-            region: "Brooklyn",
-            county: "NYC",
-            slug: "nyc-district-14-williamsburg",
-            desc: "Special education guides and CSE contacts for Williamsburg and Greenpoint families."
-         },
-         {
-            name: "NYC District 15 · Park Slope",
-            type: "nyc",
-            region: "Brooklyn",
-            county: "NYC",
-            slug: "nyc-district-15-park-slope",
-            desc: "CSE meeting prep and IEP advocacy for Park Slope, Sunset Park, and Red Hook families."
-         },
-         {
-            name: "NYC District 16 · Bed-Stuy",
-            type: "nyc",
-            region: "Brooklyn",
-            county: "NYC",
-            slug: "nyc-district-16-bed-stuy",
-            desc: "Parent rights guides and CSE resources for Bedford-Stuyvesant families."
-         },
-         {
-            name: "NYC District 17 · Crown Heights",
-            type: "nyc",
-            region: "Brooklyn",
-            county: "NYC",
-            slug: "nyc-district-17-crown-heights",
-            desc: "Special education resources and evaluation guides for Crown Heights and Prospect Lefferts Gardens."
-         },
-         {
-            name: "NYC District 18 · East Flatbush",
-            type: "nyc",
-            region: "Brooklyn",
-            county: "NYC",
-            slug: "nyc-district-18-east-flatbush",
-            desc: "CSE contacts and IEP advocacy guides for East Flatbush and Canarsie families."
-         },
-         {
-            name: "NYC District 19 · East New York",
-            type: "nyc",
-            region: "Brooklyn",
-            county: "NYC",
-            slug: "nyc-district-19-east-new-york",
-            desc: "Special education parent guides and CSE meeting resources for East New York and Cypress Hills."
-         },
-         {
-            name: "NYC District 20 · Bay Ridge",
-            type: "nyc",
-            region: "Brooklyn",
-            county: "NYC",
-            slug: "nyc-district-20-bay-ridge",
-            desc: "IEP resources and CSE guides for Bay Ridge, Borough Park, and Bensonhurst families."
-         },
-         {
-            name: "NYC District 21 · Coney Island",
-            type: "nyc",
-            region: "Brooklyn",
-            county: "NYC",
-            slug: "nyc-district-21-coney-island",
-            desc: "CSE meeting guides and parent advocacy resources for Coney Island and Brighton Beach."
-         },
-         {
-            name: "NYC District 22 · Midwood",
-            type: "nyc",
-            region: "Brooklyn",
-            county: "NYC",
-            slug: "nyc-district-22-midwood",
-            desc: "Special education contacts and IEP resources for Midwood, Marine Park, and Sheepshead Bay."
-         },
-         {
-            name: "NYC District 23 · Brownsville",
-            type: "nyc",
-            region: "Brooklyn",
-            county: "NYC",
-            slug: "nyc-district-23-brownsville",
-            desc: "CSE evaluation guides and parent advocacy resources for Brownsville families."
-         },
-         // ── NYC Queens ──
-         {
-            name: "NYC District 24 · Maspeth",
-            type: "nyc",
-            region: "Queens",
-            county: "NYC",
-            slug: "nyc-district-24-maspeth",
-            desc: "Special education guides and CSE contacts for Maspeth, Middle Village, and Ridgewood."
-         },
-         {
-            name: "NYC District 25 · Flushing",
-            type: "nyc",
-            region: "Queens",
-            county: "NYC",
-            slug: "nyc-district-25-flushing",
-            desc: "IEP resources and CSE meeting guides for Flushing, Fresh Meadows, and Whitestone."
-         },
-         {
-            name: "NYC District 26 · Bayside",
-            type: "nyc",
-            region: "Queens",
-            county: "NYC",
-            slug: "nyc-district-26-bayside",
-            desc: "CSE evaluation timelines and IEP advocacy guides for Bayside and Little Neck families."
-         },
-         {
-            name: "NYC District 27 · Rockaway",
-            type: "nyc",
-            region: "Queens",
-            county: "NYC",
-            slug: "nyc-district-27-rockaway",
-            desc: "Special education resources and parent guides for the Rockaways and Howard Beach."
-         },
-         {
-            name: "NYC District 28 · Forest Hills",
-            type: "nyc",
-            region: "Queens",
-            county: "NYC",
-            slug: "nyc-district-28-forest-hills",
-            desc: "IEP advocacy guides and CSE contacts for Forest Hills, Kew Gardens, and Jamaica families."
-         },
-         {
-            name: "NYC District 29 · Queens Village",
-            type: "nyc",
-            region: "Queens",
-            county: "NYC",
-            slug: "nyc-district-29-queens-village",
-            desc: "CSE meeting guides and parent advocacy resources for Queens Village and Hollis."
-         },
-         {
-            name: "NYC District 30 · Astoria",
-            type: "nyc",
-            region: "Queens",
-            county: "NYC",
-            slug: "nyc-district-30-astoria",
-            desc: "Special education resources and CSE contacts for Astoria, LIC, and Jackson Heights."
-         },
-         // ── NYC Staten Island ──
-         {
-            name: "NYC District 31 · Staten Island",
-            type: "nyc",
-            region: "Staten Island",
-            county: "NYC",
-            slug: "nyc-district-31-staten-island",
-            desc: "CSE meeting guides, IEP resources, and evaluation contacts for all Staten Island families."
-         },
-         {
-            name: "NYC District 32 · Bushwick",
-            type: "nyc",
-            region: "Brooklyn",
-            county: "NYC",
-            slug: "nyc-district-32-bushwick",
-            desc: "Special education parent guides and CSE resources for Bushwick and East Williamsburg."
-         },
-         // ── NYC Citywide ──
-         {
-            name: "NYC District 75 · Citywide Special Ed",
-            type: "nyc",
-            region: "Citywide",
-            county: "NYC",
-            slug: "nyc-district-75",
-            desc: "NYC's specialized District 75 serves students with significant disabilities across all five boroughs."
-         },
-         {
-            name: "NYC District 79 · Alternative Schools",
-            type: "nyc",
-            region: "Citywide",
-            county: "NYC",
-            slug: "nyc-district-79",
-            desc: "Alternative learning programs and special education resources for District 79 families."
-         },
-         // ── Long Island ──
-         {
-            name: "Brentwood UFSD",
-            type: "li",
-            region: "Long Island",
-            county: "Suffolk County",
-            slug: "brentwood-ufsd",
-            desc: "Special education resources, CSE guides, and parent advocacy tools for Brentwood families."
-         },
-         {
-            name: "Central Islip UFSD",
-            type: "li",
-            region: "Long Island",
-            county: "Suffolk County",
-            slug: "central-islip-ufsd",
-            desc: "CSE meeting guides and IEP advocacy resources for Central Islip families."
-         },
-         {
-            name: "Freeport UFSD",
-            type: "li",
-            region: "Long Island",
-            county: "Nassau County",
-            slug: "freeport-ufsd",
-            desc: "Special education contacts and parent guides for Freeport families on Long Island."
-         },
-         {
-            name: "Hempstead UFSD",
-            type: "li",
-            region: "Long Island",
-            county: "Nassau County",
-            slug: "hempstead-ufsd",
-            desc: "CSE evaluation timelines and IEP resources for Hempstead UFSD families."
-         },
-         {
-            name: "Patchogue-Medford UFSD",
-            type: "li",
-            region: "Long Island",
-            county: "Suffolk County",
-            slug: "patchogue-medford-ufsd",
-            desc: "Special education guides and CSE contacts for Patchogue-Medford families."
-         },
-         {
-            name: "Sachem CSD",
-            type: "li",
-            region: "Long Island",
-            county: "Suffolk County",
-            slug: "sachem-csd",
-            desc: "Special education resources, CSE meeting guides, and local provider directory for Sachem CSD families."
-         },
-         {
-            name: "William Floyd UFSD",
-            type: "li",
-            region: "Long Island",
-            county: "Suffolk County",
-            slug: "william-floyd-ufsd",
-            desc: "IEP advocacy guides and CSE meeting resources for William Floyd UFSD families."
-         },
-         // ── Westchester / Hudson Valley ──
-         {
-            name: "East Ramapo CSD",
-            type: "westchester",
-            region: "Hudson Valley",
-            county: "Rockland County",
-            slug: "east-ramapo-csd",
-            desc: "Special education resources and CSE advocacy guides for East Ramapo families."
-         },
-         {
-            name: "Mount Vernon City SD",
-            type: "westchester",
-            region: "Westchester",
-            county: "Westchester County",
-            slug: "mount-vernon-city-sd",
-            desc: "CSE meeting guides and special education updates for Mount Vernon City SD families."
-         },
-         {
-            name: "New Rochelle City SD",
-            type: "westchester",
-            region: "Westchester",
-            county: "Westchester County",
-            slug: "new-rochelle-city-sd",
-            desc: "IEP advocacy resources and CSE contacts for New Rochelle City SD families."
-         },
-         {
-            name: "Newburgh Enlarged City SD",
-            type: "westchester",
-            region: "Hudson Valley",
-            county: "Orange County",
-            slug: "newburgh-enlarged-city-sd",
-            desc: "Special education guides and CSE timelines for Newburgh Enlarged City SD families."
-         },
-         {
-            name: "Poughkeepsie City SD",
-            type: "westchester",
-            region: "Hudson Valley",
-            county: "Dutchess County",
-            slug: "poughkeepsie-city-sd",
-            desc: "CSE meeting resources and parent advocacy guides for Poughkeepsie families."
-         },
-         {
-            name: "White Plains City SD",
-            type: "westchester",
-            region: "Westchester",
-            county: "Westchester County",
-            slug: "white-plains-city-sd",
-            desc: "Special education resources and IEP advocacy tools for White Plains families."
-         },
-         // ── Upstate NY ──
-         {
-            name: "Albany City SD",
-            type: "upstate",
-            region: "Capital Region",
-            county: "Albany County",
-            slug: "albany-city-sd",
-            desc: "CSE guides and special education resources for Albany City SD families."
-         },
-         {
-            name: "Buffalo City SD",
-            type: "upstate",
-            region: "Western NY",
-            county: "Erie County",
-            slug: "buffalo-city-sd",
-            desc: "Special education parent guides, CSE contacts, and IEP advocacy resources for Buffalo families."
-         },
-         {
-            name: "Greece CSD",
-            type: "upstate",
-            region: "Western NY",
-            county: "Monroe County",
-            slug: "greece-csd",
-            desc: "CSE evaluation guides and parent advocacy resources for Greece CSD families near Rochester."
-         },
-         {
-            name: "Niagara Falls City SD",
-            type: "upstate",
-            region: "Western NY",
-            county: "Niagara County",
-            slug: "niagara-falls-city-sd",
-            desc: "Special education resources and CSE meeting guides for Niagara Falls City SD families."
-         },
-         {
-            name: "Rochester City SD",
-            type: "upstate",
-            region: "Western NY",
-            county: "Monroe County",
-            slug: "rochester-city-sd",
-            desc: "IEP advocacy guides, CSE contacts, and special education updates for Rochester families."
-         },
-         {
-            name: "Schenectady City SD",
-            type: "upstate",
-            region: "Capital Region",
-            county: "Schenectady County",
-            slug: "schenectady-city-sd",
-            desc: "CSE meeting resources and parent advocacy guides for Schenectady families."
-         },
-         {
-            name: "Syracuse City SD",
-            type: "upstate",
-            region: "Central NY",
-            county: "Onondaga County",
-            slug: "syracuse-city-sd",
-            desc: "Special education guides and CSE contacts for Syracuse City SD families."
-         },
-         {
-            name: "Utica City SD",
-            type: "upstate",
-            region: "Central NY",
-            county: "Oneida County",
-            slug: "utica-city-sd",
-            desc: "IEP resources and CSE evaluation guides for Utica City SD families."
-         },
-         {
-            name: "Yonkers City SD",
-            type: "upstate",
-            region: "Westchester",
-            county: "Westchester County",
-            slug: "yonkers-city-sd",
-            desc: "Special education parent guides and CSE meeting resources for Yonkers families."
-         },
-      ];
-
-      function badgeClass(type) {
-         if (type === 'nyc') return 'badge-nyc';
-         if (type === 'li') return 'badge-li';
-         return 'badge-nys';
-      }
-
-      function badgeLabel(type) {
-         if (type === 'nyc') return 'NYC DOE';
-         if (type === 'li') return 'Long Island';
-         if (type === 'westchester') return 'Westchester / Hudson';
-         return 'Upstate NY';
-      }
-
-      function renderCards(list) {
-         const grid = document.getElementById('districtGrid');
-         const noRes = document.getElementById('noResults');
-         if (!list.length) {
-            grid.innerHTML = '';
-            noRes.style.display = 'block';
-            return;
+<!-- nyse:header:start -->
+<div class="nyse-header" role="banner">
+  <div class="nyse-inner">
+    <a class="nyse-logo" href="/">NY SpecialEd<span>.net</span></a>
+    <button class="nyse-toggle" type="button" aria-label="Menu" aria-controls="nyse-nav" aria-expanded="false">&#9776;</button>
+    <div class="nyse-nav" id="nyse-nav" role="navigation" aria-label="Main">
+      <ul>
+        <li class="nyse-has-sub">
+          <a class="nyse-sub-toggle" href="/districts/" aria-haspopup="true" aria-expanded="false">Districts &#9662;</a>
+          <ul class="nyse-sub">
+<li><a href="/districts/">All Districts</a></li>
+<li><a href="/districts/nyc-district-02-upper-east-side/">NYC District 2 (Manhattan)</a></li>
+<li><a href="/districts/nyc-district-15-park-slope/">NYC District 15 (Brooklyn)</a></li>
+<li><a href="/districts/nyc-district-30-astoria/">NYC District 30 (Queens)</a></li>
+<li><a href="/districts/nyc-district-31-staten-island/">NYC District 31 (Staten Island)</a></li>
+<li><a href="/districts/nyc-district-75/">NYC District 75</a></li>
+<li><a href="/districts/buffalo-city-sd/">Buffalo City Schools</a></li>
+          </ul>
+        </li>
+        <li><a href="/guides/">Parent Guides</a></li>
+        <li><a href="/guides/es/index.html">🇪🇸 En Español</a></li>
+        <li><a href="/resources/">Resources</a></li>
+        <li><a class="nyse-shop" href="https://newyorkspecialed.printify.me/" target="_blank" rel="noopener sponsored">Shop</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- nyse:header:end -->
+<!-- nyse:banner:start -->
+<div class="nyse-banner"><span class="nyse-b-tag">&#128085; Advocacy You Can Wear &#128085;</span><span class="nyse-b-sub">Shirts, totes and mugs for parents who show up prepared.</span><a class="nyse-btn" href="https://newyorkspecialed.printify.me/" target="_blank" rel="noopener sponsored">Visit the Store &rarr;</a></div>
+<!-- nyse:banner:end -->
+<script>
+      (function() {
+         var t = document.getElementById('mobileToggle');
+         var m = document.getElementById('mobileMenu');
+         if (t && m) {
+            t.addEventListener('click', function() {
+               m.classList.toggle('open');
+            });
          }
-         noRes.style.display = 'none';
-         grid.innerHTML = list.map(d => `
-    <a class="district-card" href="/districts/${d.slug}/">
-      <span class="district-type-badge ${badgeClass(d.type)}">${badgeLabel(d.type)}</span>
-      <div class="district-name">${d.name}</div>
-      <div class="district-county">${d.region} · ${d.county}</div>
-      <div class="district-desc">${d.desc}</div>
-      <span class="district-cta">View Resources</span>
-    </a>
-  `).join('');
-      }
-
-      function applyFilters() {
-         const q = document.getElementById('searchInput').value.toLowerCase().trim();
-         const type = document.getElementById('typeFilter').value;
-         const sort = document.getElementById('sortFilter').value;
-
-         let list = DISTRICTS.filter(d => {
-            const matchType = type === 'all' || d.type === type;
-            const matchSearch = !q ||
-               d.name.toLowerCase().includes(q) ||
-               d.county.toLowerCase().includes(q) ||
-               d.region.toLowerCase().includes(q);
-            return matchType && matchSearch;
-         });
-
-         list.sort((a, b) => sort === 'za' ?
-            b.name.localeCompare(a.name) :
-            a.name.localeCompare(b.name)
-         );
-
-         renderCards(list);
-      }
-
-      document.getElementById('searchInput').addEventListener('input', applyFilters);
-      document.getElementById('typeFilter').addEventListener('change', applyFilters);
-      document.getElementById('sortFilter').addEventListener('change', applyFilters);
-
-      // Mobile nav toggle
-      document.getElementById('mobileToggle').addEventListener('click', function() {
-         const menu = document.getElementById('mobileMenu');
-         menu.classList.toggle('open');
-      });
-
-      // Initial render
-      applyFilters();
+      })();
    </script>
+<header class="hero-section">
+<h1 class="hero-title">Demystifying New York Special Education</h1>
+<p class="hero-subtitle">
+         Navigate the Committee on Special Education (CSE) process, understand evaluation timelines, and secure the services your child needs.
+      </p>
+<div class="stats-bar">
+<div class="stat-item">
+<span class="stat-num">52</span>
+<span class="stat-label">NY Districts</span>
+</div>
+<div class="stat-item">
+<span class="stat-num">500k+</span>
+<span class="stat-label">Students with IEPs</span>
+</div>
+<div class="stat-item">
+<span class="stat-num">60</span>
+<span class="stat-label">Day Timeline</span>
+</div>
+</div>
+<div style="margin-top: 40px; margin-bottom: 20px;">
+<a class="hero-cta" href="/guides/cse-meeting-guide/">Start the Free CSE Guide</a>
+</div>
+<div style="height: 50px;"></div>
+</header>
+<main id="main-content">
+<div class="main-hub-grid">
+<a class="hub-card" href="/guides/cse-meeting-guide/">
+<h3 style="color: #c8102e; margin-top: 0; margin-bottom: 10px;">🤝 CSE Meeting Guide</h3>
+<p style="margin: 0; color: #475569;">Master the Annual Review. Understand your rights, the agenda, and who sits at the table.</p>
+</a>
+<a class="hub-card" href="/guides/evaluation-request-ny/">
+<h3 style="color: #0056b3; ">📝 Request Evaluation</h3>
+<p>How to trigger the 60-day timeline for Initial Evaluations in NYS.</p>
+</a>
+<a class="hub-card" href="/guides/dispute-resolution-ny/">
+<h3 style="color: #0056b3; ">⚖️ Dispute Resolution</h3>
+<p>Filing a State Complaint, Mediation, or Impartial Hearing Request.</p>
+</a>
+</div>
+<section class="content-split-section" style="background: #fff; padding: 20px 20px 60px 20px;">
+<div class="container" style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 40px;">
+<div class="main-content-left" style="flex: 1 1 60%; min-width: 300px;">
+<div class="aeo-header" style="margin-bottom: 30px;">
+<h2 style="color: #002868; font-size: 2.2rem; margin-bottom: 10px;">New York Special Education: Core Rights</h2>
+<p style="font-size: 1.1rem; color: #555;">Three things every parent needs to know before their first meeting.</p>
+</div>
+<div class="aeo-grid" style="display: grid; grid-template-columns: 1fr; gap: 25px;">
+<div class="aeo-card" style="background: #f8fafc; padding: 25px; border-radius: 8px; border-left: 4px solid #c8102e; border-top: none; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+<h3 style="color: #c8102e; margin-top: 0;"><i class="fas fa-clock"></i> The 60-Day Rule</h3>
+<p>New York is strict about timelines. From the moment you sign the <strong>Consent to Evaluate</strong>, the district has exactly <strong>60 Calendar Days</strong> to:</p>
+<ul style="margin-left: 20px; margin-bottom: 15px;">
+<li>Complete all psychological and educational testing.</li>
+<li>Conduct social history and classroom observations.</li>
+<li>Hold the CSE meeting to determine eligibility.</li>
+</ul>
+<p style="margin-bottom: 0;"><strong>Pro Tip:</strong> Holidays and weekends <em>count</em> towards these 60 days. Summer vacation does not.</p>
+</div>
+<div class="aeo-card" style="background: #f8fafc; padding: 25px; border-radius: 8px; border-left: 4px solid #002868; border-top: none; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+<h3 style="color: #002868; margin-top: 0;"><i class="fas fa-users"></i> CSE vs. The Rest</h3>
+<p>New York uses its own terminology. Here's how it maps to federal IDEA language:</p>
+<ul style="margin-left: 20px; margin-bottom: 15px;">
+<li><strong>CPSE:</strong> Committee on Preschool Special Education (Ages 3–5).</li>
+<li><strong>CSE:</strong> Committee on Special Education (Ages 5–21).</li>
+</ul>
+<p style="margin-bottom: 0;">Unlike other states, the "Parent Member" is a guaranteed right in NY. You can request another parent to sit in your meeting for support.</p>
+</div>
+<div class="aeo-card" style="background: #f8fafc; padding: 25px; border-radius: 8px; border-left: 4px solid #002868; border-top: none; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+<h3 style="color: #002868; margin-top: 0;"><i class="fas fa-gavel"></i> Dispute Resolution</h3>
+<p>If the district fails to provide FAPE (Free Appropriate Public Education), New York offers robust dispute channels:</p>
+<ul style="margin-left: 20px; margin-bottom: 15px;">
+<li><strong>Impartial Hearing:</strong> A formal legal proceeding.</li>
+<li><strong>State Complaint:</strong> Filing directly with NYSED in Albany.</li>
+<li><strong>Mediation:</strong> A voluntary negotiation with a state-appointed mediator.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="directory-section" id="directory">
+<div class="directory-container">
+<div style="text-align: center; margin-bottom: 40px;">
+<h2 style="font-size: 2rem; color: #1e3a8a;">Find Your District Hub</h2>
+<p>Select your local district to find specific CSE contacts and policies.</p>
+</div>
+<details class="district-accordion" style="margin-bottom: 1rem; background: #fff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+<summary style="cursor: pointer; padding: 15px 20px; background: #f8fafc; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; list-style: none;">
+<div style="pointer-events: none; margin: 0; padding: 0; font-size: 1.15rem; font-weight: bold; color: #002868;"><i class="fas fa-map-marker-alt"></i> Manhattan</div>
+<span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
+</summary>
+<div style="padding: 20px; background: #ffffff;">
+<div class="directory-grid">
+<a class="directory-card" href="/districts/nyc-district-01-lower-east-side/"><span class="d-name">District 1</span><span class="d-desc">Lower East Side, Chinatown, East Village</span></a>
+<a class="directory-card" href="/districts/nyc-district-02-upper-east-side/"><span class="d-name">District 2</span><span class="d-desc">Upper East Side, Tribeca, Greenwich Village</span></a>
+<a class="directory-card" href="/districts/nyc-district-03-upper-west-side/"><span class="d-name">District 3</span><span class="d-desc">Upper West Side, Morningside Heights</span></a>
+<a class="directory-card" href="/districts/nyc-district-04-east-harlem/"><span class="d-name">District 4</span><span class="d-desc">East Harlem, Spanish Harlem, Randall's Island</span></a>
+<a class="directory-card" href="/districts/nyc-district-05-central-harlem/"><span class="d-name">District 5</span><span class="d-desc">Central Harlem, West Harlem, Polo Grounds</span></a>
+<a class="directory-card" href="/districts/nyc-district-06-washington-heights/"><span class="d-name">District 6</span><span class="d-desc">Washington Heights, Inwood, Marble Hill</span></a>
+</div>
+</div>
+</details>
+<details class="district-accordion" style="margin-bottom: 1rem; background: #fff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+<summary style="cursor: pointer; padding: 15px 20px; background: #f8fafc; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; list-style: none;">
+<div style="pointer-events: none; margin: 0; padding: 0;">
+<h3 class="borough-title" style=" border:none; margin:0; "><i class="fas fa-map-marker-alt"></i> Bronx</h3>
+</div>
+<span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
+</summary>
+<div style="padding: 20px; background: #ffffff;">
+<div class="directory-grid">
+<a class="directory-card" href="/districts/nyc-district-07-south-bronx/"><span class="d-name">District 7</span><span class="d-desc">South Bronx, Mott Haven, Melrose, Port Morris</span></a>
+<a class="directory-card" href="/districts/nyc-district-08-throgs-neck/"><span class="d-name">District 8</span><span class="d-desc">Throgs Neck, Pelham Bay, Country Club</span></a>
+<a class="directory-card" href="/districts/nyc-district-09-grand-concourse/"><span class="d-name">District 9</span><span class="d-desc">Grand Concourse, Highbridge, Morrisania</span></a>
+<a class="directory-card" href="/districts/nyc-district-10-riverdale/"><span class="d-name">District 10</span><span class="d-desc">Riverdale, Kingsbridge, Norwood, Fordham</span></a>
+<a class="directory-card" href="/districts/nyc-district-11-pelham-parkway/"><span class="d-name">District 11</span><span class="d-desc">Pelham Parkway, Morris Park, Eastchester</span></a>
+<a class="directory-card" href="/districts/nyc-district-12-soundview/"><span class="d-name">District 12</span><span class="d-desc">Soundview, Unionport, Parkchester</span></a>
+</div>
+</div>
+</details>
+<details class="district-accordion" style="margin-bottom: 1rem; background: #fff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+<summary style="cursor: pointer; padding: 15px 20px; background: #f8fafc; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; list-style: none;">
+<div style="pointer-events: none; margin: 0; padding: 0;">
+<h3 class="borough-title" style=" border:none; margin:0; "><i class="fas fa-map-marker-alt"></i> Brooklyn</h3>
+</div>
+<span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
+</summary>
+<div style="padding: 20px; background: #ffffff;">
+<div class="directory-grid">
+<a class="directory-card" href="/districts/nyc-district-13-brooklyn-heights/"><span class="d-name">District 13</span><span class="d-desc">Brooklyn Heights, Fort Greene, Clinton Hill</span></a>
+<a class="directory-card" href="/districts/nyc-district-14-williamsburg/"><span class="d-name">District 14</span><span class="d-desc">Williamsburg, Greenpoint, Bushwick (north)</span></a>
+<a class="directory-card" href="/districts/nyc-district-15-park-slope/"><span class="d-name">District 15</span><span class="d-desc">Park Slope, Carroll Gardens, Red Hook</span></a>
+<a class="directory-card" href="/districts/nyc-district-16-bed-stuy/"><span class="d-name">District 16</span><span class="d-desc">Bedford-Stuyvesant (central)</span></a>
+<a class="directory-card" href="/districts/nyc-district-17-crown-heights/"><span class="d-name">District 17</span><span class="d-desc">Crown Heights, Prospect Lefferts Gardens</span></a>
+<a class="directory-card" href="/districts/nyc-district-18-east-flatbush/"><span class="d-name">District 18</span><span class="d-desc">East Flatbush, Canarsie, Flatlands</span></a>
+<a class="directory-card" href="/districts/nyc-district-19-east-new-york/"><span class="d-name">District 19</span><span class="d-desc">East New York, Brownsville (east)</span></a>
+<a class="directory-card" href="/districts/nyc-district-20-bay-ridge/"><span class="d-name">District 20</span><span class="d-desc">Bay Ridge, Bensonhurst, Borough Park</span></a>
+<a class="directory-card" href="/districts/nyc-district-21-coney-island/"><span class="d-name">District 21</span><span class="d-desc">Coney Island, Gravesend, Sheepshead Bay</span></a>
+<a class="directory-card" href="/districts/nyc-district-22-midwood/"><span class="d-name">District 22</span><span class="d-desc">Midwood, Flatlands, Marine Park</span></a>
+<a class="directory-card" href="/districts/nyc-district-23-brownsville/"><span class="d-name">District 23</span><span class="d-desc">Brownsville, Ocean Hill</span></a>
+<a class="directory-card" href="/districts/nyc-district-32-bushwick/"><span class="d-name">District 32</span><span class="d-desc">Bushwick</span></a>
+</div>
+</div>
+</details>
+<details class="district-accordion" style="margin-bottom: 1rem; background: #fff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+<summary style="cursor: pointer; padding: 15px 20px; background: #f8fafc; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; list-style: none;">
+<div style="pointer-events: none; margin: 0; padding: 0;">
+<h3 class="borough-title" style=" border:none; margin:0; "><i class="fas fa-map-marker-alt"></i> Queens</h3>
+</div>
+<span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
+</summary>
+<div style="padding: 20px; background: #ffffff;">
+<div class="directory-grid">
+<a class="directory-card" href="/districts/nyc-district-24-maspeth/"><span class="d-name">District 24</span><span class="d-desc">Maspeth, Middle Village, Ridgewood, Corona</span></a>
+<a class="directory-card" href="/districts/nyc-district-25-flushing/"><span class="d-name">District 25</span><span class="d-desc">Flushing, Whitestone, College Point</span></a>
+<a class="directory-card" href="/districts/nyc-district-26-bayside/"><span class="d-name">District 26</span><span class="d-desc">Bayside, Douglaston, Little Neck, Fresh Meadows</span></a>
+<a class="directory-card" href="/districts/nyc-district-27-rockaway/"><span class="d-name">District 27</span><span class="d-desc">Broad Channel, Howard Beach, Ozone Park, Rockaway</span></a>
+<a class="directory-card" href="/districts/nyc-district-28-forest-hills/"><span class="d-name">District 28</span><span class="d-desc">Forest Hills, Rego Park, Jamaica, Kew Gardens</span></a>
+<a class="directory-card" href="/districts/nyc-district-29-queens-village/"><span class="d-name">District 29</span><span class="d-desc">Cambria Heights, Laurelton, Queens Village</span></a>
+<a class="directory-card" href="/districts/nyc-district-30-astoria/"><span class="d-name">District 30</span><span class="d-desc">Astoria, Long Island City, Jackson Heights</span></a>
+</div>
+</div>
+</details>
+<details class="district-accordion" style="margin-bottom: 1rem; background: #fff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+<summary style="cursor: pointer; padding: 15px 20px; background: #f8fafc; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; list-style: none;">
+<div style="pointer-events: none; margin: 0; padding: 0;">
+<h3 class="borough-title" style=" border:none; margin:0; "><i class="fas fa-map-marker-alt"></i> Staten Island</h3>
+</div>
+<span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
+</summary>
+<div style="padding: 20px; background: #ffffff;">
+<div class="directory-grid">
+<a class="directory-card" href="/districts/nyc-district-31-staten-island/"><span class="d-name">District 31</span><span class="d-desc">All Staten Island — St. George, Tottenville, New Dorp</span></a>
+</div>
+</div>
+</details>
+<details class="district-accordion" style="margin-bottom: 1rem; background: #fff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+<summary style="cursor: pointer; padding: 15px 20px; background: #f8fafc; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; list-style: none;">
+<div style="pointer-events: none; margin: 0; padding: 0;">
+<h3 class="borough-title" style=" border:none; margin:0; "><i class="fas fa-city"></i> Citywide Programs</h3>
+</div>
+<span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
+</summary>
+<div style="padding: 20px; background: #ffffff;">
+<div class="directory-grid">
+<a class="directory-card" href="/districts/nyc-district-75/"><span class="d-name">District 75</span><span class="d-desc">Citywide Special Education Programs</span></a>
+<a class="directory-card" href="/districts/nyc-district-79/"><span class="d-name">District 79</span><span class="d-desc">Alternative Schools &amp; Programs</span></a>
+</div>
+</div>
+</details>
+</div>
+<div class="region-section" style="margin-top: 60px;">
+<h2 style="background: #f0f7ff; padding: 15px; border-left: 5px solid #0056b3;">Upstate &amp; Long Island</h2>
+<details class="district-accordion" style="margin-bottom: 1rem; background: #fff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+<summary style="cursor: pointer; padding: 15px 20px; background: #f8fafc; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; list-style: none;">
+<div style="pointer-events: none; margin: 0; padding: 0;">
+<h3 style=" margin:0; ">Western NY</h3>
+</div>
+<span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
+</summary>
+<div style="padding: 20px; background: #ffffff;">
+<div class="directory-grid">
+<a class="directory-card" href="/districts/buffalo-city-sd/"><span class="d-name">Buffalo City SD</span><span class="d-desc">Buffalo</span></a>
+<a class="directory-card" href="/districts/niagara-falls-city-sd/"><span class="d-name">Niagara Falls City SD</span><span class="d-desc">Niagara Falls</span></a>
+</div>
+</div>
+</details>
+<details class="district-accordion" style="margin-bottom: 1rem; background: #fff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+<summary style="cursor: pointer; padding: 15px 20px; background: #f8fafc; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; list-style: none;">
+<div style="pointer-events: none; margin: 0; padding: 0;">
+<h3 style=" margin:0; ">Finger Lakes</h3>
+</div>
+<span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
+</summary>
+<div style="padding: 20px; background: #ffffff;">
+<div class="directory-grid">
+<a class="directory-card" href="/districts/rochester-city-sd/"><span class="d-name">Rochester City SD</span><span class="d-desc">Rochester</span></a>
+</div>
+</div>
+</details>
+<details class="district-accordion" style="margin-bottom: 1rem; background: #fff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+<summary style="cursor: pointer; padding: 15px 20px; background: #f8fafc; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; list-style: none;">
+<div style="pointer-events: none; margin: 0; padding: 0;">
+<h3 style=" margin:0; ">Central NY</h3>
+</div>
+<span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
+</summary>
+<div style="padding: 20px; background: #ffffff;">
+<div class="directory-grid">
+<a class="directory-card" href="/districts/syracuse-city-sd/"><span class="d-name">Syracuse City SD</span><span class="d-desc">Syracuse</span></a>
+</div>
+</div>
+</details>
+<details class="district-accordion" style="margin-bottom: 1rem; background: #fff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+<summary style="cursor: pointer; padding: 15px 20px; background: #f8fafc; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; list-style: none;">
+<div style="pointer-events: none; margin: 0; padding: 0;">
+<h3 style=" margin:0; ">Lower Hudson Valley</h3>
+</div>
+<span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
+</summary>
+<div style="padding: 20px; background: #ffffff;">
+<div class="directory-grid">
+<a class="directory-card" href="/districts/yonkers-city-sd/"><span class="d-name">Yonkers City SD</span><span class="d-desc">Yonkers</span></a>
+<a class="directory-card" href="/districts/mount-vernon-city-sd/"><span class="d-name">Mount Vernon City SD</span><span class="d-desc">Mount Vernon</span></a>
+</div>
+</div>
+</details>
+<details class="district-accordion" style="margin-bottom: 1rem; background: #fff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+<summary style="cursor: pointer; padding: 15px 20px; background: #f8fafc; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; list-style: none;">
+<div style="pointer-events: none; margin: 0; padding: 0;">
+<h3 style=" margin:0; ">Capital Region</h3>
+</div>
+<span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
+</summary>
+<div style="padding: 20px; background: #ffffff;">
+<div class="directory-grid">
+<a class="directory-card" href="/districts/albany-city-sd/"><span class="d-name">Albany City SD</span><span class="d-desc">Albany</span></a>
+<a class="directory-card" href="/districts/schenectady-city-sd/"><span class="d-name">Schenectady City SD</span><span class="d-desc">Schenectady</span></a>
+</div>
+</div>
+</details>
+<details class="district-accordion" style="margin-bottom: 1rem; background: #fff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+<summary style="cursor: pointer; padding: 15px 20px; background: #f8fafc; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; list-style: none;">
+<div style="pointer-events: none; margin: 0; padding: 0;">
+<h3 style=" margin:0; ">Mohawk Valley</h3>
+</div>
+<span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
+</summary>
+<div style="padding: 20px; background: #ffffff;">
+<div class="directory-grid">
+<a class="directory-card" href="/districts/utica-city-sd/"><span class="d-name">Utica City SD</span><span class="d-desc">Utica</span></a>
+</div>
+</div>
+</details>
+<details class="district-accordion" style="margin-bottom: 1rem; background: #fff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+<summary style="cursor: pointer; padding: 15px 20px; background: #f8fafc; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; list-style: none;">
+<div style="pointer-events: none; margin: 0; padding: 0;">
+<h3 style=" margin:0; ">Long Island</h3>
+</div>
+<span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
+</summary>
+<div style="padding: 20px; background: #ffffff;">
+<div class="directory-grid">
+<a class="directory-card" href="/districts/brentwood-ufsd/"><span class="d-name">Brentwood UFSD</span><span class="d-desc">Brentwood, Suffolk County</span></a>
+<a class="directory-card" href="/districts/william-floyd-ufsd/"><span class="d-name">William Floyd UFSD</span><span class="d-desc">Mastic, Shirley, Suffolk County</span></a>
+<a class="directory-card" href="/districts/central-islip-ufsd/"><span class="d-name">Central Islip UFSD</span><span class="d-desc">Central Islip, Suffolk County</span></a>
+<a class="directory-card" href="/districts/hempstead-ufsd/"><span class="d-name">Hempstead UFSD</span><span class="d-desc">Hempstead, Nassau County</span></a>
+<a class="directory-card" href="/districts/freeport-ufsd/"><span class="d-name">Freeport UFSD</span><span class="d-desc">Freeport, Nassau County</span></a>
+</div>
+</div>
+</details>
+<details class="district-accordion" style="margin-bottom: 1rem; background: #fff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+<summary style="cursor: pointer; padding: 15px 20px; background: #f8fafc; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; list-style: none;">
+<div style="pointer-events: none; margin: 0; padding: 0;">
+<h3 style=" margin:0; ">Westchester</h3>
+</div>
+<span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
+</summary>
+<div style="padding: 20px; background: #ffffff;">
+<div class="directory-grid">
+<a class="directory-card" href="/districts/new-rochelle-city-sd/"><span class="d-name">New Rochelle City SD</span><span class="d-desc">New Rochelle</span></a>
+<a class="directory-card" href="/districts/white-plains-city-sd/"><span class="d-name">White Plains City SD</span><span class="d-desc">White Plains</span></a>
+</div>
+</div>
+</details>
+<details class="district-accordion" style="margin-bottom: 1rem; background: #fff; border: 1px solid #cbd5e1; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+<summary style="cursor: pointer; padding: 15px 20px; background: #f8fafc; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; list-style: none;">
+<div style="pointer-events: none; margin: 0; padding: 0;">
+<h3 style=" margin:0; ">Hudson Valley</h3>
+</div>
+<span style="font-size: 0.9rem; font-weight: 600; color: #0056b3; background: #e0f2fe; padding: 6px 12px; border-radius: 20px; border: 1px solid #bae6fd;">Expand <i class="fas fa-chevron-down" style="margin-left: 5px;"></i></span>
+</summary>
+<div style="padding: 20px; background: #ffffff;">
+<div class="directory-grid">
+<a class="directory-card" href="/districts/newburgh-enlarged-city-sd/"><span class="d-name">Newburgh Enlarged City SD</span><span class="d-desc">Newburgh, Orange County</span></a>
+<a class="directory-card" href="/districts/poughkeepsie-city-sd/"><span class="d-name">Poughkeepsie City SD</span><span class="d-desc">Poughkeepsie, Dutchess County</span></a>
+</div>
+</div>
+</details>
+</div>
+</section>
+</main>
+<footer class="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+<div class="footer-container">
+<div class="footer-brand">
+<h3>New York Special Ed<span>.net</span></h3>
+<p>
+               Demystifying the New York Committee on Special Education (CSE) process.
+               We provide parents with the localized data, legal templates, and advocacy
+               tools needed to secure appropriate services in NYC and NY State.
+            </p>
+<div style="margin-top: 20px;">
+<a style="color: #D4AF37; font-weight: bold; text-decoration: none;" href="https://newyorkspecialed.printify.me/" target="_blank" rel="noopener sponsored">View Advocacy Shop →</a>
+</div>
+</div>
+<div class="footer-col">
+<h4>NY Parent Guides</h4>
+<ul class="footer-links">
+<li><a href="/guides/cse-meeting-guide/">The CSE Meeting Guide</a></li>
+<li><a href="/guides/evaluation-request-ny/">Evaluation Timelines (60 Days)</a></li>
+<li><a href="/guides/dispute-resolution-ny/">Due Process &amp; Complaints</a></li>
+<li><a href="/guides/bilingual-iep-new-york/">Bilingual/ELL Rights</a></li>
+<li><a href="/districts/nyc-district-75/">District 75 Explained</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Popular Districts</h4>
+<ul class="footer-links">
+<li><a href="/districts/nyc-district-02-upper-east-side/">NYC District 2 (Manhattan)</a></li>
+<li><a href="/districts/nyc-district-15-park-slope/">NYC District 15 (Brooklyn)</a></li>
+<li><a href="/districts/nyc-district-31-staten-island/">NYC District 31 (Staten Island)</a></li>
+<li><a href="/districts/nyc-district-30-astoria/">NYC District 30 (Queens)</a></li>
+<li><a href="/districts/buffalo-city-sd/">Buffalo City Schools</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Resources</h4>
+<ul class="footer-links">
+<li><a href="/about/">About Us</a></li>
+<li><a href="/contact/">Contact Support</a></li>
+<li><a href="/privacy-policy/">Privacy Policy</a></li>
+<li><a href="/sitemap.xml">Sitemap</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>
+            © 2026 New York Special Ed. Not legal advice. Not affiliated with the NYC DOE or NYSED.<br/>
+            For official inquiries, visit schools.nyc.gov or nysed.gov.
+            </p>
+</div>
+</footer>
+<!-- ============================================================
+  NY Special Ed — Premium Newsletter Popup
+  Drop this just before <!-- nyse:extras:start -->
+<a class="nyse-rail nyse-rail-l" href="https://newyorkspecialed.printify.me/" target="_blank" rel="noopener sponsored"><span class="nyse-r-ico">&#128085;</span><span class="nyse-r-tag">Advocacy You Can Wear</span><span class="nyse-btn">Visit the Store</span></a>
+<a class="nyse-rail nyse-rail-r" href="https://newyorkspecialed.printify.me/" target="_blank" rel="noopener sponsored"><span class="nyse-r-ico">&#128085;</span><span class="nyse-r-tag">Advocacy You Can Wear</span><span class="nyse-btn">Visit the Store</span></a>
+<div class="nyse-bar" id="nyse-bar"><span>&#128085; Advocacy You Can Wear</span><a class="nyse-btn" href="https://newyorkspecialed.printify.me/" target="_blank" rel="noopener sponsored">Visit the Store &rarr;</a><button class="nyse-bar-x" type="button" aria-label="Close">&times;</button></div>
+<!-- nyse:extras:end -->
+<!-- nyse:js:start -->
+<script>
+(function(){
+  /* ---- header: menu + Districts dropdown ---- */
+  var toggle=document.querySelector('.nyse-toggle'), nav=document.getElementById('nyse-nav');
+  if(toggle&&nav){toggle.addEventListener('click',function(){
+    var o=nav.classList.toggle('nyse-open');toggle.setAttribute('aria-expanded',o);});}
+  var sub=document.querySelector('.nyse-has-sub'), link=sub&&sub.querySelector('.nyse-sub-toggle');
+  function touchMode(){return window.matchMedia('(max-width:768px), (hover:none)').matches;}
+  if(link){
+    link.addEventListener('click',function(e){
+      if(touchMode()){e.preventDefault();var o=sub.classList.toggle('nyse-open');link.setAttribute('aria-expanded',o);}
+    });
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'){sub.classList.remove('nyse-open');link.setAttribute('aria-expanded','false');}});
+    document.addEventListener('click',function(e){if(!sub.contains(e.target)){sub.classList.remove('nyse-open');}});
+  }
 
+  /* ---- bottom bar: dismiss for this session ---- */
+  var bar=document.getElementById('nyse-bar');
+  if(bar){
+    var gone=false;try{gone=sessionStorage.getItem('nyseBar')==='1';}catch(e){}
+    if(gone){bar.style.display='none';}else{document.body.classList.add('nyse-bar-on');}
+    var x=bar.querySelector('.nyse-bar-x');
+    if(x)x.addEventListener('click',function(){bar.style.display='none';document.body.classList.remove('nyse-bar-on');try{sessionStorage.setItem('nyseBar','1');}catch(e){}});
+  }
+
+  /* ---- mobile: remove email-capture pop-up ---- */
+  var mq=window.matchMedia('(max-width:768px)');
+  var LABELS=['District Intelligence',"You're on the list"];
+  function unlock(){
+    [document.body,document.documentElement].forEach(function(el){
+      el.style.setProperty('overflow','auto','important');
+      el.className=(el.className||'').replace(/\b[\w-]*(modal|no-?scroll|lock)[\w-]*\b/gi,'').trim();
+    });
+  }
+  function kill(){
+    if(!mq.matches||!document.body)return;
+    var w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT),n,hit=false;
+    while((n=w.nextNode())){
+      if(!LABELS.some(function(t){return n.nodeValue.indexOf(t)>-1;}))continue;
+      var el=n.parentElement,target=null;
+      while(el&&el!==document.body){
+        var cs=getComputedStyle(el);
+        if(cs.position==='fixed'){target=el;}
+        else if(!target&&/modal|popup|pop-up|overlay|capture|subscribe/i.test((el.id||'')+' '+(el.className||''))){target=el;}
+        el=el.parentElement;
+      }
+      if(target){target.style.setProperty('display','none','important');hit=true;}
+    }
+    if(hit)unlock();
+  }
+  kill();
+  document.addEventListener('DOMContentLoaded',kill);
+  [500,1500,3000,6000,12000].forEach(function(t){setTimeout(kill,t);});
+  if(window.MutationObserver){
+    var mo=new MutationObserver(function(){kill();});
+    mo.observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['class','style']});
+    setTimeout(function(){mo.disconnect();},30000);
+  }
+})();
+</script>
+<!-- nyse:js:end -->
+</body> on every page.
+  Replaces the generic blue popup with the site's Ink & Gold aesthetic.
+
+  To configure per page, change data-site and data-language on the script tag.
+  ============================================================ -->
+<!-- Popup HTML -->
+<div id="ec-overlay" style="display:none;position:fixed;inset:0;background:rgba(10,15,30,.72);z-index:9998;align-items:center;justify-content:center;backdrop-filter:blur(3px);">
+<div id="ec-modal" style="max-width:420px;width:92%;position:relative;font-family:'DM Sans',sans-serif;border-radius:6px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.45);">
+<!-- Header -->
+<div id="ec-header" style="background:#002868;padding:28px 28px 22px;border-bottom:3px solid #d4af37;position:relative;">
+<button aria-label="Close" id="ec-close" style="position:absolute;top:14px;right:16px;background:none;border:none;color:rgba(255,255,255,.5);font-size:18px;cursor:pointer;line-height:1;padding:4px;">✕</button>
+<div style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#d4af37;margin-bottom:10px;">
+               District Intelligence
+            </div>
+<h2 id="ec-title" style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:500;color:#f5f0e8;line-height:1.15;margin:0;">
+</h2>
+</div>
+<!-- Body -->
+<div style="background:#fdfaf5;padding:26px 28px 24px;">
+<p id="ec-body" style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:#002868;line-height:1.45;margin:0 0 14px;"></p>
+<div style="width:40px;height:2px;background:#d4af37;margin-bottom:18px;"></div>
+<ul id="ec-checklist" style="list-style:none;margin:0 0 22px;padding:0;"></ul>
+<!-- Form -->
+<div id="ec-form-wrap">
+<input id="ec-email" placeholder="your@email.com" style="width:100%;box-sizing:border-box;padding:11px 14px;border:1.5px solid #d6cbbf;border-radius:4px;font-size:14px;font-family:'DM Sans',sans-serif;margin-bottom:10px;outline:none;background:#fff;color:#1a1410;" type="email"/>
+<button id="ec-submit" style="width:100%;padding:14px;background:#c8102e;color:#fff;border:none;border-radius:4px;font-weight:600;font-family:'DM Sans',sans-serif;font-size:15px;cursor:pointer;transition:background .2s;letter-spacing:.01em;">
+</button>
+</div>
+<!-- Success state -->
+<div id="ec-success" style="display:none;text-align:center;padding:12px 0 6px;">
+<div style="font-family:'Cormorant Garamond',serif;font-size:32px;color:#d4af37;margin-bottom:8px;">✦</div>
+<p style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#002868;margin:0 0 6px;">You're on the list.</p>
+<p style="font-size:13px;color:#6b5f53;margin:0;line-height:1.5;">District updates and parent rights resources will arrive in your inbox.</p>
+</div>
+<p style="margin:14px 0 0;font-size:11px;color:#b0a799;text-align:center;letter-spacing:.02em;">
+               No spam  ·  Unsubscribe any time
+            </p>
+</div>
+</div>
+</div>
+<script src="/scripts/newsletter-popup.js" defer></script>
 </body>
-
 </html>
